@@ -5,7 +5,7 @@
 
 from scrapy.item import Item, Field
 
-class EstadoItem(Item):
+class FileItem(Item):
     # define the fields for your item here like:
     # name = Field()
     expediente = Field()
