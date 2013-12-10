@@ -10,6 +10,8 @@ BOT_NAME = 'estado'
 
 SPIDER_MODULES = ['estado.spiders']
 NEWSPIDER_MODULE = 'estado.spiders'
+CONCURRENT_REQUESTS = 1
+DOWNLOAD_DELAY = 0.5
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'estado (+http://www.yourdomain.com)'
