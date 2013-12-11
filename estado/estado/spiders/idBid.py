@@ -6,10 +6,8 @@ from scrapy.selector import Selector
 from scrapy.http import Request, FormRequest, HtmlResponse
 from estado.items import FileItem, BidItem
 from selenium import webdriver
-import unicodedata
 from pyvirtualdisplay import Display
 
-#import pycurl
 import re
 
 class bidSpider(BaseSpider):
@@ -97,6 +95,7 @@ class bidSpider(BaseSpider):
 
         request = []
         bids = []
+        first_page_flag = True
 
         self.driver.get(response.url)
 
@@ -129,14 +128,23 @@ class bidSpider(BaseSpider):
                 curBid['contractor'] = contractors[pos].text
                 curBid['amount'] = amounts[pos].text
 
-                request.append(Request(ids[pos].get_attribute("href")), callback=self.parse_page)
+                print "Call: %s" % ids[pos].get_attribute("href")
+                request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_page))
 
                 bids.append(curBid)
 
             # Process next pages
-
-            nextInputButton = self.driver.find_elements_by_xpath('//input[@class="botonEnlace"]')[-1]
-            nextInputButton.click()
+            nextInputButton = self.driver.find_elements_by_xpath('//input[@class="botonEnlace"]')
+            if first_page_flag:
+                nextInputButton = nextInputButton[-1]
+                first_page_flag = False
+                nextInputButton.click()
+            else:
+                if len(nextInputButton) == 2:
+                    nextInputButton = nextInputButton[-1]
+                    nextInputButton.click()
+                else:
+                    pass
 
         request.append(bids)
 
