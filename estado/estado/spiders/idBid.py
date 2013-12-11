@@ -7,6 +7,7 @@ from scrapy.http import Request, FormRequest, HtmlResponse
 from estado.items import FileItem, BidItem
 from selenium import webdriver
 import unicodedata
+from pyvirtualdisplay import Display
 
 #import pycurl
 import re
@@ -51,6 +52,9 @@ class bidSpider(BaseSpider):
     def __init__(self):
         #pass
         #init phantomjs browser connection
+        self.display = Display()
+        self.display.start()
+
         self.driver = webdriver.Firefox()
 
     def __del__(self):
@@ -58,6 +62,7 @@ class bidSpider(BaseSpider):
         self.selenium.stop()
         print self.verificationErrors
         CrawlSpider.__del__(self)
+        self.display.stop()
 
 
     def add_hostname(self, path):
@@ -134,6 +139,8 @@ class bidSpider(BaseSpider):
             nextInputButton.click()
 
         request.append(bids)
+
+        self.driver.quit()
 
         return request
 
