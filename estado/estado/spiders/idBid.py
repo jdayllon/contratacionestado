@@ -6,7 +6,7 @@ from scrapy.selector import Selector
 from scrapy.http import Request, FormRequest, HtmlResponse
 from estado.items import FileItem, BidItem
 from selenium import webdriver
-from pyvirtualdisplay import Display
+#from pyvirtualdisplay import Display
 
 import re
 
@@ -52,8 +52,14 @@ class bidSpider(BaseSpider):
         #init phantomjs browser connection
         self.display = Display()
         self.display.start()
+        fp = webdriver.FirefoxProfile()
 
-        self.driver = webdriver.Firefox()
+        fp.set_preference("browser.download.folderList",2)
+        fp.set_preference("browser.download.manager.showWhenStarting",False)
+        fp.set_preference("browser.download.dir", os.getcwd())
+        fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream")
+        self.driver = webdriver.Firefox(firefox_profile=fp)
+        #self.driver = webdriver.PhantomJS('/Users/jdayllon/Downloads/phantomjs-1.9.2-macosx/bin/phantomjs')
 
     def __del__(self):
         #pass
