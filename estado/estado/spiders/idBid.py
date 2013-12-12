@@ -96,6 +96,7 @@ class bidSpider(BaseSpider):
         request = []
         bids = []
         first_page_flag = True
+        page_counter = 0
 
         self.driver.get(response.url)
 
@@ -108,7 +109,13 @@ class bidSpider(BaseSpider):
             lastupdates = self.driver.find_elements_by_xpath(self.SEL_LASTUPDATE)
             titles = self.driver.find_elements_by_xpath(self.SEL_TITLE)
             cats = self.driver.find_elements_by_xpath(self.SEL_CATEGORY)
-            presentations = self.driver.find_elements_by_xpath(self.SEL_PRESENTATION)
+
+            try:
+                presentations = self.driver.find_elements_by_xpath(self.SEL_PRESENTATION)
+            except:
+                presentations = None
+
+
             contractors = self.driver.find_elements_by_xpath(self.SEL_CONTRACTOR)
             amounts = self.driver.find_elements_by_xpath(self.SEL_AMOUNT)
 
@@ -121,7 +128,8 @@ class bidSpider(BaseSpider):
                 curBid['cat'] = cats[pos].text
 
                 try:
-                    curBid['presentation_date'] = presentations[pos].extract()
+                    if presentations != None:
+                        curBid['presentation_date'] = presentations[pos].extract()
                 except:
                     curBid['presentation_date'] = ''
 
@@ -135,14 +143,18 @@ class bidSpider(BaseSpider):
 
             # Process next pages
             nextInputButton = self.driver.find_elements_by_xpath('//input[@class="botonEnlace"]')
+            print "Page Counter: %s" % page_counter
+
             if first_page_flag:
                 nextInputButton = nextInputButton[-1]
                 first_page_flag = False
                 nextInputButton.click()
+                page_counter += 1
             else:
                 if len(nextInputButton) == 2:
                     nextInputButton = nextInputButton[-1]
                     nextInputButton.click()
+                    page_counter += 1
                 else:
                     pass
 
