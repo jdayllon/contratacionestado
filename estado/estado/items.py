@@ -20,6 +20,7 @@ class FileItem(Item):
     cpv = Field()
     clasificacion = Field()
     adjudicacion = Field()
+    ficheros = Field()
 
 class BidItem(Item):
     """

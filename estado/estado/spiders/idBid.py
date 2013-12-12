@@ -7,7 +7,7 @@ from scrapy.http import Request, FormRequest, HtmlResponse
 from estado.items import FileItem, BidItem
 from selenium import webdriver
 from pyvirtualdisplay import Display
-
+from scrapy import log
 import re
 
 class bidSpider(BaseSpider):
@@ -48,26 +48,20 @@ class bidSpider(BaseSpider):
     base_url_2 = ''
 
     def __init__(self):
-        #pass
-        #init phantomjs browser connection
+        log.msg("Inicializando Virtual Display", level=log.INFO)
         self.display = Display()
         self.display.start()
-        fp = webdriver.FirefoxProfile()
 
-        fp.set_preference("browser.download.folderList",2)
-        fp.set_preference("browser.download.manager.showWhenStarting",False)
-        fp.set_preference("browser.download.dir", os.getcwd())
-        fp.set_preference("browser.helperApps.neverAsk.saveToDisk", "application/octet-stream")
-        self.driver = webdriver.Firefox(firefox_profile=fp)
-        #self.driver = webdriver.PhantomJS('/Users/jdayllon/Downloads/phantomjs-1.9.2-macosx/bin/phantomjs')
+        log.msg("Inicializando Navegador", level=log.INFO)
+        self.driver = webdriver.Firefox()
 
     def __del__(self):
-        #pass
-        self.selenium.stop()
         print self.verificationErrors
         CrawlSpider.__del__(self)
+        log.msg("Finalizando Display", level=log.INFO)
         self.display.stop()
-
+        log.msg("Finalizando Selenium", level=log.INFO)
+        self.selenium.stop()
 
     def add_hostname(self, path):
         #print "ADD HOSTNAME: hostname %s" % path
@@ -108,7 +102,7 @@ class bidSpider(BaseSpider):
 
         while True:
 
-            #print "Page_Request %s " % response.url
+            log.msg("Page_Request %s " % response.url, level=log.INFO)
 
             ids = self.driver.find_elements_by_xpath(self.SEL_LINK) # sel.xpath(self.FILE_LINK)
             public_ids = self.driver.find_elements_by_xpath(self.SEL_PUBLIC)
@@ -143,13 +137,13 @@ class bidSpider(BaseSpider):
                 curBid['amount'] = amounts[pos].text
 
                 print "Call: %s" % ids[pos].get_attribute("href")
-                request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_page))
+                request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_bid))
 
                 bids.append(curBid)
 
             # Process next pages
             nextInputButton = self.driver.find_elements_by_xpath('//input[@class="botonEnlace"]')
-            print "Page Counter: %s" % page_counter
+            log.msg("Page Counter: %s" % page_counter, level=log.INFO)
 
             if first_page_flag:
                 nextInputButton = nextInputButton[-1]
@@ -166,6 +160,7 @@ class bidSpider(BaseSpider):
 
         request.append(bids)
 
+        log.msg("Finalizando Browser", level=log.INFO)
         self.driver.quit()
 
         return request
