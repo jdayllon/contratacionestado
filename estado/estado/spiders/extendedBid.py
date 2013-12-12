@@ -38,7 +38,7 @@ class extendedBidSpider(bidSpider):
         file_basic_data = sel.xpath(self.FILE_FIELDS)
 
         #Se extraen los datos basicos del expediente
-        log.msg("Bid: %s" %s file_basic_data[0].extract(), level=log.DEBUG)
+        log.msg("Bid: %s" % file_basic_data[0].extract(), level=log.DEBUG)
         current_file['expediente'] = file_basic_data[0].extract()
         current_file['tipo'] = file_basic_data[1].extract()
         current_file['subtipo'] = file_basic_data[2].extract()
