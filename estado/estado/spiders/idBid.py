@@ -58,6 +58,8 @@ class bidSpider(BaseSpider):
     def __del__(self):
         print self.verificationErrors
         CrawlSpider.__del__(self)
+        log.msg("Finalizando Browser", level=log.INFO)
+        self.driver.quit()
         log.msg("Finalizando Display", level=log.INFO)
         self.display.stop()
         log.msg("Finalizando Selenium", level=log.INFO)
@@ -159,9 +161,6 @@ class bidSpider(BaseSpider):
                     pass
 
         request.append(bids)
-
-        log.msg("Finalizando Browser", level=log.INFO)
-        self.driver.quit()
 
         return request
 
