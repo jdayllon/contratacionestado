@@ -6,7 +6,7 @@ from scrapy.selector import Selector
 from scrapy.http import Request, FormRequest, HtmlResponse
 from estado.items import FileItem, BidItem
 from selenium import webdriver
-#from pyvirtualdisplay import Display
+from pyvirtualdisplay import Display
 
 import re
 
