@@ -122,26 +122,58 @@ class bidSpider(BaseSpider):
             amounts = self.driver.find_elements_by_xpath(self.SEL_AMOUNT)
 
             for pos in range(len(ids)):
-                curBid = BidItem()
-                curBid['id'] = ids[pos].get_attribute("href")
-                curBid['publicId'] = public_ids[pos].text
-                curBid['lastupdate'] = lastupdates[pos].text
-                curBid['title'] = titles[pos].text
-                curBid['cat'] = cats[pos].text
-
                 try:
-                    if presentations != None:
+                    curBid = BidItem()
+
+                    if ids[pos].get_attribute("href") is not None:
+                        curBid['id'] = ids[pos].get_attribute("href")
+                    else:
+                        continue
+
+                    if public_ids[pos].text is not None:
+                        curBid['publicId'] = public_ids[pos].text
+                    else:
+                        curBid['publicId'] = ''
+
+                    if lastupdates[pos].text is not  None:
+                        curBid['lastupdate'] = lastupdates[pos].text
+                    else:
+                        curBid['lastupdate'] = ''
+
+                    if titles[pos].text is not None:
+                        curBid['title'] = titles[pos].text
+                    else:
+                        curBid['title'] = ''
+
+                    if cats[pos].text is not None:
+                        curBid['cat'] = cats[pos].text
+                    else:
+                        curBid['cat'] = ''
+
+                    if presentations != None and presentations[pos].extract() != None:
                         curBid['presentation_date'] = presentations[pos].extract()
+                    else:
+                        curBid['presentation_date'] = ''
+
+                    if contractors[pos].text is not  None:
+                        curBid['contractor'] = contractors[pos].text
+                    else:
+                        curBid['contractor'] = ''
+
+                    if amounts[pos].text is not None:
+                        curBid['amount'] = amounts[pos].text
+                    else:
+                        curBid['amount'] = ''
+
+                    log.msg("Call: %s" % ids[pos].get_attribute("href"), level=log.INFO)
+                    request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_bid))
+
+                    bids.append(curBid)
+
                 except:
-                    curBid['presentation_date'] = ''
+                    log.msg("On Bid Extract of Page List Parser")
+                    log.err()
 
-                curBid['contractor'] = contractors[pos].text
-                curBid['amount'] = amounts[pos].text
-
-                print "Call: %s" % ids[pos].get_attribute("href")
-                request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_bid))
-
-                bids.append(curBid)
 
             # Process next pages
             nextInputButton = self.driver.find_elements_by_xpath('//input[@class="botonEnlace"]')
