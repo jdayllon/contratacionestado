@@ -10,6 +10,12 @@ from pyvirtualdisplay import Display
 from scrapy import log
 import shelve
 import re
+from scrapy import signals
+from scrapy.xlib.pydispatch import dispatcher
+
+# Agradecimientos
+# @dm03514 http://stackoverflow.com/a/12394371
+
 
 class bidSpider(BaseSpider):
     name = "bid"
@@ -57,16 +63,20 @@ class bidSpider(BaseSpider):
 
         self.bids = shelve.open("bid_list.gdbm")
 
+        dispatcher.connect(self.spider_closed, signals.spider_closed)
+
     def __del__(self):
         print self.verificationErrors
         CrawlSpider.__del__(self)
+
+    def spider_quit(self, spider):
         log.msg("Finalizando Browser", level=log.INFO)
         self.driver.quit()
         log.msg("Finalizando Display", level=log.INFO)
         self.display.stop()
         log.msg("Finalizando Selenium", level=log.INFO)
         self.selenium.stop()
-
+        log.msg("Cerrando fichero Shelve", level=log.INFO)
         self.bids.close()
 
     def add_hostname(self, path):
@@ -134,6 +144,7 @@ class bidSpider(BaseSpider):
                         curBid['id'] = bid_id
                         #Existe ya la referencia, pasamos a la siguiente
                         if self.bids.has_key(bid_id):
+                            log.msg("Bid Exists on Shelve: %s" % bid_id, level=log.INFO)
                             continue
                     else:
                         continue
