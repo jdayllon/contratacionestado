@@ -63,7 +63,7 @@ class bidSpider(BaseSpider):
 
         self.bids = shelve.open("bid_list.gdbm")
 
-        dispatcher.connect(self.spider_closed, signals.spider_closed)
+        dispatcher.connect(self.spider_quit, signals.spider_closed)
 
     def __del__(self):
         print self.verificationErrors
