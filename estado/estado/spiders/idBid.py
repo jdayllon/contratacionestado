@@ -8,6 +8,7 @@ from estado.items import FileItem, BidItem
 from selenium import webdriver
 from pyvirtualdisplay import Display
 from scrapy import log
+import shelve
 import re
 
 class bidSpider(BaseSpider):
@@ -51,9 +52,10 @@ class bidSpider(BaseSpider):
         log.msg("Inicializando Virtual Display", level=log.INFO)
         self.display = Display()
         self.display.start()
-
         log.msg("Inicializando Navegador", level=log.INFO)
         self.driver = webdriver.Firefox()
+
+        self.bids = shelve.open("bid_list.gdbm")
 
     def __del__(self):
         print self.verificationErrors
@@ -64,6 +66,8 @@ class bidSpider(BaseSpider):
         self.display.stop()
         log.msg("Finalizando Selenium", level=log.INFO)
         self.selenium.stop()
+
+        self.bids.close()
 
     def add_hostname(self, path):
         #print "ADD HOSTNAME: hostname %s" % path
@@ -126,7 +130,11 @@ class bidSpider(BaseSpider):
                     curBid = BidItem()
 
                     if ids[pos].get_attribute("href") is not None:
-                        curBid['id'] = ids[pos].get_attribute("href")
+                        bid_id = ids[pos].get_attribute("href")
+                        curBid['id'] = bid_id
+                        #Existe ya la referencia, pasamos a la siguiente
+                        if self.bids.has_key(bid_id):
+                            continue
                     else:
                         continue
 
@@ -169,6 +177,7 @@ class bidSpider(BaseSpider):
                     request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_bid))
 
                     bids.append(curBid)
+                    self.bids[bid_id] = curBid
 
                 except:
                     log.msg("On Bid Extract of Page List Parser")
