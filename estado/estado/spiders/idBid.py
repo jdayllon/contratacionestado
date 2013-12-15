@@ -41,14 +41,14 @@ class bidSpider(BaseSpider):
     FILE_CONTRACTOR = '//span[starts-with(.,"Contracting agency")]/../span[not(starts-with(.,"Contracting agency"))]/text()'
     FILE_AMOUNT = '//span[starts-with(.,"Amount")]/../span[not(starts-with(.,"Amount"))]/text()'
 
-    SEL_LINK = '//span[starts-with(.,"Expediente")]/..//a'
-    SEL_PUBLIC = '//span[starts-with(.,"Expediente")]/..//a'
-    SEL_LASTUPDATE = '//span[starts-with(.,"Expediente")]/..//a/../../../td[2]/span[2]'
-    SEL_TITLE = '//span[starts-with(.,"Título")]/../span[not(starts-with(.,"Título"))]'
-    SEL_CATEGORY = '//span[starts-with(.,"Categoría")]/../span[not(starts-with(.,"Categoría"))]'
-    SEL_PRESENTATION = '//span[starts-with(.,"F. Fin de presentación")]/../span[not(starts-with(.,"F. Fin de presentación"))]'
-    SEL_CONTRACTOR = '//span[starts-with(.,"Órgano de Contratación")]/../span[not(starts-with(.,"Órgano de Contratación"))]'
-    SEL_AMOUNT = '//span[starts-with(.,"Importe")]/../span[not(starts-with(.,"Importe"))]'
+    SEL_LINK = '//span[starts-with(.,"File")]/..//a'
+    SEL_PUBLIC = '//span[starts-with(.,"File")]/..//a'
+    SEL_LASTUPDATE = '//span[starts-with(.,"File")]/..//a/../../../td[2]/span[2]'
+    SEL_TITLE = '//span[starts-with(.,"Contract Title")]/../span[not(starts-with(.,"Contract Title"))]'
+    SEL_CATEGORY = '//span[starts-with(.,"Category")]/../span[not(starts-with(.,"Category"))]'
+    SEL_PRESENTATION = '//span[starts-with(.,"Presentation end date")]/../span[not(starts-with(.,"Presentation end date"))]'
+    SEL_CONTRACTOR = '//span[starts-with(.,"Contracting agency")]/../span[not(starts-with(.,"Contracting agency"))]'
+    SEL_AMOUNT = '//span[starts-with(.,"Amount")]/../span[not(starts-with(.,"Amount"))]'
 
 
 
