@@ -119,6 +119,8 @@ class bidSpider(BaseSpider):
 
         self.driver.get(response.url)
 
+        import ipdb; ipdb.set_trace()
+
         Bid.set_db(self.db)
 
         while True:
@@ -220,7 +222,7 @@ class bidSpider(BaseSpider):
                     nextInputButton.click()
                     page_counter += 1
                 else:
-                    pass
+                    break
 
         request.append(bids)
 
