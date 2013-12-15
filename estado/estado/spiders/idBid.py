@@ -199,7 +199,7 @@ class bidSpider(BaseSpider):
                     log.msg("Call: %s" % ids[pos].get_attribute("href"), level=log.INFO)
                     request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_bid))
 
-                    bids.append(curBid)
+                    bids.append(curBid.getItem())
                     curBid.save()
 
                 except:
