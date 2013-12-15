@@ -3,8 +3,42 @@
 #
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
+import couchdbkit
 
 from scrapy.item import Item, Field
+from couchdbkit import *
+
+import datetime
+
+
+class Bid(Document):
+
+    def __init__(self):
+        self.extractionDate = datetime.datetime.utcnow()
+
+    def getItem(self):
+
+        bidItem = BidItem()
+        bidItem['publicId'] = self.id
+        bidItem['lastupdate'] = self.lastupdate
+        bidItem['title'] = self.title
+        bidItem['cat'] = self.cat
+        bidItem['presentation_date'] = self.presentation_date
+        bidItem['contractor'] = self.contractor
+        bidItem['amount'] = self.amount
+
+        return bidItem
+
+    id = StringProperty()
+    publicId = StringProperty()
+    lastupdate = DateTimeProperty()
+    title = StringProperty()
+    cat = StringProperty()
+    presentation_date = DateTimeProperty()
+    contractor = StringProperty()
+    amount = FloatProperty()
+    extractionDate = DateTimeProperty()
+
 
 class FileItem(Item):
     # define the fields for your item here like:
@@ -41,3 +75,6 @@ class BidItem(Item):
     presentation_date = Field()
     contractor = Field()
     amount = Field()
+
+
+

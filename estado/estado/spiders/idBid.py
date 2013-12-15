@@ -4,14 +4,15 @@ __author__ = 'jdayllon'
 from scrapy.spider import BaseSpider
 from scrapy.selector import Selector
 from scrapy.http import Request, FormRequest, HtmlResponse
-from estado.items import FileItem, BidItem
+from estado.items import FileItem, BidItem, Bid
 from selenium import webdriver
 from pyvirtualdisplay import Display
 from scrapy import log
-import shelve
+from couchdbkit import Server
 import re
 from scrapy import signals
 from scrapy.xlib.pydispatch import dispatcher
+import datetime
 
 # Agradecimientos
 # @dm03514 http://stackoverflow.com/a/12394371
@@ -61,7 +62,10 @@ class bidSpider(BaseSpider):
         log.msg("Inicializando Navegador", level=log.INFO)
         self.driver = webdriver.Firefox()
 
-        self.bids = shelve.open("bid_list.gdbm")
+        # declare conection tu couchdb
+        self.couchdb = Server()
+        self.db = self.couchdb.get_or_create_db('bid')
+        Bid.set_db(self.db)
 
         dispatcher.connect(self.spider_quit, signals.spider_closed)
 
@@ -137,58 +141,62 @@ class bidSpider(BaseSpider):
 
             for pos in range(len(ids)):
                 try:
-                    curBid = BidItem()
+                    curBid = Bid()
 
                     if ids[pos].get_attribute("href") is not None:
                         bid_id = ids[pos].get_attribute("href")
-                        curBid['id'] = bid_id
+                        curBid.id = bid_id
                         #Existe ya la referencia, pasamos a la siguiente
-                        if self.bids.has_key(bid_id):
-                            log.msg("Bid Exists on Shelve: %s" % bid_id, level=log.INFO)
+                        try:
+                            if self.bids.has_key(bid_id):
+                                log.msg("Bid Exists on Shelve: %s" % bid_id, level=log.INFO)
+                                continue
+                        except:
+                            log.msg("Bid ID Problem: %s" % bid_id, level=log.ERROR)
                             continue
                     else:
                         continue
 
                     if public_ids[pos].text is not None:
-                        curBid['publicId'] = public_ids[pos].text
+                        curBid.publicId = public_ids[pos].text
                     else:
-                        curBid['publicId'] = ''
+                        curBid.publicId = ''
 
                     if lastupdates[pos].text is not  None:
-                        curBid['lastupdate'] = lastupdates[pos].text
+                        curBid.lastupdate = lastupdates[pos].text
                     else:
-                        curBid['lastupdate'] = ''
+                        curBid.lastupdate = ''
 
                     if titles[pos].text is not None:
-                        curBid['title'] = titles[pos].text
+                        curBid.title = titles[pos].text
                     else:
-                        curBid['title'] = ''
+                        curBid.title = ''
 
                     if cats[pos].text is not None:
-                        curBid['cat'] = cats[pos].text
+                        curBid.cat = cats[pos].text
                     else:
-                        curBid['cat'] = ''
+                        curBid.cat = ''
 
                     if presentations != None and presentations[pos].extract() != None:
-                        curBid['presentation_date'] = presentations[pos].extract()
+                        curBid.presentation_date = presentations[pos].extract()
                     else:
-                        curBid['presentation_date'] = ''
+                        curBid.presentation_date = ''
 
                     if contractors[pos].text is not  None:
-                        curBid['contractor'] = contractors[pos].text
+                        curBid.contractor = contractors[pos].text
                     else:
-                        curBid['contractor'] = ''
+                        curBid.contractor = ''
 
                     if amounts[pos].text is not None:
-                        curBid['amount'] = amounts[pos].text
+                        curBid.amount = amounts[pos].text
                     else:
-                        curBid['amount'] = ''
+                        curBid.amount = ''
 
                     log.msg("Call: %s" % ids[pos].get_attribute("href"), level=log.INFO)
                     request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_bid))
 
                     bids.append(curBid)
-                    self.bids[bid_id] = curBid
+                    curBid.save()
 
                 except:
                     log.msg("On Bid Extract of Page List Parser")
