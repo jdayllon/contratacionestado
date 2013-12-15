@@ -119,7 +119,7 @@ class bidSpider(BaseSpider):
 
         self.driver.get(response.url)
 
-        import ipdb; ipdb.set_trace()
+        #import ipdb; ipdb.set_trace()
 
         Bid.set_db(self.db)
 
