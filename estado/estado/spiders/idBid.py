@@ -65,7 +65,6 @@ class bidSpider(BaseSpider):
         # declare conection tu couchdb
         self.couchdb = Server()
         self.db = self.couchdb.get_or_create_db('bid')
-        Bid.set_db(self.db)
 
         dispatcher.connect(self.spider_quit, signals.spider_closed)
 
@@ -120,6 +119,8 @@ class bidSpider(BaseSpider):
 
         self.driver.get(response.url)
 
+        Bid.set_db(self.db)
+
         while True:
 
             log.msg("Page_Request %s " % response.url, level=log.INFO)
@@ -141,6 +142,7 @@ class bidSpider(BaseSpider):
 
             for pos in range(len(ids)):
                 try:
+
                     curBid = Bid()
 
                     if ids[pos].get_attribute("href") is not None:
