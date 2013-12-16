@@ -13,6 +13,7 @@ import re
 from scrapy import signals
 from scrapy.xlib.pydispatch import dispatcher
 from datetime import datetime, date, time
+from babel import numbers
 
 # Agradecimientos
 # @dm03514 http://stackoverflow.com/a/12394371
@@ -196,7 +197,7 @@ class bidSpider(BaseSpider):
                         curBid.contractor = ''
 
                     if amounts[pos].text is not None:
-                        curBid.amount = amounts[pos].text
+                        curBid.amount = numbers.parse_decimal(amounts[pos].text, locale='es')
                     else:
                         curBid.amount = ''
 
