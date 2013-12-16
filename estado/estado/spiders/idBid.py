@@ -197,7 +197,7 @@ class bidSpider(BaseSpider):
                         curBid.contractor = ''
 
                     if amounts[pos].text is not None:
-                        curBid.amount = float(numbers.parse_decimal(amounts[pos].text, locale='es'))
+                        curBid.amount = float(numbers.parse_decimal(amounts[pos].text, locale='en_US'))
                     else:
                         curBid.amount = float(0)
 
