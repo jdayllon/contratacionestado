@@ -13,9 +13,6 @@ import datetime
 
 class Bid(Document):
 
-    def __init__(self):
-        self.extractionDate = datetime.datetime.utcnow()
-
     def getItem(self):
 
         bidItem = BidItem()
@@ -37,7 +34,6 @@ class Bid(Document):
     presentation_date = DateTimeProperty()
     contractor = StringProperty()
     amount = FloatProperty()
-    extractionDate = DateTimeProperty()
 
 
 class FileItem(Item):

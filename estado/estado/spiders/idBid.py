@@ -147,17 +147,18 @@ class bidSpider(BaseSpider):
 
                     curBid = Bid()
 
+
                     if ids[pos].get_attribute("href") is not None:
                         bid_id = ids[pos].get_attribute("href")
                         curBid.id = bid_id
                         #Existe ya la referencia, pasamos a la siguiente
-                        try:
-                            if self.bids.has_key(bid_id):
-                                log.msg("Bid Exists on Shelve: %s" % bid_id, level=log.INFO)
-                                continue
-                        except:
-                            log.msg("Bid ID Problem: %s" % bid_id, level=log.ERROR)
-                            continue
+                        #try:
+                        #    if self.bids.has_key(bid_id):
+                        #        log.msg("Bid Exists on Shelve: %s" % bid_id, level=log.INFO)
+                        #        continue
+                        #except:
+                        #    log.msg("Bid ID Problem: %s" % bid_id, level=log.ERROR)
+                        #    continue
                     else:
                         continue
 
