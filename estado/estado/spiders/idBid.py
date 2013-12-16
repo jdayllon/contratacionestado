@@ -168,7 +168,7 @@ class bidSpider(BaseSpider):
                         curBid.publicId = ''
 
                     if lastupdates[pos].text is not  None:
-                        curBid.lastupdate = lastupdates[pos].text
+                        curBid.lastupdate = datetime.strptime(lastupdates[pos].text, '%d-%-%Y %I:%M')
                     else:
                         curBid.lastupdate = ''
 
