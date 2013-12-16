@@ -197,9 +197,9 @@ class bidSpider(BaseSpider):
                         curBid.contractor = ''
 
                     if amounts[pos].text is not None:
-                        curBid.amount = numbers.parse_decimal(amounts[pos].text, locale='es')
+                        curBid.amount = float(numbers.parse_decimal(amounts[pos].text, locale='es'))
                     else:
-                        curBid.amount = ''
+                        curBid.amount = float(0)
 
                     log.msg("Call: %s" % ids[pos].get_attribute("href"), level=log.INFO)
                     request.append(Request(ids[pos].get_attribute("href"), callback=self.parse_bid))
