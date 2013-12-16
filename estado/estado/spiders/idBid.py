@@ -12,7 +12,7 @@ from couchdbkit import Server
 import re
 from scrapy import signals
 from scrapy.xlib.pydispatch import dispatcher
-import datetime
+from datetime import datetime, date, time
 
 # Agradecimientos
 # @dm03514 http://stackoverflow.com/a/12394371
@@ -168,7 +168,7 @@ class bidSpider(BaseSpider):
                         curBid.publicId = ''
 
                     if lastupdates[pos].text is not  None:
-                        curBid.lastupdate = datetime.strptime(lastupdates[pos].text, '%d-%-%Y %I:%M')
+                        curBid.lastupdate = datetime.strptime(lastupdates[pos].text, '%d-%m-%Y %H:%M')
                     else:
                         curBid.lastupdate = ''
 
