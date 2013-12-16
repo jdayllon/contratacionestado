@@ -182,8 +182,8 @@ class bidSpider(BaseSpider):
                     else:
                         curBid.cat = ''
 
-                    if presentations != None and presentations[pos].extract() != None:
-                        curBid.presentation_date = presentations[pos].extract()
+                    if presentations != None and presentations[pos].text is not None:
+                        curBid.presentation_date = datetime.strptime(presentations[pos].text, '%d-%m-%Y %H:%M')
                     else:
                         curBid.presentation_date = ''
 
