@@ -105,11 +105,12 @@ class bidSpider(BaseSpider):
         sel = Selector(response)
         file_list_entries = sel.xpath(self.SEEMORE_LINK)
 
+        log.msg("Number Items: %s" % len(file_list_entries), level=log.INFO)
+
         for file_list_entry in file_list_entries:
             request.append(Request(self.add_hostname(file_list_entry.extract()), callback=self.parse_page_list))
 
         return request
-
 
     def parse_page_list(self, response):
 

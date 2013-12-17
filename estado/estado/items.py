@@ -35,6 +35,21 @@ class Bid(Document):
     contractor = StringProperty()
     amount = FloatProperty()
 
+class FileBid(Document):
+
+    expediente = StringProperty()
+    tipo = StringProperty()
+    subtipo = StringProperty()
+    titulo = StringProperty()
+    importe = FloatProperty()
+    lugar = StringProperty()
+    contratante = StringProperty()
+    procedimiento = StringProperty()
+    cpv = StringProperty()
+    clasificacion = StringProperty()
+    adjudicacion = StringProperty()
+    ficheros = DictProperty()
+
 
 class FileItem(Item):
     # define the fields for your item here like:
