@@ -64,8 +64,13 @@
             "Description": "Cubells dom\u00e9sticos y asimilados",
             "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "34928480",
-            "ReceivedTenderQuantity": "4",
-            "TenderResult": "Denominaci\u00f3n ID-Waste SL Nacionalidad Espanya Importe 338.647,26 \u20ac con IVA Importe sin IVA 279.873,77 \u20ac",
+            "TenderResult": {
+                "WinningParty": "ID-Waste SL",
+                "OriginCountryCode": "Espa\u00f1a",
+                "WinningTenderAmount": "338647,26",
+                "WinningTenderAmountWOTaxes": "279873,77",
+                "ReceivedTenderQuantity": "4"
+            },
             "denominacion": "ID-Waste SL",
             "nacionalidad": "Espanya",
             "importe": "338.647,26 \u20ac con IVA",
@@ -81,8 +86,13 @@
             "Description": "Contenedores",
             "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "34928480",
-            "ReceivedTenderQuantity": "3",
-            "TenderResult": "Denominaci\u00f3n Alquienv\u00e0s, S.L Nacionalidad Espanya Importe 126.370,69 \u20ac con IVA Importe sin IVA 104.438,59 \u20ac",
+            "TenderResult": {
+                "WinningParty": "Alquienv\u00e0s, S.L",
+                "OriginCountryCode": "Espa\u00f1a",
+                "WinningTenderAmount": "126370,69",
+                "WinningTenderAmountWOTaxes": "104438,59",
+                "ReceivedTenderQuantity": "3"
+            },
             "denominacion": "Alquienv\u00e0s, S.L",
             "nacionalidad": "Espanya",
             "importe": "126.370,69 \u20ac con IVA",
@@ -98,8 +108,13 @@
             "Description": "Bolsas compostables de 10 litros",
             "fecha_adjudicacion_contrato": "15/08/18",
             "RequiredCommodityClassification": "19640000",
-            "ReceivedTenderQuantity": "3",
-            "TenderResult": "Denominaci\u00f3n ID-Waste,SL Nacionalidad Espanya Importe 200.146,85 \u20ac con IVA Importe sin IVA 165.410,62 \u20ac",
+            "TenderResult": {
+                "WinningParty": "ID-Waste,SL",
+                "OriginCountryCode": "Espa\u00f1a",
+                "WinningTenderAmount": "200146,85",
+                "WinningTenderAmountWOTaxes": "165410,62",
+                "ReceivedTenderQuantity": "3"
+            },
             "denominacion": "ID-Waste,SL",
             "nacionalidad": "Espanya",
             "importe": "200.146,85 \u20ac con IVA",
@@ -115,8 +130,13 @@
             "Description": "Fundas compostables",
             "fecha_adjudicacion_contrato": "15/08/18",
             "RequiredCommodityClassification": "19640000",
-            "ReceivedTenderQuantity": "2",
-            "TenderResult": "Denominaci\u00f3n ID-Waste SL Nacionalidad Espanya Importe 48.638,04 \u20ac con IVA Importe sin IVA 40.196,73 \u20ac",
+            "TenderResult": {
+                "WinningParty": "ID-Waste SL",
+                "OriginCountryCode": "Espa\u00f1a",
+                "WinningTenderAmount": "48638,04",
+                "WinningTenderAmountWOTaxes": "40196,73",
+                "ReceivedTenderQuantity": "2"
+            },
             "denominacion": "ID-Waste SL",
             "nacionalidad": "Espanya",
             "importe": "48.638,04 \u20ac con IVA",
@@ -132,8 +152,13 @@
             "Description": "Bolsa RESTA Gris semitransparent estandaritzaa de 30L con TAG",
             "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "19640000",
-            "ReceivedTenderQuantity": "4",
-            "TenderResult": "Denominaci\u00f3n ID-WASTE,SL Nacionalidad Espanya Importe 215.505,50 \u20ac con IVA Importe sin IVA 178.103,72 \u20ac",
+            "TenderResult": {
+                "WinningParty": "ID-WASTE,SL",
+                "OriginCountryCode": "Espa\u00f1a",
+                "WinningTenderAmount": "215505,50",
+                "WinningTenderAmountWOTaxes": "178103,72",
+                "ReceivedTenderQuantity": "4"
+            },
             "denominacion": "ID-WASTE,SL",
             "nacionalidad": "Espanya",
             "importe": "215.505,50 \u20ac con IVA",
@@ -149,8 +174,13 @@
             "Description": "Bolsa Envases Amarilla semitransparent estandaritzada de 60L sin TAG",
             "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "19640000",
-            "ReceivedTenderQuantity": "3",
-            "TenderResult": "Denominaci\u00f3n Alquienv\u00e0s, S.L. Nacionalidad Espanya Importe 71.279,10 \u20ac con IVA Importe sin IVA 58.908,35 \u20ac",
+            "TenderResult": {
+                "WinningParty": "Alquienv\u00e0s, S.L.",
+                "OriginCountryCode": "Espa\u00f1a",
+                "WinningTenderAmount": "71279,10",
+                "WinningTenderAmountWOTaxes": "58908,35",
+                "ReceivedTenderQuantity": "3"
+            },
             "denominacion": "Alquienv\u00e0s, S.L.",
             "nacionalidad": "Espanya",
             "importe": "71.279,10 \u20ac con IVA",
@@ -181,6 +211,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35170650&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T20:44:38.216628+02:00"
+        "InformationDate": "2018-08-15T21:37:21.385612+02:00"
     }
 }
