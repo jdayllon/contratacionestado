@@ -1,0 +1,30 @@
+{
+    "ID": "35115010-99999999",
+    "UUID": "e5cf138c-2664-52b0-99a9-cb78a137b992",
+    "IssueDate": "2018-08-10",
+    "IssueTime": "12:58:07.449+0000",
+    "Description": "Primera fase de las obras de mejora de la accesibilidad al Pol\u00edgono \"Los Pinares\".",
+    "PlannedPeriod": "2 meses",
+    "ApplicableTerritoryAddress": "Hostalric",
+    "EstimatedOverallContractAmount": null,
+    "AuctionConstraintIndicator": false,
+    "RequiredCommodityClassification": "45262000",
+    "EstimatedOverallContractAmountWOTaxes": "50828,73",
+    "BudgetAmount": null,
+    "BudgetAmountWOTaxes": null,
+    "CurrencyCode": "EUR",
+    "DocumentReference": [],
+    "NoticeDocumentReference": [],
+    "AwardingTerms": null,
+    "OpenTenderEvent": [],
+    "ProcurementProjectLot": [],
+    "Events": [],
+    "TenderResult": {},
+    "AdditionalInfo": {},
+    "IntellectualProperty": {
+        "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
+        "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/notice.pscp?idDoc=35115010&advancedSearch=false&reqCode=viewPin&&mode=full",
+        "License": "CC0 Creative Commons",
+        "InformationDate": "2018-08-15T13:00:14.925649+02:00"
+    }
+}
