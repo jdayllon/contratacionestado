@@ -15,7 +15,8 @@
         "OriginCountryCode": "Espanya",
         "WinningTenderAmount": "92745,05",
         "WinningTenderAmountWOTaxes": "76648,80",
-        "ReceivedTenderQuantity": "2"
+        "ReceivedTenderQuantity": "2",
+        "ResultCode": "Adjudicado"
     },
     "BudgetAmountWOTaxes": "76650,00",
     "EstimatedOverallContractAmountWOTaxes": "76650,00",
@@ -63,6 +64,7 @@
         }
     ],
     "AdditionalInfo": {
+        "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
         "se_compra_innovacion": "No",
@@ -75,6 +77,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35157481&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T20:44:45.537196+02:00"
+        "InformationDate": "2018-08-15T21:37:29.329426+02:00"
     }
 }
