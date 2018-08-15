@@ -134,6 +134,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35167064&advancedSearch=false&lawType=2&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:36:24.313160+02:00"
+        "InformationDate": "2018-08-15T21:38:33.454939+02:00"
     }
 }
