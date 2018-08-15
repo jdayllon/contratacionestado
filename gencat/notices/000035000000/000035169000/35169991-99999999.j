@@ -18,8 +18,7 @@
         "OriginCountryCode": "Comunitari",
         "WinningTenderAmount": "39800,00",
         "WinningTenderAmountWOTaxes": "39800,00",
-        "ReceivedTenderQuantity": "1",
-        "ResultCode": "Adjudicado"
+        "ReceivedTenderQuantity": "1"
     },
     "BudgetAmountWOTaxes": "39800,00",
     "EstimatedOverallContractAmountWOTaxes": "47760,00",
@@ -82,7 +81,6 @@
         }
     ],
     "AdditionalInfo": {
-        "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "S\u00ed",
         "se_compra_innovacion": "No",
@@ -94,6 +92,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35169991&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T13:07:39.354191+02:00"
+        "InformationDate": "2018-08-15T20:45:04.226137+02:00"
     }
 }
