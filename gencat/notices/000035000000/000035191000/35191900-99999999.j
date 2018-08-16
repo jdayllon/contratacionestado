@@ -9,6 +9,9 @@
     "ApplicableTerritoryAddress": "Catalunya",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "14/08/18",
+    "AwardNotes": "S'adjudica el servei a l'empresa TRANSPORTES POR CABLE, SAU per ser l'\u00fanica empresa que presenta oferta i acompleix amb els requeriments econ\u00f2mics i t\u00e8cnics sol\u00b7licitats per FGC",
     "RequiredCommodityClassification": "45234240",
     "TenderResult": {
         "WinningParty": "TRANSPORTES POR CABLE, SAU",
@@ -44,15 +47,12 @@
         "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "14/08/18",
-        "motivo_adjudicacion": "S'adjudica el servei a l'empresa TRANSPORTES POR CABLE, SAU per ser l'\u00fanica empresa que presenta oferta i acompleix amb els requeriments econ\u00f2mics i t\u00e8cnics sol\u00b7licitats per FGC"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35191900&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:21.155362+02:00"
+        "InformationDate": "2018-08-16T23:47:34.298388+02:00"
     }
 }
