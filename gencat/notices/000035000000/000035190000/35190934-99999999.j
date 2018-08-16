@@ -11,6 +11,8 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "S\u00ed. Ejercicios 2020 y 2021",
+    "PurchaseInnovation": false,
+    "AwardDate": "01/08/18",
     "RequiredCommodityClassification": "50400000",
     "TenderResult": {
         "WinningParty": "EMSOR, SA",
@@ -65,14 +67,12 @@
         "descripcion_la_enmienda": "El termini indicat per a la formalitzaci\u00f3 del contracte era erroni, es fa la correcci\u00f3.",
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "S\u00ed",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "01/08/18"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35190934&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:44.844686+02:00"
+        "InformationDate": "2018-08-16T23:48:02.692486+02:00"
     }
 }
