@@ -12,6 +12,10 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "El contrato ser\u00e1 prorrogable de forma expresa, por un periodo de 6 meses, sin que la duraci\u00f3n de su vigencia, incluidas las pr\u00f3rrogas, pueda exceder de 30 meses. La pr\u00f3rroga ser\u00e1 obligatoria para el contratista cuando esta se le haya comunicado con una antelaci\u00f3n m\u00ednima de 2 meses a la finalizaci\u00f3n de la duraci\u00f3n del contrato.",
+    "PurchaseInnovation": false,
+    "AwardDate": "13/08/18",
+    "AwardNotes": "Oferta adequada relaci\u00f3 qualitat/preu.",
+    "TendererParties": "FUNDACI\u00d3 PERE TARR\u00c9S",
     "RequiredCommodityClassification": "75124000",
     "TenderResult": {
         "WinningParty": "FUNDACI\u00d3 PERE TARR\u00c9S",
@@ -85,16 +89,12 @@
         "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "13/08/18",
-        "motivo_adjudicacion": "Oferta adequada relaci\u00f3 qualitat/preu.",
-        "identidad_empresesas_licitadoras": "FUNDACI\u00d3 PERE TARR\u00c9S"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35192220&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:13.604641+02:00"
+        "InformationDate": "2018-08-16T23:47:27.146357+02:00"
     }
 }
