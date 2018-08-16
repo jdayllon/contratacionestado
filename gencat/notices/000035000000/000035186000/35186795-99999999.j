@@ -11,6 +11,10 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "El contrato se podr\u00e1 prorrogar hasta el 30 de junio de 2022",
+    "PurchaseInnovation": false,
+    "AwardDate": "10/08/18",
+    "AwardNotes": "D'acord amb la proposta d'adjudicaci\u00f3 del President de la Mesa de Contractacio de data 6 d'agost de 2018",
+    "TendererParties": "Equip de suport psicopedagogic i d'atencio a la inf\u00e0ncia SCPROFESSIONAL",
     "RequiredCommodityClassification": "85121270",
     "TenderResult": {
         "WinningParty": "Equip de suport psicopedagogic i d'atencio a la inf\u00e0ncia SCPROFESSIONAL",
@@ -63,16 +67,12 @@
         "mas_datos_adjudicacion": {},
         "apertura_plicas(a_determinar)": "Ajuntament de Lleida",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "10/08/18",
-        "motivo_adjudicacion": "D'acord amb la proposta d'adjudicaci\u00f3 del President de la Mesa de Contractacio de data 6 d'agost de 2018",
-        "identidad_empresesas_licitadoras": "Equip de suport psicopedagogic i d'atencio a la inf\u00e0ncia SCPROFESSIONAL"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35186795&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:36.929789+02:00"
+        "InformationDate": "2018-08-16T23:47:55.445340+02:00"
     }
 }
