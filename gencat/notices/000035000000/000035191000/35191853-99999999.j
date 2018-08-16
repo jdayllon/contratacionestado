@@ -11,6 +11,8 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "S\u00ed. Ejercicio 2020.",
+    "PurchaseInnovation": false,
+    "AwardDate": "14/08/18",
     "RequiredCommodityClassification": "33140000",
     "TenderResult": {
         "WinningParty": "TRAMEDIC, SA",
@@ -57,14 +59,12 @@
         "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "S\u00ed",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "14/08/18"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35191853&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:28.857900+02:00"
+        "InformationDate": "2018-08-16T23:47:44.512276+02:00"
     }
 }
