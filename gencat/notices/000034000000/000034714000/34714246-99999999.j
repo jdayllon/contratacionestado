@@ -48,36 +48,36 @@
     "OpenTenderEvent": [],
     "ProcurementProjectLot": [
         {
-            "lot_desert": "1",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "1",
+            "PurchaseInnovation": "No",
             "Description": "Guantes de nitrilo sin polvo",
-            "fecha_adjudicacion_contrato": "03/08/18",
-            "motivo_adjudicacion": "L'empresa BARNA IMPORT MEDICA (LOT 1) ha obtingut la millor puntuaci\u00f3, i per tant , es procedeix a adjudicar a l'empresa que ha presentat l'oferta m\u00e9s avantatjosa.",
             "RequiredCommodityClassification": "18424300",
-            "identidad_empresesas_licitadoras": "SG Servicios Hospitalarios DD BIOLAB No compleixen m\u00ednims exigits en plec t\u00e8cnic VWR INTERNATIONAL EUROLAB, S.L No compleixen m\u00ednims exigits en plec t\u00e8cnic BARNA IMPORT MEDICA S.A IZASA HOSPITAL No compleixen m\u00ednims exigits en plec t\u00e8cnic. NACATUR2 CV. Medica No compleixen m\u00ednims exigits en plec t\u00e8cnic.",
+            "TendererParties": "SG Servicios Hospitalarios DD BIOLAB No compleixen m\u00ednims exigits en plec t\u00e8cnic VWR INTERNATIONAL EUROLAB, S.L No compleixen m\u00ednims exigits en plec t\u00e8cnic BARNA IMPORT MEDICA S.A IZASA HOSPITAL No compleixen m\u00ednims exigits en plec t\u00e8cnic. NACATUR2 CV. Medica No compleixen m\u00ednims exigits en plec t\u00e8cnic.",
             "TenderResult": {
                 "WinningParty": "BARNA IMPORT MEDICA SA",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "13310,00",
                 "WinningTenderAmountWOTaxes": "11000,00",
-                "ReceivedTenderQuantity": "7"
+                "ReceivedTenderQuantity": "7",
+                "AwardDate": "03/08/18",
+                "AwardNotes": "La empresa BARNA IMPORTE MEDICA (LOTE 1) ha obtenido la mejor puntuaci\u00f3n, y por lo tanto , se procede a adjudicar a la empresa que ha presentado la oferta m\u00e1s ventajosa."
             },
-            "denominacion": "BARNA IMPORT MEDICA SA",
-            "nacionalidad": "Espanya",
-            "importe": "13.310,00 \u20ac con IVA",
-            "importe_sin_iva": "11.000,00 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "2",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "2",
+            "PurchaseInnovation": "No",
             "Description": "Guantes de nitrilo alto nivel de resistencia a los productos qu\u00edmicos",
-            "fecha_adjudicacion_contrato": "27/07/18",
             "RequiredCommodityClassification": "18424300",
             "TenderResult": {
+                "AwardDate": "27/07/18",
                 "ResultCode": "UnawardedLot"
             },
             "BudgetAmount": null,
@@ -86,24 +86,22 @@
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "3",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "3",
+            "PurchaseInnovation": "No",
             "Description": "Guantes de nitrilo protecci\u00f3n productos citot\u00f2xics",
-            "fecha_adjudicacion_contrato": "10/08/18",
-            "motivo_adjudicacion": "L'empresa VWR International Eurolab, S.L. ha obtingut la millor puntuaci\u00f3, i per tant , es procedeix a adjudicar a l'empresa que ha presentat l'oferta m\u00e9s avantatjosa.",
             "RequiredCommodityClassification": "18424300",
-            "identidad_empresesas_licitadoras": "DD BIOLAB - No compleix els requisits minims exigits VWR International Eurolab, S.L.",
+            "TendererParties": "DD BIOLAB - No compleix els requisits minims exigits VWR International Eurolab, S.L.",
             "TenderResult": {
                 "WinningParty": "VWR International Eurolab, S.L.",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "605,00",
                 "WinningTenderAmountWOTaxes": "500,00",
-                "ReceivedTenderQuantity": "2"
+                "ReceivedTenderQuantity": "2",
+                "AwardDate": "10/08/18",
+                "AwardNotes": "La empresa VWR International Eurolab, S.L. ha obtenido la mejor puntuaci\u00f3n, y por lo tanto , se procede a adjudicar a la empresa que ha presentado la oferta m\u00e1s ventajosa."
             },
-            "denominacion": "VWR International Eurolab, S.L.",
-            "nacionalidad": "Espanya",
-            "importe": "605,00 \u20ac con IVA",
-            "importe_sin_iva": "500,00 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
@@ -129,6 +127,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=34714246&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T22:56:13.285671+02:00"
+        "InformationDate": "2018-08-16T23:41:43.685971+02:00"
     }
 }
