@@ -45,11 +45,11 @@
     "OpenTenderEvent": [],
     "ProcurementProjectLot": [
         {
-            "lot_desert": "1",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "1",
+            "PurchaseInnovation": "No",
             "Description": "Espect\u00e1culo principal FS3 2018",
-            "fecha_adjudicacion_contrato": "16/08/18",
-            "motivo_adjudicacion": "Ha estat l'empresa que ha obtingut la millor puntuaci\u00f3",
             "RequiredCommodityClassification": "79954000",
             "codigo_cpa": "900",
             "TenderResult": {
@@ -57,12 +57,11 @@
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "629191,53",
                 "WinningTenderAmountWOTaxes": "519993,00",
-                "ReceivedTenderQuantity": "2"
+                "ReceivedTenderQuantity": "2",
+                "AwardDate": "16/08/18",
+                "AwardNotes": "Ha sido la empresa que ha obtenido la mejor puntuaci\u00f3n",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "TYCHE BARCELONA EVENT MANAGEMENT CONSULTING, SL",
-            "nacionalidad": "Espanya",
-            "importe": "629.191,53 \u20ac con IVA",
-            "importe_sin_iva": "519.993,00 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
@@ -91,6 +90,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=34893155&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:57.048037+02:00"
+        "InformationDate": "2018-08-16T23:48:21.501011+02:00"
     }
 }
