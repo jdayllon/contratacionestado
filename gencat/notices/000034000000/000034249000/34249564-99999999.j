@@ -11,6 +11,9 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "El plazo inicial del contrato ser\u00e1 de 4 a\u00f1os prorrogable por 2 a\u00f1os m\u00e1s previo acuerdo expreso del \u00f3rgano de contrataci\u00f3n.",
+    "PurchaseInnovation": false,
+    "AwardDate": "05/06/18",
+    "AwardNotes": "Oferta econ\u00f2micament m\u00e9s avantatjosa",
     "RequiredCommodityClassification": "77320000",
     "TenderResult": {
         "WinningParty": "GARDEN TONA, S.L.",
@@ -62,16 +65,13 @@
     ],
     "AdditionalInfo": {
         "mas_datos_adjudicacion": {},
-        "se_compra_innovacion": "No",
         "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "05/06/18",
-        "motivo_adjudicacion": "Oferta econ\u00f2micament m\u00e9s avantatjosa",
         "bop": "Acceso al BOP - 31/07/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=34249564&advancedSearch=false&lawType=2&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:25:01.249620+02:00"
+        "InformationDate": "2018-08-16T23:48:25.331699+02:00"
     }
 }
