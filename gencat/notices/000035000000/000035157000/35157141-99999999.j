@@ -11,6 +11,8 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "Prorrogable anualmente hasta un m\u00e1ximo de dos a\u00f1os m\u00e1s.",
+    "PurchaseInnovation": false,
+    "AwardDate": "02/07/18",
     "TenderResult": {
         "WinningParty": "ACTUA MULTISERVICIOS,S.L.",
         "OriginCountryCode": "Espa\u00f1a",
@@ -61,14 +63,12 @@
     ],
     "AdditionalInfo": {
         "mas_datos_adjudicacion": {},
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "02/07/18",
         "fecha_formalizacion_contrato": "30/08/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35157141&advancedSearch=false&lawType=2&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:13.823174+02:00"
+        "InformationDate": "2018-08-16T23:50:55.350667+02:00"
     }
 }
