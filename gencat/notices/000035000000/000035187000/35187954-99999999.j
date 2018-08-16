@@ -8,6 +8,10 @@
     "ApplicableTerritoryAddress": "Lleida",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "10/08/18",
+    "AwardNotes": "D'acord proposta del president dela mesa de contractacio de data 7 d'agost de 2018 s'adjudica el Lot 6. La resta de Lots es declaren Deserts.",
+    "TendererParties": "DINUXA SL",
     "RequiredCommodityClassification": "45442100",
     "TenderResult": {
         "WinningParty": "DINUXA SL",
@@ -70,16 +74,12 @@
         "plazo_ejecucion": "30/07/18 - 03/09/18",
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "10/08/18",
-        "motivo_adjudicacion": "D'acord proposta del president dela mesa de contractacio de data 7 d'agost de 2018 s'adjudica el Lot 6. La resta de Lots es declaren Deserts.",
-        "identidad_empresesas_licitadoras": "DINUXA SL"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35187954&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:40.803375+02:00"
+        "InformationDate": "2018-08-16T23:47:59.046457+02:00"
     }
 }
