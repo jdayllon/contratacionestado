@@ -62,7 +62,8 @@
                 "WinningTenderAmountWOTaxes": "11000,00",
                 "ReceivedTenderQuantity": "7",
                 "AwardDate": "03/08/18",
-                "AwardNotes": "La empresa BARNA IMPORTE MEDICA (LOTE 1) ha obtenido la mejor puntuaci\u00f3n, y por lo tanto , se procede a adjudicar a la empresa que ha presentado la oferta m\u00e1s ventajosa."
+                "AwardNotes": "La empresa BARNA IMPORTE MEDICA (LOTE 1) ha obtenido la mejor puntuaci\u00f3n, y por lo tanto , se procede a adjudicar a la empresa que ha presentado la oferta m\u00e1s ventajosa.",
+                "ResultCode": "AwardedLot"
             },
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
@@ -100,7 +101,8 @@
                 "WinningTenderAmountWOTaxes": "500,00",
                 "ReceivedTenderQuantity": "2",
                 "AwardDate": "10/08/18",
-                "AwardNotes": "La empresa VWR International Eurolab, S.L. ha obtenido la mejor puntuaci\u00f3n, y por lo tanto , se procede a adjudicar a la empresa que ha presentado la oferta m\u00e1s ventajosa."
+                "AwardNotes": "La empresa VWR International Eurolab, S.L. ha obtenido la mejor puntuaci\u00f3n, y por lo tanto , se procede a adjudicar a la empresa que ha presentado la oferta m\u00e1s ventajosa.",
+                "ResultCode": "AwardedLot"
             },
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
@@ -127,6 +129,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=34714246&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T23:41:43.685971+02:00"
+        "InformationDate": "2018-08-16T23:43:30.440191+02:00"
     }
 }
