@@ -58,44 +58,42 @@
     ],
     "ProcurementProjectLot": [
         {
-            "lot_desert": "1",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "1",
+            "PurchaseInnovation": "No",
             "Description": "Sonido, luz, v\u00eddeo, etec en actas de petir y mitha formato que se desarrollan al llag del calendario popular festivo de la ciudad.",
-            "fecha_adjudicacion_contrato": "16/08/18",
             "RequiredCommodityClassification": "31710000",
             "TenderResult": {
                 "WinningParty": "So i Art Prat, SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "60722,64",
                 "WinningTenderAmountWOTaxes": "50184,00",
-                "ReceivedTenderQuantity": "2"
+                "ReceivedTenderQuantity": "2",
+                "AwardDate": "16/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "So i Art Prat, SL",
-            "nacionalidad": "Espanya",
-            "importe": "60.722,64 \u20ac con IVA",
-            "importe_sin_iva": "50.184,00 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "2",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "2",
+            "PurchaseInnovation": "No",
             "Description": "Sonido, luz, v\u00eddea, etec para atender los espect\u00e1culos del escenario central de la Fiesta Mayor que comporta unos requerimientos t\u00e9cnicos y organizativos de concentraci\u00f3n de recursos de gran formato.",
-            "fecha_adjudicacion_contrato": "16/08/18",
             "RequiredCommodityClassification": "31710000",
             "TenderResult": {
                 "WinningParty": "Tour Serveis Professionals de Sonoritzaci\u00f3 i Il\u00b7luminaci\u00f3, SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "16093,00",
                 "WinningTenderAmountWOTaxes": "13300,00",
-                "ReceivedTenderQuantity": "2"
+                "ReceivedTenderQuantity": "2",
+                "AwardDate": "16/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "Tour Serveis Professionals de Sonoritzaci\u00f3 i Il\u00b7luminaci\u00f3, SL",
-            "nacionalidad": "Espanya",
-            "importe": "16.093,00 \u20ac con IVA",
-            "importe_sin_iva": "13.300,00 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
@@ -121,6 +119,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35192628&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-16T16:24:08.517265+02:00"
+        "InformationDate": "2018-08-16T23:47:19.571791+02:00"
     }
 }
