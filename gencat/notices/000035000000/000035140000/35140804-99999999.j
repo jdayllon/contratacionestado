@@ -10,6 +10,9 @@
     "Notes": "B\u00fastia per a consultes t\u00e8cniques jclotet@bcn.cat -Es convoca sessi\u00f3 informativa, oberta a totes les empreses interessades a participar en aquesta licitaci\u00f3, per al dia 13/03/2018, de 1000 a 1100 hores, a la sala Sagrada Familia de la planta 10a de l'Institut Municipal d'Inform\u00e0tica, c/ T\u00e0nger, 98 de Barcelona, en la qual es donar\u00e0 resposta a les consultes recepcionades en el correu electr\u00f2nic, abans esmentat, fins a la data de la sessi\u00f3. Per q\u00fcestions d'aforament es recomanable enviar confirmaci\u00f3 d'assist\u00e8ncia.",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "07/08/18",
+    "AwardNotes": "At\u00e8s que ha presentat l'oferta m\u00e9s avantatjosa",
     "RequiredCommodityClassification": "72267100",
     "TenderResult": {
         "WinningParty": "UTE Everis Spain - Better",
@@ -73,15 +76,12 @@
     ],
     "AdditionalInfo": {
         "mas_datos_adjudicacion": {},
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "07/08/18",
-        "motivo_adjudicacion": "At\u00e8s que ha presentat l'oferta m\u00e9s avantatjosa"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35140804&advancedSearch=false&lawType=2&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:37:37.178040+02:00"
+        "InformationDate": "2018-08-17T07:28:15.450204+02:00"
     }
 }
