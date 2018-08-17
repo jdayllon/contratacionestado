@@ -8,6 +8,9 @@
     "ApplicableTerritoryAddress": "Barcelona",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "07/08/18",
+    "AwardNotes": "El present contracte s'adjudica per procediment negociat per motius relacionats amb la protecci\u00f3 de dret d'exclusiva, a l'empara de l'article 168 apartat a.2) del LCSP",
     "RequiredCommodityClassification": "72267100",
     "TenderResult": {
         "WinningParty": "EPI-USE",
@@ -44,15 +47,12 @@
         "plazo_ejecucion": "13/08/18 - 31/12/19",
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "07/08/18",
-        "motivo_adjudicacion": "El present contracte s'adjudica per procediment negociat per motius relacionats amb la protecci\u00f3 de dret d'exclusiva, a l'empara de l'article 168 apartat a.2) del LCSP"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35137884&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:37:53.282696+02:00"
+        "InformationDate": "2018-08-17T07:28:30.808825+02:00"
     }
 }
