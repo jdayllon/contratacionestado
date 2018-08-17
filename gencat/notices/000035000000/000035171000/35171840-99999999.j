@@ -9,6 +9,10 @@
     "ApplicableTerritoryAddress": "Sant Joan de Mollet",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "26/07/18",
+    "AwardNotes": "Oferta economica m\u00e9s avantatjosa",
+    "TendererParties": "SALVADOR SERRA, S.A CONSTRUCCIONS FUST\u00c9, S.A CONSTRUCCIONS RUBAU",
     "RequiredCommodityClassification": "45233250",
     "TenderResult": {
         "WinningParty": "SALVADOR SERRA, S.A",
@@ -64,16 +68,12 @@
         "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "26/07/18",
-        "motivo_adjudicacion": "Oferta economica m\u00e9s avantatjosa",
-        "identidad_empresesas_licitadoras": "SALVADOR SERRA, S.A CONSTRUCCIONS FUST\u00c9, S.A CONSTRUCCIONS RUBAU"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35171840&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:37:33.195481+02:00"
+        "InformationDate": "2018-08-17T07:28:11.228331+02:00"
     }
 }
