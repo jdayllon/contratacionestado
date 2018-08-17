@@ -10,6 +10,9 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "Dos pr\u00f3rrogas de un a\u00f1o",
+    "PurchaseInnovation": false,
+    "AwardDate": "05/07/18",
+    "TendererParties": "\u00bf SERVEIS A LES PERSONES ENC\u00cdS, SCCL. \u00bf SERVEIS PER A LA INF\u00c0NCIA CR\u00c8IXER JUNTS, SL. \u00bf SERVEIS EDUCATIUS CAVALL DE CARTR\u00d3, SL. \u00bf FUNDACI\u00d3 PERE TARR\u00c9S D'EDUCACI\u00d3 EN L'ESPLAI. \u00bf EULEN SERVICIOS SOCIOSANITARIOS, SA.",
     "TenderResult": {
         "WinningParty": "SERVEIS A LES PERSONES ENC\u00cdS, SCCL.",
         "OriginCountryCode": "Espa\u00f1a",
@@ -72,15 +75,12 @@
         "plazo_ejecucion": "01/09/18 - 31/08/21",
         "contrato_armonizado": "S\u00ed",
         "se_preven_modificaciones_a_pliegos": "S\u00ed",
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "05/07/18",
-        "fecha_formalizacion_contrato": "10/08/18",
-        "identidad_empresesas_licitadoras": "\u00bf SERVEIS A LES PERSONES ENC\u00cdS, SCCL. \u00bf SERVEIS PER A LA INF\u00c0NCIA CR\u00c8IXER JUNTS, SL. \u00bf SERVEIS EDUCATIUS CAVALL DE CARTR\u00d3, SL. \u00bf FUNDACI\u00d3 PERE TARR\u00c9S D'EDUCACI\u00d3 EN L'ESPLAI. \u00bf EULEN SERVICIOS SOCIOSANITARIOS, SA."
+        "fecha_formalizacion_contrato": "10/08/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35166597&advancedSearch=false&lawType=3&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:48.248712+02:00"
+        "InformationDate": "2018-08-17T07:35:29.767807+02:00"
     }
 }
