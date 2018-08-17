@@ -10,6 +10,8 @@
     "Notes": "Informaci\u00f3 plec administratiu Lurdes Fern\u00e1ndez, lletrada del Servei de Contractaci\u00f3, telefon 93.462.40.00, ext. 3080, correus electr\u00f2nics fernandezvl@gramenet.cat i serveicontractacio@gramenet.catInformaci\u00f3 plec tecnic Raul Castells, coordinador del Servei de Sistemes d'Informaci\u00f3, telefon 93.462.40.00, ext. 2703, correu electr\u00f2nic castellscr@gramenet.cat",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "19/06/18",
     "TenderResult": {
         "WinningParty": "HEWLETT PACKARD SERVICIOS ESPA\u00d1A, SL",
         "OriginCountryCode": "Espa\u00f1a",
@@ -61,8 +63,6 @@
     ],
     "AdditionalInfo": {
         "mas_datos_adjudicacion": {},
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "19/06/18",
         "fecha_formalizacion_contrato": "03/07/18",
         "bop": "Acceso al BOP - 14/08/18"
     },
@@ -70,6 +70,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35167570&advancedSearch=false&lawType=2&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:42.902932+02:00"
+        "InformationDate": "2018-08-17T07:35:25.077280+02:00"
     }
 }
