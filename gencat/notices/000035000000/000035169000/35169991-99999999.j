@@ -12,6 +12,9 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "Este contrato podr\u00e1 prorrogarse por un plazo de 6 meses en caso de ampliaci\u00f3n de ejecuci\u00f3n del proyecto 16MEC026 con referencia SAF2016-80888-R o en caso de que se apliquen las modificaciones indicadas al Pliegue, hasta un m\u00e1ximo del 20%.",
+    "PurchaseInnovation": false,
+    "AwardDate": "14/08/18",
+    "AwardNotes": "\u00danica empresa presentada. Empresa amb la millor relaci\u00f3 qualitat-preu.",
     "RequiredCommodityClassification": "73100000",
     "TenderResult": {
         "WinningParty": "STAB VIDA \u00bf Investiga\u00e7\u00e3o e Servi\u00e7os em Ci\u00eancias Biol\u00f3gicas, Lda.",
@@ -85,15 +88,12 @@
         "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "S\u00ed",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "14/08/18",
-        "motivo_adjudicacion": "\u00danica empresa presentada. Empresa amb la millor relaci\u00f3 qualitat-preu."
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35169991&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:37:49.919623+02:00"
+        "InformationDate": "2018-08-17T07:28:27.684643+02:00"
     }
 }
