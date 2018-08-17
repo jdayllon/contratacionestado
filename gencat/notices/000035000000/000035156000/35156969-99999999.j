@@ -12,6 +12,8 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "La cl\u00e1usula 3 del Pliegue de Cl\u00e1usulas Administrativas Particulares regulador de esta licitaci\u00f3n establece una duraci\u00f3n de 2 a\u00f1os, con la posibilidad de prorrogar el contrato hasta dos anualidades m\u00e1s, una a una.",
+    "PurchaseInnovation": false,
+    "AwardDate": "11/07/18",
     "TenderResult": {
         "WinningParty": "MUNBY 2004,S.L.",
         "OriginCountryCode": "Espa\u00f1a",
@@ -62,14 +64,12 @@
     ],
     "AdditionalInfo": {
         "mas_datos_adjudicacion": {},
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "11/07/18",
         "fecha_formalizacion_contrato": "27/07/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35156969&advancedSearch=false&lawType=2&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:18.439424+02:00"
+        "InformationDate": "2018-08-17T07:35:01.606309+02:00"
     }
 }
