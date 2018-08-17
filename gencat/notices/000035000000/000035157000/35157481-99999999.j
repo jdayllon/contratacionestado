@@ -9,6 +9,10 @@
     "ApplicableTerritoryAddress": "Catalunya",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "14/08/18",
+    "AwardNotes": "un cop aplicats els criteris d'avaluaci\u00f3, l'empresa escollida es la mes ben classificada",
+    "TendererParties": "ILLUMINA PRODUCTOS DE ESPA\u00d1A S.L. Life Technologies S.A",
     "RequiredCommodityClassification": "33127000",
     "TenderResult": {
         "WinningParty": "ILLUMINA PRODUCTOS DE ESPA\u00d1A S.L.",
@@ -67,16 +71,12 @@
         "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "reserva_social": "No",
-        "fecha_adjudicacion_contrato": "14/08/18",
-        "motivo_adjudicacion": "un cop aplicats els criteris d'avaluaci\u00f3, l'empresa escollida es la mes ben classificada",
-        "identidad_empresesas_licitadoras": "ILLUMINA PRODUCTOS DE ESPA\u00d1A S.L. Life Technologies S.A"
+        "reserva_social": "No"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35157481&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:37:29.329426+02:00"
+        "InformationDate": "2018-08-17T07:28:07.313952+02:00"
     }
 }
