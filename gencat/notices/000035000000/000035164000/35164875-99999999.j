@@ -41,44 +41,42 @@
     "OpenTenderEvent": [],
     "ProcurementProjectLot": [
         {
-            "lot_desert": "1",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "1",
+            "PurchaseInnovation": "No",
             "Description": "Lote n\u00fam1  L1@E-Escolar Santa Margarita",
-            "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "60130000",
             "TenderResult": {
                 "WinningParty": "SARFA SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "59925,36",
                 "WinningTenderAmountWOTaxes": "54477,60",
-                "ReceivedTenderQuantity": "1"
+                "ReceivedTenderQuantity": "1",
+                "AwardDate": "14/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "SARFA SL",
-            "nacionalidad": "Espanya",
-            "importe": "59.925,36 \u20ac con IVA",
-            "importe_sin_iva": "54.477,60 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "2",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "2",
+            "PurchaseInnovation": "No",
             "Description": "Lote n\u00fam 2 L2@E-Escolar urbanizaciones",
-            "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "60130000",
             "TenderResult": {
                 "WinningParty": "SARFA SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "61176,52",
                 "WinningTenderAmountWOTaxes": "55615,02",
-                "ReceivedTenderQuantity": "1"
+                "ReceivedTenderQuantity": "1",
+                "AwardDate": "14/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "SARFA SL",
-            "nacionalidad": "Espanya",
-            "importe": "61.176,52 \u20ac con IVA",
-            "importe_sin_iva": "55.615,02 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
@@ -105,6 +103,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35164875&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:37:57.541207+02:00"
+        "InformationDate": "2018-08-17T07:28:35.127319+02:00"
     }
 }
