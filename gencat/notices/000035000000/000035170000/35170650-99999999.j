@@ -59,132 +59,126 @@
     ],
     "ProcurementProjectLot": [
         {
-            "lot_desert": "1",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "1",
+            "PurchaseInnovation": "No",
             "Description": "Cubells dom\u00e9sticos y asimilados",
-            "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "34928480",
             "TenderResult": {
                 "WinningParty": "ID-Waste SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "338647,26",
                 "WinningTenderAmountWOTaxes": "279873,77",
-                "ReceivedTenderQuantity": "4"
+                "ReceivedTenderQuantity": "4",
+                "AwardDate": "14/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "ID-Waste SL",
-            "nacionalidad": "Espanya",
-            "importe": "338.647,26 \u20ac con IVA",
-            "importe_sin_iva": "279.873,77 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "2",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "2",
+            "PurchaseInnovation": "No",
             "Description": "Contenedores",
-            "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "34928480",
             "TenderResult": {
                 "WinningParty": "Alquienv\u00e0s, S.L",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "126370,69",
                 "WinningTenderAmountWOTaxes": "104438,59",
-                "ReceivedTenderQuantity": "3"
+                "ReceivedTenderQuantity": "3",
+                "AwardDate": "14/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "Alquienv\u00e0s, S.L",
-            "nacionalidad": "Espanya",
-            "importe": "126.370,69 \u20ac con IVA",
-            "importe_sin_iva": "104.438,59 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "3",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "3",
+            "PurchaseInnovation": "No",
             "Description": "Bolsas compostables de 10 litros",
-            "fecha_adjudicacion_contrato": "15/08/18",
             "RequiredCommodityClassification": "19640000",
             "TenderResult": {
                 "WinningParty": "ID-Waste,SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "200146,85",
                 "WinningTenderAmountWOTaxes": "165410,62",
-                "ReceivedTenderQuantity": "3"
+                "ReceivedTenderQuantity": "3",
+                "AwardDate": "15/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "ID-Waste,SL",
-            "nacionalidad": "Espanya",
-            "importe": "200.146,85 \u20ac con IVA",
-            "importe_sin_iva": "165.410,62 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "4",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "4",
+            "PurchaseInnovation": "No",
             "Description": "Fundas compostables",
-            "fecha_adjudicacion_contrato": "15/08/18",
             "RequiredCommodityClassification": "19640000",
             "TenderResult": {
                 "WinningParty": "ID-Waste SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "48638,04",
                 "WinningTenderAmountWOTaxes": "40196,73",
-                "ReceivedTenderQuantity": "2"
+                "ReceivedTenderQuantity": "2",
+                "AwardDate": "15/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "ID-Waste SL",
-            "nacionalidad": "Espanya",
-            "importe": "48.638,04 \u20ac con IVA",
-            "importe_sin_iva": "40.196,73 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "5",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "5",
+            "PurchaseInnovation": "No",
             "Description": "Bolsa RESTA Gris semitransparent estandaritzaa de 30L con TAG",
-            "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "19640000",
             "TenderResult": {
                 "WinningParty": "ID-WASTE,SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "215505,50",
                 "WinningTenderAmountWOTaxes": "178103,72",
-                "ReceivedTenderQuantity": "4"
+                "ReceivedTenderQuantity": "4",
+                "AwardDate": "14/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "ID-WASTE,SL",
-            "nacionalidad": "Espanya",
-            "importe": "215.505,50 \u20ac con IVA",
-            "importe_sin_iva": "178.103,72 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "6",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "6",
+            "PurchaseInnovation": "No",
             "Description": "Bolsa Envases Amarilla semitransparent estandaritzada de 60L sin TAG",
-            "fecha_adjudicacion_contrato": "14/08/18",
             "RequiredCommodityClassification": "19640000",
             "TenderResult": {
                 "WinningParty": "Alquienv\u00e0s, S.L.",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "71279,10",
                 "WinningTenderAmountWOTaxes": "58908,35",
-                "ReceivedTenderQuantity": "3"
+                "ReceivedTenderQuantity": "3",
+                "AwardDate": "14/08/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "Alquienv\u00e0s, S.L.",
-            "nacionalidad": "Espanya",
-            "importe": "71.279,10 \u20ac con IVA",
-            "importe_sin_iva": "58.908,35 \u20ac",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
             "EstimatedOverallContractAmount": null,
@@ -211,6 +205,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35170650&advancedSearch=false&lawType=3&reqCode=viewPcan&aggregatedPublication=false&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:37:21.385612+02:00"
+        "InformationDate": "2018-08-17T07:27:59.251002+02:00"
     }
 }
