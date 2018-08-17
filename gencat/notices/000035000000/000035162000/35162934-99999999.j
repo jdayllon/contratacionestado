@@ -9,6 +9,8 @@
     "ApplicableTerritoryAddress": "Tarragona",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "25/07/18",
     "TenderResult": {
         "WinningParty": "Alartec Entidad de Televigilancia SL",
         "OriginCountryCode": "Espa\u00f1a",
@@ -45,14 +47,12 @@
         "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "S\u00ed",
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "25/07/18",
         "fecha_formalizacion_contrato": "10/08/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35162934&advancedSearch=false&lawType=3&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:57.506860+02:00"
+        "InformationDate": "2018-08-17T07:35:37.923950+02:00"
     }
 }
