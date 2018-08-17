@@ -1,0 +1,30 @@
+{
+    "ID": "33214543-99999999",
+    "UUID": "2790584a-4d5b-5613-8da5-e710bc565e2a",
+    "IssueDate": "2018-06-26",
+    "IssueTime": "11:15:13.688+0000",
+    "Description": "Servicio de informaci\u00f3n, atenci\u00f3n y acompa\u00f1amiento al p\u00fablico, incluidos el control de acessos y venta de entradas en las actividades que se organizan desde el Ayuntamiento de Tarrgona, tanto en los espacios culturales (Teatro Metropol, Teatro Tarragona, Antigua Audiencia y Teatro Auditorio del Campo de Marte) como aquellas actividades de cariz cultural o festivo que se llevan a cabo a la v\u00eda p\u00fablica, organizadas por el propio Ayuntamiento.",
+    "BudgetAmount": "120000,00",
+    "PlannedPeriod": "2 a\u00f1os",
+    "ApplicableTerritoryAddress": "Tarragona",
+    "EstimatedOverallContractAmount": null,
+    "AuctionConstraintIndicator": false,
+    "RequiredCommodityClassification": "79952000",
+    "BudgetAmountWOTaxes": "99173,56",
+    "EstimatedOverallContractAmountWOTaxes": "168595,05",
+    "CurrencyCode": "EUR",
+    "DocumentReference": [],
+    "NoticeDocumentReference": [],
+    "AwardingTerms": null,
+    "OpenTenderEvent": [],
+    "ProcurementProjectLot": [],
+    "Events": [],
+    "TenderResult": {},
+    "AdditionalInfo": {},
+    "IntellectualProperty": {
+        "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
+        "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/notice.pscp?idDoc=33214543&advancedSearch=false&reqCode=viewPin&&mode=full",
+        "License": "CC0 Creative Commons",
+        "InformationDate": "2018-08-17T07:13:36.321831+02:00"
+    }
+}
