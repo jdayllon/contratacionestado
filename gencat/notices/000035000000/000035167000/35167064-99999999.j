@@ -41,23 +41,22 @@
     "OpenTenderEvent": [],
     "ProcurementProjectLot": [
         {
-            "lot_desert": "1",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "1",
+            "PurchaseInnovation": "No",
             "reserva_social": "No",
             "Description": "11 equipos multifunci\u00f3n digitales l\u00e1ser en blanco y negro y color (alquiler y mantenimiento 5 a\u00f1os) (A6-A4-A3)",
-            "fecha_adjudicacion_contrato": "10/07/18",
             "fecha_formalizacion_contrato": "27/07/18",
             "TenderResult": {
                 "WinningParty": "GIROCOPI, SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "99950,00",
                 "WinningTenderAmountWOTaxes": "82603,30",
-                "ReceivedTenderQuantity": "7"
+                "ReceivedTenderQuantity": "7",
+                "AwardDate": "10/07/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "GIROCOPI, SL",
-            "nacionalidad": "Espanya",
-            "importe": "99.950,00 \u20ac con IVA",
-            "importe_sin_iva": "82.603,30 \u20ac",
             "RequiredCommodityClassification": "30232110",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
@@ -65,23 +64,22 @@
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "2",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "2",
+            "PurchaseInnovation": "No",
             "reserva_social": "No",
             "Description": "6 equipos multe-funci\u00f3n digitales l\u00e1ser en blanco y negro (alquiler y mantenimiento 5 a\u00f1os) (A6-A4 y A3)",
-            "fecha_adjudicacion_contrato": "10/07/18",
             "fecha_formalizacion_contrato": "27/07/18",
             "TenderResult": {
                 "WinningParty": "GIROCOPI, SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "34550,02",
                 "WinningTenderAmountWOTaxes": "28553,73",
-                "ReceivedTenderQuantity": "7"
+                "ReceivedTenderQuantity": "7",
+                "AwardDate": "10/07/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "GIROCOPI, SL",
-            "nacionalidad": "Espanya",
-            "importe": "34.550,02 \u20ac con IVA",
-            "importe_sin_iva": "28.553,73 \u20ac",
             "RequiredCommodityClassification": "30232110",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
@@ -89,23 +87,22 @@
             "EstimatedOverallContractAmountWOTaxes": null
         },
         {
-            "lot_desert": "3",
-            "se_compra_innovacion": "No",
+            "TechnicalEvaluationCriteria": [],
+            "FinancialEvaluationCriteria": [],
+            "ProcurementProjectLotID": "3",
+            "PurchaseInnovation": "No",
             "reserva_social": "No",
             "Description": "3 equipos multe-funci\u00f3n digitales l\u00e1ser en blanco y negro (alquiler y mantenimiento 5 a\u00f1os) (A4)",
-            "fecha_adjudicacion_contrato": "10/07/18",
             "fecha_formalizacion_contrato": "27/07/18",
             "TenderResult": {
                 "WinningParty": "GIROCOPI, SL",
                 "OriginCountryCode": "Espa\u00f1a",
                 "WinningTenderAmount": "12164,40",
                 "WinningTenderAmountWOTaxes": "10053,22",
-                "ReceivedTenderQuantity": "7"
+                "ReceivedTenderQuantity": "7",
+                "AwardDate": "10/07/18",
+                "ResultCode": "AwardedLot"
             },
-            "denominacion": "GIROCOPI, SL",
-            "nacionalidad": "Espanya",
-            "importe": "12.164,40 \u20ac con IVA",
-            "importe_sin_iva": "10.053,22 \u20ac",
             "RequiredCommodityClassification": "30232110",
             "BudgetAmount": null,
             "BudgetAmountWOTaxes": null,
@@ -134,6 +131,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35167064&advancedSearch=false&lawType=2&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:33.454939+02:00"
+        "InformationDate": "2018-08-17T07:35:15.615038+02:00"
     }
 }
