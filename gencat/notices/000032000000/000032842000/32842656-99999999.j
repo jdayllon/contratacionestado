@@ -1,0 +1,30 @@
+{
+    "ID": "32842656-99999999",
+    "UUID": "57a96c23-6619-5826-8dab-539116d2b878",
+    "IssueDate": "2018-06-15",
+    "IssueTime": "10:30:16.926+0000",
+    "Description": "Concesi\u00f3n de uso privativo del bar de la pista de verano de Caseres",
+    "BudgetAmount": "726,00",
+    "PlannedPeriod": "12 d\u00edas",
+    "ApplicableTerritoryAddress": "Caseres",
+    "EstimatedOverallContractAmount": null,
+    "AuctionConstraintIndicator": false,
+    "RequiredCommodityClassification": "55410000",
+    "BudgetAmountWOTaxes": "600,00",
+    "EstimatedOverallContractAmountWOTaxes": "600,00",
+    "CurrencyCode": "EUR",
+    "DocumentReference": [],
+    "NoticeDocumentReference": [],
+    "AwardingTerms": null,
+    "OpenTenderEvent": [],
+    "ProcurementProjectLot": [],
+    "Events": [],
+    "TenderResult": {},
+    "AdditionalInfo": {},
+    "IntellectualProperty": {
+        "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
+        "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/notice.pscp?idDoc=32842656&advancedSearch=false&reqCode=viewPin&&mode=full",
+        "License": "CC0 Creative Commons",
+        "InformationDate": "2018-08-17T07:14:52.384104+02:00"
+    }
+}
