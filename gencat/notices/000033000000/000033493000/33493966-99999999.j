@@ -1,0 +1,30 @@
+{
+    "ID": "33493966-99999999",
+    "UUID": "5743047e-4146-5c79-8f52-b16f93b6cefa",
+    "IssueDate": "2018-07-03",
+    "IssueTime": "12:30:16.712+0000",
+    "Description": "Contrato para la modificaci\u00f3n de la red de drenaje actual de la calle de la v\u00eda del Tren, en la parte superior de las urbanizaciones la Estrella y Se Agar\u00f3 Parque",
+    "BudgetAmount": "108258,55",
+    "PlannedPeriod": "2 meses",
+    "ApplicableTerritoryAddress": "Sant Feliu de Gu\u00edxols",
+    "EstimatedOverallContractAmount": null,
+    "AuctionConstraintIndicator": true,
+    "RequiredCommodityClassification": "45240000",
+    "BudgetAmountWOTaxes": "89469,88",
+    "EstimatedOverallContractAmountWOTaxes": "107363,86",
+    "CurrencyCode": "EUR",
+    "DocumentReference": [],
+    "NoticeDocumentReference": [],
+    "AwardingTerms": null,
+    "OpenTenderEvent": [],
+    "ProcurementProjectLot": [],
+    "Events": [],
+    "TenderResult": {},
+    "AdditionalInfo": {},
+    "IntellectualProperty": {
+        "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
+        "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/notice.pscp?idDoc=33493966&advancedSearch=false&reqCode=viewPin&&mode=full",
+        "License": "CC0 Creative Commons",
+        "InformationDate": "2018-08-17T07:12:52.741460+02:00"
+    }
+}
