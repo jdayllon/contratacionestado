@@ -9,12 +9,16 @@
     "ApplicableTerritoryAddress": "Canet d'Adri",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "25/06/18",
+    "TendererParties": "Rubau Tarres, SAU; Agusti Y Masoliver, SA, Aglomerats Girona, SA",
     "TenderResult": {
         "WinningParty": "Agust\u00ed Y Masoliver, SA",
         "OriginCountryCode": "Espa\u00f1a",
         "WinningTenderAmount": "67276,00",
         "WinningTenderAmountWOTaxes": "55600,00",
-        "ReceivedTenderQuantity": "3"
+        "ReceivedTenderQuantity": "3",
+        "ResultCode": "Adjudicado"
     },
     "BudgetAmountWOTaxes": "58278,70",
     "EstimatedOverallContractAmountWOTaxes": "58278,70",
@@ -66,17 +70,15 @@
         }
     ],
     "AdditionalInfo": {
+        "mas_datos_adjudicacion": {},
         "contrato_armonizado": "No",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "25/06/18",
-        "fecha_formalizacion_contrato": "02/08/18",
-        "identidad_empresesas_licitadoras": "Rubau Tarres, SAU; Agusti Y Masoliver, SA, Aglomerats Girona, SA"
+        "fecha_formalizacion_contrato": "02/08/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35167507&advancedSearch=false&lawType=3&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T20:45:36.436947+02:00"
+        "InformationDate": "2018-08-17T07:35:10.763015+02:00"
     }
 }
