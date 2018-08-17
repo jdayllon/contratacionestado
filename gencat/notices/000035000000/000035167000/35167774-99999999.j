@@ -10,6 +10,8 @@
     "Notes": "Aquesta licitaci\u00f3 \u00e9s una subsanaci\u00f3 de la licitaci\u00f3 ja finalitzada en termini Exp. 2018/36 que per incid\u00e8ncies a l'obertura de la documentaci\u00f3 presentada digitalment no es pot accedir. Nom\u00e9s es podran presentar aquelles empreses que dintre del termini anterior establert ja van presentar la documentaci\u00f3.",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "02/08/18",
     "TenderResult": {
         "WinningParty": "CONTRATAS VILOR",
         "OriginCountryCode": "Espa\u00f1a",
@@ -63,14 +65,12 @@
         "contrato_armonizado": "No",
         "apertura_plicas": "09/07/18 0930",
         "se_preven_modificaciones_a_pliegos": "No",
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "02/08/18",
         "fecha_formalizacion_contrato": "03/08/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35167774&advancedSearch=false&lawType=3&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:23.261838+02:00"
+        "InformationDate": "2018-08-17T07:35:05.907564+02:00"
     }
 }
