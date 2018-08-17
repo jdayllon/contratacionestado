@@ -1,0 +1,30 @@
+{
+    "ID": "34538720-99999999",
+    "UUID": "7bf609af-ec82-500c-ae57-9aac787ed234",
+    "IssueDate": "2018-07-26",
+    "IssueTime": "12:50:08.270+0000",
+    "Description": "Prestaci\u00f3n del servicio consitent en 1560 horas anuales de limpieza de varios edificios municipales",
+    "BudgetAmount": "27830,00",
+    "PlannedPeriod": "1 a\u00f1o",
+    "ApplicableTerritoryAddress": "Prats de Llu\u00e7an\u00e8s",
+    "EstimatedOverallContractAmount": null,
+    "AuctionConstraintIndicator": false,
+    "RequiredCommodityClassification": "90919000",
+    "BudgetAmountWOTaxes": "23000,00",
+    "EstimatedOverallContractAmountWOTaxes": "23000,00",
+    "CurrencyCode": "EUR",
+    "DocumentReference": [],
+    "NoticeDocumentReference": [],
+    "AwardingTerms": null,
+    "OpenTenderEvent": [],
+    "ProcurementProjectLot": [],
+    "Events": [],
+    "TenderResult": {},
+    "AdditionalInfo": {},
+    "IntellectualProperty": {
+        "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
+        "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/notice.pscp?idDoc=34538720&advancedSearch=false&reqCode=viewPin&&mode=full",
+        "License": "CC0 Creative Commons",
+        "InformationDate": "2018-08-17T07:11:37.196235+02:00"
+    }
+}
