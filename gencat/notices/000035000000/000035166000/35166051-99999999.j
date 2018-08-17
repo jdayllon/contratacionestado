@@ -11,6 +11,8 @@
     "AuctionConstraintIndicator": false,
     "ContractExtension": true,
     "OptionsDescription": "2 a\u00f1os posible pr\u00f3rroga",
+    "PurchaseInnovation": false,
+    "AwardDate": "15/05/18",
     "TenderResult": {
         "WinningParty": "ALHORA SCFP, SL",
         "OriginCountryCode": "Espa\u00f1a",
@@ -55,14 +57,12 @@
     "AdditionalInfo": {
         "mas_datos_adjudicacion": {},
         "apertura_plicas": "20/04/18 1130",
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "15/05/18",
         "fecha_formalizacion_contrato": "30/07/18"
     },
     "IntellectualProperty": {
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35166051&advancedSearch=false&lawType=2&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:53.288386+02:00"
+        "InformationDate": "2018-08-17T07:35:33.888500+02:00"
     }
 }
