@@ -10,6 +10,8 @@
     "Notes": "Informaci\u00f3 plec administratiu Maria F\u00e8lix Alonso, lletrada del Servei de Contractaci\u00f3, tel\u00e8fon 93.462.40.00, ext. 3033, correus electr\u00f2nics alonsocmf@gramenet.cat i serveicontractacio@gramenet.catInformaci\u00f3 projecte t\u00e8cnic Cristian Salas, arqitecte t\u00e8cnic del Servei de Rehabilitaci\u00f3 i Regeneraci\u00f3 Urbana, tel\u00e8fon 93.462.40.00, ext. 3536, correu electr\u00f2nic salaspc@gramenet.cat",
     "EstimatedOverallContractAmount": null,
     "AuctionConstraintIndicator": false,
+    "PurchaseInnovation": false,
+    "AwardDate": "03/07/18",
     "TenderResult": {
         "WinningParty": "ARTIFEX INFRAESTRUCTURAS, SL",
         "OriginCountryCode": "Espa\u00f1a",
@@ -61,8 +63,6 @@
     ],
     "AdditionalInfo": {
         "mas_datos_adjudicacion": {},
-        "se_compra_innovacion": "No",
-        "fecha_adjudicacion_contrato": "03/07/18",
         "fecha_formalizacion_contrato": "10/07/18",
         "bop": "Acceso al BOP - 14/08/18"
     },
@@ -70,6 +70,6 @@
         "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
         "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/awardnotice.pscp?idDoc=35167325&advancedSearch=false&lawType=2&reqCode=viewDcan&&mode=full",
         "License": "CC0 Creative Commons",
-        "InformationDate": "2018-08-15T21:38:38.201041+02:00"
+        "InformationDate": "2018-08-17T07:35:20.262647+02:00"
     }
 }
