@@ -1,0 +1,30 @@
+{
+    "ID": "33783599-99999999",
+    "UUID": "89bd9152-fe5e-5e3a-befc-63177a77fa86",
+    "IssueDate": "2018-07-09",
+    "IssueTime": "14:00:10.088+0000",
+    "Description": "Servicio de montaje, alquiler, direcci\u00f3n t\u00e9cnica y operaci\u00f3n de una estructura esc\u00e9nica apta para la realizaci\u00f3n de espect\u00e1culos.",
+    "PlannedPeriod": "3 meses",
+    "ApplicableTerritoryAddress": "Tarragona",
+    "EstimatedOverallContractAmount": null,
+    "AuctionConstraintIndicator": false,
+    "RequiredCommodityClassification": "44212320",
+    "EstimatedOverallContractAmountWOTaxes": "15000,00",
+    "BudgetAmount": null,
+    "BudgetAmountWOTaxes": null,
+    "CurrencyCode": "EUR",
+    "DocumentReference": [],
+    "NoticeDocumentReference": [],
+    "AwardingTerms": null,
+    "OpenTenderEvent": [],
+    "ProcurementProjectLot": [],
+    "Events": [],
+    "TenderResult": {},
+    "AdditionalInfo": {},
+    "IntellectualProperty": {
+        "Source": "Generalitat de Catalu\u00f1a. Departament de la Vicepresid\u00e8ncia i d'Economia i Hisenda",
+        "URL": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/es_ES/notice.pscp?idDoc=33783599&advancedSearch=false&reqCode=viewPin&&mode=full",
+        "License": "CC0 Creative Commons",
+        "InformationDate": "2018-08-17T07:12:33.928731+02:00"
+    }
+}
