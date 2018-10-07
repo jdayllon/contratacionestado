@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: LPA-58/2018; \u00d3rgano de Contrataci\u00f3n: Aena. Direcci\u00f3n del Aeropuerto de Gran Canaria; Importe: 86400 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: LPA-58/2018; \u00d3rgano de Contrataci\u00f3n: Aena. Direcci\u00f3n del Aeropuerto de Gran Canaria; Importe: 86400 EUR; Estado: RES"
     },
     "title": "Suministro De Combustible Para Veh\u00edculos Propiedad Del Aeropuerto     De Gran Canaria",
-    "updated": "2018-08-01T09:32:20.542+02:00",
+    "updated": "2018-10-05T11:35:48.667+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "LPA-58/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -79,7 +79,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro De Combustible Para Veh\u00edculos Propiedad Del Aeropuerto     De Gran Canaria",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cac:BudgetAmount": {
@@ -117,10 +117,8 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "24"
-                }
+                "cbc:StartDate": "2018-09-01",
+                "cbc:EndDate": "2020-09-01"
             }
         },
         "cac:TenderResult": {
@@ -131,6 +129,10 @@
             "cbc:Description": "El criterio establecido para la adjudicaci\u00f3n del presente contrato es la mejor relaci\u00f3n calidad-precio.",
             "cbc:AwardDate": "2018-07-31",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "LPA-58/2018",
+                "cbc:IssueDate": "2018-09-01"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -178,17 +180,31 @@
                 "cbc:Description": "Hora peninsular"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-01"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-01"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
+                    }
                 }
             }
-        }
+        ]
     }
 }

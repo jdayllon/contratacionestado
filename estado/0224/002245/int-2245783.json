@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: TSA0065986; \u00d3rgano de Contrataci\u00f3n: Empresa de Transformaci\u00f3n Agraria S.A.,S.M.E., M.P., (TRAGSA); Importe: 210000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: TSA0065986; \u00d3rgano de Contrataci\u00f3n: Empresa de Transformaci\u00f3n Agraria S.A.,S.M.E., M.P., (TRAGSA); Importe: 210000 EUR; Estado: RES"
     },
     "title": "Suministro de ordenadores personales y monitores.",
-    "updated": "2018-06-27T09:46:38.435+02:00",
+    "updated": "2018-10-05T14:06:02.373+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "TSA0065986",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,7 +81,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de ordenadores personales y monitores.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -131,6 +131,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ver cuadro de valoraci\u00f3n.",
+            "cbc:AwardDate": "2018-09-06",
+            "cbc:ReceivedTenderQuantity": "10",
+            "cbc:StartDate": "2018-10-02",
+            "cac:Contract": {
+                "cbc:ID": "277.487",
+                "cbc:IssueDate": "2018-10-02"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B50570571"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SOLITIUM, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "210000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "254100"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -147,16 +184,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSR-MUESTRAS"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "- Documento gr\u00e1fico que recoja im\u00e1genes y caracter\u00edsticas t\u00e9cnicas y funcionales del producto ofertado."
+                        "cbc:Description": "- Relaci\u00f3n de suministros similares (al menos tres) relativos al mismo c\u00f3digo CPV ejecutados en los \u00faltimos tres a\u00f1os cuyo importe anual acumulado no sea menos del 80% del valor estimado; se debe indicar la descripci\u00f3n del suministro realizado, fecha de suministro, el importe y el destinatario. Avalados por los correspondientes certificados de buena ejecuci\u00f3n en los que se incluir\u00e1n los mencionados datos."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "XSR-MUESTRAS"
                         },
-                        "cbc:Description": "- Relaci\u00f3n de suministros similares (al menos tres) relativos al mismo c\u00f3digo CPV ejecutados en los \u00faltimos tres a\u00f1os cuyo importe anual acumulado no sea menos del 80% del valor estimado; se debe indicar la descripci\u00f3n del suministro realizado, fecha de suministro, el importe y el destinatario. Avalados por los correspondientes certificados de buena ejecuci\u00f3n en los que se incluir\u00e1n los mencionados datos."
+                        "cbc:Description": "- Documento gr\u00e1fico que recoja im\u00e1genes y caracter\u00edsticas t\u00e9cnicas y funcionales del producto ofertado."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -184,12 +221,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejoras sobre las caracter\u00edsticas t\u00e9cnicas exigidas",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "75"
+                    },
+                    {
+                        "cbc:Description": "Mejoras sobre las caracter\u00edsticas t\u00e9cnicas exigidas",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -247,6 +284,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -265,6 +314,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
                     }
                 }
             }

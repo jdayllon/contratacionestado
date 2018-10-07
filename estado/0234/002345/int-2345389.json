@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/EA46/00001220; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico-Administrativa 46 - Base A\u00e9rea de Matac\u00e1n; Importe: 197892.12 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/EA46/00001220; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico-Administrativa 46 - Base A\u00e9rea de Matac\u00e1n; Importe: 197892.12 EUR; Estado: RES"
     },
     "title": "Badajoz / Talavera la Real / Adecuaci\u00f3n edificio 77 y cobertizo / B.A. Talavera",
-    "updated": "2018-08-08T10:46:58.681+02:00",
+    "updated": "2018-10-01T14:46:17.239+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/EA46/00001220",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Badajoz / Talavera la Real / Adecuaci\u00f3n edificio 77 y cobertizo / B.A. Talavera",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -109,6 +109,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por obtener la mayor puntuaci\u00f3n en aplicaci\u00f3n de los criterios de valoraci\u00f3n y cumplir los requisitos exigidos en los Pliegos que rigen este expediente",
+            "cbc:AwardDate": "2018-09-14",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "166209.59"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "197500"
+            },
+            "cbc:StartDate": "2018-09-21",
+            "cac:Contract": {
+                "cbc:ID": "2018/EA46/00001220",
+                "cbc:IssueDate": "2018-09-21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A91081976"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INGENERSA MERIDIONAL SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "166209.59"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "201113.6"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -152,16 +197,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Plazo de ejecuci\u00f3n (D\u00edas naturales)",
+                        "cbc:WeightNumeric": "35"
+                    },
+                    {
                         "cbc:Description": "Plazo de garant\u00eda",
                         "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "50"
-                    },
-                    {
-                        "cbc:Description": "Plazo de ejecuci\u00f3n (D\u00edas naturales)",
-                        "cbc:WeightNumeric": "35"
                     }
                 ]
             },
@@ -219,6 +264,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -237,6 +294,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
                     }
                 }
             }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 02012019AF39; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Penitenciarios; Importe: 2784000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 02012019AF39; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Penitenciarios; Importe: 2784000 EUR; Estado: RES"
     },
     "title": "Establecimiento de Acuerdo Marco para el suministro de ZEPATIER\u00ae a los centros penitenciarios dependientes de la Secretar\u00eda General de Instituciones Penitenciarias.",
-    "updated": "2018-07-11T10:00:24.189+02:00",
+    "updated": "2018-09-28T09:31:02.951+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "02012019AF39",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Establecimiento de Acuerdo Marco para el suministro de ZEPATIER\u00ae a los centros penitenciarios dependientes de la Secretar\u00eda General de Instituciones Penitenciarias.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +110,10 @@
             "cbc:Description": "La empresa adjudicataria posee el certificado de exclusividad en la comercializaci\u00f3n del medicamento.",
             "cbc:AwardDate": "2018-06-22",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "02012019AF39",
+                "cbc:IssueDate": "2018-08-16"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -136,6 +140,12 @@
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": {
+                    "cbc:Description": "CERTIFICADO DE EXCLUSIVIDAD",
+                    "cbc:WeightNumeric": "100"
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -154,17 +164,43 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-11"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-07-11"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-07-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-09"
+                    }
                 }
             }
-        }
+        ]
     }
 }

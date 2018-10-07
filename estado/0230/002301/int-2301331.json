@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018001445; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de San Bartolom\u00e9 de Lanzarote; Importe: 0 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018001445; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de San Bartolom\u00e9 de Lanzarote; Importe: 0 EUR; Estado: RES"
     },
     "title": "Explotaci\u00f3n de la cafeter\u00eda del Centro Socio Cultural de El Islote",
-    "updated": "2018-07-20T08:41:45.375+02:00",
+    "updated": "2018-10-03T09:35:15.246+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018001445",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -42,7 +42,7 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Alcaldia del Ayuntamiento de San Bartolom\u00e9 de Lanzarote",
-                    "cbc:ElectronicMail": "juani.guadalupe@sanbartolome.es"
+                    "cbc:ElectronicMail": "ayuntamiento@sanbartolome.es"
                 }
             },
             "cac-place-ext:ParentLocatedParty": {
@@ -79,7 +79,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Explotaci\u00f3n de la cafeter\u00eda del Centro Socio Cultural de El Islote",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "7"
             },
             "cac:BudgetAmount": {
@@ -138,6 +138,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta relaci\u00f3n calidad precio adecuada, \u00fanico licitador.",
+            "cbc:AwardDate": "2018-09-19",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-10-02"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "42919926V"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Sandra Corujo P\u00e9rez"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -168,14 +204,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Desarrollo de carta con al menos un plato con batata como ingrediente.",
-                        "cbc:WeightNumeric": "0.5"
-                    },
-                    {
-                        "cbc:Description": "Uso de productos de limpieza ecol\u00f3gicos",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
                         "cbc:Description": "Desarrollo de carta con opci\u00f3n a un men\u00fa hipocal\u00f3rico y opci\u00f3n a un men\u00fa sin gluten",
                         "cbc:WeightNumeric": "1"
                     },
@@ -184,12 +212,20 @@
                         "cbc:WeightNumeric": "0.5"
                     },
                     {
-                        "cbc:Description": "Propuesta econ\u00f3mica. Ampliaci\u00f3n del importe m\u00ednimo del CANON establecido",
-                        "cbc:WeightNumeric": "6"
+                        "cbc:Description": "Uso de productos de limpieza ecol\u00f3gicos",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Desarrollo de carta con al menos un plato con batata como ingrediente.",
+                        "cbc:WeightNumeric": "0.5"
                     },
                     {
                         "cbc:Description": "Desarrollo de todo el material impreso con inclusi\u00f3n de sistema de lectura braille",
                         "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Propuesta econ\u00f3mica. Ampliaci\u00f3n del importe m\u00ednimo del CANON establecido",
+                        "cbc:WeightNumeric": "6"
                     }
                 ]
             },
@@ -266,6 +302,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -284,6 +332,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
                     }
                 }
             }

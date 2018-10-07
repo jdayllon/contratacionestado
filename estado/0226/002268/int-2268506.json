@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 02/18; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de la Empresa Municipal Almer\u00eda XXI, S.A.; Importe: 2558508.45 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 02/18; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de la Empresa Municipal Almer\u00eda XXI, S.A.; Importe: 2558508.45 EUR; Estado: RES"
     },
     "title": "Obras de Urbanizaci\u00f3n del Sector SUOR LFC-09 y SGEL-01. Almer\u00eda",
-    "updated": "2018-07-12T13:35:46.290+02:00",
+    "updated": "2018-09-27T08:05:10.665+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "02/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,7 +81,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Obras de Urbanizaci\u00f3n del Sector SUOR LFC-09 y SGEL-01. Almer\u00eda",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -146,6 +146,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El acuerdo de adjudicaci\u00f3n figura \u00edntegro en la Plataforma de Contratos del Sector P\u00fablico y, entre otros aspectos contiene: \" Adjudicar a la mercantil CONSTRUCCIONES NILA, S .A. , al ser el licitador que ha presentado la oferta econ\u00f3micamente mas ventajosa , el Concurso referenciado , para ejecuci\u00f3n de\nlas obras en el precio de 2 .376.951,58 \u20ac, IVA incluido , y por el plazo y con las mejoras o alternativas ofertadas por dicha empresa en su oferta.\"",
+            "cbc:AwardDate": "2018-09-04",
+            "cbc:ReceivedTenderQuantity": "15",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2376951.58"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "3080316.25"
+            },
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-09-10"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A04010344"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSTRUCCIONES NILA S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1964422.79"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2376951.58"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -153,7 +197,7 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "3"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
@@ -163,7 +207,7 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "1"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
@@ -201,12 +245,12 @@
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "OFERTA ECONOMICA",
-                        "cbc:WeightNumeric": "75"
-                    },
-                    {
                         "cbc:Description": "MEMORIA TECNICA",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "OFERTA ECONOMICA",
+                        "cbc:WeightNumeric": "75"
                     }
                 ]
             },
@@ -329,6 +373,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -364,6 +420,18 @@
                             "cbc:IssueDate": "2018-07-12"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
+                    }
                 }
             }
         ]

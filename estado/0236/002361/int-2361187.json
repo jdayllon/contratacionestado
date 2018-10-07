@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2020007634; \u00d3rgano de Contrataci\u00f3n: Gerencia de Asistencia Sanitaria de Segovia; Importe: 197200 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2020007634; \u00d3rgano de Contrataci\u00f3n: Gerencia de Asistencia Sanitaria de Segovia; Importe: 197200 EUR; Estado: ADJ"
     },
     "title": "Suministro de Tiras Reactivas para la determinaci\u00f3n del INR con muestra de sangre capilar con destino a los Centros Sanitarios de la Gerencia de Asistencia Sanitaria de Segovia.",
-    "updated": "2018-08-10T09:35:36.525+02:00",
+    "updated": "2018-10-04T14:41:21.593+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2020007634",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de Tiras Reactivas para la determinaci\u00f3n del INR con muestra de sangre capilar con destino a los Centros Sanitarios de la Gerencia de Asistencia Sanitaria de Segovia.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -113,6 +113,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor Valorado de acuerdo con los pliegos.",
+            "cbc:AwardDate": "2018-10-04",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1.4"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1.5"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28114742"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Werfen Espa\u00f1a S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1.5"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1.65"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -149,30 +189,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Volumen del coagul\u00f3metro. No superior a 350 cm\u00b3. (Si el volumen es \u2265 de 350  cm\u00b3, se valorar\u00e1 con 0)",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Lectura autom\u00e1tica del lote y fecha de caducidad sin intervenci\u00f3n del usuario.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Volumen de muestra no superior a 10 microlitros. (si el volumen excede de 10 microlitros se valorar\u00e1 0)",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Ampliaci\u00f3n en n\u00ba , de la dotaci\u00f3n de coagul\u00f3metros, por mayor demanda de la administraci\u00f3n sobre los m\u00ednimos establecidos en el PPT y hasta un m\u00e1ximo de 25 unidades. Por cada 5 unidades 1 punto. M\u00e1ximo 25 unidades.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Dispositivos de alimentaci\u00f3n del coagul\u00f3metro recargables, sin necesidad de extracci\u00f3n de las bater\u00edas, pilas, etc, para su recarga",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
-                        "cbc:Description": "dotaci\u00f3n de envases para recogida de lancetas en domicilio de pacientes auto controlados. Por cada 5 envases,  1 punto. M\u00e1ximo 25 envases, equivalentes a 25 pacientes y a\u00f1o.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Estabilidad de la Tira fuera del envase en horas (insert del producto) superior a 5 hs. (si la estabilidad es igual o inferior a 5 hs, se valorar\u00e1 0)",
                         "cbc:WeightNumeric": "2"
                     },
@@ -181,8 +197,32 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "Volumen del coagul\u00f3metro. No superior a 350 cm\u00b3. (Si el volumen es \u2265 de 350  cm\u00b3, se valorar\u00e1 con 0)",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "dotaci\u00f3n de envases para recogida de lancetas en domicilio de pacientes auto controlados. Por cada 5 envases,  1 punto. M\u00e1ximo 25 envases, equivalentes a 25 pacientes y a\u00f1o.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Volumen de muestra no superior a 10 microlitros. (si el volumen excede de 10 microlitros se valorar\u00e1 0)",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Dispositivos de alimentaci\u00f3n del coagul\u00f3metro recargables, sin necesidad de extracci\u00f3n de las bater\u00edas, pilas, etc, para su recarga",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
                         "cbc:Description": "PRECIO POR UNIDAD",
                         "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Lectura autom\u00e1tica del lote y fecha de caducidad sin intervenci\u00f3n del usuario.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n en n\u00ba , de la dotaci\u00f3n de coagul\u00f3metros, por mayor demanda de la administraci\u00f3n sobre los m\u00ednimos establecidos en el PPT y hasta un m\u00e1ximo de 25 unidades. Por cada 5 unidades 1 punto. M\u00e1ximo 25 unidades.",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -274,6 +314,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

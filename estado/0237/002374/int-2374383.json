@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 13/2018-B; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Chiclana de la Frontera; Importe: 212000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 13/2018-B; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Chiclana de la Frontera; Importe: 212000 EUR; Estado: RES"
     },
     "title": "Traspaso de la titularidad de puestos del Mercado Municipal de Abastos de Chiclana de la Frontera.\nLote 1: Puestos F13, F14 y F15, destinados a la venta de frutas, verduras y hortalizas.\nLote 2: Puestos C7, C8 y trabajadero n\u00ba 6, destinados a la venta de carnes.\nLote 3: Puesto V12, destinado a la venta de golosinas.",
-    "updated": "2018-08-21T13:48:53.111+02:00",
+    "updated": "2018-09-27T08:39:42.496+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "13/2018-B",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Traspaso de la titularidad de puestos del Mercado Municipal de Abastos de Chiclana de la Frontera.\nLote 1: Puestos F13, F14 y F15, destinados a la venta de frutas, verduras y hortalizas.\nLote 2: Puestos C7, C8 y trabajadero n\u00ba 6, destinados a la venta de carnes.\nLote 3: Puesto V12, destinado a la venta de golosinas.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "50"
             },
             "cbc:SubTypeCode": {
@@ -99,6 +99,100 @@
                 "cbc:EndDate": "2049-11-30"
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 1. Puestos F13, F14 y F15 del Mercado Municipal de Abastos destinado a la venta de frutas, verduras y hortalizas.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "90000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "90000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 2. Puestos C7, C8 y trabajadero n\u00ba 6 del Mercado Municipal de Abastos destinado a la venta de carnes.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "100000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "100000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "3"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 3. Puestos V12 del Mercado Municipal de Abastos destinado a la venta de golosinas.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "22000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "22000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2018-09-25",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2018-09-25",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2018-09-25",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "3"
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -181,6 +275,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

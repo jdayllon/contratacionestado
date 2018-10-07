@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA 2/18;\u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n para la Investigaci\u00f3n Biom\u00e9dica del Hospital Universitario Puerta de Hierro;Importe: 140000 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: PA 2/18;\u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n para la Investigaci\u00f3n Biom\u00e9dica del Hospital Universitario Puerta de Hierro;Importe: 140000 EUR;Estado: ADJUDICADA"
     },
     "title": "Contrataci\u00f3n de Suministro e Instalaci\u00f3n de Nuevo Sistema Inform\u00e1tico para la Actualizaci\u00f3n del Equipo de Resonancia Magn\u00e9tica, Marca Philips",
-    "updated": "2018-07-31T17:55:41.913+02:00",
+    "updated": "2018-10-02T09:55:29.704+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA 2/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -26,7 +26,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "&lt;span lang=\"ES-TRAD\" style=\"font-family: &amp;quot;Arial&amp;quot;,sans-serif; mso-fareast-font-family: &amp;quot;Times New Roman&amp;quot;; mso-ansi-language: ES-TRAD; mso-fareast-language: ES\"&gt;&lt;font size=\"3\"&gt;Adquisici\u00f3n, suministro, instalaci\u00f3n y puesta en marcha de nuevo sistema inform\u00e1tico de \u00faltima generaci\u00f3n para la actualizaci\u00f3n de la Resonancia Magn\u00e9tica, Marca Philips y N/S: ES2357307 ubicada en el Servicio de Radiodiagn\u00f3stico del Hospital Puerta de Hierro Majadahonda.&lt;/font&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/span&gt;",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cac:BudgetAmount": {
@@ -58,6 +58,28 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28017143"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "PHILIPS IB\u00c9RICA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "139999"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -80,25 +102,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "BOCM",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-05"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-05"
                     }
                 }
-            ]
-        }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-25"
+                    }
+                }
+            }
+        ]
     }
 }

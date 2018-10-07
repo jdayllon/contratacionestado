@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2232652",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=180620075814D0B295A9"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=1000&Ticket=180926090518C8982A93"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 0005-0400-2018-000005; \u00d3rgano de Contrataci\u00f3n: Departamento de Presidencia, Funci\u00f3n P\u00fablica, Interior y Justicia; Importe: 42148,76 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 0005-0400-2018-000005; \u00d3rgano de Contrataci\u00f3n: Departamento de Presidencia, Funci\u00f3n P\u00fablica, Interior y Justicia; Importe: 42148,76 EUR; Estado: Adjudicada"
     },
     "title": "Sistema de gesti\u00f3n de Tarjetas Inteligentes para Profesionales (TIP)",
-    "updated": "2018-07-06T01:00:11.052+02:00",
+    "updated": "2018-09-26T11:00:05.233+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "0005-0400-2018-000005",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -58,8 +58,34 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:StartDate": "2018-08-01",
+                "cbc:StartDate": "2018-10-01",
                 "cbc:EndDate": "2018-12-31"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B47707583"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Desarrollo Aplicaciones Tarjeta Inteligente S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "41890"
+                    }
+                }
             }
         },
         "cac:TenderingProcess": {
@@ -68,22 +94,36 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-07-05"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-06-21"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-07-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-26"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02022431)-AT-SV-1306/18; \u00d3rgano de Contrataci\u00f3n: Expo Zaragoza Empresarial, S.A.; Importe: 96000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02022431)-AT-SV-1306/18; \u00d3rgano de Contrataci\u00f3n: Expo Zaragoza Empresarial, S.A.; Importe: 96000 EUR; Estado: RES"
     },
     "title": "Redacci\u00f3n de proyecto y direcci\u00f3n facultativa de de las obras de adecuaci\u00f3n del Pabell\u00f3n Puente para albergar nuevos contenidos expositivos.",
-    "updated": "2018-07-20T13:00:31.501+02:00",
+    "updated": "2018-10-04T14:07:37.381+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02022431)-AT-SV-1306/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Redacci\u00f3n de proyecto y direcci\u00f3n facultativa de de las obras de adecuaci\u00f3n del Pabell\u00f3n Puente para albergar nuevos contenidos expositivos.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -96,6 +96,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa en aplicaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en la cl\u00e1usula 9 del PCP",
+            "cbc:AwardDate": "2018-09-10",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "1306",
+                "cbc:IssueDate": "2018-10-03"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A48283964"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "IDOM CONSULTING, ENGINEERING, ARCHITECTURE, S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "81600"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "98736"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "true",
             "cac:RequiredFinancialGuarantee": {
@@ -111,13 +147,15 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                         "#text": "OSR-COMPTASK"
-                    }
+                    },
+                    "cbc:Description": "Haber realizado al menos dos trabajos en los \u00faltimos cinco a\u00f1os con las caracter\u00edsticas establecidas en la cl\u00e1usula 10.2.2\u00ba del PCP"
                 },
                 "cac:FinancialEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "3"
-                    }
+                    },
+                    "cbc:Description": "Importe superior a 500.000 \u20ac"
                 },
                 "cac:SpecificTendererRequirement": {
                     "cbc:RequirementTypeCode": {
@@ -130,11 +168,7 @@
                 "cac:AwardingCriteria": [
                     {
                         "cbc:Description": "Ver cl\u00e1usula 9.2 del PCP",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Ver cl\u00e1usula 9.2 del PCP",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Ver cl\u00e1usula 9.1 del PCP",
@@ -146,7 +180,11 @@
                     },
                     {
                         "cbc:Description": "Ver cl\u00e1usula 9.2 del PCP",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Ver cl\u00e1usula 9.2 del PCP",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -190,6 +228,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -212,8 +262,23 @@
                         },
                         {
                             "cbc:IssueDate": "2018-07-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-28"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
+                    }
                 }
             }
         ]

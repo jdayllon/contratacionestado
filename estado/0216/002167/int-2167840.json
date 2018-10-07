@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/38; \u00d3rgano de Contrataci\u00f3n: Presidenc\u00eda del Centro de Investigaciones Sociol\u00f3gicas; Importe: 183443.69 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/38; \u00d3rgano de Contrataci\u00f3n: Presidenc\u00eda del Centro de Investigaciones Sociol\u00f3gicas; Importe: 183443.69 EUR; Estado: RES"
     },
     "title": "Encuesta telef\u00f3nica mensual, incluyendo el trabajo de campo y el tratamiento de la informaci\u00f3n, necesaria para la elaboraci\u00f3n del indicador de confianza del consumidor  del CIS.",
-    "updated": "2018-05-21T08:05:35.430+02:00",
+    "updated": "2018-10-01T08:05:54.539+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/38",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Encuesta telef\u00f3nica mensual, incluyendo el trabajo de campo y el tratamiento de la informaci\u00f3n, necesaria para la elaboraci\u00f3n del indicador de confianza del consumidor  del CIS.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -116,6 +116,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor puntuaci\u00f3n obtenida en la valoraci\u00f3n de los criterios de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2018-08-10",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "124900"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "180000"
+            },
+            "cbc:StartDate": "2018-09-14",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-09-14"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B83733089"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SIGMA DOS AN\u00c1LISIS E INVESTIGACI\u00d3N S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "124900"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "151129"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -129,31 +174,27 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Procesos de selecci\u00f3n de la muestra de individuos dentro del hogar familiar",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Ampliaci\u00f3n de la muestra",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Porcentaje de supervisi\u00f3n telef\u00f3nica posterior",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
-                        "cbc:Description": "Precio ofertado",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "Caracter\u00edsticas del equipo para CATI",
+                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "Tiempos de trabajo de campo",
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Medios humanos aplicados al trabajo",
+                        "cbc:Description": "Precio ofertado",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Procesos de selecci\u00f3n de la muestra de individuos dentro del hogar familiar",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "n\u00famero de cabinas para CATY",
+                        "cbc:Description": "Porcentaje de supervisi\u00f3n telef\u00f3nica posterior",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Forma de selecci\u00f3n de la muestra",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -161,11 +202,15 @@
                         "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Caracter\u00edsticas del equipo para CATI",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "n\u00famero de cabinas para CATY",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Forma de selecci\u00f3n de la muestra",
+                        "cbc:Description": "Ampliaci\u00f3n de la muestra",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Medios humanos aplicados al trabajo",
                         "cbc:WeightNumeric": "5"
                     }
                 ]
@@ -234,6 +279,43 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-01"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-09-27"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-21"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -252,6 +334,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-05-17"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
                     }
                 }
             }

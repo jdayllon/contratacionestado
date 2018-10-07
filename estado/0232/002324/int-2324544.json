@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CCV/2018/00511; \u00d3rgano de Contrataci\u00f3n: Club de Campo Villa de Madrid, S.A.; Importe: 85000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: CCV/2018/00511; \u00d3rgano de Contrataci\u00f3n: Club de Campo Villa de Madrid, S.A.; Importe: 85000 EUR; Estado: ADJ"
     },
     "title": "Contrato de seguro de vida del personal laboral y directivo del Club de Campo Villa de Madrid",
-    "updated": "2018-07-31T14:17:33.430+02:00",
+    "updated": "2018-09-28T12:39:21.317+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CCV/2018/00511",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrato de seguro de vida del personal laboral y directivo del Club de Campo Villa de Madrid",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -115,10 +115,57 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El organo de contratacion, a propuesta de la mesa de contratacion, adjudica el contrato a la empresa que presenta la mejor oferta y que reune todos los requisitos exigidos en los pliegos de condiciones tecnicas y administrativas.",
+            "cbc:AwardDate": "2018-09-18",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "37137.78"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "69986.83"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28013050"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CAJA DE SEGUROS REUNIDOS COMPA\u00d1IA DE SEGUROS Y REASEGUROS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37137.78"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37137.78"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "CErtificado en vigor de la direccion general de seguros y fondos de pensiones del Ministerio de Economia y Hacienda de estar autorizado para operar en el ramo objeto del contrato al que se presenta licitacion"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -132,22 +179,15 @@
                             "#text": "ZZZ"
                         },
                         "cbc:Description": "Documento acreditativo de la inscripcion en el Registro Especial de Empresas ASeguradoras."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
-                        "cbc:Description": "CErtificado en vigor de la direccion general de seguros y fondos de pensiones del Ministerio de Economia y Hacienda de estar autorizado para operar en el ramo objeto del contrato al que se presenta licitacion"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "En el ambito de actividades similares al objeto del contrato cuyo volumen de facturacion anual, en cada uno de los tres ultimos ejercicios (2015-2016-2017) sea igual o superior a, 3.000.000,00\u20ac IVA excluido."
+                        "cbc:Description": "Alternativamente a los requisitos anteriores el licitador podra presentar las cuentas anuales correspondientes a los dos ejercicios economicos fiscales inmediatamente anteriores."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -158,16 +198,28 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "5"
                         },
-                        "cbc:Description": "Alternativamente a los requisitos anteriores el licitador podra presentar las cuentas anuales correspondientes a los dos ejercicios economicos fiscales inmediatamente anteriores."
+                        "cbc:Description": "En el ambito de actividades similares al objeto del contrato cuyo volumen de facturacion anual, en cada uno de los tres ultimos ejercicios (2015-2016-2017) sea igual o superior a, 3.000.000,00\u20ac IVA excluido."
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -180,18 +232,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "12"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
                         }
                     }
                 ]
@@ -257,6 +297,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

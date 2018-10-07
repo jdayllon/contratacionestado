@@ -5,21 +5,21 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 6011800066;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Transportes, Vivienda e Infraestructuras\u00b7\u00b7>Empresa P\u00fablica de Metro de Madrid, Sociedad An\u00f3nima;Importe: 7726940.91 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: 6011800066;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Transportes, Vivienda e Infraestructuras\u00b7\u00b7>Empresa P\u00fablica de Metro de Madrid, S.A.;Importe: 7726940.91 EUR;Estado: ADJUDICADA"
     },
     "title": "Ejecuci\u00f3n de una obra de instalaci\u00f3n de sistemas de comunicaciones RAILNET en la L\u00ednea 8 de Metro de Madrid",
-    "updated": "2018-07-10T10:40:27.421+02:00",
+    "updated": "2018-09-21T09:25:34.322+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "6011800066",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
                 "cac:PartyName": {
-                    "cbc:Name": "Empresa P\u00fablica de Metro de Madrid, Sociedad An\u00f3nima"
+                    "cbc:Name": "Empresa P\u00fablica de Metro de Madrid, S.A."
                 }
             },
             "cac-place-ext:ParentLocatedParty": {
@@ -114,6 +114,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A82018474"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TELEF\u00d3NICA DE ESPA\u00d1A, S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "5895259.35"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -136,25 +162,39 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "BOCM",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-04-11"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOCM",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-04-11"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-04-11"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-04-11"
+                        "cbc:IssueDate": "2018-09-20"
                     }
                 }
-            ]
-        }
+            }
+        ]
     }
 }

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 1023/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas, M.P.; Importe: 61920 EUR; Estado: PUB"
     },
     "title": "Servicio de vigilancia de la Delegaci\u00f3n del Consejo en Valencia",
-    "updated": "2018-09-24T17:09:41.386+02:00",
+    "updated": "2018-10-02T08:05:09.675+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1023/19",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de vigilancia de la Delegaci\u00f3n del Consejo en Valencia",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -122,16 +122,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Seg\u00fan anexo 3 del PCAP. Para empresas de menos de 5 a\u00f1os."
+                        "cbc:Description": "Seg\u00fan anexo 3 del PCAP. Para empresas de m\u00e1s de 5 a\u00f1os"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "Seg\u00fan anexo 3 del PCAP. Para empresas de m\u00e1s de 5 a\u00f1os"
+                        "cbc:Description": "Seg\u00fan anexo 3 del PCAP. Para empresas de menos de 5 a\u00f1os."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -151,12 +151,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
@@ -164,6 +158,12 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
                         }
                     }
                 ]
@@ -179,16 +179,16 @@
                         "cbc:WeightNumeric": "49"
                     },
                     {
-                        "cbc:Description": "Mejoras y/o aportaciones adicionales evaluables mediante f\u00f3rmula",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
                         "cbc:Description": "Sistemas de control y seguimiento que utilizar\u00e1 para garantizar la correcta ejecuci\u00f3n del contrato.",
                         "cbc:WeightNumeric": "16"
                     },
                     {
                         "cbc:Description": "Medidas socio-laborales del personal encargado de la ejecuci\u00f3n del contrato",
                         "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Mejoras y/o aportaciones adicionales evaluables mediante f\u00f3rmula",
+                        "cbc:WeightNumeric": "8"
                     }
                 ]
             },
@@ -243,12 +243,20 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
-                "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-21"
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-02"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-09-21"
+                        }
                     }
-                }
+                ]
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -263,6 +271,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-09-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-28"
                         }
                     ]
                 }

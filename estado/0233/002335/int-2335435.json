@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CC/CA/020/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Langreo ; Importe: 125619.84 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: CC/CA/020/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Langreo ; Importe: 125619.84 EUR; Estado: RES"
     },
     "title": "Servicio de externalizaci\u00f3n del centro de proceso de datos (CPD) del Ayuntamiento de Langreo a uno externo.",
-    "updated": "2018-08-03T12:25:35.928+02:00",
+    "updated": "2018-10-04T13:47:28.902+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CC/CA/020/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de externalizaci\u00f3n del centro de proceso de datos (CPD) del Ayuntamiento de Langreo a uno externo.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La adjudicaci\u00f3n se ha realizado seg\u00fan lo establecido en los pliegos, adjudic\u00e1ndose la misma a la \u00fanica oferta presentada, que cumple con los requisitos exigidos.",
+            "cbc:AwardDate": "2018-09-18",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "CC/CA/020/2018",
+                "cbc:IssueDate": "2018-09-27"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B33490426"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ASAC COMUNICACIONES SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "124080"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "150136.8"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -135,13 +171,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
@@ -159,7 +189,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
                         }
                     }
                 ]
@@ -167,20 +203,8 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta t\u00e9cnica",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
                         "cbc:Description": "Soluci\u00f3n de Backup propuesta",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Sistema virtual en alta disponibilidad geogr\u00e1fica",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "40"
                     },
                     {
                         "cbc:Description": "Incremento en las jornadas de formaci\u00f3n",
@@ -191,11 +215,23 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "Plazo de migraci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Oferta t\u00e9cnica",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
                         "cbc:Description": "Incremento del tama\u00f1o en disco SSD",
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Plazo de migraci\u00f3n",
+                        "cbc:Description": "Sistema virtual en alta disponibilidad geogr\u00e1fica",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -257,6 +293,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -275,6 +323,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
                     }
                 }
             }

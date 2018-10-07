@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 51/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de \u00c1vila; Importe: 63772.47 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 51/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de \u00c1vila; Importe: 63772.47 EUR; Estado: RES"
     },
     "title": "Servicio de redacci\u00f3n del proyecto de ejecuci\u00f3n, direcci\u00f3n facultativa de la obra, y coordinaci\u00f3n de la ampliaci\u00f3n de la infraestructura el\u00e9ctrica del P.I. Hervencias.",
-    "updated": "2018-07-31T18:28:16.950+02:00",
+    "updated": "2018-10-04T14:51:47.110+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "51/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de redacci\u00f3n del proyecto de ejecuci\u00f3n, direcci\u00f3n facultativa de la obra, y coordinaci\u00f3n de la ampliaci\u00f3n de la infraestructura el\u00e9ctrica del P.I. Hervencias.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Entidad cuya oferta obtiene la m\u00e1xima puntuaci\u00f3n el c\u00f3mputo global",
+            "cbc:AwardDate": "2018-09-13",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:Contract": {
+                "cbc:ID": "51/2018",
+                "cbc:IssueDate": "2018-09-27"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B10443661"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TEOC MEDIOAMBIENTE S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29300"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "35453"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -128,14 +164,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-TITULOS"
                         },
                         "cbc:Description": "Seg\u00fan cl\u00e1usula 6\u00aa del PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
+                            "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Seg\u00fan cl\u00e1usula 6\u00aa del PCAP"
                     }
@@ -144,16 +180,28 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         },
                         "cbc:Description": "Seg\u00fan cl\u00e1usula 6\u00aa del PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "3"
                         },
                         "cbc:Description": "Seg\u00fan cl\u00e1usula 6\u00aa del PCAP"
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Plazo de entrega",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -202,6 +250,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -220,6 +280,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
                     }
                 }
             }

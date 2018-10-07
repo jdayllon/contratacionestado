@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: FUE-51/2018; \u00d3rgano de Contrataci\u00f3n: Aena. Direcci\u00f3n de Contrataci\u00f3n; Importe: 1296000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: FUE-51/2018; \u00d3rgano de Contrataci\u00f3n: Aena. Direcci\u00f3n de Contrataci\u00f3n; Importe: 1296000 EUR; Estado: RES"
     },
     "title": "Mantenimiento De Zonas No Pavimentadas Del Campo De Vuelos, Urbanizacion Y Accesos Aeropuerto De Fuerteventura.",
-    "updated": "2018-07-10T12:40:55.363+02:00",
+    "updated": "2018-10-04T13:11:06.174+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "FUE-51/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -79,7 +79,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento De Zonas No Pavimentadas Del Campo De Vuelos, Urbanizacion Y Accesos Aeropuerto De Fuerteventura.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -121,10 +121,8 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "ANN",
-                    "#text": "3"
-                }
+                "cbc:StartDate": "2018-08-01",
+                "cbc:EndDate": "2021-08-01"
             }
         },
         "cac:TenderResult": {
@@ -135,6 +133,10 @@
             "cbc:Description": "El criterio establecido para la adjudicaci\u00f3n del presente contrato es la mejor relaci\u00f3n calidad-precio.",
             "cbc:AwardDate": "2018-07-05",
             "cbc:ReceivedTenderQuantity": "7",
+            "cac:Contract": {
+                "cbc:ID": "FUE-51/2018",
+                "cbc:IssueDate": "2018-08-01"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -182,17 +184,36 @@
                 "cbc:Description": "Hora peninsular"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-07-10"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-07-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-04"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }

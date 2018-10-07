@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018-068; \u00d3rgano de Contrataci\u00f3n: Gerencia Calvi\u00e1 2000; Importe: 34995 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2018-068; \u00d3rgano de Contrataci\u00f3n: Gerencia Calvi\u00e1 2000; Importe: 34995 EUR; Estado: RES"
     },
     "title": "Suministro de maquinaria mediante alquiler mediante procedimiento abierto simplificado seg\u00fan el art\u00edculo 159.6 Ley 9/2017",
-    "updated": "2018-08-08T13:14:18.571+02:00",
+    "updated": "2018-09-27T10:26:32.391+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018-068",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,7 +81,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de maquinaria mediante alquiler mediante procedimiento abierto simplificado seg\u00fan el art\u00edculo 159.6 Ley 9/2017",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -131,6 +131,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser la oferta con mejor relaci\u00f3n calidad-precio",
+            "cbc:AwardDate": "2018-09-26",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2018-09-28",
+            "cac:Contract": {
+                "cbc:ID": "2018-068",
+                "cbc:IssueDate": "2018-09-27"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B80914682"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GUILLEN MARTEL HNOS S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "34995"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "42343.95"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:Language": {
@@ -151,28 +188,59 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-07-05"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-07-12"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-07-20"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-08-08"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-07-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-07-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-08"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

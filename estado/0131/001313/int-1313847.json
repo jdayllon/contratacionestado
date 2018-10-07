@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 160643; \u00d3rgano de Contrataci\u00f3n: Paradores de Turismo de Espa\u00f1a, S.M.E., S.A.; Importe: 7391.06 EUR; Estado: RES"
     },
     "title": "Servicio de recogida/transporte y gesti\u00f3n del residuo aceite usado de cocina en los establecimientos de Paradores de Turismo de Espa\u00f1a, S.A.",
-    "updated": "2017-11-06T17:53:37.371+01:00",
+    "updated": "2018-10-05T11:17:49.148+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "160643",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de recogida/transporte y gesti\u00f3n del residuo aceite usado de cocina en los establecimientos de Paradores de Turismo de Espa\u00f1a, S.A.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -228,7 +228,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -383,24 +383,44 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2017-11-06"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2017-11-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-05"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:Note": "1\u00aa Pr\u00f3rroga del contrato.",
-            "cbc:ContractModificationDurationMeasure": {
-                "@unitCode": "ANN",
-                "#text": "1"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "1\u00aa Pr\u00f3rroga del contrato.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                },
+                "cbc:ContractID": "160643"
             },
-            "cbc:FinalDurationMeasure": {
-                "@unitCode": "ANN",
-                "#text": "2"
-            },
-            "cbc:ContractID": "160643"
-        }
+            {
+                "cbc:ID": "2",
+                "cbc:Note": "2\u00aa Pr\u00f3rroga del contrato.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "3"
+                },
+                "cbc:ContractID": "160643"
+            }
+        ]
     }
 }

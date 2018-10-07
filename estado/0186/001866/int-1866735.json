@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 25/17; \u00d3rgano de Contrataci\u00f3n: Serveis Ferroviaris de Mallorca (SFM); Importe: 490000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 25/17; \u00d3rgano de Contrataci\u00f3n: Serveis Ferroviaris de Mallorca (SFM); Importe: 490000 EUR; Estado: RES"
     },
     "title": "Suministro material revisi\u00f3n intermedia trenes serie 8100 SFM (Lote 1: reconstrucci\u00f3n equipos de neum\u00e1tica), Lote 2: suministro equipos para soporte reparaciones neum\u00e1tica y mantenimiento)",
-    "updated": "2018-07-13T09:38:09.970+02:00",
+    "updated": "2018-09-28T09:30:41.323+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "25/17",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro material revisi\u00f3n intermedia trenes serie 8100 SFM (Lote 1: reconstrucci\u00f3n equipos de neum\u00e1tica), Lote 2: suministro equipos para soporte reparaciones neum\u00e1tica y mantenimiento)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -105,68 +105,134 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "2"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Suministro equipos para soporte de las reparaciones de neum\u00e1tica y mantenimiento",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "90508"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "74800"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "34631000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Reconstrucci\u00f3n de equipos de neum\u00e1tica",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "502392"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "415200"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "34631000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Suministro equipos para soporte de las reparaciones de neum\u00e1tica y mantenimiento",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "90508"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "74800"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "34631000"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "El Presidente de SFM en fecha 7/05/2018 dict\u00f3 resoluci\u00f3n adjudicando el Lote II del Exp. 25/17 a la entidad FAIVELEY TRANSPORT IB\u00c9RICA, S.AU",
-            "cbc:AwardDate": "2018-05-07",
-            "cbc:ReceivedTenderQuantity": "1",
-            "cac:Contract": {
-                "cbc:ID": "25/17 Lote II",
-                "cbc:IssueDate": "2018-05-31"
-            },
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "A28163335"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "El Presidente de SFM dict\u00f3 resoluci\u00f3n de adjudicaci\u00f3n a favor de FAIVELEY Transport Ib\u00e9rica, S.A en fecha 2 de julio de 2018.",
+                "cbc:AwardDate": "2018-07-02",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cac:Contract": {
+                    "cbc:ID": "25/17 Lote I",
+                    "cbc:IssueDate": "2018-07-24"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A28163335"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "FAIVELEY TRANSPORT IBERICA, S.A"
                     }
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "FAIVELEY TRANSPORT IBERICA, S.A"
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "231286.09"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "279856.15"
+                        }
+                    }
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "74453.24"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "El Presidente de SFM en fecha 7/05/2018 dict\u00f3 resoluci\u00f3n adjudicando el Lote II del Exp. 25/17 a la entidad FAIVELEY TRANSPORT IB\u00c9RICA, S.AU",
+                "cbc:AwardDate": "2018-05-07",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:Contract": {
+                    "cbc:ID": "25/17 Lote II",
+                    "cbc:IssueDate": "2018-05-31"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A28163335"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "90088.42"
+                    "cac:PartyName": {
+                        "cbc:Name": "FAIVELEY TRANSPORT IBERICA, S.A"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "74453.24"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "90088.42"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -282,9 +348,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-13"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-08"
+                        }
+                    ]
                 }
             },
             {
@@ -294,9 +365,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-11"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-03"
+                        }
+                    ]
                 }
             },
             {
@@ -338,9 +414,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-13"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-06"
+                        }
+                    ]
                 }
             }
         ]

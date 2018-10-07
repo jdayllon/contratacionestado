@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA-12/18; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Polit\u00e9cnica de Cartagena; Importe: 84000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA-12/18; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Polit\u00e9cnica de Cartagena; Importe: 84000 EUR; Estado: ADJ"
     },
     "title": "Servicio de mudanzas para la Universidad Polit\u00e9cnica de Cartagena",
-    "updated": "2018-03-08T11:18:41.186+01:00",
+    "updated": "2018-10-03T13:06:58.304+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA-12/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de mudanzas para la Universidad Polit\u00e9cnica de Cartagena",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -109,6 +109,38 @@
                 "cbc:OptionsDescription": "Posibilidad de 2 pr\u00f3rrogas de un a\u00f1o de duraci\u00f3n cada una."
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa para la Universidad",
+            "cbc:AwardDate": "2018-09-21",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B73887127"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VPROYECTA OFICINAS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "84000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "101640"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -147,6 +179,18 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     },
@@ -159,19 +203,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
                         }
                     }
                 ]
@@ -182,7 +214,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Precio de mano de obra del personal por hora en jornada festiva o nocturna",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Precio por unidad de hora de trabajo de furgoneta tipo mixto pasajeros y carga",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Bolsa de horas en concepto de trabajos extraordinarios",
                         "cbc:WeightNumeric": "15"
                     },
                     {
@@ -190,24 +230,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio de mano de obra del personal por hora normal",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
-                        "cbc:Description": "Bolsa de horas en concepto de trabajos extraordinarios",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Precio por unidad de hora trabajo de cami\u00f3n de hasta 3.500 kg de carga con plataforma",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Precio por caja de embalaje",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Precio por unidad de hora trabajo de cami\u00f3n de hasta 3.500 kg de carga con plataforma",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Precio de mano de obra del personal por hora en jornada festiva o nocturna",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Precio de mano de obra del personal por hora normal",
+                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -217,7 +249,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -262,6 +294,18 @@
                     "cbc-place-ext:PublicationMediaName": "BOE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-03-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
                     }
                 }
             },

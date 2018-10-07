@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: J180076; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Educaci\u00f3n, Cultura y Deporte; Importe: 257449.46 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: J180076; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Educaci\u00f3n, Cultura y Deporte; Importe: 257449.46 EUR; Estado: PUB"
     },
     "title": "Servicio de mantenimiento de las instalaciones de climatizaci\u00f3n, calefacci\u00f3n y aparatos aut\u00f3nomos de aire acondicionado en las dependencias del Ministerio de Educaci\u00f3n y Formaci\u00f3n Profesional.",
-    "updated": "2018-08-03T09:31:11.928+02:00",
+    "updated": "2018-10-03T09:28:34.510+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "J180076",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -75,7 +75,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de mantenimiento de las instalaciones de climatizaci\u00f3n, calefacci\u00f3n y aparatos aut\u00f3nomos de aire acondicionado en las dependencias del Ministerio de Educaci\u00f3n y Formaci\u00f3n Profesional.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -100,13 +100,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "50720000"
+                        "#text": "50730000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "50730000"
+                        "#text": "50720000"
                     }
                 }
             ],
@@ -125,10 +125,75 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                }
+            },
+            "cac:ContractExtension": {
+                "cbc:OptionsDescription": "Seg\u00fan punto 5 del Anexo I del PCAP",
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "Maximo 4 a\u00f1os"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "Seg\u00fan punto 6 del Anexo I del PCAP"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Seg\u00fan punto 6 del Anexo I del PCAP"
+                },
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Oferta T\u00e9cnica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Franquicia de materiales",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -141,9 +206,77 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-10-15",
+                "cbc:EndTime": "15:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-10-15",
+                "cbc:EndTime": "15:00:00",
+                "cbc:Description": "Servicio de mantenimiento de las instalaciones de climatizaci\u00f3n, calefacci\u00f3n y aparatos aut\u00f3nomos de aire acondicionado en las dependencias del Ministerio de Educaci\u00f3n y Formaci\u00f3n Profesional."
             }
         },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "J180076 PLIEGO ADM.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=007b78ed-75a1-422a-a7e9-7683244f7473",
+                    "cbc:DocumentHash": "jdieTRpz6BcYwmth+BZDiOqZt5c="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "J180076 PLIEGO TEC.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1909cc5c-b345-4def-b1d0-fe7251e30b38",
+                    "cbc:DocumentHash": "4ZEAd3O42rFeMt98u8MnaJEWKkY="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "J180076 espd request DEUC.xml",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0b6c7abb-1f84-44f7-8ea9-6b253cc2962b",
+                        "cbc:DocumentHash": "Gr+eMvqDeQWDhn/LHi4FEIb21rU="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "J180076 Direccion DEUC ELECTRONICO.docx",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=55cb370d-304f-4d2b-a20e-22989cad8f9c",
+                        "cbc:DocumentHash": "lZ+/EO2taiE9tpe/NLXdwhR+4D8="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "J180076 VISITA INSTALACIONES.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c184bb09-ef67-4dc5-a723-77941d1ad06a",
+                        "cbc:DocumentHash": "A4CtoBHem89XmRMoBX2j7RTxouE="
+                    }
+                }
+            }
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-02"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -153,6 +286,35 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-03"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
                     }
                 }
             },

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id Licitaci\u00f3n: 17-979_08486, \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Turismo, Internacionalizaci\u00f3n y Acci\u00f3n exterior, Importe: 2273645.39, Estado: Pendiente de adjudicaci\u00f3n"
+        "#text": "Id Licitaci\u00f3n: 17-979_08486, \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Turismo, Internacionalizaci\u00f3n y Acci\u00f3n exterior, Importe: 2273645.39, Estado: Resuelta"
     },
     "title": "Contrato de obras del proyecto de remodelaci\u00f3n de la avenida Alcalde Walter Paetzman y de la calle Bischofshofen, de Adeje",
-    "updated": "2018-06-29T11:20:49.680+02:00",
+    "updated": "2018-09-24T08:19:33.769+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "17-979_08486",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -36,6 +36,10 @@
                 "#text": "3"
             },
             "cac:BudgetAmount": {
+                "cbc:EstimatedOverallContractAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "2273645.39"
+                },
                 "cbc:TaxExclusiveAmount": {
                     "@currencyID": "EUR",
                     "#text": "2273645.39"
@@ -60,12 +64,46 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES709"
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:StartDate": "2018-10-04",
+                "cbc:EndDate": "2019-09-04"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "11",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "U76771807"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UTE Comsa, S.A.U. - Excavaciones Bah\u00edllo, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1807774.88"
+                    }
+                }
             }
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-03-28",
+                "cbc:EndTime": "00:00:00"
             }
         },
         "cac:LegalDocumentReference": {
@@ -76,17 +114,43 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-03-02"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-03-02"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-24"
+                    }
                 }
             }
-        }
+        ]
     }
 }

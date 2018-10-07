@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: FG0012018; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de la Fundaci\u00f3n General de la Universidad de Castilla La Mancha; Importe: 12218.18 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: FG0012018; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de la Fundaci\u00f3n General de la Universidad de Castilla La Mancha; Importe: 12218.18 EUR; Estado: RES"
     },
     "title": "Servicio de gesti\u00f3n de n\u00f3minas y asesoramiento y gesti\u00f3n fiscal",
-    "updated": "2018-08-21T11:09:05.205+02:00",
+    "updated": "2018-10-02T11:55:26.308+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "FG0012018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -70,7 +70,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de gesti\u00f3n de n\u00f3minas y asesoramiento y gesti\u00f3n fiscal",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -126,6 +126,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta que cumple con las necesidades y los requisitos especificados en el pliego de Condiciones particulaes y t\u00e9cnicas",
+            "cbc:AwardDate": "2018-09-24",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2018-10-01",
+            "cac:Contract": {
+                "cbc:ID": "FG0012018",
+                "cbc:IssueDate": "2018-09-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B81459190"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EUROGEST 21 Y ASOCIADOS"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "10390"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "12571.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:Language": {
@@ -165,16 +202,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "ANEXO I OFERTA ECONOMICA.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b98046a2-5492-41a2-927e-d47d29ae181b",
-                    "cbc:DocumentHash": "hXFEDYYpFAK1LXVUI21LeudiF48="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "ANEXO I OFERTA ECONOMICA.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b98046a2-5492-41a2-927e-d47d29ae181b",
+                        "cbc:DocumentHash": "hXFEDYYpFAK1LXVUI21LeudiF48="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "acta mesa 1 fg0012018.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6bfe8cff-c853-457b-aa79-d5e224b9b672",
+                        "cbc:DocumentHash": "iPA5a4T58/fePLrJrnRh0Zfe8Oc="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-02"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -196,6 +256,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-02"
                     }
                 }
             }

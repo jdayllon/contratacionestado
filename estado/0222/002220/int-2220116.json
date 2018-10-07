@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/CTR/0900123; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de la Agencia Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo (AECID); Importe: 200160 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 2018/CTR/0900123; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de la Agencia Espa\u00f1ola de Cooperaci\u00f3n Internacional para el Desarrollo (AECID); Importe: 200160 EUR; Estado: PUB"
     },
     "title": "Servicio de catering para los eventos y reuniones de la Agencia Espa\u00f1ola de Cooperaci\u00f3n Internacional para el desarrollo.",
-    "updated": "2018-07-20T13:12:45.096+02:00",
+    "updated": "2018-09-27T15:36:08.165+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/CTR/0900123",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de catering para los eventos y reuniones de la Agencia Espa\u00f1ola de Cooperaci\u00f3n Internacional para el desarrollo.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -98,10 +98,74 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "Los licitadores deber\u00e1n haber realizado servicios o trabajos de hosteler\u00eda de igual o similar naturaleza, en los que se haya utilizado al menos 4 productos de comercio justo debidamente certificados, en los \u00faltimos tres a\u00f1os."
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "3"
+                    },
+                    "cbc:Description": "Se exige tener suscrito un Seguro de indemnizaci\u00f3n por riesgos profesionales que incluya riesgo por intoxicaci\u00f3n alimentaria por una suma asegurada m\u00ednima de 100.000,00 \u20ac."
+                },
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Mejoras en los productos ofrecidos: A)\tPor incluir m\u00e1s productos de comercio justo de los exigidos como solvencia t\u00e9cnica en los pliegos (m\u00ednimo 4 productos)",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Catering de reuni\u00f3n: 5 ptos.; Catering de desayuno: 20 ptos.; Catering de almuerzo: 25 ptos.; Catering de discurso o presentaci\u00f3n: 10 ptos.",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Mejoras en los productos ofrecidos: B)\tPor la inclusi\u00f3n de productos ecol\u00f3gicos de proximidad debidamente certificados",
+                        "cbc:WeightNumeric": "15"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -114,19 +178,113 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-10-09",
+                "cbc:EndTime": "12:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-10-17",
+                "cbc:EndTime": "12:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-07-20"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP_123 Catering definitivo.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=891aa034-3c3f-4b48-ab93-4d1c5e9ca4a1",
+                    "cbc:DocumentHash": "C0y64wOOoNSwx84OH7DEbw9ogWQ="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT Catering.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1e110c73-a0b9-4bd1-acb4-bb901755f68b",
+                    "cbc:DocumentHash": "l/d41+2lFK37JJr/FfwBFBdV6i8="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "espd-request.zip",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1d4a8286-3dbc-440b-bb86-3f3ba473414e",
+                        "cbc:DocumentHash": "bLPjsKtLN5+vIJd8l2QXyHEWOTI="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "RECTIFICACION ERRORES  PCAP.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=fc951888-9d85-4009-a669-bd7476c7a593",
+                        "cbc:DocumentHash": "BnLYDK4AGX9ENetBvyQUkNvSAGA="
+                    }
+                }
+            }
+        ],
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-07-20"
+                    }
+                }
+            }
+        ]
     }
 }

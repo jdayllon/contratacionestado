@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2322057",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=180727150104A9AD9F39"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=1009&Ticket=18100309464110641598"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 00001119-2018-0040; \u00d3rgano de Contrataci\u00f3n: Desarrollo Rural, Medio Ambiente y Administraci\u00f3n Local; Importe: 118360,36 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 00001119-2018-0040; \u00d3rgano de Contrataci\u00f3n: Desarrollo Rural, Medio Ambiente y Administraci\u00f3n Local; Importe: 118360,36 EUR; Estado: Adjudicada"
     },
     "title": "Proyecto de Clasificaci\u00f3n y Deslinde de las V\u00edas Pecuarias de las Bardenas Reales",
-    "updated": "2018-08-13T15:00:16.279+02:00",
+    "updated": "2018-10-03T11:00:11.227+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "00001119-2018-0040",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -32,7 +32,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Proyecto de Clasificaci\u00f3n y Deslinde de las V\u00edas Pecuarias de las Bardenas Reales",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cac:BudgetAmount": {
@@ -58,9 +58,33 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "DAY",
-                    "#text": "15"
+                "cbc:StartDate": "2018-10-15",
+                "cbc:EndDate": "2019-10-30"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B31565377"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Basartea s.l."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "87200"
+                    }
                 }
             }
         },
@@ -70,22 +94,36 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-13"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-07-30"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-08-13"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

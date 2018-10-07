@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EXP2018/11; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de San Agust\u00edn del Guadalix; Importe: 92798 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: EXP2018/11; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de San Agust\u00edn del Guadalix; Importe: 92798 EUR; Estado: ADJ"
     },
     "title": "Captura, recogida, atenci\u00f3n y gesti\u00f3n de acogidas o adopciones de animales extraviados, abandonados o vagabundos y aplicaci\u00f3n del m\u00e9todo C.E.S. en colonias felinas (2018)",
-    "updated": "2018-07-13T11:04:25.109+02:00",
+    "updated": "2018-10-03T13:36:13.820+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EXP2018/11",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Captura, recogida, atenci\u00f3n y gesti\u00f3n de acogidas o adopciones de animales extraviados, abandonados o vagabundos y aplicaci\u00f3n del m\u00e9todo C.E.S. en colonias felinas (2018)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -120,6 +120,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Al haber obtenido la puntuaci\u00f3n m\u00e1s alta.",
+            "cbc:AwardDate": "2018-09-27",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "11841276W"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Jorge Juan Barranco S\u00e1nchez"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "63708"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "77086.68"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -135,6 +167,13 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-TITULOS"
+                        },
+                        "cbc:Description": "Al menos un veterinario colegiado en posesi\u00f3n del t\u00edtulo de grado en Veterinaria."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Los licitadores deber\u00e1n presentar al menos un certificado de alg\u00fan organismo p\u00fablico o privado en el que hayan prestados servicios similares, por cuant\u00eda m\u00ednima igual al presupuesto de licitaci\u00f3n anual. Podr\u00e1n presentar varios certificados que sumados alcancen dicha cifra."
@@ -145,13 +184,6 @@
                             "#text": "XSR-CALIDAD"
                         },
                         "cbc:Description": "S\u00f3lo para licitadores del LOTE 1. Deber\u00e1 acreditar que el Centro de Acogida asociado al servicio cumple con los art\u00edculos 16 y 17 de la Ley 4/2016 de Protecci\u00f3n de Animales de Compa\u00f1\u00eda de la Comunidad de Madrid.\nTodos los veh\u00edculos para la recogida y traslado de animales contar\u00e1n con el correspondiente permiso de transporte de animales vivos dentro de la Uni\u00f3n Europea."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
-                        },
-                        "cbc:Description": "Al menos un veterinario colegiado en posesi\u00f3n del t\u00edtulo de grado en Veterinaria."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -180,12 +212,12 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Memoria t\u00e9cnica (Lote 1)",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica (Lote 1)",
                         "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Memoria t\u00e9cnica (Lote 1)",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -239,6 +271,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 5104/18; \u00d3rgano de Contrataci\u00f3n: Gerencia de Inform\u00e1tica de la Seguridad Social; Importe: 6014349 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 5104/18; \u00d3rgano de Contrataci\u00f3n: Gerencia de Inform\u00e1tica de la Seguridad Social; Importe: 6014349 EUR; Estado: RES"
     },
     "title": "suministro de licencia de despliegue ilimitado de base de datos Oracle y la prestaci\u00f3n del servicio de mantenimiento de la base instalada de productos Oracle",
-    "updated": "2018-08-09T10:52:16.305+02:00",
+    "updated": "2018-09-28T09:31:20.655+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "5104/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "suministro de licencia de despliegue ilimitado de base de datos Oracle y la prestaci\u00f3n del servicio de mantenimiento de la base instalada de productos Oracle",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -120,6 +120,11 @@
             "cbc:Description": "Procedimiento negociado al amparo del art\u00edculo 168 a) 2\u00ba de la LCSP.",
             "cbc:AwardDate": "2018-08-07",
             "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2018-08-31",
+            "cac:Contract": {
+                "cbc:ID": "5104/18",
+                "cbc:IssueDate": "2018-08-30"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -146,6 +151,12 @@
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": {
+                    "cbc:Description": "Precio m\u00e1s bajo",
+                    "cbc:WeightNumeric": "100"
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -160,17 +171,51 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-09-11"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-09-11"
+                        }
+                    }
+                ]
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-09"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-10"
+                    }
                 }
             }
-        }
+        ]
     }
 }

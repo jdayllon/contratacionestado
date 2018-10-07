@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 429/2017; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Mel\u00f3n; Importe: 124801.89 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 429/2017; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Mel\u00f3n; Importe: 124801.89 EUR; Estado: ADJ"
     },
     "title": "Ejecuci\u00f3n de obras de urbanizaci\u00f3n de una parcela para aparcamiento p\u00fablico",
-    "updated": "2018-08-23T11:26:59.673+02:00",
+    "updated": "2018-09-28T12:05:02.764+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "429/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Ejecuci\u00f3n de obras de urbanizaci\u00f3n de una parcela para aparcamiento p\u00fablico",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -102,6 +102,42 @@
                 "cbc:EndDate": "2018-09-28"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Valoraci\u00f3n dos criterios de adxudicacion\n\n\nLICITADOR\tPrezo (5 puntos)\tReduci\u00f3n prazo (70 puntos)\tAmpliaci\u00f3n garant\u00eda (25 puntos)\tPuntuaci\u00f3n Prezo (P= 5 * (mejor oferta / oferta a valorar)\tPuntuaci\u00f3n Prazo\tPuntuaci\u00f3n Garant\u00eda \tTOTAL\tPosici\u00f3n\nSESTRAMA\t112.321,70\t10\t5\t4,93\t70,00\t25,00\t99,93\t2\nVISO\t124.801,89\t10\t5\t4,44\t70,00\t25,00\t99,44\t3\nMISTURAS\t110.774,00\t10\t5\t5,00\t70,00\t25,00\t100,00\t1",
+            "cbc:AwardDate": "2018-09-17",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "110774"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A32118705"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MISTURAS SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "110774"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "134036.54"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -141,17 +177,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-23"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-23"
+                    }
                 }
             }
-        }
+        ]
     }
 }

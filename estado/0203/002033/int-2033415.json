@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SER-29-2017; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Huesca; Importe: 4476584.02 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: SER-29-2017; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Huesca; Importe: 4476584.02 EUR; Estado: ADJ"
     },
     "title": "Servicio consistente en el despliegue de una red de acceso que permita acometer el \"Proyecto de extensi\u00f3n de banda ancha en la provincia de Huesca\"",
-    "updated": "2018-05-04T10:55:22.365+02:00",
+    "updated": "2018-09-28T13:44:02.354+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-29-2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -48,16 +48,16 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Presidencia de la Diputaci\u00f3n Provincial de Huesca",
-                    "cbc:Telephone": "974294158",
-                    "cbc:Telefax": "974294159",
-                    "cbc:ElectronicMail": "obraspublicas@dphuesca.es"
+                    "cbc:Telephone": "974294108",
+                    "cbc:Telefax": "974294111",
+                    "cbc:ElectronicMail": "contratacion@dphuesca.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio consistente en el despliegue de una red de acceso que permita acometer el \"Proyecto de extensi\u00f3n de banda ancha en la provincia de Huesca\"",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -112,6 +112,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la \u00fanica proposici\u00f3n presentada y cumplir lo exigido en los pliegos de cl\u00e1usulas administrativas particulares",
+            "cbc:AwardDate": "2018-09-28",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B50960129"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Embou Nuevas Tecnolog\u00edas, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3703100"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "4480751"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -158,13 +190,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         }
                     }
                 ]
@@ -176,23 +208,7 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Proyecto t\u00e9cnico",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Por precio mensual m\u00e1ximo para el cliente final del servicio",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Por aumento en el caudal m\u00ednimo garantizado",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Por precio m\u00e1ximo para el alta comercial al cliente final del servicio",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Por aumento del l\u00edmite de descargas sin coste a\u00f1adido",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -200,8 +216,16 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "Proyecto t\u00e9cnico",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Por incremento en la velocidad de subida de la conexi\u00f3n a internet",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Por precio m\u00e1ximo para el alta comercial al cliente final del servicio",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Incremento en la velocidad de bajada de la conexi\u00f3n a internet",
@@ -210,6 +234,14 @@
                     {
                         "cbc:Description": "Precio m\u00e1s bajo",
                         "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Por aumento del l\u00edmite de descargas sin coste a\u00f1adido",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Por precio mensual m\u00e1ximo para el cliente final del servicio",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -314,6 +346,18 @@
                         ]
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {

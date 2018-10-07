@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 30A/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de El Sauzal; Importe: 320829.2 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 30A/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de El Sauzal; Importe: 320829.2 EUR; Estado: ADJ"
     },
     "title": "Suministro de Equipamiento Esc\u00e9nico del Auditorio Municipal de El Sauzal.",
-    "updated": "2018-08-01T09:43:31.070+02:00",
+    "updated": "2018-09-27T13:56:46.396+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "30A/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -50,14 +50,14 @@
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de El Sauzal",
                     "cbc:Telephone": "922570000",
                     "cbc:Telefax": "922570973",
-                    "cbc:ElectronicMail": "jennifer@elsauzal.es"
+                    "cbc:ElectronicMail": "contratacion@elsauzal.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de Equipamiento Esc\u00e9nico del Auditorio Municipal de El Sauzal.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -112,6 +112,46 @@
                 "cbc:OptionsDescription": "Por causas ajenas al contratista (cl\u00e1usula 28.b.b)"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicaci\u00f3n realizada mediante Resoluci\u00f3n de Alcald\u00eda 1560/2018 de 26 de septiembre, motivando la adjudicaci\u00f3n en que la empresa adjudicataria presenta la oferta con menor puntuaci\u00f3n, siendo la oferta la de mejor calidad-precio.",
+            "cbc:AwardDate": "2018-09-26",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "298136.54"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "298136.54"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B91546747"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DISPLAYS SOLUTIONS SLU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "298136.54"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "319006.09"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -124,6 +164,20 @@
             },
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n indicando los t\u00e9cnicos o las unidades t\u00e9cnicas, est\u00e9n o no integradas en la empresa, de los que \u00e9sta disponga para la ejecuci\u00f3n del suministro, especialmente los responsables del control de calidad, acompa\u00f1ada de los documentos acreditativos correspondientes."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-MEDIOS"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n indicando la maquinaria, material y equipo t\u00e9cnico del que se dispondr\u00e1 para la ejecuci\u00f3n del suministro e instalaci\u00f3n, a la que se adjuntar\u00e1 la documentaci\u00f3n acreditativa pertinente."
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -141,23 +195,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
-                        },
-                        "cbc:Description": "Declaraci\u00f3n indicando la maquinaria, material y equipo t\u00e9cnico del que se dispondr\u00e1 para la ejecuci\u00f3n del suministro e instalaci\u00f3n, a la que se adjuntar\u00e1 la documentaci\u00f3n acreditativa pertinente."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Relaci\u00f3n de los suministros de similares caracter\u00edsticas realizados en el curso de los cinco \u00faltimos a\u00f1os , avalada por certificados de buena ejecuci\u00f3n."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "Declaraci\u00f3n indicando los t\u00e9cnicos o las unidades t\u00e9cnicas, est\u00e9n o no integradas en la empresa, de los que \u00e9sta disponga para la ejecuci\u00f3n del suministro, especialmente los responsables del control de calidad, acompa\u00f1ada de los documentos acreditativos correspondientes."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -171,10 +211,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plan de realizaci\u00f3n material de entrega e instalaci\u00f3n.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Plan de formaci\u00f3n espec\u00edfico del personal encargado del manejo de los bienes, equipos, procedimeintos y/o de los usuarios de los mismos.",
                         "cbc:WeightNumeric": "5"
                     },
@@ -183,16 +219,20 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Reducci\u00f3n de plazos de ejecuci\u00f3n material.",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Plan de realizaci\u00f3n material de entrega e instalaci\u00f3n.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Calidad funcional e innovaci\u00f3n de los bienes a suministrar.",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Mejor propuesta econ\u00f3mica",
                         "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Calidad funcional e innovaci\u00f3n de los bienes a suministrar.",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Reducci\u00f3n de plazos de ejecuci\u00f3n material.",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -285,6 +325,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
                     }
                 }
             },

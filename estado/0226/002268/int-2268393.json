@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02003462)-6/2018-2019; \u00d3rgano de Contrataci\u00f3n: Departamento de Vertebraci\u00f3n del Territorio, Movilidad y Vivienda; Importe: 25584.76 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02003462)-6/2018-2019; \u00d3rgano de Contrataci\u00f3n: Departamento de Vertebraci\u00f3n del Territorio, Movilidad y Vivienda; Importe: 25584.76 EUR; Estado: RES"
     },
     "title": "Direcci\u00f3n de la Ejecuci\u00f3n de obra de rehabilitaci\u00f3n del Edificio \"Cocheras francesas\" en el entorno de la Estaci\u00f3n Internacional de Canfranc como centro de acogida e informaci\u00f3n transfronteriza del camino franc\u00e9s",
-    "updated": "2018-07-09T15:17:45.495+02:00",
+    "updated": "2018-10-04T13:50:29.966+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02003462)-6/2018-2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Direcci\u00f3n de la Ejecuci\u00f3n de obra de rehabilitaci\u00f3n del Edificio \"Cocheras francesas\" en el entorno de la Estaci\u00f3n Internacional de Canfranc como centro de acogida e informaci\u00f3n transfronteriza del camino franc\u00e9s",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -96,24 +96,73 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta",
+            "cbc:AwardDate": "2018-09-18",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:Contract": {
+                "cbc:ID": "3",
+                "cbc:IssueDate": "2018-09-24"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "18172292-S"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Fernando de Marcos Calvo"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "14990"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "18137.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Ver Anexo V del PCAP",
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                         "#text": "OXR-TITULOS"
-                    }
+                    },
+                    "cbc:Description": "Ver Anexo V del PCAP"
                 },
                 "cac:FinancialEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "3"
-                    }
+                    },
+                    "cbc:Description": "Seguro de indemnizaci\u00f3n por riesgos profesionales por importe superior a 25.217,15 euros"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Ver Anexo XI del PCAP",
+                        "cbc:WeightNumeric": "33"
+                    },
                     {
                         "cbc:Description": "Ver Anexo X del PCAP",
                         "cbc:WeightNumeric": "45"
@@ -121,10 +170,6 @@
                     {
                         "cbc:Description": "Ver Anexo XI del PCAP",
                         "cbc:WeightNumeric": "11"
-                    },
-                    {
-                        "cbc:Description": "Ver Anexo XI del PCAP",
-                        "cbc:WeightNumeric": "33"
                     }
                 ]
             },
@@ -168,6 +213,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -186,6 +243,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
                     }
                 }
             }

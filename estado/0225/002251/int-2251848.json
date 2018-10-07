@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 462/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Sa Pobla; Importe: 104089.31 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 462/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Sa Pobla; Importe: 104089.31 EUR; Estado: RES"
     },
     "title": "Realizaci\u00f3n de las obras correspondientes al proyecto \"Proyecto de pavimentaci\u00f3n, renovaci\u00f3n y adecuaci\u00f3n de las conducciones en el entorno del CEIP Sa Graduada (T.M. Sa Pobla)",
-    "updated": "2018-06-29T13:28:13.728+02:00",
+    "updated": "2018-10-01T14:40:14.818+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "462/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -76,7 +76,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Realizaci\u00f3n de las obras correspondientes al proyecto \"Proyecto de pavimentaci\u00f3n, renovaci\u00f3n y adecuaci\u00f3n de las conducciones en el entorno del CEIP Sa Graduada (T.M. Sa Pobla)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -131,6 +131,42 @@
                 "cbc:DurationMeasure": {
                     "@unitCode": "MON",
                     "#text": "3"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicado a la empresa que ha presentado la oferta econ\u00f3mica m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-09-13",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cac:Contract": {
+                "cbc:ID": "462/2018",
+                "cbc:IssueDate": "2018-09-26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A07062367"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AGLOMERADOS DE FELANITX S.A (AFEX OBRAS & SERVICIOS)"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "99655.1"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "120582.67"
+                    }
                 }
             }
         },
@@ -194,17 +230,43 @@
                 "cbc:EndTime": "10:17:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-06-29"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-06-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
+                    }
                 }
             }
-        }
+        ]
     }
 }

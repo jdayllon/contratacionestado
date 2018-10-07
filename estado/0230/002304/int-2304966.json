@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONT106/2018; \u00d3rgano de Contrataci\u00f3n: Consejo Rector del Instituto Insular de Atenci\u00f3n Social y Sociosanitaria - IASS; Importe: 0 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: CONT106/2018; \u00d3rgano de Contrataci\u00f3n: Consejo Rector del Instituto Insular de Atenci\u00f3n Social y Sociosanitaria - IASS; Importe: 0 EUR; Estado: PUB"
     },
     "title": "Servicio de atenci\u00f3n sociosanitaria de 150 plazas residenciales para mayores dependientes con alto requerimiento en el Complejo sociosanitario del Norte de Tenerife.",
-    "updated": "2018-07-25T09:33:44.811+02:00",
+    "updated": "2018-10-05T13:50:23.985+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONT106/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -78,7 +78,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de atenci\u00f3n sociosanitaria de 150 plazas residenciales para mayores dependientes con alto requerimiento en el Complejo sociosanitario del Norte de Tenerife.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -120,10 +120,76 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                }
+            },
+            "cac:ContractExtension": {
+                "cbc:OptionsDescription": "obligatorias para el contratista siempre que se produzca preaviso con antelaci\u00f3n no inferior a dos meses a la finalizaci\u00f3n del plazo de duraci\u00f3n del contrato.",
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "3 a\u00f1os"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
+            "cbc:PriceRevisionFormulaDescription": "convenio dependencia",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "ver cl\u00e1usula 4.3.2 b) y 12.3.1 del pliego administrativo. Se acreditar\u00e1 mediante declaraci\u00f3n responsable ajustada al formulario del Documento Europeo \u00danico de Contrataci\u00f3n (DEUC)."
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "ver cl\u00e1usula 4.3.2 a) y  12.3.1 del pliego administrativo. Se acreditar\u00e1 mediante declaraci\u00f3n responsable ajustada al formulario del Documento Europeo \u00danico de Contrataci\u00f3n (DEUC)."
+                },
+                "cac:SpecificTendererRequirement": {
+                    "cbc:RequirementTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                        "#text": "1"
+                    }
+                }
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "no"
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Criterios sociles",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Plan de Gesti\u00f3n de Calidad",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Mejoras en servicios y personal",
+                        "cbc:WeightNumeric": "44"
+                    },
+                    {
+                        "cbc:Description": "Proyecto de gesti\u00f3n",
+                        "cbc:WeightNumeric": "45"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -136,9 +202,166 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-10-22",
+                "cbc:EndTime": "19:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-10-22",
+                "cbc:EndTime": "19:00:00"
             }
         },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PLIEGO ADMINISTRATIVO 2018 DEFINITIVO.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b68d0b49-b517-4634-9259-5b0bc7cf46bb",
+                    "cbc:DocumentHash": "5kTrqENKzuNMKVWTknwsh+nFPa4="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "ANEXO II-PRESCRIPCIONES TECNICAS DEFINITIVOOK.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=194160ef-7b0f-4246-ae82-da1c4f8386b4",
+                    "cbc:DocumentHash": "rls2jDoiIZXcB6idL/nps/8KfQ0="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "ANEXO IV-INVENTARIO DE EQUIPAMIENTO.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1187b486-2ddf-4fd5-a54f-bf6a93f45a3a",
+                        "cbc:DocumentHash": "2h512S3ZSstEZGT8a9msj2sqSEs="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO III RELACION DE INSTALACIONES COMUNES Y MANTENIMIENTO.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=dcb3675f-b951-4a6d-9d30-a8a155a30b3c",
+                        "cbc:DocumentHash": "WfSZFOuNLmty5YQSYEOyK1Mv+GA="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO V-CRITERIOS DE REPARTO.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1eb7d317-1863-482f-987a-153f42fdcb82",
+                        "cbc:DocumentHash": "7JSgacfIzFYAQq+xKvuUG8HkArY="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO VI.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=daf57ead-f51f-42a0-82af-5d725b1c44be",
+                        "cbc:DocumentHash": "mmLHrtcy5ASTqilyWjCNoEFXW5A="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXOI-PLANOS.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=feb5635c-7755-4afc-9acc-7ac4f7fc5fcc",
+                        "cbc:DocumentHash": "22uO/3PNPq8gslIKo/pBMNK429M="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO XIII.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7fd80e05-641b-4797-8d52-b85104531b3f",
+                        "cbc:DocumentHash": "rhDi6wVFjNbi9QTWfNTwZ6dEflM="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO IX.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9ab21682-a0f0-4f6a-bc1f-7daf9811d653",
+                        "cbc:DocumentHash": "ct9xQ6jbOlYoMID4XCgkZc2SiLw="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO XII.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1b20ff44-239f-4579-a659-185aa6716b75",
+                        "cbc:DocumentHash": "eqjigm+ZdSbOOliwb0hVhIT5VLo="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO XI.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=06ccf363-8c07-48fd-95ce-37233ad8ff46",
+                        "cbc:DocumentHash": "0Kj4jfd1KuKF7xs1qhcYvqgDJ4s="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO X.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2693d9b6-3480-4383-86a1-1fc6acbf9fe1",
+                        "cbc:DocumentHash": "CGRg4Rmpbb08qQbBiVeKgazAjV8="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO VIII.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ad294bc2-a11a-43cf-9391-374d2e3b0645",
+                        "cbc:DocumentHash": "oJCdwuKUech2DNUYQF7msvc9oz8="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO VII.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=a7d42b74-cd17-4349-ac94-965e6eb9d15d",
+                        "cbc:DocumentHash": "bgH5RPnhPlJy1JxEe1P/xL0mXMc="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "JUSTIFICACION INSUFICIENCIA DE MEDIOS.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=707b0803-a6b6-447a-9e7f-f0278a949a34",
+                        "cbc:DocumentHash": "Wli2euLv6r4PgKGD5uedGBaFMZI="
+                    }
+                }
+            }
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -149,6 +372,46 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-25"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-05"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-05"
+                        }
+                    ]
                 }
             },
             {

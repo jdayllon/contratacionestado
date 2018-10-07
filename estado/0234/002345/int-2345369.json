@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/AR46U/00000490; \u00d3rgano de Contrataci\u00f3n: Intendente de Rota; Importe: 6796.93 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/AR46U/00000490; \u00d3rgano de Contrataci\u00f3n: Intendente de Rota; Importe: 6796.93 EUR; Estado: RES"
     },
     "title": "Mantenimiento y reparaci\u00f3n de los veh\u00edculos especiales asignados al aer\u00f3dromo de la Base Naval de Rota.",
-    "updated": "2018-08-08T11:16:26.956+02:00",
+    "updated": "2018-10-01T08:48:19.055+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/AR46U/00000490",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento y reparaci\u00f3n de los veh\u00edculos especiales asignados al aer\u00f3dromo de la Base Naval de Rota.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +110,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa para la Administraci\u00f3n",
+            "cbc:AwardDate": "2018-09-24",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "6796.93"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "6796.93"
+            },
+            "cbc:StartDate": "2018-10-01",
+            "cac:Contract": {
+                "cbc:ID": "490",
+                "cbc:IssueDate": "2018-09-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B11028289"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MOTORES DEL PUERTO,SL."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "6796.93"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "8224.29"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -127,13 +172,6 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Los licitadores deber\u00e1n estar inscritos en el Registro especial de talleres de reparaci\u00f3n de veh\u00edculos."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
                         "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos en los \u00faltimos tres a\u00f1os. El importe m\u00ednimo anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n ser\u00e1 el 70 por ciento del presupuesto base de licitaci\u00f3n:\n5.757,00 euros."
                     },
                     {
@@ -142,6 +180,13 @@
                             "#text": "XSX-CERTCALIDAD"
                         },
                         "cbc:Description": "disponer de ISO 9001 y 14001 ambas en vigor en el momento de presentaci\u00f3n de ofertas adecuado al objeto del contrato."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "Los licitadores deber\u00e1n estar inscritos en el Registro especial de talleres de reparaci\u00f3n de veh\u00edculos."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -158,12 +203,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio mano de obra",
-                        "cbc:WeightNumeric": "0.5"
-                    },
-                    {
                         "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda",
                         "cbc:WeightNumeric": "0.1"
+                    },
+                    {
+                        "cbc:Description": "Precio mano de obra",
+                        "cbc:WeightNumeric": "0.5"
                     },
                     {
                         "cbc:Description": "Precio materiales",
@@ -224,6 +269,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -242,6 +299,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
                     }
                 }
             }

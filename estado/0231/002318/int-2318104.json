@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 6831/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Villena; Importe: 76416 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 6831/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Villena; Importe: 76416 EUR; Estado: RES"
     },
     "title": "Arrendamiento financiero, en la modalidad de renting de tres veh\u00edculos industriales para el servicio de limpieza viaria y recogida de basuras del Ayuntamiento de Villena.",
-    "updated": "2018-07-27T09:06:07.060+02:00",
+    "updated": "2018-10-02T10:41:51.780+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "6831/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Arrendamiento financiero, en la modalidad de renting de tres veh\u00edculos industriales para el servicio de limpieza viaria y recogida de basuras del Ayuntamiento de Villena.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -114,64 +114,109 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "2"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Cami\u00f3n Volquete",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "52213.92"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "43152"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "66114000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "dos veh\u00edculos tipo furg\u00f3n y combi",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "40249.44"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "33264"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "66114000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Cami\u00f3n Volquete",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "52213.92"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "43152"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "66114000"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "Acuerdo Junta de Gobierno Local de fecha 23 de julio de 2018",
-            "cbc:AwardDate": "2018-07-23",
-            "cbc:ReceivedTenderQuantity": "2",
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "A46063814"
-                    }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "Transtel, S.A"
+                "cbc:AwardDate": "2018-06-25",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "40704"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Acuerdo Junta de Gobierno Local de fecha 23 de julio de 2018",
+                "cbc:AwardDate": "2018-07-23",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cbc:StartDate": "2018-08-22",
+                "cac:Contract": {
+                    "cbc:ID": "6831/2018 L.2",
+                    "cbc:IssueDate": "2018-08-22"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A46063814"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "49251.84"
+                    "cac:PartyName": {
+                        "cbc:Name": "Transtel, S.A"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "40704"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "49251.84"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -188,27 +233,11 @@
                         "cbc:WeightNumeric": "40"
                     },
                     {
-                        "cbc:Description": "precio por kil\u00f3metro en exceso",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Instalaci\u00f3n de m\u00f3dulo GPS para control flota",
+                        "cbc:Description": "Disminuci\u00f3n de la entrega de veh\u00edculos de reemplazo",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "mejora de car\u00e1cter medioambiental en lote 1",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Precio por kil\u00f3metro recorrido (abono)",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Mayor n\u00ba de elementos o componentes incluidos en el mantenimiento",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Aumento  de capacidad de carga de la caja Lote 2",
+                        "cbc:Description": "precio por kil\u00f3metro en exceso",
                         "cbc:WeightNumeric": "15"
                     },
                     {
@@ -216,8 +245,24 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Disminuci\u00f3n de la entrega de veh\u00edculos de reemplazo",
+                        "cbc:Description": "Mayor n\u00ba de elementos o componentes incluidos en el mantenimiento",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "mejora de car\u00e1cter medioambiental en lote 1",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Instalaci\u00f3n de m\u00f3dulo GPS para control flota",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Aumento  de capacidad de carga de la caja Lote 2",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Precio por kil\u00f3metro recorrido (abono)",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -264,9 +309,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-27"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-02"
+                        }
+                    ]
                 }
             },
             {
@@ -290,6 +340,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-05-30"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-28"
                     }
                 }
             }

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: CNMY17/CVMC/02; \u00d3rgano de Contrataci\u00f3n: Corporaci\u00f3 Valenciana de Mitjans de Comunicaci\u00f3; Importe: 1150000 EUR; Estado: RES"
     },
     "title": "Suministro de los sistemas y servicios necesarios para la puesta en explotacion de la multicontinuidad de la Corporaci\u00f3 Valenciana de Mitjans de Comunicaci\u00f3",
-    "updated": "2017-08-23T09:31:00.892+02:00",
+    "updated": "2018-10-03T12:06:55.117+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CNMY17/CVMC/02",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -73,7 +73,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de los sistemas y servicios necesarios para la puesta en explotacion de la multicontinuidad de la Corporaci\u00f3 Valenciana de Mitjans de Comunicaci\u00f3",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -98,13 +98,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "92221000"
+                        "#text": "64228100"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "64228100"
+                        "#text": "92221000"
                     }
                 }
             ],
@@ -196,10 +196,28 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "valoracion del nivel del servicio",
-                    "cbc:WeightNumeric": "10"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "valoracion del proyecto de ejecucion",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "valoracion de soluci\u00f3n tecnica",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "precio",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "reduccion del plazo de entrega",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "valoracion del nivel del servicio",
+                        "cbc:WeightNumeric": "10"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -207,7 +225,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -347,6 +365,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_PIN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -356,6 +386,22 @@
                     }
                 }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractID": "CNMY17/CVMC/02",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "31127"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "1085549.55"
+                }
+            }
+        }
     }
 }

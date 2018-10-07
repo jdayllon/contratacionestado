@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/221; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n de la Sociedad Estatal Loter\u00edas y Apuestas del Estado, S.M.E., S.A.; Importe: 260000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/221; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n de la Sociedad Estatal Loter\u00edas y Apuestas del Estado, S.M.E., S.A.; Importe: 260000 EUR; Estado: RES"
     },
     "title": "Servicios de retirada y gesti\u00f3n como residuo de los elementos de las unidades exteriores (antenas) de la red sat\u00e9lite instaladas en los Puntos de Venta de la red comercial de SELAE",
-    "updated": "2018-08-02T13:52:55.120+02:00",
+    "updated": "2018-10-03T14:11:33.162+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/221",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios de retirada y gesti\u00f3n como residuo de los elementos de las unidades exteriores (antenas) de la red sat\u00e9lite instaladas en los Puntos de Venta de la red comercial de SELAE",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,15 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:Description": "Se declara desierto, al quedar excluida la oferta aportada por el \u00fanico candidato presentado, cuya oferta excede el precio m\u00e1ximo unitario de contrataci\u00f3n para el \u201cServicio por debajo de 3,5 m de altura\"",
+            "cbc:AwardDate": "2018-10-03",
+            "cbc:ReceivedTenderQuantity": "1"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -135,13 +144,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
@@ -153,7 +156,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     }
                 ]
@@ -164,20 +173,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Tiempo de Retiradas Ordinarias (m\u00e1ximo de 14 d\u00edas naturales)",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Precio de Servicios por debajo de 3,5 m de altura",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Precio de Servicios por encima de 3,5 m de altura o que requieran medios elevadores",
+                        "cbc:WeightNumeric": "35"
                     },
                     {
                         "cbc:Description": "Tiempo de Retiradas Urgentes (m\u00e1ximo de 2 d\u00edas naturales \u2013 indicado en horas de 0 a 48h)",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Precio de Servicios por encima de 3,5 m de altura o que requieran medios elevadores",
-                        "cbc:WeightNumeric": "35"
+                        "cbc:Description": "Tiempo de Retiradas Ordinarias (m\u00e1ximo de 14 d\u00edas naturales)",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Precio de Servicios por debajo de 3,5 m de altura",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Tiempo para realizar todas las Retiradas marcadas como \u201cNo Operativas\u201d (m\u00e1ximo de 6 meses)",
@@ -222,6 +231,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 759_SOG_0218; \u00d3rgano de Contrataci\u00f3n: Gerencia de EMAYA, Empresa Municipal d'Aig\u00fces i Clavegueram, S.A.; Importe: 168744.68 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 759_SOG_0218; \u00d3rgano de Contrataci\u00f3n: Gerencia de EMAYA, Empresa Municipal d'Aig\u00fces i Clavegueram, S.A.; Importe: 168744.68 EUR; Estado: ADJ"
     },
     "title": "Suministro de aceites lubricantes y grasas para la flota de veh\u00edculos y equipos mec\u00e1nicos de EMAYA.",
-    "updated": "2018-06-12T09:30:24.960+02:00",
+    "updated": "2018-09-28T09:31:07.709+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "759_SOG_0218",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,7 +81,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de aceites lubricantes y grasas para la flota de veh\u00edculos y equipos mec\u00e1nicos de EMAYA.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -162,6 +162,69 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "6"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Aceite para turbinas",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "8617.13"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7121.6"
+                    }
+                },
+                "cac:RequiredCommodityClassification": [
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09211100"
+                        }
+                    },
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09211600"
+                        }
+                    },
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09211300"
+                        }
+                    },
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09211200"
+                        }
+                    },
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09211000"
+                        }
+                    }
+                ]
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:Description": "La Mesa de contrataci\u00f3n de Emaya, Empresa Municipal d'Aig\u00fces i Clavegueram, S.A. analizando el informe t\u00e9cnico emitido por el t\u00e9cnico responsable de la licitaci\u00f3n el d\u00eda 04 de septiembre de 2018 valorando la propuesta t\u00e9cnica del sobre B de los licitadores que se han presentado al procedimiento abierto citado constatan:\n\nQue al concurso, por el que hace referencia al lote 6, ninguno de los licitadores presentados por este lote, REPSOL LUBRICANTES Y ESPECIALIDADES S.A y LUBRIMALLORCA, S.L. ha presentado una oferta v\u00e1lida seg\u00fan lo que establecen los pliegos t\u00e9cnicos.\n\nVisto el contenido del presente documento, la Mesa de contrataci\u00f3n acuerda elevar PROPUESTA DE DECLARACI\u00d3N DE DESIERTO DEL LOTE 6-Aceites para turbinas del contrato de referencia al \u00f3rgano competente que es la gerente de Emaya, en conformidad con la delegaci\u00f3n efectuada por parte del Consejo de Administraci\u00f3n de Emaya de fecha 28 de julio de 2015.",
+            "cbc:AwardDate": "2018-09-06",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "6"
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -190,28 +253,28 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Lotes 1,2,3,5,6,7 y 8 T\u00e9rmino de rspuesta",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Lote 4 Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "100"
+                        "cbc:Description": "Lotes 1,2,3,5,6,7 y 8 Plan de Formaci\u00f3n",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Lotes 1,2,3,5,6,7, y 8 Anal\u00edticas de aceite",
                         "cbc:WeightNumeric": "2"
                     },
                     {
+                        "cbc:Description": "Lotes 1,2,3,5,6,7 y 8 T\u00e9rmino de rspuesta",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Lotes 1,2,3,5,6,7, y 8 Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "85"
                     },
                     {
-                        "cbc:Description": "Lotes 1,2,3,5,6,7 y 8 Plan de Formaci\u00f3n",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
                         "cbc:Description": "lotes 1,2,3,5,6,7,y 8 Estudio de Lubricaci\u00f3n",
                         "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Lote 4 Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "100"
                     }
                 ]
             },
@@ -264,8 +327,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-11"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-12"
+                        "cbc:IssueDate": "2018-09-21"
                     }
                 }
             },
@@ -288,9 +368,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-06"
+                        }
+                    ]
                 }
             }
         ]

@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2345520",
     "link": {
-        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/notice.pscp?idDoc=35038009&reqCode=viewPin"
+        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/notice.pscp?idDoc=36486640&reqCode=viewCn"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: B310201800009; \u00d3rgano de Contrataci\u00f3n: Ajuntament de Malgrat de Mar; Importe: 6905713.24; Estado: ANUNCIO PREVIO"
+        "#text": "Id licitaci\u00f3n: B310201800009; \u00d3rgano de Contrataci\u00f3n: Ajuntament de Malgrat de Mar; Importe: 6905713.24; Estado: EN PLAZO"
     },
     "title": "Execuci\u00f3 de les obres incloses al projcte d'Ordenaci\u00f3 i execuci\u00f3 del Passeig Mart\u00edtim, entre la Pl. de l'\u00c0ncora i l'Av. Colom.",
-    "updated": "2018-08-08T14:55:51.930+02:00",
+    "updated": "2018-09-28T14:11:37.063+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "B310201800009",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -32,7 +32,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Execuci\u00f3 de les obres incloses al projcte d'Ordenaci\u00f3 i execuci\u00f3 del Passeig Mart\u00edtim, entre la Pl. de l'\u00c0ncora i l'Av. Colom.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cac:BudgetAmount": {
@@ -68,19 +68,53 @@
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-10-11",
+                "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "DOUE",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-06-06"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "passeig.plc.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=23ff18d0b65deb9c1add73e8ce12416a&fileId=36489900&capId=636966&idTS=35037996"
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "passeig-projecte.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=9f2bf2145602fb55aeaa3aa41e0c0c91&fileId=36490221&capId=636966&idTS=35037996"
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-06-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
+            }
+        ]
     }
 }

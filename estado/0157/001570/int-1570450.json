@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: CON/5/2016; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Camargo; Importe: 650000 EUR; Estado: RES"
     },
     "title": "Servicios de limpieza de centros p\u00fablicos, dependencias municipales, instalaciones deportivas y otras atenciones del Ayuntamiento de Camargo",
-    "updated": "2017-09-26T13:32:44.339+02:00",
+    "updated": "2018-09-27T14:54:01.908+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CON/5/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -49,7 +49,7 @@
                 "cac:Contact": {
                     "cbc:Name": "Junta de Gobierno Local del Ayuntamiento de Camargo",
                     "cbc:Telephone": "942251400",
-                    "cbc:Telefax": "942251308",
+                    "cbc:Telefax": "942250968",
                     "cbc:ElectronicMail": "contratacion@aytocamargo.es"
                 }
             }
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios de limpieza de centros p\u00fablicos, dependencias municipales, instalaciones deportivas y otras atenciones del Ayuntamiento de Camargo",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -232,10 +232,20 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "precio /hora operario limpieza",
-                    "cbc:WeightNumeric": "5"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Proposicion economica",
+                        "cbc:WeightNumeric": "80"
+                    },
+                    {
+                        "cbc:Description": "Programacion de los trabajos",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "precio /hora operario limpieza",
+                        "cbc:WeightNumeric": "5"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -243,7 +253,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -337,7 +347,35 @@
                         "cbc:IssueDate": "2017-09-26"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractID": "CON/5/2016",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "7986"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "617586"
+                }
+            }
+        }
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 259/2018 CONTRATO OBRAS; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de El Grado; Importe: 53023.87 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 259/2018 CONTRATO OBRAS; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de El Grado; Importe: 53023.87 EUR; Estado: RES"
     },
     "title": "Renovaci\u00f3n de redes de distribuci\u00f3n, saneamiento y pavimentaci\u00f3n en un tramo de la calle Mayor y calle del Mayo en Coscojuela de Fantova",
-    "updated": "2018-07-31T13:11:35.903+02:00",
+    "updated": "2018-09-28T14:02:19.256+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "259/2018 CONTRATO OBRAS",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Renovaci\u00f3n de redes de distribuci\u00f3n, saneamiento y pavimentaci\u00f3n en un tramo de la calle Mayor y calle del Mayo en Coscojuela de Fantova",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -128,6 +128,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta valorada",
+            "cbc:AwardDate": "2018-09-25",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "47229.91"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "51433.15"
+            },
+            "cbc:StartDate": "2018-09-28",
+            "cac:Contract": {
+                "cbc:ID": "259/2018",
+                "cbc:IssueDate": "2018-09-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "b22303168"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "aquactiva ambiental sl"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "47720"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "57741.2"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -141,6 +186,12 @@
             },
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -158,24 +209,18 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Ampliaci\u00f3n de la garant\u00eda",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n de la garant\u00eda",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Reducci\u00f3n del Plazo de ejecuci\u00f3n de las obras",
@@ -232,6 +277,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -250,6 +307,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
                     }
                 }
             },

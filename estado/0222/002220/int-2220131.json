@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: MY18/ASIC/S/33; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 100000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: MY18/ASIC/S/33; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 100000 EUR; Estado: ADJ"
     },
     "title": "Ampliaci\u00f3n de la red wi-fi de la Universitat Polit\u00e8cnica de Val\u00e8ncia a los Campus de Gand\u00eda y Alcoy",
-    "updated": "2018-07-02T08:09:11.854+02:00",
+    "updated": "2018-10-04T08:13:26.557+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MY18/ASIC/S/33",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Ampliaci\u00f3n de la red wi-fi de la Universitat Polit\u00e8cnica de Val\u00e8ncia a los Campus de Gand\u00eda y Alcoy",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La empresa adjudicataria es la que ha obtenido la mayor puntuaci\u00f3n, ya que la oferta incluye  mejoras en cuanto a la entrega de puntos de acceso para zonas de alta densidad de usuarios, a\u00f1ade un a\u00f1o adicional de garant\u00eda a los requeridos por la UPV, cumpliendo con todos los requerimientos del pliego de prescripciones t\u00e9cnicas.",
+            "cbc:AwardDate": "2018-10-01",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "99995"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B62174842"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DIMENSION DATA ESPA\u00d1A, SLU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "99995"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "120993.95"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -142,6 +182,14 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Compatibilidad con la soluci\u00f3n existente",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
                         "cbc:Description": "N\u00famero de equipos",
                         "cbc:WeightNumeric": "10"
                     },
@@ -150,15 +198,7 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Mejoras en la funcionalidades de punto de acceso",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Compatibilidad con la soluci\u00f3n existente",
                         "cbc:WeightNumeric": "20"
                     }
                 ]
@@ -200,6 +240,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

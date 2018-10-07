@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EF-3-2018; \u00d3rgano de Contrataci\u00f3n: Autoridad Portuaria de Alicante; Importe: 80000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: EF-3-2018; \u00d3rgano de Contrataci\u00f3n: Autoridad Portuaria de Alicante; Importe: 80000 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n de los servicios de impresi\u00f3n, copia y escaneado de la Autoridad Portuaria de Alicante.",
-    "updated": "2018-08-21T08:05:24.788+02:00",
+    "updated": "2018-10-01T13:03:46.031+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EF-3-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de los servicios de impresi\u00f3n, copia y escaneado de la Autoridad Portuaria de Alicante.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -117,6 +117,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta que ha obtenido mayor puntuaci\u00f3n (85,41 puntos), conforme a los criterios t\u00e9cnicos y econ\u00f3micos establecidos en los Pliegos de la presente licitaci\u00f3n.",
+            "cbc:AwardDate": "2018-09-28",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "65132.64"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "77760"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B03347275"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ELITE ELECTRONICA INFORMATICA TECNOLOG\u00cdAS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "68036.54"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "82324.21"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "true",
@@ -149,12 +189,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica m\u00e1s baja de todas las proposiciones aceptadas y no incursas en temeridad",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "Valoraci\u00f3n de criterios t\u00e9cnicos",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica m\u00e1s baja de todas las proposiciones aceptadas y no incursas en temeridad",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -214,13 +254,33 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-09"
+                        "cbc:IssueDate": "2018-10-01"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-31"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-04"
+                        }
+                    ]
                 }
             },
             {
@@ -230,9 +290,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-09"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-31"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-04"
+                        }
+                    ]
                 }
             }
         ]

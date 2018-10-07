@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA 20/18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Ciudad de las Artes y de las Ciencias S.A.; Importe: 465000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA 20/18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Ciudad de las Artes y de las Ciencias S.A.; Importe: 465000 EUR; Estado: ADJ"
     },
     "title": "Suministro, instalaci\u00f3n, puesta en funcionamiento, garant\u00eda y mantenimiento del sistema de PSE (sistema de escucha personalizado) de Hemisf\u00e8ric en la Ciutat de les Arts i les Ci\u00e8ncies.",
-    "updated": "2018-07-17T09:30:26.441+02:00",
+    "updated": "2018-10-03T13:19:11.745+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA 20/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro, instalaci\u00f3n, puesta en funcionamiento, garant\u00eda y mantenimiento del sistema de PSE (sistema de escucha personalizado) de Hemisf\u00e8ric en la Ciutat de les Arts i les Ci\u00e8ncies.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -134,6 +134,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "\u00fanica oferta",
+            "cbc:AwardDate": "2018-10-03",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "428872.8"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "428872.8"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A46413498"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SONOIDEA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "428872.8"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "518936.08"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -162,28 +202,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Continuidad en la distribuci\u00f3n y proyecci\u00f3n a futuro",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
                         "cbc:Description": "Sustituci\u00f3n equipo de limpieza",
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Plan de mantenimiento",
+                        "cbc:Description": "Precio del suministro, instalaci\u00f3n y puesta en funcionamiento",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Continuidad en la distribuci\u00f3n y proyecci\u00f3n a futuro",
                         "cbc:WeightNumeric": "12"
-                    },
-                    {
-                        "cbc:Description": "Caracter innovador del prototipo",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Optimizaci\u00f3n sistema de carga",
-                        "cbc:WeightNumeric": "16"
                     },
                     {
                         "cbc:Description": "Precio de la garant\u00eda y mantenimiento durante dos a\u00f1os desde la recepci\u00f3n",
@@ -194,8 +222,20 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Precio del suministro, instalaci\u00f3n y puesta en funcionamiento",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Caracter innovador del prototipo",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Plan de mantenimiento",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Optimizaci\u00f3n sistema de carga",
+                        "cbc:WeightNumeric": "16"
                     }
                 ]
             },
@@ -245,6 +285,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-17"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
                     }
                 }
             },

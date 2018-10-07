@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CS01/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia de la C\u00e1mara de Cuentas  de la Comunidad de Madrid; Importe: 229141.59 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CS01/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia de la C\u00e1mara de Cuentas  de la Comunidad de Madrid; Importe: 229141.59 EUR; Estado: ADJ"
     },
     "title": "limpieza de la sede de la C\u00e1mara de Cuentas de la Comunidad de Madrid sita en la calle Ram\u00edrez de Arellano n\u00ba 15 de Madrid",
-    "updated": "2018-05-31T09:55:21.395+02:00",
+    "updated": "2018-09-27T11:14:10.028+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CS01/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "limpieza de la sede de la C\u00e1mara de Cuentas de la Comunidad de Madrid sita en la calle Ram\u00edrez de Arellano n\u00ba 15 de Madrid",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mayor ponderaci\u00f3n de conformidad con los criterios de valoraci\u00f3n recogidos en el Pliego de Cl\u00e1usulas Administrativas:\n- Precio m\u00e1s econ\u00f3mico.\n- Personal adscrito al servicio.\n- Frecuencia en la Desinfecci\u00f3n/Desinsectaci\u00f3n.\n- Servicio de Tintorer\u00eda.\n- Estar en posesi\u00f3n de las certificaciones exigidas.",
+            "cbc:AwardDate": "2018-09-24",
+            "cbc:ReceivedTenderQuantity": "22",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "220197.5"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "227261.32"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B30132724"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LIMCAMAR, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "189803.34"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "229662.04"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -157,7 +197,15 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
+                        "cbc:Description": "PRECIO",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
                         "cbc:Description": "TINTORERIA",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "RECOGIDA Y TRASLADO A PUNTO LIMPIO DE MATERIALES RECICLABLES",
                         "cbc:WeightNumeric": "2"
                     },
                     {
@@ -165,16 +213,8 @@
                         "cbc:WeightNumeric": "40"
                     },
                     {
-                        "cbc:Description": "RECOGIDA Y TRASLADO A PUNTO LIMPIO DE MATERIALES RECICLABLES",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
                         "cbc:Description": "DESINSECTACI\u00d3N Y DESINFECCI\u00d3N",
                         "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "PRECIO",
-                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -225,6 +265,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-05-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
                     }
                 }
             },

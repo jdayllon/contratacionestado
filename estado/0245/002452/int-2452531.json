@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2018/00015527A; \u00d3rgano de Contrataci\u00f3n: Cuarta Tenencia de Alcald\u00eda del Ayuntamiento de Vila-real; Importe: 74299.64 EUR; Estado: PUB"
     },
     "title": "Servicios de redacci\u00f3n del proyecto de ejecuci\u00f3n, direcci\u00f3n de las obras y coordinaci\u00f3n de seguridad y salud del proyecto de mejora, modernizaci\u00f3n y dotaci\u00f3n de infraestructuras y servicios en el \u00e1rea industrial \"Miralcamp\"",
-    "updated": "2018-09-24T16:45:11.275+02:00",
+    "updated": "2018-09-26T15:07:51.134+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/00015527A",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios de redacci\u00f3n del proyecto de ejecuci\u00f3n, direcci\u00f3n de las obras y coordinaci\u00f3n de seguridad y salud del proyecto de mejora, modernizaci\u00f3n y dotaci\u00f3n de infraestructuras y servicios en el \u00e1rea industrial \"Miralcamp\"",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -142,6 +142,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Memoria t\u00e9cnica",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Mejor oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "40"
                     },
@@ -150,20 +154,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Memoria t\u00e9cnica",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Mejoras",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "Mejora en el plazo",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Tecnolog\u00edas empleadas en la ejecuci\u00f3n del contrato",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -181,11 +181,11 @@
                 "#text": "2"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2018-10-02",
+                "cbc:EndDate": "2018-10-04",
                 "cbc:EndTime": "13:00:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-02",
+                "cbc:EndDate": "2018-10-04",
                 "cbc:EndTime": "13:00:00"
             }
         },
@@ -207,15 +207,26 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "RECTIFICACION PCAP 15527A.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6b469b9f-39e0-4b56-bff8-f47d824fc96b",
-                    "cbc:DocumentHash": "zUeL72V/Ez12RC0vVF3CVCgfIhM="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "RECTIFICACION PCAP 15527A.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6b469b9f-39e0-4b56-bff8-f47d824fc96b",
+                        "cbc:DocumentHash": "zUeL72V/Ez12RC0vVF3CVCgfIhM="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "RESRECTIFICACION ERROR PCAP 15527A.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e711fb41-d702-45d2-a10a-94cab1bc1b79",
+                        "cbc:DocumentHash": "wG+qSw6cz6NoZ1i5HX78l8+YaQI="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -236,9 +247,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-24"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-26"
+                        }
+                    ]
                 }
             }
         ]

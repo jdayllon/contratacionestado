@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: OBRAS 01-18; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Zarat\u00e1n; Importe: 291478.9 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: OBRAS 01-18; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Zarat\u00e1n; Importe: 291478.9 EUR; Estado: ADJ"
     },
     "title": "Urbanizaci\u00f3n de calle Tercias, Traves\u00eda Tercias, calle Campillo y calle Pozo.",
-    "updated": "2018-08-14T14:04:08.313+02:00",
+    "updated": "2018-10-02T11:40:54.477+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "OBRAS 01-18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Urbanizaci\u00f3n de calle Tercias, Traves\u00eda Tercias, calle Campillo y calle Pozo.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -105,10 +105,57 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Propuesta adjudicaci\u00f3n: OBRAS 01-18 - Urbanizaci\u00f3n de calle Tercias, Traves\u00eda Tercias, calle Campillo y calle Pozo.\n \nDe acuerdo a la evaluaci\u00f3n de las propuestas aportadas por los licitadores, la mesa concluye la siguiente lista ordenada de manera decreciente de puntuaci\u00f3n de acuerdo a las puntuaciones obtenidas por los licitadores en las diferentes fases: \nOrden: 1  CIF: B47689567 HARAL 12 SERVICIOS Y OBRAS S.L Propuesto para la adjudicaci\u00f3n\nTotal criterios CJV: 23.0\nTotal criterios CAF: 60.0\nTotal puntuaci\u00f3n: 83.0\nOrden: 2  CIF: A47090501 CONSTRUCCIONES AMC SA\nTotal criterios CJV: 20.0\nTotal criterios CAF: 59.58\nTotal puntuaci\u00f3n: 79.58",
+            "cbc:AwardDate": "2018-10-01",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "256151.64"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "257643.13"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B47689567"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "HARAL 12 SERVICIOS Y OBRAS S.L"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "256151.64"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "309943.48"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -118,13 +165,6 @@
                         "@currencyID": "EUR",
                         "#text": "0"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -160,11 +200,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": ". Propuesta de suministro de agua potable alternativo de modo que no se interrumpa o se haga minimamente el suministro domiciliario, y a la red principal de suministro al dep\u00f3sito municipal, durante el transcurso de la obra.",
+                        "cbc:Description": "Asunci\u00f3n de gastos generales y documentaci\u00f3n por la gesti\u00f3n de residuos de amanto, procedente de las conducciones de agua (fibrocemento).- M\u00e1ximo 15 puntos",
                         "cbc:WeightNumeric": "16.67"
                     },
                     {
-                        "cbc:Description": "Asunci\u00f3n de gastos generales y documentaci\u00f3n por la gesti\u00f3n de residuos de amanto, procedente de las conducciones de agua (fibrocemento).- M\u00e1ximo 15 puntos",
+                        "cbc:Description": "Compromiso de relleno de zanjas con zahorras naturales, retirada de tierras y conducciones existentes a vertedero: M\u00e1ximo 15 puntos.",
                         "cbc:WeightNumeric": "16.67"
                     },
                     {
@@ -172,16 +212,16 @@
                         "cbc:WeightNumeric": "16.67"
                     },
                     {
-                        "cbc:Description": "Incremento del plazo de garant\u00eda sobre el inicial de un a\u00f1o. (las opciones a), b) o c) son excluyentes entre s\u00ed. M\u00e1ximo 20 puntos.",
-                        "cbc:WeightNumeric": "22.22"
-                    },
-                    {
                         "cbc:Description": "PRECIO M\u00c1S BAJO Max 10 puntos",
                         "cbc:WeightNumeric": "11.1"
                     },
                     {
-                        "cbc:Description": "Compromiso de relleno de zanjas con zahorras naturales, retirada de tierras y conducciones existentes a vertedero: M\u00e1ximo 15 puntos.",
+                        "cbc:Description": ". Propuesta de suministro de agua potable alternativo de modo que no se interrumpa o se haga minimamente el suministro domiciliario, y a la red principal de suministro al dep\u00f3sito municipal, durante el transcurso de la obra.",
                         "cbc:WeightNumeric": "16.67"
+                    },
+                    {
+                        "cbc:Description": "Incremento del plazo de garant\u00eda sobre el inicial de un a\u00f1o. (las opciones a), b) o c) son excluyentes entre s\u00ed. M\u00e1ximo 20 puntos.",
+                        "cbc:WeightNumeric": "22.22"
                     }
                 ]
             },
@@ -235,6 +275,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-02"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

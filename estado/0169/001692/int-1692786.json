@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: CNMY17/CVMC/10; \u00d3rgano de Contrataci\u00f3n: Corporaci\u00f3 Valenciana de Mitjans de Comunicaci\u00f3; Importe: 396390.07 EUR; Estado: RES"
     },
     "title": "Obra de reforma de la primera planta del edificio rectangular del Centro de Producci\u00f3n de Programas de Burjassot para la ubicaci\u00f3n de la redacci\u00f3n \u00fanica de la Corporaci\u00f3 Valenciana de Mitjans de Comunicaci\u00f3",
-    "updated": "2017-11-02T18:04:29.273+01:00",
+    "updated": "2018-10-04T12:43:56.802+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CNMY17/CVMC/10",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -73,7 +73,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Obra de reforma de la primera planta del edificio rectangular del Centro de Producci\u00f3n de Programas de Burjassot para la ubicaci\u00f3n de la redacci\u00f3n \u00fanica de la Corporaci\u00f3 Valenciana de Mitjans de Comunicaci\u00f3",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -210,10 +210,20 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n",
-                    "cbc:WeightNumeric": "10"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Valoraci\u00f3n de la soluci\u00f3n t\u00e9cnica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -221,7 +231,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -354,7 +364,35 @@
                         "cbc:IssueDate": "2017-11-02"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractID": "CNMY17 CVMC 10",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "26442.93"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "331742.51"
+                }
+            }
+        }
     }
 }

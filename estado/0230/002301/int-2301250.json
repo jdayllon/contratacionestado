@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/00282; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Sevilla; Importe: 165850 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/00282; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Sevilla; Importe: 165850 EUR; Estado: ADJ"
     },
     "title": "Suministro de un simulador en tiempo real (Real Time Simulator - RTS) de sistemas el\u00e9ctricos de potencia",
-    "updated": "2018-07-20T12:16:28.982+02:00",
+    "updated": "2018-10-03T11:57:26.213+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/00282",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de un simulador en tiempo real (Real Time Simulator - RTS) de sistemas el\u00e9ctricos de potencia",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta m\u00e1s ventajosa conforme al Acta de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2018-10-01",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B96686068"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INGENIER\u00cdA DE DISE\u00d1O ELECTROT\u00c9CNICO S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "165850"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "200678.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:FundingProgramCode": {
@@ -127,24 +159,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazo de entrega",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "2.5"
-                    },
-                    {
-                        "cbc:Description": "Valoraci\u00f3n t\u00e9cnica",
-                        "cbc:WeightNumeric": "47.5"
                     },
                     {
                         "cbc:Description": "Valoraci\u00f3n econ\u00f3mica",
                         "cbc:WeightNumeric": "40"
                     },
                     {
+                        "cbc:Description": "Plazo de entrega",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Plazo de garant\u00eda",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Valoraci\u00f3n t\u00e9cnica",
+                        "cbc:WeightNumeric": "47.5"
                     }
                 ]
             },
@@ -208,6 +240,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -224,9 +268,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-20"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-12"
+                        }
+                    ]
                 }
             }
         ]

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 4150018013900; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico Administrativa 15 Agrupaci\u00f3n del Cuartel General del Ej\u00e9rcito del Aire; Importe: 59000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 4150018013900; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico Administrativa 15 Agrupaci\u00f3n del Cuartel General del Ej\u00e9rcito del Aire; Importe: 59000 EUR; Estado: ADJ"
     },
     "title": "(B) Servicio mantenimiento equipos radiolog\u00eda integral",
-    "updated": "2018-06-19T08:05:11.825+02:00",
+    "updated": "2018-10-01T12:03:14.714+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "4150018013900",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "(B) Servicio mantenimiento equipos radiolog\u00eda integral",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +110,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta mas ventajosa",
+            "cbc:AwardDate": "2018-09-28",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "46912.29"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "52400"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B63510101"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ALTHEA HEALTHCARE ESPA\u00d1A, SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46912.29"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "56763.87"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -130,6 +170,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Incorporaci\u00f3n equipos en inventario adicional",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "80"
                     },
@@ -140,10 +184,6 @@
                     {
                         "cbc:Description": "Plazo de garant\u00eda",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Incorporaci\u00f3n equipos en inventario adicional",
-                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -193,6 +233,18 @@
                     "cbc-place-ext:PublicationMediaName": "BOE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
                     }
                 }
             },

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02022433)-20/2018; \u00d3rgano de Contrataci\u00f3n: Ciudad del Motor de Arag\u00f3n S.A.; Importe: 19150 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: (A02022433)-20/2018; \u00d3rgano de Contrataci\u00f3n: Ciudad del Motor de Arag\u00f3n S.A.; Importe: 19150 EUR; Estado: ADJ"
     },
     "title": "Suministro en r\u00e9gimen de alquiler de vallados y se\u00f1alizaci\u00f3n temporal para MotoGP",
-    "updated": "2018-07-31T15:17:40.623+02:00",
+    "updated": "2018-10-01T15:11:28.739+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02022433)-20/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro en r\u00e9gimen de alquiler de vallados y se\u00f1alizaci\u00f3n temporal para MotoGP",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -96,6 +96,68 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "1"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Valla baja y antiavalancha",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "11918.5"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "9850"
+                    }
+                },
+                "cac:RequiredCommodityClassification": {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "34928200"
+                    }
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s econ\u00f3mica",
+            "cbc:AwardDate": "2018-08-31",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-09-07"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B44189231"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Producciones Segurana, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "1",
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "9850"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "11918.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -109,7 +171,8 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "5"
-                    }
+                    },
+                    "cbc:Description": "Importe de negocio superior al del lote licitado"
                 }
             },
             "cac:Language": {
@@ -152,6 +215,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -170,6 +245,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
                     }
                 }
             }

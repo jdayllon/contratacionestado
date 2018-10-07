@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PIC2018_23047; \u00d3rgano de Contrataci\u00f3n: Gerencia de Fraternidad Muprespa - M\u00fatua Colaboradora con la Seguridad Social n\u00ba 275; Importe: 196023.5 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PIC2018_23047; \u00d3rgano de Contrataci\u00f3n: Gerencia de Fraternidad Muprespa - M\u00fatua Colaboradora con la Seguridad Social n\u00ba 275; Importe: 196023.5 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n del servicio de dise\u00f1o, implantaci\u00f3n y administraci\u00f3n del sistema de retribuci\u00f3n flexible para los empleados de FRATERNIDAD-MUPRESPA",
-    "updated": "2018-05-24T11:46:04.547+02:00",
+    "updated": "2018-10-05T11:09:26.107+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PIC2018_23047",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -42,6 +42,7 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Gerencia de Fraternidad Muprespa - M\u00fatua Colaboradora con la Seguridad Social n\u00ba 275",
+                    "cbc:Telephone": "913608700",
                     "cbc:ElectronicMail": "licitaciones@fraternidad.com"
                 }
             },
@@ -69,7 +70,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n del servicio de dise\u00f1o, implantaci\u00f3n y administraci\u00f3n del sistema de retribuci\u00f3n flexible para los empleados de FRATERNIDAD-MUPRESPA",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -124,6 +125,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se detalla en el acuerdo de adjudicaci\u00f3n.\nNo se indican los \"importes de adjudicaci\u00f3n\" (importe total ofertado, con y sin impuestos) al consistir la oferta en diversos precios unitarios, seg\u00fan los siguientes conceptos:\nImporte por migraci\u00f3n del proyecto (IVA no incluido): 0 \u20ac\nImporte mensual por renovaci\u00f3n (IVA no incluido): 375 \u20ac\nImporte por administrado (IVA no incluido): 2,5 \u20ac",
+            "cbc:AwardDate": "2018-10-05",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B63605562"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Compensa Capital Humano S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -172,12 +213,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Personal asignado al proyecto",
-                        "cbc:WeightNumeric": "3"
+                        "cbc:Description": "Actualizaci\u00f3n del Software autom\u00e1tica",
+                        "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Soporte visual",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Contrataci\u00f3n firma electr\u00f3nica",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "54"
                     },
                     {
                         "cbc:Description": "Caracter\u00edsticas de la aplicaci\u00f3n m\u00f3vil",
@@ -192,28 +237,24 @@
                         "cbc:WeightNumeric": "12"
                     },
                     {
-                        "cbc:Description": "Contrataci\u00f3n firma electr\u00f3nica",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "54"
+                        "cbc:Description": "Personal asignado al proyecto",
+                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "Renovaci\u00f3n autom\u00e1tica de los productos",
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Generaci\u00f3n de informes personalizados",
-                        "cbc:WeightNumeric": "2"
+                        "cbc:Description": "Soporte visual",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Software propiedad de la empresa",
                         "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Actualizaci\u00f3n del Software autom\u00e1tica",
-                        "cbc:WeightNumeric": "1"
+                        "cbc:Description": "Generaci\u00f3n de informes personalizados",
+                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -278,6 +319,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

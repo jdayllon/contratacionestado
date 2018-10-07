@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 008/2016; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Santa Luc\u00eda de Tirajana ; Importe: 1040000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 008/2016; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Santa Luc\u00eda de Tirajana ; Importe: 1040000 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de los servicios de telecomunicaciones del Ayuntamiento de Santa Luc\u00eda",
-    "updated": "2017-05-12T15:14:36.508+02:00",
+    "updated": "2018-10-01T11:04:50.521+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "008/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de los servicios de telecomunicaciones del Ayuntamiento de Santa Luc\u00eda",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -87,7 +87,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Canarias",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES70"
                 },
                 "cac:Address": {
@@ -111,6 +111,51 @@
             "cac:ContractExtension": {
                 "cac:OptionValidityPeriod": {
                     "cbc:Description": "Se establecen dos pr\u00f3rrogas de un a\u00f1o cada una."
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la mejor oferta relaci\u00f3n calidad precio.",
+            "cbc:AwardDate": "2018-02-13",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1031999.37"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1036898.88"
+            },
+            "cbc:StartDate": "2018-08-08",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-08-07"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A82018474"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TELEF\u00d3NICA DE ESPA\u00d1A, SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1031999.37"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1104239.33"
+                    }
                 }
             }
         },
@@ -153,10 +198,20 @@
                 "cbc:Rate": "50"
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio",
-                    "cbc:WeightNumeric": "50"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Plataforma de correo y colaboraci\u00f3n",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "35"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -164,7 +219,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -211,6 +266,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -240,6 +307,18 @@
                             "cbc:IssueDate": "2017-05-12"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
+                    }
                 }
             }
         ]

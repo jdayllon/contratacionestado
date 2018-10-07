@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2253824",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=1806291437244D87B915"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=3258&Ticket=181005085001968BB6ED"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 175/2018; \u00d3rgano de Contrataci\u00f3n: AYUNTAMIENTO DE MIRANDA DE ARGA; Importe: 238546,47 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 175/2018; \u00d3rgano de Contrataci\u00f3n: AYUNTAMIENTO DE MIRANDA DE ARGA; Importe: 238546,47 EUR; Estado: Resuelta"
     },
     "title": "Contrataci\u00f3n de las obras de RENOVACI\u00d3N DE la instalaci\u00f3n de ALUMBRADO P\u00daBLICO de Miranda de Arga",
-    "updated": "2018-07-23T15:00:06.957+02:00",
+    "updated": "2018-10-05T11:00:08.157+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "175/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -32,7 +32,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de las obras de RENOVACI\u00d3N DE la instalaci\u00f3n de ALUMBRADO P\u00daBLICO de Miranda de Arga",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cac:BudgetAmount": {
@@ -58,9 +58,33 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "DAY",
-                    "#text": "98"
+                "cbc:StartDate": "2018-09-11",
+                "cbc:EndDate": "2018-12-11"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B31403637"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ELECTRICIDAD ORDU\u00d1A, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "227888.58"
+                    }
                 }
             }
         },
@@ -70,22 +94,36 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-07-23"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-06-30"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-07-23"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

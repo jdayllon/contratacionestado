@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 52/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Lorca; Importe: 99173.55 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 52/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Lorca; Importe: 99173.55 EUR; Estado: ADJ"
     },
     "title": "Montaje y desmontaje de carpas, escenarios, sonido, corraletas, boxer, tribunas y accesorios varios para la celebraci\u00f3n de ferias, fericab, concurso doma clasica, feria del caballo cruzado, feria de la mascota y sepor en ifelor para el a\u00f1o 2018.",
-    "updated": "2018-08-10T10:58:34.924+02:00",
+    "updated": "2018-10-05T12:21:42.214+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "52/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Montaje y desmontaje de carpas, escenarios, sonido, corraletas, boxer, tribunas y accesorios varios para la celebraci\u00f3n de ferias, fericab, concurso doma clasica, feria del caballo cruzado, feria de la mascota y sepor en ifelor para el a\u00f1o 2018.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -111,7 +111,43 @@
                 "cbc:OptionsDescription": "NO"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Unica oferta presentada",
+            "cbc:AwardDate": "2018-10-05",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "52/2018"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B30509681"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TELEMAG DE LORCA S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "98132.23"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "118740"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -125,16 +161,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Disponer del personal t\u00e9cnico participantes en el contrato que se indica en el PCAP, con las titulaciones que as\u00ed mismo se indican."
+                        "cbc:Description": "Servicios por importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n de los \u00faltimos 3, igual o superior 90.000 euros, todo ello en los t\u00e9rminos que se definen en el PCAP."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "Servicios por importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n de los \u00faltimos 3, igual o superior 90.000 euros, todo ello en los t\u00e9rminos que se definen en el PCAP."
+                        "cbc:Description": "Disponer del personal t\u00e9cnico participantes en el contrato que se indica en el PCAP, con las titulaciones que as\u00ed mismo se indican."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
@@ -157,6 +193,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "baja en la oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
                         "cbc:Description": "Incluir en la oferta el montaje y desmontaje una tela negra del ancho y altura de la nave principal para SEPOR",
                         "cbc:WeightNumeric": "15"
                     },
@@ -167,10 +207,6 @@
                     {
                         "cbc:Description": "Incluir la megafon\u00eda de avisos de SEPOR de las mismas caracter\u00edsticas descritas para el Fericab",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "baja en la oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -212,6 +248,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

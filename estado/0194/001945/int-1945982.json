@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 04/18; \u00d3rgano de Contrataci\u00f3n: Director Gerente de la Compa\u00f1\u00eda del Tranv\u00eda de San Sebasti\u00e1n, S.A.U.; Importe: 91445.34 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 04/18; \u00d3rgano de Contrataci\u00f3n: Director Gerente de la Compa\u00f1\u00eda del Tranv\u00eda de San Sebasti\u00e1n, S.A.U.; Importe: 91445.34 EUR; Estado: ADJ"
     },
     "title": "Suministro de recambios de automoci\u00f3n para los motores de los autobuses marca MAN de la flota de autobuses de la CTSS",
-    "updated": "2018-02-08T12:05:46.379+01:00",
+    "updated": "2018-09-27T11:40:07.708+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "04/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -78,7 +78,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de recambios de automoci\u00f3n para los motores de los autobuses marca MAN de la flota de autobuses de la CTSS",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -128,6 +128,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La mejor oferta econ\u00f3micamente m\u00e1s ventajosa en su conjunto corresponde a la presentada por MAN Truck & Bus Iberia, S.A.U",
+            "cbc:AwardDate": "2018-09-21",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "A78507498"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MAN Truck & Bus Iberia, S.A.U"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "70643.76"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "85478.95"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -145,7 +177,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -162,17 +194,31 @@
                 "cbc:Description": "Los pliegos pueden solicitarse en el email: direccion@dbus.es"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-02-08"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-02-08"
+                    }
                 }
             }
-        }
+        ]
     }
 }

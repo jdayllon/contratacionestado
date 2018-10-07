@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: C/4; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Fuencaliente; Importe: 8632.35 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: C/4; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Fuencaliente; Importe: 8632.35 EUR; Estado: RES"
     },
     "title": "Mantenimiento del alumbrado p\u00fablico",
-    "updated": "2018-04-25T11:13:50.207+02:00",
+    "updated": "2018-09-26T12:36:00.451+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "C/4",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,13 @@
                 "#text": "3"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.fuencaliente.org",
+                "cbc:WebsiteURI": "http://www.fuencaliente.es",
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "DIR3",
+                        "#text": "L01130420"
+                    }
+                },
                 "cac:PartyName": {
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de Fuencaliente"
                 },
@@ -46,22 +52,12 @@
                     "cbc:Telefax": "926470268",
                     "cbc:ElectronicMail": "administradora@fuencaliente.es"
                 }
-            },
-            "cac-place-ext:ParentLocatedParty": {
-                "cac:PartyName": {
-                    "cbc:Name": "ENTIDADES LOCALES"
-                },
-                "cac-place-ext:ParentLocatedParty": {
-                    "cac:PartyName": {
-                        "cbc:Name": "Sector P\u00fablico"
-                    }
-                }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento del alumbrado p\u00fablico",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -122,6 +118,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se ha adjudicado el contrato a la empresa AXIAL INGENIERIAS, SLU, por ser el licitador que ha presentado mejor oferta en su conjunto.",
+            "cbc:AwardDate": "2018-06-11",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:StartDate": "2018-07-02",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-07-02"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B10477875"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AXIAL INGENIERIA, SLU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "6347.32"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7680.26"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -140,7 +173,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -188,6 +221,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -207,6 +252,23 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-04-25"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-26"
+                        }
+                    ]
                 }
             },
             {

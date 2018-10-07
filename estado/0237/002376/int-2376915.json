@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2093418004800; \u00d3rgano de Contrataci\u00f3n: Jefatura de Asuntos Econ\u00f3micos del Cuartel General Terrestre Alta Disponibilidad; Importe: 39730 EUR; Estado: PUB"
     },
     "title": "Mantenimiento y actualizaci\u00f3n de licencias.",
-    "updated": "2018-08-24T13:40:56.485+02:00",
+    "updated": "2018-09-26T13:21:09.508+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2093418004800",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento y actualizaci\u00f3n de licencias.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -84,10 +84,10 @@
                 }
             },
             "cac:RealizedLocation": {
-                "cbc:CountrySubentity": "Valencia/Val\u00e8ncia",
+                "cbc:CountrySubentity": "Comunidad Valenciana",
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
-                    "#text": "ES523"
+                    "#text": "ES52"
                 },
                 "cac:Address": {
                     "cac:Country": {
@@ -101,20 +101,24 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "ANN",
-                    "#text": "1"
+                    "@unitCode": "DAY",
+                    "#text": "150"
                 }
             }
         },
         "cac:TenderingTerms": {
-            "cbc:RequiredCurriculaIndicator": "false",
-            "cbc:PriceRevisionFormulaDescription": "No procede",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
                     "#text": "2"
                 },
-                "cbc:AmountRate": "5"
+                "cbc:LiabilityAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0.05"
+                }
+            },
+            "cac:TendererQualificationRequest": {
+                "cbc:Description": "Seg\u00fan Pliego de Cl\u00e1usulas Administrativas Particulares"
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": {
@@ -135,26 +139,30 @@
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
             },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-10-18"
+            },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-09-17",
-                "cbc:EndTime": "14:00:00"
+                "cbc:EndDate": "2018-10-19",
+                "cbc:EndTime": "13:00:00",
+                "cbc:Description": "Se presentar\u00e1 un \u00fanico sobre con la declaraci\u00f3n responsable y la oferta econ\u00f3mica"
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "DOC_4_PCAP_EXPTE2093418004800_F.pdf",
+            "cbc:ID": "FAS-17923053.PDF",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7b0eaafc-d601-4980-aab6-8fe871a2f9df",
-                    "cbc:DocumentHash": "G5AnR0cyv8yqm0SnvTCZoy3dnyY="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=956795b5-e424-4a33-826b-ef0e83d43a31",
+                    "cbc:DocumentHash": "tuLToedO03Trk3gkH45ZpoKmdSs="
                 }
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "DOC 4 PPT.pdf",
+            "cbc:ID": "FAS-17922971.PDF",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=26f274dd-eaf7-42b7-adf5-ba54db135fda",
-                    "cbc:DocumentHash": "x8yovOxgU9s7Pis/ZH4IGH3p4kc="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=68aaefb0-0b53-4225-97b8-c185f30fcd1c",
+                    "cbc:DocumentHash": "7WNnQ2BxRe2cKI49WdnADtGpmOY="
                 }
             }
         },
@@ -166,9 +174,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-24"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-26"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-26"
+                        }
+                    ]
                 }
             },
             {
@@ -178,9 +194,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-24"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-26"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-26"
+                        }
+                    ]
                 }
             },
             {

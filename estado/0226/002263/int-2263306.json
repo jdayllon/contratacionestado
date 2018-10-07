@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/212; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n de la Sociedad Estatal Loter\u00edas y Apuestas del Estado, S.M.E., S.A.; Importe: 80000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 18/212; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n de la Sociedad Estatal Loter\u00edas y Apuestas del Estado, S.M.E., S.A.; Importe: 80000 EUR; Estado: ADJ"
     },
     "title": "Servicios de Seguridad Gestionada 24x7",
-    "updated": "2018-07-05T10:52:40.441+02:00",
+    "updated": "2018-10-01T16:03:31.440+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/212",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios de Seguridad Gestionada 24x7",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -111,6 +111,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El contrato se ha adjudicado a la mejor proposici\u00f3n.",
+            "cbc:AwardDate": "2018-07-31",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B83444943"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INNOTEC SYSTEM, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "53000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "64130"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -158,8 +198,8 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "49"
+                        "cbc:Description": "Total de horas de experiencia de los miembros del SOC",
+                        "cbc:WeightNumeric": "12"
                     },
                     {
                         "cbc:Description": "Total de certificaciones de seguridad de los miembros del SOC de SANS Institute, EC Council, CSP, OCSP o equivalentes",
@@ -170,16 +210,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "49"
+                    },
+                    {
                         "cbc:Description": "Disponibilidad del equipo de respuestas ante incidentes",
                         "cbc:WeightNumeric": "7"
                     },
                     {
                         "cbc:Description": "Tiempo m\u00e1ximo consecuci\u00f3n Hito 2",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Total de horas de experiencia de los miembros del SOC",
-                        "cbc:WeightNumeric": "12"
                     }
                 ]
             },
@@ -220,6 +260,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

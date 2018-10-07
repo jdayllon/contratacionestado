@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 20170001313; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Teruel; Importe: 50000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 20170001313; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Teruel; Importe: 50000 EUR; Estado: ADJ"
     },
     "title": "Telefon\u00eda fija, telefon\u00eda m\u00f3vil y accesos a internet del Ayuntamiento de Teruel",
-    "updated": "2018-01-15T11:42:47.386+01:00",
+    "updated": "2018-10-03T09:17:52.693+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "20170001313",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Telefon\u00eda fija, telefon\u00eda m\u00f3vil y accesos a internet del Ayuntamiento de Teruel",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -120,6 +120,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mejor valorada",
+            "cbc:AwardDate": "2018-10-01",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "43000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "44528"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "206906"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Telef\u00f3nica de Espa\u00f1a SAU - Telef\u00f3nica M\u00f3viles Espa\u00f1a, SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "43000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "52030"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -157,13 +197,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "5"
                         }
                     },
                     {
@@ -175,7 +209,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
                         }
                     },
                     {
@@ -189,24 +229,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejoras - Mantenimiento y/o renovaci\u00f3n del equipamiento telef\u00f3nico municipal",
+                        "cbc:Description": "Organizaci\u00f3n - Plan de implantaci\u00f3n, operaci\u00f3n y mantenimiento de los servicios",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejoras - Acceso corporativo. Redundancia en los troncales y rutas IP, propuesa de caudales superiores",
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Precio total ofertado",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Soluci\u00f3n t\u00e9cnica - Caracter\u00edsticas T\u00e9cnicas de la soluci\u00f3n de acceso corporativa a Internet",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Mejoras - Broker sms acceso plataforma Clave",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
-                        "cbc:Description": "Soluci\u00f3n t\u00e9cnica - Caracter\u00edsticas T\u00e9cnicas de la soluci\u00f3n de telefon\u00eda fija y conexiones de banda ancha",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Mejoras - Mantenimiento y/o renovaci\u00f3n del equipamiento telef\u00f3nico municipal",
+                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "Soluci\u00f3n t\u00e9cnica - Caracter\u00edsticas T\u00e9cnicas de la soluci\u00f3n de telefon\u00eda m\u00f3vil",
@@ -217,20 +249,28 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Mejoras - Accesos en movilidad (VPN) a la red corporativa municipal",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Mejoras - Acceso corporativo. Redundancia en los troncales y rutas IP, propuesa de caudales superiores",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Organizaci\u00f3n - Plan de implantaci\u00f3n, operaci\u00f3n y mantenimiento de los servicios",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Mejoras - Broker sms acceso plataforma Clave",
+                        "cbc:WeightNumeric": "1"
                     },
                     {
                         "cbc:Description": "Tarifas ofertadas para desviaciones respecto a las estimaciones de tr\u00e1fico realizadas para cada uno de los tipos de servicio",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Soluci\u00f3n t\u00e9cnica - Caracter\u00edsticas T\u00e9cnicas de la soluci\u00f3n de telefon\u00eda fija y conexiones de banda ancha",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Mejoras - Accesos en movilidad (VPN) a la red corporativa municipal",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Soluci\u00f3n t\u00e9cnica - Caracter\u00edsticas T\u00e9cnicas de la soluci\u00f3n de acceso corporativa a Internet",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio total ofertado",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -240,7 +280,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -290,6 +330,18 @@
                         }
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {

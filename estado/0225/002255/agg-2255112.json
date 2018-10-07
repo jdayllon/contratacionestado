@@ -5,21 +5,21 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 6011800114;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Transportes, Vivienda e Infraestructuras\u00b7\u00b7>Empresa P\u00fablica de Metro de Madrid, Sociedad An\u00f3nima;Importe: 344720.00 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: 6011800114;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Transportes, Vivienda e Infraestructuras\u00b7\u00b7>Empresa P\u00fablica de Metro de Madrid, S.A.;Importe: 344720.00 EUR;Estado: ADJUDICADA"
     },
     "title": "Servicio de adaptaci\u00f3n del sistema de TCM para tablet\u00b4s y extensi\u00f3n a todas las estaciones de la Red de Metro de Madrid",
-    "updated": "2018-08-14T18:25:33.454+02:00",
+    "updated": "2018-10-03T13:25:36.485+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "6011800114",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
                 "cac:PartyName": {
-                    "cbc:Name": "Empresa P\u00fablica de Metro de Madrid, Sociedad An\u00f3nima"
+                    "cbc:Name": "Empresa P\u00fablica de Metro de Madrid, S.A."
                 }
             },
             "cac-place-ext:ParentLocatedParty": {
@@ -32,7 +32,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de adaptaci\u00f3n del sistema de TCM para tablet\u00b4s y extensi\u00f3n a todas las estaciones de la Red de Metro de Madrid.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cac:BudgetAmount": {
@@ -72,6 +72,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28002335"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SOCIEDAD IB\u00c9RICA DE CONSTRUCCIONES EL\u00c9CTRICAS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "342720"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -94,17 +120,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-07-02"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-07-02"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-07"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CC/CA/015/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Langreo ; Importe: 102389.09 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CC/CA/015/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Langreo ; Importe: 102389.09 EUR; Estado: RES"
     },
     "title": "Contrato de servicio para la realizaci\u00f3n de acciones de intervenci\u00f3n social en el \u00e1rea de vivienda y convivencia social, a desarrollar en el marco del Plan Local de Incorporaci\u00f3n Social del Ayuntamiento de Langreo.",
-    "updated": "2018-08-07T08:27:04.614+02:00",
+    "updated": "2018-09-27T09:03:47.321+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CC/CA/015/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrato de servicio para la realizaci\u00f3n de acciones de intervenci\u00f3n social en el \u00e1rea de vivienda y convivencia social, a desarrollar en el marco del Plan Local de Incorporaci\u00f3n Social del Ayuntamiento de Langreo.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La mesa de Contrataci\u00f3n acuerda elevar al \u00f3rgano de contrataci\u00f3n propuesta de\nadjudicaci\u00f3n a favor de la empresa ASOCIACION CENTRO TRAMA. por ser la que mejor puntuaci\u00f3n ha obtenido seg\u00fan los criterios de selecci\u00f3n que figuran en los pliegos.",
+            "cbc:AwardDate": "2018-09-13",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:StartDate": "2018-09-18",
+            "cac:Contract": {
+                "cbc:ID": "CC/CA/015/2018",
+                "cbc:IssueDate": "2018-09-18"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "G80054760"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ASOCIACION CENTRO TRAMA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "95221.85"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "95221.85"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -141,6 +178,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
@@ -148,12 +191,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
                         }
                     },
                     {
@@ -167,20 +204,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Recursos humanos, materiales y t\u00e9cnicos",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Estrategias de trabajo en Red",
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Criterios sociales",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "51"
+                        "cbc:Description": "Plan de trabajo a desarrollar",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Planificaci\u00f3n y seguimiento de actividades",
                         "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Sistemas de evaluaci\u00f3n",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Conocimiento del \u00e1mbito territorial",
@@ -191,16 +232,12 @@
                         "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Plan de trabajo a desarrollar",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "51"
                     },
                     {
-                        "cbc:Description": "Sistemas de evaluaci\u00f3n",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Recursos humanos, materiales y t\u00e9cnicos",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Criterios sociales",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -257,6 +294,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -275,6 +324,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
                     }
                 }
             }

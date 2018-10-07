@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 513/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comarca de Cuencas Mineras; Importe: 60700 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 513/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comarca de Cuencas Mineras; Importe: 60700 EUR; Estado: RES"
     },
     "title": "Adquisici\u00f3n cami\u00f3n usado y equipo gancho",
-    "updated": "2018-08-20T09:34:31.652+02:00",
+    "updated": "2018-10-02T10:25:01.740+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "513/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Adquisici\u00f3n cami\u00f3n usado y equipo gancho",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -115,6 +115,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La adjudicaci\u00f3n se realiza a la \u00fanica empresa que ha licitado (LIZAGA, S.A), al haber alcanzado una puntuaci\u00f3n de 82,5 puntos, en la valoraci\u00f3n mediante criterios autom\u00e1ticos",
+            "cbc:AwardDate": "2018-09-25",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "60700"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "60700"
+            },
+            "cbc:StartDate": "2018-10-03",
+            "cac:Contract": {
+                "cbc:ID": "513/2018",
+                "cbc:IssueDate": "2018-10-02"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A50038959"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LIZAGA SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "60700"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "73447"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -144,11 +189,7 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Asistencia t\u00e9cnica",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "elevalunas el\u00e9ctrico",
+                        "cbc:Description": "espejos regulables el\u00e9ctricamente",
                         "cbc:WeightNumeric": "1"
                     },
                     {
@@ -156,15 +197,11 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "espejos regulables el\u00e9ctricamente",
-                        "cbc:WeightNumeric": "1"
+                        "cbc:Description": "Kms cami\u00f3n",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "70"
-                    },
-                    {
-                        "cbc:Description": "eje delantero reforzado",
+                        "cbc:Description": "Bloqueo diferencial trasero",
                         "cbc:WeightNumeric": "1"
                     },
                     {
@@ -172,16 +209,28 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "rotulado",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Plazo de garant\u00eda",
+                        "cbc:Description": "Caracter\u00edsticas medioambientales",
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Kms cami\u00f3n",
-                        "cbc:WeightNumeric": "2"
+                        "cbc:Description": "Asistencia t\u00e9cnica",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "climatizador",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Frenos ABS/ASR",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Cabina corta",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Control de velocidad",
+                        "cbc:WeightNumeric": "1"
                     },
                     {
                         "cbc:Description": "Configuraci\u00f3n ejes",
@@ -192,35 +241,31 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Cabina corta",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
                         "cbc:Description": "antiguedad m\u00e1xima",
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Frenos ABS/ASR",
-                        "cbc:WeightNumeric": "1"
+                        "cbc:Description": "rotulado",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "climatizador",
-                        "cbc:WeightNumeric": "1"
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "70"
                     },
                     {
                         "cbc:Description": "suspensi\u00f3n trasera",
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Caracter\u00edsticas medioambientales",
+                        "cbc:Description": "eje delantero reforzado",
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Bloqueo diferencial trasero",
+                        "cbc:Description": "Plazo de garant\u00eda",
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Control de velocidad",
+                        "cbc:Description": "elevalunas el\u00e9ctrico",
                         "cbc:WeightNumeric": "1"
                     }
                 ]
@@ -298,6 +343,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -316,6 +373,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-17"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-02"
                     }
                 }
             }

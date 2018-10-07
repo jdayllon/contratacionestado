@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 77/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Palencia; Importe: 195264 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 77/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Palencia; Importe: 195264 EUR; Estado: ADJ"
     },
     "title": "contrato mixto de suministro y servicio de impresi\u00f3n, escaneado y fotocopiado de documentos para el Ayuntamiento de Palencia",
-    "updated": "2018-07-20T10:33:07.940+02:00",
+    "updated": "2018-10-04T13:07:09.983+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "77/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "contrato mixto de suministro y servicio de impresi\u00f3n, escaneado y fotocopiado de documentos para el Ayuntamiento de Palencia",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -105,6 +105,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "- Oferta econ\u00f3mica, menor importe de coste por copia en blanco y negro\n- Oferta econ\u00f3mica, menor importe de coste por copia en color\n- Oferta econ\u00f3mica, menor importe de coste por mil\u00edmetro de tinta para plotter\n- Velocidad de impresi\u00f3n\n- Sistema de validaci\u00f3n\n- Disponibilidad de urgencias\n- Plotter, escaneado en color\n- Plotter, anchura superior a 36\u00b4\u00b4\n- Salud, seguridad y emisiones",
+            "cbc:AwardDate": "2018-09-28",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "195264"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "195264"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B34149971"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SOLUCIONES INFORMATICAS ON LINE, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "195264"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "236269.44"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -133,30 +173,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "coste copia blanco y negro",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "velocidad impresion",
-                        "cbc:WeightNumeric": "35"
-                    },
-                    {
-                        "cbc:Description": "Coste copia color",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Anchura plotter",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "coste mililitro tinta plotter",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Disponibilidad de urgencias",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
                         "cbc:Description": "Plotter precisi\u00f3n",
                         "cbc:WeightNumeric": "7"
                     },
@@ -165,8 +181,32 @@
                         "cbc:WeightNumeric": "8"
                     },
                     {
+                        "cbc:Description": "coste mililitro tinta plotter",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "coste copia blanco y negro",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Disponibilidad de urgencias",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "velocidad impresion",
+                        "cbc:WeightNumeric": "35"
+                    },
+                    {
                         "cbc:Description": "Sistema de validaci\u00f3n",
                         "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Anchura plotter",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Coste copia color",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -259,6 +299,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

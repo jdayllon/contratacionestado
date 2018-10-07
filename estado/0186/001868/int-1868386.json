@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2017-041-A; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Palma de Mallorca; Importe: 445240.34 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2017-041-A; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Palma de Mallorca; Importe: 445240.34 EUR; Estado: RES"
     },
     "title": "Servicio de apoyo familiar",
-    "updated": "2018-01-30T12:07:41.382+01:00",
+    "updated": "2018-10-05T08:05:10.411+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2017-041-A",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de apoyo familiar",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -112,6 +112,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser el titular de la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-09-05",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2018-10-01",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-09-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "G73038457"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FUNDACION DIAGRAMA INTERVENCION PSICOSOCIAL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "427430.73"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "427430.73"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -140,19 +177,19 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Medidas de cl\u00e1usulas sociales",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Precio de la oferta",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Valoraci\u00f3n de la calidad t\u00e9cnica del proyecto",
                         "cbc:WeightNumeric": "50"
                     },
                     {
-                        "cbc:Description": "Precio de la oferta",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Mejora sin contraprestaci\u00f3n econ\u00f3mica",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Mejora sin contraprestaci\u00f3n econ\u00f3mica",
+                        "cbc:Description": "Medidas de cl\u00e1usulas sociales",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -163,7 +200,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -208,9 +245,14 @@
                     },
                     {
                         "cbc-place-ext:PublicationMediaName": "DOUE",
-                        "cac-place-ext:AdditionalPublicationDocumentReference": {
-                            "cbc:IssueDate": "2017-12-19"
-                        }
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2017-12-19"
+                            },
+                            {
+                                "cbc:IssueDate": "2018-01-30"
+                            }
+                        ]
                     },
                     {
                         "cbc-place-ext:PublicationMediaName": "BOIB",
@@ -224,6 +266,38 @@
                         ]
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-05"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-03"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-19"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -258,6 +332,18 @@
                             "cbc:IssueDate": "2018-01-30"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
+                    }
                 }
             }
         ]

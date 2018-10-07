@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 020118AF4201; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Penitenciarios; Importe: 1359750 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 020118AF4201; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Penitenciarios; Importe: 1359750 EUR; Estado: RES"
     },
     "title": "1er contrato derivado de Acuerdo Marco. Suministro de MAVIRET para los Centros Penitenciarios dependientes de la Secretar\u00eda General de Instituciones Penitenciarias.",
-    "updated": "2018-08-10T13:17:58.349+02:00",
+    "updated": "2018-10-01T13:54:39.042+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "020118AF4201",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "1er contrato derivado de Acuerdo Marco. Suministro de MAVIRET para los Centros Penitenciarios dependientes de la Secretar\u00eda General de Instituciones Penitenciarias.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,10 @@
             "cbc:Description": "1er contrato derivado de Acuerdo Marco. Suministro de MAVIRET para los Centros Penitenciarios dependientes de la Secretar\u00eda General de Instituciones Penitenciarias.",
             "cbc:AwardDate": "2018-08-08",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "020118AF4201",
+                "cbc:IssueDate": "2018-08-22"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -140,6 +144,18 @@
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Reducci\u00f3n en el plazo de entrega previsto en el apartado 8.2 del PCAP",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Precio unitario m\u00e1ximo por tipo de envase y por tto/paciente",
+                        "cbc:WeightNumeric": "90"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -158,17 +174,40 @@
                 "#text": "3"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE"
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
+                    }
                 }
             }
-        }
+        ]
     }
 }

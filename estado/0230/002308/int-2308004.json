@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 4193/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Concello da Estrada; Importe: 115720.09 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 4193/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Concello da Estrada; Importe: 115720.09 EUR; Estado: RES"
     },
     "title": "acondicionamiento Rua del Cruceiro",
-    "updated": "2018-07-24T11:24:21.326+02:00",
+    "updated": "2018-10-01T15:21:44.247+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "4193/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "acondicionamiento Rua del Cruceiro",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -106,6 +106,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-09-17",
+            "cbc:ReceivedTenderQuantity": "9",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "106574.3"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "116497.72"
+            },
+            "cac:Contract": {
+                "cbc:ID": "4193/2018",
+                "cbc:IssueDate": "2018-09-20"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B36052876"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSTRUCCIONES TABOADA Y RAMOS SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "90705.36"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "114816.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,14 +166,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "De acuerdo con la cl\u00e1usula 12.2 PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-MEDIOS"
                         },
                         "cbc:Description": "De acuerdo con la cl\u00e1usula 12.2 PCAP"
                     },
@@ -161,13 +205,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "3"
                         }
                     },
                     {
@@ -181,12 +231,6 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
                     }
                 ]
             },
@@ -196,24 +240,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio ofertado",
-                        "cbc:WeightNumeric": "50"
-                    },
-                    {
                         "cbc:Description": "Plan de actuaciones ambientales",
                         "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Precio ofertado",
+                        "cbc:WeightNumeric": "50"
                     },
                     {
                         "cbc:Description": "Memoria y programa de trabajo",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Plan de control de calidad",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
                         "cbc:Description": "reducci\u00f3n plazo ejecuci\u00f3n",
                         "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Plan de control de calidad",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Equipo de trabajo",
@@ -266,6 +310,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -284,6 +340,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-24"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-01"
                     }
                 }
             }

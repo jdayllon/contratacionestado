@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 21/18.- Servicio; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Roquetas de Mar; Importe: 11600 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 21/18.- Servicio; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Roquetas de Mar; Importe: 11600 EUR; Estado: ADJ"
     },
     "title": "Servicio de revisi\u00f3n y mantenimiento preventivo del sistema completo de iluminaci\u00f3n sonido y maquinaria de la dependencia municipal denominada Teatro Auditorio de Roquetas de Mar",
-    "updated": "2018-07-25T13:05:29.920+02:00",
+    "updated": "2018-10-05T13:43:42.168+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "21/18.- Servicio",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de revisi\u00f3n y mantenimiento preventivo del sistema completo de iluminaci\u00f3n sonido y maquinaria de la dependencia municipal denominada Teatro Auditorio de Roquetas de Mar",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan los criterios de adjudicaci\u00f3n del procedimiento de licitaci\u00f3n, la mercantil INDUSTRIAS MAQUIESCENIC, S.L. ha resultado ser la mejor propuesta del concurso.",
+            "cbc:AwardDate": "2018-10-02",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "8046"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "10998"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B13186895"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INDUSTRIAS MAQUIESCENIC, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "8120"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "9825.2"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -128,16 +168,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "75"
+                    },
+                    {
                         "cbc:Description": "Medioambiental",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Calidad",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "75"
                     },
                     {
                         "cbc:Description": "Innovaci\u00f3n",
@@ -189,6 +229,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -205,9 +257,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-25"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-04"
+                        }
+                    ]
                 }
             }
         ]

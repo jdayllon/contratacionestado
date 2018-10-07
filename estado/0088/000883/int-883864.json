@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 201524000007; \u00d3rgano de Contrataci\u00f3n: Subdelegaci\u00f3n del Gobierno en Le\u00f3n; Importe: 83054.97 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 201524000007; \u00d3rgano de Contrataci\u00f3n: Subdelegaci\u00f3n del Gobierno en Le\u00f3n; Importe: 83054.97 EUR; Estado: ADJ"
     },
     "title": "Limpieza de las dependencias que ocupa la Subdelegaci\u00f3n del Gobierno en Le\u00f3n",
-    "updated": "2015-03-12T08:05:29.169+01:00",
+    "updated": "2018-09-27T10:31:52.674+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "201524000007",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,11 +56,11 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Limpieza de las dependencias que ocupa la Subdelegaci\u00f3n del Gobierno en Le\u00f3n",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/WorksContractCode-1.04.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/ServiceContractCode-1.04.gc",
                 "#text": "27"
             },
             "cac:BudgetAmount": {
@@ -86,7 +86,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -104,7 +104,45 @@
                 "cbc:EndDate": "2016-04-30"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Precio mas bajo",
+            "cbc:AwardDate": "2015-04-20",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:StartDate": "2015-05-01",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2015-04-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B33349978"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ITMA SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "76200"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "92202"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Los establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares"
@@ -115,7 +153,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -154,6 +192,18 @@
                     "cbc-place-ext:PublicationMediaName": "BOE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2015-03-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
                     }
                 }
             },

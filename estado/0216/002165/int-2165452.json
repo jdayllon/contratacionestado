@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2666/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Vera; Importe: 272727.27 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2666/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Vera; Importe: 272727.27 EUR; Estado: ADJ"
     },
     "title": "Servicio de limpieza de distintas dependencias municipales",
-    "updated": "2018-05-16T14:05:46.755+02:00",
+    "updated": "2018-09-27T08:47:52.226+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2666/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -23,6 +23,12 @@
             },
             "cac:Party": {
                 "cbc:WebsiteURI": "http://www.vera.es",
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "DIR3",
+                        "#text": "L01041002"
+                    }
+                },
                 "cac:PartyName": {
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de Vera"
                 },
@@ -45,22 +51,12 @@
                     "cbc:Telephone": "950393016",
                     "cbc:ElectronicMail": "secretaria@vera.es"
                 }
-            },
-            "cac-place-ext:ParentLocatedParty": {
-                "cac:PartyName": {
-                    "cbc:Name": "ENTIDADES LOCALES"
-                },
-                "cac-place-ext:ParentLocatedParty": {
-                    "cac:PartyName": {
-                        "cbc:Name": "Sector P\u00fablico"
-                    }
-                }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de limpieza de distintas dependencias municipales",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -68,10 +64,6 @@
                 "#text": "14"
             },
             "cac:BudgetAmount": {
-                "cbc:EstimatedOverallContractAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "545454.54"
-                },
                 "cbc:TotalAmount": {
                     "@currencyID": "EUR",
                     "#text": "330000"
@@ -85,13 +77,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "90911000"
+                        "#text": "90000000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "90000000"
+                        "#text": "90911000"
                     }
                 }
             ],
@@ -124,6 +116,168 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote Uno- Limpieza de Colegios de Educaci\u00f3n Infantil y Primaria Municipales",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "120000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "99173.55"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90000000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90911000"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Resto de dependencias municipales seg\u00fan Pliego",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "210000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "173553.72"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90911000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90000000"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Oferta m\u00e1s ventajosa en los t\u00e9rminos de los pliegos aprobados, al ser la \u00fanica licitadora admitida que cumple con los requisitos t\u00e9cnicos",
+                "cbc:AwardDate": "2018-07-30",
+                "cbc:ReceivedTenderQuantity": "5",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "83442"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "83442"
+                },
+                "cbc:StartDate": "2018-09-01",
+                "cac:Contract": {
+                    "cbc:ID": "2666/2018-1",
+                    "cbc:IssueDate": "2018-08-16"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "B14936926"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "SERVICIOS Y MANTENIMIENTOS MABRASER XI SL"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "83442"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "100964.82"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Oferta econ\u00f3micamente m\u00e1s ventajosa, en los t\u00e9rminos de los pliegos aprobados, al ser la \u00fanica licitadora admitida en procedimiento",
+                "cbc:AwardDate": "2018-08-06",
+                "cbc:ReceivedTenderQuantity": "9",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "143165.32"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "154940"
+                },
+                "cbc:StartDate": "2018-09-01",
+                "cac:Contract": {
+                    "cbc:ID": "2666/2018-2",
+                    "cbc:IssueDate": "2018-08-20"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "B14936926"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "SERVICIOS Y MANTENIMIENTOS MABRASER XI SL"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "154940"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "187477.4"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -224,11 +378,33 @@
                     },
                     {
                         "cbc-place-ext:PublicationMediaName": "Perfil contratante",
-                        "cac-place-ext:AdditionalPublicationDocumentReference": {
-                            "cbc:IssueDate": "2018-05-16"
-                        }
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2018-05-16"
+                            },
+                            {
+                                "cbc:IssueDate": "2018-05-16"
+                            }
+                        ]
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        }
+                    ]
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -237,8 +413,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-05-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-05-16"
+                        "cbc:IssueDate": "2018-09-27"
                     }
                 }
             }

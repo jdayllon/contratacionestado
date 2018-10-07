@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 9856/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de la Villa de La Orotava; Importe: 747663.56 EUR; Estado: PUB"
     },
     "title": "Contrataci\u00f3n de los servicios de telecomunicaciones del Ayuntamiento de la Villa de La Orotava",
-    "updated": "2018-09-05T15:04:58.134+02:00",
+    "updated": "2018-10-01T13:16:36.987+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "9856/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de los servicios de telecomunicaciones del Ayuntamiento de la Villa de La Orotava",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -122,7 +122,7 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "3"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
@@ -139,7 +139,7 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "1"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
@@ -166,20 +166,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Velocidad red de datos",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Precio Telefon\u00eda Fija",
                         "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Precio Telefon\u00eda Movil",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Precio Red de datos",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Precio Telefon\u00eda Movil",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Velocidad red de datos",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -224,15 +224,35 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "ServiciodeTelecomunicacionesANEXO1Descripciondelosserviciosactuales.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6aaf779f-fee0-48c1-8cc7-d4e07b5d5a80",
-                    "cbc:DocumentHash": "JYJzlhJ6Dc4cQfcFeKqC9/SxcWE="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "ServiciodeTelecomunicacionesANEXO1Descripciondelosserviciosactuales.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6aaf779f-fee0-48c1-8cc7-d4e07b5d5a80",
+                        "cbc:DocumentHash": "JYJzlhJ6Dc4cQfcFeKqC9/SxcWE="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "AclaracionesLicitadores.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2c05586b-7d10-4177-829d-e197475674a7",
+                        "cbc:DocumentHash": "1zUMOqcuPCzQLATto0jk/4LkRm8="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "AclaracionesLicitadores1.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2ff0000f-ee04-4999-a80f-57ce95c1ebde",
+                        "cbc:DocumentHash": "UGi4mmEU1SqeWhk8UayFldzIZOc="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -240,7 +260,10 @@
                     "#text": "DOC_CN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE"
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-06"
+                    }
                 }
             },
             {
@@ -256,6 +279,12 @@
                         },
                         {
                             "cbc:IssueDate": "2018-09-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-01"
                         }
                     ]
                 }
@@ -267,9 +296,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-03"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-21"
+                        }
+                    ]
                 }
             }
         ]

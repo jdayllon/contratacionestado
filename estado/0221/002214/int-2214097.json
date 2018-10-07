@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18AA0145; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Museo Nacional del Prado; Importe: 127000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18AA0145; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Museo Nacional del Prado; Importe: 127000 EUR; Estado: RES"
     },
     "title": "Servicio de arquitectura HW/SW en cloud computing para la web sem\u00e1ntica del Museo Nacional del Prado.",
-    "updated": "2018-06-25T18:59:03.030+02:00",
+    "updated": "2018-10-04T11:55:54.228+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18AA0145",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -49,14 +49,14 @@
                 "cac:Contact": {
                     "cbc:Name": "Direcci\u00f3n del Museo Nacional del Prado",
                     "cbc:Telephone": "913302372",
-                    "cbc:ElectronicMail": "antonio.plaza@museodelprado.es"
+                    "cbc:ElectronicMail": "contratacion@museodelprado.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de arquitectura HW/SW en cloud computing para la web sem\u00e1ntica del Museo Nacional del Prado.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -113,6 +113,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con mejor relaci\u00f3n calidad-precio.",
+            "cbc:AwardDate": "2018-09-05",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "75504"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "127914"
+            },
+            "cbc:StartDate": "2018-10-01",
+            "cac:Contract": {
+                "cbc:ID": "18AA0145",
+                "cbc:IssueDate": "2018-10-01"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85294916"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Arsys Internet, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "62400"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "75504"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
@@ -153,16 +198,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "5"
                         },
-                        "cbc:Description": "Seg\u00fan punto 6 Anexo I PCAP. El ROLECE podr\u00e1 acredita las condiciones de solvencia econ\u00f3mica y financiera del empresario"
+                        "cbc:Description": "Volumen anual de negocios, referido al mejor ejercicio dentro de los 3 \u00faltimos disponibles en funci\u00f3n de las fechas de inicio de las actividades del empresario y de la presentaci\u00f3n de las ofertas por igual o superior al presupuesto de licitaci\u00f3n."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Volumen anual de negocios, referido al mejor ejercicio dentro de los 3 \u00faltimos disponibles en funci\u00f3n de las fechas de inicio de las actividades del empresario y de la presentaci\u00f3n de las ofertas por igual o superior al presupuesto de licitaci\u00f3n."
+                        "cbc:Description": "Seg\u00fan punto 6 Anexo I PCAP. El ROLECE podr\u00e1 acredita las condiciones de solvencia econ\u00f3mica y financiera del empresario"
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
@@ -186,16 +231,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Compromiso de penalizaci\u00f3n",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Adecuaci\u00f3n al entorno tecnol\u00f3gico. Disponer de un nodo de servicio cloud en EEUU",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "60"
                     },
                     {
-                        "cbc:Description": "Adecuaci\u00f3n al entorno tecnol\u00f3gico. Disponer de un nodo de servicio cloud en EEUU",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Compromiso de penalizaci\u00f3n",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Adecuaci\u00f3n al entorno tecnol\u00f3gico. Disponer de un CDN para la distribuci\u00f3n del contenido est\u00e1tico",
@@ -301,6 +346,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -330,6 +387,18 @@
                             "cbc:IssueDate": "2018-06-12"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-04"
+                    }
                 }
             }
         ]

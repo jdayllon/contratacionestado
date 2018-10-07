@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 022438/2014-bis; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Gij\u00f3n ; Importe: 15000 EUR; Estado: RES"
     },
     "title": "Concesi\u00f3n Administrativa para la Construcci\u00f3n y Gesti\u00f3n de un Alojamiento para la Comunidad Universitaria, Investigadora, y Cient\u00edfica y de Instalaciones Deportivas para la Milla del Conocimiento",
-    "updated": "2016-06-06T15:17:51.802+02:00",
+    "updated": "2018-09-26T15:00:38.377+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "022438/2014-bis",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Concesi\u00f3n Administrativa para la Construcci\u00f3n y Gesti\u00f3n de un Alojamiento para la Comunidad Universitaria, Investigadora, y Cient\u00edfica y de Instalaciones Deportivas para la Milla del Conocimiento",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "7"
             },
             "cac:BudgetAmount": {
@@ -77,7 +77,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Principado de Asturias",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES12"
                 },
                 "cac:Address": {
@@ -201,10 +201,32 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Habitabilidad, tama\u00f1o y proporcionalidad a las plazas ofertadas",
-                    "cbc:WeightNumeric": "15"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Precio ofertado",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Relaci\u00f3n entre las ofertas recibidas respecto de los \"Precios base de alojamiento\"",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Mejoras en equipamiento de las habitaciones o de las dem\u00e1s instalaciones",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Propuesta de dise\u00f1o, calidad constructiva e integraci\u00f3n en el entorno del proyecto arquitect\u00f3nico",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Servicos complementarios que el licitador incluya en su oferta",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Habitabilidad, tama\u00f1o y proporcionalidad a las plazas ofertadas",
+                        "cbc:WeightNumeric": "15"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -212,7 +234,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -315,7 +337,24 @@
                         "cbc:IssueDate": "2016-06-06"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-26"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "La Junta de Gobierno Local en sesi\u00f3n de fecha 04/09/2018 acord\u00f3 la modificaci\u00f3n del contrato suscrito el 03/06/2016 en el sentido de que el comienzo del plazo establecido para la ejecuci\u00f3n de las obras y puesta en funcionamiento de la residencia se entender\u00e1 desde la fecha en que fue concedida la licencia definitiva de las obras, siendo esta concedida por Resoluci\u00f3n de fecha 03/10/2017.",
+            "cbc:ContractID": "022438/2014-bis"
+        }
     }
 }

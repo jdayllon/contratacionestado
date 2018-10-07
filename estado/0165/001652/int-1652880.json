@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 017/2017; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Santa Luc\u00eda de Tirajana ; Importe: 480000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 017/2017; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Santa Luc\u00eda de Tirajana ; Importe: 480000 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de los servicios de an\u00e1lisis, simplificaci\u00f3n y normalizaci\u00f3n de los procedimientos administrativos e implantaci\u00f3n de una plataforma de administraci\u00f3n electr\u00f3nica.",
-    "updated": "2017-07-21T09:23:04.522+02:00",
+    "updated": "2018-10-02T13:29:40.143+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "017/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de los servicios de an\u00e1lisis, simplificaci\u00f3n y normalizaci\u00f3n de los procedimientos administrativos e implantaci\u00f3n de una plataforma de administraci\u00f3n electr\u00f3nica.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La mejor oferta relaci\u00f3n calidad precio.",
+            "cbc:AwardDate": "2018-02-15",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "381600"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "479760"
+            },
+            "cbc:StartDate": "2018-03-29",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-03-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A41414145"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GUADALTEL, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "384000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "410880"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -143,10 +188,24 @@
                 "cbc:Rate": "50"
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Servicio de soporte y mantenimiento",
-                    "cbc:WeightNumeric": "16"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Plataforma tecnol\u00f3gica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Planteamiento t\u00e9cnico de la oferta",
+                        "cbc:WeightNumeric": "24"
+                    },
+                    {
+                        "cbc:Description": "Servicio de soporte y mantenimiento",
+                        "cbc:WeightNumeric": "16"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -154,7 +213,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -201,6 +260,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-02"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -219,6 +290,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-07-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-02"
                     }
                 }
             }

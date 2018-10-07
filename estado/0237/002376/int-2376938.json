@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: Prov. 8/08/2018 A; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento San Sebasti\u00e1n de la Gomera; Importe: 173150 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: Prov. 8/08/2018 A; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento San Sebasti\u00e1n de la Gomera; Importe: 173150 EUR; Estado: RES"
     },
     "title": "Alquiler, montajes, operaci\u00f3n  y desmontajes de los Equipos de Iluminaci\u00f3n y Sonido y Visuales para los diferentes Eventos programados por el Ayuntamiento de San Sebasti\u00e1n de La Gomera para las Fiestas Lustrales 2018.",
-    "updated": "2018-08-24T13:13:12.958+02:00",
+    "updated": "2018-09-27T10:21:18.803+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "Prov. 8/08/2018 A",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,7 +81,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Alquiler, montajes, operaci\u00f3n  y desmontajes de los Equipos de Iluminaci\u00f3n y Sonido y Visuales para los diferentes Eventos programados por el Ayuntamiento de San Sebasti\u00e1n de La Gomera para las Fiestas Lustrales 2018.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -144,11 +144,65 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "\u00danico licitador presentado, cumple requisitos conforme a las clausulas administrativas particulares",
+            "cbc:AwardDate": "2018-09-19",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "172950"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "172950"
+            },
+            "cac:Contract": {
+                "cbc:ID": "24/09/2018 A",
+                "cbc:IssueDate": "2018-09-24"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B38784179"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SONOPLUSS CANARIAS, SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "172950"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "185056.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "NO PROCEDE",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -162,16 +216,6 @@
                         "#text": "3"
                     },
                     "cbc:AmountRate": "5"
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    }
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -210,10 +254,6 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Mayor Equipo de Pantalla LED",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Menor precio ofertado",
                         "cbc:WeightNumeric": "60"
                     },
@@ -224,6 +264,10 @@
                     {
                         "cbc:Description": "Equipo de sonido para d\u00eda de luchada en la playa",
                         "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Mayor Equipo de Pantalla LED",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -247,7 +291,7 @@
             "cac:TenderSubmissionDeadlinePeriod": {
                 "cbc:EndDate": "2018-09-10",
                 "cbc:EndTime": "13:00:00",
-                "cbc:Description": "Plazo m\u00e1ximo para presentaci\u00f3n de ofertas seg\u00fan clausula novena punto 2."
+                "cbc:Description": "Plazo m\u00e1ximo para presentaci\u00f3n de ofertas seg\u00fan clausula novena punto 2. ATENCI\u00d3N LA PLATAFORMA SE RIGUE POR EL HORARIO PENINSULAR, EN CONSECUENCIA LA HORA LIMITE SON LAS 12 HORA CANARIA."
             },
             "cac:EconomicOperatorShortList": {
                 "cbc:LimitationDescription": "NO HAY LIMITACI\u00d3N"
@@ -275,6 +319,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -293,6 +349,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-24"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-27"
                     }
                 }
             }
