@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SUM1802003; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Educaci\u00f3n y Empleo; Importe: 317653 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SUM1802003; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Educaci\u00f3n y Empleo; Importe: 317653 EUR; Estado: ADJ"
     },
     "title": "Lectores de libros electr\u00f3nicos, tabletas digitales y ordenadores para dotar a las bibliotecas escolares de los centros educativos p\u00fablicos.",
-    "updated": "2018-08-23T13:20:26.128+02:00",
+    "updated": "2018-10-05T13:44:23.765+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SUM1802003",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Lectores de libros electr\u00f3nicos, tabletas digitales y ordenadores para dotar a las bibliotecas escolares de los centros educativos p\u00fablicos.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -106,6 +106,43 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "3"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Ordenadores de sobremesa",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37479.75"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30975"
+                    }
+                },
+                "cac:RequiredCommodityClassification": {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "30213300"
+                    }
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:Description": "Celebrada la mesa de contrataci\u00f3n a las 09:00 horas del d\u00eda 24/09/18 para la apertura y valoraci\u00f3n del SOBRE-ARCHIVO 1 de las ofertas presentadas en el expediente de contrataci\u00f3n, se comprueba que no se ha presentado ninguna oferta para el lote 3 \u201cOrdenadores de sobremesa\u201d.",
+            "cbc:AwardDate": "2018-09-26",
+            "cbc:ReceivedTenderQuantity": "0",
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "3"
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -127,6 +164,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
@@ -145,13 +188,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "13"
                         }
                     },
                     {
@@ -163,7 +200,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "13"
+                            "#text": "3"
                         }
                     }
                 ]
@@ -171,12 +208,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "90"
-                    },
-                    {
                         "cbc:Description": "Ampliaci\u00f3n de garant\u00eda",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "90"
                     }
                 ]
             },
@@ -228,8 +265,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-28"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-23"
+                        "cbc:IssueDate": "2018-10-05"
                     }
                 }
             },

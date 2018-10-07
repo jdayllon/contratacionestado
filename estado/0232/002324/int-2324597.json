@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 133/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Entrena; Importe: 575602.03 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 133/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Entrena; Importe: 575602.03 EUR; Estado: RES"
     },
     "title": "Parque Urbano",
-    "updated": "2018-07-31T13:25:51.540+02:00",
+    "updated": "2018-10-05T14:03:34.629+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "133/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Parque Urbano",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -115,6 +115,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s econ\u00f3mica de acuerdo con los criterios de ajudicaci\u00f3n",
+            "cbc:AwardDate": "2018-09-27",
+            "cbc:ReceivedTenderQuantity": "13",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "406835.51"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "490240"
+            },
+            "cbc:StartDate": "2018-10-04",
+            "cac:Contract": {
+                "cbc:ID": "133/2018",
+                "cbc:IssueDate": "2018-10-04"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A40015851"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ALVAC, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "406835.51"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "492270.97"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -136,12 +181,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "AMPLIACI\u00d3N PLAZO DE GARANT\u00cdA",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
                         "cbc:Description": "OFERTA ECONOMICA",
                         "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "AMPLIACI\u00d3N PLAZO DE GARANT\u00cdA",
+                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -212,9 +257,30 @@
                         "cbc:DocumentHash": "VtWTmQ1SIgASX/GW0uHemtSlAdU="
                     }
                 }
+            },
+            {
+                "cbc:ID": "mesa contratacion.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0152235f-7c09-4486-b6b8-12697fc8abef",
+                        "cbc:DocumentHash": "btf/QNcaQbTb3S4uNLaXZX/6E/0="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-03"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -236,6 +302,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
                     }
                 }
             }

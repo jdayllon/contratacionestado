@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 034/15; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General del Instituto Nacional de Ciberseguridad de Espa\u00f1a, S.A. (INCIBE); Importe: 630720 EUR; Estado: RES"
     },
     "title": "Servicio de vigilancia y seguridad f\u00edsica en la sede corporativa de INCIBE",
-    "updated": "2017-09-13T10:06:27.532+02:00",
+    "updated": "2018-10-06T09:40:11.422+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "034/15",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de vigilancia y seguridad f\u00edsica en la sede corporativa de INCIBE",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -214,7 +214,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -276,6 +276,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2015-10-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-06"
                     }
                 }
             },
@@ -344,35 +356,67 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2017-09-13"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2017-09-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-04"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:ContractModificationDurationMeasure": {
-                "@unitCode": "MON",
-                "#text": "12"
-            },
-            "cbc:FinalDurationMeasure": {
-                "@unitCode": "ANN",
-                "#text": "3"
-            },
-            "cbc:ContractID": "034/15",
-            "cac:ContractModificationLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "276578.91"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "12"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "3"
+                },
+                "cbc:ContractID": "034/15",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "276578.91"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "829736.73"
+                    }
                 }
             },
-            "cac:FinalLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "829736.73"
+            {
+                "cbc:ID": "2",
+                "cbc:Note": "Se necesita mantener el servicio hasta la formalizaci\u00f3n del contrato 038/18. En el pliego de caracter\u00edsticas Generales estaba prevista la posibilidad de una pr\u00f3rroga de 12 meses adicionales a la primera pr\u00f3rroga. Se acuerda que se adjudique por un m\u00e1ximo de 3 meses aunque la duraci\u00f3n ser\u00e1 la imprescindible para formalizar el contrato 038/18.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "3"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "28"
+                },
+                "cbc:ContractID": "034/15",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "69144.72"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "345723.63"
+                    }
                 }
             }
-        }
+        ]
     }
 }
