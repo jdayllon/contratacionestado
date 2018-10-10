@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: CO-2018/404000/006-002/00001 ; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Las Tres Villas; Importe: 3318780 EUR; Estado: PUB"
     },
     "title": "Construcci\u00f3n de Residencia para Mayores y personas discapacitadas",
-    "updated": "2018-10-06T20:38:26.669+02:00",
+    "updated": "2018-10-09T14:04:16.427+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CO-2018/404000/006-002/00001",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -124,16 +124,16 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "10"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "10"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -165,13 +165,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
@@ -182,12 +182,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda por encima del m\u00ednimo exigido",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda por encima del m\u00ednimo exigido",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Programaci\u00f3n t\u00e9cnica",
@@ -235,15 +235,26 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "Anexos PCAP.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bf245d78-dea1-4a18-800d-86ee83099577",
-                    "cbc:DocumentHash": "aqHU8xA33fchcS52mMbS29u5g9I="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Anexos PCAP.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bf245d78-dea1-4a18-800d-86ee83099577",
+                        "cbc:DocumentHash": "aqHU8xA33fchcS52mMbS29u5g9I="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexos PCAP rectificado el Anexo V sobre formula valoracion del precio.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c2f06b5f-cdd0-4acb-ba2a-525e2fdc33c3",
+                        "cbc:DocumentHash": "tfRzDbI5W1tY5S6Kf5dUB0PSD/s="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -258,6 +269,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-10-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-09"
                         }
                     ]
                 }

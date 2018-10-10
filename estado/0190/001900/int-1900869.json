@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 157/17; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 79991.25 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 157/17; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 79991.25 EUR; Estado: RES"
     },
     "title": "Obra de remodelaci\u00f3n de la Calle Poeta Mario L\u00f3pez",
-    "updated": "2018-02-20T15:12:39.171+01:00",
+    "updated": "2018-10-09T14:09:14.011+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "157/17",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Obra de remodelaci\u00f3n de la Calle Poeta Mario L\u00f3pez",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicar la contrataci\u00f3n de la Obra de remodelaci\u00f3n de la calle Poeta Mario L\u00f3pez, en el marco del Plan Provincial Extraordinario de Inversiones Municipales Financieramente Sostenibles, a la entidad UBECORD DE CONSTRUCCIONES, S.L., con CIF B14540058 por un importe neto de 54.993,98 \u20ac m\u00e1s 11.548,73 \u20ac de I.V.A. (21%), total: 66.542,71 \u20ac, en cuyo precio se incluyen las siguientes mejoras:\n\n    \u2022 Reducci\u00f3n del plazo de ejecuci\u00f3n de las obras en siete d\u00edas sobre el plazo inicialmente previsto.\n    \u2022 Ampliaci\u00f3n del plazo de garant\u00eda en veinticuatro meses m\u00e1s sobre el m\u00ednimo exigido.",
+            "cbc:AwardDate": "2018-10-07",
+            "cbc:ReceivedTenderQuantity": "29",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "50042.52"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "60229.28"
+            },
+            "cac:Contract": {
+                "cbc:ID": "157/17",
+                "cbc:IssueDate": "2018-10-09"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B14540058"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UBECORD DE CONSTRUCCIONES S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "54993.98"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "66542.71"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -128,13 +172,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "2"
                         }
                     },
                     {
@@ -152,19 +202,21 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "3"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Reducci\u00f3n plazo ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Plan de Obra",
+                        "cbc:WeightNumeric": "5"
+                    },
                     {
                         "cbc:Description": "Mejora en la oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "75"
@@ -176,14 +228,6 @@
                     {
                         "cbc:Description": "Ampliaci\u00f3n plazo garant\u00eda",
                         "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Plan de Obra",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Reducci\u00f3n plazo ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "6"
                     }
                 ]
             },
@@ -193,7 +237,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -253,6 +297,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -277,6 +333,18 @@
                             "cbc:IssueDate": "2018-02-20"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-09"
+                    }
                 }
             }
         ]

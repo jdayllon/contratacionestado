@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1291/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Cabrerizos; Importe: 153719.01 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1291/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Cabrerizos; Importe: 153719.01 EUR; Estado: ADJ"
     },
     "title": "Construcci\u00f3n vestuarios de campo de futbol",
-    "updated": "2018-07-30T11:57:21.621+02:00",
+    "updated": "2018-10-09T13:12:08.881+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1291/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Construcci\u00f3n vestuarios de campo de futbol",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -108,6 +108,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa para el Ayuntamiento",
+            "cbc:AwardDate": "2018-09-24",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "136656.19"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "148112"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B05131784"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CASTELLANO LEONESA DE MEDIO AMBIENTE S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "136656.19"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "165353.99"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -115,34 +155,20 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "3"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "1"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "3"
                 }
             ],
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
-                        },
-                        "cbc:Description": "T\u00edtulos acad\u00e9micos y profesionales del empresario y de los directivos de la empresa y, en particular, del responsable o responsables de las obras as\u00ed como de los t\u00e9cnicos encargados directamente de la misma, siempre que no se eval\u00faen como un criterio de adjudicaci\u00f3n."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
-                        },
-                        "cbc:Description": "Relaci\u00f3n de las obras ejecutadas en el curso de los cinco \u00faltimos a\u00f1os, que sean del mismo grupo o subgrupo de clasificaci\u00f3n que el correspondiente al contrato o del grupo o subgrupo m\u00e1s relevante para el contrato si este incluye trabajos correspondientes a distintos subgrupos, cuyo importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea igual o superior al 70% de la anualidad media del contrato, avalada por certificados de buena ejecuci\u00f3n."
-                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -153,25 +179,39 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-TITULOS"
+                        },
+                        "cbc:Description": "T\u00edtulos acad\u00e9micos y profesionales del empresario y de los directivos de la empresa y, en particular, del responsable o responsables de las obras as\u00ed como de los t\u00e9cnicos encargados directamente de la misma, siempre que no se eval\u00faen como un criterio de adjudicaci\u00f3n."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OXR-PLANTILLA"
                         },
                         "cbc:Description": "Declaraci\u00f3n sobre la plantilla media anual de la empresa y del n\u00famero de directivos durante los tres \u00faltimos a\u00f1os."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Relaci\u00f3n de las obras ejecutadas en el curso de los cinco \u00faltimos a\u00f1os, que sean del mismo grupo o subgrupo de clasificaci\u00f3n que el correspondiente al contrato o del grupo o subgrupo m\u00e1s relevante para el contrato si este incluye trabajos correspondientes a distintos subgrupos, cuyo importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea igual o superior al 70% de la anualidad media del contrato, avalada por certificados de buena ejecuci\u00f3n."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "6"
                         },
-                        "cbc:Description": "Volumen anual de negocios, o bien volumen anual de negocios en el \u00e1mbito al que se refiera el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades del empresario y de presentaci\u00f3n de las ofertas por importe igual o superior a 279.000 euros. (El volumen de negocios m\u00ednimo anual exigido no exceder\u00e1 de una vez y media el valor estimado del contrato, excepto en casos debidamente justificados como los relacionados con los riesgos especiales vinculados a la naturaleza de las obras, los servicios o los suministros)."
+                        "cbc:Description": "Patrimonio neto, o bien ratio entre activos y pasivos, al cierre del \u00faltimo ejercicio econ\u00f3mico para el que est\u00e9 vencida la obligaci\u00f3n de aprobaci\u00f3n de cuentas anuales."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
+                            "#text": "5"
                         },
-                        "cbc:Description": "Patrimonio neto, o bien ratio entre activos y pasivos, al cierre del \u00faltimo ejercicio econ\u00f3mico para el que est\u00e9 vencida la obligaci\u00f3n de aprobaci\u00f3n de cuentas anuales."
+                        "cbc:Description": "Volumen anual de negocios, o bien volumen anual de negocios en el \u00e1mbito al que se refiera el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades del empresario y de presentaci\u00f3n de las ofertas por importe igual o superior a 279.000 euros. (El volumen de negocios m\u00ednimo anual exigido no exceder\u00e1 de una vez y media el valor estimado del contrato, excepto en casos debidamente justificados como los relacionados con los riesgos especiales vinculados a la naturaleza de las obras, los servicios o los suministros)."
                     }
                 ],
                 "cac:SpecificTendererRequirement": {
@@ -222,6 +262,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-09"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

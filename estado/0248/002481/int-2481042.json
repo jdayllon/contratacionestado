@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: C.O.S.S. 1/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Alcala del Obispo; Importe: 55859.43 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: C.O.S.S. 1/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Alcala del Obispo; Importe: 55859.43 EUR; Estado: PUB"
     },
     "title": "Reforma de la Red de Abastecimiento de Agua Potable de Ola",
-    "updated": "2018-10-03T18:06:39.630+02:00",
+    "updated": "2018-10-09T14:01:16.578+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "C.O.S.S. 1/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,20 +108,19 @@
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
-                "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
+                "cac:RequiredBusinessClassificationScheme": {
+                    "cbc:ID": "RequiredBusinessProfileCode",
+                    "cac:ClassificationCategory": {
+                        "cbc:CodeValue": "E1-1"
                     }
-                ]
+                },
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "XSR-CONTROL"
+                    },
+                    "cbc:Description": "Podr\u00e1n presentar proposiciones las personas naturales o jur\u00eddicas, espa\u00f1olas o extranjeras, que tengan plena capacidad de obrar, no est\u00e9n incursas en prohibiciones de contratar.\nLa capacidad de obrar de los empresarios y la no concurrencia de prohibiciones de contratar se acreditar\u00e1 mediante la inscripci\u00f3n en el Registro Oficial de Licitadores y Empresas Clasificadas del Sector P\u00fablico.\nLa inscripci\u00f3n en el Registro Oficial de Licitadores y Empresas Clasificadas del Sector P\u00fablico acredita, a tenor de lo en \u00e9l reflejado y salvo prueba en contrario, las condiciones de aptitud del empresario en cuanto a su personalidad y capacidad de obrar, representaci\u00f3n, habilitaci\u00f3n profesional o empresarial, solvencia econ\u00f3mica y financiera y t\u00e9cnica o profesional, clasificaci\u00f3n y dem\u00e1s circunstancias inscritas, as\u00ed como la concurrencia o no concurrencia de las prohibiciones de contratar que deban constar en el mismo."
+                }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
@@ -130,12 +129,12 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Mantenimiento a costa del licitador",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Reducci\u00f3n Plazo de entrega",
                         "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Mantenimiento a costa del licitador",
+                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -153,8 +152,11 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-10",
+                "cbc:EndDate": "2018-10-19",
                 "cbc:EndTime": "23:59:00"
+            },
+            "cac:EconomicOperatorShortList": {
+                "cbc:LimitationDescription": "No hay"
             }
         },
         "cac:LegalDocumentReference": {
@@ -184,22 +186,48 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-10-03"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-10-03"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-09"
                     }
-                ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-03"
+                        }
+                    ]
+                }
             }
-        }
+        ]
     }
 }

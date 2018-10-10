@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2017-044-O; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Palma de Mallorca; Importe: 8125844.65 EUR; Estado: ADJ"
     },
     "title": "Contrato mixto de obras y servicios de reforma, mejora, reparaci\u00f3n y conservaci\u00f3n de pavimentos y infraestructuras de viales, caminos y espacios p\u00fablicos del T\u00e9rmino Municipal de Palma",
-    "updated": "2018-06-13T08:44:53.871+02:00",
+    "updated": "2018-10-09T13:00:42.281+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2017-044-O",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrato mixto de obras y servicios de reforma, mejora, reparaci\u00f3n y conservaci\u00f3n de pavimentos y infraestructuras de viales, caminos y espacios p\u00fablicos del T\u00e9rmino Municipal de Palma",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -157,6 +157,39 @@
             {
                 "cbc:ID": {
                     "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Zona de Levante-Playa de Palma y Pla de Sant Jordi-Zona Norte",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "4190000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "3462809.92"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "45233140"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "50000000"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
                     "#text": "3"
                 },
                 "cac:ProcurementProject": {
@@ -227,6 +260,39 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
                     "#text": "8"
                 },
+                "cbc:Description": "Ser el titular de la oferta econ\u00f3micamente m\u00e1s ventajosa.",
+                "cbc:AwardDate": "2018-09-19",
+                "cbc:ReceivedTenderQuantity": "8",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "UTE",
+                            "#text": "210424"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "UTE EXCASERVA SL - ISLASFALTO SL"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "3462809.92"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "4190000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
                 "cbc:Description": "Ser el titular de la oferta econ\u00f3micamente m\u00e1s ventajosa",
                 "cbc:AwardDate": "2018-06-06",
                 "cbc:ReceivedTenderQuantity": "4",
@@ -276,10 +342,10 @@
                             "cbc:CodeValue": "G6-3"
                         },
                         {
-                            "cbc:CodeValue": "G6-4"
+                            "cbc:CodeValue": "G4-4"
                         },
                         {
-                            "cbc:CodeValue": "G4-4"
+                            "cbc:CodeValue": "G6-4"
                         }
                     ]
                 }
@@ -287,12 +353,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "96"
-                    },
-                    {
                         "cbc:Description": "Ampliaci\u00f3n periodo de garant\u00eda",
                         "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "96"
                     }
                 ]
             },
@@ -375,9 +441,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-13"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-09"
+                        }
+                    ]
                 }
             },
             {

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 0017/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Murcia; Importe: 82924.6 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 0017/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Murcia; Importe: 82924.6 EUR; Estado: ADJ"
     },
     "title": "Servicio de Vigilancia en el Centro de Visitantes de la Luz",
-    "updated": "2018-08-17T14:29:44.708+02:00",
+    "updated": "2018-10-09T12:39:36.565+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "0017/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de Vigilancia en el Centro de Visitantes de la Luz",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -112,6 +112,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta con mayor puntuaci\u00f3n obtenida en la aplicaci\u00f3n del baremo no declarada desproporcionada conforme al informe de valoraci\u00f3n emitido por el Servicio de Turismo.",
+            "cbc:AwardDate": "2018-09-21",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "72252"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "81810"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B73500852"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VIRIATO SEGURIDAD,S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "82924.6"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "100338.77"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -120,16 +160,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "XSX-CERTCALIDAD"
                         },
-                        "cbc:Description": "Relaci\u00f3n de los principales servicios realizados en los \u00faltimos tres a\u00f1os. El importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n deber\u00e1 haber sido igual o superior a la cantidad de 58.047,22 \u20ac IVA excluido"
+                        "cbc:Description": "ISO 9001"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "ISO 9001"
+                        "cbc:Description": "Relaci\u00f3n de los principales servicios realizados en los \u00faltimos tres a\u00f1os. El importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n deber\u00e1 haber sido igual o superior a la cantidad de 58.047,22 \u20ac IVA excluido"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -143,24 +183,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "26"
-                    },
-                    {
-                        "cbc:Description": "Planificaci\u00f3n y organizaci\u00f3n del servicio",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Por disponer de central de alarmas",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Plan de inspecciones del servicio",
                         "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "Por prestaci\u00f3n del servicio de custodia de llaves durante el horario de cierrer del centro que no est\u00e9 cubierto por la vigilancia",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "26"
+                    },
+                    {
+                        "cbc:Description": "Por disponer de central de alarmas",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Planificaci\u00f3n y organizaci\u00f3n del servicio",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -214,6 +254,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-09"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
