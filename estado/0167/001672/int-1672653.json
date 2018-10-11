@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: ASU/2017/102; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 38000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: ASU/2017/102; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 38000 EUR; Estado: ADJ"
     },
     "title": "Cuenca Provincia. Suministro de Mobiliario de Oficina General Tipo 2",
-    "updated": "2017-08-14T08:05:07.865+02:00",
+    "updated": "2018-10-10T16:40:13.493+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ASU/2017/102",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -49,14 +49,14 @@
                     "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Justicia",
                     "cbc:Telephone": "913904330",
                     "cbc:Telefax": "913902370",
-                    "cbc:ElectronicMail": "juntacontratacion@mjusticia.es"
+                    "cbc:ElectronicMail": "mesacontratacion@mjusticia.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Cuenca Provincia. Suministro de Mobiliario de Oficina General Tipo 2",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -106,6 +106,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2017-11-29",
+            "cbc:ReceivedTenderQuantity": "11",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A49104367"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LEVIRA ESPA\u00d1A, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "18104.58"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "21906.54"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -120,9 +152,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "XSX-CERTCALIDAD"
                         },
-                        "cbc:Description": "Seg\u00fan puntos 19 B y C del cuadro resumen del PCAP."
+                        "cbc:Description": "Seg\u00fan punto 19 B y C del cuadro resumen del PCAP."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -134,9 +166,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Seg\u00fan punto 19 B y C del cuadro resumen del PCAP."
+                        "cbc:Description": "Seg\u00fan puntos 19 B y C del cuadro resumen del PCAP."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -153,7 +185,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -194,6 +226,18 @@
                     "cbc-place-ext:PublicationMediaName": "BOE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-08-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
                     }
                 }
             },

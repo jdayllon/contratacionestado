@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 043/2018-CONTR; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Fuengirola; Importe: 56700 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 043/2018-CONTR; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Fuengirola; Importe: 56700 EUR; Estado: ADJ"
     },
     "title": "Suministro de material de oficina para el Ayuntamiento de Fuengirola (3 lotes).",
-    "updated": "2018-08-13T13:24:32.361+02:00",
+    "updated": "2018-10-10T13:55:13.057+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "043/2018-CONTR",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de material de oficina para el Ayuntamiento de Fuengirola (3 lotes).",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -132,6 +132,64 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "1"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Cartuchos de t\u00f3ner.",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37147"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30700"
+                    }
+                },
+                "cac:RequiredCommodityClassification": {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "30125100"
+                    }
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Al ser la oferta presentada por la adjudicataria la mejora valorada teniendo en cuenta los criterios de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2018-10-10",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B29515202"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ICOMTEC SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "1",
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30700"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37147"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -161,12 +219,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejor oferta econ\u00f3mica (mayor porcentaje de descuento sobre los precios unitarios)",
-                        "cbc:WeightNumeric": "90"
-                    },
-                    {
                         "cbc:Description": "Menor plazo de entrega del suministro",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejor oferta econ\u00f3mica (mayor porcentaje de descuento sobre los precios unitarios)",
+                        "cbc:WeightNumeric": "90"
                     }
                 ]
             },
@@ -244,6 +302,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

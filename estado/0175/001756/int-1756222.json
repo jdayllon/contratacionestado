@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2017/99/SE-AM; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Murcia; Importe: 413223.14 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2017/99/SE-AM; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Murcia; Importe: 413223.14 EUR; Estado: RES"
     },
     "title": "Mantenimiento de las instalaciones de electricidad y asistencia t\u00e9cnica en la Universidad de Murcia.",
-    "updated": "2017-10-11T13:35:07.192+02:00",
+    "updated": "2018-10-10T14:23:42.877+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2017/99/SE-AM",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento de las instalaciones de electricidad y asistencia t\u00e9cnica en la Universidad de Murcia.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +110,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "A la vista de la propuesta elevada por la Mesa de Contrataci\u00f3n, las proposiciones admitidas fueron clasificadas por orden decreciente seg\u00fan la puntuaci\u00f3n otorgada en funci\u00f3n de los criterios establecidos en el pliego de cl\u00e1usulas administrativas particulares.\nLa adjudicaci\u00f3n se ha realizado por un porcentaje de baja del 41,2% aplicado sobre la tarifa de los precios unitarios que aparecen en el Anexo 2 del pliego de prescripciones t\u00e9cnicas.\nUna vez que la empresa clasificada en primer lugar ha presentado dentro del plazo establecido la documentaci\u00f3n requerida, este Rectorado, en uso de sus atribuciones, RESUELVE adjudicar el contrato a dicha empresa.",
+            "cbc:AwardDate": "2018-09-06",
+            "cbc:ReceivedTenderQuantity": "15",
+            "cbc:StartDate": "2018-10-02",
+            "cac:Contract": {
+                "cbc:ID": "46/2018",
+                "cbc:IssueDate": "2018-10-01"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B73762031"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VECTORIS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -137,10 +174,24 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Deposito de piezas y otros materiales",
-                    "cbc:WeightNumeric": "3"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Deposito de piezas y otros materiales",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Mejora consistente en la actualizaci\u00f3n de la documentaci\u00f3n t\u00e9cnica del edificio tras la realizaci\u00f3n de modificaciones",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica de las operaciones tarificadas",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Memoria de organizaci\u00f3n del servicio",
+                        "cbc:WeightNumeric": "17"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -148,7 +199,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -197,12 +248,36 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-10-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
                     }
                 }
             }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: ASU/2017/105; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 92000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: ASU/2017/105; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 92000 EUR; Estado: RES"
     },
     "title": "Suministro de mobiliario de oficina general (tipo 2)) para la provincia de Ciudad Real",
-    "updated": "2017-09-13T09:23:31.071+02:00",
+    "updated": "2018-10-10T16:48:35.691+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ASU/2017/105",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -49,14 +49,14 @@
                     "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Justicia",
                     "cbc:Telephone": "913904330",
                     "cbc:Telefax": "913902370",
-                    "cbc:ElectronicMail": "juntacontratacion@mjusticia.es"
+                    "cbc:ElectronicMail": "mesacontratacion@mjusticia.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de mobiliario de oficina general (tipo 2)) para la provincia de Ciudad Real",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -106,6 +106,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2017-11-29",
+            "cbc:ReceivedTenderQuantity": "14",
+            "cbc:StartDate": "2017-12-14",
+            "cac:Contract": {
+                "cbc:ID": "ASU/2017/105",
+                "cbc:IssueDate": "2017-12-14"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A49104367"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LEVIRA ESPA\u00d1A, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "43852.8"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "53061.89"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -120,14 +157,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "seg\u00fan el punto 19 B y C del cuadro resumen del PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "XSX-CERTCALIDAD"
                         },
                         "cbc:Description": "seg\u00fan el punto 19 B y C del cuadro resumen del PCAP"
                     }
@@ -141,10 +178,16 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "precio",
-                    "cbc:WeightNumeric": "51"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "plazo de entrega",
+                        "cbc:WeightNumeric": "49"
+                    },
+                    {
+                        "cbc:Description": "precio",
+                        "cbc:WeightNumeric": "51"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -152,7 +195,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -204,6 +247,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -239,6 +294,18 @@
                             "cbc:IssueDate": "2017-09-13"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
+                    }
                 }
             }
         ]

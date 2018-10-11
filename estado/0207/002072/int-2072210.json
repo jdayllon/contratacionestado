@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 131/2017/02844; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Medio Ambiente y Movilidad; Importe: 0 EUR; Estado: ADJ"
     },
     "title": "Gesti\u00f3n del servicio p\u00fablico de recogida y gesti\u00f3n de ropa usada (con reserva de mercado para empresas de inserci\u00f3n en el lote 3).",
-    "updated": "2018-08-16T11:04:24.026+02:00",
+    "updated": "2018-10-10T15:43:18.724+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "131/2017/02844",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Gesti\u00f3n del servicio p\u00fablico de recogida y gesti\u00f3n de ropa usada (con reserva de mercado para empresas de inserci\u00f3n en el lote 3).",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "21"
             },
             "cac:BudgetAmount": {
@@ -122,78 +122,230 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "3"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Sur",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": [
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "90511300"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Oeste",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
                         }
                     },
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "90512000"
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90511100"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90512000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90511300"
+                            }
                         }
-                    },
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "90511100"
-                        }
-                    }
-                ]
-            }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "Ser el siguiente empresario que ha presentado la proposici\u00f3n econ\u00f3micamente m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares. ofertando un precio unitario de adjudicaci\u00f3n de 140,00 euros por contenedor y a\u00f1o, lo que supone un alza sobre el presupuesto unitario base de licitaci\u00f3n del 86,67%",
-            "cbc:AwardDate": "2018-08-10",
-            "cbc:ReceivedTenderQuantity": "7",
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "UTE",
-                        "#text": "219031"
-                    }
-                },
-                "cac:PartyName": {
-                    "cbc:Name": "SOLIDAN\u00c7A TREBALL, EMPRESA DE INSERCIO, S.L.  y RECUMADRID SERVICIOS AMBIENTALES, S.L.U."
+                    ]
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "3",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Este",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90512000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90511100"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90511300"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "3"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Sur",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90511300"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90511100"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "90512000"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Ser el empresario que ha presentado la proposici\u00f3n econ\u00f3micamente m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares, ofertando un precio unitario de adjudicaci\u00f3n de 1.818,00 euros por contenedor y a\u00f1o, lo que supone un alza sobre el presupuesto unitario base de licitaci\u00f3n del 133,08%",
+                "cbc:AwardDate": "2018-10-05",
+                "cbc:ReceivedTenderQuantity": "7",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "B86216835"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "SERVICIOS ECOL\u00d3GICOS RECUPERALIA, S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Ser el empresario que ha presentado la proposici\u00f3n econ\u00f3micamente m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares, ofertando un precio unitario de adjudicaci\u00f3n de 1.773,00 euros por contenedor y a\u00f1o, lo que supone un alza sobre el presupuesto unitario base de licitaci\u00f3n del 124,43%",
+                "cbc:AwardDate": "2018-10-05",
+                "cbc:ReceivedTenderQuantity": "7",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "B86216835"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "SERVICIOS ECOL\u00d3GICOS RECUPERALIA, S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Ser el siguiente empresario que ha presentado la proposici\u00f3n econ\u00f3micamente m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares. ofertando un precio unitario de adjudicaci\u00f3n de 140,00 euros por contenedor y a\u00f1o, lo que supone un alza sobre el presupuesto unitario base de licitaci\u00f3n del 86,67%",
+                "cbc:AwardDate": "2018-08-10",
+                "cbc:ReceivedTenderQuantity": "7",
+                "cac:Contract": {
+                    "cbc:ID": "1",
+                    "cbc:IssueDate": "2018-09-18"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "UTE",
+                            "#text": "219031"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "SOLIDAN\u00c7A TREBALL, EMPRESA DE INSERCIO, S.L.  y RECUMADRID SERVICIOS AMBIENTALES, S.L.U."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "3",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -228,15 +380,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Realizaci\u00f3n de campa\u00f1as informativas en las zonas del entorno de los contenedores instalados",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Precio a abonar al Ayuntamiento de Madrid",
                         "cbc:WeightNumeric": "60"
                     },
                     {
                         "cbc:Description": "Veh\u00edculo adscrito al servicio propulsado por sistemas calificados como ECO 0 \"Cero emisiones\" por la Direcci\u00f3n General de Tr\u00e1fico",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Realizaci\u00f3n de campa\u00f1as informativas en las zonas del entorno de los contenedores instalados",
                         "cbc:WeightNumeric": "20"
                     }
                 ]
@@ -306,9 +458,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-16"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-10"
+                        }
+                    ]
                 }
             },
             {
@@ -338,6 +495,18 @@
                             "cbc:IssueDate": "2018-04-19"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
+                    }
                 }
             }
         ]
