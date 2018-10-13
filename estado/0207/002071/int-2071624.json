@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EXP0007SU18-ABO; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno de la Diputaci\u00f3n Provincial de Lugo; Importe: 231404.96 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: EXP0007SU18-ABO; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno de la Diputaci\u00f3n Provincial de Lugo; Importe: 231404.96 EUR; Estado: RES"
     },
     "title": "Suministro, instalaci\u00f3n y configuraci\u00f3n de equipamiento, recursos TIC, servicios y software para la ampliaci\u00f3n y optimizaci\u00f3n de los CPDs de la Diputaci\u00f3n de Lugo",
-    "updated": "2018-03-27T08:05:22.276+02:00",
+    "updated": "2018-10-12T09:31:08.249+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EXP0007SU18-ABO",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro, instalaci\u00f3n y configuraci\u00f3n de equipamiento, recursos TIC, servicios y software para la ampliaci\u00f3n y optimizaci\u00f3n de los CPDs de la Diputaci\u00f3n de Lugo",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -87,13 +87,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "72317000"
+                        "#text": "48800000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "48800000"
+                        "#text": "72317000"
                     }
                 }
             ],
@@ -117,6 +117,42 @@
                 "cbc:DurationMeasure": {
                     "@unitCode": "ANN",
                     "#text": "1"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Selecci\u00f3n de la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-08-17",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:Contract": {
+                "cbc:ID": "EXP0007SU18-ABO",
+                "cbc:IssueDate": "2018-10-08"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78053147"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TELEF\u00d3NICA SOLUCIONES DE INFORM\u00c1TICA Y COMUNICACIONES DE ESPA\u00d1A, S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "204120.35"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "246985.62"
+                    }
                 }
             }
         },
@@ -155,12 +191,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "PLAN DE PROYECTO: METODOLOG\u00cdA Y ORGANIZACI\u00d3N DEL PROYECTO,  CRONOGRAMA  Y SEGUIMIENTO",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "OFERTA ECON\u00d3MICA",
+                        "cbc:WeightNumeric": "40"
                     },
                     {
-                        "cbc:Description": "AMPLIACI\u00d3N DEL PLAZO DE SOPORTE Y GARANT\u00cdA",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "PLAN DE CRECIMIENTO Y ESCALABILIDAD. MEDIDAS DE SEGURIDAD, CONTINGENCIA Y  BACKUP",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "PLAN DE PROYECTO: METODOLOG\u00cdA Y ORGANIZACI\u00d3N DEL PROYECTO,  CRONOGRAMA  Y SEGUIMIENTO",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "AUMENTO DE CAPACIDAD Y PRESTACIONES DE PROCESAMIENTO Y ALMACENAMIENTO FINAL",
@@ -171,12 +211,8 @@
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "PLAN DE CRECIMIENTO Y ESCALABILIDAD. MEDIDAS DE SEGURIDAD, CONTINGENCIA Y  BACKUP",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "OFERTA ECON\u00d3MICA",
-                        "cbc:WeightNumeric": "40"
+                        "cbc:Description": "AMPLIACI\u00d3N DEL PLAZO DE SOPORTE Y GARANT\u00cdA",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -186,7 +222,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -254,6 +290,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -272,6 +332,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-03-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-11"
                     }
                 }
             }

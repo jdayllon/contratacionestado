@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SC 23/2018; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de San Fernando; Importe: 244778 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: SC 23/2018; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de San Fernando; Importe: 244778 EUR; Estado: PUB"
     },
     "title": "Servicio de montaje y legalizaci\u00f3n de las instalaciones el\u00e9ctricas temporales de los eventos organizados por el Ayuntamiento de San Fernando",
-    "updated": "2018-08-20T13:15:25.720+02:00",
+    "updated": "2018-10-12T09:32:20.261+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SC 23/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de montaje y legalizaci\u00f3n de las instalaciones el\u00e9ctricas temporales de los eventos organizados por el Ayuntamiento de San Fernando",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -96,10 +96,55 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "El licitador deber\u00e1 aportar relaci\u00f3n de los principales servicios o trabajos de igual o similar naturaleza que los que constituyen el objeto del contrato realizados en los \u00faltimos 3 a\u00f1os que incluya importe, fechas y el destinatario, p\u00fablico o privado, de los mismos, con el requisito m\u00ednimo de que que el importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea igual o superior al 70% de la anualidad media del lote correspondiente."
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "El licitador podr\u00e1 acreditar la solvencia econ\u00f3mica y financiera ser\u00e1 el volumen anual de negocios del licitador, que referido al a\u00f1o de mayor volumen de negocio de los 3 \u00faltimos concluidos deber\u00e1 ser al menos una vez y media el valor anual medio del lote correspondiente"
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Calidad de la Propuesta T\u00e9cnica. Ver subcriterios cl\u00e1usula 21 PCAP.",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Bolsa de horas de guardias \u201din situ\u201d ad\u00edcionales a las previstas en el PPT, hasta un m\u00e1ximo 157 horas para LOTE 1, 248 horas para LOTE 2, y 84 horas para LOTE 3.",
+                        "cbc:WeightNumeric": "10"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -112,19 +157,93 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-11-14",
+                "cbc:EndTime": "23:59:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-11-14",
+                "cbc:EndTime": "23:59:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-20"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP SC 23 2018.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f42be053-98a0-45d7-b43e-fd0dbf2d118f",
+                    "cbc:DocumentHash": "43hq1FGcOzohUSkd2uUgmoYWqak="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT SC 23-18.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=487e9d5f-de0f-45a7-b8a6-c74bb1738b27",
+                    "cbc:DocumentHash": "3oMDJF7n5dHKbS49FWJ9ImDCo04="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-12"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-10"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-20"
+                    }
+                }
+            }
+        ]
     }
 }
