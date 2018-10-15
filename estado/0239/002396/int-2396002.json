@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 19/2018; \u00d3rgano de Contrataci\u00f3n: Concejal\u00eda Delegada de Hacienda, Funci\u00f3n P\u00fablica y Promoci\u00f3n Econ\u00f3mica del Ayuntamiento de Valladolid; Importe: 892021.48 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 19/2018; \u00d3rgano de Contrataci\u00f3n: Concejal\u00eda Delegada de Hacienda, Funci\u00f3n P\u00fablica y Promoci\u00f3n Econ\u00f3mica del Ayuntamiento de Valladolid; Importe: 892021.48 EUR; Estado: PUB"
     },
     "title": "Limpieza de diversos centros municipales.",
-    "updated": "2018-09-06T09:39:37.200+02:00",
+    "updated": "2018-10-14T09:40:52.149+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "19/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Limpieza de diversos centros municipales.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -100,13 +100,14 @@
                 }
             },
             "cac:PlannedPeriod": {
+                "cbc:StartDate": "2019-01-01",
                 "cbc:DurationMeasure": {
                     "@unitCode": "ANN",
                     "#text": "1"
                 }
             },
             "cac:ContractExtension": {
-                "cbc:OptionsDescription": "Pr\u00f3rroga posible",
+                "cbc:OptionsDescription": "Pr\u00f3rroga posible de un a\u00f1o",
                 "cac:OptionValidityPeriod": {
                     "cbc:Description": "1 a\u00f1o"
                 }
@@ -115,22 +116,14 @@
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
-            "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
+            "cbc:PriceRevisionFormulaDescription": "NO",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
                 },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
-                    },
-                    "cbc:AmountRate": "5"
-                }
-            ],
+                "cbc:AmountRate": "5"
+            },
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
@@ -148,10 +141,20 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio con puntuaci\u00f3n proporcional por el procedimiento de regla de tres simple directa.",
-                    "cbc:WeightNumeric": "100"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Otrso criterios evaluables mediante la aplicaci\u00f3n de formulas matem\u00e1tica",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio con puntuaci\u00f3n proporcional por el procedimiento de regla de tres simple directa.",
+                        "cbc:WeightNumeric": "90"
+                    },
+                    {
+                        "cbc:Description": "Otros criterios evaluables mediante la aplicaci\u00f3n de formulas matem\u00e1tica",
+                        "cbc:WeightNumeric": "5"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -164,88 +167,84 @@
             },
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
-                "#text": "1"
+                "#text": "2"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-10-25",
+                "cbc:EndTime": "14:00:00",
+                "cbc:Description": "Contrato de servicios para la limpieza de diversos centros municipales dependientes de las \u00c1reas de Participaci\u00f3n Ciudadana y Juventud, Educaci\u00f3n, Infancia e Igualdad y Medio Ambiente y Sostenibilidad"
             }
         },
         "cac:LegalDocumentReference": {
             "cbc:ID": "20180507_PCAPmodeloSERVICIOS_F.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=67df5a17-844d-4e79-b20d-2eddcacfcf8d",
-                    "cbc:DocumentHash": "v5MtPtTiQ2KL6hZjq7Rn4yd+uYw="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e10f6152-3fdf-4816-8ac6-b69fe1979fa5",
+                    "cbc:DocumentHash": "hh29VXK1aRhISP/Ty3+ydYz7V8g="
                 }
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "2018-19_Desglose PPT_Limpieza.docx",
+            "cbc:ID": "pliegos.docx",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4d688f47-f59c-4c92-a95c-7ee964ad5921",
-                    "cbc:DocumentHash": "5yDJBA5wS7MypRUaVAvmfPhPXJ0="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2a0d0d30-d784-4755-9c7e-2f72a4b0c0e3",
+                    "cbc:DocumentHash": "usonkxotvavH9bKhW4NitGQgVPk="
                 }
             }
         },
         "cac:AdditionalDocumentReference": [
             {
-                "cbc:ID": "2018-19_PPT_PART-CIUD_Limpieza.pdf",
+                "cbc:ID": "Pliego tecnico lote 2.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e7ee6a76-1501-4631-8345-ee592fd3295e",
-                        "cbc:DocumentHash": "r7ALK6Ru8b8w/rMS6DHp2raxev8="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=200eb980-2baa-4d8d-a422-9d6c3d6c4d8e",
+                        "cbc:DocumentHash": "uWIc5qBQmw0J+Rbj7yxpGyhnCP0="
                     }
                 }
             },
             {
-                "cbc:ID": "2018-19_PPT_MEDIO AMBIENTE_Limpieza.pdf",
+                "cbc:ID": "Memoria.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4b1e25b8-b315-41e7-9071-c0f9b5c0fbde",
-                        "cbc:DocumentHash": "qRdBwwE8E5l00dwRmSvYHOocuTo="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6822af67-888b-4d51-9b5d-e9c3e7d5a631",
+                        "cbc:DocumentHash": "r9isouXNl+FDWKZJma9PXOCSBO4="
                     }
                 }
             },
             {
-                "cbc:ID": "2018-19_PPT_EDUCACION_Limpieza.pdf",
+                "cbc:ID": "Cuadro de caracteristicas particulares.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=29afb585-fa71-496e-bd33-9ade34b9b1e0",
-                        "cbc:DocumentHash": "1oQBRmpphR1RLfQ7IYLyG8R5N5c="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f4cffc1e-4033-4686-ab60-e83d9f7fc310",
+                        "cbc:DocumentHash": "JkHlGwrC4e9+ZBOrFVlGWxYogGc="
                     }
                 }
             },
             {
-                "cbc:ID": "2018-19_MEMORIA_PARTIC-CIUD_EDUC_Limpieza.pdf",
+                "cbc:ID": "Propuesta Acuerdo.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6a3699b1-f778-45cb-83d5-1b53176f8c79",
-                        "cbc:DocumentHash": "XAG1acqu5xQGDypgEdeATkjQJFw="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5ff41167-7ba5-4966-8b58-e6e53aa473af",
+                        "cbc:DocumentHash": "whhVucf8yJNoGrq+x86iQMQexoM="
                     }
                 }
             },
             {
-                "cbc:ID": "2018-19_MEMORIA_MEDIO AMBIENTE_Limpieza.pdf",
+                "cbc:ID": "Pliego tecnico lote1.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c5d5ae0a-3636-49cd-ac16-e7a85258c3d1",
-                        "cbc:DocumentHash": "sBEjXfAbDE1ilSee0xYn0wHd81I="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=885f718f-5cb8-49b6-85d0-d512f14d23f8",
+                        "cbc:DocumentHash": "91AQFyrCU1xlHaomh9U4Ig1KCbk="
                     }
                 }
             },
             {
-                "cbc:ID": "2018-19_CONVENIO 2018-2021.pdf",
+                "cbc:ID": "Pliego tecnico lote 3.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4a9cabd6-8a32-4004-a8e8-6c7226ffef90",
-                        "cbc:DocumentHash": "P6znBc6uQpoW6zJ3B2rvaTgER0c="
-                    }
-                }
-            },
-            {
-                "cbc:ID": "2018-19_ANEXO PPT_MEDIO AMBIENTE_Limpieza.pdf",
-                "cac:Attachment": {
-                    "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=15bb1af4-9030-4d1e-b6e1-f76abddc95bf",
-                        "cbc:DocumentHash": "lJjpgN9eZtOUC6bXyc342YLOh1A="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c433862a-39a7-4220-b955-bb79d0d53bd1",
+                        "cbc:DocumentHash": "TNsonlU8bu6rJCroJJK/Edsvjxw="
                     }
                 }
             }
@@ -266,13 +265,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_PIN"
+                    "#text": "DOC_CN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-05"
+                        "cbc:IssueDate": "2018-10-14"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-11"
+                        }
+                    ]
                 }
             }
         ]
