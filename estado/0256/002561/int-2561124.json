@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2/2018; \u00d3rgano de Contrataci\u00f3n: Delegaci\u00f3n del Gobierno en Cantabria; Importe: 143595.04 EUR; Estado: PUB"
     },
     "title": "Limpieza de las dependencias que ocupa la Delegaci\u00f3n del Gobierno en Cantabria para el a\u00f1o 2019.",
-    "updated": "2018-10-14T09:39:47.751+02:00",
+    "updated": "2018-10-15T14:26:13.984+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -137,13 +137,13 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-MEDIOS"
                         }
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "OSR-COMPTASK"
                         }
                     },
                     {
@@ -167,27 +167,11 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "80"
-                    },
-                    {
-                        "cbc:Description": "Plan de trabajo",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Servicio de cierre de puerta principal",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
-                        "cbc:Description": "aportacion enfundador parag\u00fcas + suministro bolsas",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
-                        "cbc:Description": "Medidas de conciliaci\u00f3n",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
                         "cbc:Description": "limpieza extra aseos",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Servicio de desinsectaci\u00f3n y desratizaci\u00f3n",
                         "cbc:WeightNumeric": "1"
                     },
                     {
@@ -195,7 +179,23 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Servicio de desinsectaci\u00f3n y desratizaci\u00f3n",
+                        "cbc:Description": "Plan de trabajo",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "80"
+                    },
+                    {
+                        "cbc:Description": "Medidas de conciliaci\u00f3n",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Servicio de cierre de puerta principal",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "aportacion enfundador parag\u00fcas + suministro bolsas",
                         "cbc:WeightNumeric": "1"
                     }
                 ]
@@ -265,17 +265,31 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-15"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-14"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-14"
+                    }
                 }
             }
-        }
+        ]
     }
 }
