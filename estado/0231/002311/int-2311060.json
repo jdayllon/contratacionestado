@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A2018/006863; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Fomento y Medio Ambiente de la Junta de Castilla y Le\u00f3n; Importe: 173553.72 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: A2018/006863; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Fomento y Medio Ambiente de la Junta de Castilla y Le\u00f3n; Importe: 173553.72 EUR; Estado: ADJ"
     },
     "title": "Suministro, soporte y mantenimiento de nuevos cortafuegos peque\u00f1os.",
-    "updated": "2018-07-25T12:26:23.173+02:00",
+    "updated": "2018-10-18T13:05:41.872+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A2018/006863",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro, soporte y mantenimiento de nuevos cortafuegos peque\u00f1os.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -106,6 +106,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La proposici\u00f3n que ha obtenido la mayor puntuaci\u00f3n, aplicando los criterios establecidos en las bases de la convocatoria del contrato.",
+            "cbc:AwardDate": "2018-10-17",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "95000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "156055.08"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B39363387"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AMBAR TELECOMUNICACIONES S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "110599.28"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "133825.13"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -135,7 +175,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "9"
                         }
                     },
                     {
@@ -147,13 +187,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "4"
                         }
                     },
                     {
@@ -161,13 +195,31 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Potencia el\u00e9ctrica m\u00e1xima que el equipo puede consumir",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Funcionalidades de seguridad",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Latencia",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Rendimiento de cortafuegos con paquetes UDP de 1518 bytes",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -175,36 +227,24 @@
                         "cbc:WeightNumeric": "8"
                     },
                     {
-                        "cbc:Description": "Potencia el\u00e9ctrica m\u00e1xima que el equipo puede consumir",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Nuevas conexiones TCP por segundo",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
-                        "cbc:Description": "Latencia",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Mejora de par\u00e1metros de calidad de servicio",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Rendimiento de cortafuegos con paquetes UDP de 1518 bytes",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Rendimientos VPN IPSec con cifrado AES-128",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Interfaces Gigabit Ethernet con conector RJ45",
+                        "cbc:WeightNumeric": "7"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Interfaces Gigabit Ethernet con conector RJ45",
+                        "cbc:Description": "Nuevas conexiones TCP por segundo",
                         "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Mejora de par\u00e1metros de calidad de servicio",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -249,6 +289,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-18"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

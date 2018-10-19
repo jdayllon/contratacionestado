@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: Contrataci\u00f3n 60/18; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Rinc\u00f3n de la Victoria; Importe: 39514.04 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: Contrataci\u00f3n 60/18; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Rinc\u00f3n de la Victoria; Importe: 39514.04 EUR; Estado: ADJ"
     },
     "title": "An\u00e1lisis de la situaci\u00f3n retributiva actual, desarrollo de una valoraci\u00f3n y homogeneizaci\u00f3n de los puestos de trabajo y de las retribuciones, elaboraci\u00f3n de un Plan para la ordenaci\u00f3n de los recursos humanos y confecci\u00f3n de una Relaci\u00f3n de Puestos de Trabajo del ayuntamiento de Rinc\u00f3n de la Victoria.",
-    "updated": "2018-10-04T12:53:29.806+02:00",
+    "updated": "2018-10-18T13:36:58.069+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "Contrataci\u00f3n 60/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,10 +107,57 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Decreto de adjudicaci\u00f3n de la Alcald\u00eda tras la recepci\u00f3n de la documentaci\u00f3n requerida a la empresa propuesta para la adjudicaci\u00f3n.",
+            "cbc:AwardDate": "2018-10-18",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "27073.16"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "30000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "b92509330"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSULTORIA INTEGRAL DE LA EMPRESA Y EL MUNICIPIO SL (CIEM)"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "27073.16"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "32758.52"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -120,13 +167,6 @@
                         "@currencyID": "EUR",
                         "#text": "0"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -134,13 +174,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
+                            "#text": "3"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "8"
                         }
                     },
                     {
@@ -152,7 +192,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -164,28 +204,28 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Que el producto entregado permita intercambio de datos con la aplicaci\u00f3n de gesti\u00f3n de n\u00f3minas.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Mejor oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Mejoras gratuitas. Organigrama funcional y cuadro de mando del Ayuntamiento.",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Mejoras gratuitas. Proyecto de creaci\u00f3n de una oficina de atenci\u00f3n ciudadana.",
                         "cbc:WeightNumeric": "15"
                     },
                     {
+                        "cbc:Description": "Que el producto entregado permita intercambio de datos con la aplicaci\u00f3n de gesti\u00f3n de n\u00f3minas.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Mejoras gratuitas. Plan de carrera profesional del personal municipal",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Licencia de una aplicaci\u00f3n de mercado para la gesti\u00f3n e implantaci\u00f3n en los sitemas del ayuntamiento.",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Mejor oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Mejoras gratuitas. Organigrama funcional y cuadro de mando del Ayuntamiento.",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Licencia de una aplicaci\u00f3n de mercado para la gesti\u00f3n e implantaci\u00f3n en los sitemas del ayuntamiento.",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -250,6 +290,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-18"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

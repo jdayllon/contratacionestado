@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 201800005138; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Agencia Estatal de Meteorolog\u00eda; Importe: 2165927.99 EUR; Estado: PUB"
     },
     "title": "Servicio de Seguridad y Vigilancia de los locales dependientes de la Agencia Estatal de Meteorolog\u00eda en Territorio Espa\u00f1ol",
-    "updated": "2018-10-06T09:34:57.010+02:00",
+    "updated": "2018-10-18T12:50:21.698+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "201800005138",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -117,12 +117,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Otros criterios",
-                        "cbc:WeightNumeric": "51"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "49"
+                    },
+                    {
+                        "cbc:Description": "Otros criterios",
+                        "cbc:WeightNumeric": "51"
                     }
                 ]
             },
@@ -166,26 +166,65 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "Declaracion de Urgencia.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c4566d3d-3834-4e40-810c-b2e5bc168709",
-                    "cbc:DocumentHash": "INW4VDeIPTyKjJSHkmmVIB8Y1dM="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Declaracion de Urgencia.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c4566d3d-3834-4e40-810c-b2e5bc168709",
+                        "cbc:DocumentHash": "INW4VDeIPTyKjJSHkmmVIB8Y1dM="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "DEUC.xml",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=45c7c91a-df5e-4c44-9307-982517b707c7",
+                        "cbc:DocumentHash": "0PweRihSOsM0Fo4AJxgXxSzYSqs="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
-                "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-06"
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-09"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-06"
+                        }
                     }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-18"
+                        }
+                    ]
                 }
             },
             {
@@ -195,9 +234,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-06"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-18"
+                        }
+                    ]
                 }
             }
         ]

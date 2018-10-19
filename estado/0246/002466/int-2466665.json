@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1102/2018; \u00d3rgano de Contrataci\u00f3n: Alcalde del Ayuntamiento de \u00c9pila; Importe: 35700 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 1102/2018; \u00d3rgano de Contrataci\u00f3n: Alcalde del Ayuntamiento de \u00c9pila; Importe: 35700 EUR; Estado: PUB"
     },
     "title": "Contrato de obras de \"Renovaci\u00f3n de aceras y arbolado junto a campo de f\u00fatbol\"",
-    "updated": "2018-09-28T15:42:53.298+02:00",
+    "updated": "2018-10-18T18:52:29.380+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1102/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,12 +81,6 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "77211600"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "45233340"
                     }
                 },
@@ -94,6 +88,12 @@
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "77211400"
+                    }
+                },
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "77211600"
                     }
                 }
             ],
@@ -104,6 +104,8 @@
                     "#text": "ES243"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "EPILA",
+                    "cbc:PostalZone": "50290",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -112,10 +114,121 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "3"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Una relaci\u00f3n de los principales servicios o trabajos realizados de igual o similar naturaleza que los que constituyen el objeto del contrato en el curso de, como m\u00e1ximo los tres \u00faltimos a\u00f1os"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-PLANTILLA"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n sobre la plantilla media anual de la empresa y la importancia de su personal directivo durante los tres \u00faltimos a\u00f1os, acompa\u00f1ada de la documentaci\u00f3n justificativa correspondiente"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n indicando el personal t\u00e9cnico o de las unidades t\u00e9cnicas, integradas o no en la empresa,"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-TITULOS"
+                        },
+                        "cbc:Description": "Las titulaciones acad\u00e9micas y profesionales del empresario y del personal directivo de la empresa y, en particular, del personal responsable de la ejecuci\u00f3n del contrato."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-MEDIOS"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n indicando la maquinaria, material y equipo t\u00e9cnico del que se dispondr\u00e1 para la ejecuci\u00f3n de los trabajos o prestaciones, a la que se adjuntar\u00e1 la documentaci\u00f3n acreditativa pertinente cuando le sea requerido por los servicios dependientes del \u00f3rgano de contrataci\u00f3n"
+                    }
+                ],
+                "cac:FinancialEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "5"
+                        },
+                        "cbc:Description": "La presentaci\u00f3n de una declaraci\u00f3n del volumen anual de negocios en el \u00e1mbito al que se refiera el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades del empresario."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "3"
+                        },
+                        "cbc:Description": "Justificante de la existencia de un seguro de responsabilidad civil por riesgos profesionales por importe igual o superior al exigido en el anuncio de licitaci\u00f3n o en la invitaci\u00f3n a participar en el procedimiento y en los pliegos del contrato o, en su defecto, al establecido reglamentariamente"
+                    }
+                ],
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "80"
+                    },
+                    {
+                        "cbc:Description": "Plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Garant\u00eda",
+                        "cbc:WeightNumeric": "10"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -128,19 +241,72 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-11-07",
+                "cbc:EndTime": "15:56:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-11-07",
+                "cbc:EndTime": "16:05:00",
+                "cbc:Description": "obras de Renovaci\u00f3n de aceras y arbolado junto a campo de f\u00fatbol"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-28"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=59850829-5e00-4dc2-b8fe-164dc154d981",
+                    "cbc:DocumentHash": "xv8gH6OP0PzwpBAG0o4wEsCTzSQ="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1aa0f841-b325-412c-99a0-5ebfa39b147d",
+                    "cbc:DocumentHash": "gnq85LboqVggk8iVZjxW/sa7Zxg="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
+            }
+        ]
     }
 }

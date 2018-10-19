@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 60/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de And\u00fajar; Importe: 194000.41 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 60/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de And\u00fajar; Importe: 194000.41 EUR; Estado: RES"
     },
     "title": "Climatizaci\u00f3n del Mercado de Abastos",
-    "updated": "2018-09-06T17:42:31.694+02:00",
+    "updated": "2018-10-18T17:54:02.763+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "60/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Climatizaci\u00f3n del Mercado de Abastos",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -108,6 +108,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "- Precio m\u00e1s bajo\n- Reducci\u00f3n plazo de ejecuci\u00f3n de las obras en 40 d\u00edas menos del plazo previsto en el PCAP",
+            "cbc:AwardDate": "2018-10-15",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "180398.08"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "206383.86"
+            },
+            "cbc:StartDate": "2018-10-17",
+            "cac:Contract": {
+                "cbc:ID": "60/2018",
+                "cbc:IssueDate": "2018-10-17"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B23273139"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Construcciones Gallardo Barrera, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "149089.32"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "180398.08"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -141,19 +186,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
                         }
                     },
                     {
@@ -173,18 +206,30 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "7"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio m\u00e1s bajo",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Precio m\u00e1s bajo",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -342,6 +387,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -360,6 +417,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-09-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-18"
                     }
                 }
             }
