@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: M18/C0001865; \u00d3rgano de contrataci\u00f3n: Agencia Andaluza de Instituciones Culturales; Importe: 17.400,00 \u20ac;"
     },
     "title": "Suministro de material de oficina , repograf\u00eda y papeler\u00eda corporativa ecol\u00f3gica.",
-    "updated": "2018-10-10T14:26:13.126+02:00",
+    "updated": "2018-10-19T14:56:15.182+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "M18/C0001865",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -49,13 +49,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "30192700"
+                        "#text": "30197000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "30197000"
+                        "#text": "30192700"
                     }
                 }
             ],
@@ -72,6 +72,28 @@
                 }
             }
         },
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "4"
+                },
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "4"
+                },
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            }
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -82,17 +104,31 @@
                 "cbc:EndTime": "23:55:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-10"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DESISTIMIENTO"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-19"
+                    }
                 }
             }
-        }
+        ]
     }
 }
