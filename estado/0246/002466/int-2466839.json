@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CNM09-18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Ejecutiva de la Fundaci\u00f3n Centro de Estudios Ambientales del Mediterr\u00e1neo; Importe: 3960 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CNM09-18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Ejecutiva de la Fundaci\u00f3n Centro de Estudios Ambientales del Mediterr\u00e1neo; Importe: 3960 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n del Servicio de pago por uso de \"Office 365 Empresa\" para la Fundaci\u00f3n de la Comunitat Valenciana Centro de Estudios Ambientales del Mediterr\u00e1neo",
-    "updated": "2018-10-02T10:59:52.784+02:00",
+    "updated": "2018-10-31T15:55:33.960+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CNM09-18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -126,6 +126,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Presenta el mejor precio.",
+            "cbc:AwardDate": "2018-10-31",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2730"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2939.7"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A25027145"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SERVICIOS MICROINFORMATICA SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2730"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3303.3"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -148,20 +188,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Formaci\u00f3n b\u00e1sica",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Prestaci\u00f3n de soporte en la instalaci\u00f3n",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Servicio de recepci\u00f3n de incidencias",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Mejor precio",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Prestaci\u00f3n de soporte en la instalaci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Formaci\u00f3n b\u00e1sica",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -184,7 +224,7 @@
             },
             "cac:TenderSubmissionDeadlinePeriod": {
                 "cbc:EndDate": "2018-10-16",
-                "cbc:EndTime": "10:00:00"
+                "cbc:EndTime": "15:00:00"
             }
         },
         "cac:LegalDocumentReference": {
@@ -247,6 +287,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -257,6 +309,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-10-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-16"
                         }
                     ]
                 }
@@ -268,9 +323,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-28"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-16"
+                        }
+                    ]
                 }
             }
         ]

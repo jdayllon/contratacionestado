@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02018350)-P.A 2 HMS/19- 1118001783; \u00d3rgano de Contrataci\u00f3n: Gerencia Sector Sanitario de Zaragoza 2; Importe: 573700.44 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: (A02018350)-P.A 2 HMS/19- 1118001783; \u00d3rgano de Contrataci\u00f3n: Gerencia Sector Sanitario de Zaragoza 2; Importe: 573700.44 EUR; Estado: ADJ"
     },
     "title": "Gesti\u00f3n integral del archivo de placas radiogr\u00e1ficas e historias cl\u00ednicas pasivas del Hospital Universitario \u201cMiguel Servet\u201d",
-    "updated": "2018-10-02T13:19:30.325+02:00",
+    "updated": "2018-10-31T16:16:50.681+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02018350)-P.A 2 HMS/19- 1118001783",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -96,22 +96,146 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Gesti\u00f3n integral del archivo de placas radiogr\u00e1ficas",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "203946.56"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "168550.87"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "92512000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Gesti\u00f3n integral del archivo de historias cl\u00ednicas pasivas",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "490231"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "405149.57"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "92512000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Adjudicaci\u00f3n",
+                "cbc:AwardDate": "2018-10-31",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A27010651"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Severiano Servicio M\u00f3vil"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "347677.04"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "420695.68"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Adjudicaci\u00f3n",
+                "cbc:AwardDate": "2018-10-31",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A27010651"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Severiano Servicio M\u00f3vil"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "133894.6"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "162012.56"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
             "cac:TendererQualificationRequest": {
-                "cbc:Description": "Los criterios de solvencia son los mismos para todos los lotes.",
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                         "#text": "OSR-COMPTASK"
-                    },
-                    "cbc:Description": "Ver Pliego de Cl\u00e1usulas Administrativas Particulares"
+                    }
                 },
                 "cac:FinancialEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "5"
-                    },
-                    "cbc:Description": "Ver Pliego de Cl\u00e1usulas Administrativas Particulares"
+                    }
                 }
             },
             "cac:Language": {
@@ -166,6 +290,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -191,6 +327,12 @@
                         },
                         {
                             "cbc:IssueDate": "2018-10-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-26"
                         }
                     ]
                 }

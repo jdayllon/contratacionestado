@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CN 148/2018; \u00d3rgano de Contrataci\u00f3n: ENAIRE. Direcci\u00f3n Regional NA. Regi\u00f3n Centro Norte; Importe: 82170 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: CN 148/2018; \u00d3rgano de Contrataci\u00f3n: ENAIRE. Direcci\u00f3n Regional NA. Regi\u00f3n Centro Norte; Importe: 82170 EUR; Estado: RES"
     },
     "title": "Mejora visionado de alarmas y gesti\u00f3n de eventos en instalaciones mediante snmp y lfd \u00bf fase 2",
-    "updated": "2018-08-10T04:13:32+02:00",
+    "updated": "2018-11-01T04:24:50.848+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CN 148/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mejora visionado de alarmas y gesti\u00f3n de eventos en instalaciones mediante snmp y lfd \u00bf fase 2",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -98,43 +98,109 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "2"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Ventilaci\u00f3n habit\u00e1culo de pantallas",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "4917.45"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "4064"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "79952000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Pantallas de videowall y soportaci\u00f3n",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "94508.26"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "78106"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79952000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Ventilaci\u00f3n habit\u00e1culo de pantallas",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "4917.45"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "4064"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79952000"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "3"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "oferta m\u00e1s ventajosa",
+                "cbc:AwardDate": "2018-09-05",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:Contract": {
+                    "cbc:ID": "CN 148/2018-1",
+                    "cbc:IssueDate": "2018-09-20"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A78053147"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "TELEFONICA SOLUCIONES SA"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "78055.11"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "94446.68"
+                        }
+                    }
+                }
             },
-            "cbc:Description": "No han presentado oferta ning\u00fan licitador.",
-            "cbc:AwardDate": "2018-08-08",
-            "cbc:ReceivedTenderQuantity": "0",
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "No han presentado oferta ning\u00fan licitador.",
+                "cbc:AwardDate": "2018-08-08",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Especificadas en el Pliego de Cl\u00e1usulas Administrativas."
@@ -183,14 +249,9 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": [
-                        {
-                            "cbc:IssueDate": "2018-08-09"
-                        },
-                        {
-                            "cbc:IssueDate": "2018-08-10"
-                        }
-                    ]
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-06"
+                    }
                 }
             },
             {
@@ -212,8 +273,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-05"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-17"
+                        "cbc:IssueDate": "2018-11-01"
                     }
                 }
             }

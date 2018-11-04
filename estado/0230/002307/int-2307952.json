@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: MY18/IUCMT/S/67; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 125000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: MY18/IUCMT/S/67; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 125000 EUR; Estado: ADJ"
     },
     "title": "Adquisici\u00f3n de c\u00e1mara e intensificador de muy alta velocidad",
-    "updated": "2018-07-24T12:37:02.900+02:00",
+    "updated": "2018-10-31T14:36:12.452+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MY18/IUCMT/S/67",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Adquisici\u00f3n de c\u00e1mara e intensificador de muy alta velocidad",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -109,6 +109,142 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "C\u00e1mara de muy alta velocidad.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "96800"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "80000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "38636000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Intensificador de imagen para c\u00e1mara.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "54450"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "45000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "38636000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Se adjudica el contrato a la empresa Alava ingenieros S.A. por haber obtenido la mayor puntuaci\u00f3n y cumplir con todas las especificaciones t\u00e9cnicas requeridas",
+                "cbc:AwardDate": "2018-10-24",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "65000"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "69800"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A28570190"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "ALAVA INGENIEROS, S.A."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "65000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "78650"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Se adjudica el contrato a la empresa Hamamatsu Photonics France Sucursal Espa\u00f1a al haber obtenido la mayor puntuaci\u00f3n y cumplir con todas las especificaciones t\u00e9cnicas requeridas",
+                "cbc:AwardDate": "2018-10-24",
+                "cbc:ReceivedTenderQuantity": "4",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "39700"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "43000"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B61355533"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "HAMAMATSU PHOTONICS FRANCE SUCURSAL EN ESPA\u00d1A"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "39700"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "48037"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -212,6 +348,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-31"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

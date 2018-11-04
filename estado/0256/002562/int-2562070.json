@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 726.18; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Almer\u00eda; Importe: 97200 EUR; Estado: PUB"
     },
     "title": "Sustituci\u00f3n de las actuales butacas existentes en el Auditorio de la Universidad de Almer\u00eda, por otras nuevas.",
-    "updated": "2018-10-15T19:21:02.893+02:00",
+    "updated": "2018-10-31T14:26:06.913+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "726.18",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -142,7 +142,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     },
                     {
@@ -160,7 +166,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "4"
                         }
                     },
                     {
@@ -172,13 +178,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -186,16 +186,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "65"
+                    },
+                    {
                         "cbc:Description": "Oferta tecnica",
                         "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "65"
                     }
                 ]
             },
@@ -213,11 +213,11 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2018-10-31",
+                "cbc:EndDate": "2018-11-03",
                 "cbc:EndTime": "13:00:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-31",
+                "cbc:EndDate": "2018-11-03",
                 "cbc:EndTime": "13:00:00"
             }
         },
@@ -259,9 +259,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-15"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-15"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-31"
+                        }
+                    ]
                 }
             }
         ]

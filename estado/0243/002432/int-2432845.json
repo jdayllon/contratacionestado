@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 582/2017; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Villatobas ; Importe: 3661945.56 EUR; Estado: PUB"
     },
     "title": "Concesi\u00f3n del servicio de suministro de agua potable a domicilio",
-    "updated": "2018-10-09T14:11:01.897+02:00",
+    "updated": "2018-10-31T14:37:18.137+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "582/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -132,9 +132,12 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
@@ -149,12 +152,9 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    }
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -176,6 +176,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
@@ -183,12 +189,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     },
                     {
@@ -209,19 +209,7 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "CRITERIOS ECON\u00d3MICO-FINANCIEROS DEL SERVICIO.",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
-                        "cbc:Description": "PLAN DE GESTI\u00d3N Y LECTURA DE CONTADORES",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "PROYECTO DE ORGANIZACI\u00d3N Y GESTI\u00d3N DEL SERVICIO PROPUESTO.",
-                        "cbc:WeightNumeric": "14"
-                    },
-                    {
-                        "cbc:Description": "VALORACI\u00d3N DE CRITERIOS DE ORDEN SOCIAL:  OTRAS BONIFICACIONES",
+                        "cbc:Description": "VALORACI\u00d3N DE CRITERIOS DE ORDEN SOCIAL: BONIFICACIONES PARCIALES",
                         "cbc:WeightNumeric": "0.5"
                     },
                     {
@@ -229,8 +217,20 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "VALORACI\u00d3N DE CRITERIOS DE ORDEN SOCIAL: BONIFICACIONES PARCIALES",
+                        "cbc:Description": "PROYECTO DE ORGANIZACI\u00d3N Y GESTI\u00d3N DEL SERVICIO PROPUESTO.",
+                        "cbc:WeightNumeric": "14"
+                    },
+                    {
+                        "cbc:Description": "CRITERIOS ECON\u00d3MICO-FINANCIEROS DEL SERVICIO.",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "VALORACI\u00d3N DE CRITERIOS DE ORDEN SOCIAL:  OTRAS BONIFICACIONES",
                         "cbc:WeightNumeric": "0.5"
+                    },
+                    {
+                        "cbc:Description": "PLAN DE GESTI\u00d3N Y LECTURA DE CONTADORES",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "PLAN DE GESTI\u00d3N, EXPLOTACI\u00d3N, MANTENIMIENTO Y CONSERVACI\u00d3N DE LAS INSTALACIONES Y REDES DE ABASTECIMIENTO DE AGUA POTABLE.",
@@ -268,8 +268,8 @@
             "cbc:ID": "Pliegos de clausulas administrativas.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=3bd7a010-7ce0-4ff8-bc8d-d325d1be7a75",
-                    "cbc:DocumentHash": "2Kbd7PccgNcbL94ufIHvB3wASUI="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b58c0e1c-0604-491d-8dc6-910d74a0f20c",
+                    "cbc:DocumentHash": "NM43nCy9/C+whe4ofLgpcjzm+C4="
                 }
             }
         },
@@ -277,8 +277,8 @@
             "cbc:ID": "Pliegos de prescripciones tecnicas.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2b6cf402-69ad-4a5a-b17b-7c1b2305cee9",
-                    "cbc:DocumentHash": "gFdF2swboiIrc8D2YAxMuhsCCPU="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f4de8b74-b19f-4531-8c11-9aefebb4ce18",
+                    "cbc:DocumentHash": "Rg7iZLs753cLncRPisW22cv+ofk="
                 }
             }
         },
@@ -381,6 +381,15 @@
                         "cbc:DocumentHash": "EgdSK6JrnxFQT+5h+pbjCozpHkw="
                     }
                 }
+            },
+            {
+                "cbc:ID": "Fe de erratas Anexo III.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6e87e7f6-79fd-46da-b39e-686251e5e92a",
+                        "cbc:DocumentHash": "z3tzacrIYvixGGoar20ItgaCO9E="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
@@ -400,6 +409,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-10-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-10"
                         }
                     ]
                 }
@@ -411,9 +423,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-09"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-31"
+                        }
+                    ]
                 }
             },
             {

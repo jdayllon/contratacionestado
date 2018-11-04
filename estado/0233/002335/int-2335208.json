@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A2018/006911; \u00d3rgano de Contrataci\u00f3n: Instituto Tecnol\u00f3gico Agrario de Castilla y Le\u00f3n; Importe: 17621160.06 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: A2018/006911; \u00d3rgano de Contrataci\u00f3n: Instituto Tecnol\u00f3gico Agrario de Castilla y Le\u00f3n; Importe: 17621160.06 EUR; Estado: ADJ"
     },
     "title": "Ejecuci\u00f3n de las obras contenidas en el proyecto de Transformaci\u00f3n en Regad\u00edo del Sector IV de la zona regable del Canal-Cea-Carri\u00f3n (Palencia-Valladolid). Red de Riego",
-    "updated": "2018-08-06T09:49:45.509+02:00",
+    "updated": "2018-10-31T16:17:00.887+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A2018/006911",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Ejecuci\u00f3n de las obras contenidas en el proyecto de Transformaci\u00f3n en Regad\u00edo del Sector IV de la zona regable del Canal-Cea-Carri\u00f3n (Palencia-Valladolid). Red de Riego",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por haber presentado la mejor oferta, no incursa en valores anormales o desproporcionados, teniendo en cuenta los criterios de valoraci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas.",
+            "cbc:AwardDate": "2018-10-31",
+            "cbc:ReceivedTenderQuantity": "13",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "A15168156, B36684157, B24554321"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UTE Espina Obras Hidr\u00e1ulicas, S.A., Civis Global, S.L.U., Geoxa Genereal de Construcciones, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "12421155.73"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "15029598.43"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -136,10 +168,10 @@
                     "cbc:ID": "RequiredBusinessProfileCode",
                     "cac:ClassificationCategory": [
                         {
-                            "cbc:CodeValue": "E7-6"
+                            "cbc:CodeValue": "J5-4"
                         },
                         {
-                            "cbc:CodeValue": "J5-4"
+                            "cbc:CodeValue": "E7-6"
                         }
                     ]
                 },
@@ -173,19 +205,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
                         }
                     },
                     {
@@ -193,38 +213,50 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Memoria Constructiva",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Control de Calidad",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Plazo de garant\u00eda",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Oferta Econ\u00f3mica",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Plan de aseguramiento de la calidad, aspectos medioambientales y medidas de seguridad y salud",
-                        "cbc:WeightNumeric": "14"
                     },
                     {
                         "cbc:Description": "Programa de Trabajos",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Memoria Constructiva",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Control de Calidad",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Plan de aseguramiento de la calidad, aspectos medioambientales y medidas de seguridad y salud",
+                        "cbc:WeightNumeric": "14"
+                    },
+                    {
+                        "cbc:Description": "Plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "3"
                     }
                 ]
             },
@@ -323,6 +355,18 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE"
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-31"
+                    }
                 }
             },
             {

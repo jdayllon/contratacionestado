@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 625/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas, M.P.; Importe: 93324 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 625/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas, M.P.; Importe: 93324 EUR; Estado: ADJ"
     },
     "title": "Servicio de gesti\u00f3n t\u00e9cnica, soporte a usuarios y documentaci\u00f3n del repositorio institucional digital.CSIC",
-    "updated": "2018-08-20T12:39:30.135+02:00",
+    "updated": "2018-10-31T14:28:23.336+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "625/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de gesti\u00f3n t\u00e9cnica, soporte a usuarios y documentaci\u00f3n del repositorio institucional digital.CSIC",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -113,6 +113,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta econ\u00f3micamente m\u00e1s ventajosa.",
+            "cbc:AwardDate": "2018-10-30",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "93000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B81879660"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INFORM\ufffd?TICA ABANA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "60900"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "73689"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
@@ -159,6 +199,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
                     },
@@ -166,12 +212,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     },
                     {
@@ -185,28 +225,28 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Memoria descriptiva de la ejecuci\u00f3n del contrato",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Medidas socio-laborales y de estabilidad del personal encargado de la ejecuci\u00f3n del contrato",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Mejoras y/o aportaciones adicionales.",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
                         "cbc:Description": "Sistemas de control y seguimiento que utilizar\u00e1 para garantizar la correcta ejecuci\u00f3n del contrato.",
                         "cbc:WeightNumeric": "16"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "42"
                     },
                     {
                         "cbc:Description": "Formaci\u00f3n, conocimientos y experiencia del equipo t\u00e9cnico",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "42"
+                        "cbc:Description": "Mejoras y/o aportaciones adicionales.",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Memoria descriptiva de la ejecuci\u00f3n del contrato",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Medidas socio-laborales y de estabilidad del personal encargado de la ejecuci\u00f3n del contrato",
+                        "cbc:WeightNumeric": "4"
                     }
                 ]
             },
@@ -265,6 +305,18 @@
                     "cbc-place-ext:PublicationMediaName": "BOE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-31"
                     }
                 }
             },

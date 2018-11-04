@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: E2018-074; \u00d3rgano de Contrataci\u00f3n: Gerencia del Grupo Energ\u00e9tico de Puerto Real S.A.; Importe: 11400 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: E2018-074; \u00d3rgano de Contrataci\u00f3n: Gerencia del Grupo Energ\u00e9tico de Puerto Real S.A.; Importe: 11400 EUR; Estado: ADJ"
     },
     "title": "Servicios de asesor\u00eda jur\u00eddica y de gesti\u00f3n especializada en contrataci\u00f3n p\u00fablica para Grupo Energ\u00e9tico de Puerto Real, S.A",
-    "updated": "2018-10-02T16:06:26.698+02:00",
+    "updated": "2018-10-31T15:10:08.018+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "E2018-074",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -144,6 +144,38 @@
                 "cbc:OptionsDescription": "El contrato puede ser prorrogado por 4 periodos de 1 a\u00f1o cada uno"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Licitador que ha obtenido mayor puntuaci\u00f3n mediante la aplicaci\u00f3n de los criterios de valoraci\u00f3n expresados en el pliego",
+            "cbc:AwardDate": "2018-10-31",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "28587979Z"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Manuel Mesa Vila"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "10200"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "12342"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -180,6 +212,14 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "35"
+                    },
+                    {
+                        "cbc:Description": "Docencia",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Experiencia entidades PANAP",
                         "cbc:WeightNumeric": "20"
                     },
@@ -188,19 +228,11 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "35"
-                    },
-                    {
                         "cbc:Description": "Cualificaci\u00f3n profesional",
                         "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Memoria T\u00e9cnica",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Docencia",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -262,6 +294,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-31"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
