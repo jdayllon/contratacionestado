@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.18/20810.0024; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 140587.63 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 3.18/20810.0024; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 140587.63 EUR; Estado: RES"
     },
     "title": "Mejoras de las instalaciones de seguridad de la l.a.v. madrid-barcelona- frontera francesa. tramo madrid-l\u00e9rida",
-    "updated": "2018-09-28T09:54:58.269+02:00",
+    "updated": "2018-11-05T21:01:54.349+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.18/20810.0024",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "4"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es/es_ES/empresas_servicios/licitaciones/licitaciones.shtml",
+                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -113,6 +113,10 @@
             "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
             "cbc:AwardDate": "2018-07-04",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "3.18/20810.0024/1",
+                "cbc:IssueDate": "2018-10-03"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -173,17 +177,31 @@
                 "cbc:EndTime": "11:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-28"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-05"
+                    }
                 }
             }
-        }
+        ]
     }
 }

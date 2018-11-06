@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: Exp 2017-09; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno de la Fundaci\u00f3n para el Fomento de la Investigaci\u00f3n Sanitaria y Biom\u00e9dica de la Comunitat Valenciana (FISABIO); Importe: 70000 EUR; Estado: RES"
     },
     "title": "Servicio de mantenimiento de equipos de electromedicina del edificio Fisabio Oftalmolog\u00eda M\u00e9dica",
-    "updated": "2017-08-09T12:37:16.717+02:00",
+    "updated": "2018-11-05T14:31:55.144+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "Exp 2017-09",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -48,16 +48,16 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Junta de Gobierno de la Fundaci\u00f3n para el Fomento de la Investigaci\u00f3n Sanitaria y Biom\u00e9dica de la Comunitat Valenciana (FISABIO)",
-                    "cbc:Telephone": "961925931",
+                    "cbc:Telephone": "961925700",
                     "cbc:Telefax": "961925703",
-                    "cbc:ElectronicMail": "almenar_est@gva.es"
+                    "cbc:ElectronicMail": "legal_fisabio@gva.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de mantenimiento de equipos de electromedicina del edificio Fisabio Oftalmolog\u00eda M\u00e9dica",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -224,10 +224,24 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Adecuaci\u00f3n de RRHH",
-                    "cbc:WeightNumeric": "13"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Planes de mantenimiento personalizados",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Organizaci\u00f3n del servicio",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Adecuaci\u00f3n de RRHH",
+                        "cbc:WeightNumeric": "13"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -235,7 +249,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -317,7 +331,44 @@
                         "cbc:IssueDate": "2017-08-09"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-05"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Se pr\u00f3rroga el contrato inicial seg\u00fan lo establecido en la cl\u00e1usula quinta del Pliego de Cl\u00e1usulas Administrativas Particulares que rige el presente expediente, por un nuevo periodo de un a\u00f1o.",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:ContractID": "3999/2017",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "66000"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "132000"
+                }
+            }
+        }
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/00000118Y; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Pe\u00f1\u00edscola; Importe: 59200 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 2018/00000118Y; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Pe\u00f1\u00edscola; Importe: 59200 EUR; Estado: ADJ"
     },
     "title": "Dise\u00f1o, suministro e instalaci\u00f3n de la se\u00f1alizaci\u00f3n tur\u00edstica de Pe\u00f1\u00edscola Familiar",
-    "updated": "2018-08-20T08:01:24.710+02:00",
+    "updated": "2018-11-05T14:45:02.461+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/00000118Y",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,7 +81,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Dise\u00f1o, suministro e instalaci\u00f3n de la se\u00f1alizaci\u00f3n tur\u00edstica de Pe\u00f1\u00edscola Familiar",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -106,7 +106,7 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "79822500"
+                        "#text": "34928470"
                     }
                 },
                 {
@@ -118,7 +118,7 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "34928470"
+                        "#text": "79822500"
                     }
                 }
             ],
@@ -137,10 +137,104 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "1"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Precio y mejoras",
+            "cbc:AwardDate": "2018-10-30",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "53280"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "53280"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B12924148"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DOBLE1080ESA, SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "53280"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "64468.8"
+                    }
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:AmountRate": "5"
+                }
+            ],
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "La indicada en el Pliego de Cl\u00e1usulas Administrativas Particulares"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "La indicada en el Pliego de Cl\u00e1usulas Administrativas Particulares"
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "75"
+                    },
+                    {
+                        "cbc:Description": "Manual con el dise\u00f1o/ contenido de las rutas y maquetaci\u00f3n de la se\u00f1alizaci\u00f3n en su conjunto",
+                        "cbc:WeightNumeric": "15.5"
+                    },
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "9.5"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -153,19 +247,83 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-09-20",
+                "cbc:EndTime": "14:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-09-20",
+                "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-20"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PACP 20180831 Vigente.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=efcfab51-3fe9-472a-9788-3dc7f9a4fafc",
+                    "cbc:DocumentHash": "gurj68gxKib0s9Nh4Kk6eauG8Xc="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT 20180830 Vigente.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5a41b327-ed2e-430c-8059-e25d9b89ee7a",
+                    "cbc:DocumentHash": "yk6gNYyqqHcFIHvEroB/CAb1pnM="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-20"
+                    }
+                }
+            }
+        ]
     }
 }
