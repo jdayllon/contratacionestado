@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EMSF/2018/00025; \u00d3rgano de Contrataci\u00f3n: Empresa Municipal de Servicios Funerarios y Cementerios de Madrid, S.A.; Importe: 470605.32 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: EMSF/2018/00025; \u00d3rgano de Contrataci\u00f3n: Empresa Municipal de Servicios Funerarios y Cementerios de Madrid, S.A.; Importe: 470605.32 EUR; Estado: ADJ"
     },
     "title": "Actuaciones que se llevar\u00e1n a cabo durante las obras de instalaci\u00f3n de anillo el\u00e9ctrico de media tensi\u00f3n 15/20 kv en el Cementerio de la Almudena de Madrid",
-    "updated": "2018-09-27T11:02:58.151+02:00",
+    "updated": "2018-11-08T18:05:06.623+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EMSF/2018/00025",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,20 +108,60 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Esta adjudicaci\u00f3n se realiza a favor de la empresa que ha presentado la proposici\u00f3n m\u00e1s ventajosa respecto a los criterios de valoraci\u00f3n establecidos en el Pliego de Condiciones.",
+            "cbc:AwardDate": "2018-11-08",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "291445.87"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "409426.62"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B80102775"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "IBTM"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "354310.94"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "428716.24"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -144,9 +184,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Nombres y cualificaci\u00f3n profesional del personal responsable de la ejecuci\u00f3n del contrato"
+                        "cbc:Description": "Certificados de buena ejecuci\u00f3n indicando importe, fechas y lugar de ejecucion"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-MEDIOS"
+                        },
+                        "cbc:Description": "Compromiso de adscripci\u00f3n de medios personales y materiales"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -158,16 +205,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-TITULOS"
                         },
-                        "cbc:Description": "Certificados de buena ejecuci\u00f3n indicando importe, fechas y lugar de ejecucion"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
-                        },
-                        "cbc:Description": "Compromiso de adscripci\u00f3n de medios personales y materiales"
+                        "cbc:Description": "Nombres y cualificaci\u00f3n profesional del personal responsable de la ejecuci\u00f3n del contrato"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -193,13 +233,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -211,12 +251,12 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Planos justificativos de las instalaciones a realizar",
-                        "cbc:WeightNumeric": "13"
-                    },
-                    {
                         "cbc:Description": "informe memoria justificativa del proyecto",
                         "cbc:WeightNumeric": "9"
+                    },
+                    {
+                        "cbc:Description": "Planos justificativos de las instalaciones a realizar",
+                        "cbc:WeightNumeric": "13"
                     },
                     {
                         "cbc:Description": "Oferta economica",
@@ -265,6 +305,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-08"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
