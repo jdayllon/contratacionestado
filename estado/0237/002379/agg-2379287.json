@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18-1412;  \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda;  Importe: 56400.00EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 18-1412;  \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda;  Importe: 56400.00EUR;  Estado: ADJ"
     },
     "title": "CONTRATACI\u00d3N DEL SERVICIO DE ASISTENCIA T\u00c9CNICA, REDACCI\u00d3N DE PROYECTOS, DIRECCI\u00d3N DE OBRA Y OTROS TRABAJOS T\u00c9CNICOS PARA LAS OBRAS DE MEJORA DE LA ACCESIBILIDAD ENTRE LA PLAZA KAITANA Y SANTA ANA",
-    "updated": "2018-09-13T16:10:53.673+02:00",
+    "updated": "2018-11-12T20:25:28.597+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18-1412",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -36,7 +36,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n del servicio de asistencia t\u00e9cnica, redacci\u00f3n de proyectos, direcci\u00f3n de obra y otros trabajos t\u00e9cnicos para las obras de mejora de la accesibilidad entre la Plaza Kaitana y Santa Ana",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cac:BudgetAmount": {
@@ -68,6 +68,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B20934386"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VAUMM ARQUITECTURA Y URBANISMO SLP"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37788"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -94,17 +120,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-27"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-27"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

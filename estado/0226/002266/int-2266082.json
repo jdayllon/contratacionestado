@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2018-01331; \u00d3rgano de Contrataci\u00f3n: Consejero Delegado de Ingenier\u00eda de Sistemas para la Defensa de Espa\u00f1a S.A., S.M.E. y M.P.; Importe: 671260 EUR; Estado: ADJ"
     },
     "title": "Servicios de asistencia t\u00e9cnica en ingenier\u00eda y arquitectura para la redacci\u00f3n de anteproyectos, proyectos b\u00e1sicos y de ejecuci\u00f3n, estudios de seguridad y salud y direcci\u00f3n facultativa de obra.",
-    "updated": "2018-09-28T13:59:07.863+02:00",
+    "updated": "2018-11-10T09:34:11.952+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018-01331",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -125,6 +125,39 @@
             {
                 "cbc:ID": {
                     "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Asistencia t\u00e9cnica al arsenal de Ferrol para la redacci\u00f3n de proyectos y direcci\u00f3n facultativa de obras e instalaciones en el arsenal de Ferrol.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "60621"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "50100"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "71200000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "71500000"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
                     "#text": "2"
                 },
                 "cac:ProcurementProject": {
@@ -195,9 +228,46 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
                     "#text": "8"
                 },
+                "cbc:Description": "ver acta 6",
+                "cbc:AwardDate": "2018-10-19",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B05225131"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "VIARIUM INGENIERIA"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "33896"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "41014.16"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
                 "cbc:Description": "ver acta3 y 4",
                 "cbc:AwardDate": "2018-09-28",
                 "cbc:ReceivedTenderQuantity": "2",
+                "cac:Contract": {
+                    "cbc:ID": "2018-01331 lote 2",
+                    "cbc:IssueDate": "2018-10-23"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -309,10 +379,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios autom\u00e1ticos distintos del precio.Lote 3",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "Criterios autom\u00e1ticos distintos del precio.Lote1",
                         "cbc:WeightNumeric": "50"
                     },
@@ -321,16 +387,20 @@
                         "cbc:WeightNumeric": "50"
                     },
                     {
+                        "cbc:Description": "Criterios autom\u00e1ticos distintos del precio.Lote 2",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Criterios autom\u00e1ticos distintos del precio.Lote 3",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
                         "cbc:Description": "Precio.Lote 2",
                         "cbc:WeightNumeric": "50"
                     },
                     {
                         "cbc:Description": "Precio.Lote 3",
                         "cbc:WeightNumeric": "75"
-                    },
-                    {
-                        "cbc:Description": "Criterios autom\u00e1ticos distintos del precio.Lote 2",
-                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -424,6 +494,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_PIN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -446,6 +528,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-09-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-23"
                         }
                     ]
                 }
@@ -476,6 +561,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-10"
                     }
                 }
             },

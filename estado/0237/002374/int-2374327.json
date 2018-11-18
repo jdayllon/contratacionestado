@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2.18/28520.0107; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 44000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2.18/28520.0107; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 44000 EUR; Estado: RES"
     },
     "title": "Servicio de limpieza del laboratorio central",
-    "updated": "2018-08-21T14:24:00+02:00",
+    "updated": "2018-11-16T21:01:36.327+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2.18/28520.0107",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de limpieza del laboratorio central",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -105,6 +105,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-10-25",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "2.18/28520.0107/1",
+                "cbc:IssueDate": "2018-10-31"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78015112"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INGENIERIA DE SANIT Y CONSERVAC SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "43656"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "52823.76"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares",
@@ -125,22 +161,23 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "ZZZ"
-                    }
+                    },
+                    "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "PROPUESTAS DE MEJORA E INNOVACION",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "PRECIO",
+                        "cbc:WeightNumeric": "75"
                     },
                     {
                         "cbc:Description": "PROCEDIMIENTO DE TRABAJO Y CONTROL DE CALIDAD",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "PRECIO",
-                        "cbc:WeightNumeric": "75"
+                        "cbc:Description": "PROPUESTAS DE MEJORA E INNOVACION",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "PROGRAMA DE GESTION AMBIENTAL",
@@ -217,6 +254,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-30"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -246,6 +295,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-16"
                     }
                 }
             }

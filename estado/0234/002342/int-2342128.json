@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 4270018050100; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico-Administrativa 27 - Base A\u00e9rea de Getafe; Importe: 200000 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 4270018050100; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico-Administrativa 27 - Base A\u00e9rea de Getafe; Importe: 200000 EUR; Estado: PUB"
     },
     "title": "Reparaci\u00f3n equipos y repuesto de avi\u00f3nica.",
-    "updated": "2018-08-08T09:31:03.276+02:00",
+    "updated": "2018-11-10T09:37:06.556+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "4270018050100",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Reparaci\u00f3n equipos y repuesto de avi\u00f3nica.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -99,56 +99,46 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:StartDate": "2018-12-01",
+                "cbc:EndDate": "2019-11-15"
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
-            "cac:TendererQualificationRequest": {
-                "cac:TechnicalEvaluationCriteria": {
-                    "cbc:EvaluationCriteriaTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                        "#text": "ZZZ"
-                    },
-                    "cbc:Description": "Contratos de objeto similar."
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
                 },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
                 "cac:FinancialEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                        "#text": "5"
+                        "#text": "ZZZ"
                     },
-                    "cbc:Description": "Cifra anual de negocio."
+                    "cbc:Description": "Seg\u00fan PCAP"
                 },
-                "cac:SpecificTendererRequirement": [
+                "cac:SpecificTendererRequirement": {
+                    "cbc:RequirementTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                        "#text": "1"
+                    }
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
                     {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "90"
                     },
                     {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
+                        "cbc:Description": "Plazo de entrega",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -164,9 +154,47 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-11-23",
+                "cbc:EndTime": "11:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-11-23",
+                "cbc:EndTime": "11:00:00"
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "20180501 PCAP definitivofdo.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=34eca3ba-f66c-4d5a-82d0-416c69854f85",
+                    "cbc:DocumentHash": "3dHkSL9BklWdYtvnUM1nrlTs85I="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT 501.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7c20c2e7-b7c3-464f-9464-3647020dc3f3",
+                    "cbc:DocumentHash": "Y2zONhe7DCbWz5FHdBD2NQg37Sg="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-10"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -176,6 +204,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-10"
                     }
                 }
             },

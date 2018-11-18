@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA/RA01/2019; \u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n de Hemoterapia y Hemodonaci\u00f3n de Castilla y Le\u00f3n; Importe: 508500 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA/RA01/2019; \u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n de Hemoterapia y Hemodonaci\u00f3n de Castilla y Le\u00f3n; Importe: 508500 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de suministro de equipos para la realizaci\u00f3n de pooles de plaquetas.",
-    "updated": "2018-07-13T09:30:49.142+02:00",
+    "updated": "2018-11-10T09:37:33.606+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA/RA01/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de suministro de equipos para la realizaci\u00f3n de pooles de plaquetas.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -134,6 +134,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con mejor relaci\u00f3n calidad-precio",
+            "cbc:AwardDate": "2018-09-21",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "508500"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "508500"
+            },
+            "cbc:StartDate": "2019-01-01",
+            "cac:Contract": {
+                "cbc:ID": "PA/RA01/2019",
+                "cbc:IssueDate": "2018-10-26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B87771499"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Terumo BCT Espa\u00f1a, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "508500"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "615285"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -170,7 +215,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
                         }
                     },
                     {
@@ -182,19 +233,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
                         }
                     }
                 ]
@@ -206,6 +251,14 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Menor recuento de leucocitos residuales. Desleucocitaci\u00f3n (menor que 1.000.000/U)",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Control de calidad: porcentaje de recuperaci\u00f3n de plaquetas",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "40"
                     },
@@ -214,15 +267,7 @@
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Control de calidad: porcentaje de recuperaci\u00f3n de plaquetas",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Tiempo medio de realizaci\u00f3n de 6 pooles de plaquetas (1 TEL)",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
-                        "cbc:Description": "Menor recuento de leucocitos residuales. Desleucocitaci\u00f3n (menor que 1.000.000/U)",
                         "cbc:WeightNumeric": "12"
                     }
                 ]
@@ -283,6 +328,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-24"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -301,6 +370,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-10"
                     }
                 }
             }

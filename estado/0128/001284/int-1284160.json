@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: RD-OB19/2016; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Utrera; Importe: 265785.12 EUR; Estado: RES"
     },
     "title": "Redacci\u00f3n de proyecto y ejecuci\u00f3n de las obras de tres edificios para biblioteca, aulas educativas o usos m\u00faltiples a ubicar en Trajano, Guadalema de los Quintero y Pinz\u00f3n. Utrera.",
-    "updated": "2016-12-23T13:43:35.794+01:00",
+    "updated": "2018-11-12T14:43:57.347+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "RD-OB19/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Redacci\u00f3n de proyecto y ejecuci\u00f3n de las obras de tres edificios para biblioteca, aulas educativas o usos m\u00faltiples a ubicar en Trajano, Guadalema de los Quintero y Pinz\u00f3n. Utrera.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -95,7 +95,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Sevilla",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
                 },
                 "cac:Address": {
@@ -241,10 +241,16 @@
                 "cbc:Rate": "50"
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Menor precio",
-                    "cbc:WeightNumeric": "70"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Menor plazo de ejecuci\u00f3n de las obras",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Menor precio",
+                        "cbc:WeightNumeric": "70"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -252,7 +258,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -331,7 +337,43 @@
                         "cbc:IssueDate": "2016-12-23"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-12"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "DAY",
+                "#text": "0"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "4"
+            },
+            "cbc:ContractID": "RD-OB19/2016",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "184990"
+                }
+            }
+        }
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: T-0013/19;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Gesti\u00f3n Econ\u00f3mica y Recursos Generales;  Importe: 224560.00EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: T-0013/19;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Gesti\u00f3n Econ\u00f3mica y Recursos Generales;  Importe: 224560.00EUR;  Estado: ADJ"
     },
     "title": "Tratamiento de documentos para la Direcci\u00f3n de Tr\u00e1fico - Contrato reservado a Centros Especiales de Empleo.",
-    "updated": "2018-11-05T19:25:54.200+01:00",
+    "updated": "2018-11-15T17:25:32.387+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "T-0013/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -58,13 +58,39 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
-                    "#text": "ES211"
+                    "#text": "ES21"
                 }
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
                     "@unitCode": "MON",
                     "#text": "24"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B20158218"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GUREAK MARKETING, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "224560"
+                    }
                 }
             }
         },
@@ -94,17 +120,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-03"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-03"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-15"
+                    }
                 }
             }
-        }
+        ]
     }
 }

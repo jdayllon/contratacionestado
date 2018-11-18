@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2452922",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=180921141521A6F2D99B"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=2004&Ticket=18111613474110770592"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: N/C; \u00d3rgano de Contrataci\u00f3n: Navarra de Infraestructuras Locales, S.A. (NILSA) ; Importe: 537158,52 EUR; Estado: En Plazo"
+        "#text": "Id licitaci\u00f3n: N/C; \u00d3rgano de Contrataci\u00f3n: Navarra de Infraestructuras Locales, S.A. (NILSA) ; Importe: 537158,52 EUR; Estado: Adjudicada"
     },
     "title": "Operaci\u00f3n, mantenimiento y conservaci\u00f3n de las instalaciones de transporte y tratamiento de aguas residuales de la zona de Tudela y Suroeste de Navarra",
-    "updated": "2018-09-24T08:30:04.579+02:00",
+    "updated": "2018-11-16T15:00:11.558+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "N/C",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -32,7 +32,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Operaci\u00f3n, mantenimiento y conservaci\u00f3n de las instalaciones de transporte y tratamiento de aguas residuales de la zona de Tudela y Suroeste de Navarra",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cac:BudgetAmount": {
@@ -60,7 +60,33 @@
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
                     "@unitCode": "ANN",
-                    "#text": "2"
+                    "#text": "5"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "10",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A26019992"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FCC AQUALIA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "416297.85"
+                    }
                 }
             }
         },
@@ -68,23 +94,41 @@
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
-            },
-            "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-15",
-                "cbc:EndTime": "12:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-09-21"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-15"
+                        }
+                    }
+                ]
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "DOUE",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-21"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-16"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SE-34/17; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Lucena ; Importe: 224700 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SE-34/17; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Lucena ; Importe: 224700 EUR; Estado: RES"
     },
     "title": "Servicio de asistencia t\u00e9cnica para la ejecuci\u00f3n de las obras de construcci\u00f3n del parque noroeste de Lucena y tratamiento de aguas procedentes de la E.D.A.R. y su conducci\u00f3n hasta el parque.",
-    "updated": "2018-03-12T10:14:32.077+01:00",
+    "updated": "2018-11-17T09:40:45.685+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SE-34/17",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de asistencia t\u00e9cnica para la ejecuci\u00f3n de las obras de construcci\u00f3n del parque noroeste de Lucena y tratamiento de aguas procedentes de la E.D.A.R. y su conducci\u00f3n hasta el parque.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,84 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 1. Asistencia t\u00e9cnica para las obras de construcci\u00f3n del parque noroeste de Lucena.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "226512"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "187200"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "71250000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 2. Asistencia t\u00e9cnica para las obras para el tratamiento de aguas procedentes de la E.D.A.R. y su conducci\u00f3n hasta el futuro parque noroeste de Lucena.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "45375"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "37500"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "71250000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "Este procedimiento se declara desierto al entender que ninguna de las proposiciones presentadas por los licitadores se adec\u00faan a los requisitos m\u00ednimos establecidos en el Pliego de Prescripciones T\u00e9cnicas Particulares.",
+                "cbc:AwardDate": "2018-11-08",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "Este procedimiento se declara desierto al no haber alcanzado la \u00fanica proposici\u00f3n presentada al procedimiento el umbral m\u00ednimo de puntuaci\u00f3n establecido en 24.5 puntos conforme se detalla en el Anexo VII del Pliego de Cl\u00e1usulas Administrativas Particulares.",
+                "cbc:AwardDate": "2018-11-08",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "true",
@@ -127,16 +205,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Lote 1.- La empresa deber\u00e1 contar con un personal t\u00e9cnico, integrado o no en la empresa participante, de al menos por los profesionales que se indican, debiendo actuar el Arquitecto como delegado y coordinador entre la asistencia t\u00e9cnica del control de calidad y el responsable del contrato: Un Arquitecto con, al menos, 5 a\u00f1os de experiencia, en planeamiento y proyectos de urbanizaci\u00f3n y/o construcci\u00f3n de parques y jardines; Un Ingeniero de Caminos, Canales y Puertos con, al menos, 5 a\u00f1os de experiencia en proyectos de urbanizaci\u00f3n; Un Ingeniero Industrial con, al menos, 5 a\u00f1os de experiencia en instalaciones con gesti\u00f3n energ\u00e9tica eficiente (riego, abastecimiento de aguas, saneamiento, alumbrado) debiendo acreditar experiencia en proyectos que versen sobre estas materias, y en el dise\u00f1o y ejecuci\u00f3n de instalaciones y redes de suministros en obras de urbanizaci\u00f3n; Un Arquitecto T\u00e9cnico o Ingeniero T\u00e9cnico de la Edificaci\u00f3n con al menos, 5 a\u00f1os de experiencia, en planeamiento y proyectos de urbanizaci\u00f3n; Un Ingeniero Agr\u00f3nomo o un Ingeniero de Montes con 5 a\u00f1os de experiencia.\nLote 2.- La empresa deber\u00e1 contar con un personal t\u00e9cnico, integrado o no en la empresa participante, de al menos por los profesionales que se indican, debiendo actuar el  Arquitecto o el Ingeniero Industrial de la Edificaci\u00f3n como delegado y coordinador entre la asistencia t\u00e9cnica del control de calidad y el responsable del contrato; Un Arquitecto o Ingeniero Industrial con, al menos, 5 a\u00f1os de experiencia; Un Ingeniero de Caminos, Canales y Puertos con, al menos, 5 a\u00f1os de experiencia en obra civil; Un Ingeniero T\u00e9cnico de Obras P\u00fablicas con al menos, 5 a\u00f1os de experiencia."
+                        "cbc:Description": "Lote 1.- La empresa licitadora deber\u00e1 acreditar experiencia previa, mediante la redacci\u00f3n y ejecuci\u00f3n de al menos dos proyectos de urbanizaci\u00f3n o de construcci\u00f3n de parques y jardines, durante los \u00faltimos diez a\u00f1os, con un presupuesto de ejecuci\u00f3n material m\u00ednimo de 1.500.000 euros cada uno de ellos.\nLote 2.-     \u2022 La empresa licitadora deber\u00e1 acreditar experiencia previa, mediante la redacci\u00f3n y ejecuci\u00f3n de al menos dos proyectos de tratamiento y/o conducci\u00f3n de aguas, durante los \u00faltimos diez a\u00f1os, con un presupuesto de ejecuci\u00f3n material m\u00ednimo de 300.000 euros cada uno de ellos."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-TITULOS"
                         },
-                        "cbc:Description": "Lote 1.- La empresa licitadora deber\u00e1 acreditar experiencia previa, mediante la redacci\u00f3n y ejecuci\u00f3n de al menos dos proyectos de urbanizaci\u00f3n o de construcci\u00f3n de parques y jardines, durante los \u00faltimos diez a\u00f1os, con un presupuesto de ejecuci\u00f3n material m\u00ednimo de 1.500.000 euros cada uno de ellos.\nLote 2.-     \u2022 La empresa licitadora deber\u00e1 acreditar experiencia previa, mediante la redacci\u00f3n y ejecuci\u00f3n de al menos dos proyectos de tratamiento y/o conducci\u00f3n de aguas, durante los \u00faltimos diez a\u00f1os, con un presupuesto de ejecuci\u00f3n material m\u00ednimo de 300.000 euros cada uno de ellos."
+                        "cbc:Description": "Lote 1.- La empresa deber\u00e1 contar con un personal t\u00e9cnico, integrado o no en la empresa participante, de al menos por los profesionales que se indican, debiendo actuar el Arquitecto como delegado y coordinador entre la asistencia t\u00e9cnica del control de calidad y el responsable del contrato: Un Arquitecto con, al menos, 5 a\u00f1os de experiencia, en planeamiento y proyectos de urbanizaci\u00f3n y/o construcci\u00f3n de parques y jardines; Un Ingeniero de Caminos, Canales y Puertos con, al menos, 5 a\u00f1os de experiencia en proyectos de urbanizaci\u00f3n; Un Ingeniero Industrial con, al menos, 5 a\u00f1os de experiencia en instalaciones con gesti\u00f3n energ\u00e9tica eficiente (riego, abastecimiento de aguas, saneamiento, alumbrado) debiendo acreditar experiencia en proyectos que versen sobre estas materias, y en el dise\u00f1o y ejecuci\u00f3n de instalaciones y redes de suministros en obras de urbanizaci\u00f3n; Un Arquitecto T\u00e9cnico o Ingeniero T\u00e9cnico de la Edificaci\u00f3n con al menos, 5 a\u00f1os de experiencia, en planeamiento y proyectos de urbanizaci\u00f3n; Un Ingeniero Agr\u00f3nomo o un Ingeniero de Montes con 5 a\u00f1os de experiencia.\nLote 2.- La empresa deber\u00e1 contar con un personal t\u00e9cnico, integrado o no en la empresa participante, de al menos por los profesionales que se indican, debiendo actuar el  Arquitecto o el Ingeniero Industrial de la Edificaci\u00f3n como delegado y coordinador entre la asistencia t\u00e9cnica del control de calidad y el responsable del contrato; Un Arquitecto o Ingeniero Industrial con, al menos, 5 a\u00f1os de experiencia; Un Ingeniero de Caminos, Canales y Puertos con, al menos, 5 a\u00f1os de experiencia en obra civil; Un Ingeniero T\u00e9cnico de Obras P\u00fablicas con al menos, 5 a\u00f1os de experiencia."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -147,12 +225,6 @@
                     "cbc:Description": "Para el lote 1, Seguro de Responsabilidad Civil por riesgos profesionales, por cuant\u00eda m\u00ednima de 350.000 euros.\nPara el lote 2, Seguro de Responsabilidad Civil por riesgos profesionales, por cuant\u00eda m\u00ednima de 100.000 euros."
                 },
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -174,6 +246,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     }
@@ -182,32 +260,40 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Lote 2 - Memoria de actuaciones medioambientales.",
-                        "cbc:WeightNumeric": "6"
+                        "cbc:Description": "Lotes 1 y 2 -Precio",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Lote 1 - Documentaci\u00f3n gr\u00e1fica.",
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Lotes 1 y 2 - Visitas de obra en la fase de direcci\u00f3n de obra",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Lotes 1 y 2 - Ampliaci\u00f3n del equipo t\u00e9cnico",
+                        "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Lotes 1 y 2 -Precio",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Lote 1 - Memoria de actuaciones medioambientales.",
+                        "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Lote 2 - Memoria de calidad.",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Lote 2 - Estudio de costes de explotaci\u00f3n.",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Lote 2 - Memoria constructiva y programa de trabajos.",
                         "cbc:WeightNumeric": "12"
                     },
                     {
-                        "cbc:Description": "Lote 1 - Memoria de actuaciones medioambientales.",
+                        "cbc:Description": "Lote 2 - Memoria de calidad.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Lote 2 - Memoria de actuaciones medioambientales.",
                         "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Lote 1 - Memoria constructiva y programa de trabajos.",
+                        "cbc:WeightNumeric": "12"
                     },
                     {
                         "cbc:Description": "Lote 1 - Memoria de calidad.",
@@ -218,16 +304,8 @@
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Lote 2 - Estudio de costes de explotaci\u00f3n.",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Lotes 1 y 2 - Ampliaci\u00f3n del equipo t\u00e9cnico",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Lote 1 - Memoria constructiva y programa de trabajos.",
-                        "cbc:WeightNumeric": "12"
+                        "cbc:Description": "Lotes 1 y 2 - Visitas de obra en la fase de direcci\u00f3n de obra",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -237,7 +315,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -313,6 +391,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-17"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -325,6 +415,18 @@
                             "cbc:IssueDate": "2018-03-09"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-17"
+                    }
                 }
             },
             {

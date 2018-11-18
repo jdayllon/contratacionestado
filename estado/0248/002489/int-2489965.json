@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/C003/000009; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Abegondo; Importe: 54177.39 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/C003/000009; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Abegondo; Importe: 54177.39 EUR; Estado: ADJ"
     },
     "title": "Mellora de cami\u00f1os 2018-2019 ( AB/059-AB/678)",
-    "updated": "2018-10-06T11:35:03.015+02:00",
+    "updated": "2018-11-09T16:04:50.940+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/C003/000009",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mellor o\u00a1erta no seu conxunto: econ\u00edmoca, reducci\u00f3n deprazos e prazo garant\u00eda.",
+            "cbc:AwardDate": "2018-11-09",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "46528.92"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B15072713"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Construcciones L\u00f3pez Cao, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39185"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "47413.85"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -145,7 +185,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "PROGRAMA DE TRABALLO",
+                        "cbc:Description": "OFERTA ECONOMINCA",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "PROGRAMA ACTUACION AMBIENTAL",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "PLAN DE SEGURIDADE E SAUDE",
                         "cbc:WeightNumeric": "9"
                     },
                     {
@@ -153,20 +201,12 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "PLAN DE SEGURIDADE E SAUDE",
+                        "cbc:Description": "PROGRAMA DE TRABALLO",
                         "cbc:WeightNumeric": "9"
-                    },
-                    {
-                        "cbc:Description": "PROGRAMA ACTUACION AMBIENTAL",
-                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "INCREMENTO GARANTIA",
                         "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "OFERTA ECONOMINCA",
-                        "cbc:WeightNumeric": "50"
                     },
                     {
                         "cbc:Description": "REDUCCION PRAZOS",
@@ -215,6 +255,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-09"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PC2/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Corral de Calatrava; Importe: 243913.69 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PC2/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Corral de Calatrava; Importe: 243913.69 EUR; Estado: ADJ"
     },
     "title": "Remodelaci\u00f3n de edificio para la construcci\u00f3n de un Centro de D\u00eda con servicio de Estancias Diurnas para mayores",
-    "updated": "2018-10-05T13:57:53.956+02:00",
+    "updated": "2018-11-14T14:55:24.168+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PC2/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,10 +115,60 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mejor precio ofertado",
+            "cbc:AwardDate": "2018-11-14",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "182691.35"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "230167.91"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B86163375"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INTEGRAL ARCHITECTURE SYSTEM S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "182691.35"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "221056.53"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -135,16 +185,6 @@
                         "#text": "2"
                     },
                     "cbc:AmountRate": "5"
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    }
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -166,13 +206,13 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         }
                     }
                 ]
@@ -220,6 +260,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-14"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
