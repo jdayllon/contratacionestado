@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 55/T/18/SS/GE/A/0005; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Gerente del Hospital Universitario Nuestra Se\u00f1ora de Candelaria; Importe: 295200 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 55/T/18/SS/GE/A/0005; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Gerente del Hospital Universitario Nuestra Se\u00f1ora de Candelaria; Importe: 295200 EUR; Estado: PUB"
     },
     "title": "Dep\u00f3sito, custodia, traslado y destrucci\u00f3n de documentaci\u00f3n previamente digitalizada y medios t\u00e9cnicos para la digitalizaci\u00f3n de documentaci\u00f3n cl\u00ednica y otra documentaci\u00f3n af\u00edn del Hospital.",
-    "updated": "2018-07-25T09:31:01.446+02:00",
+    "updated": "2018-11-19T14:50:41.199+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "55/T/18/SS/GE/A/0005",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Dep\u00f3sito, custodia, traslado y destrucci\u00f3n de documentaci\u00f3n previamente digitalizada y medios t\u00e9cnicos para la digitalizaci\u00f3n de documentaci\u00f3n cl\u00ednica y otra documentaci\u00f3n af\u00edn del Hospital.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -96,11 +96,87 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos realizados  de igual o similar naturaleza que los que constituyen este objeto de contrato, en el curso de, como m\u00e1ximo, los tres \u00faltimos a\u00f1os, en la que se indique el importe, la fecha y el destinatario p\u00fablico o privado de los mismos. El volumen de negocios m\u00ednimo anual exigido deber\u00e1 ser al menos por un importe igual o superior a 147.600.00 \u20ac"
+                },
+                "cac:FinancialEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "3"
+                        },
+                        "cbc:Description": "Justificante de la existencia de un seguro de responsabilidad civil por riesgos profesionales por un importe igual o superior a 295.200 \u20ac que tendr\u00e1 que estar vigente durante toda la vida del contrato."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "5"
+                        },
+                        "cbc:Description": "Volumen anual de negocios en el \u00e1mbito al que se refiera el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles, en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades de empresario. El volumen de negocios m\u00ednimo anual exigido deber\u00e1 ser al menos por un importe igual o superior a 147.600.00 \u20ac"
+                    }
+                ],
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Mejora en el tiempo de respuesta en las entregas ordinarias de historias cl\u00ednicas",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejor oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Mejora en el tiempo de respuesta en las entregas urgentes de las historias cl\u00ednicas",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Adecuaci\u00f3n y mantenimiento de los medios t\u00e9cnicos para la digitalizaci\u00f3n, el n\u00famero de esc\u00e1neres actuales (hasta un m\u00e1ximo de 2 m\u00e1s) con su correspondiente software",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Director / Responsable de proyecto",
+                        "cbc:WeightNumeric": "10"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -113,9 +189,48 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-12-04",
+                "cbc:EndTime": "15:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-12-04",
+                "cbc:EndTime": "23:59:00",
+                "cbc:Description": "T\u00e9ngase en cuenta que la hora est\u00e1 referida al horario peninsular."
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP 0005 rectificado.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5d5efebe-d127-47f4-88b9-96b6d8af9390",
+                    "cbc:DocumentHash": "bTQcIpEHcIGbST2YWI7D7FfsZvE="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT 0005.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=82924b6d-1e24-41ff-af6e-f3444bfa610e",
+                    "cbc:DocumentHash": "BhI5fdfirc1eQqHJvgq2bZCPNqY="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-06"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -126,6 +241,35 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-24"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-19"
+                        }
+                    ]
                 }
             },
             {

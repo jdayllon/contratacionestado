@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: MY18/VACD/SE/86; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 76802 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: MY18/VACD/SE/86; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 76802 EUR; Estado: ADJ"
     },
     "title": "Prestaci\u00f3n del servicio de actividades deportivas por precios unitarios ofertado por el Servei d'Esports de la Universitat Polit\u00e8cnica de Val\u00e8ncia para el Campus de Gandia",
-    "updated": "2018-07-31T14:43:02.274+02:00",
+    "updated": "2018-11-19T15:37:33.043+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MY18/VACD/SE/86",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Prestaci\u00f3n del servicio de actividades deportivas por precios unitarios ofertado por el Servei d'Esports de la Universitat Polit\u00e8cnica de Val\u00e8ncia para el Campus de Gandia",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +110,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica el contrato a Jos\u00e9 G\u00f3mez Vicent, \u00fanico licitador presentado, que por lo tanto ha obtenido la mayor puntuaci\u00f3n y cumple con los requisitos especificados en el pliego.",
+            "cbc:AwardDate": "2018-11-16",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "38400.99"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "38400.99"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "22617782L"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "JOS\u00c9 G\u00d3MEZ VICENT"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "38400.99"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46465.2"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -139,13 +179,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "9"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -153,19 +193,35 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Programa de trabajo 1",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Propuesta de mejora de la oferta 1",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Propuesta de mejora de la oferta 2",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
                         "cbc:Description": "Programa de trabajo 3",
                         "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Programa de trabajo 5",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "51"
                     },
                     {
                         "cbc:Description": "Programa de trabajo 2",
                         "cbc:WeightNumeric": "7"
                     },
                     {
-                        "cbc:Description": "Programa de trabajo 1",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
-                        "cbc:Description": "Programa de trabajo 5",
+                        "cbc:Description": "Programa de trabajo 4",
                         "cbc:WeightNumeric": "2"
                     },
                     {
@@ -173,23 +229,7 @@
                         "cbc:WeightNumeric": "7"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "51"
-                    },
-                    {
-                        "cbc:Description": "Propuesta de mejora de la oferta 1",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Programa de trabajo 4",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
                         "cbc:Description": "Propuesta de mejora de la oferta 3",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
-                        "cbc:Description": "Propuesta de mejora de la oferta 2",
                         "cbc:WeightNumeric": "7"
                     }
                 ]
@@ -257,9 +297,30 @@
                         "cbc:DocumentHash": "jhXERjMV6oy/Wx3Vs6dyQ/lvWlo="
                     }
                 }
+            },
+            {
+                "cbc:ID": "Anexo al Cuestionario_Campus Gandia.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=332ac037-e01c-49b5-b027-86a0d00eb741",
+                        "cbc:DocumentHash": "iqSJawpE7O/wP0Vxl7E4+klpA9k="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-19"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

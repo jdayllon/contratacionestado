@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2091118031900; \u00d3rgano de Contrataci\u00f3n: Jefatura de Asuntos Econ\u00f3micos del Mando de Apoyo Log\u00edstico; Importe: 669421.5 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2091118031900; \u00d3rgano de Contrataci\u00f3n: Jefatura de Asuntos Econ\u00f3micos del Mando de Apoyo Log\u00edstico; Importe: 669421.5 EUR; Estado: ADJ"
     },
     "title": "Adquisici\u00f3n de centros de carburante",
-    "updated": "2018-08-14T09:31:38.685+02:00",
+    "updated": "2018-11-19T15:04:35.375+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2091118031900",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Adquisici\u00f3n de centros de carburante",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -108,9 +108,39 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "ANN",
-                    "#text": "1"
+                "cbc:StartDate": "2018-12-14",
+                "cbc:EndDate": "2018-12-15"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mas ventajosa",
+            "cbc:AwardDate": "2018-11-19",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85489276"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "STAR DEFENCE LOGISTICS AND ENGINEERING S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "624000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "755040"
+                    }
                 }
             }
         },
@@ -122,9 +152,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Compromiso de medios materiales y humanos ( Personal T\u00e9cnico o unidades T\u00e9cnicas)"
+                        "cbc:Description": "Relaci\u00f3n de personal contratado en la empresa con discapacidad con arreglo al anexo II del PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -136,9 +166,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "Relaci\u00f3n de personal contratado en la empresa con discapacidad con arreglo al anexo II del PCAP"
+                        "cbc:Description": "Compromiso de medios materiales y humanos ( Personal T\u00e9cnico o unidades T\u00e9cnicas)"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -158,13 +188,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "8"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -232,10 +262,30 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-08-25"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-08-14"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
                 "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-14"
+                        "cbc:IssueDate": "2018-11-19"
                     }
                 }
             },

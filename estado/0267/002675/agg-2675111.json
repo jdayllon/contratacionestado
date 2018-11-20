@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "N\u00famero de expediente: 110/2014/02713; \u00d3rgano de Contrataci\u00f3n: Distrito de Latina; Importe: 1861.97 EUR; Estado: ADJ"
+        "#text": "N\u00famero de expediente: 110/2014/02713; \u00d3rgano de Contrataci\u00f3n: Distrito de Latina; Importe: 1861.97 EUR; Estado: RES"
     },
     "title": "Contrato basado de Obras de construcci\u00f3n de paso de veh\u00edculos en c/ Fuentedetodos, 12 del Distrito de Latina",
-    "updated": "2018-11-16T15:55:37.071+01:00",
+    "updated": "2018-11-19T16:55:37.163+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "110/2014/02713",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -80,6 +80,10 @@
             }
         },
         "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
             "cbc:ReceivedTenderQuantity": "1",
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
@@ -107,17 +111,31 @@
                 "#text": "7"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-19"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-16"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-16"
+                    }
                 }
             }
-        }
+        ]
     }
 }
