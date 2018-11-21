@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: S-05945-2018; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Compras de la Corporaci\u00f3n de Radio y Televisi\u00f3n Espa\u00f1ola S.A.; Importe: 45000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: S-05945-2018; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Compras de la Corporaci\u00f3n de Radio y Televisi\u00f3n Espa\u00f1ola S.A.; Importe: 45000 EUR; Estado: ADJ"
     },
     "title": "Suministro de \u00d3pticas HD para la Unidad de Captaci\u00f3n de PP.II.",
-    "updated": "2018-09-06T15:49:34.473+02:00",
+    "updated": "2018-11-20T16:09:36.565+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "S-05945-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.rtve.es/perfil-contratante/",
+                "cbc:WebsiteURI": "https://licitaciones.rtve.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de \u00d3pticas HD para la Unidad de Captaci\u00f3n de PP.II.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -108,28 +108,85 @@
                 }
             },
             "cac:ContractExtension": {
-                "cbc:OptionsDescription": "0 posible/s pr\u00f3rroga/s de 0 meses"
+                "cbc:OptionsDescription": "No hay prorrogas definidas"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mas econ\u00f3mica y aceptada tecnicamente",
+            "cbc:AwardDate": "2018-10-08",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28054690"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MONCADA Y LORENZO"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "36470"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "44128.7"
+                    }
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
-            "cac:RequiredFinancialGuarantee": {
-                "cbc:GuaranteeTypeCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                    "#text": "2"
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:AmountRate": "0"
                 },
-                "cbc:AmountRate": "5"
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:AmountRate": "0"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                }
+            ],
+            "cac:TendererQualificationRequest": {
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "-\tDispone de un seguro de responsabilidad civil de importe igual o superior al valor estimado del contrato, seg\u00fan se requiere en el Anexo II.\n-\tSu cifra de negocios anual en el ejercicio \u2026\u2026\u2026\u2026\u2026.. fue de \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026. euros, cantidad que supera los 45.000,00 euros requeridos en el pliego."
+                }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "86"
-                    },
-                    {
                         "cbc:Description": "CG - Criterio t\u00e9cnico objetivo con m\u00faltiples documentos",
                         "cbc:WeightNumeric": "14"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "86"
                     }
                 ]
             },
@@ -170,6 +227,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-20"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

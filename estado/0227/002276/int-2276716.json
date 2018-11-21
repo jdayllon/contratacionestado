@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 47/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de \u00c1vila; Importe: 29689.62 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 47/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de \u00c1vila; Importe: 29689.62 EUR; Estado: RES"
     },
     "title": "Establecer las bases para la selecci\u00f3n seg\u00fan criterio del jurado nombrado al efecto, de un proyecto para la ejecuci\u00f3n de una obra escult\u00f3rica de bronce de Tomas Luis de Victoria  al aire libre con motivo de la renovaci\u00f3n de la plaza Teniente Ar\u00e9valo.",
-    "updated": "2018-07-13T14:08:17.607+02:00",
+    "updated": "2018-11-20T13:27:56.915+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "47/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Establecer las bases para la selecci\u00f3n seg\u00fan criterio del jurado nombrado al efecto, de un proyecto para la ejecuci\u00f3n de una obra escult\u00f3rica de bronce de Tomas Luis de Victoria  al aire libre con motivo de la renovaci\u00f3n de la plaza Teniente Ar\u00e9valo.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -112,11 +112,54 @@
                 "cbc:EndDate": "2018-12-10"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta que mayor puntuaci\u00f3n obtiene en calidad dise\u00f1o y adaptaci\u00f3n entorno, y en el c\u00f3mputo global de la baremaci\u00f3n",
+            "cbc:AwardDate": "2018-10-31",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:Contract": {
+                "cbc:ID": "47/2018",
+                "cbc:IssueDate": "2018-11-19"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B81934283"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "OSCAR ALVARI\u00d1O S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29689.62"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "35924.44"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-TITULOS"
+                        },
+                        "cbc:Description": "Las titulaciones acad\u00e9micas del licitador que acrediten su condici\u00f3n de artista."
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -130,13 +173,6 @@
                             "#text": "OXR-MEDIOS"
                         },
                         "cbc:Description": "Declaraci\u00f3n indicando la maquinaria, material y equipo t\u00e9cnico del que se dispondr\u00e1 para la ejecuci\u00f3n de los trabajos o prestaciones, a la que se adjuntar\u00e1 la documentaci\u00f3n acreditativa pertinente"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
-                        },
-                        "cbc:Description": "Las titulaciones acad\u00e9micas del licitador que acrediten su condici\u00f3n de artista."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
@@ -157,15 +193,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "originalidad",
+                        "cbc:WeightNumeric": "33.33"
+                    },
+                    {
                         "cbc:Description": "calidad t\u00e9cnica y valor art\u00edstico del dise\u00f1o",
                         "cbc:WeightNumeric": "33.33"
                     },
                     {
                         "cbc:Description": "adaptaci\u00f3n al entorno",
-                        "cbc:WeightNumeric": "33.33"
-                    },
-                    {
-                        "cbc:Description": "originalidad",
                         "cbc:WeightNumeric": "33.33"
                     }
                 ]
@@ -215,6 +251,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -239,6 +287,18 @@
                             "cbc:IssueDate": "2018-07-13"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-20"
+                    }
                 }
             },
             {

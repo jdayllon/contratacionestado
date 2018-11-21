@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2003818004800; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Centro; Importe: 0 EUR; Estado: ANUL"
+        "#text": "Id licitaci\u00f3n: 2003818004800; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Centro; Importe: 0 EUR; Estado: PUB"
     },
     "title": "Servicio de cafeter\u00eda Acuartelamiento Palacio de Consejos.",
-    "updated": "2018-11-19T14:28:57.107+01:00",
+    "updated": "2018-11-20T14:28:38.200+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2003818004800",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ANUL"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -77,16 +77,12 @@
             "cbc:Name": "Servicio de cafeter\u00eda Acuartelamiento Palacio de Consejos.",
             "cbc:TypeCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
-                "#text": "2"
-            },
-            "cbc:SubTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/ServiceContractCode-1.04.gc",
-                "#text": "17"
+                "#text": "22"
             },
             "cac:BudgetAmount": {
                 "cbc:EstimatedOverallContractAmount": {
                     "@currencyID": "EUR",
-                    "#text": "288960"
+                    "#text": "262690.92"
                 },
                 "cbc:TotalAmount": {
                     "@currencyID": "EUR",
@@ -110,6 +106,8 @@
                     "#text": "ES30"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "Madrid",
+                    "cbc:PostalZone": "28013",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -120,13 +118,18 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "DAY",
-                    "#text": "765"
+                "cbc:StartDate": "2019-01-01",
+                "cbc:EndDate": "2020-12-31"
+            },
+            "cac:ContractExtension": {
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "Prorrogable dos a\u00f1os."
                 }
             }
         },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -135,14 +138,25 @@
                 "cbc:AmountRate": "5"
             },
             "cac:TendererQualificationRequest": {
-                "cbc:Description": "Seg\u00fan Pliego de Cl\u00e1usulas Administrativas Particulares"
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "Copia simple de certificados expedidos por diferentes centros donde se hayan realizado servicios de similares caracter\u00edsticas a este contrato. Relaci\u00f3n de los principales servicios efectuados en los tres \u00faltimos a\u00f1os, de igual o similar naturaleza que los que constituyen el objeto del contrato, cuyo importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea Relaci\u00f3n de los principales servicios efectuados en los tres \u00faltimos a\u00f1os, de igual o similar naturaleza que los que constituyen el objeto del contrato, cuyo importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea igual o superior a la cantidad de 45.970,91 \u20ac"
+                },
+                "cac:SpecificTendererRequirement": {
+                    "cbc:RequirementTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                        "#text": "1"
+                    }
+                }
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "no procede"
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "descuento sobre precios",
-                        "cbc:WeightNumeric": "49"
-                    },
                     {
                         "cbc:Description": "experiencia del personal adscrito al contrato",
                         "cbc:WeightNumeric": "21"
@@ -150,6 +164,10 @@
                     {
                         "cbc:Description": "reinversi\u00f3n de los beneficios obtenidos en la mejora de los servicios que presta",
                         "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "descuento sobre precios",
+                        "cbc:WeightNumeric": "49"
                     }
                 ]
             },
@@ -167,10 +185,66 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-12-04",
+                "cbc:EndDate": "2018-12-20",
                 "cbc:EndTime": "10:00:00",
-                "cbc:Description": "La presentaci\u00f3n de ofertas se deber\u00e1 realizar  electr\u00f3nicamente en PLCSP. Este plazo de 04/12/2018 es de solicitud de participaci\u00f3n. Plazo de oferta econ\u00f3mica es el 17/12/2018.El horario de atenci\u00f3n al p\u00fablico es de 09:00 a 13:00h de lunes a viernes."
+                "cbc:Description": "La presentaci\u00f3n de ofertas se deber\u00e1 realizar  electr\u00f3nicamente en PLCSP. Este plazo de 05/12/2018 es de solicitud de participaci\u00f3n. Plazo de oferta econ\u00f3mica es el 20/12/2018.El horario de atenci\u00f3n al p\u00fablico es de 09:00 a 13:00h de lunes a viernes."
+            },
+            "cac:EconomicOperatorShortList": {
+                "cbc:LimitationDescription": "No se establece n\u00famero m\u00e1ximo de candidatos"
             }
-        }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "08 cuerpo PCAP 18 048.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=473b12d1-5613-440b-bc35-ce95f2f14778",
+                    "cbc:DocumentHash": "7g5nuvvzL8RMtb24/nm2HS+45xo="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "06 PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=31f51ee0-9c07-410d-ade4-8d7e29232381",
+                    "cbc:DocumentHash": "vYQFpVfW8DGQGwN5wsLaR9GaVDo="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "08 1 ANEXOS pcap.docx",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2d5d0a27-28c6-4e8e-9f7b-040b16a9dbf9",
+                    "cbc:DocumentHash": "I+Cgr8p74WsxvrRkTEgS/TaDdtQ="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-20"
+                    }
+                }
+            }
+        ]
     }
 }

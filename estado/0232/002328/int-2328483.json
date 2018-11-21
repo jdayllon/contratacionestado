@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/00618; \u00d3rgano de Contrataci\u00f3n: Distrito de Villaverde ; Importe: 160841.55 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 300/2018/00618; \u00d3rgano de Contrataci\u00f3n: Distrito de Villaverde ; Importe: 160841.55 EUR; Estado: RES"
     },
     "title": "Organizaci\u00f3n y desarrollo del festival de m\u00fasica independiente y del festival de cine de animaci\u00f3n del Distrito de Villaverde",
-    "updated": "2018-10-01T13:56:30.154+02:00",
+    "updated": "2018-11-20T14:48:41.640+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/00618",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -109,69 +109,136 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "1"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Festival de m\u00fasica independiente",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "128863.67"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "106498.9"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "79953000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Festival de m\u00fasica independiente",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "128863.67"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "106498.9"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79953000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Festival de Cine de animaci\u00f3n ANIMAV 2\u00aa Edici\u00f3n 2018",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "31977.88"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "26428"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79953000"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "Adjudicado por ser la proposici\u00f3n m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de criterios de adjudicaci\u00f3n.",
-            "cbc:AwardDate": "2018-09-07",
-            "cbc:ReceivedTenderQuantity": "1",
-            "cbc:StartDate": "2018-09-28",
-            "cac:Contract": {
-                "cbc:ID": "1",
-                "cbc:IssueDate": "2018-09-28"
-            },
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "50158538T"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Adjudicado por ser la proposici\u00f3n m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de criterios de adjudicaci\u00f3n.",
+                "cbc:AwardDate": "2018-09-07",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cbc:StartDate": "2018-09-28",
+                "cac:Contract": {
+                    "cbc:ID": "1",
+                    "cbc:IssueDate": "2018-09-28"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "50158538T"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Jos\u00e9 Lu\u00eds de la Calle Mu\u00f1oz"
                     }
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "Jos\u00e9 Lu\u00eds de la Calle Mu\u00f1oz"
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "76679.21"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "92781.84"
+                        }
+                    }
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "1",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "76679.21"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Adjudicado por ser la proposici\u00f3n m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de criterios de adjudicaci\u00f3n.",
+                "cbc:AwardDate": "2018-10-08",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cbc:StartDate": "2018-11-30",
+                "cac:Contract": {
+                    "cbc:ID": "1",
+                    "cbc:IssueDate": "2018-11-15"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B85062776"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "92781.84"
+                    "cac:PartyName": {
+                        "cbc:Name": "Lince Comunicaci\u00f3n, S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "20500"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "24805"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -201,19 +268,23 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "LOTE 2 - PROPUESTA DE INTEGRACI\u00d3N. VISIBILIDAD A PERSONAS QUE CONVIVEN CON LA DISCAPACIDAD",
+                        "cbc:WeightNumeric": "5"
+                    },
                     {
                         "cbc:Description": "LOTE 2 - BAJA ECON\u00d3MICA",
                         "cbc:WeightNumeric": "5"
@@ -223,24 +294,20 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "LOTE 2 - MEJORA CUALITATIVA. PEL\u00cdCULAS PREMIADAS",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "LOTE 1 - MEJORA CUALITATIVA GRUPOS/ARTISTAS/PAREJAS PROPUESTOS",
+                        "cbc:WeightNumeric": "60"
                     },
                     {
                         "cbc:Description": "LOTE 1 - BAJA ECON\u00d3MICA",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "LOTE 1 - MEJORA CUALITATIVA GRUPOS/ARTISTAS/PAREJAS PROPUESTOS",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "LOTE 2 - MEJORA CUALITATIVA. PEL\u00cdCULAS RECIENTES EN CARTELERA",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "LOTE 2 - PROPUESTA DE INTEGRACI\u00d3N. VISIBILIDAD A PERSONAS QUE CONVIVEN CON LA DISCAPACIDAD",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "LOTE 2 - MEJORA CUALITATIVA. PEL\u00cdCULAS PREMIADAS",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "LOTE 2 - MEJORA CUANTITATIVA APORTACI\u00d3N DE M\u00c1S CORTOS DE ANIMACI\u00d3N QUE CUMPLAN CON ESPECIFICACIONES DEL PPT",
@@ -296,9 +363,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-07"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-15"
+                        }
+                    ]
                 }
             },
             {
@@ -340,9 +412,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-01"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-20"
+                        }
+                    ]
                 }
             }
         ]
