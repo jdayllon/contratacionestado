@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/17; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Ja\u00e9n; Importe: 150 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/17; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Ja\u00e9n; Importe: 150 EUR; Estado: ADJ"
     },
     "title": "Contrato de una P\u00f3liza de Seguro Colectivo de Asistencia Sanitaria de altas prestaciones",
-    "updated": "2018-08-04T09:31:02.753+02:00",
+    "updated": "2018-11-21T13:21:19.346+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/17",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrato de una P\u00f3liza de Seguro Colectivo de Asistencia Sanitaria de altas prestaciones",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -111,6 +111,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ver documento adjunto Resoluci\u00f3n de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2018-11-21",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28007268"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GENARALI ESPA\u00d1A, S.A. DE SEGUROS Y REASEGUROS"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "105"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "105"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -139,16 +171,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Propuesta de asistencia m\u00e9dica en el \u00e1mbito de aplicaci\u00f3n de la p\u00f3liza",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Gesti\u00f3n de la p\u00f3liza",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Gesti\u00f3n de la p\u00f3liza",
+                        "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Gesti\u00f3n del servicio de asistencia m\u00e9dica y protocolos de actuaci\u00f3n",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Propuesta de asistencia m\u00e9dica en el \u00e1mbito de aplicaci\u00f3n de la p\u00f3liza",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Tiempo de respuesta para la autorizaci\u00f3n de ingresos hospitalarios o atenci\u00f3n urgente",
@@ -157,10 +193,6 @@
                     {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "Mejoras",
-                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -266,6 +298,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
                     }
                 }
             },

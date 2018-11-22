@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 4120018068600; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico Administrativa 12 - Agrupaci\u00f3n del Acuartelamiento A\u00e9reo Tablada; Importe: 45000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 4120018068600; \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico Administrativa 12 - Agrupaci\u00f3n del Acuartelamiento A\u00e9reo Tablada; Importe: 45000 EUR; Estado: ADJ"
     },
     "title": "Adquisici\u00f3n de pinturas aeron\u00e1uticas y productos necesarios para el mantenimiento de los aviones y componentes aeron\u00e1uticos asignados a MAESE",
-    "updated": "2018-10-09T15:11:00.490+02:00",
+    "updated": "2018-11-21T15:46:08.042+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "4120018068600",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,6 +112,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se resuelve adjudicar el expediente 4120018068600 a la empresa ANDALUZA DE GOMAS SA por resultar la oferta con mejor relaci\u00f3n calidad - precio.",
+            "cbc:AwardDate": "2018-11-21",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "40509.92"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A41376039"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ANDALUZA DE GOMAS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30615"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30615"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -152,10 +192,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio",
-                    "cbc:WeightNumeric": "100"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "90"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -171,8 +217,8 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-25",
-                "cbc:EndTime": "10:00:00"
+                "cbc:EndDate": "2018-10-31",
+                "cbc:EndTime": "08:30:00"
             }
         },
         "cac:LegalDocumentReference": {
@@ -193,7 +239,48 @@
                 }
             }
         },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "FICHA VISITA EMPRESAS.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e58cc37b-d103-4ccd-a045-eb8b73e61d70",
+                        "cbc:DocumentHash": "gvqZgmMfZ+1L1Ryt5tMUNithsf8="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "LISTA DE PINTURAS NECESARIAS.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ee6b5f1b-a407-499f-9301-785a4eb2303a",
+                        "cbc:DocumentHash": "Cn8l/DBczcKoC+wyOQb5GmN523s="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Formulario presentacion de Oferta.xlsx",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=666eee0e-91d2-4813-9cc1-72e4bf23d7da",
+                        "cbc:DocumentHash": "YayRmq+RoWREOPNUsWZDhGPlSD4="
+                    }
+                }
+            }
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -201,9 +288,26 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-09"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-25"
+                        }
+                    ]
                 }
             },
             {
@@ -213,9 +317,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-09"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-24"
+                        }
+                    ]
                 }
             }
         ]

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SP18-00322; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 628320 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SP18-00322; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 628320 EUR; Estado: ADJ"
     },
     "title": "Suministro de art\u00edculos de imprenta y artes gr\u00e1ficas de las publicaciones dise\u00f1adas y editadas por Madrid Destino",
-    "updated": "2018-08-11T09:30:46.867+02:00",
+    "updated": "2018-11-21T17:42:36.841+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SP18-00322",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -80,7 +80,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de art\u00edculos de imprenta y artes gr\u00e1ficas de las publicaciones dise\u00f1adas y editadas por Madrid Destino",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -155,6 +155,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la empresa que ha presentado la mejor oferta seg\u00fan los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2018-11-08",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A80390354"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Palgraphic, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "628320"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "760267.2"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -188,24 +220,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Presentaci\u00f3n del Certificado ISO 12647-2",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Mejor oferta sobre los suplementos",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Reducci\u00f3n del plazo de entrega del material",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Mejor oferta de descuento",
                         "cbc:WeightNumeric": "35"
                     },
                     {
-                        "cbc:Description": "Reducci\u00f3n del plazo de entrega del material",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "Uniformidad y calidad de los art\u00edculos (muestras",
                         "cbc:WeightNumeric": "24"
+                    },
+                    {
+                        "cbc:Description": "Presentaci\u00f3n del Certificado ISO 12647-2",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Mejor oferta sobre los suplementos",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -291,6 +323,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -318,6 +362,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-08-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-24"
                         }
                     ]
                 }

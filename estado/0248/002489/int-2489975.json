@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1195/2017; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Calamocha; Importe: 200000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1195/2017; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Calamocha; Importe: 200000 EUR; Estado: RES"
     },
     "title": "Instalacion solar fotovoltaica para el suministro a captaci\u00f3n de agua potable en Calamocha",
-    "updated": "2018-10-05T14:27:12.729+02:00",
+    "updated": "2018-11-21T14:08:22.800+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1195/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -116,6 +116,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta calidad precio",
+            "cbc:AwardDate": "2018-11-15",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cac:Contract": {
+                "cbc:ID": "1195_2017",
+                "cbc:IssueDate": "2018-11-16"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A50119569"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Ehisa construcciones y obras, s.a."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "184072.91"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "222728.22"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -151,6 +187,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Reducci\u00f3n en el plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "40"
                     },
@@ -161,10 +201,6 @@
                     {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Reducci\u00f3n en el plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -208,16 +244,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "Proyecto tecnico instalacion solar fotovoltaica.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=282aacee-a5ad-4ed6-bf0a-744c2d2211ac",
-                    "cbc:DocumentHash": "LsBXra1cvrKCY+KtnQFRxoqEp04="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Proyecto tecnico instalacion solar fotovoltaica.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=282aacee-a5ad-4ed6-bf0a-744c2d2211ac",
+                        "cbc:DocumentHash": "LsBXra1cvrKCY+KtnQFRxoqEp04="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo al pliego.doc",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2b7050c1-eb11-499a-bff2-d3c5c7552fa2",
+                        "cbc:DocumentHash": "wQg5SknePisFxAVjQde3uXRd4fc="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -253,6 +312,18 @@
                             "cbc:IssueDate": "2018-10-05"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
                 }
             }
         ]

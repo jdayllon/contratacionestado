@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018AC000255; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General del Instituto Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica; Importe: 162000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2018AC000255; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General del Instituto Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica; Importe: 162000 EUR; Estado: RES"
     },
     "title": "Suministro de la escenograf\u00eda para la obra \u201cEl Sue\u00f1o de una noche de verano\u201d, que ser\u00e1 producida por el Teatro de la Zarzuela.",
-    "updated": "2018-09-28T11:25:01.985+02:00",
+    "updated": "2018-11-21T13:28:57.989+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018AC000255",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -48,7 +48,7 @@
                 "cac:Contact": {
                     "cbc:Name": "Direcci\u00f3n General del Instituto Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica",
                     "cbc:Telephone": "917016242",
-                    "cbc:ElectronicMail": "contratacion@inaem.mecd.es"
+                    "cbc:ElectronicMail": "contratacion@inaem.cultura.gob.es"
                 }
             }
         },
@@ -113,6 +113,10 @@
             "cbc:Description": "Oferta mas econ\u00f3mica",
             "cbc:AwardDate": "2018-09-27",
             "cbc:ReceivedTenderQuantity": "2",
+            "cac:Contract": {
+                "cbc:ID": "2018AC000255",
+                "cbc:IssueDate": "2018-11-12"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -232,17 +236,31 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-28"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
                 }
             }
-        }
+        ]
     }
 }

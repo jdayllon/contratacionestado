@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 107/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Ucl\u00e9s; Importe: 190082.64 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 107/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Ucl\u00e9s; Importe: 190082.64 EUR; Estado: PUB"
     },
     "title": "Restauraci\u00f3n de la \"Muralla \u00c1rabe\"",
-    "updated": "2018-10-10T19:19:20.177+02:00",
+    "updated": "2018-11-21T19:05:43.031+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "107/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -90,6 +90,8 @@
                     "#text": "ES423"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "Ucl\u00e9s",
+                    "cbc:PostalZone": "16452",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -98,11 +100,52 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "4"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
+            "cbc:PriceRevisionFormulaDescription": "No",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:SpecificTendererRequirement": {
+                    "cbc:RequirementTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                        "#text": "8"
+                    }
+                }
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "Se autoriza la subcontrataci\u00f3n parcial de las prestaciones accesorias objeto del contrato en los t\u00e9rminos y con las condiciones que establece el art\u00edculo 215 de la Ley 9/2017, de 8 de noviembre, de Contratos del Sector P\u00fablico."
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n de Plazo de Garant\u00eda",
+                        "cbc:WeightNumeric": "10"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -117,8 +160,21 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2018-11-05",
-                "cbc:EndTime": "15:00:00"
+                "cbc:EndDate": "2018-12-07",
+                "cbc:EndTime": "14:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-12-07",
+                "cbc:EndTime": "14:00:00"
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0cbbc669-0ee8-4161-9ba6-96b86a2f9580",
+                    "cbc:DocumentHash": "4MrJKr0Uk7UB3MNbqmHV19afz8I="
+                }
             }
         },
         "cac:TechnicalDocumentReference": {
@@ -130,17 +186,92 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "ESTUDIO SEG Y SALUD RESTAURACION MURALLA ARABE UCLES.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6f6fe78c-3257-4f86-97ce-64eb999a3d51",
+                        "cbc:DocumentHash": "aanTZ1gyrFDJM+CwZUYTuSfGm4E="
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-10"
+            {
+                "cbc:ID": "ESS_MURALLA_ARABE_UCLES_PLANOS.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=dea38635-4829-40f7-8abf-2338d72d7e5e",
+                        "cbc:DocumentHash": "hNoiXvO11Np2S6j54CYL/wBiEDI="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "proyecto_murallaucles_baja.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4b483d20-4a5b-4884-b17c-f6f2c2fcb7c5",
+                        "cbc:DocumentHash": "Ra0TSaSPLjwRN7DfpDllLn0hhKA="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "UCLES.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=855fcdba-dc12-466b-8aaf-de26cc3f784f",
+                        "cbc:DocumentHash": "QKa5nF/zHvJhkMXWT+eD9SFv81I="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "UCLES II.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=981f2ce3-7e4e-4dd8-94eb-325b0c9eef82",
+                        "cbc:DocumentHash": "s9egMa2y2LBJheKALj4/NO7vhbY="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "UCLES III.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8aea0539-b16e-4c37-9fb0-a9f42bf3f92b",
+                        "cbc:DocumentHash": "VVJkgLnHrQkhlJXt9YXP3kWOin8="
+                    }
                 }
             }
-        }
+        ],
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-21"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-16"
+                    }
+                }
+            }
+        ]
     }
 }
