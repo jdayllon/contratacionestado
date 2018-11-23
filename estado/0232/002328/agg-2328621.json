@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18-92-24;  \u00d3rgano de Contrataci\u00f3n: Diputado/a General ;  Importe: 23942.39EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 18-92-24;  \u00d3rgano de Contrataci\u00f3n: Diputado/a General ;  Importe: 23942.39EUR;  Estado: RES"
     },
     "title": "Asistencia t\u00e9cnica para la planificaci\u00f3n e implementaci\u00f3n del documento Eskutik a trav\u00e9s del proceso participativo Eskutik Mundura y para la revitalizaci\u00f3n del Consejo para la Igualdad de Mujeres y Hombres de \u00c1lava.",
-    "updated": "2018-10-05T11:55:40.744+02:00",
+    "updated": "2018-11-22T17:11:29.934+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18-92-24",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -62,9 +62,16 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:StartDate": "2018-08-31",
+                "cbc:StartDate": "2018-10-31",
                 "cbc:EndDate": "2018-12-31"
             }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:ReceivedTenderQuantity": "1"
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
@@ -92,17 +99,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-07-16"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-07-16"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-22"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONTR  2018 36153; \u00d3rgano de contrataci\u00f3n: Agencia de Gesti\u00f3n Agraria y Pesquera de Andaluc\u00eda; Importe: 330.578,52 \u20ac;"
+        "#text": "Id licitaci\u00f3n: CONTR 2018 0000036153; \u00d3rgano de contrataci\u00f3n: Agencia de Gesti\u00f3n Agraria y Pesquera de Andaluc\u00eda; Importe: 330.578,52 \u20ac;"
     },
-    "title": "suministro de veh\u00edculos en r\u00e9gimen de alquiler tradicional para las ocas",
-    "updated": "2018-09-21T15:11:11.422+02:00",
+    "title": "alquiler de veh\u00edculos en r\u00e9gimen tradicional de 4 a\u00f1os",
+    "updated": "2018-11-22T15:41:17.757+01:00",
     "cac-place-ext:ContractFolderStatus": {
-        "cbc:ContractFolderID": "CONTR  2018 36153",
+        "cbc:ContractFolderID": "CONTR 2018 0000036153",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -30,9 +30,9 @@
             }
         },
         "cac:ProcurementProject": {
-            "cbc:Name": "suministro de veh\u00edculos en r\u00e9gimen de alquiler tradicional para las ocas",
+            "cbc:Name": "alquiler de veh\u00edculos en r\u00e9gimen tradicional de 4 a\u00f1os",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cac:BudgetAmount": {
@@ -59,10 +59,17 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "48"
+                    "@unitCode": "ANN",
+                    "#text": "4"
                 }
             }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:ReceivedTenderQuantity": "0"
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
@@ -74,17 +81,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-11"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-21"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-22"
+                    }
                 }
             }
-        }
+        ]
     }
 }
