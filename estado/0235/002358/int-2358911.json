@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3504018017100; \u00d3rgano de Contrataci\u00f3n: Director de Abastecimiento y Transportes de la Jefatura de Apoyo Log\u00edstico de la Armada; Importe: 382900 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 3504018017100; \u00d3rgano de Contrataci\u00f3n: Director de Abastecimiento y Transportes de la Jefatura de Apoyo Log\u00edstico de la Armada; Importe: 382900 EUR; Estado: RES"
     },
     "title": "Adquisici\u00f3n de granadas de mortero de 60mm",
-    "updated": "2018-08-22T11:00:00.646+02:00",
+    "updated": "2018-11-22T18:13:58.771+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3504018017100",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Adquisici\u00f3n de granadas de mortero de 60mm",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -106,7 +106,44 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por obtener la mayor puntuaci\u00f3n en aplicaci\u00f3n de los criterios de valoraci\u00f3n y cumplir los requisitos exigidos en los Pliegos que rigen este expediente",
+            "cbc:AwardDate": "2018-10-15",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "3504018017100",
+                "cbc:IssueDate": "2018-11-19"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A01001411"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EXPAL SYSTEMS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "382900"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "463309"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -120,12 +157,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "PLAZO DE ENTREGA",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "PRECIO",
                         "cbc:WeightNumeric": "90"
+                    },
+                    {
+                        "cbc:Description": "PLAZO DE ENTREGA",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -172,6 +209,35 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-25"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -198,6 +264,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-16"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-22"
                     }
                 }
             }
