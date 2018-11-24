@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2390110",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=180831092115E5D8BD2A"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=3167&Ticket=18112313180110786341"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/SCON-AIU/000043; \u00d3rgano de Contrataci\u00f3n: Servicios de La Comarca de Pamplona S.A.; Importe: 50000,00 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 2018/SCON-AIU/000043; \u00d3rgano de Contrataci\u00f3n: Servicios de La Comarca de Pamplona S.A.; Importe: 50000,00 EUR; Estado: Adjudicada"
     },
     "title": "Servicios de migraci\u00f3n sistema de correo Domino a Exchange. Expediente 2018/SCON-AIU/000043",
-    "updated": "2018-09-28T15:00:09.379+02:00",
+    "updated": "2018-11-23T13:30:09.847+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/SCON-AIU/000043",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -59,8 +59,34 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "DAY",
-                    "#text": "425"
+                    "@unitCode": "MON",
+                    "#text": "14"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A08854929"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Seidor S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "43424"
+                    }
                 }
             }
         },
@@ -70,22 +96,36 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-28"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-09-01"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-09-28"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-23"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

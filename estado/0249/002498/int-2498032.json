@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02024103)-SC-18-3155-0074; \u00d3rgano de Contrataci\u00f3n: Centro de Investigaci\u00f3n de Recursos y Consumos Energ\u00e9ticos; Importe: 200000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02024103)-SC-18-3155-0074; \u00d3rgano de Contrataci\u00f3n: Centro de Investigaci\u00f3n de Recursos y Consumos Energ\u00e9ticos; Importe: 200000 EUR; Estado: ADJ"
     },
     "title": "Licitaci\u00f3n para la contrataci\u00f3n del Plan de Retribuci\u00f3n Flexible de Fundaci\u00f3n CIRCE",
-    "updated": "2018-10-08T20:15:37.628+02:00",
+    "updated": "2018-11-23T16:03:01.227+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02024103)-SC-18-3155-0074",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con mejor puntuaci\u00f3n",
+            "cbc:AwardDate": "2018-11-23",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B26533083"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Sistema de N\u00f3mina Flexible S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "200000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "242000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "true",
             "cac:TendererQualificationRequest": {
@@ -117,16 +149,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-GESTMEDIOAMB"
+                            "#text": "XXR-SUBCONT"
                         },
-                        "cbc:Description": "Certificado ISO 14001"
+                        "cbc:Description": "Ninguno"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XXR-SUBCONT"
+                            "#text": "OXR-GESTMEDIOAMB"
                         },
-                        "cbc:Description": "Ninguno"
+                        "cbc:Description": "Certificado ISO 14001"
                     }
                 ],
                 "cac:SpecificTendererRequirement": {
@@ -139,23 +171,27 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Aplicaci\u00f3n m\u00f3vil para gesti\u00f3n",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
                         "cbc:Description": "Certificado ISO 9001, 14001, OSHAS",
                         "cbc:WeightNumeric": "7"
-                    },
-                    {
-                        "cbc:Description": "Plazo entrega tarjeta transporte",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Asistencia telef\u00f3nica para consultar m\u00e9dicas",
-                        "cbc:WeightNumeric": "1"
                     },
                     {
                         "cbc:Description": "Memoria T\u00e9cnica",
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "Plazo entrega tarjeta transporte por reposici\u00f3n",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Plazo entrega cheques restaurante",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Plazo entrega tarjeta transporte",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -163,16 +199,12 @@
                         "cbc:WeightNumeric": "60"
                     },
                     {
+                        "cbc:Description": "Asistencia telef\u00f3nica para consultar m\u00e9dicas",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
                         "cbc:Description": "Disponibilidad de web",
                         "cbc:WeightNumeric": "0"
-                    },
-                    {
-                        "cbc:Description": "Aplicaci\u00f3n m\u00f3vil para gesti\u00f3n",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Plazo entrega tarjeta transporte por reposici\u00f3n",
-                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Seguro de salud",
@@ -218,6 +250,18 @@
                         }
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-23"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
