@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/041;  \u00d3rgano de Contrataci\u00f3n: Concejal delegado de Hacienda y Finanzas;  Importe: 66115.70EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2018/041;  \u00d3rgano de Contrataci\u00f3n: Concejal delegado de Hacienda y Finanzas;  Importe: 66115.70EUR;  Estado: ADJ"
     },
     "title": "Suministro de un tractor equipado con pala y gr\u00faa",
-    "updated": "2018-10-16T17:10:30.847+02:00",
+    "updated": "2018-11-29T18:26:56.321+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/041",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -34,10 +34,10 @@
             }
         },
         "cac:ProcurementProject": {
-            "cbc:Name": "Suministro de un tractor equipado con pala y gr\u00faa",
+            "cbc:Name": "Servicio de limpieza de edificios y centros de trabajo municipales dividido en lotes.",
             "cbc:TypeCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
-                "#text": "1"
+                "#text": "2"
             },
             "cac:BudgetAmount": {
                 "cbc:EstimatedOverallContractAmount": {
@@ -63,8 +63,34 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
+                    "@unitCode": "ANN",
                     "#text": "2"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B75034512"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EGIMENDI NEKAZABAL TRESNAK, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "60878"
+                    }
                 }
             }
         },
@@ -74,7 +100,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-04",
+                "cbc:EndDate": "2018-09-17",
                 "cbc:EndTime": "14:00:00"
             }
         },
@@ -94,17 +120,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-19"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-19"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
                 }
             }
-        }
+        ]
     }
 }

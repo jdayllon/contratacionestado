@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 562/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Empleo y Seguridad Social; Importe: 928675 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 562/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Trabajo, Migraciones y Seguridad Social; Importe: 928675 EUR; Estado: ADJ"
     },
     "title": "Servicio de traslado de mobiliario, documentaci\u00f3n y otros enseres en los Servicios Centrales del Ministerio de Trabajo, Migraciones y Seguridad Social.",
-    "updated": "2018-08-07T08:05:16.154+02:00",
+    "updated": "2018-11-29T13:36:12.069+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "562/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -24,7 +24,7 @@
             "cac:Party": {
                 "cbc:WebsiteURI": "http://www.empleo.gob.es",
                 "cac:PartyName": {
-                    "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Empleo y Seguridad Social"
+                    "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Trabajo, Migraciones y Seguridad Social"
                 },
                 "cac:PostalAddress": {
                     "cbc:CityName": "Madrid",
@@ -41,15 +41,15 @@
                     }
                 },
                 "cac:Contact": {
-                    "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Empleo y Seguridad Social",
+                    "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Trabajo, Migraciones y Seguridad Social",
                     "cbc:Telephone": "913630966",
                     "cbc:Telefax": "913631110",
-                    "cbc:ElectronicMail": "secretaria.junta@meyss.es"
+                    "cbc:ElectronicMail": "secretaria.junta@mitramiss.es"
                 }
             },
             "cac-place-ext:ParentLocatedParty": {
                 "cac:PartyName": {
-                    "cbc:Name": "Subsecretar\u00eda de Trabajo. Migraciones y Seguridad Social"
+                    "cbc:Name": "Subsecretar\u00eda de Trabajo, Migraciones y Seguridad Social"
                 },
                 "cac-place-ext:ParentLocatedParty": {
                     "cac:PartyName": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de traslado de mobiliario, documentaci\u00f3n y otros enseres en los Servicios Centrales del Ministerio de Trabajo, Migraciones y Seguridad Social.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -124,6 +124,46 @@
                 "cbc:OptionsDescription": "Podr\u00e1 prorrogarse de forma expresa por un per\u00edodo de 24 meses"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La oferta m\u00e1s ventajosa para la Administraci\u00f3n",
+            "cbc:AwardDate": "2018-11-29",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A27010651"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SEVERIANO SERVICIO M\u00d3VIL, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "928675"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1123696.75"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "No procede",
@@ -159,20 +199,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "77"
+                    },
+                    {
                         "cbc:Description": "Servicio de guardamuebles: m\u00ednimo de 500 m3",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Bolsa de horas de furgoneta gratuitas hasta un m\u00e1ximo de 300 h/a\u00f1o",
                         "cbc:WeightNumeric": "6"
                     },
                     {
                         "cbc:Description": "Destrucci\u00f3n segura de material confidencial seg\u00fan norma UNE-EN 15713:2010",
                         "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "77"
-                    },
-                    {
-                        "cbc:Description": "Bolsa de horas de furgoneta gratuitas hasta un m\u00e1ximo de 300 h/a\u00f1o",
-                        "cbc:WeightNumeric": "6"
                     },
                     {
                         "cbc:Description": "Divisi\u00f3n de Arte. Dotados de c\u00e1mara acorazada, vigilada y climatizada y camiones climatizados y dotados con sistema antiincendios y GPS",
@@ -253,6 +293,18 @@
                         }
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {

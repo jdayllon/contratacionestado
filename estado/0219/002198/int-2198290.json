@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 048SER18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Navalcarnero; Importe: 24038.46 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 048SER18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Navalcarnero; Importe: 24038.46 EUR; Estado: RES"
     },
     "title": "Servicio de teleasistencia prestado por el Ayuntamiento de Navalcarnero (Madrid).",
-    "updated": "2018-08-20T11:20:24.932+02:00",
+    "updated": "2018-11-29T14:31:41.890+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "048SER18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de teleasistencia prestado por el Ayuntamiento de Navalcarnero (Madrid).",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -113,6 +113,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mejor valorada de las presentadas al procedimiento",
+            "cbc:AwardDate": "2018-10-31",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:StartDate": "2018-11-20",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-11-20"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "Q2866001G"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CRUZ ROJA ESPA\u00d1OLA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "24038.46"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "25000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -142,12 +179,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio unitario de terminales",
-                        "cbc:WeightNumeric": "72.5"
-                    },
-                    {
                         "cbc:Description": "Mejoras sin coste para el Ayuntamiento",
                         "cbc:WeightNumeric": "2.5"
+                    },
+                    {
+                        "cbc:Description": "Precio unitario de terminales",
+                        "cbc:WeightNumeric": "72.5"
                     },
                     {
                         "cbc:Description": "Memoria t\u00e9cnica de gesti\u00f3n del servicio",
@@ -238,6 +275,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -266,8 +315,23 @@
                         },
                         {
                             "cbc:IssueDate": "2018-08-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-20"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
                 }
             }
         ]

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: ABS.O/3/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento Campo de Criptana ; Importe: 70247.93 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: ABS.O/3/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento Campo de Criptana ; Importe: 70247.93 EUR; Estado: ADJ"
     },
     "title": "Reforma y ampliaci\u00f3n aseos y vestuarios del Campo de F\u00fatbol \"Agust\u00edn de la Fuente\" de Campo de Criptana (Ciudad Real)",
-    "updated": "2018-09-28T15:32:39.569+02:00",
+    "updated": "2018-11-29T15:09:05.638+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ABS.O/3/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -177,6 +177,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Licitador, que cumpliendo los requisitos del PCAP, presenta la oferta m\u00e1s ventajosa.",
+            "cbc:AwardDate": "2018-11-28",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "61239.52"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "70230.56"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B13126073"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSTRUCCIONES MANOLO Y MANOLO, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "65190.08"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "78880"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -197,12 +237,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Mejora a la baja del precio establecido en los presentes pliegos",
                         "cbc:WeightNumeric": "90"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -247,16 +287,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "PROYECTO CAMPO DE FUTBOL.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1015537e-3b87-4e81-87e7-f5b329a6ef86",
-                    "cbc:DocumentHash": "6Wbx+Nua05KkuNbvj2qJBZ6TbJE="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "PROYECTO CAMPO DE FUTBOL.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1015537e-3b87-4e81-87e7-f5b329a6ef86",
+                        "cbc:DocumentHash": "6Wbx+Nua05KkuNbvj2qJBZ6TbJE="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "fichero ordenado campo de futbol.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b7a53e48-47d9-4a06-9d69-7545c7e9808e",
+                        "cbc:DocumentHash": "NlAZ7NxJWtGQisWhLgM5Irr+Qpg="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

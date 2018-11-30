@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: MY18/IUCMT/S/70; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 20000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: MY18/IUCMT/S/70; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 20000 EUR; Estado: RES"
     },
     "title": "Suministro de un sistema de almacenamiento NAS",
-    "updated": "2018-07-24T09:49:16.196+02:00",
+    "updated": "2018-11-29T14:04:13.820+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MY18/IUCMT/S/70",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de un sistema de almacenamiento NAS",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -109,6 +109,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica el contrato a la empresa Lambda Inform\u00e1tica y Comunicaciones, S.L. por haber obtenido la mayor puntuaci\u00f3n y cumplir todas las especificaciones t\u00e9cnicas requeridas.",
+            "cbc:AwardDate": "2018-11-14",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "19950"
+            },
+            "cac:Contract": {
+                "cbc:ID": "MY18/IUCMT/S/70",
+                "cbc:IssueDate": "2018-11-21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B96273032"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Lambda Informaticay Comunicaciones, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19800"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "23958"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -143,13 +187,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "9"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -157,23 +201,23 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Integraci\u00f3n",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Mejoras",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Calidad",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -247,6 +291,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-15"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -265,6 +321,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-24"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
                     }
                 }
             }

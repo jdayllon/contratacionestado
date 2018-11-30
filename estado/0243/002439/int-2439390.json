@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 08-03/18C; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de La Laguna; Importe: 10000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 08-03/18C; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de La Laguna; Importe: 10000 EUR; Estado: ADJ"
     },
     "title": "La explotaci\u00f3n comercial de la marca \u201cUniversidad de La Laguna\u201d, de su imagen corporativa y s\u00edmbolos a trav\u00e9s de la venta de productos promocionales por cualquier canal.",
-    "updated": "2018-10-05T15:48:09.498+02:00",
+    "updated": "2018-11-29T15:26:20.865+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "08-03/18C",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -94,6 +94,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "descuentos plataforma on line",
+            "cbc:AwardDate": "2018-11-29",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B76550599"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CANARIASBLUE"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "10000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "10000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -115,23 +147,23 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios Econ\u00f3micos",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "Criterios evaluables por juicio de valor",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Criterios comerciales",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Accion comercial",
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "Criterios Econ\u00f3micos",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
                         "cbc:Description": "Plazos de entrega",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Criterios evaluables por juicio de valor",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Criterios comerciales",
                         "cbc:WeightNumeric": "15"
                     }
                 ]
@@ -173,6 +205,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

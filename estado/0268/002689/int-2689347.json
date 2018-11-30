@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2.2.53/18; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Presidencia y Justicia; Importe: 90909.09 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2.2.53/18; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Presidencia y Justicia; Importe: 90909.09 EUR; Estado: RES"
     },
     "title": "Suministro de m\u00e1quinas impresoras en r\u00e9gimen de arrendamiento para la Administraci\u00f3n de Justicia.",
-    "updated": "2018-11-21T17:04:56.338+01:00",
+    "updated": "2018-11-29T14:31:22.791+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2.2.53/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,10 @@
             "cbc:Description": "Contrato derivado de acuerdo marco.",
             "cbc:AwardDate": "2018-11-19",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "2.2.53/18",
+                "cbc:IssueDate": "2018-11-22"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -159,17 +163,31 @@
                 "#text": "3"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-21"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
                 }
             }
-        }
+        ]
     }
 }
