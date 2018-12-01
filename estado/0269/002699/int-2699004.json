@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 8004330008-2018-0001049; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno de la Diputaci\u00f3 de Tarragona; Importe: 425470.01 EUR; Estado: PUB"
     },
     "title": "Reforma de les plantes baixa i primera de l Escola d Art I Disseny a Tarragona",
-    "updated": "2018-11-23T16:29:56.079+01:00",
+    "updated": "2018-11-30T15:57:41.436+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "8004330008-2018-0001049",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -81,13 +81,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45214310"
+                        "#text": "45300000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45300000"
+                        "#text": "45214310"
                     }
                 }
             ],
@@ -96,6 +96,15 @@
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
+                },
+                "cac:Address": {
+                    "cac:Country": {
+                        "cbc:IdentificationCode": {
+                            "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
+                            "#text": "ES"
+                        },
+                        "cbc:Name": "Espa\u00f1a"
+                    }
                 }
             },
             "cac:PlannedPeriod": {
@@ -106,6 +115,7 @@
             }
         },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Classificaci\u00f3 equivalent: Per aquest contracte, en tenir un valor estimat (sense IVA) inferior a 500.000 euros, no \u00e9s necess\u00e0ria la classificaci\u00f3 empresarial. No obstant, d acord amb el que estableix l article 65 del TRLCSP, els licitadors podran acreditar la solv\u00e8ncia econ\u00f2mica i financera i professional o t\u00e8cnica acreditant la possessi\u00f3 de les dues classificacions seg\u00fcents (ambdues): \"Grup C, Subgrup 6, Categoria 1\" + \"Grup J, Subgrup 2, Categoria 2\".",
@@ -151,17 +161,49 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-23"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCA.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=055dd8e4-d820-4472-b900-28f7b0619a6c",
+                    "cbc:DocumentHash": "DxWvnPk0h5aVgCn4fI0I4NhT6pY="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "001001PROB_STD_CA.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=919958b9-e468-41fb-b6f3-d6a2f0e2929f",
+                    "cbc:DocumentHash": "VGhqBwrSf9b9TS7q4l/ebe4m3LE="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-30"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-23"
+                    }
+                }
+            }
+        ]
     }
 }

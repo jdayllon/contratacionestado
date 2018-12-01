@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/1933; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Albal; Importe: 24793.38 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/1933; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Albal; Importe: 24793.38 EUR; Estado: RES"
     },
     "title": "Servicio de retirada y, en su caso, dep\u00f3sito de veh\u00edculos en el t\u00e9rmino municipal de Albal durante las 24 horas de los 365 d\u00edas del a\u00f1o.",
-    "updated": "2018-07-12T13:37:19.354+02:00",
+    "updated": "2018-11-30T14:50:59.306+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/1933",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de retirada y, en su caso, dep\u00f3sito de veh\u00edculos en el t\u00e9rmino municipal de Albal durante las 24 horas de los 365 d\u00edas del a\u00f1o.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -116,6 +116,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicar a GR\u00daAS TAR\u00cdN, S.L el contrato del servicio municipal de retirada y/o traslado de veh\u00edculos en el t\u00e9rmino municipal de Albal en las condiciones que figuran en los pliegos de cl\u00e1usulas administrativas particulares y de prescripciones t\u00e9cnicas y en las que se detallas en su oferta, de acuerdo con las siguientes condiciones:\n\u2014 Precio del servicio.\nEnganche sin traslado 0,1 \u20ac\nEnganche y traslado (retirada): motocicletas, veloc\u00edpedos y triciclos 0,1 \u20ac\nEnganche y traslado (retirada): Resto de veh\u00edculos 41 \u20ac\nDep\u00f3sito (por d\u00eda): cuando no se trate del dep\u00f3sito municipal 2 \u20ac\n\u2014 Disponibilidad de siete veh\u00edculos, dos de ellos adscritos al servicio.\n\u2014 Cajero autom\u00e1tico (Terminal punto de venta cobro no asistido) con dat\u00e1fono incorporado para cobro con tarjeta. Adem\u00e1s, dotara a la gr\u00faa de un Dat\u00e1fono GPRS.",
+            "cbc:AwardDate": "2018-10-29",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:StartDate": "2018-11-19",
+            "cac:Contract": {
+                "cbc:ID": "2018/1933",
+                "cbc:IssueDate": "2018-11-19"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B97054324"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GRUAS TARIN S.L"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -159,8 +196,12 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Gratuidad de los enganches y cambios de ubicaci\u00f3n de los veh\u00edculos dentro del dep\u00f3sito municipal a petici\u00f3n del servicio de polic\u00eda local por raz\u00f3n de trabajos de limpieza, higiene, reorganizaci\u00f3n o actos festivos.",
+                        "cbc:Description": "Criterios medioambientales y emisiones de Co2 del veh\u00edculo gr\u00faa adscrito al servicio",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Edad media de la flota",
+                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "Precio del servicio",
@@ -171,20 +212,16 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "N\u00famero gr\u00faas disponibles",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
                         "cbc:Description": "Propuesta del servicio",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Criterios medioambientales y emisiones de Co2 del veh\u00edculo gr\u00faa adscrito al servicio",
+                        "cbc:Description": "Gratuidad de los enganches y cambios de ubicaci\u00f3n de los veh\u00edculos dentro del dep\u00f3sito municipal a petici\u00f3n del servicio de polic\u00eda local por raz\u00f3n de trabajos de limpieza, higiene, reorganizaci\u00f3n o actos festivos.",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Edad media de la flota",
-                        "cbc:WeightNumeric": "3"
+                        "cbc:Description": "N\u00famero gr\u00faas disponibles",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Antig\u00fcedad del veh\u00edculo gr\u00faa adscrito al servicio",
@@ -251,9 +288,30 @@
                         "cbc:DocumentHash": "EReHW2k48YUKpa74Ams57FoJxj8="
                     }
                 }
+            },
+            {
+                "cbc:ID": "7 Nombramiento Tribunal y constitucion.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ef51e8c0-4c32-406e-9407-944a505d9bc9",
+                        "cbc:DocumentHash": "xf4KXLccKgeLpxbGmkfMBLM4cqw="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-14"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -275,6 +333,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-30"
                     }
                 }
             }
