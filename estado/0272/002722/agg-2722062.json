@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "N\u00famero de expediente: 711/2018/14536; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Desarrollo Urbano Sostenible; Importe: 3491.54 EUR; Estado: ADJ"
+        "#text": "N\u00famero de expediente: 711/2018/14536; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Desarrollo Urbano Sostenible; Importe: 3491.54 EUR; Estado: RES"
     },
     "title": "711/2018/14536 contrato basado de obras de actuaci\u00f3n inmediata por el procedimiento de emergencia en Calle N\u00fa\u00f1ez de Balboa, 17.",
-    "updated": "2018-11-29T20:10:52.476+01:00",
+    "updated": "2018-12-03T15:10:39.342+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "711/2018/14536",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -62,6 +62,10 @@
             }
         },
         "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
             "cbc:ReceivedTenderQuantity": "5",
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
@@ -89,17 +93,31 @@
                 "#text": "7"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-29"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-03"
+                    }
                 }
             }
-        }
+        ]
     }
 }

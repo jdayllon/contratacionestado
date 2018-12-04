@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A/OBR-019766/2018;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad\u00b7\u00b7>Servicio Madrile\u00f1o de Salud \u00b7\u00b7>Gerencia de Atenci\u00f3n Primaria;Importe: 79000.00 EUR;Estado: ABIERTO"
+        "#text": "Id licitaci\u00f3n: A/OBR-019766/2018;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad\u00b7\u00b7>Servicio Madrile\u00f1o de Salud \u00b7\u00b7>Gerencia de Atenci\u00f3n Primaria;Importe: 79000.00 EUR;Estado: ADJUDICADA"
     },
     "title": "Obra de remodelaci\u00f3n de espacios en el Centro de Salud Cuzco",
-    "updated": "2018-10-05T10:55:29.913+02:00",
+    "updated": "2018-12-03T14:25:38.876+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A/OBR-019766/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -68,14 +68,36 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "12",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B80673841"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "R C-93 SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "58459.12"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "9"
-            },
-            "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-22",
-                "cbc:EndTime": "23:59:00"
             }
         },
         "cac:LegalDocumentReference": {
@@ -94,17 +116,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-26"
+                    }
                 }
             }
-        }
+        ]
     }
 }
