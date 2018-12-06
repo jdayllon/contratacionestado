@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1854/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Villanueva de Castell\u00f3n; Importe: 177568.79 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1854/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Villanueva de Castell\u00f3n; Importe: 177568.79 EUR; Estado: RES"
     },
     "title": "Repavimentaci\u00f3n de calles",
-    "updated": "2018-10-05T14:51:05.081+02:00",
+    "updated": "2018-12-05T14:13:19.569+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1854/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "la oferta seleccionada presenta un menor coste de ejecuci\u00f3n, y mayor plazo de garantia",
+            "cbc:AwardDate": "2018-11-20",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "129839"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "134336.15"
+            },
+            "cac:Contract": {
+                "cbc:ID": "1854/2018",
+                "cbc:IssueDate": "2018-11-29"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B97329577"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GUEROLA TRANSER, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "129839"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "157105.19"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -140,12 +184,12 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Plan de Obra y reducci\u00f3n del plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Plan de Obra y reducci\u00f3n del plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "3"
                     }
                 ]
             },
@@ -189,16 +233,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "Proyecto obra repavimentacion calles.zip",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=73d2f74c-cfed-4161-920a-63845fab71d8",
-                    "cbc:DocumentHash": "o2aC9iBGarml93D8G7z296/YS8o="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Proyecto obra repavimentacion calles.zip",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=73d2f74c-cfed-4161-920a-63845fab71d8",
+                        "cbc:DocumentHash": "o2aC9iBGarml93D8G7z296/YS8o="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "MODELO DE DECLARACION RESPONSABLE.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8ae27611-db26-484c-a450-9915a38e8bd5",
+                        "cbc:DocumentHash": "cWjTuMb20lDo7Fdq48VxfiEHNrE="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-28"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -206,9 +273,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-05"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-24"
+                        }
+                    ]
                 }
             },
             {
@@ -220,6 +292,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
                     }
                 }
             }

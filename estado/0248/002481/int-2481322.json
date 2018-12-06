@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A-0036/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 39297.9 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: A-0036/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 39297.9 EUR; Estado: RES"
     },
     "title": "Servicio de urgencias ambulatorias y rehabilitaci\u00f3n en la ciudad de Ripollet",
-    "updated": "2018-10-03T10:40:20.264+02:00",
+    "updated": "2018-12-05T17:48:18.415+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A-0036/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -127,6 +127,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El proveedor cumple los requisitos descritos en pliego prescripciones tecnicas",
+            "cbc:AwardDate": "2018-12-05",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-01-01",
+            "cac:Contract": {
+                "cbc:ID": "A-0036/2018",
+                "cbc:IssueDate": "2018-12-05"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B60236866"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CENTRE MEDIC LES MORERES"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39297.9"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39297.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -142,16 +179,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "TIEMPO DE EJECUCION",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "OFERTA ECONOMICA",
+                        "cbc:WeightNumeric": "55"
                     },
                     {
                         "cbc:Description": "PROTOCOLOS MEDICOS Y DE ACTUACION",
                         "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "CERTIFICADOS DE GESTION",
-                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "RECURSOS TECNICOS Y HUMANOS",
@@ -162,12 +195,16 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "OFERTA ECONOMICA",
-                        "cbc:WeightNumeric": "55"
-                    },
-                    {
                         "cbc:Description": "UBICACION Y FACILIDAD DE ACCESO",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "CERTIFICADOS DE GESTION",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "TIEMPO DE EJECUCION",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -236,6 +273,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -254,6 +303,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
                     }
                 }
             },

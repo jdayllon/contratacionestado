@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018231 AOB; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Alcorc\u00f3n; Importe: 2006432.18 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2018231 AOB; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Alcorc\u00f3n; Importe: 2006432.18 EUR; Estado: RES"
     },
     "title": "Obras del Plan de Asfaltado de Alcorc\u00f3n, a\u00f1o 2018",
-    "updated": "2018-10-31T17:41:03.491+01:00",
+    "updated": "2018-12-05T14:04:54.391+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018231 AOB",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,11 @@
                 "@currencyID": "EUR",
                 "#text": "1844000"
             },
+            "cbc:StartDate": "2018-11-16",
+            "cac:Contract": {
+                "cbc:ID": "2018231",
+                "cbc:IssueDate": "2018-11-02"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -167,13 +172,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -181,12 +186,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Mejoras",
@@ -290,7 +295,56 @@
                         "cbc:IssueDate": "2018-08-14"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "18400",
+            "cbc:Note": "Por la Junta de Gobierno Local del Ayuntamiento de Alcorc\u00f3n, en su sesi\u00f3n celebrada el 5 de diciembre de 2018, se ha adoptado el siguiente acuerdo:\n\n\u201cPRIMERO.- Aprobar el PROYECTO MODIFICADO DE LAS OBRAS DEL PLAN DE ASFALTADO 2018 de fecha 29 de noviembre de 2018 redactado por los Ingenieros Municipales de la Concejal\u00eda de Urbanismo y Mantenimiento, obras adjudicadas a la empresa FCC CONSTRUCCI\u00d3N, S.A., por razones de inter\u00e9s p\u00fablico seg\u00fan lo indicado en el informe emitido por dichos t\u00e9cnicos en fecha 30 de noviembre de 2018, no suponiendo esta modificaci\u00f3n incremento alguno en el precio del contrato.\n\nSEGUNDO.- AMPLIAR el plazo de ejecuci\u00f3n de las obras en 7 d\u00edas, como consecuencia de los nuevos trabajos incorporados en el Proyecto Modificado y considerando los requisitos t\u00e9cnicos de los mismos.\u201d",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "DAY",
+                "#text": "7"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "DAY",
+                "#text": "28"
+            },
+            "cbc:ContractID": "2018231",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "1236006"
+                }
+            }
+        }
     }
 }

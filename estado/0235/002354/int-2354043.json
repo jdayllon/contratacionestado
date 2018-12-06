@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 641/2018; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Santa Cruz de la Palma ; Importe: 37200 EUR; Estado: ANUL"
+        "#text": "Id licitaci\u00f3n: 641/2018; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Santa Cruz de la Palma ; Importe: 149532.71 EUR; Estado: PUB"
     },
-    "title": "Prestaci\u00f3n de los servicios de Asesor\u00eda Laboral y gesti\u00f3n de n\u00f3minas y seguro social de todos los empleados p\u00fablicos de Excmo. Ayuntamiento de Santa Cruz de La Palma.",
-    "updated": "2018-08-13T10:51:44.507+02:00",
+    "title": "Servicios de asesor\u00eda laboral y gesti\u00f3n de n\u00f3minas y seguros sociales del Excmo. Ayuntamiento de Santa Cruz de La Palma.",
+    "updated": "2018-12-05T15:39:00.898+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "641/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ANUL"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,9 +54,9 @@
             }
         },
         "cac:ProcurementProject": {
-            "cbc:Name": "Prestaci\u00f3n de los servicios de Asesor\u00eda Laboral y gesti\u00f3n de n\u00f3minas y seguro social de todos los empleados p\u00fablicos de Excmo. Ayuntamiento de Santa Cruz de La Palma.",
+            "cbc:Name": "Servicios de asesor\u00eda laboral y gesti\u00f3n de n\u00f3minas y seguros sociales del Excmo. Ayuntamiento de Santa Cruz de La Palma.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -64,20 +64,22 @@
                 "#text": "27"
             },
             "cac:BudgetAmount": {
-                "cbc:EstimatedOverallContractAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "37200"
-                },
                 "cbc:TotalAmount": {
                     "@currencyID": "EUR",
-                    "#text": "40000"
+                    "#text": "160000"
                 },
                 "cbc:TaxExclusiveAmount": {
                     "@currencyID": "EUR",
-                    "#text": "37200"
+                    "#text": "149532.71"
                 }
             },
             "cac:RequiredCommodityClassification": [
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "79211110"
+                    }
+                },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
@@ -88,12 +90,6 @@
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "79631000"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "79211110"
                     }
                 }
             ],
@@ -116,55 +112,91 @@
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
                     "@unitCode": "ANN",
-                    "#text": "2"
+                    "#text": "4"
                 }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
-            "cac:RequiredFinancialGuarantee": {
-                "cbc:GuaranteeTypeCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                    "#text": "2"
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:AmountRate": "5"
                 },
-                "cbc:AmountRate": "5"
-            },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                }
+            ],
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                        "#text": "OSR-TECH"
+                        "#text": "ZZZ"
                     },
-                    "cbc:Description": "El adjudicatario se compromete a realizar las funciones con personal experto en materia fiscal y laboral y con experiencia suficiente en materias objeto del asesoramiento."
+                    "cbc:Description": "a.Relaci\u00f3n de los principales contratos de caracter\u00edsticas similares al que es objeto de la licitaci\u00f3n, ejecutados por el licitador en los tres \u00faltimos ejercicios, acompa\u00f1adas de certificados o informes de buena ejecuci\u00f3n. \n\nb.Indicaci\u00f3n del personal t\u00e9cnico de que dispone el empresario para ejecutar el contrato, con sus titulaciones y experiencia profesional acreditada. \n\nc.T\u00edtulos acad\u00e9micos y profesionales del empresario responsable de la ejecuci\u00f3n del contrato, que deber\u00e1 contar con titulaci\u00f3n universitaria de Licenciado en Ciencias del Trabajo, Licenciado o Grado en Derecho, Graduado Social, Diplomado o Grado en Relaciones Laborales.\n\nVer cl\u00e1usula 12 del PCAP"
                 },
                 "cac:FinancialEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "5"
                     },
-                    "cbc:Description": "Volumen de negocio debe ser al menos de 60.000 euros al a\u00f1o."
+                    "cbc:Description": "Volumen anual de negocios, en el \u00e1mbito a que se refiere el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades del empresario y de presentaci\u00f3n de las ofertas con un m\u00ednimo anual exigido del valor estimado del contrato. Ver cl\u00e1usula 12 del PCAP."
                 },
-                "cac:SpecificTendererRequirement": {
-                    "cbc:RequirementTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                        "#text": "1"
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
-                }
+                ]
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "Ver cl\u00e1usula 31 del PCAP"
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Programa de trabajo 1",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejoras 2",
+                        "cbc:WeightNumeric": "2.5"
+                    },
+                    {
+                        "cbc:Description": "Programa de trabajo 2",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Experiencia acreditada",
+                        "cbc:WeightNumeric": "15"
+                    },
                     {
                         "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
                         "cbc:WeightNumeric": "60"
                     },
                     {
-                        "cbc:Description": "Programa de trabajo",
-                        "cbc:WeightNumeric": "40"
+                        "cbc:Description": "Mejoras 1",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Mejoras",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Mejoras 3",
+                        "cbc:WeightNumeric": "2.5"
                     }
                 ]
             },
@@ -175,34 +207,65 @@
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
-                "#text": "9"
+                "#text": "1"
             },
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
             },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-12-20",
+                "cbc:EndTime": "13:02:00"
+            },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-08-28",
-                "cbc:EndTime": "00:00:00"
+                "cbc:EndDate": "2018-12-20",
+                "cbc:EndTime": "14:00:00",
+                "cbc:Description": "Horario peninsular"
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "PCAP-Asesoria Laboral.PDF",
+            "cbc:ID": "PCAP.PDF",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=458b3131-7087-46f3-ab0f-fc5462f42517",
-                    "cbc:DocumentHash": "1WoOTm6LdjRCkfcpwpR5s/f78rE="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9cebebac-ee4b-4db2-bc8a-279f346a82db",
+                    "cbc:DocumentHash": "GbO8MNJMk+ipkrU07Sty+GBz8K8="
                 }
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "PPTP-Asesoria Laboral.PDF",
+            "cbc:ID": "PPTP.PDF",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ecd9ab71-6220-42f0-b091-98c6cadf5ed9",
-                    "cbc:DocumentHash": "o2WsOluUU/M0KbhEAKEvM37+VVQ="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2185f5c4-5756-4947-ac63-50a50ae2b84f",
+                    "cbc:DocumentHash": "sgwc/YUDx1RLIOiN09W9JLyYGHc="
                 }
             }
-        }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
+            }
+        ]
     }
 }

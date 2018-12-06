@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 602018MA1004; \u00d3rgano de Contrataci\u00f3n: Instituto Social de la Marina; Importe: 480000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 602018MA1004; \u00d3rgano de Contrataci\u00f3n: Instituto Social de la Marina; Importe: 480000 EUR; Estado: ADJ"
     },
     "title": "Suministro de v\u00edveres para la flota de buques sanitarios del Instituto Social de la Marina \"Esperanza del Mar\" y \"Juan de la Cosa\" durante el a\u00f1o 2019.",
-    "updated": "2018-10-01T08:05:28.148+02:00",
+    "updated": "2018-12-05T14:38:03.836+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "602018MA1004",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,6 +112,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la \u00fanica oferta presentada que cumple con los requisitos del PCAP y su oferta no supera el presupuesto de licitaci\u00f3n.",
+            "cbc:AwardDate": "2018-12-04",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "480000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "480000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "A11071859"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "BAYPORT GLOBAL SUPPLIES S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "480000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "480000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "true",
             "cbc:VariantConstraintIndicator": "false",
@@ -133,16 +173,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Precios unitarios ofertados",
+                        "cbc:WeightNumeric": "65"
+                    },
+                    {
                         "cbc:Description": "Recursos humanos adicionales",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Calidad e idoneidad de producto",
                         "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Precios unitarios ofertados",
-                        "cbc:WeightNumeric": "65"
                     }
                 ]
             },
@@ -248,6 +288,18 @@
                         }
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {

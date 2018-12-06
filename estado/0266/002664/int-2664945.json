@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A-0048/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 16901.61 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: A-0048/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 16901.61 EUR; Estado: RES"
     },
     "title": "Servicio de asistencia hospitalaria e intervenciones quir\u00fargicas urgentes en Valladolid",
-    "updated": "2018-11-14T19:50:17.097+01:00",
+    "updated": "2018-12-05T17:12:40.502+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A-0048/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -126,6 +126,14 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:AwardDate": "2018-12-05",
+            "cbc:ReceivedTenderQuantity": "0"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -144,7 +152,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Certificados de Gestion",
+                        "cbc:Description": "Ubicacion y facilidad de acceso",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Tiempo de ejecucion",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Protocolos medicos y de actuacion",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -152,20 +168,12 @@
                         "cbc:WeightNumeric": "55"
                     },
                     {
-                        "cbc:Description": "Protocolos medicos y de actuacion",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Recursos tecnicos y humanos",
                         "cbc:WeightNumeric": "23"
                     },
                     {
-                        "cbc:Description": "Tiempo de ejecucion",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Ubicacion y facilidad de acceso",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Certificados de Gestion",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -230,6 +238,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

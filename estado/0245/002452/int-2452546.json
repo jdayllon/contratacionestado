@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CNMY18/18-18/40; \u00d3rgano de Contrataci\u00f3n: Vicepresidencia y Conselleria de Igualdad y Pol\u00edticas Inclusivas; Importe: 136000 EUR; Estado: ANUL"
+        "#text": "Id licitaci\u00f3n: CNMY18/18-18/40; \u00d3rgano de Contrataci\u00f3n: Vicepresidencia y Conselleria de Igualdad y Pol\u00edticas Inclusivas; Importe: 136000 EUR; Estado: ADJ"
     },
     "title": "Servicio de ejecuci\u00f3n del Programa \u201cNadals entranyables\u201d para personas mayores de la Comunitat Valenciana",
-    "updated": "2018-09-26T14:08:54.683+02:00",
+    "updated": "2018-12-05T16:16:30.701+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CNMY18/18-18/40",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ANUL"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -36,7 +36,7 @@
                     "cbc:CityName": "Valencia",
                     "cbc:PostalZone": "46018",
                     "cac:AddressLine": {
-                        "cbc:Line": "Castan Tobe\u00f1as, 77- Ciudad Administrativa 9 de Octubre - Torre 3 planta 7"
+                        "cbc:Line": "Calle de la Democracia, 77- Ciudad Administrativa 9 de Octubre - Torre 3 planta 7"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -107,16 +107,79 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Autorizar, disponer y adjudicar a la entidad VIAJES CEMO SA, que ha presentado la proposici\u00f3n econ\u00f3micamente m\u00e1s ventajosa que puede ser cumplida a satisfacci\u00f3n de la Administraci\u00f3n, el contrato del Servicio de ejecuci\u00f3n del Programa \u201cNadals Entranyables\u201d para personas mayores de la Comunitat Valenciana",
+            "cbc:AwardDate": "2018-12-05",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "127741.82"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "135915"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A04006706"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VIAJES CEMO S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "135915"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "149506.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "no procede",
-            "cac:RequiredFinancialGuarantee": {
-                "cbc:GuaranteeTypeCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                    "#text": "2"
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
                 },
-                "cbc:AmountRate": "5"
-            },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            ],
             "cac:TendererQualificationRequest": {
                 "cac:RequiredBusinessClassificationScheme": {
                     "cbc:ID": "RequiredBusinessProfileCode",
@@ -137,18 +200,42 @@
                         "#text": "5"
                     },
                     "cbc:Description": "La solvencia econ\u00f3mica y financiera se deber\u00e1 acreditar por el medio previsto en el art\u00edculo 87 letra a) de la LCSP, es decir, mediante:\nDeclaraci\u00f3n responsable sobre el volumen anual de negocios referido al mejor ejercicio dentro de los tres \u00faltimos disponibles en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades del empresario y de presentaci\u00f3n de las ofertas, por importe igual o superior al presupuesto m\u00e1ximo de licitaci\u00f3n del contrato."
-                }
+                },
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    }
+                ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "calidad oferta hotelera",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "caidad alimentaci\u00f3n",
-                        "cbc:WeightNumeric": "4"
-                    },
                     {
                         "cbc:Description": "calidad animaci\u00f3n sociocultural",
                         "cbc:WeightNumeric": "20"
@@ -158,8 +245,16 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
+                        "cbc:Description": "caidad alimentaci\u00f3n",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
                         "cbc:Description": "oferta economica",
                         "cbc:WeightNumeric": "55"
+                    },
+                    {
+                        "cbc:Description": "calidad oferta hotelera",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -177,11 +272,11 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2018-10-19",
+                "cbc:EndDate": "2018-11-06",
                 "cbc:EndTime": "15:00:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-19",
+                "cbc:EndDate": "2018-11-06",
                 "cbc:EndTime": "15:00:00"
             }
         },
@@ -228,6 +323,44 @@
                     "cac:ExternalReference": {
                         "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=fff3153a-460c-4958-9765-542dd093debb",
                         "cbc:DocumentHash": "7mdc5DkWdtk/MatWs2j7/y3X2LE="
+                    }
+                }
+            }
+        ],
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-23"
                     }
                 }
             }

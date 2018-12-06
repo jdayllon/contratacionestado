@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: M180010; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de Universidades; Importe: 266920.5 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: M180010; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de Universidades; Importe: 266920.5 EUR; Estado: ADJ"
     },
     "title": "P\u00f3liza de seguro colectivo de los beneficiarios de distintos programas gestionados por la Secretar\u00eda General de Universidades.",
-    "updated": "2018-07-27T08:05:09.572+02:00",
+    "updated": "2018-12-05T14:10:44.500+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "M180010",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "P\u00f3liza de seguro colectivo de los beneficiarios de distintos programas gestionados por la Secretar\u00eda General de Universidades.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -106,6 +106,126 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Seguro de asistencia en el extranjero",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "253044"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "253044"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "66510000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Seguro de accidentes",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "13876.5"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "13876.5"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "66510000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Adjudicar el contrato: Polizas de seguro colectivo de los beneficiarios de distintos programas gestionados por la Secretar\u00eda General de Universidades. Lote 1 Seguro de asistencia en el extranjero",
+                "cbc:AwardDate": "2018-12-04",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "W0040918E"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "ERV SEGUROS DE VIAJES"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "197344.5"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "197344.5"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Adjudicar el contrato: P\u00f3lizas de seguro colectivo de los beneficiarios de distintos programas gestionados por la Secretar\u00eda General de Universidades.  \nLote 2 Seguros de accidentes.",
+                "cbc:AwardDate": "2018-12-04",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "W0040918"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "ERV SEGUROS DE VIAJES"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "13876.5"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "13876.5"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -121,43 +241,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Lote 1 Oferta t\u00e9cnica",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "50"
-                    },
-                    {
-                        "cbc:Description": "Lote 1 Exclusiones de cobertura",
-                        "cbc:WeightNumeric": "7.5"
-                    },
-                    {
-                        "cbc:Description": "Lote 1 Incremento de los capitales asegurados",
-                        "cbc:WeightNumeric": "17.5"
-                    },
-                    {
-                        "cbc:Description": "Lote 2 Gesti\u00f3n y tramitaci\u00f3n de siniestros",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Lote 2 Exclusiones de cobertura",
-                        "cbc:WeightNumeric": "5"
-                    },
                     {
                         "cbc:Description": "Lote 2 Incremento del capital asegurado de incapacidad permanente absoluta por accidente",
                         "cbc:WeightNumeric": "10"
@@ -171,8 +267,32 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "Lote 1 Oferta t\u00e9cnica",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Lote 1 Exclusiones de cobertura",
+                        "cbc:WeightNumeric": "7.5"
+                    },
+                    {
+                        "cbc:Description": "Lote 2 Gesti\u00f3n y tramitaci\u00f3n de siniestros",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Lote 2 Oferta t\u00e9cnica",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Lote 2 Exclusiones de cobertura",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Lote 1 Incremento de los capitales asegurados",
+                        "cbc:WeightNumeric": "17.5"
                     }
                 ]
             },
@@ -266,6 +386,18 @@
                         ]
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
