@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CO2018/15; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Oviedo; Importe: 478973.04 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CO2018/15; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Oviedo; Importe: 478973.04 EUR; Estado: EV"
     },
     "title": "Obras del vial de acceso a las pistas de San L\u00e1zaro",
-    "updated": "2018-08-10T13:54:58.162+02:00",
+    "updated": "2018-12-07T14:30:51.444+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CO2018/15",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Obras del vial de acceso a las pistas de San L\u00e1zaro",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -125,19 +125,11 @@
                 "cbc:AmountRate": "5"
             },
             "cac:TendererQualificationRequest": {
-                "cac:TechnicalEvaluationCriteria": {
-                    "cbc:EvaluationCriteriaTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                        "#text": "OSR-COMPTASK"
-                    },
-                    "cbc:Description": "Se efectuar\u00e1 mediante declaraci\u00f3n responsable que recoja una relaci\u00f3n de los principales trabajos  relacionados con el objeto del contrato durante los  \u00faltimos 10 \u00faltimos a\u00f1os, acompa\u00f1ado de los certificados de buena ejecuci\u00f3n"
-                },
-                "cac:FinancialEvaluationCriteria": {
-                    "cbc:EvaluationCriteriaTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                        "#text": "5"
-                    },
-                    "cbc:Description": "El volumen anual de negocios correspondiente a los tres \u00faltimos ejercicios concluidos"
+                "cac:RequiredBusinessClassificationScheme": {
+                    "cbc:ID": "RequiredBusinessProfileCode",
+                    "cac:ClassificationCategory": {
+                        "cbc:CodeValue": "G6-3"
+                    }
                 }
             },
             "cac:AllowedSubcontractTerms": {
@@ -147,12 +139,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "CRITERIOS NO CUANTIFICABLES AUTOMATICAMENTE",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "CRITERIOS CUANTIFICABLES AUTOMATICAMENTE",
                         "cbc:WeightNumeric": "80"
+                    },
+                    {
+                        "cbc:Description": "CRITERIOS NO CUANTIFICABLES AUTOMATICAMENTE",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -170,7 +162,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-08-30",
+                "cbc:EndDate": "2018-09-19",
                 "cbc:EndTime": "13:00:00"
             }
         },
@@ -219,6 +211,15 @@
                         "cbc:DocumentHash": "UpIFJRKUcyfH1oDqTXo3IK4WUTg="
                     }
                 }
+            },
+            {
+                "cbc:ID": "ACUERDO JGL 30-08-2018 CORRECCION ERROR EN EL PCAP REFERIDO A LA CLASIFICACION.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=36312cdb-cd7a-40b8-a7e6-f4285eaa7c0a",
+                        "cbc:DocumentHash": "WGWKEEn6rtjqjYCQHxNQpiQke54="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
@@ -229,9 +230,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-30"
+                        }
+                    ]
                 }
             },
             {
@@ -241,9 +247,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-07"
+                        }
+                    ]
                 }
             }
         ]
