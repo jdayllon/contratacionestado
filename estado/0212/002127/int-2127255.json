@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 38/18; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de los Servicios Centrales en el Ministerio de Hacienda y Funci\u00f3n P\u00fablica; Importe: 5257185 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 38/18; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de los Servicios Centrales en el Ministerio de Hacienda y Funci\u00f3n P\u00fablica; Importe: 5257185 EUR; Estado: ADJ"
     },
     "title": "Servicio de desarrollo de aplicaciones en el \u00e1mbito de Presupuestos, Fondos Europeos y Costes de Personal y Pensiones P\u00fablicas con destino a la Intervenci\u00f3n General del Estado",
-    "updated": "2018-08-13T08:23:39.472+02:00",
+    "updated": "2018-12-08T09:30:47.337+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "38/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -49,14 +49,14 @@
                     "cbc:Name": "Junta de Contrataci\u00f3n de los Servicios Centrales en el Ministerio de Hacienda y Funci\u00f3n P\u00fablica",
                     "cbc:Telephone": "915958100",
                     "cbc:Telefax": "915958850",
-                    "cbc:ElectronicMail": "junta.contratacion@minhafp.es"
+                    "cbc:ElectronicMail": "junta.contratacion@hacienda.gob.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de desarrollo de aplicaciones en el \u00e1mbito de Presupuestos, Fondos Europeos y Costes de Personal y Pensiones P\u00fablicas con destino a la Intervenci\u00f3n General del Estado",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -115,6 +115,112 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Desarrollo evolutivo y correctivo de los sistemas de informaci\u00f3n para la Direcci\u00f3n General de Presupuestos y de la Direcci\u00f3n General de Fondos Europeos",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "3609188"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2982800"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72212900"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72250000"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Desarrollo evolutivo y correctivo de los sistemas de informaci\u00f3n para la Direcci\u00f3n General de Costes de Personal y Pensiones P\u00fablicas",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2752005.86"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2274385"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72212900"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72250000"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser la oferta econ\u00f3micamente m\u00e1s ventajosa (art. 150 LCSP)",
+            "cbc:AwardDate": "2018-10-30",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2018-12-02",
+            "cac:Contract": {
+                "cbc:ID": "38/18/Lote_01",
+                "cbc:IssueDate": "2018-11-30"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B82387770"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EVERIS SPAIN, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "1",
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2800000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3388000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:FundingProgramCode": {
@@ -134,9 +240,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "XSX-CERTCALIDAD"
                         },
-                        "cbc:Description": "Sin perjuicio de la solvencia requerida, hay que estar a lo dispuesto en la cl\u00e1usula VI.4 del PCAP y Anexo IV en lo relativo a la concreci\u00f3n de las condiciones de solvencia."
+                        "cbc:Description": "Sin perjuicio de la solvencia requerida, hay que estar a lo dispuesto en la cl\u00e1usula VI.5 del PCAP en lo relativo al cumplimiento de normas de garant\u00eda de la calidad: La gesti\u00f3n de la seguridad de la informaci\u00f3n: mediante certificado ISO / IEC 27001:2005, y lLa determinaci\u00f3n de la capacidad de mejora del proceso de software: mediante certificado ISO / IEC 15504 o certificado est\u00e1ndar de calidad de desarrollo de software CMMI \u2013 DEV v 1.3 nivel 3 o superior."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -148,9 +254,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "Sin perjuicio de la solvencia requerida, hay que estar a lo dispuesto en la cl\u00e1usula VI.5 del PCAP en lo relativo al cumplimiento de normas de garant\u00eda de la calidad: La gesti\u00f3n de la seguridad de la informaci\u00f3n: mediante certificado ISO / IEC 27001:2005, y lLa determinaci\u00f3n de la capacidad de mejora del proceso de software: mediante certificado ISO / IEC 15504 o certificado est\u00e1ndar de calidad de desarrollo de software CMMI \u2013 DEV v 1.3 nivel 3 o superior."
+                        "cbc:Description": "Sin perjuicio de la solvencia requerida, hay que estar a lo dispuesto en la cl\u00e1usula VI.4 del PCAP y Anexo IV en lo relativo a la concreci\u00f3n de las condiciones de solvencia."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -164,19 +270,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     },
                     {
@@ -188,7 +294,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "9"
                         }
                     }
                 ]
@@ -196,16 +302,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plan de recepci\u00f3n y entrega del servicio",
-                        "cbc:WeightNumeric": "16"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "51"
                     },
                     {
                         "cbc:Description": "Modelo de gesti\u00f3n de la demanda y plan metodol\u00f3gico de trabajo",
                         "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Plan de recepci\u00f3n y entrega del servicio",
+                        "cbc:WeightNumeric": "16"
                     },
                     {
                         "cbc:Description": "Mejoras en los perfiles profesionales ofertados",
@@ -321,12 +427,36 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_PIN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-04-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-30"
                     }
                 }
             },
@@ -351,6 +481,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-07"
                     }
                 }
             },

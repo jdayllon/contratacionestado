@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01259; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Salud, Seguridad y Emergencias; Importe: 119293.39 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 300/2018/01259; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Salud, Seguridad y Emergencias; Importe: 119293.39 EUR; Estado: PUB"
     },
     "title": "Servicio de mantenimiento de diversos equipos NRBQ de SAMUR-Protecci\u00f3n Civil del Ayuntamiento de Madrid.",
-    "updated": "2018-07-11T09:32:19.151+02:00",
+    "updated": "2018-12-08T09:30:22.785+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01259",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de mantenimiento de diversos equipos NRBQ de SAMUR-Protecci\u00f3n Civil del Ayuntamiento de Madrid.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -89,6 +89,8 @@
                     "#text": "ES300"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "Madrid",
+                    "cbc:PostalZone": "28011",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -103,10 +105,61 @@
                     "@unitCode": "MON",
                     "#text": "24"
                 }
+            },
+            "cac:ContractExtension": {
+                "cbc:OptionsDescription": "El contrato podr\u00e1 prorrogarse hasta un m\u00e1ximo de 24 meses, de modo que la duraci\u00f3n total del contrato, incluida su pr\u00f3rroga o pr\u00f3rrogas no podr\u00e1 exceder de 48 meses"
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:AmountRate": "1"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                }
+            ],
+            "cac:TendererQualificationRequest": {
+                "cac:RequiredBusinessClassificationScheme": {
+                    "cbc:ID": "RequiredBusinessProfileCode",
+                    "cac:ClassificationCategory": {
+                        "cbc:CodeValue": "P5-1"
+                    }
+                },
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "Art\u00edculo 90.1.a) del LCSP:\nRequisitos m\u00ednimos de solvencia y acreditaci\u00f3n documental y Medio de acreditaci\u00f3n:\nLotes 1 y 2: Los indicados en el apartado 8 del Anexo I de cada lote del Pliego de Clausulas Administrativas Particulares."
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Art\u00edculo 87.1.a) del LCSP.\nRequisitos m\u00ednimos de solvencia y acreditaci\u00f3n documental:\nLotes 1 y 2: los indicados en el apartado del Anexo I de cada lote del Pliego de Clausulas Administrativas  Particulares."
+                }
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "Los licitadores deber\u00e1n indicar en la oferta la parte del contrato a subcontratar, su importe, y el nombre o el perfil empresarial de los subcontratistas"
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": {
+                    "cbc:Description": "\u00danico Criterio Precio",
+                    "cbc:WeightNumeric": "100"
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -119,9 +172,57 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2019-01-04",
+                "cbc:EndTime": "14:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-01-04",
+                "cbc:EndTime": "14:00:00",
+                "cbc:Description": "SERVICIO DE MANTENIMIENTO DE DIVERSOS EQUIPOS NRBQ DE SAMUR-PROTECCI\u00d3N CIVIL DEL AYUNTAMIENTO DE MADRID (DOS LOTES)"
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP-300 2018 01259.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d2aa29ca-5461-42f6-924c-55535d6512cf",
+                    "cbc:DocumentHash": "iwjnEipjLgHnu9MQQXIVhbISSKY="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT-300 2018 01259.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d487c2a0-33cf-413f-8ac8-09fa7e2acc52",
+                    "cbc:DocumentHash": "kQwdCZ6n5Gev4xb2FmNVx4mqm1w="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "DEUC-300 2018 01259.xml",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8e816732-a357-4b92-80c0-12a183f92fb7",
+                    "cbc:DocumentHash": "0HurLw56U0onVblg83PW9DeeEG8="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-08"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -131,6 +232,30 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-06"
                     }
                 }
             },

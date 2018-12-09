@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/005023; \u00d3rgano de Contrataci\u00f3n: Gerencia del Area de Atenci\u00f3n Integrada de Guadalajara; Importe: 3396173.48 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2018/005023; \u00d3rgano de Contrataci\u00f3n: Gerencia del Area de Atenci\u00f3n Integrada de Guadalajara; Importe: 3396173.48 EUR; Estado: RES"
     },
     "title": "Servicio de limpieza, desinfecci\u00f3n, desratizaci\u00f3n y desinsectaci\u00f3n de la Gerencia de Atenci\u00f3n Integrada de Guadalajara (Hospital, centro c/Ferial, 31 y el IEN)-61034000GU18SER00002",
-    "updated": "2018-08-01T10:11:30.767+02:00",
+    "updated": "2018-12-08T09:31:06.588+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/005023",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de limpieza, desinfecci\u00f3n, desratizaci\u00f3n y desinsectaci\u00f3n de la Gerencia de Atenci\u00f3n Integrada de Guadalajara (Hospital, centro c/Ferial, 31 y el IEN)-61034000GU18SER00002",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -133,6 +133,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "presentar mejor relacion calidad-precio",
+            "cbc:AwardDate": "2018-10-29",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "2710",
+                "cbc:IssueDate": "2018-11-21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A80241789"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FERROVIAL SERVICIOS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3203242.53"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3875923.46"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -161,8 +197,8 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Sistema de control del servicio",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Frecuencia periodicidad de tareas",
+                        "cbc:WeightNumeric": "14.5"
                     },
                     {
                         "cbc:Description": "Plan de autocontrol de calidad",
@@ -173,32 +209,32 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
+                        "cbc:Description": "Sistema de control del servicio",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Plan de limpieza",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Formaci\u00f3n",
-                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Plan y programaci\u00f3n trabajo DDD",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Frecuencia periodicidad de tareas",
-                        "cbc:WeightNumeric": "14.5"
+                        "cbc:Description": "Plan recogida residuos",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Plan recogida residuos",
+                        "cbc:Description": "Formaci\u00f3n",
                         "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Oferta refuerzo trabajos limpieza",
                         "cbc:WeightNumeric": "2.5"
+                    },
+                    {
+                        "cbc:Description": "Plan de limpieza",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -283,12 +319,36 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_PIN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-30"
                     }
                 }
             },
@@ -318,6 +378,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-08"
                     }
                 }
             },

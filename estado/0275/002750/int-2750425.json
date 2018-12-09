@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 1221/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Meruelo ; Importe: 27155.98 EUR; Estado: PRE"
     },
     "title": "Pavimentaci\u00f3n de caminos",
-    "updated": "2018-12-07T14:47:23.407+01:00",
+    "updated": "2018-12-08T10:20:39.495+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1221/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -50,7 +50,7 @@
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de Meruelo",
                     "cbc:Telephone": "942637003",
                     "cbc:Telefax": "942674830",
-                    "cbc:ElectronicMail": "secretaria@meruelo.es"
+                    "cbc:ElectronicMail": "secretaria1@meruelo.es"
                 }
             }
         },
@@ -82,13 +82,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45200000"
+                        "#text": "45332000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45332000"
+                        "#text": "45200000"
                     }
                 }
             ],
@@ -112,15 +112,81 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:StartDate": "2018-12-27",
-                "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "2"
+                "cbc:EndDate": "2019-02-27"
+            },
+            "cac:ContractExtension": {
+                "cbc:OptionsDescription": "no",
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "no"
                 }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "no",
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            ],
+            "cac:TendererQualificationRequest": {
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    }
+                ]
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "no"
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": {
+                    "cbc:Description": "MEJORAS",
+                    "cbc:WeightNumeric": "3858.49"
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -151,9 +217,14 @@
             },
             "cac-place-ext:AdditionalPublicationStatus": {
                 "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-07"
-                }
+                "cac-place-ext:AdditionalPublicationDocumentReference": [
+                    {
+                        "cbc:IssueDate": "2018-12-07"
+                    },
+                    {
+                        "cbc:IssueDate": "2018-12-08"
+                    }
+                ]
             }
         }
     }
