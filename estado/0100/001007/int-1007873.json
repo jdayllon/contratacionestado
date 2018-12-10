@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 041/2016; \u00d3rgano de Contrataci\u00f3n: Agencia Espa\u00f1ola de Protecci\u00f3n de Datos; Importe: 175000 EUR; Estado: RES"
     },
     "title": "Servicio de seguridad y vigilancia en la sede de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos en la calle Jorge Juan 6 de Madrid",
-    "updated": "2016-08-08T08:05:37.726+02:00",
+    "updated": "2018-12-09T22:54:08.542+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "041/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de seguridad y vigilancia en la sede de la Agencia Espa\u00f1ola de Protecci\u00f3n de Datos en la calle Jorge Juan 6 de Madrid",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -87,7 +87,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -208,10 +208,28 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Oferta econ\u00f3mica",
-                    "cbc:WeightNumeric": "50"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Plan de seguridad y vigilancia",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Plan de calidad del servicio",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Bolsa de horas",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -219,7 +237,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -338,7 +356,31 @@
                         "cbc:IssueDate": "2016-08-03"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-09"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:ContractID": "041/2016"
+        }
     }
 }
