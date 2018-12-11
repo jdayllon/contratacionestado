@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PR18-0104; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 340200.83 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: PR18-0104; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 340200.83 EUR; Estado: RES"
     },
     "title": "Servicios de construccion, montaje, desmontaje, puesta en funcionamiento, mantenimiento y prestacion de servicios accesorios (mantenimiento, limpieza, seguridad, tecnologico y catering) del stand del Ayto. de Madrid y de la Comunidad de Madrid en Fitur 2019",
-    "updated": "2018-09-27T13:17:17.010+02:00",
+    "updated": "2018-12-10T15:16:13.617+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PR18-0104",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -128,22 +128,59 @@
                 "cbc:EndDate": "2019-01-27"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "por ser la oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-11-19",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:StartDate": "2018-12-10",
+            "cac:Contract": {
+                "cbc:ID": "2018000104",
+                "cbc:IssueDate": "2018-12-10"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B82068974"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LA FIEBRE,S.L - WORK IN PROGRESS FACILITIES, S.L - AEIKO, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "330000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "399300"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "1"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "1"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -175,7 +212,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Dise\u00f1o del stand",
+                        "cbc:Description": "Mejoras a los m\u00ednimos planteados en los servicios requeridos",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Oferta paisaj\u00edstica",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Memoria calidades",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -183,15 +228,7 @@
                         "cbc:WeightNumeric": "35"
                     },
                     {
-                        "cbc:Description": "Oferta paisaj\u00edstica",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Mejoras a los m\u00ednimos planteados en los servicios requeridos",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Memoria calidades",
+                        "cbc:Description": "Dise\u00f1o del stand",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -261,6 +298,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -285,6 +334,18 @@
                             "cbc:IssueDate": "2018-09-27"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-10"
+                    }
                 }
             }
         ]

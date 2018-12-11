@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PASS/SUB/01-2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Chandrexa de Queixa; Importe: 21487.6 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PASS/SUB/01-2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Chandrexa de Queixa; Importe: 21487.6 EUR; Estado: ADJ"
     },
     "title": "Suministro de una m\u00e1quina rozadora de brazo a estrenar, a instalar en el tractor marca John Deere modelo 6820 propiedad del Ayuntamiento.",
-    "updated": "2018-11-19T19:14:25.515+01:00",
+    "updated": "2018-12-10T13:47:05.562+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PASS/SUB/01-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -104,6 +104,46 @@
                 "cbc:EndDate": "2018-12-13"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta econ\u00f3micamente m\u00e1s ventajosa consistente en:\n\nCriterios de adjudicaci\u00f3n\t       Proposici\u00f3n\t                              \nPrecio total ofertado (sin IVA/con IVA)\t21.363,64 \u20ac / 25.850,00 \u20ac\nValoraci\u00f3n del bien entregado (sin IVA/con IVA)\t2.892,56 \u20ac / 3.500,00 \u20ac\nServicio de mantenimiento postventa gratu\u00edto\t12 meses\nCompromiso de atenci\u00f3n inmediata\tSi\t\nPlazo de garant\u00eda\t12 + 24 = 36 meses",
+            "cbc:AwardDate": "2018-12-10",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2892.56"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2892.56"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B32012056"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "COMERCIAL AGRARIA MARTINEZ, S. L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2892.56"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3500"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -133,24 +173,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio total ofertado",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Compromiso de atenci\u00f3n inmediata",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n plazo m\u00ednimo de garant\u00eda",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Servicio de mantenimiento postventa",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Valoraci\u00f3n del bien entregado por la Administraci\u00f3n",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Precio total ofertado",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Ampliaci\u00f3n plazo m\u00ednimo de garant\u00eda",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Valoraci\u00f3n del bien entregado por la Administraci\u00f3n",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -216,6 +256,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-10"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

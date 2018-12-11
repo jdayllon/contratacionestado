@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 004/17; \u00d3rgano de Contrataci\u00f3n: Presidencia del Cabildo Insular de Lanzarote; Importe: 137000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 004/17; \u00d3rgano de Contrataci\u00f3n: Presidencia del Cabildo Insular de Lanzarote; Importe: 137000 EUR; Estado: ADJ"
     },
     "title": "Suministro e instalaci\u00f3n de armarios para el equipamiento del Archivo General Insular del Cabildo de Lanzarote",
-    "updated": "2017-05-10T14:28:10.697+02:00",
+    "updated": "2018-12-10T15:01:44.878+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "004/17",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro e instalaci\u00f3n de armarios para el equipamiento del Archivo General Insular del Cabildo de Lanzarote",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -82,7 +82,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Canarias",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES70"
                 },
                 "cac:Address": {
@@ -99,6 +99,38 @@
                 "cbc:DurationMeasure": {
                     "@unitCode": "MON",
                     "#text": "6"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta econ\u00f3micamente m\u00e1s ventajosa conforme a los criterios de adjudicaci\u00f3n establecidos en el pliego de cl\u00e1usulas administrativas particulares",
+            "cbc:AwardDate": "2018-11-30",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B58133976"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DESLI BLOC, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "99064"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "105998.48"
+                    }
                 }
             }
         },
@@ -134,10 +166,24 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Oferta econ\u00f3mica",
-                    "cbc:WeightNumeric": "80"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "80"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n de la garant\u00eda de los bienes",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n del plazo de entrega",
+                        "cbc:WeightNumeric": "9"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n del tiempo de instalaci\u00f3n",
+                        "cbc:WeightNumeric": "5"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -145,7 +191,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -185,6 +231,18 @@
                     "cbc-place-ext:PublicationMediaName": "Bolet\u00edn Oficial de la Provincia de Las Palmas",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-05-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-10"
                     }
                 }
             },

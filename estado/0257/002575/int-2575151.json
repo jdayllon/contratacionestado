@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SP18-01063; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 67000.16 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SP18-01063; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 67000.16 EUR; Estado: ADJ"
     },
     "title": "SP18-01063 Servicio de mantenimiento \"todo riesgo\" de ascensores y otros medios de elevaci\u00f3n en el Palacio Municipal de Congresos",
-    "updated": "2018-10-18T14:44:49.022+02:00",
+    "updated": "2018-12-10T16:42:07.590+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SP18-01063",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -135,6 +135,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "por ser la empresa que ha presentado la mejor oferta seg\u00fan los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2018-12-07",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28517308"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EULEN, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "76291.11"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "92312.24"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
@@ -179,7 +211,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejora en el sistema de remuneraci\u00f3n",
+                        "cbc:Description": "Compromiso de mantener un stock suficiente de repuestos",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Baja \u00fanica sobre precio/hora para atenci\u00f3n de eventos",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -187,24 +223,20 @@
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Baja \u00fanica sobre precio/hora para atenci\u00f3n de eventos",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Calidad T\u00e9cnica de la oferta",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Conciliar de la vida labora y personal",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Baja \u00fanica sobre mantenimiento ordinario",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Calidad T\u00e9cnica de la oferta",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Compromiso de mantener un stock suficiente de repuestos",
+                        "cbc:Description": "Mejora en el sistema de remuneraci\u00f3n",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Conciliar de la vida labora y personal",
-                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -263,9 +295,30 @@
                         "cbc:DocumentHash": "sBqB8ZlazKcFK90RD+o9KTCIVHM="
                     }
                 }
+            },
+            {
+                "cbc:ID": "SP18-01063 NOTA VISITA.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=330c1f98-ab6d-4fd7-90eb-45a9964770ca",
+                        "cbc:DocumentHash": "DVC2o36yQ6m9DvcWiKF0B5vN7aE="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-10"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -282,6 +335,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-10-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-22"
                         }
                     ]
                 }
