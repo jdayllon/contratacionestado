@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 20/16; \u00d3rgano de Contrataci\u00f3n: Vicerrectorado de la Universidad Miguel Hern\u00e1ndez de Elche; Importe: 2205000 EUR; Estado: RES"
     },
     "title": "Servicio de vigilancia y seguridad en los campus de Elche, Altea, Orihuela y Sant Joan d\u2019Alacant de la Universidad Miguel Hern\u00e1ndez de Elche",
-    "updated": "2016-12-28T12:14:14.963+01:00",
+    "updated": "2018-12-12T16:30:17.953+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "20/16",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de vigilancia y seguridad en los campus de Elche, Altea, Orihuela y Sant Joan d\u2019Alacant de la Universidad Miguel Hern\u00e1ndez de Elche",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -87,7 +87,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Alicante / Alacant",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES521"
                 },
                 "cac:Address": {
@@ -200,10 +200,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Oferta econ\u00f3mica",
-                    "cbc:WeightNumeric": "55"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Memoria t\u00e9cnica",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "55"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -211,7 +217,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -253,15 +259,6 @@
                 }
             },
             {
-                "cbc:ID": "20-16 PPT ANEXO I PROPOSICION TECNICA.pdf",
-                "cac:Attachment": {
-                    "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=698dc4ce-b472-46f1-aa43-6ca03347405c",
-                        "cbc:DocumentHash": "83bxvYOVEaPgCUJJL8jbRBKpnmQ="
-                    }
-                }
-            },
-            {
                 "cbc:ID": "20-16 PPT ANEXO IV CONFIDENCIALIDAD.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
@@ -285,6 +282,15 @@
                     "cac:ExternalReference": {
                         "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=45873bb5-90f5-406a-9267-538c0c3bef60",
                         "cbc:DocumentHash": "t4VmB3b+5LoU4qK8iQ0U8aDDoQU="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "20-16 PPT ANEXO I PROPOSICION TECNICA.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=698dc4ce-b472-46f1-aa43-6ca03347405c",
+                        "cbc:DocumentHash": "83bxvYOVEaPgCUJJL8jbRBKpnmQ="
                     }
                 }
             },
@@ -375,7 +381,32 @@
                         "cbc:IssueDate": "2016-12-12"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-12"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Resoluci\u00f3n Rectoral 2825/18 de 29 de noviembre",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "3"
+            },
+            "cbc:ContractID": "1"
+        }
     }
 }

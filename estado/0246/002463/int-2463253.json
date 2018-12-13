@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/06224; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Sevilla; Importe: 50000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/06224; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Sevilla; Importe: 50000 EUR; Estado: ADJ"
     },
     "title": "Asistencia t\u00e9cnica externa para recogida, almacenamiento y tratamiento de datos biom\u00e9dicos",
-    "updated": "2018-09-27T16:33:52.167+02:00",
+    "updated": "2018-12-12T19:01:50.473+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/06224",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta m\u00e1s ventajosa conforme al Acta de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2018-12-11",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78053147"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TEL\u00c9FONICA SOLUCIONES DE INFORM\u00c1TICA Y COMUNICACIONES DE ESPA\u00d1A, S.A.U"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46690"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "56494.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:FundingProgramCode": {
@@ -127,24 +159,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejoras",
-                        "cbc:WeightNumeric": "2.5"
-                    },
-                    {
-                        "cbc:Description": "Plazo ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Valor t\u00e9cnico",
+                        "cbc:WeightNumeric": "39.5"
                     },
                     {
                         "cbc:Description": "Valoraci\u00f3n econ\u00f3mica",
                         "cbc:WeightNumeric": "45"
                     },
                     {
-                        "cbc:Description": "Valor t\u00e9cnico",
-                        "cbc:WeightNumeric": "39.5"
+                        "cbc:Description": "Plazo ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Asistencia t\u00e9cnica",
                         "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "2.5"
                     }
                 ]
             },
@@ -208,6 +240,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -224,9 +268,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-27"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-23"
+                        }
+                    ]
                 }
             }
         ]

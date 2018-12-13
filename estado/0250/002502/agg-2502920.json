@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2502920",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=181009102032CB13966F"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=8182&Ticket=18121216490110818171"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: FMS 5-2018; \u00d3rgano de Contrataci\u00f3n: FUNDACION PUBLICA MIGUEL SERVET; Importe: 117300,00 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: FMS 5-2018; \u00d3rgano de Contrataci\u00f3n: FUNDACION PUBLICA MIGUEL SERVET; Importe: 117300,00 EUR; Estado: Adjudicada"
     },
     "title": "Contrataci\u00f3n del servicio de gesti\u00f3n del animalario y quir\u00f3fano experimental del centro de investigaci\u00f3n Navarrabiomed",
-    "updated": "2018-11-09T01:00:05.458+01:00",
+    "updated": "2018-12-12T22:00:05.821+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "FMS 5-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -59,8 +59,34 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "12"
+                    "@unitCode": "ANN",
+                    "#text": "5"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A58638990"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CHARLES RIVER LABORATORIES ESPA\u00d1A, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "114500"
+                    }
                 }
             }
         },
@@ -70,25 +96,39 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-09"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-09"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-08"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-08"
+                        "cbc:IssueDate": "2018-12-12"
                     }
                 }
-            ]
-        }
+            }
+        ]
     }
 }
