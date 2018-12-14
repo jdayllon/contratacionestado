@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 25/18; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n Nacional del Mercado de Valores; Importe: 39000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 25/18; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n Nacional del Mercado de Valores; Importe: 39000 EUR; Estado: ADJ"
     },
     "title": "Prevenci\u00f3n de riesgos laborales",
-    "updated": "2018-08-07T08:05:14.659+02:00",
+    "updated": "2018-12-13T17:03:40.075+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "25/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Prevenci\u00f3n de riesgos laborales",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -111,6 +111,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la mejor oferta",
+            "cbc:AwardDate": "2018-12-13",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "51480"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78339769"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Medycsa"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19725.12"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "23867.4"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -157,20 +197,28 @@
                         "cbc:WeightNumeric": "55"
                     },
                     {
-                        "cbc:Description": "Coordinaci\u00f3n de actividades preventivas",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "Memoria anual",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Planificaci\u00f3n actividad preventiva",
-                        "cbc:WeightNumeric": "8"
+                        "cbc:Description": "Formaci\u00f3n, informaci\u00f3n y sensibilizaci\u00f3n",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Plan de emergencia o plan de autoprotecci\u00f3n",
                         "cbc:WeightNumeric": "12"
                     },
                     {
-                        "cbc:Description": "Formaci\u00f3n, informaci\u00f3n y sensibilizaci\u00f3n",
-                        "cbc:WeightNumeric": "2"
+                        "cbc:Description": "Planificaci\u00f3n actividad preventiva",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Plan de prevenci\u00f3n",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Coordinaci\u00f3n de actividades preventivas",
+                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "Recursos humanos destinados al servicio de prevenci\u00f3n y plan de calidad",
@@ -179,14 +227,6 @@
                     {
                         "cbc:Description": "Evaluaci\u00f3n de riesgos",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Plan de prevenci\u00f3n",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Memoria anual",
-                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -240,6 +280,18 @@
                     "cbc-place-ext:PublicationMediaName": "BOE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-13"
                     }
                 }
             },

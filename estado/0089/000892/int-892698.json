@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: SER-15-188-OSA; \u00d3rgano de Contrataci\u00f3n: Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15; Importe: 188366 EUR; Estado: RES"
     },
     "title": "Servicio de Urgencias 24h., Ingresos e Intervenciones Quir\u00fargicas en San Agust\u00edn ( Las Palmas de G.C.)",
-    "updated": "2017-08-30T10:26:06.775+02:00",
+    "updated": "2018-12-13T14:19:03.659+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-15-188-OSA",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,15 +22,15 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "https://contrataciondelestado.es/UMIVALE",
+                "cbc:WebsiteURI": "https://www.umivale.es/portal/cms/servicios/pie/licitaciones/licitaciones/",
                 "cac:PartyName": {
                     "cbc:Name": "Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15"
                 },
                 "cac:PostalAddress": {
                     "cbc:CityName": "Madrid",
-                    "cbc:PostalZone": "28046",
+                    "cbc:PostalZone": "28020",
                     "cac:AddressLine": {
-                        "cbc:Line": "Paeo de la Castellana, 135 4\u00aa Planta"
+                        "cbc:Line": "Calle del Poeta Joan Maragall, 31"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de Urgencias 24h., Ingresos e Intervenciones Quir\u00fargicas en San Agust\u00edn ( Las Palmas de G.C.)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -243,10 +243,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "OFERTA ECONOMICA",
-                    "cbc:WeightNumeric": "50"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "OFERTA TECNICA EVALUABLE AUTOMATICAMENTE",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "OFERTA ECONOMICA",
+                        "cbc:WeightNumeric": "50"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -254,7 +260,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -377,35 +383,66 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2017-08-30"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2017-08-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-13"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:ContractModificationDurationMeasure": {
-                "@unitCode": "ANN",
-                "#text": "1"
-            },
-            "cbc:FinalDurationMeasure": {
-                "@unitCode": "ANN",
-                "#text": "3"
-            },
-            "cbc:ContractID": "2681",
-            "cac:ContractModificationLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "86343.47"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "3"
+                },
+                "cbc:ContractID": "2681",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "86343.47"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "259029.97"
+                    }
                 }
             },
-            "cac:FinalLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "259029.97"
+            {
+                "cbc:ID": "2",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "4"
+                },
+                "cbc:ContractID": "2681",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "86343.47"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "345373.44"
+                    }
                 }
             }
-        }
+        ]
     }
 }

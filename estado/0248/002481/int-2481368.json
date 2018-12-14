@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: C08/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Mes\u00eda; Importe: 64998.25 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: C08/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Mes\u00eda; Importe: 64998.25 EUR; Estado: RES"
     },
     "title": "Camino Mes\u00eda a Soutelo y otros. POS + adicional 1/2017 2\u00aa fase",
-    "updated": "2018-10-03T09:45:45.377+02:00",
+    "updated": "2018-12-13T17:11:31.992+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "C08/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mas ventajosa",
+            "cbc:AwardDate": "2018-12-05",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "67715.23"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "78647.88"
+            },
+            "cbc:StartDate": "2018-12-13",
+            "cac:Contract": {
+                "cbc:ID": "C08/2018",
+                "cbc:IssueDate": "2018-12-12"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B15608193"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "OBRAS Y VIALES DE GALICIA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "58198.35"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "70420"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -132,14 +177,6 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Reducci\u00f3n de plazos",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Programa de trabajo",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
                         "cbc:Description": "Incremento plazo de garant\u00eda",
                         "cbc:WeightNumeric": "60"
                     },
@@ -150,6 +187,14 @@
                     {
                         "cbc:Description": "Esquema del Plan de seguridad y salud",
                         "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Programa de trabajo",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n de plazos",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Plan de control de calidad",
@@ -171,11 +216,11 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2018-10-23",
+                "cbc:EndDate": "2018-10-24",
                 "cbc:EndTime": "23:59:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-23",
+                "cbc:EndDate": "2018-10-24",
                 "cbc:EndTime": "23:59:00"
             }
         },
@@ -201,13 +246,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-03"
+                        "cbc:IssueDate": "2018-12-05"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-23"
+                        }
+                    ]
                 }
             },
             {
@@ -217,8 +279,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-23"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-03"
+                        "cbc:IssueDate": "2018-12-13"
                     }
                 }
             }
