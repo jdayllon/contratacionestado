@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: LE-2018/CB/0004/24/18; \u00d3rgano de Contrataci\u00f3n: TGSS-Direcci\u00f3n provincial de Le\u00f3n; Importe: 525.2 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: LE-2018/CB/0004/24/18; \u00d3rgano de Contrataci\u00f3n: TGSS-Direcci\u00f3n provincial de Le\u00f3n; Importe: 525.2 EUR; Estado: RES"
     },
     "title": "Adquisici\u00f3n de material de oficina. A.M. 07/2016",
-    "updated": "2018-11-21T14:33:54.862+01:00",
+    "updated": "2018-12-14T13:45:26.367+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "LE-2018/CB/0004/24/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,6 +108,10 @@
             "cbc:Description": "La oferta econ\u00f3micamente mas ventajosa.",
             "cbc:AwardDate": "2018-09-19",
             "cbc:ReceivedTenderQuantity": "5",
+            "cac:Contract": {
+                "cbc:ID": "LE-2018/CB/0004/24/18",
+                "cbc:IssueDate": "2018-09-19"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -152,17 +156,31 @@
                 "#text": "3"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-21"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-14"
+                    }
                 }
             }
-        }
+        ]
     }
 }

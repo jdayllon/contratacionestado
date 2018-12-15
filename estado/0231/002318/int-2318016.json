@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: XPS2284/2018; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Granada; Importe: 659882.77 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: XPS2284/2018; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Granada; Importe: 659882.77 EUR; Estado: ADJ"
     },
     "title": "Intervenci\u00f3n de urgencia para rehabilitaci\u00f3n de cubierta y vidrieras de la sala neomud\u00e9jar del  Colegio M\u00e1ximo de Cartuja",
-    "updated": "2018-07-31T13:23:54.395+02:00",
+    "updated": "2018-12-14T15:46:27.405+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "XPS2284/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,6 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
+                "cbc:WebsiteURI": "https://econtra.ugr.es/licitacion/UltimosExpte.do",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -54,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Intervenci\u00f3n de urgencia para rehabilitaci\u00f3n de cubierta y vidrieras de la sala neomud\u00e9jar del  Colegio M\u00e1ximo de Cartuja",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -95,6 +96,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-12-12",
+            "cbc:ReceivedTenderQuantity": "14",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "614732.93"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "798458.15"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B18486969"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DAVILA RESTAURACION DE MONUMENTOS S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "508043.74"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "614732.92"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -122,12 +163,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios cuantificables autom\u00e1ticamente",
-                        "cbc:WeightNumeric": "75"
-                    },
-                    {
                         "cbc:Description": "Criterios cuya cuantificaci\u00f3n dependa de un juicio de valor",
                         "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Criterios cuantificables autom\u00e1ticamente",
+                        "cbc:WeightNumeric": "75"
                     }
                 ]
             },
@@ -145,7 +186,7 @@
                 "#text": "2"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-09-06",
+                "cbc:EndDate": "2018-09-13",
                 "cbc:EndTime": "23:59:00"
             }
         },
@@ -177,6 +218,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-14"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -213,6 +266,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-07-31"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-06"
                         }
                     ]
                 }
