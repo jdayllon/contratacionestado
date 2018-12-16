@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01683; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Salud, Seguridad y Emergencias; Importe: 184440 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 300/2018/01683; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Salud, Seguridad y Emergencias; Importe: 184440 EUR; Estado: PUB"
     },
     "title": "Arrendamiento de 800 botellas y suministro de ox\u00edgeno medicinal para las intervenciones de SAMUR-Protecci\u00f3n Civil del Ayuntamiento de Madrid.",
-    "updated": "2018-10-09T15:44:29.882+02:00",
+    "updated": "2018-12-15T09:40:55.983+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01683",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -80,13 +80,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "44615100"
+                        "#text": "24111000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "24111000"
+                        "#text": "44615100"
                     }
                 }
             ],
@@ -97,6 +97,8 @@
                     "#text": "ES300"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "Madrid",
+                    "cbc:PostalZone": "28011",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -105,10 +107,68 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:StartDate": "2019-02-15",
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "24"
+                }
+            },
+            "cac:ContractExtension": {
+                "cbc:OptionsDescription": "El plazo de ejecuci\u00f3n del arrendamiento se establece en 24 meses prorrogables hasta un m\u00e1ximo de 24 meses."
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:AmountRate": "1"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                }
+            ],
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "XSR-MUESTRAS"
+                    },
+                    "cbc:Description": "Lo indicado en el apartado 11 del anexo I del Pliego de Cl\u00e1usulas Administrativas Particulares."
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Lo indicado en el apartado 11 del anexo I del Pliego de Cl\u00e1usulas Administrativas Particulares."
+                }
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Rate": "100"
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Mejoras en el servicio",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "70"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -121,19 +181,84 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2019-01-11",
+                "cbc:EndTime": "14:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-01-11",
+                "cbc:EndTime": "14:00:00",
+                "cbc:Description": "Registro del \u00c1rea de Gobierno de Salud, Seguridad y\nEmergencias"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-09"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f7af3681-26b4-48e3-835e-e5aad73ae20f",
+                    "cbc:DocumentHash": "mYOaYI8RnyGP6rP1nsUm4qoc0p0="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f0e75f6f-bca6-49ad-850f-2eb9c47a8853",
+                    "cbc:DocumentHash": "J4Gci9J45+lkAWf24IeWp+q+mnw="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-15"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-15"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-09"
+                    }
+                }
+            }
+        ]
     }
 }

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: DNA 142/2016; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Econ\u00f3mico-Financiera de ENAIRE; Importe: 870000 EUR; Estado: RES"
     },
     "title": "S.e.o. de equipamiento para los nuevos centros de comunicaciones tierra/aire del tacc de valencia.",
-    "updated": "2017-12-22T04:11:17.701+01:00",
+    "updated": "2018-12-15T04:07:52.359+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "DNA 142/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -36,7 +36,7 @@
                     "cbc:CityName": "Madrid",
                     "cbc:PostalZone": "28022",
                     "cac:AddressLine": {
-                        "cbc:Line": "Avda. de Arag\u00f3n, 402"
+                        "cbc:Line": "Avda. de Arag\u00f3n, 330"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "S.e.o. de equipamiento para los nuevos centros de comunicaciones tierra/aire del tacc de valencia.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -236,7 +236,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -379,24 +379,44 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2017-12-22"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2017-12-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-15"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:Note": "El director del expediente SOLICITA, una ampliaci\u00f3n del plazo de ejecuci\u00f3n por ser necesario acompasar los trabajos de este expediente con el calendario actual de puesta en servicio del nuevo TACC de Valencia, tanto en lo relativo a trabajos previstos como a los posteriores de este hito.  Por lo anterior, se PROPONE aprobar la ampliaci\u00f3n del plazo de ejecuci\u00f3n en DOCE (12) MESES.  La empresa adjudicataria renuncia a cualquier reclamaci\u00f3n por dicha ampliaci\u00f3n.",
-            "cbc:ContractModificationDurationMeasure": {
-                "@unitCode": "MON",
-                "#text": "12"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "El director del expediente SOLICITA, una ampliaci\u00f3n del plazo de ejecuci\u00f3n por ser necesario acompasar los trabajos de este expediente con el calendario actual de puesta en servicio del nuevo TACC de Valencia, tanto en lo relativo a trabajos previstos como a los posteriores de este hito.  Por lo anterior, se PROPONE aprobar la ampliaci\u00f3n del plazo de ejecuci\u00f3n en DOCE (12) MESES.  La empresa adjudicataria renuncia a cualquier reclamaci\u00f3n por dicha ampliaci\u00f3n.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "12"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "15"
+                },
+                "cbc:ContractID": "DNA 142/2016-1"
             },
-            "cbc:FinalDurationMeasure": {
-                "@unitCode": "MON",
-                "#text": "15"
-            },
-            "cbc:ContractID": "DNA 142/2016-1"
-        }
+            {
+                "cbc:ID": "2",
+                "cbc:Note": "VARIACI\u00d3N DEL PLAZO",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "DAY",
+                    "#text": "192"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "DAY",
+                    "#text": "642"
+                },
+                "cbc:ContractID": "DNA 142/2016-1"
+            }
+        ]
     }
 }
