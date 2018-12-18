@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: E-CON-2018-55; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Murcia; Importe: 20500 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: E-CON-2018-55; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Murcia; Importe: 20500 EUR; Estado: RES"
     },
     "title": "Expediente de contrataci\u00f3n - Adquisici\u00f3n de un incubador de CO2 con regulaci\u00f3n de temperatura, CO2 y humedad relativa",
-    "updated": "2018-11-21T17:27:35.006+01:00",
+    "updated": "2018-12-17T18:27:15.669+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "E-CON-2018-55",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,10 @@
             "cbc:Description": "Tras la consulta realizada al Servicio promotor del contrato acerca del cumplimiento de los requisitos del pliego de prescripciones t\u00e9cnicas, y aplicados  los criterios previamente establecidos,  ha resultado ser la mejor oferta en proporci\u00f3n calidad precio.",
             "cbc:AwardDate": "2018-11-20",
             "cbc:ReceivedTenderQuantity": "5",
+            "cac:Contract": {
+                "cbc:ID": "CON-2018-47",
+                "cbc:IssueDate": "2018-11-22"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -141,6 +145,16 @@
         },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:LiabilityAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "746.52"
+                }
+            },
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
@@ -160,10 +174,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "ACCESIBILIDAD A LOS DIFERENTES COMPONENTES DEL INCUBADOR",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "PRECIO",
                         "cbc:WeightNumeric": "50"
                     },
@@ -172,12 +182,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Caracter\u00edsticas T\u00e9cnicas",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "CARACTERISTICAS DEL SISTEMA DE PROGRAMACION",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "ACCESIBILIDAD A LOS DIFERENTES COMPONENTES DEL INCUBADOR",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Caracter\u00edsticas T\u00e9cnicas",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -251,6 +265,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-17"
                     }
                 }
             }
