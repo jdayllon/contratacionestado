@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2680059",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=18111616515386126CAE"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=3045&Ticket=181218171544FD9EA4E6"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3045_2018/PIL/02; \u00d3rgano de Contrataci\u00f3n: Ayuntamiento de Milagro; Importe: 523097,04 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 3045_2018/PIL/02; \u00d3rgano de Contrataci\u00f3n: Ayuntamiento de Milagro; Importe: 523097,04 EUR; Estado: Adjudicada"
     },
     "title": "Obras de renovacion de redes y pavimentacion calles Mart\u00edn Azpilicueta, Amaya, Luis Pe\u00f1alva, Nueva y Pr\u00edncipe de Viana",
-    "updated": "2018-12-05T01:00:09.810+01:00",
+    "updated": "2018-12-18T22:00:07.630+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3045_2018/PIL/02",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -72,31 +72,71 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "6",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B31555642"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FLORENCIO SUESTUN CONSTRUCCIONES, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "504788.64"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-18"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-18"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-05"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-05"
+                        "cbc:IssueDate": "2018-12-18"
                     }
                 }
-            ]
-        }
+            }
+        ]
     }
 }

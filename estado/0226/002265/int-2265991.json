@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 8/2018/P15003; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Segovia; Importe: 3041633.32 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 8/2018/P15003; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Segovia; Importe: 3041633.32 EUR; Estado: RES"
     },
     "title": "Ejecuci\u00f3n de las obras del proyecto de ejecuci\u00f3n para la terminaci\u00f3n del centro De Innovaci\u00f3n y Desarrollo Empresarial (CIDE) en Segovia.",
-    "updated": "2018-07-06T14:57:05.128+02:00",
+    "updated": "2018-12-18T15:14:07.996+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "8/2018/P15003",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Ejecuci\u00f3n de las obras del proyecto de ejecuci\u00f3n para la terminaci\u00f3n del centro De Innovaci\u00f3n y Desarrollo Empresarial (CIDE) en Segovia.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con mejor calidad precio",
+            "cbc:AwardDate": "2018-11-09",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:Contract": {
+                "cbc:ID": "8/2018/P15003",
+                "cbc:IssueDate": "2018-12-11"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A58425760"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ROGASA CONSTRUCCIONES Y CONTRATAS, SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2991734.46"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3619998.7"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -136,8 +172,8 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "2.1 Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "1.2 Propuesta log\u00edstica de la organizaci\u00f3n de la obra y la organizaci\u00f3n del personal adscrito al contrato que vaya a ejecutar el mismo",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "1.6 Se aportar\u00e1 una descripci\u00f3n de la implantaci\u00f3n de un sistema de control.",
@@ -148,20 +184,20 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "2.1 Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
                         "cbc:Description": "1.5 Se valorar\u00e1n dentro de las caracter\u00edsticas sociales.",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "1.2 Propuesta log\u00edstica de la organizaci\u00f3n de la obra y la organizaci\u00f3n del personal adscrito al contrato que vaya a ejecutar el mismo",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "1.3 Se valorar\u00e1 cualificaci\u00f3n y experiencia del personal adscrito al contrato.",
                         "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "1.1 Calidad y valor t\u00e9cnico de la oferta, mediante el estudio y conocimiento t\u00e9cnico del proyecto",
                         "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "1.3 Se valorar\u00e1 cualificaci\u00f3n y experiencia del personal adscrito al contrato.",
+                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "1.4 Se valorar\u00e1 dentro de las caracter\u00edsticas medioambientales, la memoria de gesti\u00f3n de residuos.",
@@ -293,6 +329,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -311,6 +359,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-18"
                     }
                 }
             }

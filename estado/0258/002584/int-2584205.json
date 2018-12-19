@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/07799-INF-0050; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 438000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/07799-INF-0050; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 438000 EUR; Estado: ADJ"
     },
     "title": "Mantenimiento y soporte t\u00e9cnico Open Text Protect",
-    "updated": "2018-10-20T09:36:10.502+02:00",
+    "updated": "2018-12-18T16:52:52.849+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/07799-INF-0050",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-12-14",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85045029"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VILT IB\u00c9RICA, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "344946.96"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "417385.82"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -158,6 +190,15 @@
                 }
             }
         },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "ModeloOferta1807799.xlsx",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7d888537-c3ce-4529-b733-cfc5ca5e20f6",
+                    "cbc:DocumentHash": "xwHkUamLOrdMi2yjf/7B33LMRmg="
+                }
+            }
+        },
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -169,6 +210,35 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-20"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-22"
+                        }
+                    ]
                 }
             },
             {
