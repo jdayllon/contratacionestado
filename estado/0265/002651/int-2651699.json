@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: INV 2018/15; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Oviedo; Importe: 50000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: INV 2018/15; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Oviedo; Importe: 50000 EUR; Estado: ADJ"
     },
     "title": "Suministro, mediante arrendamiento con opci\u00f3n de compra, de un equipo multifunci\u00f3n (copiadora, impresora y esc\u00e1ner) B/N para el Servicio de Publicaciones de la Universidad de Oviedo.",
-    "updated": "2018-11-09T17:29:07.488+01:00",
+    "updated": "2018-12-19T16:27:06.043+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "INV 2018/15",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El licitador propuesto presenta la mejor oferta en relaci\u00f3n calidad precio.",
+            "cbc:AwardDate": "2018-12-19",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "27542.88"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B33532722"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NEA F3 MASTER SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37200"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "45012"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,7 +162,7 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "1"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
@@ -139,7 +179,7 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "3"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
@@ -175,24 +215,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica. Importe unitario de cada copia. Hasta 35 puntos (35%)",
-                        "cbc:WeightNumeric": "35"
-                    },
-                    {
-                        "cbc:Description": "Mantenimiento. Hasta 2,5 puntos (2,5 %)",
-                        "cbc:WeightNumeric": "2.5"
-                    },
-                    {
-                        "cbc:Description": "Asistencia T\u00e9cnica.Hasta 2,5 puntos (2,5 %)",
-                        "cbc:WeightNumeric": "2.5"
-                    },
-                    {
                         "cbc:Description": "Oferta t\u00e9cnica. Hasta 20 puntos (20%)",
                         "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica.Importe global de las cuotas mensuales. Hasta 40 puntos (40%)",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Asistencia T\u00e9cnica.Hasta 2,5 puntos (2,5 %)",
+                        "cbc:WeightNumeric": "2.5"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica. Importe unitario de cada copia. Hasta 35 puntos (35%)",
+                        "cbc:WeightNumeric": "35"
+                    },
+                    {
+                        "cbc:Description": "Mantenimiento. Hasta 2,5 puntos (2,5 %)",
+                        "cbc:WeightNumeric": "2.5"
                     }
                 ]
             },
@@ -275,6 +315,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-19"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
