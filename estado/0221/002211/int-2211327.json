@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: OB 1/18; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Salamanca; Importe: 7828119.69 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: OB 1/18; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Salamanca; Importe: 7828119.69 EUR; Estado: RES"
     },
     "title": "Redacci\u00f3n  de proyecto de ejecuci\u00f3n de obra de rehabilitaci\u00f3n del Edificio antigua sede del Banco de Espa\u00f1a para Centro Internacional del Espa\u00f1ol de la Universidad de Salamanca",
-    "updated": "2018-06-18T14:53:09.196+02:00",
+    "updated": "2018-12-22T09:31:25.895+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "OB 1/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Redacci\u00f3n  de proyecto de ejecuci\u00f3n de obra de rehabilitaci\u00f3n del Edificio antigua sede del Banco de Espa\u00f1a para Centro Internacional del Espa\u00f1ol de la Universidad de Salamanca",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -117,6 +117,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La oferta seleccionada es la que presenta mejor relaci\u00f3n calidad-precio una vez valorados todos los criterios de adjudicaci\u00f3n aprobados para esta contratacion",
+            "cbc:AwardDate": "2018-11-09",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "7207349.8"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "7788196.27"
+            },
+            "cac:Contract": {
+                "cbc:ID": "OB1/18",
+                "cbc:IssueDate": "2018-12-11"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A15139314"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DRAGADOS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7788196.27"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "9423717.49"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "num. 812 (Real Decreto 1359/2011, de 7 de octubre)",
@@ -147,27 +191,7 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Programa de trabajo ajustado plazo de obra",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Asistencia t\u00e9cnica a la direcci\u00f3n de obra",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Oferta economica",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Valoraci\u00f3n t\u00e9cnica y arquitectonica de la propuesta",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Grado de desarrollo y definici\u00f3n de la propuesta",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Oferta control de calidad",
+                        "cbc:Description": "Grado de cumplimiento de la propuesta respecto a especificaciones t\u00e9nicas marcadas en el Pliego",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -175,15 +199,7 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Ampliacion prestaciones del edificio",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Criterios sociales",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Grado de cumplimiento de la propuesta respecto a especificaciones t\u00e9nicas marcadas en el Pliego",
+                        "cbc:Description": "Ampliacion plazo garantia",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -191,16 +207,44 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Ampliacion plazo garantia",
+                        "cbc:Description": "Oferta control de calidad",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Grado de desarrollo y definici\u00f3n de la propuesta",
+                        "cbc:WeightNumeric": "6"
                     },
                     {
                         "cbc:Description": "Criterios ambientales",
                         "cbc:WeightNumeric": "6"
                     },
                     {
+                        "cbc:Description": "Ampliacion prestaciones del edificio",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Valoraci\u00f3n t\u00e9cnica y arquitectonica de la propuesta",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Oferta economica",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Criterios sociales",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
                         "cbc:Description": "Oferta de mantemiento",
                         "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Programa de trabajo ajustado plazo de obra",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Asistencia t\u00e9cnica a la direcci\u00f3n de obra",
+                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -260,6 +304,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -289,6 +357,18 @@
                             "cbc:IssueDate": "2018-06-11"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-22"
+                    }
                 }
             }
         ]

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: EC28-2018; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Valencia Plataforma Intermodal y Log\u00edstica S.A.; Importe: 140000 EUR; Estado: PUB"
     },
     "title": "La prestaci\u00f3n del Servicio de Vigilancia de la Zona de Actividades Log\u00edsticas (ZAL) del Puerto de Valencia",
-    "updated": "2018-12-15T09:32:25.430+01:00",
+    "updated": "2018-12-22T09:36:56.862+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EC28-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -139,19 +139,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
                         }
                     },
                     {
@@ -163,7 +151,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
                         }
                     },
                     {
@@ -171,14 +159,32 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "CRITERIO \u00daNICO BASADO EN EL PRECIO",
-                    "cbc:WeightNumeric": "100"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "CRITERIO EVALUABLE MEDIANTE F\u00d3RMULAS",
+                        "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "CRITERIO EVALUABLE MEDIANTE JUICIO DE VALOR",
+                        "cbc:WeightNumeric": "30"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -194,16 +200,16 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-01-21",
+                "cbc:EndDate": "2019-01-28",
                 "cbc:EndTime": "14:00:00"
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "PPTyCG EC28-2018.pdf",
+            "cbc:ID": "PPTyCG EC28-2018-3.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=fc2c7491-d06c-4328-8386-0625dba176e3",
-                    "cbc:DocumentHash": "hAOIr/9eejqW4pN2/I8qz320l9g="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c46182f0-2269-4956-af2a-592142245934",
+                    "cbc:DocumentHash": "HJdZMI2GJm/Fc7biq+3TM8faQNw="
                 }
             }
         },
@@ -216,17 +222,53 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-22"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-15"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-15"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-19"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }

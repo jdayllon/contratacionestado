@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2018/053270/006-202/00001; \u00d3rgano de Contrataci\u00f3n: Junta De Gobierno Local del Ayuntamiento de Hu\u00e9rcal-Overa; Importe: 244555.64 EUR; Estado: PUB"
     },
     "title": "Contrato de Suministro de Combustible y Carburantes para el Ayuntamiento de Hu\u00e9rcal-Overa",
-    "updated": "2018-12-08T09:30:47.055+01:00",
+    "updated": "2018-12-22T09:31:28.806+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/053270/006-202/00001",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -132,7 +132,7 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
                     "#text": "2"
                 },
-                "cbc:AmountRate": "5"
+                "cbc:AmountRate": "0"
             },
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Solvencia econ\u00f3mica: el volumen de negocios se acreditar\u00e1 por medio de las cuentas anuales aprobadas y depositadas en el Registro Mercantil\n\nSolvencia t\u00e9cnica: se acreditar\u00e1 mediante la aportaci\u00f3n de la descripci\u00f3n de las instalaciones, maquinaria, material y equipo t\u00e9cnico que se dispone para la ejecuci\u00f3n de los trabajos",
@@ -148,9 +148,15 @@
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "5"
                     },
-                    "cbc:Description": "Lote 1: 78.416 euros.\nLote 2: 183.416,73 euros.\nAmbos lotes: 183.416,73 euros."
+                    "cbc:Description": "Lote 1: 78.416 euros.\nLote 2: 105.000 euros.\nAmbos lotes: 183.416,73 euros."
                 },
                 "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -166,12 +172,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     }
@@ -180,16 +180,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "LOTE 1: DISTANCIA DE LA ESTACI\u00d3N DE SERVICIO",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "LOTE 2: PORCENTAJE DE DESCUENTO",
+                        "cbc:WeightNumeric": "100"
                     },
                     {
                         "cbc:Description": "LOTE 1: PORCENTAJE DE DESCUENTO",
                         "cbc:WeightNumeric": "50"
                     },
                     {
-                        "cbc:Description": "LOTE 2: PORCENTAJE DE DESCUENTO",
-                        "cbc:WeightNumeric": "100"
+                        "cbc:Description": "LOTE 1: DISTANCIA DE LA ESTACI\u00d3N DE SERVICIO",
+                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -241,9 +241,31 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-08"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-22"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-18"
+                        }
+                    ]
                 }
             },
             {
@@ -253,9 +275,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-07"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-18"
+                        }
+                    ]
                 }
             }
         ]

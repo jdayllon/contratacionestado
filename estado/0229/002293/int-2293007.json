@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2003818009200; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Centro; Importe: 165000.02 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2003818009200; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Centro; Importe: 165000.02 EUR; Estado: ADJ"
     },
     "title": "Mantenimiento preventivo, conductivo, legal e inspecciones reglamentarias de centros de transformaci\u00f3n, pararrayos y l\u00edneas de media tensi\u00f3n ARG Centro",
-    "updated": "2018-08-13T08:05:06.963+02:00",
+    "updated": "2018-12-22T09:33:28.996+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2003818009200",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -76,7 +76,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento preventivo, conductivo, legal e inspecciones reglamentarias de centros de transformaci\u00f3n, pararrayos y l\u00edneas de media tensi\u00f3n ARG Centro",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -124,13 +124,133 @@
                     "@unitCode": "DAY",
                     "#text": "730"
                 }
-            },
-            "cac:ContractExtension": {
-                "cac:OptionValidityPeriod": {
-                    "cbc:Description": "el mismo que el contrato original"
-                }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 1. Comunidad de Madrid",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "139150.02"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "115000.02"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "50532000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 2. Castilla-La Mancha",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "60500"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "50000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "50532000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Por obtener la mayor puntuaci\u00f3n en aplicaci\u00f3n de los criterios de valoraci\u00f3n y cumplir los requisitos exigidos en los Pliegos que rigen este expediente",
+                "cbc:AwardDate": "2018-10-24",
+                "cbc:ReceivedTenderQuantity": "5",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B83966580"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "SERVICIOS INTEGRALES JUALI S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "39445"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "47728.46"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Por obtener la mayor puntuaci\u00f3n en aplicaci\u00f3n de los criterios de valoraci\u00f3n y cumplir los requisitos exigidos en los Pliegos que rigen este expediente",
+                "cbc:AwardDate": "2018-10-24",
+                "cbc:ReceivedTenderQuantity": "5",
+                "cbc:StartDate": "2018-12-01",
+                "cac:Contract": {
+                    "cbc:ID": "2003818009202",
+                    "cbc:IssueDate": "2018-11-30"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A78017530"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "ELECTRO RUIZ SA"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "46931.98"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "56787.7"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -146,15 +266,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Descuento sobre precio m\u00e1ximo.",
-                        "cbc:WeightNumeric": "100"
-                    },
-                    {
-                        "cbc:Description": "compromiso del uso de recambios originales",
+                        "cbc:Description": "Seguridad del suministro",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "impacto medioambiental",
+                        "cbc:Description": "precio",
+                        "cbc:WeightNumeric": "100"
+                    },
+                    {
+                        "cbc:Description": "Impacto medioambiental",
                         "cbc:WeightNumeric": "15"
                     }
                 ]
@@ -243,11 +363,45 @@
                     },
                     {
                         "cbc-place-ext:PublicationMediaName": "DOUE",
-                        "cac-place-ext:AdditionalPublicationDocumentReference": {
-                            "cbc:IssueDate": "2018-07-20"
-                        }
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2018-07-20"
+                            },
+                            {
+                                "cbc:IssueDate": "2018-07-20"
+                            }
+                        ]
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-06"
+                        }
+                    ]
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -273,8 +427,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-07-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-10"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-20"
+                        "cbc:IssueDate": "2018-12-21"
                     }
                 }
             }
