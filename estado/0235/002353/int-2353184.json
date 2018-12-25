@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018.6.1.4.15; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Instituto C\u00e1ntabro de Servicios Sociales; Importe: 2556438.46 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018.6.1.4.15; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Instituto C\u00e1ntabro de Servicios Sociales; Importe: 2556438.46 EUR; Estado: RES"
     },
     "title": "Servicio de teleasistencia domiciliaria del Sistema para la Autonom\u00eda y Atenci\u00f3n a la Dependencia de la Comunidad Aut\u00f3noma de Cantabria",
-    "updated": "2018-08-13T08:29:35.305+02:00",
+    "updated": "2018-12-24T09:37:26.366+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018.6.1.4.15",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de teleasistencia domiciliaria del Sistema para la Autonom\u00eda y Atenci\u00f3n a la Dependencia de la Comunidad Aut\u00f3noma de Cantabria",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -111,6 +111,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta calidad precio",
+            "cbc:AwardDate": "2018-11-26",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2018-12-20",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-12-19"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A80495864"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Servicios de Teleasistencia S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1820090.88"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1895928"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -140,25 +177,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     },
                     {
@@ -172,6 +191,24 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
                 ]
             },
@@ -181,6 +218,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Calidad t\u00e9cnica del proyecto de gesti\u00f3n del servicio",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
                         "cbc:Description": "Mejoras - Incremento plantilla",
                         "cbc:WeightNumeric": "10"
                     },
@@ -189,16 +230,12 @@
                         "cbc:WeightNumeric": "35"
                     },
                     {
-                        "cbc:Description": "Mejoras - Soluciones t\u00e9cnicas a problemas.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Mejoras - dispositivos de teleasistencia",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Calidad t\u00e9cnica del proyecto de gesti\u00f3n del servicio",
-                        "cbc:WeightNumeric": "40"
+                        "cbc:Description": "Mejoras - Soluciones t\u00e9cnicas a problemas.",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -332,6 +369,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -348,8 +397,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-29"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-11"
+                        "cbc:IssueDate": "2018-12-24"
                     }
                 }
             }
