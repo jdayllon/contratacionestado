@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "N\u00famero de expediente: 191/2018/00321; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Cultura y Deportes; Importe: 41311.53 EUR; Estado: ADJ"
+        "#text": "N\u00famero de expediente: 191/2018/00321; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Cultura y Deportes; Importe: 41311.53 EUR; Estado: RES"
     },
     "title": "C.D 14 Biblioteca Ana Mar\u00eda Matute reformas varias para mejorar la eficiencia energ\u00e9tica y la accesibilidad",
-    "updated": "2018-12-12T17:55:52.278+01:00",
+    "updated": "2018-12-26T16:55:38.110+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "191/2018/00321",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -66,6 +66,10 @@
             }
         },
         "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
             "cbc:ReceivedTenderQuantity": "1",
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
@@ -93,17 +97,31 @@
                 "#text": "7"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-12"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-12"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-26"
+                    }
                 }
             }
-        }
+        ]
     }
 }

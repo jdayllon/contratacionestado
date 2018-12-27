@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "N\u00famero de expediente: PV-04 Obra construcci\u00f3n paso de vehiculos; \u00d3rgano de Contrataci\u00f3n: Distrito de Ciudad Lineal; Importe: 1919.59 EUR; Estado: ADJ"
+        "#text": "N\u00famero de expediente: PV-04 Obra construcci\u00f3n paso de vehiculos; \u00d3rgano de Contrataci\u00f3n: Distrito de Ciudad Lineal; Importe: 1919.59 EUR; Estado: RES"
     },
     "title": "Contrato derivado PV-04 Paso de veh\u00edculos, rebaje de acera",
-    "updated": "2018-12-20T14:26:07.881+01:00",
+    "updated": "2018-12-26T10:40:36.361+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PV-04 Obra construcci\u00f3n paso de vehiculos",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -74,6 +74,10 @@
             }
         },
         "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
             "cbc:ReceivedTenderQuantity": "10",
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
@@ -101,17 +105,31 @@
                 "#text": "7"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-20"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-20"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-26"
+                    }
                 }
             }
-        }
+        ]
     }
 }

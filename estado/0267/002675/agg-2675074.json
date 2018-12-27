@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/82;  \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n;  Importe: 720000.00EUR;  Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/82;  \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n;  Importe: 1000000.00EUR;  Estado: ADJ"
     },
     "title": "Programaci\u00f3n del Desarrollo y Mantenimiento de Aplicaciones",
-    "updated": "2018-11-16T19:26:28.118+01:00",
+    "updated": "2018-12-26T16:55:43.235+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/82",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -42,11 +42,11 @@
             "cac:BudgetAmount": {
                 "cbc:EstimatedOverallContractAmount": {
                     "@currencyID": "EUR",
-                    "#text": "720000"
+                    "#text": "1000000"
                 },
                 "cbc:TaxExclusiveAmount": {
                     "@currencyID": "EUR",
-                    "#text": "720000"
+                    "#text": "1000000"
                 }
             },
             "cac:RequiredCommodityClassification": {
@@ -66,6 +66,32 @@
                 "cbc:DurationMeasure": {
                     "@unitCode": "ANN",
                     "#text": "4"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A20038915"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "IBERM\u00c1TICA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1000000"
+                    }
                 }
             }
         },
@@ -95,17 +121,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-16"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-16"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-26"
+                    }
                 }
             }
-        }
+        ]
     }
 }

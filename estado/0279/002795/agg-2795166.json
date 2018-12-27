@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "N\u00famero de expediente: 115/2018/02627; \u00d3rgano de Contrataci\u00f3n: Distrito de Moratalaz; Importe: 24505.61 EUR; Estado: ADJ"
+        "#text": "N\u00famero de expediente: 115/2018/02627; \u00d3rgano de Contrataci\u00f3n: Distrito de Moratalaz; Importe: 24505.61 EUR; Estado: RES"
     },
     "title": "115/2018/02627 Acondicionamiento Casa Conserje y reformas varias en Centro Gil Alberdi",
-    "updated": "2018-12-21T14:55:59.128+01:00",
+    "updated": "2018-12-26T16:55:38.826+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "115/2018/02627",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -66,6 +66,10 @@
             }
         },
         "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
             "cbc:ReceivedTenderQuantity": "1",
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
@@ -93,17 +97,31 @@
                 "#text": "7"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-26"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-21"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-21"
+                    }
                 }
             }
-        }
+        ]
     }
 }

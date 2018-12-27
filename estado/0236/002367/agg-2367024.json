@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA 23/2018;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad\u00b7\u00b7>Servicio Madrile\u00f1o de Salud \u00b7\u00b7>Hospital La Paz;Importe: 644628.10  EUR;Estado: ABIERTO"
+        "#text": "Id licitaci\u00f3n: PA 23/2018;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad\u00b7\u00b7>Servicio Madrile\u00f1o de Salud \u00b7\u00b7>Hospital La Paz;Importe: 644628.10  EUR;Estado: ADJUDICADA"
     },
     "title": "Adquisici\u00f3n de una Gammac\u00e1mara Spect-CT para el Hospital Universitario La Paz",
-    "updated": "2018-08-20T10:55:32.956+02:00",
+    "updated": "2018-12-26T14:55:34.703+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA 23/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -36,7 +36,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Adquisici\u00f3n de una Gammac\u00e1mara Spect-CT para el Hospital Universitario La Paz.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cac:BudgetAmount": {
@@ -68,21 +68,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28061737"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "General Electric Healthcare Espa\u00f1a,S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "495000"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
-            },
-            "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-09-17",
-                "cbc:EndTime": "18:00:00"
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "1354730085200.pdf",
+            "cbc:ID": "1354733903467.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "http://www.madrid.org/contratos-publicos/1354730088190/1350930820369/1354730085200.pdf"
+                    "cbc:URI": "http://www.madrid.org/contratos-publicos/1354730088190/1350930820369/1354733903467.pdf"
                 }
             }
         },
@@ -94,17 +116,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-20"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-08-20"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-20"
+                    }
                 }
             }
-        }
+        ]
     }
 }
