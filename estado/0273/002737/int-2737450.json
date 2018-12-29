@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 011822RH0265; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de la Subsecretar\u00eda de Fomento; Importe: 188516.07 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 011822RH0265; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de la Subsecretar\u00eda de Fomento; Importe: 188516.07 EUR; Estado: RES"
     },
     "title": "Mantenimiento y soporte de software y licencia Oracle del Ministerio de Fomento",
-    "updated": "2018-12-04T16:23:48.638+01:00",
+    "updated": "2018-12-28T14:48:08.219+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "011822RH0265",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -123,6 +123,11 @@
                 "@currencyID": "EUR",
                 "#text": "188516.07"
             },
+            "cbc:StartDate": "2019-01-01",
+            "cac:Contract": {
+                "cbc:ID": "011822RH0265",
+                "cbc:IssueDate": "2018-12-28"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -224,17 +229,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-04"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-04"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-28"
+                    }
                 }
             }
-        }
+        ]
     }
 }

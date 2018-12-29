@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 011822FE0269; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de la Subsecretar\u00eda de Fomento; Importe: 99143.37 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 011822FE0269; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de la Subsecretar\u00eda de Fomento; Importe: 99143.37 EUR; Estado: RES"
     },
     "title": "Servicio de limpieza en las dependencias de la demarcaci\u00f3n de carreteras del estado en Catalu\u00f1a (Ministerio de Fomento), servicio de protecci\u00f3n civil de la delegaci\u00f3n del gobierno en Catalu\u00f1a (Ministerio de Politica Territorial y Funci\u00f3n P\u00fablica) y Jefatura Provincial de Inspecci\u00f3n de Telecomunicaciones (Ministerio de Econom\u00eda y Empresa)",
-    "updated": "2018-12-10T19:20:58.442+01:00",
+    "updated": "2018-12-28T15:27:17.119+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "011822FE0269",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -128,6 +128,11 @@
                 "@currencyID": "EUR",
                 "#text": "98340"
             },
+            "cbc:StartDate": "2019-01-01",
+            "cac:Contract": {
+                "cbc:ID": "011822FE0269",
+                "cbc:IssueDate": "2018-12-17"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -158,14 +163,14 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -195,12 +200,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Caracteristicas medioambientales: calidad ambiental",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "PRECIO",
+                        "cbc:WeightNumeric": "77.5"
                     },
                     {
                         "cbc:Description": "Mejoras: incremento de hasta un 5% del n\u00famero total de horas",
                         "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Mejoras: tiempo de respuesta en atencion extraordinaria",
+                        "cbc:WeightNumeric": "0.5"
                     },
                     {
                         "cbc:Description": "Caracteristiicas tecnicas: recursos asignados al servicio",
@@ -211,12 +220,8 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "PRECIO",
-                        "cbc:WeightNumeric": "77.5"
-                    },
-                    {
-                        "cbc:Description": "Mejoras: tiempo de respuesta en atencion extraordinaria",
-                        "cbc:WeightNumeric": "0.5"
+                        "cbc:Description": "Caracteristicas medioambientales: calidad ambiental",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -312,6 +317,18 @@
                             "cbc:IssueDate": "2018-11-16"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-28"
+                    }
                 }
             }
         ]

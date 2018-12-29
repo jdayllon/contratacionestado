@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2072/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Camas; Importe: 41322.31 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2072/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Camas; Importe: 41322.31 EUR; Estado: ADJ"
     },
     "title": "Suministro de servidores y sistema de almacenamiento para el Ayuntamiento de Camas",
-    "updated": "2018-11-19T14:08:05.103+01:00",
+    "updated": "2018-12-28T19:53:45.779+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2072/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "3"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.camas.es",
+                "cbc:WebsiteURI": "https://camas.sedelectronica.es/info.0",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -121,6 +121,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan detalle indicado en el Acuerdo de Adjudicaci\u00f3n",
+            "cbc:AwardDate": "2018-12-28",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "40900"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "40900"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B50570571"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SOLITIUM, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "40900"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "49489"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -159,13 +199,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
@@ -185,6 +225,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "SLA propuesto y medidas para su cumplimiento",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
                         "cbc:Description": "Dise\u00f1o del conjunto de las soluciones de almacenamiento, copias de seguridad y de servidores, as\u00ed como el grado de integraci\u00f3n entre los diferentes conjuntos",
                         "cbc:WeightNumeric": "5.5"
                     },
@@ -193,16 +237,12 @@
                         "cbc:WeightNumeric": "75"
                     },
                     {
-                        "cbc:Description": "SLA propuesto y medidas para su cumplimiento",
+                        "cbc:Description": "Plan de puesta en marcha e instalaci\u00f3n",
                         "cbc:WeightNumeric": "7"
                     },
                     {
                         "cbc:Description": "Certificaciones t\u00e9cnicas ad-hoc del personal instalador",
                         "cbc:WeightNumeric": "5.5"
-                    },
-                    {
-                        "cbc:Description": "Plan de puesta en marcha e instalaci\u00f3n",
-                        "cbc:WeightNumeric": "7"
                     }
                 ]
             },
@@ -256,6 +296,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-28"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

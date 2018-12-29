@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: CONTR 2018 0000054076; \u00d3rgano de contrataci\u00f3n: Agencia de Gesti\u00f3n Agraria y Pesquera de Andaluc\u00eda; Importe: 17.550,00 \u20ac;"
     },
     "title": "dise\u00f1o, maquetaci\u00f3n y edici\u00f3n de informes t\u00e9cnicos",
-    "updated": "2018-11-09T15:12:08.240+01:00",
+    "updated": "2018-12-28T13:11:45.383+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONTR 2018 0000054076",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -56,8 +56,56 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "3"
+                }
             }
         },
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "3"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "4"
+                }
+            }
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -68,17 +116,42 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-09"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-09"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-28"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }
