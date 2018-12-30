@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2003818009200; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Centro; Importe: 165000.02 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2003818009200; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Centro; Importe: 165000.02 EUR; Estado: RES"
     },
     "title": "Mantenimiento preventivo, conductivo, legal e inspecciones reglamentarias de centros de transformaci\u00f3n, pararrayos y l\u00edneas de media tensi\u00f3n ARG Centro",
-    "updated": "2018-12-22T09:33:28.996+01:00",
+    "updated": "2018-12-29T09:31:03.939+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2003818009200",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -187,6 +187,11 @@
                 "cbc:Description": "Por obtener la mayor puntuaci\u00f3n en aplicaci\u00f3n de los criterios de valoraci\u00f3n y cumplir los requisitos exigidos en los Pliegos que rigen este expediente",
                 "cbc:AwardDate": "2018-10-24",
                 "cbc:ReceivedTenderQuantity": "5",
+                "cbc:StartDate": "2018-12-01",
+                "cac:Contract": {
+                    "cbc:ID": "2003818009201",
+                    "cbc:IssueDate": "2018-11-30"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -266,16 +271,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Impacto medioambiental",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
                         "cbc:Description": "Seguridad del suministro",
                         "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "precio",
                         "cbc:WeightNumeric": "100"
-                    },
-                    {
-                        "cbc:Description": "Impacto medioambiental",
-                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -379,12 +384,25 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_FORM"
                 },
-                "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-22"
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-22"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2018-12-22"
+                            },
+                            {
+                                "cbc:IssueDate": "2018-12-29"
+                            }
+                        ]
                     }
-                }
+                ]
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -444,9 +462,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-29"
+                        }
+                    ]
                 }
             }
         ]

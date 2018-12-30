@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 09/18F; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de la Sociedad para la Promoci\u00f3n y Desarrollo de la Ciudad de Burgos S.A.; Importe: 845258 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 09/18F; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de la Sociedad para la Promoci\u00f3n y Desarrollo de la Ciudad de Burgos S.A.; Importe: 845258 EUR; Estado: RES"
     },
     "title": "Servicios de Seguridad y Control para los centros\ngestionados por la SOCIEDAD, F\u00f3rum Evoluci\u00f3n Palacio de Congresos , al Aparcamiento del C.E.H. de Burgos y\nal Dep\u00f3sito Veh\u00edculos de Villalonqu\u00e9jar",
-    "updated": "2018-07-27T09:38:06.992+02:00",
+    "updated": "2018-12-29T09:53:34.361+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "09/18F",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -68,7 +68,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios de Seguridad y Control para los centros\ngestionados por la SOCIEDAD, F\u00f3rum Evoluci\u00f3n Palacio de Congresos , al Aparcamiento del C.E.H. de Burgos y\nal Dep\u00f3sito Veh\u00edculos de Villalonqu\u00e9jar",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -140,6 +140,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser de los dos licitadores presentados el que mayor puntuaci\u00f3n ha obtenido.",
+            "cbc:AwardDate": "2018-11-13",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "211314.5"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "504306.67"
+            },
+            "cbc:StartDate": "2019-01-01",
+            "cac:Contract": {
+                "cbc:ID": "9/18f",
+                "cbc:IssueDate": "2018-12-19"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B87222014"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "PROSEGUR SOLUCIONES INTEGRALES DE SEGURIDAD ESPA\u00d1A, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "504306.67"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "610211.08"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -162,7 +207,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
                         }
                     },
                     {
@@ -174,13 +225,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "4"
                         }
                     },
                     {
@@ -194,20 +239,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "proposici\u00f3n economica",
-                        "cbc:WeightNumeric": "47"
-                    },
-                    {
-                        "cbc:Description": "bolsa de horas",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "mejoras",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "oferta ec auxiliares / seguridad",
                         "cbc:WeightNumeric": "38"
+                    },
+                    {
+                        "cbc:Description": "bolsa de horas",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "proposici\u00f3n economica",
+                        "cbc:WeightNumeric": "47"
                     }
                 ]
             },
@@ -273,6 +318,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -308,6 +377,18 @@
                             "cbc:IssueDate": "2018-07-25"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-29"
+                    }
                 }
             }
         ]

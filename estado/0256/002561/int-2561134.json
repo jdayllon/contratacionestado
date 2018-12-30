@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018-038-A; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Palma de Mallorca; Importe: 1060000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018-038-A; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Palma de Mallorca; Importe: 1060000 EUR; Estado: RES"
     },
     "title": "Servicio de reprograf\u00eda municipal",
-    "updated": "2018-10-14T09:36:28.853+02:00",
+    "updated": "2018-12-29T09:53:52.583+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018-038-A",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,43 @@
                 "cbc:OptionsDescription": "Prorrogable por un a\u00f1o"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser el titular de la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-12-19",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2018-12-21",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-12-20"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28122125"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CANON ESPA\u00d1A SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "972813.6"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1177104.48"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -138,11 +175,27 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio por defecto de copias e impresiones",
+                        "cbc:Description": "Recursos humanos que se adscribir\u00e1n directamente al contrato",
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "En caso de pr\u00f3rroga del contrato reducci\u00f3n de la facturaci\u00f3n del contrato",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Precio total del servicio",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "La organizaci\u00f3n y planificaci\u00f3n de los trabajos a realizar, y el programa de mantenimiento del servicio",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Precio por exceso de copias e impresiones",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Mejora sin contrapartida econ\u00f3mica",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -150,28 +203,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "La organizaci\u00f3n y planificaci\u00f3n de los trabajos a realizar, y el programa de mantenimiento del servicio",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "En caso de pr\u00f3rroga del contrato reducci\u00f3n de la facturaci\u00f3n del contrato",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Mejora sin contrapartida econ\u00f3mica",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Recursos humanos que se adscribir\u00e1n directamente al contrato",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Calidad t\u00e9cnica de las m\u00e1quinas y sus prestaciones",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio total del servicio",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Precio por defecto de copias e impresiones",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Herramientas para favorecer el control y la gesti\u00f3n del servicio",
@@ -216,17 +253,103 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-14"
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "ANNEX I PPT DEF.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4a8f5a55-d829-4640-9565-3f50deb9f4e0",
+                    "cbc:DocumentHash": "6T/hxjTM4c9Pt4RxPDoYfd+l+S0="
                 }
             }
-        }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-28"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-15"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-06"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-14"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-27"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-29"
+                    }
+                }
+            }
+        ]
     }
 }
