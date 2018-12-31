@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 064/2018; \u00d3rgano de Contrataci\u00f3n: Empresa Municipal de la Vivienda y Suelo de Madrid, S.A.; Importe: 642507.35 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 064/2018; \u00d3rgano de Contrataci\u00f3n: Empresa Municipal de la Vivienda y Suelo de Madrid, S.A.; Importe: 642507.35 EUR; Estado: RES"
     },
     "title": "Suministro, montaje, y redacci\u00f3n de los documentos t\u00e9cnicos necesarios de los elementos prefabricados para la instalaci\u00f3n de una estructura modular provisional para uso de alojamiento temporal",
-    "updated": "2018-12-10T17:17:49.989+01:00",
+    "updated": "2018-12-30T09:33:21.447+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "064/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,11 @@
                 "@currencyID": "EUR",
                 "#text": "567720"
             },
+            "cbc:StartDate": "2018-12-20",
+            "cac:Contract": {
+                "cbc:ID": "064/2018",
+                "cbc:IssueDate": "2018-12-20"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -152,15 +157,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n",
                         "cbc:WeightNumeric": "40"
                     },
                     {
                         "cbc:Description": "Incremento del plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "30"
                     }
                 ]
@@ -187,17 +192,43 @@
                 "cbc:EndTime": "16:39:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_ATPV"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-13"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-30"
+                    }
                 }
             }
-        }
+        ]
     }
 }

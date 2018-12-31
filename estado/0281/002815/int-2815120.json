@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 3/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia del Patronato de Recaudaci\u00f3n Provincial; Importe: 569413.02 EUR; Estado: PUB"
     },
     "title": "Servicio externalizado de atenci\u00f3n telef\u00f3nica.",
-    "updated": "2018-12-29T09:52:02.127+01:00",
+    "updated": "2018-12-30T16:58:25.565+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -146,6 +146,13 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Una relaci\u00f3n de los principales servicios o trabajos realizados de igual o similar naturaleza que los que constituyen el objeto del contrato en el curso de como m\u00e1ximo los tres \u00faltimos a\u00f1os."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-TECH"
                         },
                         "cbc:Description": "Indicaci\u00f3n del personal t\u00e9cnico o de las unidades t\u00e9cnicas, integradas o no en la empresa, participantes en el contrato, especialmente aquellos encargados del control de calidad."
@@ -156,13 +163,6 @@
                             "#text": "XSX-CERTCALIDAD"
                         },
                         "cbc:Description": "Certificado de calidad ISO 9001:2015 o equivalente."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
-                        },
-                        "cbc:Description": "Una relaci\u00f3n de los principales servicios o trabajos realizados de igual o similar naturaleza que los que constituyen el objeto del contrato en el curso de como m\u00e1ximo los tres \u00faltimos a\u00f1os."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -176,19 +176,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "5"
                         }
                     },
                     {
@@ -200,7 +188,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     }
                 ]
@@ -211,24 +211,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazos de Implantaci\u00f3n",
-                        "cbc:WeightNumeric": "5.75"
-                    },
-                    {
-                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
-                        "cbc:WeightNumeric": "57.47"
+                        "cbc:Description": "N\u00famero de llamadas",
+                        "cbc:WeightNumeric": "8.05"
                     },
                     {
                         "cbc:Description": "Par\u00e1metros de calidad",
                         "cbc:WeightNumeric": "11.49"
                     },
                     {
+                        "cbc:Description": "Plazos de Implantaci\u00f3n",
+                        "cbc:WeightNumeric": "5.75"
+                    },
+                    {
                         "cbc:Description": "Criterios de valoraci\u00f3n t\u00e9cnica",
                         "cbc:WeightNumeric": "17.24"
                     },
                     {
-                        "cbc:Description": "N\u00famero de llamadas",
-                        "cbc:WeightNumeric": "8.05"
+                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
+                        "cbc:WeightNumeric": "57.47"
                     }
                 ]
             },
@@ -282,6 +282,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-30"
                     }
                 }
             },
