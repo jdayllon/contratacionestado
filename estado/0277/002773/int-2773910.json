@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 4023018032000; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Adquisiciones del Mando de Apoyo Log\u00edstico del Ej\u00e9rcito del Aire; Importe: 3350000 EUR; Estado: PUB"
     },
     "title": "201851A3 Acuerdo Marco para el mantenimiento de h\u00e9lices Hamilton Sundstrand y sus componentes y accesorios de los sistemas T.10 T.19,.T21, P3, D.13/UD.14",
-    "updated": "2018-12-16T09:34:59.503+01:00",
+    "updated": "2018-12-31T08:08:15.395+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "4023018032000",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -126,13 +126,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "12"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "12"
                         }
                     }
                 ]
@@ -140,16 +140,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Oferta Economica para la Revision General y/o reparacion de los articulos incluidos en el Lote",
+                        "cbc:WeightNumeric": "80"
+                    },
+                    {
                         "cbc:Description": "Plazo de entrega",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Importe oferta econ\u00f3mica para la inspecci\u00f3n de los art\u00edculos incluidos en el Lote",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Oferta Economica para la Revision General y/o reparacion de los articulos incluidos en el Lote",
-                        "cbc:WeightNumeric": "80"
                     }
                 ]
             },
@@ -194,17 +194,51 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-31"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-18"
+                        }
+                    }
+                ]
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-16"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-17"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-16"
+                    }
                 }
             }
-        }
+        ]
     }
 }

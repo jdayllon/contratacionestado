@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: Exp. PA ARTS 429/18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Econ\u00f3mica de la Fundaci\u00f3n Palau de Les Arts Reina Sof\u00eda; Importe: 135956 EUR; Estado: PUB"
     },
     "title": "Servicio de gesti\u00f3n de contenedores mar\u00edtimos que comprende:",
-    "updated": "2018-12-10T15:14:44.287+01:00",
+    "updated": "2018-12-31T16:47:54.780+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "Exp. PA ARTS 429/18",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -153,16 +153,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-MEDIOS"
                         },
-                        "cbc:Description": "relaci\u00f3n de los principales servicios prestados durante los 3 \u00faltimos a\u00f1os, indicando importe, fechas y destinatario de los mismos(p\u00fablico o privado)."
+                        "cbc:Description": "Declaraci\u00f3n indicando las dimensiones de la campa y maquinaria."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Declaraci\u00f3n indicando las dimensiones de la campa y maquinaria."
+                        "cbc:Description": "relaci\u00f3n de los principales servicios prestados durante los 3 \u00faltimos a\u00f1os, indicando importe, fechas y destinatario de los mismos(p\u00fablico o privado)."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -182,6 +182,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "OFERTA ECON\u00d3MICA",
+                        "cbc:WeightNumeric": "65"
+                    },
+                    {
                         "cbc:Description": "Distancia de la campa a las instalaciones del Palau",
                         "cbc:WeightNumeric": "5"
                     },
@@ -192,10 +196,6 @@
                     {
                         "cbc:Description": "Memoria t\u00e9cnica",
                         "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "OFERTA ECON\u00d3MICA",
-                        "cbc:WeightNumeric": "65"
                     }
                 ]
             },
@@ -213,7 +213,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-12-24",
+                "cbc:EndDate": "2019-01-15",
                 "cbc:EndTime": "14:30:00"
             }
         },
@@ -235,17 +235,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-31"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-31"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 19/004; \u00d3rgano de Contrataci\u00f3n: TGSS-Direcci\u00f3n provincial de Guip\u00fazcoa; Importe: 447071.18 EUR; Estado: ADJ"
     },
     "title": "Limpieza del edificio sede de la TGSS, INSS e ISM de Gipuzkoa (lote 1), oficinas dependientes de la TGSS (lote 2) y limpieza exterior del muro cortina sede de la TGSS, INSS e ISM de Gipuzkoa (lote 3).",
-    "updated": "2018-12-22T09:32:27.409+01:00",
+    "updated": "2018-12-31T08:07:09.491+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "19/004",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -258,6 +258,11 @@
                     "@currencyID": "EUR",
                     "#text": "354108.24"
                 },
+                "cbc:StartDate": "2019-02-01",
+                "cac:Contract": {
+                    "cbc:ID": "19/004",
+                    "cbc:IssueDate": "2018-12-18"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -378,16 +383,16 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "10"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "10"
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -588,12 +593,30 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_FORM"
                 },
-                "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-22"
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2018-12-22"
+                            },
+                            {
+                                "cbc:IssueDate": "2018-12-29"
+                            }
+                        ]
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2018-12-22"
+                            },
+                            {
+                                "cbc:IssueDate": "2018-12-28"
+                            }
+                        ]
                     }
-                }
+                ]
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -646,9 +669,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-22"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-28"
+                        }
+                    ]
                 }
             }
         ]
