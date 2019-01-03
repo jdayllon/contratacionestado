@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/12498; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 49729.92 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/12498; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 49729.92 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n de la prestaci\u00f3n  del servicio de limpieza y otros complementarios en el edificio del Banco de Espa\u00f1a, en Gran V\u00eda Don Diego L\u00f3pez de Haro, n\u00ba 10 de Bilbao.",
-    "updated": "2018-11-08T20:20:44.478+01:00",
+    "updated": "2019-01-02T13:31:53.670+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/12498",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mejor clasificada",
+            "cbc:AwardDate": "2018-12-19",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B48848634"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Limpiezas Abando, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "45631.91"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "55214.61"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -153,20 +185,20 @@
         },
         "cac:AdditionalDocumentReference": [
             {
-                "cbc:ID": "Nota PPT Fecha de Visita.pdf",
-                "cac:Attachment": {
-                    "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=db007d7f-64d8-4bea-aff8-aaaedd881a1d",
-                        "cbc:DocumentHash": "9qlTx1uYdQkaUUWJRytSdY5+IWs="
-                    }
-                }
-            },
-            {
                 "cbc:ID": "Excel Oferta Economica Bilbao.xlsx",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
                         "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=88db6d89-a362-459b-ac44-235a64faa039",
                         "cbc:DocumentHash": "lpvOO44CJi8CkZGcNCbc0Mimm/o="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Nota Informativa Fecha de Visita.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=33a5f992-f1d4-4b79-8aa1-fdfe3e09e2e3",
+                        "cbc:DocumentHash": "EuL9L2HUv5s5xAFIzTBX6ZdpbKE="
                     }
                 }
             }
@@ -175,13 +207,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-08"
+                        "cbc:IssueDate": "2019-01-02"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-12"
+                        }
+                    ]
                 }
             },
             {

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: SER-16-303-OSA; \u00d3rgano de Contrataci\u00f3n: Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15; Importe: 24740 EUR; Estado: RES"
     },
     "title": "Psicolog\u00eda en Benidorm (Alicante)",
-    "updated": "2017-04-24T12:52:04.472+02:00",
+    "updated": "2019-01-02T14:12:53.007+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-16-303-OSA",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "https://contrataciondelestado.es/UMIVALE",
+                "cbc:WebsiteURI": "https://www.umivale.es/portal/cms/servicios/pie/licitaciones/licitaciones/",
                 "cac:PartyName": {
                     "cbc:Name": "Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15"
                 },
@@ -30,7 +30,7 @@
                     "cbc:CityName": "Madrid",
                     "cbc:PostalZone": "28020",
                     "cac:AddressLine": {
-                        "cbc:Line": "Capit\u00e1n Haya, 31"
+                        "cbc:Line": "Calle del Poeta Joan Maragall, 31"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Psicolog\u00eda en Benidorm (Alicante)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -101,7 +101,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Alicante / Alacant",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES521"
                 },
                 "cac:Address": {
@@ -132,6 +132,7 @@
             "cbc:Description": "oferta m\u00e1s ventajosa",
             "cbc:AwardDate": "2017-02-17",
             "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2017-08-01",
             "cac:Contract": {
                 "cbc:ID": "3328",
                 "cbc:IssueDate": "2017-03-16"
@@ -242,10 +243,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "oferta econ\u00f3mica",
-                    "cbc:WeightNumeric": "40"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "oferta t\u00e9cnica",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -253,7 +260,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -351,7 +358,43 @@
                         "cbc:IssueDate": "2017-04-24"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-02"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "3328",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:ContractID": "3328",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "11971"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "23942"
+                }
+            }
+        }
     }
 }

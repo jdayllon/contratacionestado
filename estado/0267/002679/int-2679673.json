@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 110/2018-OBR-HAC  (Contrataci\u00f3n); \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Burgos; Importe: 1636363.84 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 110/2018-OBR-HAC  (Contrataci\u00f3n); \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Burgos; Importe: 1636363.84 EUR; Estado: ADJ"
     },
     "title": "Obras de restauraci\u00f3n del Claustro del Monasterio de San Juan.",
-    "updated": "2018-11-19T14:28:36.503+01:00",
+    "updated": "2019-01-02T12:56:35.239+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "110/2018-OBR-HAC  (Contrataci\u00f3n)",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -50,7 +50,7 @@
                     "cbc:Name": "Junta de Gobierno del Ayuntamiento de Burgos",
                     "cbc:Telephone": "947288825",
                     "cbc:Telefax": "947288832",
-                    "cbc:ElectronicMail": "hacienda@aytoburgos.es"
+                    "cbc:ElectronicMail": "contratacion@aytoburgos.es"
                 }
             }
         },
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta",
+            "cbc:AwardDate": "2018-12-27",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1489745.46"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1599218.18"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A09015256"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSTRUCCIONES ORTEGA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1513636.36"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1831500"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -127,19 +167,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -147,38 +181,44 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "INCREMENTO EN LA EFICIENCIA ENERGETICA Y AHORRO DE ENERGIA",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "OFERTA ECON\u00d3MICA",
-                        "cbc:WeightNumeric": "55"
-                    },
-                    {
-                        "cbc:Description": "MEMORIA CONSTRUCTIVA",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "SOSTENIBILIDAD AMBIENTAL DE LA PROPUESTA",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "ASEGURAMIENTO CONTROL DE CALIDAD",
+                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "PROGRAMA DE TRABAJOS",
                         "cbc:WeightNumeric": "6"
                     },
                     {
+                        "cbc:Description": "SOSTENIBILIDAD AMBIENTAL DE LA PROPUESTA",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "OFERTA ECON\u00d3MICA",
+                        "cbc:WeightNumeric": "55"
+                    },
+                    {
+                        "cbc:Description": "INCREMENTO EN LA EFICIENCIA ENERGETICA Y AHORRO DE ENERGIA",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "AMPLIACION PLAZO DE GARANTIA",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "ASEGURAMIENTO CONTROL DE CALIDAD",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "MEMORIA CONSTRUCTIVA",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -304,9 +344,30 @@
                         "cbc:DocumentHash": "Vw8IuKuAsYC9dPpctTlwsEtem4c="
                     }
                 }
+            },
+            {
+                "cbc:ID": "PRE.bc3",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=991092ea-8243-4d70-b746-c836b52841ad",
+                        "cbc:DocumentHash": "inqvsL+5+0bxYo2obTl31XHBhfg="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-02"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

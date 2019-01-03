@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: DEA-411/2018; \u00d3rgano de Contrataci\u00f3n: Aena. Direcci\u00f3n de Contrataci\u00f3n; Importe: 66846.45 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: DEA-411/2018; \u00d3rgano de Contrataci\u00f3n: Aena. Direcci\u00f3n de Contrataci\u00f3n; Importe: 66846.45 EUR; Estado: RES"
     },
     "title": "Adecuaci\u00f3n, Pruebas Y Puesta En Marcha Del Sistema De Gesti\u00f3n De Instalaciones Del Aeropuerto Internacional Regi\u00f3n De Murcia",
-    "updated": "2018-09-28T11:24:57.637+02:00",
+    "updated": "2019-01-02T13:33:21.629+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "DEA-411/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -117,10 +117,8 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "2"
-                }
+                "cbc:StartDate": "2018-11-11",
+                "cbc:EndDate": "2019-01-11"
             }
         },
         "cac:TenderResult": {
@@ -131,6 +129,10 @@
             "cbc:Description": "El criterio establecido para la adjudicaci\u00f3n del presente contrato es la mejor relaci\u00f3n calidad-precio.",
             "cbc:AwardDate": "2018-09-19",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "DEA-411/2018",
+                "cbc:IssueDate": "2018-10-11"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -178,17 +180,31 @@
                 "cbc:Description": "Hora peninsular"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-28"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-02"
+                    }
                 }
             }
-        }
+        ]
     }
 }

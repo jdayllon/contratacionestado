@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/02 Filtros de agua; \u00d3rgano de Contrataci\u00f3n: Pleno de la Mancomunidad de Aguas del Pi\u00e9lago; Importe: 296813.33 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 2018/02 Filtros de agua; \u00d3rgano de Contrataci\u00f3n: Pleno de la Mancomunidad de Aguas del Pi\u00e9lago; Importe: 296813.33 EUR; Estado: PUB"
     },
     "title": "AMPLIACI\u00d3N Y CONSERVACI\u00d3N DE LA RED DE ADUCCI\u00d3N DE PRESA PI\u00c9LAGO 2017: Suministro, instalaci\u00f3n y puesta en marcha de 5 instalaciones de filtraci\u00f3n de agua potable destinada a consumo humano, ubicadas en las entradas de los diferentes dep\u00f3sitos reguladores de cada municipio incluso las correspondientes edificaciones que los alberguen y protejan.",
-    "updated": "2018-10-07T13:46:43.641+02:00",
+    "updated": "2019-01-03T01:05:01.679+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/02 Filtros de agua",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -128,6 +128,7 @@
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "true",
             "cbc:FundingProgramCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/FundingProgramCode-2.02.gc",
                 "#text": "EU"
@@ -137,16 +138,26 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "3"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:AmountRate": "3"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -154,7 +165,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-MEDIOS"
+                        },
+                        "cbc:Description": "Apartado 6 del cuadro de caracter\u00edsticas del contrato."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
                         },
                         "cbc:Description": "Apartado 6 del cuadro de caracter\u00edsticas del contrato."
                     },
@@ -175,7 +193,7 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Apartado 6 del cuadro de caracter\u00edsticas del contrato."
                     },
@@ -183,13 +201,6 @@
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OXR-TITULOS"
-                        },
-                        "cbc:Description": "Apartado 6 del cuadro de caracter\u00edsticas del contrato."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
                         },
                         "cbc:Description": "Apartado 6 del cuadro de caracter\u00edsticas del contrato."
                     }
@@ -205,6 +216,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Caudal a la salida",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
                         "cbc:Description": "Memoria t\u00e9cnica de la soluci\u00f3n",
                         "cbc:WeightNumeric": "20"
                     },
@@ -219,10 +234,6 @@
                     {
                         "cbc:Description": "Plazo de garant\u00eda total",
                         "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Caudal a la salida",
-                        "cbc:WeightNumeric": "6"
                     },
                     {
                         "cbc:Description": "Sistema autom\u00e1tico de entrada",
@@ -271,17 +282,55 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOP Toledo",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-20"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-07"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-07"
+                    }
                 }
             }
-        }
+        ]
     }
 }

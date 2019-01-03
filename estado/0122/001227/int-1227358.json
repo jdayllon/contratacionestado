@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: SER-16-090-AJP; \u00d3rgano de Contrataci\u00f3n: Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15; Importe: 20000 EUR; Estado: RES"
     },
     "title": "Servicios jur\u00eddicos de representaci\u00f3n procedimientos Seguridad Social, ante Tribunales y Organismos Oficiales de todo tipo, en la zona de Andaluc\u00eda (Sevilla, Huelva, C\u00e1diz, Ja\u00e9n y C\u00f3rdoba)",
-    "updated": "2016-10-04T16:04:04.735+02:00",
+    "updated": "2019-01-02T14:45:57.235+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-16-090-AJP",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.umivale.es/portal/cms/servicios/pie/licitaciones/licitaciones/",
+                "cbc:WebsiteURI": "https://www.umivale.es/portal/cms/servicios/pie/licitaciones/licitaciones/",
                 "cac:PartyName": {
                     "cbc:Name": "Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15"
                 },
@@ -30,7 +30,7 @@
                     "cbc:CityName": "Madrid",
                     "cbc:PostalZone": "28020",
                     "cac:AddressLine": {
-                        "cbc:Line": "Capit\u00e1n Haya, 31"
+                        "cbc:Line": "Calle del Poeta Joan Maragall, 31"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios jur\u00eddicos de representaci\u00f3n procedimientos Seguridad Social, ante Tribunales y Organismos Oficiales de todo tipo, en la zona de Andaluc\u00eda (Sevilla, Huelva, C\u00e1diz, Ja\u00e9n y C\u00f3rdoba)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -101,7 +101,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -238,10 +238,24 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Oferta T\u00e9cnica",
-                    "cbc:WeightNumeric": "25"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "N\u00famero de abogados adscritos adicionales al m\u00ednimo solicitado",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Suscripci\u00f3n del compromiso de no realizar servicios profesionales similares a los licitados para otras Mutuas Colaboradores con la SS, Entes Gestores de la SS o Sindicatos",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Oferta T\u00e9cnica",
+                        "cbc:WeightNumeric": "25"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -249,7 +263,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -332,7 +346,43 @@
                         "cbc:IssueDate": "2016-10-04"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-02"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "3"
+            },
+            "cbc:ContractID": "3048",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "10000"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "30000"
+                }
+            }
+        }
     }
 }

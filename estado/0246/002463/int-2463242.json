@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 052/18-SI; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Entidad P\u00fablica Empresarial RED.ES; Importe: 36000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 052/18-SI; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Entidad P\u00fablica Empresarial RED.ES; Importe: 36000 EUR; Estado: RES"
     },
     "title": "Renovaci\u00f3n de licencias y servicio de administraci\u00f3n y soporte  para Jira",
-    "updated": "2018-11-20T16:24:27.168+01:00",
+    "updated": "2019-01-02T12:47:34.450+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "052/18-SI",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -139,90 +139,186 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "1"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Renovaci\u00f3n de licencias",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "15730"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "13000"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": [
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "48517000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Renovaci\u00f3n de licencias",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "15730"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "13000"
                         }
                     },
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "72600000"
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "48810000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "48517000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "48000000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72600000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72267000"
+                            }
                         }
-                    },
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "72267000"
-                        }
-                    },
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "48000000"
-                        }
-                    },
-                    {
-                        "cbc:ItemClassificationCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                            "#text": "48810000"
-                        }
-                    }
-                ]
-            }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "La oferta econ\u00f3micamente m\u00e1s ventajosa teniendo en cuenta: Los criterios que figuran en el pliego de de condiciones, en la invitaci\u00f3n a licitar o a negociar o en el documento descriptivo.",
-            "cbc:AwardDate": "2018-11-20",
-            "cbc:ReceivedTenderQuantity": "2",
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "A80827694"
-                    }
-                },
-                "cac:PartyName": {
-                    "cbc:Name": "APLICACIONES Y TRATAMIENTOS DE SISTEMAS, S.A."
+                    ]
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "1",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "11850"
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Servicio de consultor\u00eda y soporte",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "27830"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "23000"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "14338.5"
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72600000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "72267000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "48810000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "48000000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "48517000"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "La oferta econ\u00f3micamente m\u00e1s ventajosa teniendo en cuenta: Los criterios que figuran en el pliego de de condiciones, en la invitaci\u00f3n a licitar o a negociar o en el documento descriptivo.",
+                "cbc:AwardDate": "2018-11-20",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cac:Contract": {
+                    "cbc:ID": "052/18-SI Lote 1",
+                    "cbc:IssueDate": "2018-11-29"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A80827694"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "APLICACIONES Y TRATAMIENTOS DE SISTEMAS, S.A."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "11850"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "14338.5"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "La oferta econ\u00f3micamente m\u00e1s ventajosa teniendo en cuenta los criterios que figuran en el Pliego de Condiciones, en la invitaci\u00f3n a licitar o negociar o en el documento descriptivo",
+                "cbc:AwardDate": "2018-12-13",
+                "cbc:ReceivedTenderQuantity": "4",
+                "cac:Contract": {
+                    "cbc:ID": "052/18-SI",
+                    "cbc:IssueDate": "2018-12-21"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B83209015"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "VECTOR SOFTWARE FACTORY, S.L"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "15571.2"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "18841.15"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -345,9 +441,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-20"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-14"
+                        }
+                    ]
                 }
             },
             {
@@ -372,6 +473,23 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-09-27"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-02"
+                        }
+                    ]
                 }
             }
         ]

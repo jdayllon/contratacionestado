@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: SER-17-021-OSA; \u00d3rgano de Contrataci\u00f3n: Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15; Importe: 40050 EUR; Estado: RES"
     },
     "title": "Servicios de asistencia sanitaria, fisioterapia y pruebas diagn\u00f3sticas en Tarancon (Cuenca)",
-    "updated": "2017-05-08T12:41:03.481+02:00",
+    "updated": "2019-01-02T12:20:50.907+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-17-021-OSA",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "https://contrataciondelestado.es/UMIVALE",
+                "cbc:WebsiteURI": "https://www.umivale.es/portal/cms/servicios/pie/licitaciones/licitaciones/",
                 "cac:PartyName": {
                     "cbc:Name": "Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15"
                 },
@@ -30,7 +30,7 @@
                     "cbc:CityName": "Madrid",
                     "cbc:PostalZone": "28020",
                     "cac:AddressLine": {
-                        "cbc:Line": "Capit\u00e1n Haya, 31"
+                        "cbc:Line": "Calle del Poeta Joan Maragall, 31"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios de asistencia sanitaria, fisioterapia y pruebas diagn\u00f3sticas en Tarancon (Cuenca)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -101,7 +101,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Cuenca",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES423"
                 },
                 "cac:Address": {
@@ -134,6 +134,7 @@
             "cbc:Description": "oferta ventajosa",
             "cbc:AwardDate": "2017-03-23",
             "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2017-07-01",
             "cac:Contract": {
                 "cbc:ID": "3339",
                 "cbc:IssueDate": "2017-04-25"
@@ -243,10 +244,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "oferta econ\u00f3mica",
-                    "cbc:WeightNumeric": "50"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "oferta t\u00e9cnica evaluable autom\u00e1ticamente",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -254,7 +261,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -357,7 +364,35 @@
                         "cbc:IssueDate": "2017-05-08"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-02"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractID": "3339",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "4050"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "80100"
+                }
+            }
+        }
     }
 }

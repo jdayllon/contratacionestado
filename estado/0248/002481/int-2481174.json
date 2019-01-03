@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 46/2018; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Don Benito; Importe: 135535 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 46/2018; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Don Benito; Importe: 135535 EUR; Estado: ADJ"
     },
     "title": "Suministro de un cami\u00f3n-gr\u00faa con equipo multibasculante m\u00e1s una caja y tres contenedores con destino al Servicio de V\u00edas y Obras del Ayuntamiento de Don Benito (Badajoz).",
-    "updated": "2018-10-03T13:40:41.250+02:00",
+    "updated": "2019-01-02T12:32:25.331+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "46/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,6 +105,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta al haber obtenido la mayor puntuaci\u00f3n, de conformidad con los criterios de adjudicaci\u00f3n establecidos en el PCAP.",
+            "cbc:AwardDate": "2018-11-23",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "123800"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "132800"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A13020953"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VEIMANCHA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "123800"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "149798"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -134,7 +174,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
@@ -152,37 +192,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Ubicaci\u00f3n Servicio Oficial del Chasis Cabina",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Prestaciones y calidades del Chasis Cabina.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Ubicaci\u00f3n Servicio Oficial del Equipo Multibasculante",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Ubicaci\u00f3n Servicio Oficial de la Gr\u00faa",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Prestaciones y calidades de los contenedores",
-                        "cbc:WeightNumeric": "2.5"
-                    },
-                    {
-                        "cbc:Description": "Precio ofertado",
-                        "cbc:WeightNumeric": "50"
-                    },
                     {
                         "cbc:Description": "Prestaciones y calidades de la Caja Abierta",
                         "cbc:WeightNumeric": "2.5"
@@ -192,7 +208,31 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "Plazo de entrega.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio ofertado",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Prestaciones y calidades de los contenedores",
+                        "cbc:WeightNumeric": "2.5"
+                    },
+                    {
+                        "cbc:Description": "Ubicaci\u00f3n Servicio Oficial del Chasis Cabina",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Prestaciones y calidades del Chasis Cabina.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Extensi\u00f3n de garant\u00eda",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Mantenimiento incluido",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -200,11 +240,11 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Plazo de entrega.",
+                        "cbc:Description": "Ubicaci\u00f3n Servicio Oficial de la Gr\u00faa",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Mantenimiento incluido",
+                        "cbc:Description": "Ubicaci\u00f3n Servicio Oficial del Equipo Multibasculante",
                         "cbc:WeightNumeric": "5"
                     }
                 ]
@@ -246,6 +286,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-02"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

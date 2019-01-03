@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SER-12/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Carballo; Importe: 600000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SER-12/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Carballo; Importe: 600000 EUR; Estado: ADJ"
     },
     "title": "Contrato administrativo  de servicios por precios unitarios de alquiler de pala y cami\u00f3n,con conductor, para diversos departamentos municipales en el ayuntamiento de Carballo.",
-    "updated": "2018-07-03T09:30:15.199+02:00",
+    "updated": "2019-01-02T14:44:31.471+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-12/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrato administrativo  de servicios por precios unitarios de alquiler de pala y cami\u00f3n,con conductor, para diversos departamentos municipales en el ayuntamiento de Carballo.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -117,6 +117,46 @@
                 "cbc:OptionsDescription": "Ver cl\u00e1usula 7 del PCAP y  6 del PPT"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "acuerdo JGL 3-12-2018",
+            "cbc:AwardDate": "2018-12-03",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "584000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "584000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "U70571005"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ELISEO FRAGA ARIJON E MARIA DE LOS ANGELES VAZQUEZ"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "584000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "706640"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -131,14 +171,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "ZZZ"
                         },
                         "cbc:Description": "Ver cl\u00e1usulas 10.3 y 10.4 PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "5"
                         },
                         "cbc:Description": "Ver cl\u00e1usulas 10.3 y 10.4 PCAP"
                     }
@@ -153,12 +193,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
                     },
@@ -166,6 +200,12 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     }
                 ]
@@ -175,6 +215,10 @@
                     {
                         "cbc:Description": "base operativa de los equipos",
                         "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "tiempo m\u00e1ximo de espera",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "horas semanales disponibilidad de equipos",
@@ -187,10 +231,6 @@
                     {
                         "cbc:Description": "porcentaje de descuento sobre el precio",
                         "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "tiempo m\u00e1ximo de espera",
-                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -244,6 +284,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-02"
                     }
                 }
             },

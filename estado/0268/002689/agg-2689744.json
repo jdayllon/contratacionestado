@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1.2-2019/1;\u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n IMDEA Alimentaci\u00f3n;Importe: 54432 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: 1.2-2019/1;\u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n IMDEA Alimentaci\u00f3n;Importe: 54432 EUR;Estado: ADJUDICADA"
     },
     "title": "Servicios de asesoramiento y gesti\u00f3n laboral a la Fundaci\u00f3n IMDEA Alimentaci\u00f3n",
-    "updated": "2018-12-08T07:11:20.039+01:00",
+    "updated": "2019-01-02T18:26:23.636+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1.2-2019/1",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -66,6 +66,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B87352357"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AUREN ABOGADOS Y ASESORES FISCALES SP, SLP"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "11000"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -88,25 +114,39 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "BOE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-21"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-21"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-21"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-21"
+                        "cbc:IssueDate": "2019-01-02"
                     }
                 }
-            ]
-        }
+            }
+        ]
     }
 }
