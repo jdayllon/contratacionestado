@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2467060",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=1809271140449419F746"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=3018&Ticket=19010311275110853690"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2/2018; \u00d3rgano de Contrataci\u00f3n: Ayuntamiento de Cadreita; Importe: 491391,74 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 2/2018; \u00d3rgano de Contrataci\u00f3n: Ayuntamiento de Cadreita; Importe: 491391,74 EUR; Estado: Resuelta"
     },
     "title": "Obras de abastecimiento de agua a Cadreita mediante nueva conduccion directa desde el embalse de Morante",
-    "updated": "2018-10-05T15:00:11.706+02:00",
+    "updated": "2019-01-03T13:30:06.489+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -66,9 +66,33 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "4"
+                "cbc:StartDate": "2018-12-31",
+                "cbc:EndDate": "2019-04-23"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "6",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A31083009"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "obras especiales edificaci\u00f3n e infraestructuras  SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "453532.94"
+                    }
                 }
             }
         },
@@ -78,22 +102,36 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-05"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-09-28"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-10-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-03"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

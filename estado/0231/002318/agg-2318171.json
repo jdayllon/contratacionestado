@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2318171",
     "link": {
-        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/notice.pscp?idDoc=34870765&reqCode=viewCn"
+        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/awardnotice.pscp?reqCode=viewDcan&idDoc=40465945&lawType=3"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PARLC-2018-00001; \u00d3rgano de Contrataci\u00f3n: Parlament de Catalunya; Importe: 170000.00; Estado: EVALUACION"
+        "#text": "Id licitaci\u00f3n: PARLC-2018-00001; \u00d3rgano de Contrataci\u00f3n: Parlament de Catalunya; Importe: 170000.00; Estado: RESUELTA"
     },
     "title": "Prestaci\u00f3 del servei de suport t\u00e8cnic altament especialitzat en el desenvolupament i manteniment de les aplicacions corporatives de l'entorn web del Parlament de Catalunya",
-    "updated": "2018-09-27T18:10:55.399+02:00",
+    "updated": "2019-01-03T12:26:14.040+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PARLC-2018-00001",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,6 +64,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B59104612"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ABAST SYSTEM & SOLUTIONS"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "170000"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -74,41 +100,51 @@
                 "cbc:EndTime": "18:00:00"
             }
         },
-        "cac:LegalDocumentReference": {
-            "cbc:ID": "4.PCA-ES.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=c0d8f98f4b8064e0dc2be71c0f12040d&fileId=34871041&capId=382458&idTS=34415489"
-                }
-            }
-        },
-        "cac:TechnicalDocumentReference": {
-            "cbc:ID": "5.Pliego_prescripciones_tecnicas_Mantenimiento_Aplicaciones.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=11a357e71adfeecfef341b6e2ef52d48&fileId=34871053&capId=382458&idTS=34415489"
-                }
-            }
-        },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "DOGC",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-03"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOGC",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-08-03"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-07-28"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-28"
+                        "cbc:IssueDate": "2018-12-26"
                     }
                 }
-            ]
-        }
+            }
+        ]
     }
 }
