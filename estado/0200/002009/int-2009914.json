@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2A/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de El Sauzal; Importe: 517975.77 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2A/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de El Sauzal; Importe: 517975.77 EUR; Estado: ADJ"
     },
     "title": "Suministro de grader\u00edo para el Auditorio Municipal de El Sauzal.",
-    "updated": "2018-02-21T09:31:14.089+01:00",
+    "updated": "2019-01-04T15:58:43.574+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2A/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -50,14 +50,14 @@
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de El Sauzal",
                     "cbc:Telephone": "922570000",
                     "cbc:Telefax": "922570973",
-                    "cbc:ElectronicMail": "jennifer@elsauzal.es"
+                    "cbc:ElectronicMail": "contratacion@elsauzal.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de grader\u00edo para el Auditorio Municipal de El Sauzal.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -107,10 +107,53 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicar a favor de la empresa FIGUERAS SEATING SOLUTIONS S.L., CIF. B-66664012, el contrato de \u201cSUMINISTRO DE GRADER\u00cdO PARA EL AUDITORIO DE EL SAUZAL (2A/2018- Seg. Exp. 2018-000048)\", por importe de 490.216,70 \u20ac (I.G.I.C excluido), m\u00e1s 34.315,17 \u20ac en concepto de I.G.I.C., lo que hace un total de 524.531,87  \u20ac (I.G.I.C. incluido), estableciendo un plazo de ejecuci\u00f3n de TRES (3) meses, as\u00ed como  un plazo de garant\u00eda de un a\u00f1o",
+            "cbc:AwardDate": "2018-10-31",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:Contract": {
+                "cbc:ID": "2A-2018",
+                "cbc:IssueDate": "2018-11-30"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B66664012"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FIGUERAS SEATING"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "490216.7"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "524531.87"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -120,17 +163,17 @@
                         "@currencyID": "EUR",
                         "#text": "5179.75"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSR-MUESTRAS"
+                        },
+                        "cbc:Description": "Descripci\u00f3n del equipo t\u00e9cnico a suministrar y las medidas empleadas para asegurar la calidad y los medios de estudio e investigaci\u00f3n de la empresa."
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -141,21 +184,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        }
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "XSX-CERTCALIDAD"
                         }
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSR-MUESTRAS"
-                        },
-                        "cbc:Description": "Descripci\u00f3n del equipo t\u00e9cnico a suministrar y las medidas empleadas para asegurar la calidad y los medios de estudio e investigaci\u00f3n de la empresa."
+                            "#text": "OSR-TECH"
+                        }
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -169,12 +205,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio del contrato",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "Mejoras.",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Precio del contrato",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -184,7 +220,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -225,6 +261,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-02-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-04"
                     }
                 }
             },

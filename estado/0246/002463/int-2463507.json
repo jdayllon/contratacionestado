@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: N201801453; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Mutual Midat Cyclops, Mutua Colaboradora con la Seguridad Social, n\u00ba 1; Importe: 69000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: N201801453; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Mutual Midat Cyclops, Mutua Colaboradora con la Seguridad Social, n\u00ba 1; Importe: 69000 EUR; Estado: ADJ"
     },
     "title": "Pruebas diagn\u00f3sticas complementarias de resonancia magn\u00e9tica nuclear en el \u00e1mbito territorial de las comarcas del Maresme y del Bages y \u00e1rea de influencia, para Mutual Midat Cyclops, MCSS n\u00ba 1.",
-    "updated": "2018-09-27T11:07:25.351+02:00",
+    "updated": "2019-01-04T13:57:30.599+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "N201801453",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -121,6 +121,64 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "1"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Pruebas diagn\u00f3sticas complementarias de resonancia magn\u00e9tica nuclear en la comarca del Maresme (Barcelona)",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "57400"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "57400"
+                    }
+                },
+                "cac:RequiredCommodityClassification": {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "85100000"
+                    }
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Cumple con las condiciones indicadas en el Pliego de Cl\u00e1usulas Administrativas Particulares.\n\nSe trata de la mejor oferta, seg\u00fan la propia valoraci\u00f3n efectuada por la Divisi\u00f3n Servicios M\u00e9dicos y Asistenciales de MC MUTUAL.",
+            "cbc:AwardDate": "2019-01-02",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B64343171"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CENTRE M\u00c8DIC DIANGN\u00d2STIC ALOMAR BARCELONA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "1",
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "51660"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "51660"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -179,6 +237,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -195,9 +265,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-27"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-26"
+                        }
+                    ]
                 }
             }
         ]
