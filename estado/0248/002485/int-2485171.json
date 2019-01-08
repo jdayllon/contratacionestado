@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA 2018/01; \u00d3rgano de Contrataci\u00f3n: TGSS-Direcci\u00f3n provincial de L\u00e9rida; Importe: 64500 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA 2018/01; \u00d3rgano de Contrataci\u00f3n: TGSS-Direcci\u00f3n provincial de L\u00e9rida; Importe: 64500 EUR; Estado: RES"
     },
     "title": "Servicio de Mantenimiento para las sedes de la Direcci\u00f3n Provincial de la TGSS en Lleida y la Administraci\u00f3n 25/02 en Balaguer para el a\u00f1o 2019",
-    "updated": "2018-10-04T12:36:43.171+02:00",
+    "updated": "2019-01-07T11:26:44.122+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA 2018/01",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -113,6 +113,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La oferta presentada por la empresa ha sido la que ha obtenido la mayor puntuaci\u00f3n de acuerdo con los criterios de valoraci\u00f3n establecidos en los Pliegos de Clausulas Administrativas Particulares que rigen la presente contrataci\u00f3n.",
+            "cbc:AwardDate": "2018-12-04",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "49876.03"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "49876.03"
+            },
+            "cac:Contract": {
+                "cbc:ID": "PA 2018/01",
+                "cbc:IssueDate": "2018-12-31"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B63260020"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SOLER GLOBAL SERVICE,S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "49876.03"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "60350"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -134,14 +178,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
+                            "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Cl\u00e1usula 7.3 C PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-TITULOS"
                         },
                         "cbc:Description": "Cl\u00e1usula 7.3 C PCAP"
                     }
@@ -154,12 +198,6 @@
                     "cbc:Description": "cl\u00e1usula 7.3 B PCAP"
                 },
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -177,18 +215,24 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Bolsa Materiales",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "90"
+                    },
+                    {
+                        "cbc:Description": "Bolsa Materiales",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -253,6 +297,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -271,6 +339,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-07"
                     }
                 }
             }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018054; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Calvi\u00e1; Importe: 36363.64 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018054; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Calvi\u00e1; Importe: 36363.64 EUR; Estado: RES"
     },
     "title": "Suministro de papel DIN A4, cartuchos y t\u00f3ner para las impresoras del Ajuntament de Calvi\u00e0, por lotes",
-    "updated": "2018-08-17T14:25:16.272+02:00",
+    "updated": "2019-01-07T11:22:25.367+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018054",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -76,7 +76,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de papel DIN A4, cartuchos y t\u00f3ner para las impresoras del Ajuntament de Calvi\u00e0, por lotes",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -139,6 +139,118 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Papel din A4",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "14000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "11570.25"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "30197630"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Cartuchos y t\u00f3ner",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "30000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "24793.39"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "30125100"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "El lote 1 ha quedado desierto, no se ha presentado ninguna oferta al mismo.",
+                "cbc:AwardDate": "2018-10-09",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Se adjudica a la oferta econ\u00f3micamente m\u00e1s ventajosa",
+                "cbc:AwardDate": "2018-10-09",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "1663.43"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "7739"
+                },
+                "cbc:StartDate": "2018-10-25",
+                "cac:Contract": {
+                    "cbc:ID": "2018054",
+                    "cbc:IssueDate": "2018-10-24"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B32212557"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "DISCOUNT INFORM\u00c1TICO S.L"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "24793.39"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "30000"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -235,6 +347,23 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-07"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -264,6 +393,18 @@
                             "cbc:IssueDate": "2018-08-17"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-07"
+                    }
                 }
             }
         ]

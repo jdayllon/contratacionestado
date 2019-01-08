@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 040020190003; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Centro Penitenciario de Albacete; Importe: 22000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 040020190003; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Centro Penitenciario de Albacete; Importe: 22000 EUR; Estado: ADJ"
     },
     "title": "La limpieza de las oficinas y otras dependencias del Centro Penitenciario de\nAlbacete",
-    "updated": "2018-12-05T20:24:32.342+01:00",
+    "updated": "2019-01-07T14:33:26.059+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "040020190003",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,6 +106,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con el precio m\u00e1s bajo respecto al presupuesto de licitaci\u00f3n.",
+            "cbc:AwardDate": "2019-01-07",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B02609972"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SUMINISTROS Y CONTRATAS SERVIPRO S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19990.89"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "24188.98"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -131,17 +163,70 @@
                 "cbc:EndTime": "10:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-05"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "Pliego clausulas administrativas.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=71957a32-bd0e-472e-bd95-4f75aa4b7057",
+                    "cbc:DocumentHash": "JhVIVSV29AnxFO2u0D3MZeNaK4c="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "Pliego Precripciones Tecnicas.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6ec640f3-8078-458c-9879-c9a8b2ea83a4",
+                    "cbc:DocumentHash": "rC9iu1PEmPEbC2u8qxNeUaNNw+k="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "Cuadro de caracteristicas del pliego.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0fe8d1c9-ce68-4806-bf3f-ead8204d6992",
+                    "cbc:DocumentHash": "8Zj1tUrA3aM63B+IAazkGcCWnKo="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-05"
+                    }
+                }
+            }
+        ]
     }
 }
