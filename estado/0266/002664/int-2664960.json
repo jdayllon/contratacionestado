@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 219; \u00d3rgano de Contrataci\u00f3n: Junta de la Mancomunidad Vega del Guadalix; Importe: 178512.4 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 219; \u00d3rgano de Contrataci\u00f3n: Junta de la Mancomunidad Vega del Guadalix; Importe: 178512.4 EUR; Estado: RES"
     },
     "title": "Ayuda a domicilio y Teleasistencia",
-    "updated": "2018-11-14T18:13:17.136+01:00",
+    "updated": "2019-02-11T16:27:47.759+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "219",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -50,7 +50,7 @@
                     "cbc:Name": "Junta de la Mancomunidad Vega del Guadalix",
                     "cbc:Telephone": "918412536",
                     "cbc:Telefax": "918410972",
-                    "cbc:ElectronicMail": "secretaria@vegadelguadalix.org"
+                    "cbc:ElectronicMail": "secretaria@vegadelguadalix.es"
                 }
             }
         },
@@ -112,18 +112,20 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:Description": "Falta de presentaci\u00f3n de ofertas",
+            "cbc:AwardDate": "2019-01-29",
+            "cbc:ReceivedTenderQuantity": "0"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "Sin revisi\u00f3n",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -133,6 +135,13 @@
                         "@currencyID": "EUR",
                         "#text": "3570.24"
                     }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -160,6 +169,22 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Calidad proyecto",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Dispositivos teleasistencia",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Gesti\u00f3n recursos humanos y protocolos actuaci\u00f3n",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Lista espera",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
                         "cbc:Description": "Ayudas t\u00e9cnicas",
                         "cbc:WeightNumeric": "2"
                     },
@@ -172,24 +197,8 @@
                         "cbc:WeightNumeric": "45"
                     },
                     {
-                        "cbc:Description": "Dispositivos teleasistencia",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Gesti\u00f3n recursos humanos y protocolos actuaci\u00f3n",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Calidad proyecto",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Plazas residencia",
                         "cbc:WeightNumeric": "12"
-                    },
-                    {
-                        "cbc:Description": "Lista espera",
-                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -233,16 +242,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "01 MEMORIA.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bb98a630-e28c-44c6-9ad8-bf0db9970a3f",
-                    "cbc:DocumentHash": "q3o6SWZTCgBTDenk1/r4P7qmB9o="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "01 MEMORIA.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bb98a630-e28c-44c6-9ad8-bf0db9970a3f",
+                        "cbc:DocumentHash": "q3o6SWZTCgBTDenk1/r4P7qmB9o="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Listado Personal SAD Mancomunidad Vega del Guadalix.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=aed2a8f4-c36d-4cb7-a653-e7c3634037c7",
+                        "cbc:DocumentHash": "GuwOsSXd6vYmUZMhgIhyBsAbqBk="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-11"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -250,9 +282,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-14"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-14"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-16"
+                        }
+                    ]
                 }
             },
             {

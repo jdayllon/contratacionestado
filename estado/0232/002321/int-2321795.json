@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 93/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Palencia; Importe: 1884832.63 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 93/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Palencia; Importe: 1884832.63 EUR; Estado: ADJ"
     },
     "title": "Servicio de Ayuda a domicilio del Excmo. Ayuntamiento de Palencia",
-    "updated": "2018-08-03T12:09:13.053+02:00",
+    "updated": "2019-01-23T13:18:26.199+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "93/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de Ayuda a domicilio del Excmo. Ayuntamiento de Palencia",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +110,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "- Organizaci\u00f3n, metodolog\u00eda y funcionamiento de la prestaci\u00f3n del servicio\n- Gesti\u00f3n administrativa y de organizaci\u00f3n del servicio\n- Plan de gesti\u00f3n de calidad\n- Plan de men\u00fas y servicio de comidas\n- Programa en el \u00e1mbito de prevenci\u00f3n de la dependencia\n- Medidas de igualdad entre mujeres y hombres de conciliaci\u00f3n de la vida familiar y laboral\n- Precio\n- Formaci\u00f3n y/o apoyo y tutorizaci\u00f3n para la obtenci\u00f3n del certificado de competencias profesionales.\n- Contrataci\u00f3n de auxiliares de ayuda a Domicio, al menos durante 3 meses al a\u00f1o, a media jornada.\n- Servicio de comidas\n- Mejoras t\u00e9cnicas",
+            "cbc:AwardDate": "2018-12-20",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1884832.63"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1884832.63"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A80364243"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CLECE, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1884832.63"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1960225.94"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -141,20 +181,32 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Memoria de trabajo: gesti\u00f3n administrativa",
-                        "cbc:WeightNumeric": "14"
+                        "cbc:Description": "contrataci\u00f3n auxiliares violencia de g\u00e9nero, renta garantizada y desempleados mayores 45 a\u00f1os",
+                        "cbc:WeightNumeric": "3.5"
+                    },
+                    {
+                        "cbc:Description": "Memoria de trabajo: prevenci\u00f3n de la dependencia",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "formaci\u00f3n auxiliar de ayuda a domicilio para personas en exclusi\u00f3n social",
+                        "cbc:WeightNumeric": "3.5"
                     },
                     {
                         "cbc:Description": "mejoras t\u00e9cnicas",
                         "cbc:WeightNumeric": "15"
                     },
                     {
+                        "cbc:Description": "Memoria de trabajo: gesti\u00f3n administrativa",
+                        "cbc:WeightNumeric": "14"
+                    },
+                    {
                         "cbc:Description": "Memoria de trabajo: plan de gesti\u00f3n de calidad",
                         "cbc:WeightNumeric": "8"
                     },
                     {
-                        "cbc:Description": "Memoria de trabajo: prevenci\u00f3n de la dependencia",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "precio unitario ofertado SAD",
+                        "cbc:WeightNumeric": "22"
                     },
                     {
                         "cbc:Description": "Memoria de trabajo: men\u00fas y comidas",
@@ -165,28 +217,16 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "contrataci\u00f3n auxiliares violencia de g\u00e9nero, renta garantizada y desempleados mayores 45 a\u00f1os",
-                        "cbc:WeightNumeric": "3.5"
-                    },
-                    {
-                        "cbc:Description": "servicio comidas",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "formaci\u00f3n auxiliar de ayuda a domicilio para personas en exclusi\u00f3n social",
-                        "cbc:WeightNumeric": "3.5"
+                        "cbc:Description": "precio unitario comidas",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Memoria de trabajo: organizaci\u00f3n y metodolog\u00eda",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "precio unitario comidas",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "precio unitario ofertado SAD",
-                        "cbc:WeightNumeric": "22"
+                        "cbc:Description": "servicio comidas",
+                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -305,6 +345,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-23"
                     }
                 }
             },

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2017/CONTRAT/000043; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Oleiros; Importe: 382487.79 EUR; Estado: RES"
     },
     "title": "Pavimentaci\u00f3n das r\u00faas Tierno Galv\u00e1n, Da Luz, Laxeiro e outras",
-    "updated": "2017-10-04T13:24:28.226+02:00",
+    "updated": "2019-02-26T15:01:05.168+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2017/CONTRAT/000043",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -50,14 +50,14 @@
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de Oleiros",
                     "cbc:Telephone": "981610000",
                     "cbc:Telefax": "981648118",
-                    "cbc:ElectronicMail": "p.cela@oleiros.org"
+                    "cbc:ElectronicMail": "contratacion@oleiros.org"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Pavimentaci\u00f3n das r\u00faas Tierno Galv\u00e1n, Da Luz, Laxeiro e outras",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -214,10 +214,32 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Programa de actuaci\u00f3n ambiental",
-                    "cbc:WeightNumeric": "6"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Porcentaxe de control de calidade",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Plan de control de calidade",
+                        "cbc:WeightNumeric": "9"
+                    },
+                    {
+                        "cbc:Description": "Esquema do Plan de seguridade e sa\u00fade",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Programa de traballo",
+                        "cbc:WeightNumeric": "13"
+                    },
+                    {
+                        "cbc:Description": "Programa de actuaci\u00f3n ambiental",
+                        "cbc:WeightNumeric": "6"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -225,7 +247,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -325,7 +347,35 @@
                         "cbc:IssueDate": "2017-10-04"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-26"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractID": "2017/CONTRAT/000043",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "286854.82"
+                }
+            }
+        }
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2016/39; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Canyelles; Importe: 138297 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2016/39; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Canyelles; Importe: 138297 EUR; Estado: ADJ"
     },
     "title": "Licitaci\u00f3n mediante procedimiento abierto del contrato de gesti\u00f3n integral del servicio p\u00fablico de la iluminaci\u00f3n exterior de Canyelles (Barcelona) por concesi\u00f3n",
-    "updated": "2016-12-14T09:06:54.615+01:00",
+    "updated": "2019-02-22T14:42:38.439+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2016/39",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Licitaci\u00f3n mediante procedimiento abierto del contrato de gesti\u00f3n integral del servicio p\u00fablico de la iluminaci\u00f3n exterior de Canyelles (Barcelona) por concesi\u00f3n",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "21"
             },
             "cac:BudgetAmount": {
@@ -102,7 +102,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -121,6 +121,50 @@
                 "cbc:DurationMeasure": {
                     "@unitCode": "ANN",
                     "#text": "15"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Acuerdo de sesi\u00f3n de Pleno de adjudicaci\u00f3n por un canon de 260000\u20ac +10000\u20ac mejoras por 15 a\u00f1os de concesi\u00f3n de la iluminaci\u00f3n exterior p\u00fablica. El otro licitador se retir\u00f3.",
+            "cbc:AwardDate": "2018-02-27",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "260000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "360000"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2/2018",
+                "cbc:IssueDate": "2018-03-21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B98297286"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ENERGIA ELECTRICA EFICIENTE, SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "214876.03"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "260000"
+                    }
                 }
             }
         },
@@ -161,22 +205,52 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Propuesta de informatizaci\u00f3n de la instalaci\u00f3n",
-                    "cbc:WeightNumeric": "10"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Plan de mantenimiento de la instalaci\u00f3n",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Plan de Acci\u00f3n para todas las licitaciones",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Incorporaci\u00f3n de luminarias LED con rendimientos m\u00ednimos de 125 l\u00famenes /watt",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Propuesta de informatizaci\u00f3n de la instalaci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejoras econ\u00f3micas",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Ahorro energ\u00e8tico conseguido sobre el consumo actual",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Aumento sobre el c\u00e1non inicial m\u00ednimo fijado en el PCA",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "prestaci\u00f3n P2 i P3",
+                        "cbc:WeightNumeric": "15"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -184,7 +258,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -224,6 +298,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2016-12-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-22"
                     }
                 }
             },

@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2562545",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=181015091254A03E95BB"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=8213&Ticket=19021415263110999922"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: R170918.001; \u00d3rgano de Contrataci\u00f3n: DEPARTAMENTO DE DESARROLLO ECON\u00d3MICO; Importe: 619834,71 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: R170918.001; \u00d3rgano de Contrataci\u00f3n: DEPARTAMENTO DE DESARROLLO ECON\u00d3MICO; Importe: 619834,71 EUR; Estado: Resuelta"
     },
     "title": "Asistencia a la Direcci\u00f3n de Explotaci\u00f3n de la Autov\u00eda A-21 (Autov\u00eda del Pirineo), a\u00f1os 2019-2023",
-    "updated": "2018-11-16T01:00:06.067+01:00",
+    "updated": "2019-02-14T22:00:06.872+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "R170918.001",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -58,9 +58,33 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "60"
+                "cbc:StartDate": "2019-02-12",
+                "cbc:EndDate": "2023-12-31"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "U88305610"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LRA Infrastructures Consulting, S.L./LCA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "495867.77"
+                    }
                 }
             }
         },
@@ -70,22 +94,36 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-15"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-10-16"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-11-15"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-14"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

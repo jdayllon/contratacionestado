@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2016/CONTRAT/000085; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Oleiros; Importe: 873979.08 EUR; Estado: RES"
     },
     "title": "Construci\u00f3n de carril-bici para unir a r\u00eda do Burgo con Mera e actuaci\u00f3ns complementarias",
-    "updated": "2016-12-23T12:27:05.395+01:00",
+    "updated": "2019-02-26T14:37:16.294+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2016/CONTRAT/000085",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -50,14 +50,14 @@
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de Oleiros",
                     "cbc:Telephone": "981610000",
                     "cbc:Telefax": "981648118",
-                    "cbc:ElectronicMail": "p.cela@oleiros.org"
+                    "cbc:ElectronicMail": "contratacion@oleiros.org"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Construci\u00f3n de carril-bici para unir a r\u00eda do Burgo con Mera e actuaci\u00f3ns complementarias",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -87,7 +87,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "A Coru\u00f1a",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES111"
                 },
                 "cac:Address": {
@@ -167,10 +167,32 @@
                 "cbc:Description": "De conformidade coa cl\u00e1usula 35.b) do prego tipo de cl\u00e1usulas administrativas particulares"
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Porcentaxe de control de calidade",
-                    "cbc:WeightNumeric": "10"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Programa de traballo",
+                        "cbc:WeightNumeric": "13"
+                    },
+                    {
+                        "cbc:Description": "Plan de control de calidade",
+                        "cbc:WeightNumeric": "9"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Esquema do Plan de seguridade e sa\u00fade",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Programa de actuaci\u00f3n ambiental",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Porcentaxe de control de calidade",
+                        "cbc:WeightNumeric": "10"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -178,7 +200,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -281,7 +303,43 @@
                         "cbc:IssueDate": "2016-12-23"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-26"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "7"
+            },
+            "cbc:ContractID": "2016/CONTRAT/000085",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "672486.82"
+                }
+            }
+        }
     }
 }

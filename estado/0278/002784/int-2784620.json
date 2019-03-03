@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PIC2018_23671; \u00d3rgano de Contrataci\u00f3n: Gerencia de Fraternidad Muprespa - M\u00fatua Colaboradora con la Seguridad Social n\u00ba 275; Importe: 657856.75 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PIC2018_23671; \u00d3rgano de Contrataci\u00f3n: Gerencia de Fraternidad Muprespa - M\u00fatua Colaboradora con la Seguridad Social n\u00ba 275; Importe: 657856.75 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n de la ejecuci\u00f3n de las obras de adaptaci\u00f3n de local en Avenida de Castilla, 39, para centro asistencial y oficinas de Fraternidad-Muprespa en Gij\u00f3n.",
-    "updated": "2018-12-19T13:59:50.358+01:00",
+    "updated": "2019-02-26T15:38:17.922+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PIC2018_23671",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -131,22 +131,62 @@
                 "cbc:OptionsDescription": "El contratista podr\u00e1 desarrollar los trabajos con mayor celeridad que la inicialmente prevista para dar cumplimiento al plazo fijado salvo que, a juicio de la Direcci\u00f3n de las obras, existiesen razones para estimarlo inconveniente."
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se detalla en el acuerdo de adjudicaci\u00f3n.\nLos importes de adjudicaci\u00f3n indicados en este anuncio resultan de aplicar el porcentaje de reducci\u00f3n sobre el importe m\u00e1ximo de licitaci\u00f3n (esto es, 657.856,75\u20ac) del 18%, ofertado por el adjudicatario.",
+            "cbc:AwardDate": "2019-02-26",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28017895"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EL CORTE INGLES S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "539442.54"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "652725.47"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "3"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "1"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "3"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -174,13 +214,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "9"
                         }
                     },
                     {
@@ -192,7 +232,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
@@ -200,19 +240,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta sobre mejora energ\u00e9tica y el control de los puntos de consumo",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Certificaci\u00f3n DIGA",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "50"
                     },
                     {
-                        "cbc:Description": "Oferta de implementaci\u00f3n de materiales y sistemas para la atenuaci\u00f3n de ruido en despachos y dependencias del centro, tanto del interior al exterior como del exterior al interior.",
+                        "cbc:Description": "Oferta de implementaci\u00f3n de materiales y sistemas para la atenuaci\u00f3n de ruido emitido por los equipos de generaci\u00f3n de energ\u00eda t\u00e9rmica",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Certificaci\u00f3n DIGA",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -224,15 +260,19 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Ampliaci\u00f3n del periodo de garant\u00eda 5",
+                        "cbc:Description": "Oferta de implementaci\u00f3n de materiales y sistemas para la atenuaci\u00f3n de ruido en despachos y dependencias del centro, tanto del interior al exterior como del exterior al interior.",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Oferta sobre mejora energ\u00e9tica y el control de los puntos de consumo",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Oferta de mantenimiento de equipos de instalaci\u00f3n t\u00e9rmica y memoria en la que se detalle dicho mantenimiento ofertado",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Oferta de implementaci\u00f3n de materiales y sistemas para la atenuaci\u00f3n de ruido emitido por los equipos de generaci\u00f3n de energ\u00eda t\u00e9rmica",
+                        "cbc:Description": "Ampliaci\u00f3n del periodo de garant\u00eda 5",
                         "cbc:WeightNumeric": "5"
                     }
                 ]
@@ -316,6 +356,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-26"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

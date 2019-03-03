@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: CONT/18/2017; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Santo\u00f1a; Importe: 12775.54 EUR; Estado: RES"
     },
     "title": "La suscripci\u00f3n por parte del Ayuntamiento de Santo\u00f1a de un seguro de responsabilidad civil que de acuerdo con lo establecido en el art. 73 de la Ley 50/1980, de 8 de octubre, del Contrato de Seguro, se define como aquel en el que el asegurador se obliga a cubrir el riesgo del nacimiento a cargo del asegurado de la obligaci\u00f3n de indemnizar a un tercero los da\u00f1os y perjuicios causados por un hecho previsto en el contrato de cuyas consecuencias sea civilmente responsable el asegurado.",
-    "updated": "2017-10-26T14:09:30.713+02:00",
+    "updated": "2019-02-11T15:01:41.828+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONT/18/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -49,14 +49,14 @@
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de Santo\u00f1a",
                     "cbc:Telephone": "942628590",
                     "cbc:Telefax": "942671397",
-                    "cbc:ElectronicMail": "secretaria@santona.es"
+                    "cbc:ElectronicMail": "rsainz@santona.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "La suscripci\u00f3n por parte del Ayuntamiento de Santo\u00f1a de un seguro de responsabilidad civil que de acuerdo con lo establecido en el art. 73 de la Ley 50/1980, de 8 de octubre, del Contrato de Seguro, se define como aquel en el que el asegurador se obliga a cubrir el riesgo del nacimiento a cargo del asegurado de la obligaci\u00f3n de indemnizar a un tercero los da\u00f1os y perjuicios causados por un hecho previsto en el contrato de cuyas consecuencias sea civilmente responsable el asegurado.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "8"
             },
             "cac:BudgetAmount": {
@@ -159,7 +159,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -249,9 +249,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2017-10-26"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2017-10-26"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-11"
+                        }
+                    ]
                 }
             },
             {
@@ -267,22 +272,36 @@
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:Note": "Aprobar el suplemento a la p\u00f3liza de RC n\u00ba 01198692 de responsabilidad civil para cubrir los espect\u00e1culos p\u00fablicos de Fiestas Patronales.",
-            "cbc:ContractID": "1",
-            "cac:ContractModificationLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "429.27"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Aprobar el suplemento a la p\u00f3liza de RC n\u00ba 01198692 de responsabilidad civil para cubrir los espect\u00e1culos p\u00fablicos de Fiestas Patronales.",
+                "cbc:ContractID": "1",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "429.27"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "8693.73"
+                    }
                 }
             },
-            "cac:FinalLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "8693.73"
-                }
+            {
+                "cbc:ID": "32018",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "4"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "16"
+                },
+                "cbc:ContractID": "1"
             }
-        }
+        ]
     }
 }

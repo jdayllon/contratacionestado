@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 24/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de La Villa de Bre\u00f1a Alta; Importe: 18691.59 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 24/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de La Villa de Bre\u00f1a Alta; Importe: 18691.59 EUR; Estado: ADJ"
     },
     "title": "Transporte de personas con discapacidad de la Residencia \"Nina Jaubert\" y usuarios del Centro de D\u00eda de Mayores",
-    "updated": "2018-12-12T19:33:42.675+01:00",
+    "updated": "2019-01-22T00:08:35.738+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "24/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,17 +115,56 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "2"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Transporte de usuarios de Centro de D\u00eda de Mayores",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "10500"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "9813.08"
+                    }
+                },
+                "cac:RequiredCommodityClassification": [
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "60130000"
+                        }
+                    },
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "60100000"
+                        }
+                    }
+                ]
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:Description": "por no presentarse ofertas dentro de plazo",
+            "cbc:AwardDate": "2019-01-14",
+            "cbc:ReceivedTenderQuantity": "0",
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "2"
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "12"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -135,7 +174,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "12"
                         }
                     },
                     {
@@ -148,12 +199,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
                         }
                     }
                 ]
@@ -201,6 +246,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-22"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

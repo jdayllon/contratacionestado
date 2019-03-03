@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02009503)-CON-07-2018; \u00d3rgano de Contrataci\u00f3n: Consorcio del Aeropuerto de Teruel; Importe: 300000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02009503)-CON-07-2018; \u00d3rgano de Contrataci\u00f3n: Consorcio del Aeropuerto de Teruel; Importe: 300000 EUR; Estado: RES"
     },
     "title": "Obra Naves Accesos y Acometidas en el Aeropuerto de Teruel",
-    "updated": "2018-11-21T19:31:55.465+01:00",
+    "updated": "2019-02-22T15:45:53.523+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02009503)-CON-07-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -118,6 +118,13 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "4"
+            },
+            "cbc:AwardDate": "2019-02-21"
+        },
         "cac:TenderingTerms": {
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -146,12 +153,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Seg\u00fan f\u00f3rmula del PCAP",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "\u2022\tDescripci\u00f3n de la afecci\u00f3n de la obra a la seguridad operacional, indicando los riesgos y las medidas de mitigaci\u00f3n posibles (3 puntos).\n\u2022\tSeguimiento de la seguridad operacional de la obra (Se detallar\u00e1n las medidas que se llevar\u00e1n a cabo diariamente para asegurar la seguridad operacional). (3 puntos)\n\u2022\tDescripci\u00f3n detallada de la formaci\u00f3n en Seguridad Operacional (Se explicar\u00e1 la metodolog\u00eda para asegurar la formaci\u00f3n de personal propio y subcontratistas). (2 puntos)",
                         "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Seg\u00fan f\u00f3rmula del PCAP",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Seg\u00fan f\u00f3rmula de PCAP",
@@ -203,6 +210,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DESISTIMIENTO"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -219,9 +238,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-22"
+                        }
+                    ]
                 }
             }
         ]

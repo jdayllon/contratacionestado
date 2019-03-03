@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 11406/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de G\u00e1ldar; Importe: 2420280.37 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 11406/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de G\u00e1ldar; Importe: 2420280.37 EUR; Estado: RES"
     },
     "title": "Construcci\u00f3n de un edificio de cinco plantas de aparcamientos m\u00e1s la cubierta en el casco urbano, en la calle Real de San Sebasti\u00e1n, con el fin de dotar de aparcamientos al centro urbano de G\u00e1ldar.",
-    "updated": "2018-08-03T15:44:36.025+02:00",
+    "updated": "2019-01-14T16:02:39.720+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "11406/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Construcci\u00f3n de un edificio de cinco plantas de aparcamientos m\u00e1s la cubierta en el casco urbano, en la calle Real de San Sebasti\u00e1n, con el fin de dotar de aparcamientos al centro urbano de G\u00e1ldar.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -109,6 +109,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor relaci\u00f3n calidad-precio",
+            "cbc:AwardDate": "2018-10-26",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "11406/2018",
+                "cbc:IssueDate": "2018-11-19"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A38232526"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SATOCAN, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2249035.13"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2406467.46"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,9 +158,14 @@
             "cac:TendererQualificationRequest": {
                 "cac:RequiredBusinessClassificationScheme": {
                     "cbc:ID": "RequiredBusinessProfileCode",
-                    "cac:ClassificationCategory": {
-                        "cbc:CodeValue": "K*-3"
-                    }
+                    "cac:ClassificationCategory": [
+                        {
+                            "cbc:CodeValue": "K*-3"
+                        },
+                        {
+                            "cbc:CodeValue": "C*-4"
+                        }
+                    ]
                 },
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
@@ -140,12 +181,20 @@
                     },
                     "cbc:Description": "Las empresas no espa\u00f1olas de Estados miembros de la Uni\u00f3n Europea deber\u00e1n acreditar la solvencia en la forma prevista en la cl\u00e1usula 4.3 del Pliego de Clausulas Administrativas Particulares"
                 },
-                "cac:SpecificTendererRequirement": {
-                    "cbc:RequirementTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                        "#text": "1"
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
-                }
+                ]
             },
             "cac:AllowedSubcontractTerms": {
                 "cbc:Description": "En la forma prevista en la clausula 35 del Pliego de Clausulas Administrativas Particulares"
@@ -157,12 +206,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Criterio econ\u00f3mico",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Mejoras",
@@ -253,6 +302,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-30"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -271,6 +332,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-14"
                     }
                 }
             }

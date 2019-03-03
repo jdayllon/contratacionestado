@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/015.SUM.ABR.MC; \u00d3rgano de Contrataci\u00f3n: Gerencia de la Universidad de Alcal\u00e1; Importe: 62810 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/015.SUM.ABR.MC; \u00d3rgano de Contrataci\u00f3n: Gerencia de la Universidad de Alcal\u00e1; Importe: 62810 EUR; Estado: RES"
     },
     "title": "Suministro de un Generador de onda arbitraria",
-    "updated": "2018-10-18T13:07:43.601+02:00",
+    "updated": "2019-01-11T13:43:05.409+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/015.SUM.ABR.MC",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -97,6 +97,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mejor oferta",
+            "cbc:AwardDate": "2018-12-21",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "75895.52"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "75895.52"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2019-3",
+                "cbc:IssueDate": "2019-01-11"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B86906963"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "KEYSIGHT TECHNOLOGIES"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "62723.57"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "75895.51"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -111,13 +155,6 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "b) Indicaci\u00f3n del personal t\u00e9cnico o unidades t\u00e9cnicas, integradas o no en la empresa, de los que se disponga para la ejecuci\u00f3n del contrato, especialmente los encargados del control de calidad."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "a) Una relaci\u00f3n de los principales suministros realizados de igual o similar naturaleza que los que constituyen el objeto del contrato en el curso de como m\u00e1ximo, los tres \u00faltimos a\u00f1os, en la que se indique el importe, la fecha y el destinatario, p\u00fablico o privado de los mismos"
@@ -128,31 +165,32 @@
                             "#text": "XSX-CERTCALIDAD"
                         },
                         "cbc:Description": "f) Certificados expedidos por los institutos o servicios oficiales encargados del control de calidad, de competencia reconocida, que acrediten la conformidad de productos perfectamente detallada mediante referencias a determinadas especificaciones o normas t\u00e9cnicas"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "b) Indicaci\u00f3n del personal t\u00e9cnico o unidades t\u00e9cnicas, integradas o no en la empresa, de los que se disponga para la ejecuci\u00f3n del contrato, especialmente los encargados del control de calidad."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
+                            "#text": "5"
                         },
-                        "cbc:Description": "c) Patrimonio neto, o bien ratio entre activos y pasivos, al cierre del \u00faltimo ejercicio econ\u00f3mico para el que est\u00e9 vencida la obligaci\u00f3n de aprobaci\u00f3n de cuentas anuales por importe igual o superior al exigido en el anuncio de licitaci\u00f3n o en la invitaci\u00f3n a participar en el procedimiento y en los pliegos del contrato o, en su defecto, al establecido reglamentariamente"
+                        "cbc:Description": "a) Volumen anual de negocios, o bien volumen anual de negocios en el \u00e1mbito al que se refiera el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades del empresario y de presentaci\u00f3n de las ofertas por importe igual o superior al exigido en el anuncio de licitaci\u00f3n o en la invitaci\u00f3n a participar en el procedimiento y en los pliegos del contrato o, en su defecto, al establecido reglamentariamente"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "6"
                         },
-                        "cbc:Description": "a) Volumen anual de negocios, o bien volumen anual de negocios en el \u00e1mbito al que se refiera el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles en funci\u00f3n de las fechas de constituci\u00f3n o de inicio de actividades del empresario y de presentaci\u00f3n de las ofertas por importe igual o superior al exigido en el anuncio de licitaci\u00f3n o en la invitaci\u00f3n a participar en el procedimiento y en los pliegos del contrato o, en su defecto, al establecido reglamentariamente"
+                        "cbc:Description": "c) Patrimonio neto, o bien ratio entre activos y pasivos, al cierre del \u00faltimo ejercicio econ\u00f3mico para el que est\u00e9 vencida la obligaci\u00f3n de aprobaci\u00f3n de cuentas anuales por importe igual o superior al exigido en el anuncio de licitaci\u00f3n o en la invitaci\u00f3n a participar en el procedimiento y en los pliegos del contrato o, en su defecto, al establecido reglamentariamente"
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -163,6 +201,12 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -208,7 +252,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-11-05",
+                "cbc:EndDate": "2018-11-12",
                 "cbc:EndTime": "14:00:00"
             }
         },
@@ -234,6 +278,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -250,8 +306,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-05"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-18"
+                        "cbc:IssueDate": "2019-01-11"
                     }
                 }
             }

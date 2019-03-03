@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 27-09/18S; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de La Laguna; Importe: 17000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 27-09/18S; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de La Laguna; Importe: 17000 EUR; Estado: RES"
     },
     "title": "Servicio de seguimiento de noticias en medios de comunicaci\u00f3n de la Universidad de La Laguna.",
-    "updated": "2018-11-19T14:07:56.979+01:00",
+    "updated": "2019-02-22T14:58:25.586+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "27-09/18S",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -95,6 +95,42 @@
                 "cbc:EndDate": "2019-12-31"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La oferta presentada est\u00e1 por debajo del precio base de licitaci\u00f3n y no existen otras propuestas a valorar, as\u00ed como que no existe una puntuaci\u00f3n m\u00ednima para la adjudicaci\u00f3n del contrato.",
+            "cbc:AwardDate": "2019-02-20",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:Contract": {
+                "cbc:ID": "2019-7",
+                "cbc:IssueDate": "2019-02-22"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B59094870"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ACCESO GROUP, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "13116"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "14034.13"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -103,16 +139,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "40"
+                        "cbc:Description": "Fuentes de informaci\u00f3n",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Acceso a la informaci\u00f3n",
                         "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Fuentes de informaci\u00f3n",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -156,6 +192,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -174,6 +222,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-22"
                     }
                 }
             }

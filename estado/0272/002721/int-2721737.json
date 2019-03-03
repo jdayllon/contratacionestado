@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SGT30/2018; \u00d3rgano de Contrataci\u00f3n: Secretaria General T\u00e9cnica de la Consejer\u00eda de Presidencia e Igualdad del Gobierno de Canarias; Importe: 30000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SGT30/2018; \u00d3rgano de Contrataci\u00f3n: Secretaria General T\u00e9cnica de la Consejer\u00eda de Presidencia e Igualdad del Gobierno de Canarias; Importe: 30000 EUR; Estado: RES"
     },
     "title": "Servicio de seguimiento de medios.",
-    "updated": "2018-11-29T14:03:10.688+01:00",
+    "updated": "2019-02-13T14:48:37.855+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SGT30/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,51 @@
                 "cbc:OptionsDescription": "No habr\u00e1 pr\u00f3rroga del contrato."
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicado a la empresa que oferta la mejor relaci\u00f3n calidad-precio en la ejecuci\u00f3n del contrato.",
+            "cbc:AwardDate": "2019-01-29",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "27600"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "27600"
+            },
+            "cbc:StartDate": "2019-02-01",
+            "cac:Contract": {
+                "cbc:ID": "2019-124",
+                "cbc:IssueDate": "2019-01-31"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B35296219"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Iniciativas de Comunicaci\u00f3n de Canarias, SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "27600"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29532"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -132,7 +177,7 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Inclusi\u00f3n de un buscador y servicio de hemeroteca.",
+                        "cbc:Description": "Disponer de un sistema de guardias localizadas para cualquier contingencia las 24 horas del d\u00eda los 365 d\u00edas del a\u00f1o.",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -140,7 +185,11 @@
                         "cbc:WeightNumeric": "35"
                     },
                     {
-                        "cbc:Description": "Disponer de un sistema de guardias localizadas para cualquier contingencia las 24 horas del d\u00eda los 365 d\u00edas del a\u00f1o.",
+                        "cbc:Description": "Control de calidad",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Pertenencia de parte del equipo de toda la empresa a alguno de los grupos sociales de empleo protegido.",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -148,16 +197,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "Inclusi\u00f3n de un buscador y servicio de hemeroteca.",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Disposici\u00f3n de una aplicaci\u00f3n susceptible de instalaci\u00f3n en ordenadores, dispositivos m\u00f3viles y tabletas.",
                         "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Pertenencia de parte del equipo de toda la empresa a alguno de los grupos sociales de empleo protegido.",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Control de calidad",
-                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -206,6 +251,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -224,6 +281,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-13"
                     }
                 }
             }

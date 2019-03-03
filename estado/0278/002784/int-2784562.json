@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 180204; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Comisi\u00f3n Nacional de los Mercados y la Competencia; Importe: 99900 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 180204; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Comisi\u00f3n Nacional de los Mercados y la Competencia; Importe: 99900 EUR; Estado: RES"
     },
     "title": "Servicio de protecci\u00f3n personal y conducci\u00f3n de seguridad para alto cargo de la CNMC",
-    "updated": "2018-12-19T15:12:16.448+01:00",
+    "updated": "2019-01-25T13:35:57.631+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "180204",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -125,6 +125,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta relaci\u00f3n calidad-precio",
+            "cbc:AwardDate": "2019-01-23",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-01-23",
+            "cac:Contract": {
+                "cbc:ID": "180204",
+                "cbc:IssueDate": "2019-01-23"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78917465"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ILUNION SEGURIDAD, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "84712.97"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "102502.69"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -166,19 +203,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -186,30 +217,36 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios sociales (POA)",
-                        "cbc:WeightNumeric": "26"
-                    },
-                    {
-                        "cbc:Description": "Manual de procedimientos propuestos por la empresa",
-                        "cbc:WeightNumeric": "8"
+                        "cbc:Description": "Actividades formativas",
+                        "cbc:WeightNumeric": "7"
                     },
                     {
                         "cbc:Description": "Descripci\u00f3n de los servicios a realizar en cada puesto",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Criterio precio (POE)",
-                        "cbc:WeightNumeric": "49"
+                        "cbc:Description": "Manual de procedimientos propuestos por la empresa",
+                        "cbc:WeightNumeric": "8"
                     },
                     {
-                        "cbc:Description": "Actividades formativas",
-                        "cbc:WeightNumeric": "7"
+                        "cbc:Description": "Criterios sociales (POA)",
+                        "cbc:WeightNumeric": "26"
+                    },
+                    {
+                        "cbc:Description": "Criterio precio (POE)",
+                        "cbc:WeightNumeric": "49"
                     }
                 ]
             },
@@ -253,6 +290,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -271,6 +320,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-25"
                     }
                 }
             }

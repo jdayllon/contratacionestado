@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2091118035100; \u00d3rgano de Contrataci\u00f3n: Jefatura de Asuntos Econ\u00f3micos del Mando de Apoyo Log\u00edstico; Importe: 619834.71 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2091118035100; \u00d3rgano de Contrataci\u00f3n: Jefatura de Asuntos Econ\u00f3micos del Mando de Apoyo Log\u00edstico; Importe: 619834.71 EUR; Estado: ADJ"
     },
     "title": "Adquisici\u00f3n de sistemas automatizados de clasificaci\u00f3n y almacenaje",
-    "updated": "2018-11-17T09:41:42.115+01:00",
+    "updated": "2019-02-05T14:25:56.167+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2091118035100",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,6 +106,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mas ventajosa",
+            "cbc:AwardDate": "2019-02-01",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B95575429"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Intenance capital, S.L"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "413223.14"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "500000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -114,16 +146,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "XSX-CERTCALIDAD"
                         },
-                        "cbc:Description": "Relaci\u00f3n de personal contratado en la empresa con discapacidad con arreglo al anexo II"
+                        "cbc:Description": "ISO 9001 o equivalente\nISO 14001 o equivalente"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "ISO 9001 o equivalente\nISO 14001 o equivalente"
+                        "cbc:Description": "Relaci\u00f3n de personal contratado en la empresa con discapacidad con arreglo al anexo II"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -144,13 +176,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
@@ -158,12 +190,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazo de entrega",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "90"
+                    },
+                    {
+                        "cbc:Description": "Plazo de entrega",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -218,10 +250,42 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-20"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-17"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
                 "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-17"
+                        "cbc:IssueDate": "2019-02-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-19"
                     }
                 }
             },

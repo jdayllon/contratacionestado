@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SYS/0060/18; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas; Importe: 50000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SYS/0060/18; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas; Importe: 50000 EUR; Estado: RES"
     },
     "title": "Contratacion de mantenimiento, carga de datos de la pagina web y el seguimiento de la estrategia digital de la FIIAPP.",
-    "updated": "2018-03-08T10:20:53.902+01:00",
+    "updated": "2019-01-13T10:48:59.946+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SYS/0060/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -23,12 +23,6 @@
             },
             "cac:Party": {
                 "cbc:WebsiteURI": "http://www.fiiapp.org",
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "DIR3",
-                        "#text": "EA0008371"
-                    }
-                },
                 "cac:PartyName": {
                     "cbc:Name": "Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas"
                 },
@@ -50,12 +44,32 @@
                     "cbc:Name": "Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas",
                     "cbc:ElectronicMail": "fiiapp@fiiapp.org"
                 }
+            },
+            "cac-place-ext:ParentLocatedParty": {
+                "cac:PartyName": {
+                    "cbc:Name": "Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n"
+                },
+                "cac-place-ext:ParentLocatedParty": {
+                    "cac:PartyName": {
+                        "cbc:Name": "SOCIEDADES, FUNDACIONES y CONSORCIOS ESTATALES"
+                    },
+                    "cac-place-ext:ParentLocatedParty": {
+                        "cac:PartyName": {
+                            "cbc:Name": "OTRAS ENTIDADES DEL SECTOR P\u00daBLICO"
+                        },
+                        "cac-place-ext:ParentLocatedParty": {
+                            "cac:PartyName": {
+                                "cbc:Name": "Sector P\u00fablico"
+                            }
+                        }
+                    }
+                }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Contratacion de mantenimiento, carga de datos de la pagina web y el seguimiento de la estrategia digital de la FIIAPP.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +124,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "EL mejor",
+            "cbc:AwardDate": "2018-04-23",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:StartDate": "2018-04-27",
+            "cac:Contract": {
+                "cbc:ID": "CTTO/126/2018",
+                "cbc:IssueDate": "2018-04-27"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A00000000"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Intelligenia Soluciones Inform\u00e1ticas"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "33600"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "40656"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -137,13 +188,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "3"
                         }
                     }
                 ]
@@ -154,7 +205,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -192,6 +243,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -210,6 +273,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-03-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-13"
                     }
                 }
             }

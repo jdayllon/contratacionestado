@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA-S 2018/41; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Oviedo; Importe: 90000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA-S 2018/41; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Oviedo; Importe: 90000 EUR; Estado: RES"
     },
     "title": "Suministro e implantaci\u00f3n de un sistema para la gesti\u00f3n electr\u00f3nica de los expedientes de contrataci\u00f3n de la Universidad de Oviedo.",
-    "updated": "2018-11-08T17:09:17.328+01:00",
+    "updated": "2019-01-10T13:25:34.872+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA-S 2018/41",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El mejor valorado.",
+            "cbc:AwardDate": "2018-12-19",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "76500"
+            },
+            "cbc:StartDate": "2018-12-20",
+            "cac:Contract": {
+                "cbc:ID": "PA-S 2018/41",
+                "cbc:IssueDate": "2018-12-20"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28855260"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INFORMATICA EL CORTE INGLES, S.A"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "76500"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "92565"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -170,20 +215,20 @@
                         "cbc:WeightNumeric": "12"
                     },
                     {
-                        "cbc:Description": "Valoraci\u00f3n t\u00e9cnica-tecnol\u00f3gica y organizativa de la propuesta -M\u00e1ximo 7 puntos",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
-                        "cbc:Description": "Valoraci\u00f3n funcional de la propuesta e integraciones-M\u00e1ximo 18 puntos.",
-                        "cbc:WeightNumeric": "18"
-                    },
-                    {
                         "cbc:Description": "Plan de igualdad.Hasta 3 puntos.",
                         "cbc:WeightNumeric": "3"
                     },
                     {
+                        "cbc:Description": "Valoraci\u00f3n t\u00e9cnica-tecnol\u00f3gica y organizativa de la propuesta -M\u00e1ximo 7 puntos",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
                         "cbc:Description": "Oferta econ\u00f3mica:hasta 60 puntos.",
                         "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Valoraci\u00f3n funcional de la propuesta e integraciones-M\u00e1ximo 18 puntos.",
+                        "cbc:WeightNumeric": "18"
                     }
                 ]
             },
@@ -269,6 +314,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -287,6 +344,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-10"
                     }
                 }
             }

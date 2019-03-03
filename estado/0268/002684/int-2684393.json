@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SP18-00970-1; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 200000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SP18-00970-1; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 200000 EUR; Estado: RES"
     },
     "title": "Suministro en r\u00e9gimen de adquisici\u00f3n e instalaci\u00f3n para la renovaci\u00f3n de los elementos y sistemas de seguridad de las instalaciones gestionadas por la Sociedad Mercantil Municipal Madrid Destino.",
-    "updated": "2018-11-20T15:21:29.818+01:00",
+    "updated": "2019-02-18T16:09:39.428+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SP18-00970-1",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -130,6 +130,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "por ser la empresa que ha presentado la mejor oferta seg\u00fan los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2019-01-14",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:StartDate": "2019-02-13",
+            "cac:Contract": {
+                "cbc:ID": "20190000970",
+                "cbc:IssueDate": "2019-02-13"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A06072979"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SEGURIDAD INTEGRAL SECOEX, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "139852.15"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "169221.1"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -159,11 +196,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejora con el suministro e instalaci\u00f3n de equipos adicionales sin coste para Madrid Destino",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Precio del suministro",
+                        "cbc:WeightNumeric": "35"
                     },
                     {
-                        "cbc:Description": "Reducci\u00f3n plazo de suministro y puesta en funcionamiento",
+                        "cbc:Description": "Actualizaci\u00f3n de licencias, de software y del sistema operativo en equipos de videograbaci\u00f3n durante 1 a\u00f1o desde la finalizaci\u00f3n del periodo de vigencia del contrato",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejora con el suministro e instalaci\u00f3n de equipos adicionales sin coste para Madrid Destino",
                         "cbc:WeightNumeric": "20"
                     },
                     {
@@ -171,15 +212,11 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Precio del suministro",
-                        "cbc:WeightNumeric": "35"
+                        "cbc:Description": "Reducci\u00f3n plazo de suministro y puesta en funcionamiento",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Mejora consistente en la prestaci\u00f3n, durante 1 a\u00f1o, del mantenimiento preventivo y correcto una vez finalice el periodo de garant\u00eda",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Actualizaci\u00f3n de licencias, de software y del sistema operativo en equipos de videograbaci\u00f3n durante 1 a\u00f1o desde la finalizaci\u00f3n del periodo de vigencia del contrato",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -225,6 +262,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -241,8 +290,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-11"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-20"
+                        "cbc:IssueDate": "2019-02-18"
                     }
                 }
             },

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 03/19; \u00d3rgano de Contrataci\u00f3n: Presidencia del Tribunal de Cuentas; Importe: 198000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 03/19; \u00d3rgano de Contrataci\u00f3n: Presidencia del Tribunal de Cuentas; Importe: 198000 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de los servicios de la plataforma de partidos pol\u00edticos y de su portal web para el Tribunal de Cuentas.",
-    "updated": "2018-10-13T09:34:34.009+02:00",
+    "updated": "2019-02-18T14:02:04.636+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "03/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la mejor oferta, de conformidad con lo dispuesto en los art\u00edculos 131, 145, 146 y 150 de la Ley de Contratos del Sector P\u00fablico.",
+            "cbc:AwardDate": "2019-01-14",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-02-06",
+            "cac:Contract": {
+                "cbc:ID": "03/19",
+                "cbc:IssueDate": "2019-02-05"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28855260"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INFORM\u00c1TICA EL CORTE INGL\u00c9S, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "183744"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "222330.24"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -149,12 +186,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Soluci\u00f3n t\u00e9cnica",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "55"
+                    },
+                    {
+                        "cbc:Description": "Soluci\u00f3n t\u00e9cnica",
+                        "cbc:WeightNumeric": "45"
                     }
                 ]
             },
@@ -180,6 +217,33 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7427f549-4452-4c55-9f6d-c0b87d5b14a3",
+                    "cbc:DocumentHash": "S4iG0GatD/eSEOn6lN659iF7+Tc="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b4d47333-ec49-4931-bbd6-8a0f306f972c",
+                    "cbc:DocumentHash": "+0R46UKxv8uic8gVMp23DlLeB+E="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "Anexo PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2a736eea-015a-4174-8c5f-17b1bba57a7c",
+                    "cbc:DocumentHash": "goF7tfYUXWABzFE7tbNptTaGOGc="
+                }
+            }
+        },
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -196,12 +260,53 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-16"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-18"
                     }
                 }
             }

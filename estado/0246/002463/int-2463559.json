@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/SP01010020/00000543; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Econ\u00f3micos y Pagadur\u00edas; Importe: 0 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 2018/SP01010020/00000543; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Econ\u00f3micos y Pagadur\u00edas; Importe: 0 EUR; Estado: RES"
     },
-    "title": "Contrataci\u00f3n de un servicio de cafeter\u00eda para el centro militar de cr\u00eda caballar de \u00c9cija (Sevilla).",
-    "updated": "2018-09-27T09:45:30.351+02:00",
+    "title": "Concesi\u00f3n de los servicios de cafeter\u00eda para el centro militar de cr\u00eda caballar de \u00c9cija (Sevilla).",
+    "updated": "2019-02-12T14:10:47.595+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/SP01010020/00000543",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
             }
         },
         "cac:ProcurementProject": {
-            "cbc:Name": "Contrataci\u00f3n de un servicio de cafeter\u00eda para el centro militar de cr\u00eda caballar de \u00c9cija (Sevilla).",
+            "cbc:Name": "Concesi\u00f3n de los servicios de cafeter\u00eda para el centro militar de cr\u00eda caballar de \u00c9cija (Sevilla).",
             "cbc:TypeCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
@@ -66,7 +66,7 @@
             "cac:BudgetAmount": {
                 "cbc:EstimatedOverallContractAmount": {
                     "@currencyID": "EUR",
-                    "#text": "81397.8"
+                    "#text": "81397.75"
                 },
                 "cbc:TotalAmount": {
                     "@currencyID": "EUR",
@@ -77,12 +77,20 @@
                     "#text": "0"
                 }
             },
-            "cac:RequiredCommodityClassification": {
-                "cbc:ItemClassificationCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                    "#text": "55100000"
+            "cac:RequiredCommodityClassification": [
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "55320000"
+                    }
+                },
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "55100000"
+                    }
                 }
-            },
+            ],
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Madrid",
                 "cbc:CountrySubentityCode": {
@@ -100,14 +108,64 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "ANN",
-                    "#text": "1"
+                "cbc:StartDate": "2019-01-01",
+                "cbc:EndDate": "2019-12-31"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la m\u00e1s ventajosa para la Administraci\u00f3n.",
+            "cbc:AwardDate": "2019-01-25",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-02-12",
+            "cac:Contract": {
+                "cbc:ID": "2018/SP01010020/00000543",
+                "cbc:IssueDate": "2019-02-12"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B90238841"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NEW HOSTELERIA ASTIGI, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
                 }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:TendererQualificationRequest": {
+                "cbc:Description": "Las proposiciones deber\u00e1n ir acompa\u00f1adas de una declaraci\u00f3n responsable que se ajustar\u00e1 al formulario de Documento Europeo \u00danico de Contrataci\u00f3n (DEUC), publicado en la Plataforma de Contrataci\u00f3n del Sector P\u00fablico."
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Aportaci\u00f3n de un canon",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "95"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -120,6 +178,36 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:Description": "La solicitud de participaci\u00f3n se formular\u00e1 conforme al Anexo II. La solicitud se presentar\u00e1 en sobre cerrado indicando en su exterior, con indicaci\u00f3n a la que concurran y firmado por el licitador o la persona que lo represente e indicaci\u00f3n del nombre y apellidos o raz\u00f3n social de la empresa. En el interior se har\u00e1 constar en hoja independiente su contenido, enunciado num\u00e9ricamente."
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "pcap13112018110548.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6c352bbc-0cb8-449e-beae-d1a8eb9df253",
+                    "cbc:DocumentHash": "T3v7xJIWZ6hhRjg1AjTazBUghxE="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT03102018094031.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=10837bbb-d8ef-4a73-80bc-e350811e0614",
+                    "cbc:DocumentHash": "ePD0DnFId9XEBq5fdWY3Iis37bk="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "deuc.zip",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=3a748421-1e33-4f8a-b27e-8f629c440ec7",
+                    "cbc:DocumentHash": "6iK6nHMuXsxpCjC05RISxEXOYKo="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
@@ -132,6 +220,54 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-09-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-12"
                     }
                 }
             },

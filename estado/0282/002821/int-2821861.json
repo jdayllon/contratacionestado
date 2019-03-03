@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 50/18; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Cogollos de la Vega; Importe: 0 EUR; Estado: PUB"
     },
     "title": "El objeto del Contrato a adjudicar es INSTALACION DE OBRA DE ALUMBRADO P\u00daBLICO DEL MUNICIPIO DE COGOLLOS VEGA, mediante una actuaci\u00f3n global e integrada, y de conformidad con los documentos que forman parte del procedimiento abierto con varios criterios de adjudicaci\u00f3n, los cuales a su vez formar\u00e1n parte del Contrato a firmar con el Adjudicatario",
-    "updated": "2019-01-04T14:50:40.593+01:00",
+    "updated": "2019-01-24T14:28:54.801+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "50/18",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -133,9 +133,12 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
@@ -150,12 +153,9 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    }
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -170,6 +170,12 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSX-CERTCALIDAD"
+                        }
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "XSR-MUESTRAS"
                         }
                     },
@@ -178,19 +184,19 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-COMPTASK"
                         }
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
-                        }
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
                         }
                     },
                     {
@@ -208,13 +214,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     }
                 ]
@@ -260,6 +260,26 @@
                 }
             }
         },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Caracterizacion alumbrado.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d2a0f1d3-f3fb-4d6b-acd5-6bbc862d4f17",
+                        "cbc:DocumentHash": "3I9nCxttBE6srszqWlSVVy/PC7U="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Informe Viabilidad Cogollos Vega.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ed81900f-4d63-4829-941e-94850247b627",
+                        "cbc:DocumentHash": "UL1vI+R8gU9YFZQuOgH/UPXSEgU="
+                    }
+                }
+            }
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -268,9 +288,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-04"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-09"
+                        }
+                    ]
                 }
             },
             {
@@ -280,9 +308,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-04"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-24"
+                        }
+                    ]
                 }
             },
             {

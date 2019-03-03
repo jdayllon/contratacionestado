@@ -5,10 +5,10 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 01/2018; \u00d3rgano de Contrataci\u00f3n: Apoderado de la Fundaci\u00f3n Canaria de Investigaci\u00f3n Sanitaria (FUNCANIS); Importe: 93000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 01/2018; \u00d3rgano de Contrataci\u00f3n: Apoderado de la Fundaci\u00f3n Canaria de Investigaci\u00f3n Sanitaria (FUNCANIS); Importe: 93457.94 EUR; Estado: PUB"
     },
     "title": "Para el desarrollo del proyecto europeo \"BionicVEST\" es necesaria la contrataci\u00f3n de una CRO, Organizaci\u00f3n de Investigaci\u00f3n por Contrato (Contract Research Organization) que act\u00fae como puente entre el promotor/coordinador y el resto de los Centros, se encargue de la puesta en marcha y monitorizaci\u00f3n del estudio, como as\u00ed tambi\u00e9n de lo que se considera el \u201cfull service CROs\u201d",
-    "updated": "2018-12-28T17:34:46.561+01:00",
+    "updated": "2019-01-25T14:33:47.092+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "01/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -94,7 +94,7 @@
                 },
                 "cbc:TaxExclusiveAmount": {
                     "@currencyID": "EUR",
-                    "#text": "93000"
+                    "#text": "93457.94"
                 }
             },
             "cac:RequiredCommodityClassification": {
@@ -120,14 +120,26 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:StartDate": "2019-01-21",
-                "cbc:EndDate": "2022-08-31"
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "4"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -147,16 +159,6 @@
                         "@currencyID": "EUR",
                         "#text": "0"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    }
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -166,14 +168,14 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Relaci\u00f3n de los principales servicios de igual \u00f3 similar naturaleza que los que constituyen el objeto del contrato (cl\u00e1usula 4.3.2.a del PCAP)"
+                        "cbc:Description": "Certificado de inscripci\u00f3n en el ROLECE"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Certificado de inscripci\u00f3n en el ROLECE"
+                        "cbc:Description": "Relaci\u00f3n de los principales servicios de igual \u00f3 similar naturaleza que los que constituyen el objeto del contrato (cl\u00e1usula 4.3.2.a del PCAP)"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -187,25 +189,25 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
                         }
                     }
                 ]
@@ -230,7 +232,7 @@
                 "#text": "2"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-01-14",
+                "cbc:EndDate": "2019-02-11",
                 "cbc:EndTime": "16:00:00",
                 "cbc:Description": "El horario referido es horario peninsular"
             }
@@ -239,7 +241,7 @@
             "cbc:ID": "7 - PCAP.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e60d574b-799b-4486-be9e-4128629d4bba",
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=37011163-4b41-454a-b53a-ccea8efc9d0d",
                     "cbc:DocumentHash": "zqbt6IqfUOkoJ4JJ8aq+YQFgkig="
                 }
             }
@@ -248,8 +250,17 @@
             "cbc:ID": "4 - PPT.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=cc0bdcac-4e7c-4796-910e-ab2ce1afc368",
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=30e9393a-1171-4a62-b0c1-396d987bd10b",
                     "cbc:DocumentHash": "UwWMtZaQWaHiMbyO18lxscBEFjc="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "Anexos pliego.odt",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=07d84ba4-1b4c-4b0c-93b2-efaf30833842",
+                    "cbc:DocumentHash": "CVU/9KPbJHP1QAtUu1Fc3ajNwNc="
                 }
             }
         },
@@ -262,7 +273,7 @@
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-28"
+                        "cbc:IssueDate": "2019-01-25"
                     }
                 }
             },
@@ -273,9 +284,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-28"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-25"
+                        }
+                    ]
                 }
             },
             {

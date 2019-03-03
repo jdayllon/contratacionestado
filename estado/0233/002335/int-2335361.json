@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/052; \u00d3rgano de Contrataci\u00f3n: Gerencia de Ferrocarrils de la Generalitat Valenciana; Importe: 800000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/052; \u00d3rgano de Contrataci\u00f3n: Gerencia de Ferrocarrils de la Generalitat Valenciana; Importe: 800000 EUR; Estado: RES"
     },
     "title": "Asistencia t\u00e9cnica para la redacci\u00f3n del proyecto constructivo de renovaci\u00f3n y adecuaci\u00f3n de las instalaciones e infraestructuras del tramo subterr\u00e1neo de l\u00ednea 1 y 2 de Metrovalencia.",
-    "updated": "2018-08-17T12:35:38.084+02:00",
+    "updated": "2019-01-17T17:43:10.217+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/052",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -76,7 +76,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Asistencia t\u00e9cnica para la redacci\u00f3n del proyecto constructivo de renovaci\u00f3n y adecuaci\u00f3n de las instalaciones e infraestructuras del tramo subterr\u00e1neo de l\u00ednea 1 y 2 de Metrovalencia.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -126,6 +126,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa para los intereses de FGV.",
+            "cbc:AwardDate": "2018-12-19",
+            "cbc:ReceivedTenderQuantity": "13",
+            "cbc:StartDate": "2019-01-17",
+            "cac:Contract": {
+                "cbc:ID": "18/052",
+                "cbc:IssueDate": "2019-01-17"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "236410"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UTE ARDANUY INGENIERIA, S.A. - GESMAN INGENIERIA DE GESTION, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "568000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "687280"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -155,24 +192,24 @@
                         "cbc:WeightNumeric": "1.5"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
-                        "cbc:Description": "Oferta t\u00e9cnica",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Criterio T\u00e9cnico 3. Plan de aseguramiento y supervisi\u00f3n de Calidad y Medioambiente",
                         "cbc:WeightNumeric": "3.5"
+                    },
+                    {
+                        "cbc:Description": "Criterio T\u00e9cnico 2. Organizaci\u00f3n y planificaci\u00f3n de trabajos del Consultor",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Criterio T\u00e9cnico 1. Memoria T\u00e9cnica",
                         "cbc:WeightNumeric": "40"
                     },
                     {
-                        "cbc:Description": "Criterio T\u00e9cnico 2. Organizaci\u00f3n y planificaci\u00f3n de trabajos del Consultor",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Oferta t\u00e9cnica",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -190,8 +227,9 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-09-25",
-                "cbc:EndTime": "12:00:00"
+                "cbc:EndDate": "2018-10-02",
+                "cbc:EndTime": "12:00:00",
+                "cbc:Description": "Modificaci\u00f3n fecha fin presentaci\u00f3n de ofertas"
             }
         },
         "cac:LegalDocumentReference": {
@@ -212,16 +250,48 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "18-052 composicion Comite de expertos.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9485d8c2-aadd-4abc-a089-9181c1944e4c",
-                    "cbc:DocumentHash": "a0f++lNXvuPo9x6DT0Orvpjgl+c="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "18-052 composicion Comite de expertos.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9485d8c2-aadd-4abc-a089-9181c1944e4c",
+                        "cbc:DocumentHash": "a0f++lNXvuPo9x6DT0Orvpjgl+c="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "18-052 modificaciones al Pliego de Prescripciones Tecnicas con ampliacion de plazo.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=283b5cc8-3f17-414c-808a-9423b864e1e9",
+                        "cbc:DocumentHash": "LZr1DvfonKqlunEzuyvQSbfi2ZU="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "18-052 modificacion fecha y hora apertura ofertas economicas.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c5ad4759-d41c-4ee6-83ca-da793579dd47",
+                        "cbc:DocumentHash": "MS5RmZTQowbDazYeAtW2jg7iBzc="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-21"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -238,6 +308,15 @@
                         },
                         {
                             "cbc:IssueDate": "2018-08-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-11"
                         }
                     ]
                 }
@@ -255,8 +334,26 @@
                         },
                         {
                             "cbc:IssueDate": "2018-08-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-11"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-17"
+                    }
                 }
             }
         ]

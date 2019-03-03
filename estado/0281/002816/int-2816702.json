@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 421-2018; \u00d3rgano de Contrataci\u00f3n: Presidencia Delegada del O.A.M. Palau de la M\u00fasica, Congresos y Orquesta de Valencia; Importe: 30000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 421-2018; \u00d3rgano de Contrataci\u00f3n: Presidencia Delegada del O.A.M. Palau de la M\u00fasica, Congresos y Orquesta de Valencia; Importe: 30000 EUR; Estado: ADJ"
     },
     "title": "Servicio de realizaci\u00f3n del proyecto denominado \u201cEstrategia de Desarrollo y Posicionamiento de Val\u00e8ncia como Ciudad Musical\u201d",
-    "updated": "2019-01-02T11:43:47.468+01:00",
+    "updated": "2019-02-22T14:33:52.622+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "421-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -134,6 +134,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-02-22",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "Q4618001D"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UNIVERSITAT DE VAL\u00c8NCIA - ESTUDI GENERAL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "25000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30250"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -172,12 +204,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Valoraci\u00f3n de una Memoria T\u00e9cnica a presentar",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Menor precio ofertado",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Valoraci\u00f3n de una Memoria T\u00e9cnica a presentar",
+                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -221,16 +253,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "ANEXO 1 PCAP Expte 421 18.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=154ef6bb-6eb4-4e65-97d5-7f2ad75e01af",
-                    "cbc:DocumentHash": "WiW/nI3o6jCQw7se9vQE7dZMXgA="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "ANEXO 1 PCAP Expte 421 18.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=154ef6bb-6eb4-4e65-97d5-7f2ad75e01af",
+                        "cbc:DocumentHash": "WiW/nI3o6jCQw7se9vQE7dZMXgA="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "ANEXO II MODELO OFERTA.docx",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=add310ff-ce1a-46d7-8140-3cbd1ac5f6f9",
+                        "cbc:DocumentHash": "nzIwpSfHAseDZPhEAzxOHQwxHX0="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-22"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -238,9 +293,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-02"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-11"
+                        }
+                    ]
                 }
             },
             {

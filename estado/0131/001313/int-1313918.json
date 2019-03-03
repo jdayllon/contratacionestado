@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: Serv. 026/2016; \u00d3rgano de Contrataci\u00f3n: Diputaci\u00f3n Provincial de M\u00e1laga; Importe: 100000 EUR; Estado: RES"
     },
     "title": "Soporte y mantenimiento del Programa PeopleNet de META4",
-    "updated": "2017-04-03T13:57:13.423+02:00",
+    "updated": "2019-02-11T13:27:32.478+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "Serv. 026/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -36,7 +36,7 @@
                     "cbc:CityName": "M\u00e1laga",
                     "cbc:PostalZone": "29004",
                     "cac:AddressLine": {
-                        "cbc:Line": "Pac\u00edfico, 54"
+                        "cbc:Line": "C/ Pac\u00edfico, n\u00ba 54"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -48,16 +48,16 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Diputaci\u00f3n Provincial de M\u00e1laga",
-                    "cbc:Telephone": "952133767",
+                    "cbc:Telephone": "952133657",
                     "cbc:Telefax": "952105721",
-                    "cbc:ElectronicMail": "contratacionservicios@malaga.es"
+                    "cbc:ElectronicMail": "perfil.del.contratante@malaga.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Soporte y mantenimiento del Programa PeopleNet de META4",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -87,7 +87,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -176,10 +176,20 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Mejoras cuantificables",
-                    "cbc:WeightNumeric": "40"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Desarrollo del proyecto t\u00e9cnico",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Mejoras cuantificables",
+                        "cbc:WeightNumeric": "40"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -187,7 +197,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -252,7 +262,32 @@
                         "cbc:IssueDate": "2017-04-03"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-11"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Pr\u00f3rroga del contrato para el periodo comprendido entre el 26/01/2019 y el 25/01/2021",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "4"
+            },
+            "cbc:ContractID": "006/2017"
+        }
     }
 }

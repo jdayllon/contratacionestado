@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 12523.558/18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General del Instituto para la Diversificaci\u00f3n y Ahorro de la Energ\u00eda (IDAE); Importe: 1860000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 12523.558/18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General del Instituto para la Diversificaci\u00f3n y Ahorro de la Energ\u00eda (IDAE); Importe: 1860000 EUR; Estado: ADJ"
     },
     "title": "Asistencia al Minetad y a Abogac\u00eda General del Estado y realizaci\u00f3n de informes periciales DCM y TRIODOS SICAV II",
-    "updated": "2018-04-28T09:32:28.712+02:00",
+    "updated": "2019-02-18T16:22:05.336+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "12523.558/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Asistencia al Minetad y a Abogac\u00eda General del Estado y realizaci\u00f3n de informes periciales DCM y TRIODOS SICAV II",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,134 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Proceso arbitral DCM (lote 1) - Descripci\u00f3n en pliegos",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "1125300"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "930000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79000000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Proceso arbitral TRIODOS SICAV II (lote 2) - Descripci\u00f3n en pliegos",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "1125300"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "930000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79000000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "En base a la documentaci\u00f3n del concurso, la valoraci\u00f3n dada a la experiencia del personal, la adecuaci\u00f3n y alcance de la metodolog\u00eda y planificaci\u00f3n ofertada.",
+                "cbc:AwardDate": "2019-02-08",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "83-1471394"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "QUADRANT ECONOMICS LLC"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "800000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "968000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Por haber obtenido mayor puntuaci\u00f3n atendiendo a los requisitos indicados en los pliegos.",
+                "cbc:AwardDate": "2019-02-14",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "580000"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "800000"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B82387572"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "BDO AUDITORES, S.L.P."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "580000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "701800"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,20 +250,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Experiencia",
-                        "cbc:WeightNumeric": "35"
+                        "cbc:Description": "Precio ofertado",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Adecuaci\u00f3n y metodolog\u00eda",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Experiencia",
+                        "cbc:WeightNumeric": "35"
                     },
                     {
                         "cbc:Description": "Planificaci\u00f3n prevista y dedicaci\u00f3n",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio ofertado",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Adecuaci\u00f3n y metodolog\u00eda",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -186,6 +314,23 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-04-28"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-18"
+                        }
+                    ]
                 }
             },
             {

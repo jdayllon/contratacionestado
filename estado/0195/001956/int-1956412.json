@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/2017 SE/Abierto; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Mazarr\u00f3n; Importe: 217728 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/2017 SE/Abierto; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Mazarr\u00f3n; Importe: 217728 EUR; Estado: ADJ"
     },
     "title": "Servicio de Ayuda a Domicilio a Personas Dependientes.",
-    "updated": "2018-02-26T08:05:16.235+01:00",
+    "updated": "2019-01-29T16:39:15.885+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/2017 SE/Abierto",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de Ayuda a Domicilio a Personas Dependientes.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica al precio y t\u00e9rminos siguientes: \n- Servicios de atenci\u00f3n personal: Base: 14,00, IVA: 0,56 y total: 14,56 (Precio por hora de servicio).\n- Servicios de atenci\u00f3n dom\u00e9stica: Base: 9,00, IVA: 0,36 y total: 9,36 (Precio por hora de servicio).\n\nServicios complementarios:\n1. Servicios profesionales  no sanitarios.\n\t1.1. Servicios de educador: 10 horas mensuales.\n\t1.2. Trabajador social: 25 horas mensuales.\n2. Servicios profesionales sanitarios:\n\t2.1. Psic\u00f3logo: 10  horas mensuales.\n\t2.2. Terapeuta ocupacional: 10 horas mensuales.\n\t2.3. Fisioterapeuta: 15 horas mensuales.\n3. Bolsa de horas:\n\t3.1. A ejecutar para situaciones de especial consideraci\u00f3n y/o emergencia: 25 horas mensuales.",
+            "cbc:AwardDate": "2019-01-18",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "G73248585"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ASOCIACI\u00d3N DE AYUDA A DOMICILIO DAYLOR"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -114,16 +146,16 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "0"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "1"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "0"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -145,8 +177,8 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Por disponer de certificados de calidad",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Por ofrecer la prestaci\u00f3n de servicios profesionales complementarios no sanitarios",
+                        "cbc:WeightNumeric": "35"
                     },
                     {
                         "cbc:Description": "Por ofrecer una bolsa de horas a ejecutar por auxiliares para situaciones de especial consideraci\u00f3n y/o emergencia",
@@ -157,8 +189,8 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Por ofrecer la prestaci\u00f3n de servicios profesionales complementarios no sanitarios",
-                        "cbc:WeightNumeric": "35"
+                        "cbc:Description": "Por disponer de certificados de calidad",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Por ofrecer la prestaci\u00f3n de servicios profesionales complementarios sanitarios",
@@ -172,7 +204,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -226,6 +258,18 @@
                         }
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-29"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 151/2017; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Castell\u00f3n; Importe: 180165.24 EUR; Estado: RES"
     },
     "title": "Suministro de gas natural canalizado",
-    "updated": "2018-02-01T10:17:22.982+01:00",
+    "updated": "2019-01-11T15:24:28.768+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "151/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de gas natural canalizado",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -164,7 +164,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -291,27 +291,50 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-02-01"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-02-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-11"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:ContractID": "151/2017",
-            "cac:ContractModificationLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "27024.78"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:ContractID": "151/2017",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "27024.78"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "97344.95"
+                    }
                 }
             },
-            "cac:FinalLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "97344.95"
+            {
+                "cbc:ID": "2",
+                "cbc:ContractID": "151/2017",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "15175.09"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "112520.03"
+                    }
                 }
             }
-        }
+        ]
     }
 }

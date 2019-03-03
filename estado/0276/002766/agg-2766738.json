@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2766738",
     "link": {
-        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/notice.pscp?idDoc=39563953&reqCode=viewCn"
+        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/awardnotice.pscp?reqCode=viewPcan&idDoc=42982370&lawType=3"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SS-002/19; \u00d3rgano de Contrataci\u00f3n: Consorci del Barri de la Mina; Importe: 39077.49; Estado: EVALUACION"
+        "#text": "Id licitaci\u00f3n: SS-002/19; \u00d3rgano de Contrataci\u00f3n: Consorci del Barri de la Mina; Importe: 39077.49; Estado: ADJUDICADA"
     },
     "title": "El projecte es defineix com un servei que posa a l'abast de la poblaci\u00f3 activa de la Mina, un espai amb recursos i suport professional per a la recerca activa de feina.",
-    "updated": "2019-01-03T13:11:26.960+01:00",
+    "updated": "2019-02-20T18:11:15.010+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SS-002/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,6 +64,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "G58539370"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Moviment d'Aturats la Mina - MOVID'A"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39077"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -74,33 +100,31 @@
                 "cbc:EndTime": "13:00:00"
             }
         },
-        "cac:LegalDocumentReference": {
-            "cbc:ID": "SS-002-19PlecServeisObertOKPDF.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=1876e1cd881571bac5239e15244edb00&fileId=39590406&capId=6550125&idTS=39563483"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-13"
+                    }
                 }
-            }
-        },
-        "cac:TechnicalDocumentReference": {
-            "cbc:ID": "SS-002-19PlecPresT\u00e8ClubFeinaOKPDF.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=6b516b5b52f0c2fa4b4990ed5554c64c&fileId=39590549&capId=6550125&idTS=39563483"
-                }
-            }
-        },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-13"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-20"
+                    }
                 }
             }
-        }
+        ]
     }
 }

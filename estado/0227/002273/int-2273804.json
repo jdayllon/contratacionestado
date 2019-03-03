@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 020020180117; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Penitenciarios; Importe: 160165.29 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 020020180117; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Servicios Penitenciarios; Importe: 160165.29 EUR; Estado: ADJ"
     },
     "title": "Servicio de atenci\u00f3n al puesto de trabajo de usuarios y resoluci\u00f3n de incidencias de los Servicios Centrales de la Secretar\u00eda General de Instituciones Penitenciarias",
-    "updated": "2018-07-13T09:38:42.261+02:00",
+    "updated": "2019-02-11T12:43:12.550+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "020020180117",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de atenci\u00f3n al puesto de trabajo de usuarios y resoluci\u00f3n de incidencias de los Servicios Centrales de la Secretar\u00eda General de Instituciones Penitenciarias",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -98,10 +98,92 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                }
+            },
+            "cac:ContractExtension": {
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "Si, por un periodo m\u00e1ximo de un a\u00f1o."
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta econ\u00f3mica m\u00e1s ventajosa para la Administraci\u00f3n",
+            "cbc:AwardDate": "2019-02-07",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B86867710"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GLOBAL ROSETTA, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "153758.68"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "186048"
+                    }
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "Ver apartado 7.2 y 7.3 del Cuadro de Caracter\u00edsticas"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Ver apartado 7.1 y7.3 del Cuadro de Caracter\u00edsticas"
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Mejoras a las ofertas:  n\u00famero de jornadas laborales adicionales",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Valoraci\u00f3n de los Servicios: Valoraci\u00f3n plan implantaci\u00f3n y de ejecuci\u00f3n del servicio de acuerdo a lo especificado en el apartado 3 del Pliego de Prescripciones T\u00e9cnicas",
+                        "cbc:WeightNumeric": "35"
+                    },
+                    {
+                        "cbc:Description": "Valor Econ\u00f3mico:  descuento ofertado, sobre el presupuesto",
+                        "cbc:WeightNumeric": "55"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -114,9 +196,120 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-12-18",
+                "cbc:EndTime": "17:30:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-12-18",
+                "cbc:EndTime": "17:30:00"
             }
         },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=445fd5e8-40bb-4fe2-8501-28d59c27280d",
+                    "cbc:DocumentHash": "DUoPlpk4nYfX/JNmSA9GjkoApfU="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c71ac95f-7ad1-41f3-a0f4-6299465c2f3a",
+                    "cbc:DocumentHash": "iFmYc+iCUOnt8caCgUIA4QueIK4="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Anexo I - Insuficiencia Medios.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7499848c-72b9-4ddb-832d-baef04a920bc",
+                        "cbc:DocumentHash": "6q1D8BvMqZzFNwGkJVLOcWWxQw4="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Oficio a empresa  art 130.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=73a81d69-c97c-4308-9bec-ea1b71320127",
+                        "cbc:DocumentHash": "LzDi2ACax80xdOp38kC5fvmibZ0="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Memoria Justificativa.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=82d8cccb-a7c7-4146-a8bf-1d3974b21467",
+                        "cbc:DocumentHash": "FjaFmD/pfR4972a4KjTZlwumc1Q="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Cuadro de Caracteristicas.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f5d132d3-9c90-4b21-b414-6b57a9ae5bb2",
+                        "cbc:DocumentHash": "RphQrz68suCAdBuB5y8HLtgon0I="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Aprobacion Gasto.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f605bb3d-fdae-44d6-bec8-fd89214d89fa",
+                        "cbc:DocumentHash": "Ui+9m97kE503NF5oD7hBynL+gkY="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo II - Insuficiencia Medios.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4beac8ed-2a93-47ac-a5ed-85a07b563a6d",
+                        "cbc:DocumentHash": "8bBE09UmqHTiBWjYCaMnIkpuxdU="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "DEUC - 020020180117.xml",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=cda87b3d-7865-46d1-b4dd-9e1da82907a5",
+                        "cbc:DocumentHash": "775T73280d3yNnV1K9G2F0VkGbw="
+                    }
+                }
+            }
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-13"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-07"
+                        }
+                    }
+                ]
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -126,6 +319,42 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-06"
                     }
                 }
             },

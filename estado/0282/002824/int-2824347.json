@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: N201801913; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Mutual Midat Cyclops, Mutua Colaboradora con la Seguridad Social, n\u00ba 1; Importe: 160334.22 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: N201801913; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Mutual Midat Cyclops, Mutua Colaboradora con la Seguridad Social, n\u00ba 1; Importe: 160334.22 EUR; Estado: ADJ"
     },
     "title": "P\u00f3lizas colectivas de seguro de vida",
-    "updated": "2019-01-07T17:07:22.558+01:00",
+    "updated": "2019-02-28T17:36:48.430+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "N201801913",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -126,6 +126,38 @@
                 "cbc:OptionsDescription": "No hay prorrogas definidas"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Cumple con las condiciones indicadas en el Pliego de Cl\u00e1usulas Administrativas Particulares y se trata de la mejor oferta, seg\u00fan la propia valoraci\u00f3n efectuada por la Divisi\u00f3n de Personas de MC MUTUAL",
+            "cbc:AwardDate": "2019-02-28",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A58333261"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VIDACAIXA, SAU DE SEGUROS Y REASEGUROS"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "146240.62"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "146240.62"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -171,7 +203,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-01-23",
+                "cbc:EndDate": "2019-01-28",
                 "cbc:EndTime": "23:59:00"
             }
         },
@@ -193,16 +225,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "04_FORMULARIOS PCAP.docx",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9c29df30-a81e-404d-85fd-3d4f29547624",
-                    "cbc:DocumentHash": "qxkMW5LTv6/HGymAH1TJluMDK+8="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "04_FORMULARIOS PCAP.docx",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9c29df30-a81e-404d-85fd-3d4f29547624",
+                        "cbc:DocumentHash": "qxkMW5LTv6/HGymAH1TJluMDK+8="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "N201801913 RECTIFICACION PLIEGO.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=942c071f-f531-4665-9757-57b47572cb7f",
+                        "cbc:DocumentHash": "RjuBrmBnGrHIevsFhIcsnIjeCP8="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-28"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -210,9 +265,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-07"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-21"
+                        }
+                    ]
                 }
             },
             {
@@ -222,9 +282,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-07"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-21"
+                        }
+                    ]
                 }
             }
         ]

@@ -5,10 +5,10 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 452-A.221.04.01/2016; \u00d3rgano de Contrataci\u00f3n: Confederaci\u00f3n Hidrogr\u00e1fica del Duero; Importe: 91512.38 EUR; Estado: RES"
+        "#text": "Id licitaci\u00f3n: 452-A.221.04.01/2016; \u00d3rgano de Contrataci\u00f3n: Confederaci\u00f3n Hidrogr\u00e1fica del Duero, O.A.; Importe: 91512.38 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de suministro de vestuario para los empleados p\u00fablicos (personal de campo, guarder\u00eda fluvial, ordenanzas y conductores) de la Confederaci\u00f3n Hidrogr\u00e1fica del Duero en 2016",
-    "updated": "2016-07-20T08:08:04.029+02:00",
+    "updated": "2019-02-19T13:59:04.311+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "452-A.221.04.01/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -30,7 +30,7 @@
                     }
                 },
                 "cac:PartyName": {
-                    "cbc:Name": "Confederaci\u00f3n Hidrogr\u00e1fica del Duero"
+                    "cbc:Name": "Confederaci\u00f3n Hidrogr\u00e1fica del Duero, O.A."
                 },
                 "cac:PostalAddress": {
                     "cbc:CityName": "Valladolid",
@@ -47,7 +47,7 @@
                     }
                 },
                 "cac:Contact": {
-                    "cbc:Name": "Confederaci\u00f3n Hidrogr\u00e1fica del Duero",
+                    "cbc:Name": "Confederaci\u00f3n Hidrogr\u00e1fica del Duero, O.A.",
                     "cbc:Telephone": "983215400",
                     "cbc:Telefax": "983211840",
                     "cbc:ElectronicMail": "contratacion@chduero.es"
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de suministro de vestuario para los empleados p\u00fablicos (personal de campo, guarder\u00eda fluvial, ordenanzas y conductores) de la Confederaci\u00f3n Hidrogr\u00e1fica del Duero en 2016",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -87,7 +87,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -512,19 +512,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     },
                     {
@@ -536,16 +536,22 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Criterios evaluables mediante f\u00f3rmulas. Oferta Econ\u00f3mica",
-                    "cbc:WeightNumeric": "80"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Criterios no evaluables mediante f\u00f3rmulas. Oferta T\u00e9cnica",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Criterios evaluables mediante f\u00f3rmulas. Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "80"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -553,7 +559,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -642,6 +648,9 @@
                         },
                         {
                             "cbc:IssueDate": "2016-07-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-19"
                         }
                     ]
                 }

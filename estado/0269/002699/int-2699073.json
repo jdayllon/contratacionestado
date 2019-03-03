@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 98/18C/S/ASS; \u00d3rgano de Contrataci\u00f3n: Teniente de Alcalde de Hacienda y Contrataci\u00f3n del Ayuntamiento de Elche; Importe: 18000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 98/18C/S/ASS; \u00d3rgano de Contrataci\u00f3n: Teniente de Alcalde de Hacienda y Contrataci\u00f3n del Ayuntamiento de Elche; Importe: 18000 EUR; Estado: RES"
     },
     "title": "Suministro de veh\u00edculo de carga para el departamento de montajes",
-    "updated": "2018-11-23T14:47:14.995+01:00",
+    "updated": "2019-01-17T16:27:58.692+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "98/18C/S/ASS",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,14 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:AwardDate": "2018-12-12",
+            "cbc:ReceivedTenderQuantity": "0"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -116,12 +124,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
                         }
                     },
                     {
@@ -139,6 +141,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     }
@@ -147,7 +155,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "2.2.-Emisiones CO2 por KM",
+                        "cbc:Description": "2.1.- Consumo Medio por Km",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "2.3.-Motor H\u00edbrido",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -155,11 +167,7 @@
                         "cbc:WeightNumeric": "70"
                     },
                     {
-                        "cbc:Description": "2.3.-Motor H\u00edbrido",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "2.1.- Consumo Medio por Km",
+                        "cbc:Description": "2.2.-Emisiones CO2 por KM",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -205,6 +213,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-17"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

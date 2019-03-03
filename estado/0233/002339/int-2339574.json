@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 112/2018; \u00d3rgano de Contrataci\u00f3n: Agencia de Turismo de las Illes Balears; Importe: 752066.12 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 112/2018; \u00d3rgano de Contrataci\u00f3n: Agencia de Turismo de las Illes Balears; Importe: 752066.12 EUR; Estado: ADJ"
     },
     "title": "Servicios relativos a la publicidad, marketing, dise\u00f1o e impresi\u00f3n de la Agencia de Turismo de las Islas Baleares (actual AETIB).",
-    "updated": "2018-08-09T09:31:22.243+02:00",
+    "updated": "2019-01-27T09:33:18.581+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "112/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios relativos a la publicidad, marketing, dise\u00f1o e impresi\u00f3n de la Agencia de Turismo de las Islas Baleares (actual AETIB).",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -119,6 +119,77 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "4"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Compra de merchandising o packs de productos estrat\u00e9gicos",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "55000"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "45454.54"
+                    }
+                },
+                "cac:RequiredCommodityClassification": [
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79000000"
+                        }
+                    },
+                    {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79341000"
+                        }
+                    }
+                ]
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta mas ventajosa",
+            "cbc:AwardDate": "2018-12-13",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-01-07",
+            "cac:Contract": {
+                "cbc:ID": "112/2018 LOTE4",
+                "cbc:IssueDate": "2019-01-07"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B07756794"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Illa de Publicitat i Marqueting SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "4",
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "45454.54"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "55000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -146,16 +217,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios de la oferta t\u00e9cnica no evaluables mediante f\u00f3rmulas",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "40"
                     },
                     {
                         "cbc:Description": "Criterios de la oferta t\u00e9cnica evaluables mediante f\u00f3rmulas",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Criterios de la oferta t\u00e9cnica no evaluables mediante f\u00f3rmulas",
+                        "cbc:WeightNumeric": "45"
                     }
                 ]
             },
@@ -178,11 +249,11 @@
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "PCA.pdf",
+            "cbc:ID": "PCA corregido.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5b356653-6473-4b2c-8d3e-29fa08dc890e",
-                    "cbc:DocumentHash": "rDsjEMnZUHY/JpbB8DiupiSxuF8="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0a353eb4-ef8d-448b-8946-cd6cbcb098a5",
+                    "cbc:DocumentHash": "VQkHOVFxooBLqgU1hM9P0GKkOmQ="
                 }
             }
         },
@@ -190,7 +261,7 @@
             "cbc:ID": "PPT.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=708e7b6c-19d7-4262-8b77-a12fbba22ccb",
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=71046faa-bba6-4518-a12b-7d2215b25825",
                     "cbc:DocumentHash": "je3yPIFyoEBldbMkqVQ1XTz+wxE="
                 }
             }
@@ -211,12 +282,24 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-24"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-07"
+                        "cbc:IssueDate": "2018-08-29"
                     }
                 }
             },
@@ -233,8 +316,23 @@
                         },
                         {
                             "cbc:IssueDate": "2018-08-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-29"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-27"
+                    }
                 }
             }
         ]

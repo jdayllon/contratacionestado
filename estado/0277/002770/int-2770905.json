@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: S-08624-20181031; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Compras de la Corporaci\u00f3n de Radio y Televisi\u00f3n Espa\u00f1ola S.A.; Importe: 7881 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: S-08624-20181031; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Compras de la Corporaci\u00f3n de Radio y Televisi\u00f3n Espa\u00f1ola S.A.; Importe: 7881 EUR; Estado: RES"
     },
     "title": "Complementos mobiliario RTVE",
-    "updated": "2018-12-14T14:38:05.213+01:00",
+    "updated": "2019-02-05T12:40:23.617+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "S-08624-20181031",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -119,6 +119,10 @@
             "cbc:Description": "Mejor puntuacion.",
             "cbc:AwardDate": "2018-12-14",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "4301268088",
+                "cbc:IssueDate": "2018-12-14"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -177,17 +181,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-14"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-14"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
+                    }
                 }
             }
-        }
+        ]
     }
 }

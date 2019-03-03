@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 8/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Campanario; Importe: 4000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 8/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Campanario; Importe: 4000 EUR; Estado: RES"
     },
     "title": "Adjudicaci\u00f3n de explotaci\u00f3n de cafeter\u00eda bar sita en margen izquierda del pantano de Orellana",
-    "updated": "2019-01-08T19:53:31.666+01:00",
+    "updated": "2019-02-25T13:44:34.672+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "8/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -124,6 +124,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ver resoluci\u00f3n de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2019-02-18",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "4020"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "4020"
+            },
+            "cbc:StartDate": "2019-02-22",
+            "cac:Contract": {
+                "cbc:ID": "Ex 8/2019",
+                "cbc:IssueDate": "2019-02-21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "E06679872"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FELIPE MORENO GIL CB"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "4020"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "4864.2"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -142,19 +187,19 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
                         "#text": "3"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
                         "#text": "0"
                     }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -181,16 +226,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Creaci\u00f3n de empleo",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Incremento periodo m\u00ednimo de apertura",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Precio de men\u00fa diario",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Mayor canon ofertado",
-                        "cbc:WeightNumeric": "50"
                     },
                     {
                         "cbc:Description": "Cobertura seguros",
@@ -201,8 +242,12 @@
                         "cbc:WeightNumeric": "50"
                     },
                     {
-                        "cbc:Description": "Creaci\u00f3n de empleo",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Mayor canon ofertado",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Precio de men\u00fa diario",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -262,6 +307,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -280,6 +337,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-01-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-25"
                     }
                 }
             }

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2017-00015; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General Econ\u00f3mico-Financiera de la Entidad P\u00fablica Empresarial RENFE-Operadora; Importe: 3534134.93 EUR; Estado: ADJ"
     },
     "title": "Suministro de gas\u00f3leo \"c\" de calefacci\u00f3n en dependencias asignadas al grupo renfe",
-    "updated": "2017-09-24T16:05:13.210+02:00",
+    "updated": "2019-02-12T15:57:00.594+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2017-00015",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,7 +22,7 @@
                 "#text": "4"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.renfe.com/empresa/perfilcontratante/index.html",
+                "cbc:WebsiteURI": "http://www.renfe.com",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de gas\u00f3leo \"c\" de calefacci\u00f3n en dependencias asignadas al grupo renfe",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -104,6 +104,9 @@
             "cbc:Description": "precio m\u00e1s bajo",
             "cbc:AwardDate": "2017-06-23",
             "cbc:ReceivedTenderQuantity": "3",
+            "cac:Contract": {
+                "cbc:ID": "4600000549"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -158,7 +161,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -198,7 +201,35 @@
                         "cbc:IssueDate": "2017-03-01"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-12"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractID": "4600000549",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "242514"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "2670083"
+                }
+            }
+        }
     }
 }

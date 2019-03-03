@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02003512)-AST_2019_006; \u00d3rgano de Contrataci\u00f3n: Entidad P\u00fablica Aragonesa de Servicios Telem\u00e1ticos; Importe: 34600 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02003512)-AST_2019_006; \u00d3rgano de Contrataci\u00f3n: Entidad P\u00fablica Aragonesa de Servicios Telem\u00e1ticos; Importe: 34600 EUR; Estado: ADJ"
     },
     "title": "Servicio de mantenimiento del conjunto de sistemas de alimentaci\u00f3n ininterrumpida de tecnolog\u00eda VERTIV.",
-    "updated": "2018-11-20T18:19:45.747+01:00",
+    "updated": "2019-02-11T15:30:34.870+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02003512)-AST_2019_006",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -89,10 +89,42 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:StartDate": "2019-01-01",
+                "cbc:StartDate": "2019-02-01",
                 "cbc:DurationMeasure": {
                     "@unitCode": "MON",
                     "#text": "12"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan Resoluci\u00f3n de la Directora Gerente",
+            "cbc:AwardDate": "2019-02-06",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78244134"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VERTIV SPAIN, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "32282.7"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39062.07"
+                    }
                 }
             }
         },
@@ -158,6 +190,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -174,9 +218,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-20"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-30"
+                        }
+                    ]
                 }
             }
         ]

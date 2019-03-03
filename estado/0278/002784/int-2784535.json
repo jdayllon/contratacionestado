@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A-0057/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 25000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: A-0057/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 25000 EUR; Estado: RES"
     },
     "title": "Servicios de Investigaci\u00f3n privada para expedientes de prestaciones economicas",
-    "updated": "2018-12-19T17:39:30.789+01:00",
+    "updated": "2019-01-28T13:23:41.446+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A-0057/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -126,6 +126,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El adjudicatario cumple con todos los requisitos solicitados",
+            "cbc:AwardDate": "2019-01-28",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:StartDate": "2019-02-01",
+            "cac:Contract": {
+                "cbc:ID": "A-0057/2018",
+                "cbc:IssueDate": "2019-01-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B65945792"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "IGNACIO DE LAS HERAS SLU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "21375"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "21375"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -152,15 +189,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Disponibilidad titular de la agencia 365 dias con personal de mutua",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
                         "cbc:Description": "Precio x dia de servicio/precio dieta y otros suplidos por ratificacion judicial",
                         "cbc:WeightNumeric": "70"
                     },
                     {
                         "cbc:Description": "Menciones Honorificas",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Disponibilidad titular de la agencia 365 dias con personal de mutua",
                         "cbc:WeightNumeric": "15"
                     }
                 ]
@@ -218,6 +255,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-28"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -242,6 +291,18 @@
                             "cbc:IssueDate": "2018-12-19"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-28"
+                    }
                 }
             },
             {

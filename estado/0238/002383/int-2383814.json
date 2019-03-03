@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018N4015010; \u00d3rgano de Contrataci\u00f3n: Instituto Nacional de Estad\u00edstica INE; Importe: 231404.96 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018N4015010; \u00d3rgano de Contrataci\u00f3n: Instituto Nacional de Estad\u00edstica INE; Importe: 231404.96 EUR; Estado: ADJ"
     },
     "title": "Edici\u00f3n, manipulado y entrega al operador postal Correos, S.A., de notificaciones en sus datos de inscripci\u00f3n, de los electores inscritos en el CER y en el CERA",
-    "updated": "2018-10-13T09:34:27.076+02:00",
+    "updated": "2019-02-27T15:39:54.984+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018N4015010",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan informe adjunto en acta de resoluci\u00f3n",
+            "cbc:AwardDate": "2019-02-27",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A31501901"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Avenida de la Recomba, 12-14 28914 Legan\u00e9s MADRID"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "12.4"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "15"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -148,16 +180,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Segundo criterio valorable de forma automatica, en cifras o porcentajes",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "PROPOSICION ECONOMICA",
+                        "cbc:WeightNumeric": "85"
                     },
                     {
                         "cbc:Description": "Primer criterio valorable de forma automatica, en cifras o porcentajes",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "PROPOSICION ECONOMICA",
-                        "cbc:WeightNumeric": "85"
+                        "cbc:Description": "Segundo criterio valorable de forma automatica, en cifras o porcentajes",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -207,12 +239,20 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
-                "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-13"
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-16"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-13"
+                        }
                     }
-                }
+                ]
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -223,6 +263,30 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-31"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-15"
                     }
                 }
             },

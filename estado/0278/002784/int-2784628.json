@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1641/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Cacabelos; Importe: 94083.45 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1641/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Cacabelos; Importe: 94083.45 EUR; Estado: ADJ"
     },
     "title": "Construcci\u00f3n de aceras, pavimentaci\u00f3n de calles y acondicionamiento de captaci\u00f3n en el municipio de Cacabelos",
-    "updated": "2018-12-19T13:48:24.820+01:00",
+    "updated": "2019-02-08T14:14:50.425+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1641/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,6 +106,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mejor oferta-adjudicacion",
+            "cbc:AwardDate": "2019-02-08",
+            "cbc:ReceivedTenderQuantity": "9",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "113840.97"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "113840.97"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B24273302"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VAZPER 3, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "94083.45"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "113840.97"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,13 +162,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
@@ -139,16 +179,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "AMPLIACI\u00d3N DEL PLAZO DE GARANT\u00cdA (HASTA 10 PUNTOS)",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "REDUCCI\u00d3N DEL PLAZO DE EJECUCI\u00d3N PREVISTO EN LA LICITACI\u00d3N (HASTA 10 PUNTOS)",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "MEJORAS AL PROYECTO (Hasta 80 Puntos)",
                         "cbc:WeightNumeric": "80"
-                    },
-                    {
-                        "cbc:Description": "AMPLIACI\u00d3N DEL PLAZO DE GARANT\u00cdA (HASTA 10 PUNTOS)",
-                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -194,6 +234,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-08"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONT 2018 4; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Adra; Importe: 680000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CONT 2018 4; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Adra; Importe: 680000 EUR; Estado: RES"
     },
     "title": "Servicio de gesti\u00f3n, organizaci\u00f3n, coordinaci\u00f3n y desarrollo de las actividades acu\u00e1ticas de la Piscina Cubierta de Adra y sus espacios complementarios, adem\u00e1s del mantenimiento integral para el correcto funcionamiento y mantener en perfectas condiciones higi\u00e9nicas de limpieza las instalaciones de la piscina cubierta municipal",
-    "updated": "2018-06-27T12:51:12.775+02:00",
+    "updated": "2019-02-27T14:43:33.197+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONT 2018 4",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de gesti\u00f3n, organizaci\u00f3n, coordinaci\u00f3n y desarrollo de las actividades acu\u00e1ticas de la Piscina Cubierta de Adra y sus espacios complementarios, adem\u00e1s del mantenimiento integral para el correcto funcionamiento y mantener en perfectas condiciones higi\u00e9nicas de limpieza las instalaciones de la piscina cubierta municipal",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -123,10 +123,62 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mayor puntuaci\u00f3n obtenida de acuerdo con los criterios establecidos en los Pliegos de Cl\u00e1usulas Administrativas y de Prescripciones T\u00e9cnicas que regulan el contrato.",
+            "cbc:AwardDate": "2018-10-10",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "699361.08"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "789855.98"
+            },
+            "cbc:StartDate": "2018-12-10",
+            "cac:Contract": {
+                "cbc:ID": "CONT 2018 4",
+                "cbc:IssueDate": "2018-11-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A80364243"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CLECE S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "652773.54"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "789855.98"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "true",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -136,13 +188,6 @@
                         "@currencyID": "EUR",
                         "#text": "20400"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -156,13 +201,19 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-GESTMEDIOAMB"
+                            "#text": "XXR-SUBCONT"
                         }
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "OXR-MEDIOS"
+                        }
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-GESTMEDIOAMB"
                         }
                     },
                     {
@@ -174,7 +225,7 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OXR-TITULOS"
                         }
                     },
                     {
@@ -186,19 +237,13 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
+                            "#text": "OSR-TECH"
                         }
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XXR-SUBCONT"
-                        }
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "XSX-CERTCALIDAD"
                         }
                     }
                 ],
@@ -206,13 +251,7 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
+                            "#text": "4"
                         }
                     },
                     {
@@ -224,7 +263,7 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "3"
                         }
                     },
                     {
@@ -232,9 +271,21 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                             "#text": "5"
                         }
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "6"
+                        }
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "13"
+                        }
+                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -250,7 +301,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "2"
                         }
                     },
                     {
@@ -268,13 +319,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "13"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "3"
                         }
                     }
                 ]
@@ -285,8 +330,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Precio del Contrato",
+                        "cbc:WeightNumeric": "55"
+                    },
+                    {
+                        "cbc:Description": "Mejoras no cuantificables econ\u00f3micamente",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Memoria T\u00e9cnica",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Cl\u00e1usulas Sociales y Medioambientales",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Justificaci\u00f3n de la utilizaci\u00f3n de m\u00e1quinas, equipos y medios materiales auxiliares",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Desarrollo pormenorizado de la limpieza y mantenimiento integral de la piscina e instalaciones objeto del contrato",
@@ -295,22 +356,6 @@
                     {
                         "cbc:Description": "Mejoras valoradas econ\u00f3micamente",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Justificaci\u00f3n de la utilizaci\u00f3n de m\u00e1quinas, equipos y medios materiales auxiliares",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Mejoras no cuantificables econ\u00f3micamente",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Cl\u00e1usulas Sociales y Medioambientales",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Precio del Contrato",
-                        "cbc:WeightNumeric": "55"
                     }
                 ]
             },
@@ -370,6 +415,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -388,6 +445,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-27"
                     }
                 }
             }

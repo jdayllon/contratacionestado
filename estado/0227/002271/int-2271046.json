@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01138; \u00d3rgano de Contrataci\u00f3n: Distrito de Hortaleza; Importe: 5152782.63 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2018/01138; \u00d3rgano de Contrataci\u00f3n: Distrito de Hortaleza; Importe: 5152782.63 EUR; Estado: ADJ"
     },
     "title": "Prestaci\u00f3n del servicio educativo de las escuelas infantiles sitas en la calle Pr\u00edncipe Carlos y avenida Secundino Zuazo, 34 del Distrito de Hortaleza, con servicio de desayuno, comida y merienda que incorporen productos de comercio justo, a adjudicar por procedimiento abierto en dos lotes",
-    "updated": "2018-10-01T15:56:08.458+02:00",
+    "updated": "2019-02-04T17:34:46.454+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01138",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,17 +110,68 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": {
+            "cbc:ID": {
+                "@schemeName": "ID_LOTE",
+                "#text": "1"
+            },
+            "cac:ProcurementProject": {
+                "cbc:Name": "Prestaci\u00f3n servicio educativo escuela infantil sita en la calle Pr\u00edncipe Carlos del Distrito de Hortaleza con servicio de desayuno, comida y merienda que incorporen productos de comercio justo",
+                "cac:BudgetAmount": {
+                    "cbc:TotalAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2544857.28"
+                    },
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2544857.28"
+                    }
+                },
+                "cac:RequiredCommodityClassification": {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "80110000"
+                    }
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser el licitador que ha presentado la oferta m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2019-02-04",
+            "cbc:ReceivedTenderQuantity": "14",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B80958101"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Clima educaci\u00f3n infantil S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cbc:ProcurementProjectLotID": "1",
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2261136.62"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2261136.62"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
-                    },
-                    "cbc:AmountRate": "1"
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -134,6 +185,13 @@
                         "#text": "2"
                     },
                     "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:AmountRate": "1"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -156,14 +214,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Introducci\u00f3n de alimentaci\u00f3n col\u00f3gica",
-                        "cbc:WeightNumeric": "9"
-                    },
-                    {
-                        "cbc:Description": "Proyecto de iniciaci\u00f3n al ingl\u00e9s para el nivel 2-3 a\u00f1os",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Proyecto de gesti\u00f3n educativa y organizativa del centro",
                         "cbc:WeightNumeric": "60"
                     },
@@ -172,8 +222,16 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
+                        "cbc:Description": "Proyecto de iniciaci\u00f3n al ingl\u00e9s para el nivel 2-3 a\u00f1os",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "SOCIAL",
                         "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Introducci\u00f3n de alimentaci\u00f3n col\u00f3gica",
+                        "cbc:WeightNumeric": "9"
                     }
                 ]
             },
@@ -247,6 +305,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -269,6 +339,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-10-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-22"
                         }
                     ]
                 }

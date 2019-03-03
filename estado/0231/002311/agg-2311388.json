@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 038/2018/ARM/AT;  \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n ;  Importe: 1018509.23EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 038/2018/ARM/AT;  \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n ;  Importe: 1018509.23EUR;  Estado: ADJ"
     },
     "title": "SERVICIOS PARA LA REALIZACI\u00d3N DEL CONTROL DE CALIDAD DE LA OBRA DEL PROYECTO DE CONSTRUCCI\u00d3N DE LA INFRAESTRUCTURA DE LA VARIANTE SUR METROPOLITANA, TRAMO 9B, BOLINTXU-VENTA ALTA",
-    "updated": "2018-09-21T10:40:41.102+02:00",
+    "updated": "2019-02-25T15:41:01.430+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "038/2018/ARM/AT",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -36,7 +36,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios control de calidad de las obras del proyecto de construcci\u00f3n del tramo 9B, Bolintxu-Venta Alta, de la fase I de la VSM, Lote 1- Subtramo 9B-1 y Lote 2- Subtramo 9B-2",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cac:BudgetAmount": {
@@ -68,6 +68,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "U95939716"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UTE EUSKONTROL, S.A.; APLLUS NORCONTROL, S.L.U.:TEKNES INNOVACI\u00d3N, S.L.,, Ley 18/1982, UTE CALIDAD BOLINTXU-VENTA ALTA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "763360.83"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -94,17 +120,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-07-25"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-07-25"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-25"
+                    }
                 }
             }
-        }
+        ]
     }
 }

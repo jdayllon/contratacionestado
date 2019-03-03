@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 30/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Sanxenxo; Importe: 1285601.36 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 30/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Sanxenxo; Importe: 1285601.36 EUR; Estado: RES"
     },
     "title": "Obra del \u201cCentro Socio-Cultural y de la Tercera Edad de \"O Revel\".",
-    "updated": "2018-11-23T15:43:59.739+01:00",
+    "updated": "2019-02-22T14:39:20.180+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "30/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -36,7 +36,7 @@
                     "cbc:CityName": "Sanxenxo",
                     "cbc:PostalZone": "36960",
                     "cac:AddressLine": {
-                        "cbc:Line": "R\u00faa Consistorio, 4-6"
+                        "cbc:Line": "Madrid, 1"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -107,6 +107,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Plica que obtiene la mayor puntuaci\u00f3n y no incurre en baja desproporcionada.",
+            "cbc:AwardDate": "2019-01-21",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1370930.58"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1547644.2"
+            },
+            "cbc:StartDate": "2019-02-14",
+            "cac:Contract": {
+                "cbc:ID": "30/2018",
+                "cbc:IssueDate": "2019-02-13"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A08190696"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "COPCISA SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1133000.48"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1370930.58"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -142,13 +187,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
                         }
                     },
                     {
@@ -160,7 +199,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     }
                 ]
@@ -168,24 +213,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n de la obra",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "MEMORIA T\u00c9CNICA DESCRIPTIVA CONSTRUCTIVA DE LA OBRA",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Incremento plazo garant\u00eda",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "MEMORIA T\u00c9CNICA DESCRIPTIVA CONSTRUCTIVA DE LA OBRA",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n del plazo de ejecuci\u00f3n de la obra",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -243,6 +288,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -261,6 +318,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-22"
                     }
                 }
             }

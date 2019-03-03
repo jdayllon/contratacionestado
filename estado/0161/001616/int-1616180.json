@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: SYS/0120/17; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas; Importe: 30000 EUR; Estado: RES"
     },
     "title": "Prestaci\u00f3n de soporte t\u00e9cnico a usuarios (Help Desk), incluyendo los servicios de resoluci\u00f3n de incidencias ofim\u00e1ticas e instalaciones de software y hardware",
-    "updated": "2018-02-08T13:43:17.351+01:00",
+    "updated": "2019-02-28T15:35:40.487+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SYS/0120/17",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -23,12 +23,6 @@
             },
             "cac:Party": {
                 "cbc:WebsiteURI": "http://www.fiiapp.org",
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "DIR3",
-                        "#text": "EA0008371"
-                    }
-                },
                 "cac:PartyName": {
                     "cbc:Name": "Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas"
                 },
@@ -50,12 +44,32 @@
                     "cbc:Name": "Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas",
                     "cbc:ElectronicMail": "fiiapp@fiiapp.org"
                 }
+            },
+            "cac-place-ext:ParentLocatedParty": {
+                "cac:PartyName": {
+                    "cbc:Name": "Ministerio de Asuntos Exteriores y de Cooperaci\u00f3n"
+                },
+                "cac-place-ext:ParentLocatedParty": {
+                    "cac:PartyName": {
+                        "cbc:Name": "SOCIEDADES, FUNDACIONES y CONSORCIOS ESTATALES"
+                    },
+                    "cac-place-ext:ParentLocatedParty": {
+                        "cac:PartyName": {
+                            "cbc:Name": "OTRAS ENTIDADES DEL SECTOR P\u00daBLICO"
+                        },
+                        "cac-place-ext:ParentLocatedParty": {
+                            "cac:PartyName": {
+                                "cbc:Name": "Sector P\u00fablico"
+                            }
+                        }
+                    }
+                }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Prestaci\u00f3n de soporte t\u00e9cnico a usuarios (Help Desk), incluyendo los servicios de resoluci\u00f3n de incidencias ofim\u00e1ticas e instalaciones de software y hardware",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -181,7 +195,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -263,7 +277,43 @@
                         "cbc:IssueDate": "2018-02-08"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-28"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "23818",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:ContractID": "CTTO/033/2017",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "23100"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "46200"
+                }
+            }
+        }
     }
 }

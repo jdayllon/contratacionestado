@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 87/pas/ser/18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Suma Gesti\u00f3n Tributaria. Diputaci\u00f3n de Alicante; Importe: 33055.24 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 87/pas/ser/18; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Suma Gesti\u00f3n Tributaria. Diputaci\u00f3n de Alicante; Importe: 33055.24 EUR; Estado: RES"
     },
     "title": "Servicio de valija para la distribuci\u00f3n de la documentaci\u00f3n producida en la Oficina Central y Oficinas Tributarias.",
-    "updated": "2018-11-29T14:05:05.637+01:00",
+    "updated": "2019-01-25T14:54:41.153+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "87/pas/ser/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -113,11 +113,62 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Es la oferta m\u00e1s ventajosa respecto a los criterios de mejora en la cobertura de seguro de transporte de mercanc\u00edas, de acceso a seguimiento online y de medidas de control de manipulado de la documentaci\u00f3n.",
+            "cbc:AwardDate": "2019-01-11",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "23938.2"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "29854.8"
+            },
+            "cac:Contract": {
+                "cbc:ID": "87/pas/ser/18",
+                "cbc:IssueDate": "2019-01-17"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B97006258"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LOGINLE SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "28404"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "34368.84"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "Compromiso de adscripci\u00f3n de medios materiales y personales"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -131,13 +182,6 @@
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "la experiencia en servicios del mismo tipo o naturaleza que corresponda al objeto del contrato, efectuados en los \u00faltimos tres a\u00f1os, exigi\u00e9ndose al menos que el importe anual  acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea igual o superior al 70% de la anualidad media del contrato"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
-                        "cbc:Description": "Compromiso de adscripci\u00f3n de medios materiales y personales"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -148,12 +192,6 @@
                     "cbc:Description": "Los licitadores deber\u00e1n acreditar su volumen anual de negocio que referido al a\u00f1o de mayor volumen de negocio de los tres \u00faltimos disponibles concluidos, deber\u00e1 ser al menos 1,5 veces el valor total estimado de la licitaci\u00f3n"
                 },
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -169,23 +207,25 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Medidas de control del manipulado de la documentaci\u00f3n",
-                        "cbc:WeightNumeric": "2.5"
-                    },
                     {
                         "cbc:Description": "Acceso a seguimiento on line",
                         "cbc:WeightNumeric": "5"
@@ -199,12 +239,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Medidas de seguridad",
+                        "cbc:Description": "Medidas de control del manipulado de la documentaci\u00f3n",
                         "cbc:WeightNumeric": "2.5"
                     },
                     {
                         "cbc:Description": "La oferta m\u00e1s econ\u00f3mica",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Medidas de seguridad",
+                        "cbc:WeightNumeric": "2.5"
                     }
                 ]
             },
@@ -305,6 +349,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -323,6 +379,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-25"
                     }
                 }
             }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 25/2018/CON; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Dos Hermanas; Importe: 110662 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 25/2018/CON; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Dos Hermanas; Importe: 110662 EUR; Estado: RES"
     },
     "title": "Suministro de Vestuario para distintos Servicios de la Delegaci\u00f3n de Movilidad del Ayuntamiento de Dos Hermanas",
-    "updated": "2018-10-12T09:30:28.222+02:00",
+    "updated": "2019-02-07T14:00:50.267+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "25/2018/CON",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -267,6 +267,10 @@
                     "@currencyID": "EUR",
                     "#text": "14727.84"
                 },
+                "cac:Contract": {
+                    "cbc:ID": "25/2018/CON",
+                    "cbc:IssueDate": "2018-09-07"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -307,6 +311,10 @@
                 "cbc:HigherTenderAmount": {
                     "@currencyID": "EUR",
                     "#text": "6049.78"
+                },
+                "cac:Contract": {
+                    "cbc:ID": "25/2018/CON",
+                    "cbc:IssueDate": "2018-09-06"
                 },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
@@ -366,16 +374,16 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Oferta Econ\u00f3mica",
-                        "cbc:WeightNumeric": "35"
-                    },
-                    {
                         "cbc:Description": "Servicio Post-Venta",
                         "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Plaza de garant\u00eda",
                         "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "35"
                     }
                 ]
             },
@@ -509,9 +517,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-12"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-19"
+                        }
+                    ]
                 }
             },
             {
@@ -574,8 +590,28 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-19"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-11"
+                        "cbc:IssueDate": "2019-02-07"
                     }
                 }
             },
@@ -591,6 +627,23 @@
                     }
                 }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Modificaci\u00f3n Importes",
+            "cbc:ContractID": "25/2018/CON",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "4738.86"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "37788.86"
+                }
+            }
+        }
     }
 }

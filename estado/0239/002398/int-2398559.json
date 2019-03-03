@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/C003/0006; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Concello de Tordoia; Importe: 33569.54 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/C003/0006; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Concello de Tordoia; Importe: 33569.54 EUR; Estado: RES"
     },
     "title": "Cami\u00f1o Pint\u00e1n a Castro (Gorgullos) e outro",
-    "updated": "2018-09-06T12:27:42.591+02:00",
+    "updated": "2019-01-24T13:47:09.305+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/C003/0006",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Cami\u00f1o Pint\u00e1n a Castro (Gorgullos) e outro",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mejor puntuacion segun criterios de valoracion del PCAP",
+            "cbc:AwardDate": "2018-11-21",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "30099.17"
+            },
+            "cbc:StartDate": "2018-11-29",
+            "cac:Contract": {
+                "cbc:ID": "2018/C003/0006",
+                "cbc:IssueDate": "2018-11-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B15608193"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "OBRAS Y VIALES DE GALICIA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30099.17"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "36420"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -121,19 +166,31 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "8"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "programa de trabajo",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Oferta economica",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "igualdad",
+                        "cbc:WeightNumeric": "20"
+                    },
                     {
                         "cbc:Description": "programa de actuacion ambiental",
                         "cbc:WeightNumeric": "5"
@@ -143,12 +200,8 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "programa de trabajo",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "igualdad",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "plan de control de calidad",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "esquema del plan de seguridad y salud",
@@ -157,14 +210,6 @@
                     {
                         "cbc:Description": "incremento plazo garantia",
                         "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Oferta economica",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "plan de control de calidad",
-                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -212,6 +257,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -228,8 +285,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-22"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-06"
+                        "cbc:IssueDate": "2019-01-24"
                     }
                 }
             }

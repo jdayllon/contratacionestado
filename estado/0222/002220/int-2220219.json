@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 47/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno  del Ayuntamiento de Torrevieja; Importe: 562380 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 47/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno  del Ayuntamiento de Torrevieja; Importe: 562380 EUR; Estado: EV"
     },
     "title": "Contrataci\u00f3n del servicio de ayuda a domicilio",
-    "updated": "2018-06-16T09:32:31.722+02:00",
+    "updated": "2019-02-04T13:08:35.573+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "47/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -47,14 +47,14 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Junta de Gobierno  del Ayuntamiento de Torrevieja",
-                    "cbc:ElectronicMail": "mbaeza@torrevieja.eu"
+                    "cbc:ElectronicMail": "contratacion@torrevieja.eu"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n del servicio de ayuda a domicilio",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -96,10 +96,58 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "4"
+                }
+            },
+            "cac:ContractExtension": {
+                "cbc:OptionsDescription": "La duraci\u00f3n ser\u00e1 de 4 a\u00f1os, prorrogables anualmente por dos a\u00f1os m\u00e1s, hasta un m\u00e1ximo de seis a\u00f1os, duraci\u00f3n mayor a la regla general de cinco a\u00f1os por tratarse de un contrato de servicios relativos a servicios a las personas.",
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "Duraci\u00f3n del contrato 4 a\u00f1os prorrogable anualmente por dos a\u00f1os mas"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "La establecida en el apartado 14 del pliego de cl\u00e1usulas administrativas"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "La establecida en el apartado 14 del pliego de cl\u00e1usulas administrativas"
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "CRITERIOS DE CALIDAD Y DOCUMENTACI\u00d3N T\u00c9CNICA",
+                        "cbc:WeightNumeric": "51"
+                    },
+                    {
+                        "cbc:Description": "OTROS CRITERIOS",
+                        "cbc:WeightNumeric": "49"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -112,9 +160,47 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "2"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2018-12-03",
+                "cbc:EndTime": "13:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-12-03",
+                "cbc:EndTime": "13:00:00"
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PLIEGO ADMINISTRATIVO.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ec2b008f-8440-4762-a29e-1358efdb39f0",
+                    "cbc:DocumentHash": "GlRQSvzwNV7vMIKoYrQUX7bjUQs="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PLIEGO TECNICO.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8f37b10c-fcbc-41b5-bb6f-00a2881d69dc",
+                    "cbc:DocumentHash": "5g/VHWL+TuJLjNzwO99G48tyusY="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-14"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -125,6 +211,38 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-16"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-14"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-04"
+                        }
+                    ]
                 }
             },
             {

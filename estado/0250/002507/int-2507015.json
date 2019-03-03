@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CNMY18/SUBSE/31; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Generalitat; Importe: 16986.1 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CNMY18/SUBSE/31; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Generalitat; Importe: 16986.1 EUR; Estado: RES"
     },
     "title": "Servicio de mudanzas y transporte de materiales y documentaci\u00f3n en la Presidencia de la Generalitat.",
-    "updated": "2018-10-10T15:06:10.480+02:00",
+    "updated": "2019-01-11T14:38:19.897+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CNMY18/SUBSE/31",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -111,6 +111,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Proposici\u00f3 millor puntuada.",
+            "cbc:AwardDate": "2018-12-27",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2018-12-28",
+            "cac:Contract": {
+                "cbc:ID": "CNMY18/SUBSE/31",
+                "cbc:IssueDate": "2018-12-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B96265863"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Radiotransportes el Propietario S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "16986.1"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "20553.18"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -125,20 +162,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Tiempo de respuesta a la socitud del servicio.",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Utilizaci\u00f3n de cajas de cart\u00f3n reciclado",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Disponibilidad de servicio de almacenaje.",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Tiempo de respuesta a la socitud del servicio.",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Disponibilidad de servicio de almacenaje.",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -195,6 +232,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -213,6 +262,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-11"
                     }
                 }
             }

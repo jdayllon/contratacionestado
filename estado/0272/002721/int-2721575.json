@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 19/2018 abierto simplificado y sumario; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Santib\u00e1\u00f1ez El Alto; Importe: 28388.43 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 19/2018 abierto simplificado y sumario; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Santib\u00e1\u00f1ez El Alto; Importe: 28388.43 EUR; Estado: ADJ"
     },
     "title": "adquisici\u00f3n de un veh\u00edculo tipo tractor por procedimiento abierto simplificado sumario",
-    "updated": "2018-11-29T18:13:43.108+01:00",
+    "updated": "2019-02-23T11:23:48.179+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "19/2018 abierto simplificado y sumario",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -117,17 +117,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "son caracter\u00edsticas y ventajas determinantes de que hayan sido seleccionadas las ofertas presentadas por los citados adjudicatarios con preferencia a las presentadas por los restantes licitadores cuyas ofertas fueron admitidas, las siguientes: \n\n\n\n\nLicitador\toferta\nbesana extreme\u00f1a sl\tprecio: 33.585\nplazo de garantia: 3 a\u00f1asistencia tecnica: 24 horas\nservicio tecnico: plasencia\nagricola el prado sl.\tprecio: 33.577,5\nplazo de garantia: 2 a\u00f1os\nasistencia tecnica: 24 horas\nservicio tecnico plasencia",
+            "cbc:AwardDate": "2018-12-20",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B10189637"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "BESANA EXTREME\u00d1A SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "27757"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "33585.97"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -139,13 +165,19 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "mejor asistencia t\u00e9cnica",
+                        "cbc:Description": "mayor plazo de garant\u00eda",
                         "cbc:WeightNumeric": "15"
                     },
                     {
@@ -153,7 +185,7 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "mayor plazo de garant\u00eda",
+                        "cbc:Description": "mejor asistencia t\u00e9cnica",
                         "cbc:WeightNumeric": "15"
                     }
                 ]
@@ -208,6 +240,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-23"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01405; \u00d3rgano de Contrataci\u00f3n: Distrito de Tetu\u00e1n; Importe: 136524.01 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2018/01405; \u00d3rgano de Contrataci\u00f3n: Distrito de Tetu\u00e1n; Importe: 136524.01 EUR; Estado: RES"
     },
     "title": "Medidas educativas de prevenci\u00f3n e intervenci\u00f3n para la reducci\u00f3n del absentismo escolar en el Distrito de Tetu\u00e1n",
-    "updated": "2018-11-19T14:45:43.924+01:00",
+    "updated": "2019-01-28T14:56:19.734+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01405",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,6 +108,83 @@
                 "cbc:OptionsDescription": "El contrato podr\u00e1 prorrogarse hasta un m\u00e1ximo de 12 meses, sin que la duraci\u00f3n del contrato, incluida la pr\u00f3rroga, pueda ser superior a 36 meses"
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Orientaci\u00f3n vocacional, acad\u00e9mica y profesional",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "59270.12"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "53881.93"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "80000000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Mediaci\u00f3n Educativa con poblaci\u00f3n gitana con absentismo escolar",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "90906.29"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "82642.08"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "80000000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2019-01-28",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "Exclu\u00edda la \u00fanica oferta presentada al Lote n\u00famero 2 al ofertar un precio superior al presupuesto base de licitaci\u00f3n de dicho Lote n\u00famero 2",
+                "cbc:AwardDate": "2019-01-28",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -115,16 +192,16 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "1"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "1"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -153,16 +230,16 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
+                        "cbc:Description": "Mejoras t\u00e9cnicas",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Criterios sociales",
                         "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "Mejoras t\u00e9cnicas",
-                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -210,6 +287,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-28"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -226,9 +315,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-19"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-12"
+                        }
+                    ]
                 }
             }
         ]

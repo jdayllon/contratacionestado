@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: P4105200B-2018/000120-PAA; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Lantejuela; Importe: 57851.24 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: P4105200B-2018/000120-PAA; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Lantejuela; Importe: 57851.24 EUR; Estado: RES"
     },
     "title": "obras de reurbanizaci\u00f3n de un tramo de la calle ntro padre jesus de lantejuela (sevilla), supera vi.",
-    "updated": "2018-09-28T14:38:01.635+02:00",
+    "updated": "2019-01-10T12:35:28.847+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "P4105200B-2018/000120-PAA",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -129,7 +129,44 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "no especificado",
+            "cbc:AwardDate": "2019-01-09",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "120/2018.1",
+                "cbc:IssueDate": "2019-01-10"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B91114900"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "URMA S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "41688.36"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "50442.92"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Solvencia Tecnica: La Exigida en el Pliego de Cl\u00e1usulas Administrativas Particulares  Solvencia Economica: La Exigida en el Pliego de Cl\u00e1usulas Administrativas Particulares"
             },
@@ -169,26 +206,63 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "PROYECTO.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b33ed1b2-a7ea-4038-9f6c-cca5d9512802",
-                    "cbc:DocumentHash": "uwApmihOM7X3WffUy8HE2fIZphM="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "PROYECTO.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b33ed1b2-a7ea-4038-9f6c-cca5d9512802",
+                        "cbc:DocumentHash": "uwApmihOM7X3WffUy8HE2fIZphM="
+                    }
                 }
-            }
-        },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-28"
+            {
+                "cbc:ID": "1547109439039_Proyecto_T_cnico_de_Obras.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ffab9f0a-1254-43b9-9beb-d3df6baa4be7",
+                        "cbc:DocumentHash": "NInRijLzWJA+uWBUDR/Z9WPM83c="
+                    }
                 }
             }
-        }
+        ],
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-28"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-10"
+                    }
+                }
+            }
+        ]
     }
 }

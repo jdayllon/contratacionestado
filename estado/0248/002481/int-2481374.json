@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EXP2018/16; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de San Agust\u00edn del Guadalix; Importe: 46331.46 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: EXP2018/16; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de San Agust\u00edn del Guadalix; Importe: 46331.46 EUR; Estado: RES"
     },
     "title": "Mantenimiento de equipos, sistemas inform\u00e1ticos y web (2018)",
-    "updated": "2018-10-03T09:39:17.375+02:00",
+    "updated": "2019-01-10T12:40:30.453+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EXP2018/16",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,6 +112,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Haber obtenido la puntuaci\u00f3n m\u00e1s alta.",
+            "cbc:AwardDate": "2018-12-05",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:StartDate": "2019-01-11",
+            "cac:Contract": {
+                "cbc:ID": "11/2018",
+                "cbc:IssueDate": "2019-01-10"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B84892777"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "WEBSISTEMS SOLUCIONES INFORM\u00c1TICAS, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39900"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "48279"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -127,6 +164,13 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-TITULOS"
+                        },
+                        "cbc:Description": "Se considerar\u00e1 acreditada \u00e9sta solvencia por aquellos licitadores que acrediten que el personal propuesto para la ejecuci\u00f3n del contrato posee titulaci\u00f3n y/o cursos relacionados con el mantenimiento de instalaciones inform\u00e1ticas."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-TECH"
                         },
                         "cbc:Description": "Se considerar\u00e1 acreditada \u00e9sta solvencia por aquellos licitadores que acrediten que el personal propuesto para la ejecuci\u00f3n del contrato tiene experiencia en la gesti\u00f3n de instalaciones inform\u00e1ticas similares por un m\u00ednimo de 6 meses."
@@ -137,13 +181,6 @@
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Los licitadores deber\u00e1n presentar al menos un certificado de alg\u00fan organismo p\u00fablico o privado en el que hayan prestado servicios similares, por una cuant\u00eda m\u00ednima igual al presupuesto de licitaci\u00f3n anual. Podr\u00e1n presentarse varios certificados que sumados alcance dicha cifra."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
-                        },
-                        "cbc:Description": "Se considerar\u00e1 acreditada \u00e9sta solvencia por aquellos licitadores que acrediten que el personal propuesto para la ejecuci\u00f3n del contrato posee titulaci\u00f3n y/o cursos relacionados con el mantenimiento de instalaciones inform\u00e1ticas."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -157,8 +194,8 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "Caracter\u00edsticas t\u00e9cnicas y calidad de la oferta",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Mejoras",
@@ -169,8 +206,8 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Caracter\u00edsticas t\u00e9cnicas y calidad de la oferta",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -188,11 +225,11 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2018-10-18",
+                "cbc:EndDate": "2018-10-26",
                 "cbc:EndTime": "13:30:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-18",
+                "cbc:EndDate": "2018-10-26",
                 "cbc:EndTime": "13:30:00"
             }
         },
@@ -206,11 +243,11 @@
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "PPTP equipos informaticos 2017.pdf",
+            "cbc:ID": "PPTP mantenimiento equipos informaticos 2018.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=224c2f4d-d6da-43cf-bb8e-b0b65461a7a7",
-                    "cbc:DocumentHash": "dQ1D0FyNX0ElG7NucHqvzKG5Qaw="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=85969f2c-5b4d-4372-9fa3-407eb4793822",
+                    "cbc:DocumentHash": "b0nOeNI94Zb0hXnySaaXVbar0cs="
                 }
             }
         },
@@ -227,13 +264,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-03"
+                        "cbc:IssueDate": "2018-12-13"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-11"
+                        }
+                    ]
                 }
             },
             {
@@ -243,8 +297,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-11"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-03"
+                        "cbc:IssueDate": "2019-01-10"
                     }
                 }
             }

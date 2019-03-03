@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA-SARA 2018/07; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Oviedo; Importe: 1600000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA-SARA 2018/07; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Oviedo; Importe: 1600000 EUR; Estado: ADJ"
     },
     "title": "Servicio de Producci\u00f3n documental en Centros de Reprograf\u00eda, Puntos de Autoservicio y Servicios Administrativos de la Universidad de Oviedo",
-    "updated": "2018-12-23T08:46:30.251+01:00",
+    "updated": "2019-02-22T14:29:41.148+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA-SARA 2018/07",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Es el licitador que presenta la oferta con mejor relaci\u00f3n calidad precio y como consecuencia obtiene la puntuaci\u00f3n m\u00e1s alta por aplicaci\u00f3n de los criterios de valoraci\u00f3n establecidos en los pliegos.",
+            "cbc:AwardDate": "2019-02-21",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "496676.26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B33532722"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NEA F3 MASTER SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "496676.26"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "496676.26"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -150,6 +190,14 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Propuesta t\u00e9cnica: Puesta en marcha y organizacion",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Incorporaci\u00f3n de nuevos equipos en el tercer, cuarto a\u00f1o y prorroga",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
                         "cbc:Description": "Propuesta t\u00e9cnica: Equipamiento ofertado",
                         "cbc:WeightNumeric": "8"
                     },
@@ -158,20 +206,12 @@
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Coste del servicio",
-                        "cbc:WeightNumeric": "70"
-                    },
-                    {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Incorporaci\u00f3n de nuevos equipos en el tercer, cuarto a\u00f1o y prorroga",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Propuesta t\u00e9cnica: Puesta en marcha y organizacion",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Coste del servicio",
+                        "cbc:WeightNumeric": "70"
                     }
                 ]
             },
@@ -254,6 +294,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-22"
                     }
                 }
             },

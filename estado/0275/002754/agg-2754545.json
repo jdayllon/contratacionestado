@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2754545",
     "link": {
-        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/notice.pscp?idDoc=40414099&reqCode=viewCn"
+        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/awardnotice.pscp?reqCode=viewPcan&idDoc=43005953&lawType=3"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: ag11/g526/18/19; \u00d3rgano de Contrataci\u00f3n: Ajuntament de Torredembarra; Importe: 0.00; Estado: EVALUACION"
+        "#text": "Id licitaci\u00f3n: ag11/g526/18/19; \u00d3rgano de Contrataci\u00f3n: Ajuntament de Torredembarra; Importe: 0.00; Estado: ADJUDICADA"
     },
     "title": "servei per la redacci\u00f3 de l'estudi t\u00e8cnic del condicionament de l'antiga N-340a, redacci\u00f3 del projecte d'obres del tram de l'antiga N-340 i direcci\u00f3 de les obres i coordinaci\u00f3 de seguretat i salut",
-    "updated": "2019-01-03T14:11:01.510+01:00",
+    "updated": "2019-02-20T16:11:27.154+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ag11/g526/18/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,6 +64,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "11",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "b62305248"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "philae ingenieria de proyectos sl"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29500"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -74,25 +100,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac:LegalDocumentReference": {
-            "cbc:ID": "pcap cn 340.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=4e865fb2a61e6126ce36e48e05d7b90a&fileId=40415682&capId=7831456&idTS=39674399"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-10"
+                    }
                 }
-            }
-        },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-20"
+                    }
                 }
             }
-        }
+        ]
     }
 }

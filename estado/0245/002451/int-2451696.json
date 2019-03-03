@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/UE/04; \u00d3rgano de Contrataci\u00f3n: Gerencia del Centro de Investigaci\u00f3n Biom\u00e9dica en Red (CIBER); Importe: 153000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/UE/04; \u00d3rgano de Contrataci\u00f3n: Gerencia del Centro de Investigaci\u00f3n Biom\u00e9dica en Red (CIBER); Importe: 153000 EUR; Estado: ADJ"
     },
     "title": "Servicio de gestor\u00eda y asesor\u00eda laboral",
-    "updated": "2018-09-23T18:08:12.107+02:00",
+    "updated": "2019-01-11T14:05:02.241+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/UE/04",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de gestor\u00eda y asesor\u00eda laboral",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -110,6 +110,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Es la oferta globalmente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-01-10",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "119999"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "141600"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85184042"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "HERRAIZ & PARTNERS CONSULTANTS SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "141600"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "171336"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -137,12 +177,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Servicio de respuesta en consultas y asesoramiento inmediato.",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
                         "cbc:Description": "Metodolog\u00eda para el env\u00edo de documentaci\u00f3n a los trabajadores",
                         "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "51"
                     },
                     {
                         "cbc:Description": "Experiencia en el Sector P\u00fablico en el \u00e1rea de la investigaci\u00f3n del personal adscrito al contrato (",
@@ -153,20 +193,20 @@
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Estructura y n\u00famero de personas con dedicaci\u00f3n exclusiva en el asesoramiento laboral y gesti\u00f3n de recursos humanos y su curricumun vitae",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Mecanismos que mejoren la eficiencia y supervisi\u00f3n del trabajo.(",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
                         "cbc:Description": "Mejoras propuestas en la metodolog\u00eda y reporte a la empresa",
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "51"
+                        "cbc:Description": "Estructura y n\u00famero de personas con dedicaci\u00f3n exclusiva en el asesoramiento laboral y gesti\u00f3n de recursos humanos y su curricumun vitae",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Servicio de respuesta en consultas y asesoramiento inmediato.",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Mecanismos que mejoren la eficiencia y supervisi\u00f3n del trabajo.(",
+                        "cbc:WeightNumeric": "6"
                     }
                 ]
             },
@@ -207,6 +247,30 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-03"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-11"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

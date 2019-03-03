@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 940/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Picassent; Importe: 54000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 940/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Picassent; Importe: 54000 EUR; Estado: RES"
     },
     "title": "Servicio de mantenimiento preventivo y correctivo de las instalaciones del Polideportivo Municipal.",
-    "updated": "2018-11-29T15:15:34.295+01:00",
+    "updated": "2019-02-05T14:51:38.986+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "940/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -120,6 +120,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se formaliza el contrato con el adjudicatario que ha presentado  la oferta m\u00e1s ventajosa conforme a los criterios de adjudicaci\u00f3n y que cumple con los requisitos exigidos en los pliegos.",
+            "cbc:AwardDate": "2019-01-16",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2019-02-01",
+            "cac:Contract": {
+                "cbc:ID": "5/2019",
+                "cbc:IssueDate": "2019-01-31"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B96745492"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Verdu Masip Servicios S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "45044.25"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "54503.54"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -137,19 +174,19 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
                         "#text": "1"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
                         "#text": "0"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -171,6 +208,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
@@ -183,19 +226,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     }
                 ]
@@ -207,16 +244,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "1. Precio del mantenimiento preventivo m\u00e1s bajo",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
-                        "cbc:Description": "3. Compromiso de asumir, sin coste para el Ayuntamiento, el mantenimiento correctivo",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "2. Descuento medio aplicable a los grupos de materiales",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "6. Mejora de la periodicidad de las revisiones en los apartados 1 a 7",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "5. Disposici\u00f3n de un sistema inform\u00e1tico",
@@ -227,8 +260,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "6. Mejora de la periodicidad de las revisiones en los apartados 1 a 7",
-                        "cbc:WeightNumeric": "2"
+                        "cbc:Description": "3. Compromiso de asumir, sin coste para el Ayuntamiento, el mantenimiento correctivo",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "1. Precio del mantenimiento preventivo m\u00e1s bajo",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -285,6 +322,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -303,6 +352,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
                     }
                 }
             }

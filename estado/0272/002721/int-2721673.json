@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 000041/2018-CNT; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Quart de Poblet; Importe: 47600 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 000041/2018-CNT; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Quart de Poblet; Importe: 47600 EUR; Estado: RES"
     },
     "title": "Cerramiento perimetral y equipamiento de la Pista Polideportiva en el CEIP Villar Palas\u00ed de Quart de Poblet.",
-    "updated": "2018-11-29T14:47:32.742+01:00",
+    "updated": "2019-02-19T16:10:20.627+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "000041/2018-CNT",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta ventajosa",
+            "cbc:AwardDate": "2019-01-28",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "000041/2018-CNT",
+                "cbc:IssueDate": "2019-02-18"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B98285661"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Orea Valencia S.L"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "47600"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "57596"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,23 +158,27 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         },
-                        "cbc:Description": "Justificante de la existencia de un seguro de indemnizaci\u00f3n por riesgos profesionales. El adjudicatario firmar\u00e1 compromiso de la tenencia del seguro con una vigencia temporal que cubra las reclamaciones que se produzcan en los diez a\u00f1os siguientes a la recepci\u00f3n del proyecto por la Administraci\u00f3n."
+                        "cbc:Description": "Volumen anual de negocio del licitador o candidato referido a los tres \u00faltimos a\u00f1os por importe igual o superior al de licitaci\u00f3n."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "3"
                         },
-                        "cbc:Description": "Volumen anual de negocio del licitador o candidato referido a los tres \u00faltimos a\u00f1os por importe igual o superior al de licitaci\u00f3n."
+                        "cbc:Description": "Justificante de la existencia de un seguro de indemnizaci\u00f3n por riesgos profesionales. El adjudicatario firmar\u00e1 compromiso de la tenencia del seguro con una vigencia temporal que cubra las reclamaciones que se produzcan en los diez a\u00f1os siguientes a la recepci\u00f3n del proyecto por la Administraci\u00f3n."
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Ampliaci\u00f3n plazo garant\u00eda",
+                        "cbc:Description": "Plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Metodolog\u00eda",
                         "cbc:WeightNumeric": "20"
                     },
                     {
@@ -150,11 +190,7 @@
                         "cbc:WeightNumeric": "45"
                     },
                     {
-                        "cbc:Description": "Plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Metodolog\u00eda",
+                        "cbc:Description": "Ampliaci\u00f3n plazo garant\u00eda",
                         "cbc:WeightNumeric": "20"
                     }
                 ]
@@ -228,6 +264,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-30"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -246,6 +294,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-19"
                     }
                 }
             }

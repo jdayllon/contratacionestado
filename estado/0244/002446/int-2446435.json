@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1/19; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de la Oficina Presupuestaria y de Gesti\u00f3n Econ\u00f3mica; Importe: 160037.5 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1/19; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de la Oficina Presupuestaria y de Gesti\u00f3n Econ\u00f3mica; Importe: 160037.5 EUR; Estado: ADJ"
     },
     "title": "Servicio de mantenimiento de las instalaciones el\u00e9ctricas   del Complejo de la Moncloa",
-    "updated": "2018-09-27T08:05:24.254+02:00",
+    "updated": "2019-01-09T14:21:30.156+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -121,6 +121,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta m\u00e1s ventajosa que cumple los criterios del PPT",
+            "cbc:AwardDate": "2018-12-27",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A80364243"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CLECE, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "106426"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "128775.46"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -143,12 +175,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Programa inform\u00e1tico",
+                        "cbc:Description": "Experiencia del personal propuesto",
+                        "cbc:WeightNumeric": "2.5"
+                    },
+                    {
+                        "cbc:Description": "Mejoras relaci\u00f3n con los medios",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Valoraci\u00f3n de la memoria t\u00e9cnica",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Programa inform\u00e1tico",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Formaci\u00f3n del personal",
@@ -159,12 +195,8 @@
                         "cbc:WeightNumeric": "60"
                     },
                     {
-                        "cbc:Description": "Mejoras relaci\u00f3n con los medios",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Experiencia del personal propuesto",
-                        "cbc:WeightNumeric": "2.5"
+                        "cbc:Description": "Valoraci\u00f3n de la memoria t\u00e9cnica",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -255,11 +287,11 @@
                 }
             },
             {
-                "cbc:ID": "DEUC_1_19.rar",
+                "cbc:ID": "DEUC.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=52cb4435-13a8-4314-b8a0-1e54c3cc55e4",
-                        "cbc:DocumentHash": "Jy3FIO8ew17mD9+yOo2zVTngD58="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6eae5e19-3624-4472-98ab-a1d9710b465d",
+                        "cbc:DocumentHash": "btNAv/IunsDi4H+cfedv2bSUVsQ="
                     }
                 }
             }
@@ -285,13 +317,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-09-20"
+                        "cbc:IssueDate": "2019-01-09"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-17"
+                        }
+                    ]
                 }
             },
             {

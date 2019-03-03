@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2144/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Arrecife; Importe: 210000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2144/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Arrecife; Importe: 210000 EUR; Estado: ADJ"
     },
     "title": "suministro y mantenimiento del servicio gestionado de impresi\u00f3n, escaneado y fotocopiado de documentos con la modalidad de coste por copia del Excelent\u00edsimo Ayuntamiento de Arrecife",
-    "updated": "2018-10-03T14:46:31.931+02:00",
+    "updated": "2019-02-15T18:36:14.724+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2144/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -109,6 +109,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El adjudicatario esta obligado a respetar los precios maximos unitarios  y demas caracteristicas ofertadas:\nCuota de Arrendamiento mensual 2.456,69 \u20ac \nPrecio por copia Blanco y Negro 0,0048 \u20ac Sin IGIC\nPrecio por copia Color A4 0,0380 \u20ac Sin IGIC\nPrecio por copia Color A3 0,0760 \u20ac Sin IGIC",
+            "cbc:AwardDate": "2019-02-15",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2456.69"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2456.69"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B35419977"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CENTRO DE REPROGRAFIA E INFORMATICA DE LAS PALMAS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "210000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "223650"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -138,28 +178,28 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Coste por copia color A4",
+                        "cbc:WeightNumeric": "22"
+                    },
+                    {
                         "cbc:Description": "Coste por copia blanco y negro",
                         "cbc:WeightNumeric": "17"
-                    },
-                    {
-                        "cbc:Description": "Coste alquiler equipos y licencias de software",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "Plan de Mantenimiento y Gesti\u00f3n de Incidencias",
-                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "Caracter\u00edsticas t\u00e9cnicas del sistema de gesti\u00f3n unificado",
                         "cbc:WeightNumeric": "12"
                     },
                     {
-                        "cbc:Description": "Coste por copia color A4",
-                        "cbc:WeightNumeric": "22"
+                        "cbc:Description": "Coste alquiler equipos y licencias de software",
+                        "cbc:WeightNumeric": "45"
                     },
                     {
                         "cbc:Description": "Coste por copia color A3",
                         "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Plan de Mantenimiento y Gesti\u00f3n de Incidencias",
+                        "cbc:WeightNumeric": "3"
                     }
                 ]
             },
@@ -212,6 +252,18 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE"
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-15"
+                    }
                 }
             },
             {

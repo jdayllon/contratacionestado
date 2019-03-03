@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: L-ITER-0018-0020; \u00d3rgano de Contrataci\u00f3n: Gerencia del Instituto Tecnol\u00f3gico y de Energ\u00edas Renovables S.A.; Importe: 200000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: L-ITER-0018-0020; \u00d3rgano de Contrataci\u00f3n: Gerencia del Instituto Tecnol\u00f3gico y de Energ\u00edas Renovables S.A.; Importe: 200000 EUR; Estado: RES"
     },
     "title": "Suministro de un sistema de almacenamiento de datos.",
-    "updated": "2018-11-20T13:41:51.097+01:00",
+    "updated": "2019-01-21T17:17:05.724+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "L-ITER-0018-0020",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -43,7 +43,7 @@
                     "cbc:Name": "Gerencia del Instituto Tecnol\u00f3gico y de Energ\u00edas Renovables S.A.",
                     "cbc:Telephone": "922747700",
                     "cbc:Telefax": "922747701",
-                    "cbc:ElectronicMail": "iter@iter.es"
+                    "cbc:ElectronicMail": "licita.iter@iter.es"
                 }
             },
             "cac-place-ext:ParentLocatedParty": {
@@ -141,6 +141,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se procede a la adjudicaci\u00f3n de la presenta licitaci\u00f3n en base a lo establecido en las cl\u00e1usulas 10.2 y 17 del PCP teniendo en cuenta la MEJOR RELACI\u00d3N CALIDAD-PRECIO de la oferta presentada por el licitador que ha resultado adjudicatario.",
+            "cbc:AwardDate": "2018-12-21",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "160000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "190232.98"
+            },
+            "cbc:StartDate": "2018-12-26",
+            "cac:Contract": {
+                "cbc:ID": "L-ITER-0018-0020",
+                "cbc:IssueDate": "2018-12-26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A38616579"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Atos Consulting Canarias S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "174013"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "186193.91"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -185,16 +230,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Oferta T\u00e9cnica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
                         "cbc:Description": "Oferta Econ\u00f3mica",
                         "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Oferta T\u00e9cnica",
-                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -252,6 +297,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-16"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -275,6 +332,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-21"
                     }
                 }
             }

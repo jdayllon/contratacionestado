@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 272/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de El Berrueco; Importe: 51712.73 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 272/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de El Berrueco; Importe: 51712.73 EUR; Estado: RES"
     },
     "title": "Adecuaci\u00f3n de los primeros tramos del Camino del Cementerio y del Camino de los Pozuelos.",
-    "updated": "2018-12-07T14:44:01.963+01:00",
+    "updated": "2019-02-25T14:21:36.762+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "272/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "ha sido seleccionada la oferta presentada por el citado adjudicatario con preferencia a las presentadas por los restantes licitadores cuyas ofertas fueron admitidas, el haber sido la mejor oferta relaci\u00f3n calidad precio al haber obtenido la mejor puntuaci\u00f3n en la valoraci\u00f3n de los criterios de selecci\u00f3n",
+            "cbc:AwardDate": "2019-02-21",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:Contract": {
+                "cbc:ID": "272/2018",
+                "cbc:IssueDate": "2019-02-21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B84694595"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ERJESA OBRAS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "51400"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "62194"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -129,15 +165,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Mejoras sobre la obra",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
                         "cbc:Description": "Precio de 0 a 10 puntos",
                         "cbc:WeightNumeric": "1"
                     },
                     {
                         "cbc:Description": "Aumento plazo garantia",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
-                        "cbc:Description": "Mejoras sobre la obra",
                         "cbc:WeightNumeric": "1"
                     }
                 ]
@@ -182,25 +218,51 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-12-05"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-12-05"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-12-07"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-25"
                     }
-                ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-07"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-25"
+                    }
+                }
             }
-        }
+        ]
     }
 }

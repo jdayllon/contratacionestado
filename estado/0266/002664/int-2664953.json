@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A-0045/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 30000.78 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: A-0045/2018; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Intercomarcal MATEPSS N\u00ba 39; Importe: 30000.78 EUR; Estado: RES"
     },
     "title": "Servicio de asistencia ambulatoria y rehabilitaci\u00f3n en la ciudad de Palafrugell",
-    "updated": "2018-11-14T18:43:22.542+01:00",
+    "updated": "2019-01-09T13:27:42.613+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A-0045/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -126,6 +126,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "\u00danica oferta",
+            "cbc:AwardDate": "2019-01-09",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-02-01",
+            "cac:Contract": {
+                "cbc:ID": "A-0045/2018",
+                "cbc:IssueDate": "2019-01-09"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B17844515"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CENTRE MEDIC PALAFRUGELL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30000.78"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30000.78"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -140,24 +177,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "OFERTA ECONOMICA",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
-                        "cbc:Description": "Protocolos medicos y de actuacion",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Ubicacion y facilidad de acceso",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Tiempo de ejecucion",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Ubicacion y facilidad de acceso",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Protocolos medicos y de actuacion",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Recursos Tecnicos y humanos",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "OFERTA ECONOMICA",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -226,6 +263,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -244,6 +293,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-09"
                     }
                 }
             },

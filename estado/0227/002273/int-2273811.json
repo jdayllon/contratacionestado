@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: MY18/VCS/S/39; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 100000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: MY18/VCS/S/39; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia; Importe: 100000 EUR; Estado: ADJ"
     },
     "title": "Suministro, instalaci\u00f3n y puesta en servicio, de estanter\u00edas compactas m\u00f3viles, para el dep\u00f3sito de colecciones bibliogr\u00e1ficas en las Bibliotecas Central y Bellas Artes.",
-    "updated": "2018-07-11T13:02:37.895+02:00",
+    "updated": "2019-01-09T13:41:50.690+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MY18/VCS/S/39",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -49,7 +49,6 @@
                 "cac:Contact": {
                     "cbc:Name": "Rectorado de la Universitat Polit\u00e8cnica de Val\u00e8ncia",
                     "cbc:Telephone": "963877406",
-                    "cbc:Telefax": "963877946",
                     "cbc:ElectronicMail": "contratacion@upv.es"
                 }
             }
@@ -57,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro, instalaci\u00f3n y puesta en servicio, de estanter\u00edas compactas m\u00f3viles, para el dep\u00f3sito de colecciones bibliogr\u00e1ficas en las Bibliotecas Central y Bellas Artes.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -109,6 +108,142 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Biblioteca Central",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "66550"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "55000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "39152000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Biblioteca Bellas Artes",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "54450"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "45000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "39152000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "La empresa adjudicataria es la que ha obtenido la mayor puntuaci\u00f3n, ya que presenta mayores mejores t\u00e9cnicas y cumple todos los requerimientos de manera satisfactoria.",
+                "cbc:AwardDate": "2019-01-08",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "34477.17"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "46725.68"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B75038000"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "EUN SISTEMAS SL"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "34477.17"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "41717.37"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "La empresa adjudicataria es la que ha obtenido la mayor puntuaci\u00f3n, ya que presenta mayores mejoras t\u00e9cnicas y cumple todos los requerimientos de manera satisfactoria.",
+                "cbc:AwardDate": "2019-01-08",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "22083.8"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "33322.27"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B75038000"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "EUN SISTEMAS SL"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "22083.8"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "26721.39"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -153,10 +288,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejoras requisitos t\u00e9cnicos",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "51"
                     },
@@ -165,20 +296,24 @@
                         "cbc:WeightNumeric": "12"
                     },
                     {
-                        "cbc:Description": "Reducci\u00f3n en el plazo de entrega",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
                         "cbc:Description": "Asistencia t\u00e9cnica, servicio post-venta",
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Caracter\u00edsticas est\u00e9ticas o funcionales",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
                         "cbc:Description": "Mejoras t\u00e9cnicas",
                         "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Mejoras requisitos t\u00e9cnicos",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n en el plazo de entrega",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Caracter\u00edsticas est\u00e9ticas o funcionales",
+                        "cbc:WeightNumeric": "4"
                     }
                 ]
             },
@@ -219,6 +354,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-09"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

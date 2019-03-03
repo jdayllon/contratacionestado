@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018N4059007; \u00d3rgano de Contrataci\u00f3n: Instituto Nacional de Estad\u00edstica INE; Importe: 105041.32 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018N4059007; \u00d3rgano de Contrataci\u00f3n: Instituto Nacional de Estad\u00edstica INE; Importe: 105041.32 EUR; Estado: ADJ"
     },
     "title": "Trabajos de recogida de datos de la Encuesta de Consumos Intermedios e Inversi\u00f3n (ECII)",
-    "updated": "2018-10-10T13:10:20.066+02:00",
+    "updated": "2019-02-20T16:25:43.974+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018N4059007",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan informe adjunto en acta de resoluci\u00f3n",
+            "cbc:AwardDate": "2019-02-20",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28364263"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INVESTIGACION, PLANIFICACION Y DESARROLLO, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "89250"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "108000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -134,47 +166,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "9"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "1"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "M\u00e9todos y bases de datos a utilizar para la localizaci\u00f3n de las unidades informantes",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Inspecci\u00f3n: plan de control, seguimiento y calidad en todas las tareas del proceso de recogida",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Tratamiento de la cobertura e incidencias",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Plan de Formaci\u00f3n de personal de recogida",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Planes de selecci\u00f3n de personal y capacidad de respuesta en caso de necesidad de tener que reforzar la plantilla o realizar sustituciones por ausencia",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "Primer criterio valorable de forma automatica, en cifras o porcentajes",
-                        "cbc:WeightNumeric": "14"
-                    },
                     {
                         "cbc:Description": "Plataforma para la atenci\u00f3n telef\u00f3nica gratuita (L900) y emails de consulta",
                         "cbc:WeightNumeric": "3"
@@ -188,8 +192,36 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "Plan de Formaci\u00f3n de personal de recogida",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Tratamiento de la cobertura e incidencias",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "M\u00e9todos y bases de datos a utilizar para la localizaci\u00f3n de las unidades informantes",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Primer criterio valorable de forma automatica, en cifras o porcentajes",
+                        "cbc:WeightNumeric": "14"
+                    },
+                    {
                         "cbc:Description": "Argumentario e instrucciones para las consultas de los informantes",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Inspecci\u00f3n: plan de control, seguimiento y calidad en todas las tareas del proceso de recogida",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Planes de selecci\u00f3n de personal y capacidad de respuesta en caso de necesidad de tener que reforzar la plantilla o realizar sustituciones por ausencia",
+                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -234,6 +266,30 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-20"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.18/20830.0273; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 3010992.1 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 3.18/20830.0273; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 3010992.1 EUR; Estado: ADJ"
     },
     "title": "Servicios de consultor\u00eda y asistencia t\u00e9cnica para el control y seguimiento de las obras de ejecuci\u00f3n del proyecto de construcci\u00f3n de plataforma del corredor cant\u00e1brico-medriterr\u00e1neo de alta velocidad. tramo: castej\u00f3n-comarca de pamplona, subtramo:olite-tafalla (s) (con 013/18)",
-    "updated": "2018-09-26T11:39:02.658+02:00",
+    "updated": "2019-02-12T16:24:25.546+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.18/20830.0273",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "4"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es/es_ES/empresas_servicios/licitaciones/licitaciones.shtml",
+                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -105,6 +105,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Art. 83.1 Ley 31/2007: Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-02-07",
+            "cbc:ReceivedTenderQuantity": "26",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A48264725"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SAITEC SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1779196.36"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2152827.6"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:FundingProgramCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/FundingProgramCode-2.02.gc",
@@ -124,11 +156,16 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "ZZZ"
-                    }
+                    },
+                    "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "CRITERIOS EVALUABLES MEDIANTE F\u00d3RMULAS",
+                        "cbc:WeightNumeric": "2"
+                    },
                     {
                         "cbc:Description": "PRECIO",
                         "cbc:WeightNumeric": "49"
@@ -136,10 +173,6 @@
                     {
                         "cbc:Description": "CRITERIOS NO EVALUABLES MEDIANTE F\u00d3RMULAS",
                         "cbc:WeightNumeric": "49"
-                    },
-                    {
-                        "cbc:Description": "CRITERIOS EVALUABLES MEDIANTE F\u00d3RMULAS",
-                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -219,6 +252,18 @@
                         }
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-12"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {

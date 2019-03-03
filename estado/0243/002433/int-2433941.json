@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 06/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia del Consejo de Administraci\u00f3n de Bah\u00eda de Mazarr\u00f3n Ingenier\u00eda Urbana 2007, S.L.; Importe: 2272727.29 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 06/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia del Consejo de Administraci\u00f3n de Bah\u00eda de Mazarr\u00f3n Ingenier\u00eda Urbana 2007, S.L.; Importe: 2272727.29 EUR; Estado: ADJ"
     },
     "title": "Servicio de apoyo en limpieza viaria y de plazas en Mazarr\u00f3n.",
-    "updated": "2018-09-28T09:31:32.147+02:00",
+    "updated": "2019-01-25T21:16:18.883+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "06/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -145,6 +145,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta mejor valorada",
+            "cbc:AwardDate": "2019-01-21",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1597379.36"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2249645.21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B73727349"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ACTUA, SERVICIOS Y MEDIO AMBIENTE S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2249645.21"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2474609.73"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -183,14 +223,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Memoria t\u00e9cnica sobre prestaci\u00f3n del servicio de limpieza viaria y de playas.",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Menor precio ofertado",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Inversiones anuales para el servicio de mantenimiento de papeleras",
                         "cbc:WeightNumeric": "5"
                     },
@@ -199,12 +231,20 @@
                         "cbc:WeightNumeric": "30"
                     },
                     {
+                        "cbc:Description": "Trabajos de apoyo al servicio con personal de un Centro Especial de Empleo",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Memoria t\u00e9cnica sobre prestaci\u00f3n del servicio de limpieza viaria y de playas.",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Memoria de planes de actuaci\u00f3n para grandes eventos",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Trabajos de apoyo al servicio con personal de un Centro Especial de Empleo",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Menor precio ofertado",
+                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -279,6 +319,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-09-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-25"
                     }
                 }
             },

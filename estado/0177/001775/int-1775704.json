@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 004/2017; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Fundaci\u00f3n del Teatro Real; Importe: 129800 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 004/2017; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Fundaci\u00f3n del Teatro Real; Importe: 129800 EUR; Estado: RES"
     },
     "title": "Suministro el\u00e9ctrico de transici\u00f3n a un sistema eficiente de energ\u00eda el\u00e9ctrica",
-    "updated": "2017-10-26T18:14:33.793+02:00",
+    "updated": "2019-01-28T13:36:15.135+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "004/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -76,7 +76,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro el\u00e9ctrico de transici\u00f3n a un sistema eficiente de energ\u00eda el\u00e9ctrica",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -130,6 +130,51 @@
                 "cbc:EndDate": "2017-12-31"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El \u00d3rgano de Contrataci\u00f3n RESUELVE ADJUDICAR el contrato de suministro el\u00e9ctrico de transici\u00f3n a un sistema eficiente de energ\u00eda el\u00e9ctrica para la Fundaci\u00f3n del Teatro Real, a la empresa ENDESA ENERG\u00cdA, S.A.U., por importe de CIENTO DIEZ MIL SESENTA Y TRES EUROS Y VEINTINUEVE C\u00c9NTIMOS (110.063,29 \u20ac, I.V.A. no incluido), por resultar la oferta econ\u00f3micamente m\u00e1s ventajosa.",
+            "cbc:AwardDate": "2017-11-16",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "110063.29"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "110063.29"
+            },
+            "cbc:StartDate": "2018-11-16",
+            "cac:Contract": {
+                "cbc:ID": "004/2017",
+                "cbc:IssueDate": "2018-11-16"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A81948077"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ENDESA ENERG\u00cdA, S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "110063"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "133176"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -173,10 +218,36 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Medios t\u00e9cnicos destinados a los servicios.",
-                    "cbc:WeightNumeric": "2"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Alcance y descripci\u00f3n de la asesor\u00eda t\u00e9cnica.",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Operativa y sistema de gesti\u00f3n administrativa espec\u00edfica para el suministro.",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Procedimiento de control, calidad y seguimiento de los suministros, con especial especificaci\u00f3n de la respuesta ante incidencias y tratamiento de las mismas.",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Medios t\u00e9cnicos destinados a los servicios.",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Realizaci\u00f3n de cursos de formaci\u00f3n al personal de la FTR, sobre el modo de funcionamiento, toma de datos y conocimientos b\u00e1sicos de equipos de medida y formaci\u00f3n sobre las nuevas tendencias en suministro de energ\u00eda el\u00e9ctrica",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "An\u00e1lisis de los par\u00e1metros \u00f3ptimos de facturaci\u00f3n",
+                        "cbc:WeightNumeric": "5"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -184,7 +255,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -226,6 +297,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-28"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -255,6 +338,18 @@
                             "cbc:IssueDate": "2017-10-26"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-28"
+                    }
                 }
             }
         ]

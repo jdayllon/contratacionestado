@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2645366",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=181107120933BBB1737F"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=3002&Ticket=19030114020111044248"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 8/2018; \u00d3rgano de Contrataci\u00f3n: Ayuntamiento de Alsasua/Altsasu; Importe: 325580,94 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 8/2018; \u00d3rgano de Contrataci\u00f3n: Ayuntamiento de Alsasua/Altsasu; Importe: 325580,94 EUR; Estado: Resuelta"
     },
     "title": "Renovaci\u00f3n de instalaci\u00f3n de alumbrado p\u00fablico en Altsasu/Alsasua Fase 1.",
-    "updated": "2018-11-23T15:00:12.670+01:00",
+    "updated": "2019-03-01T15:00:08.789+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "8/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -60,7 +60,33 @@
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
                     "@unitCode": "DAY",
-                    "#text": "60"
+                    "#text": "40"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B31205883"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ALDAKIN, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "278419.52"
+                    }
                 }
             }
         },
@@ -70,22 +96,36 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-23"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2018-11-09"
-                    },
-                    {
-                        "cbc:IssueDate": "2018-11-23"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-01"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

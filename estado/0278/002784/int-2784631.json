@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1301-13S-1-2019-08332; \u00d3rgano de Contrataci\u00f3n: Gerencia de Asistencia Sanitaria de \u00c1vila; Importe: 17400 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1301-13S-1-2019-08332; \u00d3rgano de Contrataci\u00f3n: Gerencia de Asistencia Sanitaria de \u00c1vila; Importe: 17400 EUR; Estado: ADJ"
     },
     "title": "Servicio de Instalaci\u00f3n y soporte de equipos inform\u00e1ticos y telefon\u00eda del Complejo Asistencial de \u00c1vila",
-    "updated": "2018-12-19T13:46:58.126+01:00",
+    "updated": "2019-01-31T13:20:32.079+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1301-13S-1-2019-08332",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,23 +112,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Buena relaci\u00f3n calidad precio",
+            "cbc:AwardDate": "2019-01-29",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B05249826"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Computer Printers Maintenance S.L.U"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "15540"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "18803.4"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Bolsa de Horas gratuitas",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "67"
-                    },
-                    {
-                        "cbc:Description": "Flexibilidad Horario",
-                        "cbc:WeightNumeric": "3"
-                    },
                     {
                         "cbc:Description": "Ampliaci\u00f3n Horario",
                         "cbc:WeightNumeric": "10"
@@ -138,15 +158,27 @@
                         "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Normalizacion de los procedimientos de trabajo",
+                        "cbc:Description": "Tiempo de respuesta ante una incidencia",
                         "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "67"
                     },
                     {
                         "cbc:Description": "Disponibilidad",
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Tiempo de respuesta ante una incidencia",
+                        "cbc:Description": "Flexibilidad Horario",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Bolsa de Horas gratuitas",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Normalizacion de los procedimientos de trabajo",
                         "cbc:WeightNumeric": "4"
                     }
                 ]
@@ -192,6 +224,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-31"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

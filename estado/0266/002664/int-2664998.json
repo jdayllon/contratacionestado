@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1224/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Numancia de la Sagra; Importe: 40000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1224/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Numancia de la Sagra; Importe: 40000 EUR; Estado: RES"
     },
     "title": "Redacci\u00f3n del Plan de Ordenaci\u00f3n Municipal de Numancia de la Sagra (Toledo)",
-    "updated": "2018-11-14T15:57:09.201+01:00",
+    "updated": "2019-01-11T13:11:32.560+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1224/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -120,6 +120,14 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:AwardDate": "2019-01-08",
+            "cbc:ReceivedTenderQuantity": "1"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -134,16 +142,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Realizado o colaborado, al menos, en la elaboraci\u00f3n de 5 instrumentos de planeamiento general y 10 de desarrollo."
+                        "cbc:Description": "Adscripci\u00f3n de medios conforme a clausula 8 del PCAP."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Adscripci\u00f3n de medios conforme a clausula 8 del PCAP."
+                        "cbc:Description": "Realizado o colaborado, al menos, en la elaboraci\u00f3n de 5 instrumentos de planeamiento general y 10 de desarrollo."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -157,13 +165,6 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
-                        "cbc:Description": "Certificado de entidad bancaria seg\u00fan clausula 8 del PCAP"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                             "#text": "3"
                         },
                         "cbc:Description": "Seguro de Responsabilidad Civil por riesgos profesionales seg\u00fan clausula 8 del PCAP"
@@ -174,13 +175,20 @@
                             "#text": "5"
                         },
                         "cbc:Description": "Cifra de negocios seg\u00fan clausula 8 del PCAP"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "Certificado de entidad bancaria seg\u00fan clausula 8 del PCAP"
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "4"
                         }
                     },
                     {
@@ -198,7 +206,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "5"
                         }
                     }
                 ]
@@ -209,19 +217,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Menor plazo de cumplimiento de cada una de las fases de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "45"
                     },
                     {
-                        "cbc:Description": "Segunda mejora",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "N\u00famero de instrumentos de planeamiento general",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Tercera mejora",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -229,7 +233,11 @@
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Menor plazo de cumplimiento de cada una de las fases de ejecuci\u00f3n",
+                        "cbc:Description": "Segunda mejora",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Tercera mejora",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -271,6 +279,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-11"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

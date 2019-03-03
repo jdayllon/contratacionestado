@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 172/2018/68; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Paterna; Importe: 118170.84 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 172/2018/68; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Paterna; Importe: 118170.84 EUR; Estado: EV"
     },
-    "title": "Servicio de mantenimiento, conservaci\u00f3n, reparaci\u00f3n y certificaci\u00f3n de \u00e1reas de juego infantil en Paterna, que incluye condiciones especiales de ejecuci\u00f3n de fomento del empleo, sujeto a regulaci\u00f3n armonizada.",
-    "updated": "2018-06-07T13:11:15.403+02:00",
+    "title": "Servicio de mantenimiento, conservaci\u00f3n, reparaci\u00f3n y certificaci\u00f3n de \u00e1reas de juego infantil en Paterna, que incluye condiciones especiales de ejecuci\u00f3n , sujeto a regulaci\u00f3n armonizada.",
+    "updated": "2019-01-15T14:56:18.621+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "172/2018/68",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -48,14 +48,16 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Junta de Gobierno del Ayuntamiento de Paterna",
+                    "cbc:Telephone": "961379600",
+                    "cbc:Telefax": "961379616",
                     "cbc:ElectronicMail": "contratacion@ayto-paterna.es"
                 }
             }
         },
         "cac:ProcurementProject": {
-            "cbc:Name": "Servicio de mantenimiento, conservaci\u00f3n, reparaci\u00f3n y certificaci\u00f3n de \u00e1reas de juego infantil en Paterna, que incluye condiciones especiales de ejecuci\u00f3n de fomento del empleo, sujeto a regulaci\u00f3n armonizada.",
+            "cbc:Name": "Servicio de mantenimiento, conservaci\u00f3n, reparaci\u00f3n y certificaci\u00f3n de \u00e1reas de juego infantil en Paterna, que incluye condiciones especiales de ejecuci\u00f3n , sujeto a regulaci\u00f3n armonizada.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -97,11 +99,63 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                }
+            },
+            "cac:ContractExtension": {
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "Duraci\u00f3n inicial de un a\u00f1o prorrogable por otra anualidad."
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "XSX-CERTCALIDAD"
+                    },
+                    "cbc:Description": "Conforme a lo establecido en el apartado 11 cuadro Anexo I del Pliego de Condiciones Administrativas"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Conforme a lo dispuesto en el apartado 11 cuadro Anexo I del pliego de condiciones administrativas"
+                },
+                "cac:SpecificTendererRequirement": {
+                    "cbc:RequirementTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                        "#text": "1"
+                    }
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Valorables en cifras o porcentajes",
+                        "cbc:WeightNumeric": "36"
+                    },
+                    {
+                        "cbc:Description": "Criterios no valorables en cifras o porcentajes",
+                        "cbc:WeightNumeric": "64"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -114,19 +168,96 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2019-01-09",
+                "cbc:EndTime": "14:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-01-09",
+                "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-06-07"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCA.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=82e26f9f-517f-4884-bba3-ddd18f66f228",
+                    "cbc:DocumentHash": "jB6aEVrhbicJcmYd+B/Lu5NeNAo="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT JUEGOS.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4f3938eb-ddc3-46be-8daf-f0442e8ecaaf",
+                    "cbc:DocumentHash": "XsopyaU9O7KOyHAmyyARKZRVYDo="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-02"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-15"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-06-07"
+                    }
+                }
+            }
+        ]
     }
 }

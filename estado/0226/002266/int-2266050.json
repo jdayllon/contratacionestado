@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SERVICIOS-2018/17; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Soria; Importe: 86776.86 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SERVICIOS-2018/17; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Soria; Importe: 86776.86 EUR; Estado: ADJ"
     },
     "title": "Vigilancia del Palacio Provincial.",
-    "updated": "2018-07-17T12:50:03.218+02:00",
+    "updated": "2019-01-31T13:45:32.326+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SERVICIOS-2018/17",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Vigilancia del Palacio Provincial.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -111,17 +111,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Al ser la oferta econ\u00f3micamente m\u00e1s ventajosa.",
+            "cbc:AwardDate": "2019-01-28",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28369395"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EULEN SEGURIDAD, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "84252.77"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "101945.85"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -135,6 +160,13 @@
                         "#text": "3"
                     },
                     "cbc:AmountRate": "0"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -172,32 +204,32 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejoras, hasta 2,5 puntos. Mejora  1 (1 puntos) 2 puntos por la colocaci\u00f3n de un sistema de apertura remota en la puerta peatonal existente en la Calle Morales del Espino. Mejora 2 (1,5 puntos) 3 puntos por la colocaci\u00f3n de un sistema de apertura remota mediante videoportero o videoc\u00e1mara de la puerta de paso para acceso a los garajes y archivos de la calle Santo Domingo de Silos.",
-                        "cbc:WeightNumeric": "2.5"
-                    },
-                    {
-                        "cbc:Description": "Menor precio.",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Conocimiento del edificio, hasta 15 puntos. Se valorar\u00e1 hasta 15 puntos el conocimiento que la empresa acredite tener del edificio y su aplicaci\u00f3n al contrato mediante la presentaci\u00f3n de una memoria con la operativa diaria de funcionamiento, rondas a realizar, etc, haciendo constar  la detecci\u00f3n y  mejora de los puntos d\u00e9biles en la seguridad del mismo y la definici\u00f3n de los sistemas que se consideren vulnerables y las propuestas que para el mantenimiento y vigilancia de dichos sistemas ofrezcan las diferentes empresas.",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Plan de formaci\u00f3n del personal adscrito a la ejecuci\u00f3n del contrato, hasta 3,5 puntos.",
                         "cbc:WeightNumeric": "3.5"
                     },
                     {
-                        "cbc:Description": "Material al servicio del contrato, hasta 10 puntos. Se valorar\u00e1 hasta con 4 puntos la mejora del material y equipos existentes y su sustituci\u00f3n por otro de mejor calidad; se valorar\u00e1 hasta 3 puntos la ampliaci\u00f3n de las zonas de cobertura de los sistemas; y se valorar\u00e1 hasta 3 puntos el material puesto al servicio del contrato siempre que \u00e9ste sea realmente efectivo.",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Conocimiento del edificio, hasta 15 puntos. Se valorar\u00e1 hasta 15 puntos el conocimiento que la empresa acredite tener del edificio y su aplicaci\u00f3n al contrato mediante la presentaci\u00f3n de una memoria con la operativa diaria de funcionamiento, rondas a realizar, etc, haciendo constar  la detecci\u00f3n y  mejora de los puntos d\u00e9biles en la seguridad del mismo y la definici\u00f3n de los sistemas que se consideren vulnerables y las propuestas que para el mantenimiento y vigilancia de dichos sistemas ofrezcan las diferentes empresas.",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Incremento de horas de prestaci\u00f3n",
+                        "cbc:WeightNumeric": "19"
                     },
                     {
                         "cbc:Description": "Realizaci\u00f3n de protocolos especiales, hasta 20 puntos. Se valorar\u00e1 en este apartado la redacci\u00f3n de protocolos particulares para momentos de riesgo que pueda haber puntualmente en el edificio o para las personas en el desarrollo de sus funciones. Se valorar\u00e1 hasta 5 puntos por la realizaci\u00f3n de un protocolo de prevenci\u00f3n de riesgos y altercados que asegure un refuerzo en la prestaci\u00f3n durante las sesiones plenarias. Se valorar\u00e1 hasta 5 puntos por la realizaci\u00f3n de un protocolo de prevenci\u00f3n de riesgos y altercados que asegure un refuerzo en la prestaci\u00f3n cuando as\u00ed lo demande la Diputaci\u00f3n Provincial en el caso de altercados y manifestaciones que afecten a la Diputaci\u00f3n en los aleda\u00f1os o incluso dentro del propio Palacio Provincial.  Se valorar\u00e1 hasta 5 puntos por la realizaci\u00f3n de un protocolo de prevenci\u00f3n de riesgos y altercados que asegure un refuerzo en la prestaci\u00f3n cuando sea necesario en el caso de alerta antiterrorista cuando as\u00ed lo determinen los organismos oficiales correspondientes.  Se valora con 5 puntos la presentaci\u00f3n de otros protocolos.",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Incremento de horas de prestaci\u00f3n",
-                        "cbc:WeightNumeric": "19"
+                        "cbc:Description": "Menor precio.",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Material al servicio del contrato, hasta 10 puntos. Se valorar\u00e1 hasta con 4 puntos la mejora del material y equipos existentes y su sustituci\u00f3n por otro de mejor calidad; se valorar\u00e1 hasta 3 puntos la ampliaci\u00f3n de las zonas de cobertura de los sistemas; y se valorar\u00e1 hasta 3 puntos el material puesto al servicio del contrato siempre que \u00e9ste sea realmente efectivo.",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejoras, hasta 2,5 puntos. Mejora  1 (1 puntos) 2 puntos por la colocaci\u00f3n de un sistema de apertura remota en la puerta peatonal existente en la Calle Morales del Espino. Mejora 2 (1,5 puntos) 3 puntos por la colocaci\u00f3n de un sistema de apertura remota mediante videoportero o videoc\u00e1mara de la puerta de paso para acceso a los garajes y archivos de la calle Santo Domingo de Silos.",
+                        "cbc:WeightNumeric": "2.5"
                     }
                 ]
             },
@@ -285,6 +317,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-31"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

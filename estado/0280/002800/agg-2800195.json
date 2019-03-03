@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: KU-G 9/2018;  \u00d3rgano de Contrataci\u00f3n: Gerencia ;  Importe: 215914.77EUR;  Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: KU-G 9/2018;  \u00d3rgano de Contrataci\u00f3n: Gerencia ;  Importe: 275000.00EUR;  Estado: RES"
     },
     "title": "3\u00ba Contrato derivado de acuerdo marco para el suministro de Energ\u00eda El\u00e9ctrica para el a\u00f1o 2019 con destino a Centro Kursaal Elkargunea S.A.",
-    "updated": "2018-12-26T10:40:38.764+01:00",
+    "updated": "2019-01-23T15:10:33.065+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "KU-G 9/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -40,9 +40,13 @@
                 "#text": "1"
             },
             "cac:BudgetAmount": {
+                "cbc:EstimatedOverallContractAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "275000"
+                },
                 "cbc:TaxExclusiveAmount": {
                     "@currencyID": "EUR",
-                    "#text": "215914.77"
+                    "#text": "275000"
                 }
             },
             "cac:RequiredCommodityClassification": {
@@ -67,7 +71,7 @@
         "cac:TenderResult": {
             "cbc:ResultCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
+                "#text": "9"
             },
             "cbc:ReceivedTenderQuantity": "5",
             "cac:WinningParty": {
@@ -104,17 +108,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-26"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-26"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-23"
+                    }
                 }
             }
-        }
+        ]
     }
 }

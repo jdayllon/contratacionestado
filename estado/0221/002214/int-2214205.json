@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 066SUM18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Navalcarnero; Importe: 150000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 066SUM18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Navalcarnero; Importe: 150000 EUR; Estado: RES"
     },
     "title": "Contrato para el suministro de material el\u00e9ctrico para el Ayuntamiento de Navalcarnero",
-    "updated": "2018-06-12T08:08:36.833+02:00",
+    "updated": "2019-02-06T13:26:23.643+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "066SUM18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrato para el suministro de material el\u00e9ctrico para el Ayuntamiento de Navalcarnero",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -109,19 +109,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "\"...Adjudicar el contrato que tiene por objeto el suministro de material el\u00e9ctrico para el Ayuntamiento de Navalcarnero (Madrid), a la oferta presentada por D. Javier Vargas Ferreira, actuando en nombre y representaci\u00f3n de COVAMA EL\u00c9CTRICA, S.L.U. en los t\u00e9rminos siguientes:\n- 43% de descuento sobre los precios unitarios que figuran en el anexo I del Pliego de Prescripciones T\u00e9cnicas.\n- Entrega de los bienes en el plazo de 24 horas a contar desde la realizaci\u00f3n fehaciente del pedido....\"",
+            "cbc:AwardDate": "2018-12-05",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:StartDate": "2019-01-29",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2019-01-29"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85067197"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "COVAMA ELECTRICA, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "150000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "180000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "7500"
-                    }
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -130,6 +157,16 @@
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
                         "#text": "4500"
+                    }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7500"
                     }
                 }
             ],
@@ -205,6 +242,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -221,8 +270,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-12"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-12"
+                        "cbc:IssueDate": "2019-02-06"
                     }
                 }
             }

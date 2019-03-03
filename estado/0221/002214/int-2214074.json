@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 5251; \u00d3rgano de Contrataci\u00f3n: Consejero Delegado de la Empresa Municipal de Aguas de M\u00e1laga S.A.; Importe: 60000 EUR; Estado: EV"
     },
     "title": "Sistema de c\u00e1lculo de sospechas.",
-    "updated": "2018-08-07T12:48:55.316+02:00",
+    "updated": "2019-02-20T14:55:53.953+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "5251",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -30,7 +30,7 @@
                     "cbc:CityName": "M\u00e1laga",
                     "cbc:PostalZone": "29016",
                     "cac:AddressLine": {
-                        "cbc:Line": "Plaza General Torrijos, 2"
+                        "cbc:Line": "Plaza General Torrijos, 2, Edif H. Noble"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -47,23 +47,28 @@
             },
             "cac-place-ext:ParentLocatedParty": {
                 "cac:PartyName": {
-                    "cbc:Name": "M\u00e1laga"
+                    "cbc:Name": "Empresa Municipal de Aguas de M\u00e1laga S.A."
                 },
                 "cac-place-ext:ParentLocatedParty": {
                     "cac:PartyName": {
-                        "cbc:Name": "Andaluc\u00eda"
+                        "cbc:Name": "M\u00e1laga"
                     },
                     "cac-place-ext:ParentLocatedParty": {
                         "cac:PartyName": {
-                            "cbc:Name": "SOCIEDADES, FUNDACIONES Y CONSORCIOS ENTIDADES LOCALES"
+                            "cbc:Name": "Andaluc\u00eda"
                         },
                         "cac-place-ext:ParentLocatedParty": {
                             "cac:PartyName": {
-                                "cbc:Name": "OTRAS ENTIDADES DEL SECTOR P\u00daBLICO"
+                                "cbc:Name": "SOCIEDADES, FUNDACIONES Y CONSORCIOS ENTIDADES LOCALES"
                             },
                             "cac-place-ext:ParentLocatedParty": {
                                 "cac:PartyName": {
-                                    "cbc:Name": "Sector P\u00fablico"
+                                    "cbc:Name": "OTRAS ENTIDADES DEL SECTOR P\u00daBLICO"
+                                },
+                                "cac-place-ext:ParentLocatedParty": {
+                                    "cac:PartyName": {
+                                        "cbc:Name": "Sector P\u00fablico"
+                                    }
                                 }
                             }
                         }
@@ -74,7 +79,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Sistema de c\u00e1lculo de sospechas.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -142,21 +147,29 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "OXR-GESTMEDIOAMB"
                         },
-                        "cbc:Description": "Condiciones Laborales - ver cl\u00e1usulas 16 PCAP"
+                        "cbc:Description": "Compromiso medio ambiental - ver clausulas 16 PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-GESTMEDIOAMB"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Compromiso medio ambiental - ver clausulas 16 PCAP"
+                        "cbc:Description": "Condiciones Laborales - ver cl\u00e1usulas 16 PCAP"
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Valoraci\u00f3n econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Planificaci\u00f3n y metodolog\u00eda",
+                        "cbc:WeightNumeric": "5"
+                    },
                     {
                         "cbc:Description": "Soporte T\u00e9cnico",
                         "cbc:WeightNumeric": "5"
@@ -166,16 +179,8 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Planificaci\u00f3n y metodolog\u00eda",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Estructura organizativa y equipo de trabajo",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Valoraci\u00f3n econ\u00f3mica",
-                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -273,9 +278,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-12"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-20"
+                        }
+                    ]
                 }
             }
         ]

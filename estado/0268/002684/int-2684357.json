@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SU 8/19; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Marbella; Importe: 169500 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SU 8/19; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Marbella; Importe: 169500 EUR; Estado: ADJ"
     },
     "title": "Suministro de papeleras de gran capacidad de 120 litros.",
-    "updated": "2018-11-20T17:03:33.501+01:00",
+    "updated": "2019-02-20T16:31:14.788+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SU 8/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,46 @@
                 "cbc:OptionsDescription": "No cabe pr\u00f3rroga contractual para ejercicios econ\u00f3micos futuros."
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la propuesta mas adecuada",
+            "cbc:AwardDate": "2019-02-20",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "164250"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "164250"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A46480547"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Plastic Omnium Sistemas Urbanos, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "164250"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "198742.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -159,8 +199,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Homogeneizaci\u00f3n est\u00e9tica con las papeleras instaladas de 120 l.",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Incorporaci\u00f3n Asas",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Homogeneizaci\u00f3n est\u00e9tica con las papeleras instaladas de 50 l.",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Mejora incremento per\u00edodo de garant\u00eda",
@@ -169,18 +221,6 @@
                     {
                         "cbc:Description": "Incorporaci\u00f3n chip electr\u00f3nico",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Incorporaci\u00f3n Asas",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Homogeneizaci\u00f3n est\u00e9tica con las papeleras instaladas de 120 l.",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "Homogeneizaci\u00f3n est\u00e9tica con las papeleras instaladas de 50 l.",
-                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -246,6 +286,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-20"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

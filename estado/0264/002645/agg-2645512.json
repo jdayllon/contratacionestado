@@ -5,21 +5,21 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONTR 2018 0000064674; \u00d3rgano de contrataci\u00f3n: Consejer\u00eda de la Presidencia, Administraci\u00f3n Local y Memoria Democr\u00e1tica. Secretar\u00eda General T\u00e9cnica; Importe: 59.467,50 \u20ac;"
+        "#text": "Id licitaci\u00f3n: CONTR 2018 0000064674; \u00d3rgano de contrataci\u00f3n: Consejer\u00eda de la Presidencia, Administraci\u00f3n Local y Memoria Democr\u00e1tica. Secretar\u00eda General T\u00e9cnica (En Transici\u00f3n); Importe: 59.467,50 \u20ac;"
     },
     "title": "detecci\u00f3n de diferencias entre bojas web y papel",
-    "updated": "2018-12-21T16:11:45.365+01:00",
+    "updated": "2019-02-27T14:57:08.109+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONTR 2018 0000064674",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
                 "cac:PartyName": {
-                    "cbc:Name": "Consejer\u00eda de la Presidencia, Administraci\u00f3n Local y Memoria Democr\u00e1tica. Secretar\u00eda General T\u00e9cnica"
+                    "cbc:Name": "Consejer\u00eda de la Presidencia, Administraci\u00f3n Local y Memoria Democr\u00e1tica. Secretar\u00eda General T\u00e9cnica (En Transici\u00f3n)"
                 }
             },
             "cac-place-ext:ParentLocatedParty": {
@@ -56,6 +56,38 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "24"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B91225524"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "REDES INFORMATICA YTELECOMUNICACIONES"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "49600.63"
+                    }
+                }
             }
         },
         "cac:TenderingProcess": {
@@ -68,17 +100,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-16"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-21"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-27"
+                    }
                 }
             }
-        }
+        ]
     }
 }

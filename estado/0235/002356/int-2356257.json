@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/005; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 30000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/005; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 30000 EUR; Estado: RES"
     },
     "title": "Servicio de distribuci\u00f3n de publicidad para la Delegaci\u00f3n de Cultura y Patrimonio",
-    "updated": "2018-08-14T15:53:02.241+02:00",
+    "updated": "2019-02-25T13:51:56.191+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/005",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de distribuci\u00f3n de publicidad para la Delegaci\u00f3n de Cultura y Patrimonio",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -121,6 +121,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicar la contrataci\u00f3n del Servicio de distribuci\u00f3n de publicidad para la Delegaci\u00f3n de Cultura y Patrimonio a Santiago Cantero Rodr\u00edguez, con DNI 30.526.199 R, en la cantidad de 30.000,00 \u20ac m\u00e1s 6.300,00 \u20ac (21 % de I.V.A.), TOTAL: 36.300,00 \u20ac, con los siguientes precios unitarios:",
+            "cbc:AwardDate": "2019-02-08",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "30000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "30000"
+            },
+            "cbc:StartDate": "2019-02-16",
+            "cac:Contract": {
+                "cbc:ID": "2018/005",
+                "cbc:IssueDate": "2019-02-15"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "30526199r"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Santiago Cantero Rodriguez"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "25"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "25"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -149,19 +194,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
@@ -169,21 +208,35 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "importe por colocaci\u00f3n de carteles en comercios y equipamientos de los 10 pueblos m\u00e1s representativos",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "Importe por la distribuci\u00f3n de folletos en centros y equipamientos de la ciudad, incluyendo barriadas perif\u00e9ricas",
                         "cbc:WeightNumeric": "15"
                     },
                     {
+                        "cbc:Description": "Importe por el ensobrado",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "importe por colocaci\u00f3n de carteles en comercios y equipamientos de los 10 pueblos m\u00e1s representativos",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
                         "cbc:Description": "importe por colocaci\u00f3n de carteles en comercio y equipamientos de la ciudad, incluyendo las barriadas perf\u00e9ricas",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Importe por la instalaci\u00f3n del Truss port\u00e1til de 3x2 m.",
                         "cbc:WeightNumeric": "15"
                     },
                     {
@@ -192,14 +245,6 @@
                     },
                     {
                         "cbc:Description": "Importe por el traslado de material desde el Palacio de Orive a Centros de la ciudad y sus barriadas perif\u00e9ricas",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Importe por el ensobrado",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Importe por la instalaci\u00f3n del Truss port\u00e1til de 3x2 m.",
                         "cbc:WeightNumeric": "15"
                     }
                 ]
@@ -264,6 +309,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -280,8 +337,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-14"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-06"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-14"
+                        "cbc:IssueDate": "2019-02-25"
                     }
                 }
             }

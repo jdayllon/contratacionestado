@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: C.989; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Alcoy; Importe: 1157024.79 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: C.989; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Alcoy; Importe: 1157024.79 EUR; Estado: ADJ"
     },
     "title": "Suministro de energ\u00eda el\u00e9ctrica y de gas natural para los puntos de consumo del Ayuntamiento de Alcoy.",
-    "updated": "2018-07-03T07:46:52.014+02:00",
+    "updated": "2019-02-19T13:41:25.547+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "C.989",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de energ\u00eda el\u00e9ctrica y de gas natural para los puntos de consumo del Ayuntamiento de Alcoy.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -121,22 +121,156 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Suministro de electricidad en Baja Tensi\u00f3n con potencia inferior o igual a 10 kW, con tarifas de acceso 2.0A y 2.0DHA.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "82000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "67768.6"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09310000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Suministros en Baja y Alta Tensi\u00f3n con tarifas de acceso 2.1A, 2.1DHA, 3.0A y 3.1.A.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "1228000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "1014876.03"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09310000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "3"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Suministros de Gas Natural con tarifas de acceso 3.2 y 3.4.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "90000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "74380.16"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "09123000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2019-02-15",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2019-02-15",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "La oferta presentada por la mercantil ha sido la mejor oferta relaci\u00f3n calidad precio",
+                "cbc:AwardDate": "2019-02-15",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A82539594"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "UNI\u00d3N FENOSA GAS COMERCIALIZADORA, SA"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "3",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "0"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "1"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "3"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "3"
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -144,16 +278,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "XSX-CERTCALIDAD"
                         },
-                        "cbc:Description": "Una relaci\u00f3n de los principales suministros o trabajos similares realizados en los \u00faltimos tres a\u00f1os  por un importe igual o superior al valor estimado en cada uno de los lotes, que incluya importe, fechas y el destinatario, p\u00fablico o privado, de los mismos. Los suministros efectuados se acreditar\u00e1n mediante certificados expedidos o visados por el \u00f3rgano competente, cuando el destinatario sea una entidad del sector p\u00fablico; cuando el destinatario sea un sujeto privado, mediante un certificado expedido por \u00e9ste."
+                        "cbc:Description": "Disponer de los Certificados de cumplimiento de las normas UNE EN ISO 9001 y 14001  o equivalentes."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Disponer de los Certificados de cumplimiento de las normas UNE EN ISO 9001 y 14001  o equivalentes."
+                        "cbc:Description": "Una relaci\u00f3n de los principales suministros o trabajos similares realizados en los \u00faltimos tres a\u00f1os  por un importe igual o superior al valor estimado en cada uno de los lotes, que incluya importe, fechas y el destinatario, p\u00fablico o privado, de los mismos. Los suministros efectuados se acreditar\u00e1n mediante certificados expedidos o visados por el \u00f3rgano competente, cuando el destinatario sea una entidad del sector p\u00fablico; cuando el destinatario sea un sujeto privado, mediante un certificado expedido por \u00e9ste."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
@@ -268,6 +402,26 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-30"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-19"
+                        }
+                    ]
                 }
             },
             {

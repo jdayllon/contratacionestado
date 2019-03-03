@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 41381M/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Gij\u00f3n ; Importe: 143808 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 41381M/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Gij\u00f3n ; Importe: 143808 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n, por el sistema de lotes, del servicio integral de mantenimiento de cajeros ciudadanos, con criterios de calidad en el empleo",
-    "updated": "2018-12-19T14:37:03.917+01:00",
+    "updated": "2019-02-19T13:52:32.672+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "41381M/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicar a la empresa SEPALO SOFTWARE, S.L. en los precios y dem\u00e1s condiciones recogidas en su oferta",
+            "cbc:AwardDate": "2019-02-19",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B56003684"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SEPALO SOFTWARE, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "122.87"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "148.67"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -144,7 +176,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -162,19 +200,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     }
                 ]
@@ -182,24 +214,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Incremento n\u00famero de horas futuros desarrollos",
-                        "cbc:WeightNumeric": "11"
+                        "cbc:Description": "Precio hora",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Calidad de empleo",
-                        "cbc:WeightNumeric": "2"
+                        "cbc:Description": "Incremento n\u00famero de horas futuros desarrollos",
+                        "cbc:WeightNumeric": "11"
                     },
                     {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "55"
                     },
                     {
-                        "cbc:Description": "Memoria t\u00e9cnica",
-                        "cbc:WeightNumeric": "22"
+                        "cbc:Description": "Calidad de empleo",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Precio hora",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Memoria t\u00e9cnica",
+                        "cbc:WeightNumeric": "22"
                     }
                 ]
             },
@@ -260,6 +292,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-19"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

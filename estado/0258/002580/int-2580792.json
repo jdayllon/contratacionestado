@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: LOT09/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas, M.P.; Importe: 350830.87 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: LOT09/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas, M.P.; Importe: 350830.87 EUR; Estado: RES"
     },
     "title": "Servicio de log\u00edstica y consignaci\u00f3n en los puertos de Ushuaia (Argentina) y Punta Arenas (Chile), destinado a la Unidad de Tecnolog\u00eda Marina de la Agencia Estatal CSIC, M.P.",
-    "updated": "2018-12-24T09:35:59.169+01:00",
+    "updated": "2019-02-03T09:35:50.560+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "LOT09/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -160,36 +160,83 @@
                 }
             }
         ],
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "3"
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Oferta econ\u00f3micamente m\u00e1s ventajosa.\n\nPor precios unitarios:\n\nConsiderando el n\u00famero de unidades previstas para cada concepto, el importe estimado asciende a 132.493,54 \u20ac sin IVA, m\u00e1s el importe de IVA que proceda en el momento de la facturaci\u00f3n, sin que pueda considerarse este importe obligatorio para la Administraci\u00f3n, dado que el importe definitivo vendr\u00e1 determinado por el n\u00famero efectivo de prestaciones que se realicen.",
+                "cbc:AwardDate": "2019-01-03",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "132493.54"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "132493.54"
+                },
+                "cac:Contract": {
+                    "cbc:ID": "LOT09 19 Lote 1",
+                    "cbc:IssueDate": "2019-01-30"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "30708601345"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Empresa de Servicios Patagonicos SA"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "132493.54"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "132493.54"
+                        }
+                    }
+                }
             },
-            "cbc:Description": "No presentaci\u00f3n de ning\u00fan licitador.",
-            "cbc:AwardDate": "2018-12-17",
-            "cbc:ReceivedTenderQuantity": "0",
-            "cbc:HigherTenderAmount": {
-                "@currencyID": "EUR",
-                "#text": "0"
-            },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "No presentaci\u00f3n de ning\u00fan licitador.",
+                "cbc:AwardDate": "2018-12-17",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -213,19 +260,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "9"
                         }
                     },
                     {
@@ -233,25 +274,31 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Memoria descriptiva de la ejecuci\u00f3n del contrato",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejoras y/o aportaciones adicionales evaluables mediante f\u00f3rmula",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
                         "cbc:Description": "Sistemas de control y seguimiento que utilizar\u00e1 para garantizar la correcta ejecuci\u00f3n del contrato.",
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Formaci\u00f3n, conocimientos y experiencia del equipo t\u00e9cnico",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Medidas socio-laborales del personal encargado de la ejecuci\u00f3n del contrato",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Mejoras y/o aportaciones adicionales evaluables mediante f\u00f3rmula",
                         "cbc:WeightNumeric": "4"
                     },
                     {
@@ -259,7 +306,7 @@
                         "cbc:WeightNumeric": "68"
                     },
                     {
-                        "cbc:Description": "Memoria descriptiva de la ejecuci\u00f3n del contrato",
+                        "cbc:Description": "Formaci\u00f3n, conocimientos y experiencia del equipo t\u00e9cnico",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -313,6 +360,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": [
@@ -337,9 +396,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-24"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-04"
+                        }
+                    ]
                 }
             },
             {
@@ -363,6 +427,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-03"
                     }
                 }
             }

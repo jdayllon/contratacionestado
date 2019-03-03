@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2042716025000; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Oeste; Importe: 0 EUR; Estado: RES"
     },
     "title": "Servicio de cafeteria Base Conde de Gazola, San Andr\u00e9s de Rabanedo (Le\u00f3n) por dos a\u00f1os prorrogable desde 01ENE2017 o fecha formalizaci\u00f3n del contrato, si es posterior, a 31DIC2018.",
-    "updated": "2017-01-18T13:33:34.057+01:00",
+    "updated": "2019-01-09T13:40:53.476+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2042716025000",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,12 +22,6 @@
                 "#text": "1"
             },
             "cac:Party": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "DIR3",
-                        "#text": "E00117001"
-                    }
-                },
                 "cac:PartyName": {
                     "cbc:Name": "Jefatura de Intendencia de Asuntos Econ\u00f3micos Oeste"
                 },
@@ -47,16 +41,41 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Jefatura de Intendencia de Asuntos Econ\u00f3micos Oeste",
-                    "cbc:Telephone": "983214596",
+                    "cbc:Telephone": "983214513",
                     "cbc:Telefax": "983214515",
                     "cbc:ElectronicMail": "CONTRATACION_JIAEOESTE@mde.es"
+                }
+            },
+            "cac-place-ext:ParentLocatedParty": {
+                "cac:PartyName": {
+                    "cbc:Name": "SAECO de la Jefatura de Intendencia de Asuntos Econ\u00f3micos del Oeste"
+                },
+                "cac-place-ext:ParentLocatedParty": {
+                    "cac:PartyName": {
+                        "cbc:Name": "Ej\u00e9rcito de Tierra"
+                    },
+                    "cac-place-ext:ParentLocatedParty": {
+                        "cac:PartyName": {
+                            "cbc:Name": "Ministerio de Defensa"
+                        },
+                        "cac-place-ext:ParentLocatedParty": {
+                            "cac:PartyName": {
+                                "cbc:Name": "ADMINISTRACI\u00d3N GENERAL DEL ESTADO"
+                            },
+                            "cac-place-ext:ParentLocatedParty": {
+                                "cac:PartyName": {
+                                    "cbc:Name": "Sector P\u00fablico"
+                                }
+                            }
+                        }
+                    }
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de cafeteria Base Conde de Gazola, San Andr\u00e9s de Rabanedo (Le\u00f3n) por dos a\u00f1os prorrogable desde 01ENE2017 o fecha formalizaci\u00f3n del contrato, si es posterior, a 31DIC2018.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -86,7 +105,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -239,10 +258,20 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio Productos Ofertados",
-                    "cbc:WeightNumeric": "70"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Prensa Diaria Ofertada",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Can\u00f3n Ofertado",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Precio Productos Ofertados",
+                        "cbc:WeightNumeric": "70"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -250,7 +279,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -358,7 +387,32 @@
                         "cbc:IssueDate": "2017-01-18"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-09"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "25001",
+            "cbc:Note": "Ampliaci\u00f3n contrato cafeter\u00edas USBA Conde de Gazola desde el 01ENE19 hasta el 28FEB19",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "2"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "26"
+            },
+            "cbc:ContractID": "2042716025000"
+        }
     }
 }

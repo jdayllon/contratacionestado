@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3457/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Ronda; Importe: 194214.88 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 3457/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Ronda; Importe: 194214.88 EUR; Estado: RES"
     },
     "title": "Modificado de Proyecto de Mejoras de Accesos a Ronda (M\u00e1laga). PIFS-AV 64/17",
-    "updated": "2018-10-18T13:04:59.421+02:00",
+    "updated": "2019-02-20T14:04:26.097+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3457/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,6 +108,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Haber presentado la oferta econ\u00f3micamente m\u00e1s ventajosa, en base a los criterios establecidos en los Pliegos.",
+            "cbc:AwardDate": "2018-12-07",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "170850.83"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "194000"
+            },
+            "cbc:StartDate": "2018-12-14",
+            "cac:Contract": {
+                "cbc:ID": "2018-0032",
+                "cbc:IssueDate": "2018-12-14"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B29667771"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CANTERAS DE ALMARGEN, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "170850.83"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "206729.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -121,6 +166,13 @@
             },
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Se aportar\u00e1 una declaraci\u00f3n responsable, teniendo en cuenta la forma y contenido tal y como se indica en la cl\u00e1usula octava del Pliego de Cl\u00e1usulas Administrativas Particulares, que rige las condiciones de licitaci\u00f3n de este contrato."
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -139,13 +191,6 @@
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OXR-TITULOS"
-                        },
-                        "cbc:Description": "Se aportar\u00e1 una declaraci\u00f3n responsable, teniendo en cuenta la forma y contenido tal y como se indica en la cl\u00e1usula octava del Pliego de Cl\u00e1usulas Administrativas Particulares, que rige las condiciones de licitaci\u00f3n de este contrato."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
                         },
                         "cbc:Description": "Se aportar\u00e1 una declaraci\u00f3n responsable, teniendo en cuenta la forma y contenido tal y como se indica en la cl\u00e1usula octava del Pliego de Cl\u00e1usulas Administrativas Particulares, que rige las condiciones de licitaci\u00f3n de este contrato."
                     }
@@ -176,16 +221,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Incremento en el plazo de garantia del contrato",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Precio del contrato",
+                        "cbc:WeightNumeric": "85"
                     },
                     {
                         "cbc:Description": "Criterio basado en las caracteristicas sociales del contrato",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio del contrato",
-                        "cbc:WeightNumeric": "85"
+                        "cbc:Description": "Incremento en el plazo de garantia del contrato",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -233,6 +278,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -251,6 +308,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-20"
                     }
                 }
             }

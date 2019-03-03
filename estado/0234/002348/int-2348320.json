@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/02098; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 30000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/02098; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 30000 EUR; Estado: RES"
     },
     "title": "Suministro, implantaci\u00f3n y mantenimiento de las licencias de SecurityCenter y Tenable.io de Tenable Network Security",
-    "updated": "2018-08-09T12:40:05.612+02:00",
+    "updated": "2019-01-25T17:09:19.618+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/02098",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro, implantaci\u00f3n y mantenimiento de las licencias de SecurityCenter y Tenable.io de Tenable Network Security",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -113,6 +113,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-12-03",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2018-12-28",
+            "cac:Contract": {
+                "cbc:ID": "2018C36000063",
+                "cbc:IssueDate": "2018-12-21"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A83637074"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Maintenance Development S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "25505.55"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30858.09"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -121,8 +158,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica durante los dos primeros a\u00f1os de contrato",
-                        "cbc:WeightNumeric": "26"
+                        "cbc:Description": "Certificaci\u00f3n como \"Empresa Partner\" del fabricante",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica durante los eventuales tres a\u00f1os de pr\u00f3rroga",
+                        "cbc:WeightNumeric": "24"
                     },
                     {
                         "cbc:Description": "Adecuaci\u00f3n y experiencia del equipo de trabajo, composici\u00f3n del equipo de trabajo",
@@ -133,12 +174,8 @@
                         "cbc:WeightNumeric": "30"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica durante los eventuales tres a\u00f1os de pr\u00f3rroga",
-                        "cbc:WeightNumeric": "24"
-                    },
-                    {
-                        "cbc:Description": "Certificaci\u00f3n como \"Empresa Partner\" del fabricante",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Oferta econ\u00f3mica durante los dos primeros a\u00f1os de contrato",
+                        "cbc:WeightNumeric": "26"
                     }
                 ]
             },
@@ -182,6 +219,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -198,8 +247,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-09"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-21"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-09"
+                        "cbc:IssueDate": "2019-01-25"
                     }
                 }
             },
