@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: EC/2-011/18; \u00d3rgano de contrataci\u00f3n: Canal Sur Radio y Televisi\u00f3n, S.A.; Importe: 208.500,00 \u20ac;"
     },
     "title": "servicio de mantenimiento del sistema de emisiones y continuidad de television para canal sur radio y television, s.a.",
-    "updated": "2018-11-05T15:26:15.610+01:00",
+    "updated": "2019-03-04T15:41:03.352+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EC/2-011/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -55,12 +55,6 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "72267000"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "50324100"
                     }
                 },
@@ -68,6 +62,12 @@
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "72267100"
+                    }
+                },
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "72267000"
                     }
                 },
                 {
@@ -96,6 +96,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A-78053147"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TELEFONICA SOLUCIONES DE INFORMATICA Y COMUNICACIONES DE ESPA?A SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "208205"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -106,17 +132,43 @@
                 "cbc:EndTime": "14:30:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-05"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-04"
+                    }
                 }
             }
-        }
+        ]
     }
 }

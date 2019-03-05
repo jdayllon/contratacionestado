@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: 0003/2018/SS/SV; \u00d3rgano de contrataci\u00f3n: Agencia Andaluza de Cooperaci\u00f3n Internacional para el Desarrollo; Importe: 20.000,00 \u20ac;"
     },
     "title": "mantenimiento y soporte del centro de procesamiento de datos (cpd), incluyendo su climatizacion, el sitema de alimentacion ininterrumpida (sai) y la seguridad perimetrasl informatica de su sedes, sita en avd. de la palmera 24, sevilla",
-    "updated": "2018-12-28T13:56:51.989+01:00",
+    "updated": "2019-03-04T16:26:05.778+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "0003/2018/SS/SV",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -49,6 +49,12 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "50324100"
+                    }
+                },
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "50532300"
                     }
                 },
@@ -56,12 +62,6 @@
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "50312310"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "50324100"
                     }
                 }
             ],
@@ -78,6 +78,62 @@
                 }
             }
         },
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "2",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "47210685B"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "D. Joaquin Hidalgo Pozuelo"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "1875"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A81784704"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "PSH ENERGIA SA"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "3025.5"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -88,17 +144,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-29"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-28"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-04"
+                    }
                 }
             }
-        }
+        ]
     }
 }

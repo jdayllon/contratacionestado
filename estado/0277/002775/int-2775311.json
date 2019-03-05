@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SV/58/18; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Aguas de las Cuencas Mediterr\u00e1neas, S.M.E., S.A. (ACUAMED); Importe: 155000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: SV/58/18; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Aguas de las Cuencas Mediterr\u00e1neas, S.M.E., S.A. (ACUAMED); Importe: 155000 EUR; Estado: ADJ"
     },
     "title": "Servicio de ingenier\u00eda para la creaci\u00f3n de un cuadro de precios para Acuamed.",
-    "updated": "2019-01-17T17:18:47.352+01:00",
+    "updated": "2019-03-04T17:06:32.345+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SV/58/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -121,20 +121,56 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicada a la oferta con mejor relaci\u00f3n calidad precio de acuerdo a los criterios de valoraci\u00f3n indicados en el pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n.",
+            "cbc:AwardDate": "2019-02-12",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "83545"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A85788073"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AQUATEC PROYECTOS PARA EL SECTOR DEL AGUA, S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "83545"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "101089.45"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "true",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -158,6 +194,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
@@ -170,19 +212,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "13"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "13"
                         }
                     },
                     {
@@ -196,12 +232,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios cuantificables mediante la mera aplicaci\u00f3n de f\u00f3rmulas.",
-                        "cbc:WeightNumeric": "53"
-                    },
-                    {
                         "cbc:Description": "Criterio precio",
                         "cbc:WeightNumeric": "47"
+                    },
+                    {
+                        "cbc:Description": "Criterios cuantificables mediante la mera aplicaci\u00f3n de f\u00f3rmulas.",
+                        "cbc:WeightNumeric": "53"
                     }
                 ]
             },
@@ -249,6 +285,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -274,6 +322,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-01-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-23"
                         }
                     ]
                 }
