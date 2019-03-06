@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 34/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ajuntament de Real; Importe: 29818.81 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 34/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ajuntament de Real; Importe: 29818.81 EUR; Estado: ADJ"
     },
     "title": "Sustituci\u00f3n de luminarias en las calles Paraiso, Valencia, Conde del Real y sustituci\u00f3n de cuadro el\u00e9ctrico en c/ Mariano Nieto de Real.",
-    "updated": "2019-02-01T13:14:39.445+01:00",
+    "updated": "2019-03-05T12:05:39.255+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "34/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "de conformidad con la propuesta efectuada por el \u00d3rgano de asistencia t\u00e9cnica.",
+            "cbc:AwardDate": "2019-03-04",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "16600"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "21500"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28002335"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SOCIEDAD IB\u00c9RICA DE CONSTRUCCIONES EL\u00c9CTRICAS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "16600"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "20086"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -136,16 +176,16 @@
                         "cbc:WeightNumeric": "46"
                     },
                     {
-                        "cbc:Description": "Aumento del plazo de garant\u00eda",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
                         "cbc:Description": "Mantenimiento de luminarias objeto del contrato",
                         "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Aumento del plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "4"
                     }
                 ]
             },
@@ -194,13 +234,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-01"
+                        "cbc:IssueDate": "2019-03-05"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-15"
+                        }
+                    ]
                 }
             },
             {
@@ -210,9 +267,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-01"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-15"
+                        }
+                    ]
                 }
             }
         ]

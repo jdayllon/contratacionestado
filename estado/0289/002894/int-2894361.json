@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/00747; \u00d3rgano de Contrataci\u00f3n: Distrito de Puente de Vallecas; Importe: 164467.68 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2018/00747; \u00d3rgano de Contrataci\u00f3n: Distrito de Puente de Vallecas; Importe: 164467.68 EUR; Estado: EV"
     },
     "title": "Acuerdo Marco servicios de  coordinaci\u00f3n Seguridad y Salud en el trabajo.",
-    "updated": "2019-01-27T09:37:35.007+01:00",
+    "updated": "2019-03-05T13:00:22.849+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/00747",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -144,12 +144,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios no valorables en cifras o porcentajes",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "Criterios valorables en cifras o porcentajes",
                         "cbc:WeightNumeric": "75"
+                    },
+                    {
+                        "cbc:Description": "Criterios no valorables en cifras o porcentajes",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -198,17 +198,54 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-29"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-01-27"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-05"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 201882000060; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n Perif\u00e9rica; Importe: 289256.2 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 201882000060; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Administraci\u00f3n Financiera y Patrimonio de la Administraci\u00f3n Perif\u00e9rica; Importe: 289256.2 EUR; Estado: ADJ"
     },
     "title": "Gas natural para las dependencias e instalaciones de las Delegaciones y Subdelegaciones del Gobierno y Direcciones Insulares de la Administraci\u00f3n General del Estado",
-    "updated": "2018-12-13T16:56:01.769+01:00",
+    "updated": "2019-03-05T13:51:09.024+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "201882000060",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,6 +105,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica el contrato a la oferta m\u00e1s ventajosa para la Administraci\u00f3n",
+            "cbc:AwardDate": "2019-03-05",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A61797536"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GAS NATURAL COMERCIALIZADORA SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "289256.2"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "350000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -177,15 +209,26 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "PCAP Subd.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ba61e367-7ba5-4fde-8fb2-ec23016cbffc",
-                    "cbc:DocumentHash": "t0iu+hwibUBrXMlXYL0G6goaYhI="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "PCAP Subd.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ba61e367-7ba5-4fde-8fb2-ec23016cbffc",
+                        "cbc:DocumentHash": "t0iu+hwibUBrXMlXYL0G6goaYhI="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "oferta economica por bloques de tarifa.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=545de08b-93ba-4bfe-bd17-fee24ec213aa",
+                        "cbc:DocumentHash": "n/Zt6+wd6oPh8V5wBTPkVBI4wjA="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -214,6 +257,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -224,6 +279,12 @@
                         },
                         {
                             "cbc:IssueDate": "2018-12-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-27"
                         }
                     ]
                 }

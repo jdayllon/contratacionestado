@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 6100B/2015/0017; \u00d3rgano de Contrataci\u00f3n: Consorcio de Compensaci\u00f3n de Seguros; Importe: 279674 EUR; Estado: RES"
     },
     "title": "Arrendamiento de equipos inform\u00e1ticos y servicios de instalaci\u00f3n y configuraci\u00f3n asociados a los mismos.",
-    "updated": "2015-11-27T09:46:05.229+01:00",
+    "updated": "2019-03-05T14:25:58.879+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "6100B/2015/0017",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -53,7 +53,7 @@
                 },
                 "cac-place-ext:ParentLocatedParty": {
                     "cac:PartyName": {
-                        "cbc:Name": "Ministerio de Econom\u00eda y Competitivad"
+                        "cbc:Name": "Ministerio de Econom\u00eda, Industria y Competitividad"
                     },
                     "cac-place-ext:ParentLocatedParty": {
                         "cac:PartyName": {
@@ -76,11 +76,11 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Arrendamiento de equipos inform\u00e1ticos y servicios de instalaci\u00f3n y configuraci\u00f3n asociados a los mismos.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/WorksContractCode-1.04.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/ServiceContractCode-1.04.gc",
                 "#text": "6"
             },
             "cac:BudgetAmount": {
@@ -102,7 +102,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Madrid",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES300"
                 },
                 "cac:Address": {
@@ -168,7 +168,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "3"
             },
             "cbc:UrgencyCode": {
@@ -200,7 +200,44 @@
                         "cbc:IssueDate": "2015-11-27"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-05"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "2",
+            "cbc:Note": "Renovaci\u00f3n anual renting",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "4"
+            },
+            "cbc:ContractID": "6100B/2015/0017",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "9389"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "267197"
+                }
+            }
+        }
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CP00053/2018; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Medios de ASEPEYO. Mutua Colaboradora con la Seguridad Social. num. 151; Importe: 54000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CP00053/2018; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Medios de ASEPEYO. Mutua Colaboradora con la Seguridad Social. num. 151; Importe: 54000 EUR; Estado: EV"
     },
     "title": "Servicio de dise\u00f1o y gesti\u00f3n de un proyecto para implantar la figura del mentor en ASEPEYO, Mutua Colaboradora con la Seguridad Social, n\u00fam. 151.",
-    "updated": "2019-01-29T18:08:22.439+01:00",
+    "updated": "2019-03-05T14:07:37.854+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CP00053/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -163,13 +163,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "4"
                         }
                     },
                     {
@@ -181,7 +175,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     }
                 ]
@@ -189,8 +189,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Formaci\u00f3n mentores",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Formaci\u00f3n y acreditaci\u00f3n de mentores",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
                         "cbc:Description": "Selecci\u00f3n de mentores",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Selecci\u00f3n mentores",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Proyecto consultor\u00eda",
@@ -199,18 +211,6 @@
                     {
                         "cbc:Description": "Acreditaci\u00f3n de mentores",
                         "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Formaci\u00f3n y acreditaci\u00f3n de mentores",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Formaci\u00f3n mentores",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Selecci\u00f3n mentores",
-                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Proyecto de consultor\u00eda",
@@ -316,9 +316,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-29"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-05"
+                        }
+                    ]
                 }
             }
         ]

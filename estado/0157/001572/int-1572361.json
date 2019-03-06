@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: PA 17/17; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Ciudad de las Artes y de las Ciencias S.A.; Importe: 74210.05 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de la impresi\u00f3n y suministro de publicaciones para la Ciutat de les Arts i les Ci\u00e8ncies de Valencia, de acuerdo con las necesidades de CAC, S. A.",
-    "updated": "2017-07-03T12:19:32.938+02:00",
+    "updated": "2019-03-05T15:00:29.915+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA 17/17",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de la impresi\u00f3n y suministro de publicaciones para la Ciutat de les Arts i les Ci\u00e8ncies de Valencia, de acuerdo con las necesidades de CAC, S. A.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -183,10 +183,16 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio productos",
-                    "cbc:WeightNumeric": "95"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Criterio ambiental",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio productos",
+                        "cbc:WeightNumeric": "95"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -194,7 +200,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -277,7 +283,36 @@
                         "cbc:IssueDate": "2017-07-03"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-05"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Modificaci\u00f3n en las caracter\u00edsticas de los productos y valor unitario de los mismos. No altera el importe m\u00e1ximo aprobado por CACSA para esta contrataci\u00f3n",
+            "cbc:ContractID": "PA 17/17",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "68235"
+                }
+            }
+        }
     }
 }
