@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: E201809;\u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n IMDEA Agua;Importe: 97500 EUR;Estado: ABIERTO"
+        "#text": "Id licitaci\u00f3n: E201809;\u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n IMDEA Agua;Importe: 97500 EUR;Estado: ADJUDICADA"
     },
     "title": "Servicios de limpieza de la sede e instalaciones de la Fundaci\u00f3n IMDEA Agua",
-    "updated": "2018-10-05T16:10:22.359+02:00",
+    "updated": "2019-03-06T17:25:25.140+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "E201809",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -58,21 +58,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B76121078"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MARSERVI FACILITY, S.L"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "35490"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "9"
-            },
-            "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-10-22",
-                "cbc:EndTime": "23:59:00"
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "1354737852825.pdf",
+            "cbc:ID": "1354738014777.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "http://www.madrid.org/contratos-publicos/1354737846083/1350930820369/1354737852825.pdf"
+                    "cbc:URI": "http://www.madrid.org/contratos-publicos/1354737846083/1350930820369/1354738014777.pdf"
                 }
             }
         },
@@ -84,17 +106,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-05"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-11"
+                    }
                 }
             }
-        }
+        ]
     }
 }

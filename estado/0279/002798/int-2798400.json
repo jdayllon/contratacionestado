@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA 57-18; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Complutense de Madrid; Importe: 87500 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA 57-18; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Complutense de Madrid; Importe: 87500 EUR; Estado: ADJ"
     },
     "title": "Administraci\u00f3n de bases de datos Oracle y el servicio de mantenimiento remoto de las bases de datos MSQL y del gestor documental Alfresco",
-    "updated": "2018-12-26T17:45:55.938+01:00",
+    "updated": "2019-03-06T12:48:11.737+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA 57-18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -113,6 +113,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Es el \u00fanico licitador admitido en el procedimiento al ser excluido del mismo GPS Open Source.",
+            "cbc:AwardDate": "2019-02-25",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A79153920"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ALTEN SOLUCIONES PRODUCTOS AUDITORIA E INGENIERIA. S.A.U"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "69890"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "84566.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -151,12 +183,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "90"
-                    },
-                    {
                         "cbc:Description": "Bolsa de jornadas de consultor\u00eda avanzada",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "90"
                     }
                 ]
             },
@@ -226,6 +258,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-06"
                     }
                 }
             },

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: DC-SOAYC-000325; \u00d3rgano de Contrataci\u00f3n: ENUSA Industrias Avanzadas S.A., S.M.E. ; Importe: 180000 EUR; Estado: PUB"
     },
     "title": "Pliego De Condiciones Para El Servicio De Conexi\u00f3n Entre Centros Y De Acceso A Internet Corporativo",
-    "updated": "2019-02-28T17:45:06.191+01:00",
+    "updated": "2019-03-06T13:21:54.313+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "DC-SOAYC-000325",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -147,7 +147,19 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Precio m\u00e1s bajo",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
                         "cbc:Description": "Propiedad del rango de IP para ENUSA",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Nivel Tier III o IV de CPD en Espa\u00f1a",
+                        "cbc:WeightNumeric": "14"
+                    },
+                    {
+                        "cbc:Description": "Gesti\u00f3n del DNS por parte del cliente",
                         "cbc:WeightNumeric": "2"
                     },
                     {
@@ -155,32 +167,20 @@
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Gesti\u00f3n del DNS por parte del cliente",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Mejora en el caudal ofertado en el servicio Internet o Juzbado-Madrid",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Al menos 4 CPD a nivel nacional interconectados para contingencia",
+                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "Mejoras en los acuerdos del nivel de servicio, SLA",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Nivel Tier III o IV de CPD en Espa\u00f1a",
-                        "cbc:WeightNumeric": "14"
-                    },
-                    {
-                        "cbc:Description": "Precio m\u00e1s bajo",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "Monitorizaci\u00f3n del servicio",
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Al menos 4 CPD a nivel nacional interconectados para contingencia",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "Mejora en el caudal ofertado en el servicio Internet o Juzbado-Madrid",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -203,20 +203,20 @@
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "Pliego de condiciones_internet_consolido_21-2.pdf",
+            "cbc:ID": "Pliego de condiciones_internet_consolido_21-2_rev1.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=51ca4549-8ece-42d8-b953-b61a7c94d743",
-                    "cbc:DocumentHash": "AyCqUOf0l/uehzRIgUy0oRyCG3U="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2e089b2b-c482-45f1-87b0-607fac91855b",
+                    "cbc:DocumentHash": "rqBo12TSN/oqq3c9SBfAaUNKTb0="
                 }
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "Pliego de condiciones_internet_consolido_21-2.pdf",
+            "cbc:ID": "Pliego de condiciones_internet_consolido_21-2_rev1.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9ed5810c-145f-4f32-960c-64bcfb724017",
-                    "cbc:DocumentHash": "AyCqUOf0l/uehzRIgUy0oRyCG3U="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ec44a017-d701-43ef-9eca-e14813adf428",
+                    "cbc:DocumentHash": "rqBo12TSN/oqq3c9SBfAaUNKTb0="
                 }
             }
         },
@@ -228,9 +228,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-28"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-06"
+                        }
+                    ]
                 }
             },
             {

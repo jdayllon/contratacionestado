@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SP056/2017; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Gesti\u00f3n de ASEPEYO. Mutua Colaboradora con la Seguridad Social. num. 151; Importe: 35000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SP056/2017; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Gesti\u00f3n de ASEPEYO. Mutua Colaboradora con la Seguridad Social. num. 151; Importe: 35000 EUR; Estado: RES"
     },
     "title": "Servicios correspondientes a la especialidad de odontolog\u00eda/estomatolog\u00eda en r\u00e9gimen ambulatorio y en el \u00e1mbito territorial de la provincia de Valencia para Asepeyo, Mutua Colaboradora con la Seguridad Social n\u00ba 151.",
-    "updated": "2018-02-13T13:10:04.558+01:00",
+    "updated": "2019-03-06T16:31:30.669+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SP056/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -70,7 +70,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios correspondientes a la especialidad de odontolog\u00eda/estomatolog\u00eda en r\u00e9gimen ambulatorio y en el \u00e1mbito territorial de la provincia de Valencia para Asepeyo, Mutua Colaboradora con la Seguridad Social n\u00ba 151.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -125,6 +125,109 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Valencia",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "25000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "25000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "85131000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Gand\u00eda",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "10000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "10000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "85131000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Art\u00edculo 154 trlcsp",
+                "cbc:AwardDate": "2019-02-01",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cbc:StartDate": "2019-03-01",
+                "cac:Contract": {
+                    "cbc:ID": "A201801801",
+                    "cbc:IssueDate": "2019-02-21"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B96915756"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "CLINICA DENTAL ALBALAT, S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "25000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "25000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2019-02-01",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -134,21 +237,14 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Autorizaci\u00f3n sanitaria de funcionamiento en vigor del centro o centros sanitarios para la ejecuci\u00f3n de los servicios objeto de licitaci\u00f3n en los t\u00e9rminos del apartado O de Cuadro de Caracter\u00edsticas del presente Pliego.Se acreditar\u00e1 mediante la resoluci\u00f3n administrativa expedida por la autoridad sanitaria auton\u00f3mica competente."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
-                        "cbc:Description": "Declaraci\u00f3n responsable  conforme la empresa  dispone de los medios propios,materiales y personales,necesarios para llevar a cabo los servicios objeto del contrato;que no tiene ning\u00fan tipo de vinculaci\u00f3n o relaci\u00f3n comercial,financiera o de cualquier otra clase con las empresas representadas en la junta directiva de ASEPEYO,con el representante de las mismas,con el director gerente o cualquier otra persona que ejerza funciones de direcci\u00f3n ejecutiva en la Mutua(ver https://www.asepeyo.es/organigrama);y que el titular de la Empresa y el personal que atender\u00e1 la prestaci\u00f3n de servicios objeto del contrato,no est\u00e1 incurso en causa de incompatibilidad conforme a lo previsto en la normativa sanitaria(Anexo VI)"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
                         "cbc:Description": "Certificado de titularidad bancaria de la cuenta que la empresa licitadora designe para el pago de los servicios que ejecute en el marco del concierto."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "El Programa de Protecci\u00f3n Radiol\u00f3gica(P.P.R)y el Programa de Garant\u00eda de Calidad(P.G.C)de instalaciones radiol\u00f3gicas del centro o centros ofertados por la licitadora en los que tenga instalado el aparato de RX."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -162,7 +258,14 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "El Programa de Protecci\u00f3n Radiol\u00f3gica(P.P.R)y el Programa de Garant\u00eda de Calidad(P.G.C)de instalaciones radiol\u00f3gicas del centro o centros ofertados por la licitadora en los que tenga instalado el aparato de RX."
+                        "cbc:Description": "Autorizaci\u00f3n sanitaria de funcionamiento en vigor del centro o centros sanitarios para la ejecuci\u00f3n de los servicios objeto de licitaci\u00f3n en los t\u00e9rminos del apartado O de Cuadro de Caracter\u00edsticas del presente Pliego.Se acreditar\u00e1 mediante la resoluci\u00f3n administrativa expedida por la autoridad sanitaria auton\u00f3mica competente."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n responsable  conforme la empresa  dispone de los medios propios,materiales y personales,necesarios para llevar a cabo los servicios objeto del contrato;que no tiene ning\u00fan tipo de vinculaci\u00f3n o relaci\u00f3n comercial,financiera o de cualquier otra clase con las empresas representadas en la junta directiva de ASEPEYO,con el representante de las mismas,con el director gerente o cualquier otra persona que ejerza funciones de direcci\u00f3n ejecutiva en la Mutua(ver https://www.asepeyo.es/organigrama);y que el titular de la Empresa y el personal que atender\u00e1 la prestaci\u00f3n de servicios objeto del contrato,no est\u00e1 incurso en causa de incompatibilidad conforme a lo previsto en la normativa sanitaria(Anexo VI)"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -199,12 +302,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
                     },
@@ -217,7 +314,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "2"
                         }
                     },
                     {
@@ -225,23 +322,17 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Oferta Econ\u00f3mica",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
-                        "cbc:Description": "Localizaci\u00f3n y Accesibilidad",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
-                        "cbc:Description": "Acreditaci\u00f3n de experiencia y calificaci\u00f3n profesional",
-                        "cbc:WeightNumeric": "10"
-                    },
                     {
                         "cbc:Description": "Tiempors de Ejecuci\u00f3n",
                         "cbc:WeightNumeric": "3"
@@ -249,6 +340,18 @@
                     {
                         "cbc:Description": "Prestaci\u00f3n del  Servicio",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Acreditaci\u00f3n de experiencia y calificaci\u00f3n profesional",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Localizaci\u00f3n y Accesibilidad",
+                        "cbc:WeightNumeric": "7"
+                    },
+                    {
+                        "cbc:Description": "Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -258,7 +361,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -344,6 +447,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -368,6 +483,18 @@
                             "cbc:IssueDate": "2018-02-13"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-06"
+                    }
                 }
             }
         ]

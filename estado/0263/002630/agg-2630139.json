@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/045;  \u00d3rgano de Contrataci\u00f3n: Concejal delegado de Hacienda y Finanzas;  Importe: 1214981.97EUR;  Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/045;  \u00d3rgano de Contrataci\u00f3n: Concejal delegado de Hacienda y Finanzas;  Importe: 1214981.97EUR;  Estado: ADJ"
     },
     "title": "Prestaci\u00f3n de los servicios de la red de Haurtxokos y Gaztelekus y de Etxarriene Auzoa etxea",
-    "updated": "2018-11-08T19:40:38.109+01:00",
+    "updated": "2019-03-06T14:40:39.386+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/045",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -66,13 +66,39 @@
                 "cbc:EndDate": "2019-06-30"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B75097436"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "HEZI ZERB, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1203703.46"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-12-10",
+                "cbc:EndDate": "2019-01-02",
                 "cbc:EndTime": "14:00:00"
             }
         },
@@ -85,24 +111,38 @@
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "TECNICAS.pdf",
+            "cbc:ID": "CORRECCION ERRORES -PLIEGO T\u00c9CNICO-.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
                     "cbc:URI": "https://apps.euskadi.eus/w32-1084/es/v79aWar/comunJSP/v79aMostrarAdjunto.do?&idUnico=expjaso14943&fichero=pliego_bases_tecnicas1.pdf&tipoAnuncio=A&idOrigen=14943&origen=JASO&R01HNoPortal=true"
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-08"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-06"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 8004330008-2018-0001127; \u00d3rgano de Contrataci\u00f3n: President de la Diputaci\u00f3 de Tarragona; Importe: 108000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 8004330008-2018-0001127; \u00d3rgano de Contrataci\u00f3n: President de la Diputaci\u00f3 de Tarragona; Importe: 108000 EUR; Estado: RES"
     },
     "title": "Servei de recollida i eliminaci\u00f3 de les restes d animals morts de la xarxa de carreteres de la Diputaci\u00f3 de Tarragona",
-    "updated": "2018-08-10T10:41:37.337+02:00",
+    "updated": "2019-03-06T13:01:00.807+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "8004330008-2018-0001127",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servei de recollida i eliminaci\u00f3 de les restes d animals morts de la xarxa de carreteres de la Diputaci\u00f3 de Tarragona",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -88,6 +88,15 @@
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
+                },
+                "cac:Address": {
+                    "cac:Country": {
+                        "cbc:IdentificationCode": {
+                            "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
+                            "#text": "ES"
+                        },
+                        "cbc:Name": "Espa\u00f1a"
+                    }
                 }
             },
             "cac:PlannedPeriod": {
@@ -97,7 +106,45 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta calidad precio",
+            "cbc:AwardDate": "2019-02-01",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2019-03-05",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2019-03-04"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B43686641"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSERVACION INTEGRAL VIARIA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "61200"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "67320"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
@@ -134,7 +181,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-09-17",
+                "cbc:EndDate": "2018-11-12",
                 "cbc:EndTime": "14:00:00"
             }
         },
@@ -160,6 +207,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -176,8 +235,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-25"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-10"
+                        "cbc:IssueDate": "2019-03-06"
                     }
                 }
             }

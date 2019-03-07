@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 160488; \u00d3rgano de Contrataci\u00f3n: Paradores de Turismo de Espa\u00f1a, S.M.E., S.A.; Importe: 159583 EUR; Estado: ADJ"
     },
     "title": "Suministro de maquinaria y equipamiento con destino a los establecimientos de Paradores de Turismo de Espa\u00f1a, S.A.",
-    "updated": "2017-10-25T14:51:05.485+02:00",
+    "updated": "2019-03-06T15:08:25.010+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "160488",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de maquinaria y equipamiento con destino a los establecimientos de Paradores de Turismo de Espa\u00f1a, S.A.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -1041,10 +1041,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "valoraci\u00f3n econ\u00f3mica para todos los lotes ver cl\u00e1susula 7 del pliego de condiciones de contrataci\u00f3n",
-                    "cbc:WeightNumeric": "70"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "valoraci\u00f3n t\u00e9cnica para todos los lotes, ver cl\u00e1usula del pliego de condiones de contrataci\u00f3n",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "valoraci\u00f3n econ\u00f3mica para todos los lotes ver cl\u00e1susula 7 del pliego de condiciones de contrataci\u00f3n",
+                        "cbc:WeightNumeric": "70"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -1052,7 +1058,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -1237,6 +1243,9 @@
                         },
                         {
                             "cbc:IssueDate": "2017-10-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-06"
                         }
                     ]
                 }
@@ -1246,22 +1255,17 @@
             {
                 "cbc:ID": "1",
                 "cbc:Note": "Pr\u00f3rroga del contrato",
+                "cbc:ContractID": "160488/3"
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Pr\u00f3rroga del contrato",
                 "cbc:ContractID": "160488/11"
             },
             {
                 "cbc:ID": "1",
                 "cbc:Note": "Pr\u00f3rroga del contrato",
                 "cbc:ContractID": "160488/10"
-            },
-            {
-                "cbc:ID": "1",
-                "cbc:Note": "Pr\u00f3rroga del contrato",
-                "cbc:ContractID": "160488/12"
-            },
-            {
-                "cbc:ID": "1",
-                "cbc:Note": "Pr\u00f3rroga del contrato",
-                "cbc:ContractID": "160488/8"
             },
             {
                 "cbc:ID": "1",
@@ -1276,12 +1280,12 @@
             {
                 "cbc:ID": "1",
                 "cbc:Note": "Pr\u00f3rroga del contrato",
-                "cbc:ContractID": "160488/4"
+                "cbc:ContractID": "160488/9"
             },
             {
                 "cbc:ID": "1",
                 "cbc:Note": "Pr\u00f3rroga del contrato",
-                "cbc:ContractID": "160488/3"
+                "cbc:ContractID": "160488/12"
             },
             {
                 "cbc:ID": "1",
@@ -1306,7 +1310,17 @@
             {
                 "cbc:ID": "1",
                 "cbc:Note": "Pr\u00f3rroga del contrato",
-                "cbc:ContractID": "160488/9"
+                "cbc:ContractID": "160488/4"
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Pr\u00f3rroga del contrato",
+                "cbc:ContractID": "160488/8"
+            },
+            {
+                "cbc:ID": "2",
+                "cbc:Note": "prorroga del contrato",
+                "cbc:ContractID": "160488/3"
             }
         ]
     }
