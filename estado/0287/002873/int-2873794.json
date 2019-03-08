@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONT00004/19; \u00d3rgano de Contrataci\u00f3n: Autoridad Portuaria de Sevilla; Importe: 102723 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CONT00004/19; \u00d3rgano de Contrataci\u00f3n: Autoridad Portuaria de Sevilla; Importe: 102723 EUR; Estado: RES"
     },
     "title": "Suministro de nuevos elementos mec\u00e1nicos del carro inferior de la puerta del lado r\u00edo en la esclusa Puerta del Mar",
-    "updated": "2019-01-23T14:26:14.749+01:00",
+    "updated": "2019-03-07T13:02:11.753+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONT00004/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -103,20 +103,18 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:AwardDate": "2019-03-06",
+            "cbc:ReceivedTenderQuantity": "0"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "3081.69"
-                    }
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -125,6 +123,16 @@
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
                         "#text": "5136.15"
+                    }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3081.69"
                     }
                 }
             ],
@@ -180,16 +188,48 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "Planos.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b12b2e7a-93f8-4b53-acfb-82f37da75fb3",
-                    "cbc:DocumentHash": "oAmWIiIeIn8YzhEgO6XGMu8lek8="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Planos.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b12b2e7a-93f8-4b53-acfb-82f37da75fb3",
+                        "cbc:DocumentHash": "oAmWIiIeIn8YzhEgO6XGMu8lek8="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "DEUC.xml",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5aa04762-5caf-45d1-a103-3a82295b4dbe",
+                        "cbc:DocumentHash": "ObfgRxB73YwjIUBGZo8pZ5irLes="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "DEUC.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=de200c68-54ca-4017-be77-f06c4f69ee38",
+                        "cbc:DocumentHash": "Z4M0/eydZ3jNkbHeN78MwkH0Ilw="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-07"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -197,9 +237,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-23"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-28"
+                        }
+                    ]
                 }
             },
             {

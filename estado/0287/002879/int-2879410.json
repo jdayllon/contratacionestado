@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: ALC-CONT-132/18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Alicante; Importe: 18181.82 EUR; Estado: ADJ"
     },
     "title": "Organizaci\u00f3n y desarrollo de las actividades y espect\u00e1culos que se celebrar\u00e1n en la Avenida Rambla M\u00e9ndez N\u00fa\u00f1ez de Alicante con motivo del tradicional \"S\u00e1bado Ramblero 2019\"",
-    "updated": "2019-03-05T14:43:00.123+01:00",
+    "updated": "2019-03-07T14:06:45.455+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ALC-CONT-132/18",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -91,64 +91,126 @@
                 "cbc:EndDate": "2019-03-02"
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "1"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Lote A: Contrataci\u00f3n del servicio de organizaci\u00f3n y desarrollo de las actividades de animaci\u00f3n infantil del S\u00e1bado Ramblero 2019",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "3000"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "2479.34"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "92300000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote A: Contrataci\u00f3n del servicio de organizaci\u00f3n y desarrollo de las actividades de animaci\u00f3n infantil del S\u00e1bado Ramblero 2019",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "3000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2479.34"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "92300000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote B: Contrataci\u00f3n del servicio de organizaci\u00f3n y desarrollo de los espect\u00e1culos del S\u00e1bado Ramblero 2019",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "19000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "15702.48"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "92300000"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "Primer clasificado para el Lote A",
-            "cbc:AwardDate": "2019-02-26",
-            "cbc:ReceivedTenderQuantity": "4",
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "B03909264"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Primer clasificado para el Lote A",
+                "cbc:AwardDate": "2019-02-26",
+                "cbc:ReceivedTenderQuantity": "4",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B03909264"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "HORIZONTE MUSICAL / LOZANO HUESCA, JUAN ANTONIO"
                     }
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "HORIZONTE MUSICAL / LOZANO HUESCA, JUAN ANTONIO"
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2400"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2904"
+                        }
+                    }
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "1",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "2400"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Primer clasificado para Lote A",
+                "cbc:AwardDate": "2019-02-26",
+                "cbc:ReceivedTenderQuantity": "5",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B03909264"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "2904"
+                    "cac:PartyName": {
+                        "cbc:Name": "HORIZONTE MUSICAL / LOZANO HUESCA, JUAN ANTONIO"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "12000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "14520"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -214,6 +276,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-03-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-07"
                         }
                     ]
                 }

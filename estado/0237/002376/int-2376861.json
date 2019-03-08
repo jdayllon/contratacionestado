@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONTR 2018/4040; \u00d3rgano de Contrataci\u00f3n: Servicio de Empleo de las Illes Balears; Importe: 608515.49 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CONTR 2018/4040; \u00d3rgano de Contrataci\u00f3n: Servicio de Empleo de las Illes Balears; Importe: 608515.49 EUR; Estado: ADJ"
     },
     "title": "CONTRATO MIXTO por lotes de obra y suministro de mobiliario: \nLOTE 1: obras de acondicionamiento LOTE 2:suministro e instalaci\u00f3n de mobiliario para la nueva oficina del SOIB en Eivissa Vila",
-    "updated": "2018-08-24T15:35:32.237+02:00",
+    "updated": "2019-03-07T15:12:20.357+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONTR 2018/4040",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -75,7 +75,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "CONTRATO MIXTO por lotes de obra y suministro de mobiliario: \nLOTE 1: obras de acondicionamiento LOTE 2:suministro e instalaci\u00f3n de mobiliario para la nueva oficina del SOIB en Eivissa Vila",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -100,7 +100,7 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45400000"
+                        "#text": "45300000"
                     }
                 },
                 {
@@ -112,18 +112,19 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45300000"
+                        "#text": "45400000"
                     }
                 }
             ],
             "cac:RealizedLocation": {
-                "cbc:CountrySubentity": "Eivissa y Formentera",
+                "cbc:CountrySubentity": "Mallorca",
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
-                    "#text": "ES531"
+                    "#text": "ES532"
                 },
                 "cac:Address": {
-                    "cbc:CityName": "Eivissa",
+                    "cbc:CityName": "Palma. Illes Balears",
+                    "cbc:PostalZone": "07009",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -134,40 +135,134 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "4"
-                }
+                "cbc:StartDate": "2019-01-01",
+                "cbc:EndDate": "2020-12-31"
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Obra de acondicionamiento: Trabajos, medios materiales y humanos descritos en el proyecto del presente procedimiento destinados al acondicionamiento de los inmuebles incluidos en el proyecto.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "654028.2"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "540519.17"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "45300000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "45400000"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Suministro e instalaci\u00f3n de mobiliario descrito en el apartado 9:\u201cPresupuesto y Mediciones\u201d, c\u00f3digo 16 \u201cMobiliario\" del DOCUMENTO IV  \u201cMediciones y Presupuesto\u201d del  \u201cProyecto Integral de acondicionamento del local para las oficinas del SOIB y  del SEPE a Eivissa\u201d que rige en el presente procedimiento.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "82275.54"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "67996.32"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": [
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "39100000"
+                            }
+                        },
+                        {
+                            "cbc:ItemClassificationCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                                "#text": "39000000"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "En data 14 de setembre de 2018, va finalitzar el termini per presentar ofertes i no es va presentar cap licitador al LOT 1 del procediment d\u2019adjudicaci\u00f3 per procedir a la contractaci\u00f3 de l\u2019obra per al condicionament de l\u2019immoble ubicat al carrer Can\u00e0ries, n\u00famero 35, a Eivissa (expedient CONTR 2018/4210).",
+                "cbc:AwardDate": "2018-09-21",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Oferta econ\u00f2micament m\u00e9s avantatjosa",
+                "cbc:AwardDate": "2019-02-26",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "36969888X"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Carmen SERRA TORRES, H2M Equipamientos (Persona F\u00edsica)"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "43229.32"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "52307.48"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
-            "cac:RequiredFinancialGuarantee": {
-                "cbc:GuaranteeTypeCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                    "#text": "2"
-                },
-                "cbc:AmountRate": "5"
-            },
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
                         }
                     },
                     {
@@ -179,14 +274,22 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
                     }
                 ]
-            },
-            "cac:AllowedSubcontractTerms": {
-                "cbc:Rate": "60",
-                "cbc:Description": "Se exige la presentaci\u00f3n de una declaraci\u00f3n sobre la parte del contrato que el licitador tenga previsto subcontratar en los t\u00e9rminos del art\u00edculo 215.2.a) de la LCSP."
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -225,6 +328,23 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-09-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-07"
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

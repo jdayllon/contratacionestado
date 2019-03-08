@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02003462)-R-498-Z; \u00d3rgano de Contrataci\u00f3n: Departamento de Vertebraci\u00f3n del Territorio, Movilidad y Vivienda; Importe: 755004.54 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02003462)-R-498-Z; \u00d3rgano de Contrataci\u00f3n: Departamento de Vertebraci\u00f3n del Territorio, Movilidad y Vivienda; Importe: 755004.54 EUR; Estado: ADJ"
     },
     "title": "Refuerzo de firme en la carretera A-1505 del P.K. 18+640 al P.K. 24+105. Tramo: Tobed-Codos",
-    "updated": "2018-10-04T13:34:56.754+02:00",
+    "updated": "2019-03-07T14:15:41.543+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02003462)-R-498-Z",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -96,6 +96,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta mejor clasificada de acuerdo a los criterios establecidos en Anexos X y XI del PCAP",
+            "cbc:AwardDate": "2019-03-07",
+            "cbc:ReceivedTenderQuantity": "13",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B50847458"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "URBANIZACIONES Y MEDIO AMBIENTE, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "657080.45"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "795067.34"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -130,12 +162,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "seg\u00fan lo establecido en el Anexo X \"Criterios de adjudicaci\u00f3n subjetivos sujetos a evaluaci\u00f3n previa\" del PCAP",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "seg\u00fan lo establecido en el Anexo XI \"Criterios de adjudicaci\u00f3n objetivos sujetos a evaluaci\u00f3n posterior\" del PCAP",
                         "cbc:WeightNumeric": "75"
+                    },
+                    {
+                        "cbc:Description": "seg\u00fan lo establecido en el Anexo X \"Criterios de adjudicaci\u00f3n subjetivos sujetos a evaluaci\u00f3n previa\" del PCAP",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -179,6 +211,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -195,9 +239,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-04"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-19"
+                        }
+                    ]
                 }
             }
         ]

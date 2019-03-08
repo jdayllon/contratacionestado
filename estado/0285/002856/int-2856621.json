@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: AMPLIACION PRIMERA PLANTA DE LA CASA CONSISTORIAL; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Algarrobo; Importe: 217355.37 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: AMPLIACION PRIMERA PLANTA DE LA CASA CONSISTORIAL; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Algarrobo; Importe: 217355.37 EUR; Estado: ADJ"
     },
     "title": "Ejecuci\u00f3n de obras correspondientes al proyecto: Ampliaci\u00f3n de la Primera Planta de la Casa Consistorial (POS-PM 2/17)",
-    "updated": "2019-01-17T15:25:17.031+01:00",
+    "updated": "2019-03-07T14:52:15.645+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "AMPLIACION PRIMERA PLANTA DE LA CASA CONSISTORIAL",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta economicamente mas ventajosa en su conjunto",
+            "cbc:AwardDate": "2019-03-07",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B53962569"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LORENZETTI S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -151,13 +191,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -168,20 +208,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta Econ\u00f3mica",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Aumento plazo de Garant\u00eda",
                         "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Caracteristicas T\u00e9cnicas",
+                        "cbc:WeightNumeric": "100"
                     },
                     {
                         "cbc:Description": "Plazo de Ejecuci\u00f3n",
                         "cbc:WeightNumeric": "60"
                     },
                     {
-                        "cbc:Description": "Caracteristicas T\u00e9cnicas",
-                        "cbc:WeightNumeric": "100"
+                        "cbc:Description": "Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -204,7 +244,8 @@
             },
             "cac:TenderSubmissionDeadlinePeriod": {
                 "cbc:EndDate": "2019-02-12",
-                "cbc:EndTime": "14:00:00"
+                "cbc:EndTime": "14:00:00",
+                "cbc:Description": "La proposiciones se presentar\u00e1n dentro del plazo de veintis\u00e9is d\u00edas naturales, contados a partir del d\u00eda siguiente al de publicaci\u00f3n del anuncio de licitaci\u00f3n en el Perfil de contratante, exclusivamente de forma electr\u00f3nica a trav\u00e9s de la Plataforma de Contrataci\u00f3n del Estado."
             }
         },
         "cac:LegalDocumentReference": {
@@ -261,9 +302,30 @@
                         "cbc:DocumentHash": "M2tkahxz5nim7odRKHybFuGy6e4="
                     }
                 }
+            },
+            {
+                "cbc:ID": "ANEXO-DEUC.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d146fc81-0e80-4a56-ac88-6b502ae472d7",
+                        "cbc:DocumentHash": "HfX2MeRxT5v2lzyKPEXdELM494U="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-07"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
