@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2017-01370; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de Renfe Viajeros Sociedad Mercantil Estatal, S.A.; Importe: 40000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2017-01370; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de Renfe Viajeros Sociedad Mercantil Estatal, S.A.; Importe: 40000 EUR; Estado: ADJ"
     },
     "title": "Servicio de realizacion de actividades auxiliares y arrendamiento de local de la estacion de martorell",
-    "updated": "2018-01-19T08:29:17.508+01:00",
+    "updated": "2019-03-08T14:36:03.591+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2017-01370",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.renfe.com/empresa/perfilcontratante/index.html",
+                "cbc:WebsiteURI": "http://www.renfe.com",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de realizacion de actividades auxiliares y arrendamiento de local de la estacion de martorell",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -80,7 +80,7 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "90911000"
+                        "#text": "90914000"
                     }
                 },
                 {
@@ -98,7 +98,7 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "90914000"
+                        "#text": "90911000"
                     }
                 }
             ],
@@ -107,6 +107,15 @@
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES511"
+                },
+                "cac:Address": {
+                    "cac:Country": {
+                        "cbc:IdentificationCode": {
+                            "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
+                            "#text": "ES"
+                        },
+                        "cbc:Name": "Espa\u00f1a"
+                    }
                 }
             },
             "cac:PlannedPeriod": {
@@ -116,7 +125,40 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-03-06",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "49553260J"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MURILLO LEON JUAN CARLOS"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -125,13 +167,29 @@
                 },
                 "cbc:AmountRate": "0"
             },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "De acuerdo con lo indicado en el anuncio de licitaci\u00f3n, y, en su caso, en el Pliego de Condiciones Particulares, publicado(s) en el sitio web de RENFE licitaciones.renfe.com/licitaciones/zbp_pub_lic_tod/listado_documentos.htm?ZPUB_C_N_EXP=2017-01370"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "De acuerdo con lo indicado en el anuncio de licitaci\u00f3n, y, en su caso, en el Pliego de Condiciones Particulares, publicado(s) en el sitio web de RENFE licitaciones.renfe.com/licitaciones/zbp_pub_lic_tod/listado_documentos.htm?ZPUB_C_N_EXP=2017-01370"
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -143,17 +201,31 @@
                 "cbc:EndTime": "12:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-08"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-01-19"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-01-19"
+                    }
                 }
             }
-        }
+        ]
     }
 }

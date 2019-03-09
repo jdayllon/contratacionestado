@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SV/37/18; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Aguas de las Cuencas Mediterr\u00e1neas, S.M.E., S.A. (ACUAMED); Importe: 50000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SV/37/18; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Aguas de las Cuencas Mediterr\u00e1neas, S.M.E., S.A. (ACUAMED); Importe: 50000 EUR; Estado: ADJ"
     },
     "title": "Servicio para la redacci\u00f3n del proyecto de gran reparaci\u00f3n del t\u00fanel 2 en la central de bombeo de Cortes de Pall\u00e1s (Vaencia).",
-    "updated": "2018-12-18T18:29:39.629+01:00",
+    "updated": "2019-03-08T13:46:26.720+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SV/37/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -121,26 +121,87 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicada a la oferta con mejor relaci\u00f3n calidad-precio de acuerdo a los criterios de evaluaci\u00f3n indicados en el pliego de cl\u00e1usulas reguladoras d la licitaci\u00f3n.",
+            "cbc:AwardDate": "2019-02-21",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "34750"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "47500"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B83341933"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GRUSAMAR INGENIER\u00cdA Y CONSULTING, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37872.48"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "45825.7"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSX-CERTCALIDAD"
+                        },
+                        "cbc:Description": "De acuerdo a lo indicado en los apartados 12.3., 12.4., 12.5. y ss del cuadro resumen del pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSR-CALIDAD"
+                        },
+                        "cbc:Description": "De acuerdo a lo indicado en los apartados 12.3., 12.4., 12.5. y ss del cuadro resumen del pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "De acuerdo a lo indicado en los apartados 12.3., 12.4., 12.5. y ss del cuadro resumen del pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n."
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -161,27 +222,6 @@
                             "#text": "XXR-SUBCONT"
                         },
                         "cbc:Description": "De acuerdo a lo indicado en los apartados 12.3., 12.4., 12.5. y ss del cuadro resumen del pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSR-CALIDAD"
-                        },
-                        "cbc:Description": "De acuerdo a lo indicado en los apartados 12.3., 12.4., 12.5. y ss del cuadro resumen del pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
-                        },
-                        "cbc:Description": "De acuerdo a lo indicado en los apartados 12.3., 12.4., 12.5. y ss del cuadro resumen del pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
-                        },
-                        "cbc:Description": "De acuerdo a lo indicado en los apartados 12.3., 12.4., 12.5. y ss del cuadro resumen del pliego de cl\u00e1usulas reguladoras de la licitaci\u00f3n."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -195,37 +235,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "12"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "13"
+                            "#text": "1"
                         }
                     },
                     {
@@ -237,13 +247,43 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "13"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "8"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "12"
                         }
                     }
                 ]
@@ -251,11 +291,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios de calidad autom\u00e1ticamente cuantificables",
+                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
                         "cbc:WeightNumeric": "100"
                     },
                     {
-                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
+                        "cbc:Description": "Criterios de calidad autom\u00e1ticamente cuantificables",
                         "cbc:WeightNumeric": "100"
                     }
                 ]
@@ -302,6 +342,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-08"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

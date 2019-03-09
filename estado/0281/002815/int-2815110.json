@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SE-14/18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Lucena ; Importe: 352800 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SE-14/18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Lucena ; Importe: 352800 EUR; Estado: ADJ"
     },
     "title": "Seguro colectivo de asistencia sanitaria y m\u00e9dico-quir\u00fargica.",
-    "updated": "2018-12-30T09:39:54.497+01:00",
+    "updated": "2019-03-08T13:49:52.604+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SE-14/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -111,6 +111,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica a la empresa licitadora que ha obtenido mayor puntuaci\u00f3n, de conformidad con los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2019-03-08",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "59.16"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "65"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28011864"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SEGURCAIXAADESLAS, S.A. DE SEGUROS Y REASEGUROS"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "59.16"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "59.16"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -143,6 +183,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
@@ -157,28 +203,18 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "01. Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "14"
+                        "cbc:Description": "Seguro de salud de cuadro m\u00e9dico, colectivo y abierto",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "06. El n\u00famero de hospitales propios o concertados, ubicados en la provincia de C\u00f3rdoba.",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "07. El n\u00famero de hospitales propios o concertados ubicados en Andaluc\u00eda (excluidos los de C\u00f3rdoba)",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "09. Servicio online o telef\u00f3nico",
+                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "03. El n\u00famero de Centros M\u00e9dicos concertados, ubicados en la Localidad de Lucena.",
@@ -189,28 +225,32 @@
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "04. Ayuda econ\u00f3mica para los gastos de manutenci\u00f3n del acompa\u00f1ante de ingresados.",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "01. Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "14"
                     },
                     {
-                        "cbc:Description": "Seguro de salud de cuadro m\u00e9dico, colectivo y abierto",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "04. Ayuda econ\u00f3mica para los gastos de manutenci\u00f3n del acompa\u00f1ante de ingresados.",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "10. Aplicaci\u00f3n inform\u00e1tica",
                         "cbc:WeightNumeric": "2"
                     },
                     {
+                        "cbc:Description": "08. Campa\u00f1as de prevenci\u00f3n y detecci\u00f3n precoz",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
                         "cbc:Description": "02. El n\u00famero de especialidades medico-sanitarias.",
                         "cbc:WeightNumeric": "14"
                     },
                     {
-                        "cbc:Description": "09. Servicio online o telef\u00f3nico",
-                        "cbc:WeightNumeric": "3"
+                        "cbc:Description": "07. El n\u00famero de hospitales propios o concertados ubicados en Andaluc\u00eda (excluidos los de C\u00f3rdoba)",
+                        "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "08. Campa\u00f1as de prevenci\u00f3n y detecci\u00f3n precoz",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "06. El n\u00famero de hospitales propios o concertados, ubicados en la provincia de C\u00f3rdoba.",
+                        "cbc:WeightNumeric": "6"
                     }
                 ]
             },
@@ -260,6 +300,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-08"
                     }
                 }
             },

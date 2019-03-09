@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 339/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Agres; Importe: 79957 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 339/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Agres; Importe: 79957 EUR; Estado: PUB"
     },
     "title": "Acondicionamiento de caminos en t\u00e9rmino municipal de Agres",
-    "updated": "2019-03-05T13:41:08.461+01:00",
+    "updated": "2019-03-08T14:46:05.831+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "339/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -96,6 +96,12 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "3"
+                }
             }
         },
         "cac:TenderingTerms": {
@@ -106,7 +112,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "5"
                         }
                     },
                     {
@@ -118,7 +124,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -126,20 +132,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejoras n\u00ba 2",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Precio de la proposici\u00f3n",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Mejoras n\u00ba 1",
                         "cbc:WeightNumeric": "40"
                     },
                     {
+                        "cbc:Description": "Mejoras n\u00ba 2",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Mejoras n\u00ba 3",
                         "cbc:WeightNumeric": "35"
+                    },
+                    {
+                        "cbc:Description": "Precio de la proposici\u00f3n",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -155,6 +161,14 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2019-03-22",
+                "cbc:EndTime": "14:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-03-26",
+                "cbc:EndTime": "14:00:00"
             }
         },
         "cac:LegalDocumentReference": {
@@ -175,17 +189,43 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-08"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-05"
+                    }
                 }
             }
-        }
+        ]
     }
 }

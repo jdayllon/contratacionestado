@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 104/2016; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno  del Ayuntamiento de Torrevieja; Importe: 425800 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 104/2016; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno  del Ayuntamiento de Torrevieja; Importe: 425800 EUR; Estado: EV"
     },
     "title": "Redacci\u00f3n de la revisi\u00f3n del Plan General de Ordenaci\u00f3n Urbana",
-    "updated": "2018-07-27T09:38:07.870+02:00",
+    "updated": "2019-03-08T14:16:23.551+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "104/2016",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -47,14 +47,14 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Junta de Gobierno  del Ayuntamiento de Torrevieja",
-                    "cbc:ElectronicMail": "mbaeza@torrevieja.eu"
+                    "cbc:ElectronicMail": "contratacion@torrevieja.eu"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Redacci\u00f3n de la revisi\u00f3n del Plan General de Ordenaci\u00f3n Urbana",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -96,10 +96,55 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "42"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "La establecida en el apartado 13 del pliego de cl\u00e1usulas administrativas particulares."
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "Los establecidos en el apartado 13 del pliego de cl\u00e1usulas administrativas particulares."
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Experiencia acreditada en la redacci\u00f3n de documentos de planeamiento general, ordenacion del territorio, urbanismo, paisaje y medio ambiente.",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Mejoras condiciones econ\u00f3micas ofertadas",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Mejora del equipo t\u00e9cnico",
+                        "cbc:WeightNumeric": "20"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -112,9 +157,43 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-02-19",
+                "cbc:EndTime": "14:00:00"
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PLIEGO ADMTIVO.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=3faf66cc-c2c6-4dc3-be05-b03a0cb6a3b4",
+                    "cbc:DocumentHash": "LPaLPzs+WA/JNwwnagXNY7PwNgU="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PLIEGO TECNICO.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5b567319-dd74-47c2-a92c-030b5eb6d368",
+                    "cbc:DocumentHash": "mhufPSwzTU87YKZjWZUAEao/WSQ="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-17"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -125,6 +204,38 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-27"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-08"
+                        }
+                    ]
                 }
             },
             {

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (L01440511)-145/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Calanda; Importe: 221138.89 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: (L01440511)-145/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Calanda; Importe: 221138.89 EUR; Estado: RES"
     },
     "title": "Climatizaci\u00f3n y Cubierta Presost\u00e1tica en Piscina Municipal de Calanda: 1\u00aa Fase, Remodelaci\u00f3n de Piscina y Vesturarios",
-    "updated": "2018-04-27T14:47:39.822+02:00",
+    "updated": "2019-03-08T14:46:37.846+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(L01440511)-145/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,6 +22,12 @@
                 "#text": "3"
             },
             "cac:Party": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "DIR3",
+                        "#text": "L01440511"
+                    }
+                },
                 "cac:PartyName": {
                     "cbc:Name": "Junta de Gobierno Local del Ayuntamiento de Calanda"
                 },
@@ -44,22 +50,12 @@
                     "cbc:Telephone": "978886141",
                     "cbc:ElectronicMail": "ayuntamiento@calanda.es"
                 }
-            },
-            "cac-place-ext:ParentLocatedParty": {
-                "cac:PartyName": {
-                    "cbc:Name": "ENTIDADES LOCALES"
-                },
-                "cac-place-ext:ParentLocatedParty": {
-                    "cac:PartyName": {
-                        "cbc:Name": "Sector P\u00fablico"
-                    }
-                }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Climatizaci\u00f3n y Cubierta Presost\u00e1tica en Piscina Municipal de Calanda: 1\u00aa Fase, Remodelaci\u00f3n de Piscina y Vesturarios",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -117,6 +113,10 @@
             "cbc:Description": "Precio m\u00e1s bajo",
             "cbc:AwardDate": "2018-04-05",
             "cbc:ReceivedTenderQuantity": "4",
+            "cac:Contract": {
+                "cbc:ID": "10",
+                "cbc:IssueDate": "2018-05-04"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -163,17 +163,31 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-04-27"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-04-27"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-08"
+                    }
                 }
             }
-        }
+        ]
     }
 }
