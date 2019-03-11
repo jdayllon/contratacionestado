@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 10/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Toledo; Importe: 568749.03 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 10/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Toledo; Importe: 568749.03 EUR; Estado: PUB"
     },
     "title": "Servicios de limpieza de los centros dependientes de la Diputaci\u00f3n Provincial de Toledo, 4 lotes.",
-    "updated": "2019-01-31T23:59:13.791+01:00",
+    "updated": "2019-03-10T09:36:47.928+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "10/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,25 +107,28 @@
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
-            "cac:TendererQualificationRequest": {
-                "cac:TechnicalEvaluationCriteria": {
-                    "cbc:EvaluationCriteriaTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                        "#text": "OSR-COMPTASK"
+            "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
                     },
-                    "cbc:Description": "Relaci\u00f3n de servicios realizados de igual o similar naturaleza en el curso de los tres \u00faltimos a\u00f1os, en los que se indique el importe, fecha y destinatario p\u00fablico o privado de los mismos."
+                    "cbc:AmountRate": "5"
                 },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "3"
+                    },
+                    "cbc:AmountRate": "5"
+                }
+            ],
+            "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "4"
                         }
                     },
                     {
@@ -137,13 +140,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
                         }
                     }
                 ]
@@ -160,19 +169,109 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2019-03-22",
+                "cbc:EndTime": "14:00:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-03-22",
+                "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-01-31"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "07 PCAP LIMPIEZA PALACIO.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6da4c3de-c464-46b1-9cab-6148145086d2",
+                    "cbc:DocumentHash": "8tAU8KkBgQ9tFyR7o2X2Ty8OjJo="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT lote 1 y 2.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=709a2682-8d29-4ae0-a565-460c9312b76b",
+                    "cbc:DocumentHash": "XjEC5S8NzfqMau9RwN+QIB9h04o="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "PPT lote 4 Vivero.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f80870c7-2271-4c2a-a4b3-7270a72b5223",
+                        "cbc:DocumentHash": "hL4LkBiERIIVWpj5qx3V6DsWC0A="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "PPT lote 3 taller.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7c7069ba-9151-4d06-a685-e8872169ce69",
+                        "cbc:DocumentHash": "fIdlbJLmo6DfueLSpC3/jAIEdr4="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "08 InstruccionesDEUClicitadores.doc",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d723ccaf-3b6e-4d84-99db-42b1d2a38d6d",
+                        "cbc:DocumentHash": "HOT+DtBwc37TjID6LF8Tf9PmD1I="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "08 DEUC.xml",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e8995e02-697c-42ff-becc-581eac8ba88a",
+                        "cbc:DocumentHash": "6KCO+EEdCo897l2BpLKQXLYQrLI="
+                    }
+                }
+            }
+        ],
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-31"
+                    }
+                }
+            }
+        ]
     }
 }

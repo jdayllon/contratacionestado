@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 60/18; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Ja\u00e9n; Importe: 495350 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 60/18; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Ja\u00e9n; Importe: 495350 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n del sistema de impresi\u00f3n corporativa para el Ayuntamiento de Ja\u00e9n y sus Organismos Aut\u00f3nomos.",
-    "updated": "2018-12-01T09:31:23.246+01:00",
+    "updated": "2019-03-10T09:35:50.407+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "60/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -120,10 +120,53 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta econ\u00f3mica",
+            "cbc:AwardDate": "2019-02-05",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:Contract": {
+                "cbc:ID": "60/18",
+                "cbc:IssueDate": "2019-03-04"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B82080177"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "RICOH ESPA\u00d1A, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "439553.04"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "531859.18"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSX-CERTCALIDAD"
+                        },
+                        "cbc:Description": "Certificaci\u00f3n equipos suministrados Energy Star"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -140,9 +183,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "Certificaci\u00f3n equipos suministrados Energy Star"
+                        "cbc:Description": "Indicaci\u00f3n de las unidades o personal t\u00e9cnico integradas o no en la empresa encargadas de las siguientes funciones: suministro, gesti\u00f3n de mantenimiento y control de calidad"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -150,13 +193,6 @@
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Relaci\u00f3n de los principales suministros realizados de igual o similar naturaleza de los que constituyen el objeto del contrato en el curso de los tres \u00faltimos a\u00f1os"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "Indicaci\u00f3n de las unidades o personal t\u00e9cnico integradas o no en la empresa encargadas de las siguientes funciones: suministro, gesti\u00f3n de mantenimiento y control de calidad"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -170,11 +206,7 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejora acuerdo de nivel de servicio",
-                        "cbc:WeightNumeric": "11.63"
-                    },
-                    {
-                        "cbc:Description": "Driver \u00fanico",
+                        "cbc:Description": "Aplicaci\u00f3n de soporte",
                         "cbc:WeightNumeric": "6.98"
                     },
                     {
@@ -182,11 +214,15 @@
                         "cbc:WeightNumeric": "4.65"
                     },
                     {
+                        "cbc:Description": "Mejora acuerdo de nivel de servicio",
+                        "cbc:WeightNumeric": "11.63"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "69.77"
                     },
                     {
-                        "cbc:Description": "Aplicaci\u00f3n de soporte",
+                        "cbc:Description": "Driver \u00fanico",
                         "cbc:WeightNumeric": "6.98"
                     }
                 ]
@@ -242,20 +278,20 @@
                 }
             },
             {
-                "cbc:ID": "deuc 60-18.xml",
+                "cbc:ID": "DEUC 60-18.xml",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=49c335cb-75e8-40a7-aee3-f855b22bda0a",
-                        "cbc:DocumentHash": "zITtoWl62ifr9O4OoIe8o2mDum0="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2111bb70-c9df-46c1-bd3b-a85471c91e09",
+                        "cbc:DocumentHash": "SiYLXVDcREwxswj87duR0dMCQWQ="
                     }
                 }
             },
             {
-                "cbc:ID": "deuc 60-18.pdf",
+                "cbc:ID": "DEUC 60-18.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7f1caee2-6a24-4571-8656-12ecbc6a53a4",
-                        "cbc:DocumentHash": "Ue10K562iJhKr9HxM1l1jnduaE4="
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6f023a46-26a5-4016-9169-8e46f4416087",
+                        "cbc:DocumentHash": "OaIrGNVawbN7hR0EgQHdbrLyfd4="
                     }
                 }
             }
@@ -276,13 +312,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-30"
+                        "cbc:IssueDate": "2019-02-08"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-03"
+                        }
+                    ]
                 }
             },
             {
@@ -292,8 +345,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-16"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-30"
+                        "cbc:IssueDate": "2019-03-10"
                     }
                 }
             }

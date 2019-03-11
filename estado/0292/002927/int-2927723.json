@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2DGT00000155; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de Tr\u00e1fico; Importe: 1031086.56 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2DGT00000155; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de Tr\u00e1fico; Importe: 1031086.56 EUR; Estado: RES"
     },
     "title": "Servicio de mantenimiento del equipamiento f\u00edsico y log\u00edstico del sistema Mainframe de respaldo de la Direcci\u00f3n General de Tr\u00e1fico.",
-    "updated": "2019-02-05T13:13:11.380+01:00",
+    "updated": "2019-03-10T09:39:22.081+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2DGT00000155",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -121,6 +121,10 @@
             "cbc:HigherTenderAmount": {
                 "@currencyID": "EUR",
                 "#text": "1031086.56"
+            },
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2019-02-28"
             },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
@@ -238,17 +242,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-10"
+                    }
                 }
             }
-        }
+        ]
     }
 }
