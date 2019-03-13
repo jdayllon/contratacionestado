@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 015SV/2018;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Servicios;  Importe: 165880.17EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 015SV/2018;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Servicios;  Importe: 165880.17EUR;  Estado: RES"
     },
     "title": "Asistencia t\u00e9cnica para la elaboraci\u00f3n de informes t\u00e9cnicos de evaluaci\u00f3n ambiental.",
-    "updated": "2018-12-03T20:10:43.186+01:00",
+    "updated": "2019-03-12T14:41:34.592+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "015SV/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -68,6 +68,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B20645990"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EKOLUR ASESORIA AMBIENTAL, S.L.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "164776"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -94,17 +120,43 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-25"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "DOUE",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-09-25"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

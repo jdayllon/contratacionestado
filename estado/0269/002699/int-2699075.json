@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18F.1.1.0193; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Salamanca; Importe: 43350.94 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18F.1.1.0193; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Salamanca; Importe: 43350.94 EUR; Estado: ADJ"
     },
     "title": "Pavimentaci\u00f3n diversas calles en el municipio de Martiago (N\u00ba Orden 71) (N\u00ba Obra 255) (Plan de Cooperaci\u00f3n Bienal 2018/2019)",
-    "updated": "2018-11-23T14:46:36.499+01:00",
+    "updated": "2019-03-12T18:11:26.654+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18F.1.1.0193",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,6 +112,38 @@
                 "cbc:DurationMeasure": {
                     "@unitCode": "MON",
                     "#text": "2"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta seg\u00fan los criterios de adjudicaci\u00f3n previstos en pliegos.",
+            "cbc:AwardDate": "2019-03-11",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B37439783"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSTRUCCION Y OBRA CIVIL SANCHEZ MONTERO, SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "34030.49"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "41176.89"
+                    }
                 }
             }
         },
@@ -230,13 +262,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-23"
+                        "cbc:IssueDate": "2019-03-12"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-04"
+                        }
+                    ]
                 }
             },
             {
@@ -246,9 +295,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-23"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-12-04"
+                        }
+                    ]
                 }
             }
         ]

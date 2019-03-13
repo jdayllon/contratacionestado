@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: CONTR 2018 0000068970; \u00d3rgano de contrataci\u00f3n: Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda; Importe: 70.985,83 \u20ac;"
     },
     "title": "Mantenimiento integral y gesti\u00f3n t\u00e9cnica del edificio sede del IECA",
-    "updated": "2018-12-27T14:41:17.181+01:00",
+    "updated": "2019-03-12T13:41:15.941+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONTR 2018 0000068970",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -56,6 +56,38 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "12"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "6",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28517308"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EULEN SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "62659.44"
+                    }
+                }
             }
         },
         "cac:TenderingProcess": {
@@ -68,17 +100,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-26"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-27"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

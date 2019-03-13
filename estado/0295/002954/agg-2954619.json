@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: NET073007; \u00d3rgano de contrataci\u00f3n: Agencia de Medio Ambiente y Agua de Andaluc\u00eda; Importe: 15.200,00 \u20ac;"
     },
     "title": "servicio de estancia en puerto seco de la embarcaci\u00f3n ama vii  net073007",
-    "updated": "2019-03-05T15:26:15.061+01:00",
+    "updated": "2019-03-12T14:56:10.845+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "NET073007",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,6 +64,13 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:ReceivedTenderQuantity": "0"
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -74,17 +81,31 @@
                 "cbc:EndTime": "12:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-05"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

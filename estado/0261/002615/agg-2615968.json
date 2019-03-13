@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018CONTR002;  \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n;  Importe: 38000.00EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2018CONTR002;  \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n;  Importe: 38000.00EUR;  Estado: ADJ"
     },
     "title": "CONTRATACI\u00d3N DE LOS SERVICIOS DE MANTENIMIENTO, ACTUALIZACI\u00d3N Y DESARROLLO DE NUEVOS M\u00d3DULOS DE LAS P\u00c1GINAS WEB DE LA AGENCIA DE DESARROLLO DEL BIDASOA, S.A. (BIDASOA ACTIVA)",
-    "updated": "2018-11-30T16:10:36.395+01:00",
+    "updated": "2019-03-12T13:55:39.116+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018CONTR002",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -68,6 +68,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "6",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B74151499"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DUONET INGENIER\u00cdA Y COMUNICACI\u00d3N, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "27.2"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -86,17 +112,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-30"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-30"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

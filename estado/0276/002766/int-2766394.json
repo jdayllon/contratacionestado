@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA_20181210_SEDIGITALYLANZATE2019; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Fundaci\u00f3n EOI; Importe: 65000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PA_20181210_SEDIGITALYLANZATE2019; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Fundaci\u00f3n EOI; Importe: 65000 EUR; Estado: ADJ"
     },
     "title": "Prestaci\u00f3n del servicio de despliegue, implantaci\u00f3n y gesti\u00f3n de plataforma formativa y de gesti\u00f3n de la informaci\u00f3n.",
-    "updated": "2018-12-13T16:47:24.701+01:00",
+    "updated": "2019-03-12T18:06:40.696+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA_20181210_SEDIGITALYLANZATE2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El contrato ha sido adjudicado a la oferta que ha obtenido mayor puntuaci\u00f3n de acuerdo a los criterios de valoraci\u00f3n especificados en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2019-03-04",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B83844373"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ANOVA IT CONSULTING, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "48800"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "59048"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -128,12 +160,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
                     },
@@ -152,13 +178,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     }
                 ]
@@ -170,15 +202,7 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Tiempos de despliegue y puesta en marcha de la web y la plataforma",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
-                        "cbc:Description": "Valoraci\u00f3n Econ\u00f3mica",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
-                        "cbc:Description": "Tiempo de resoluci\u00f3n de incidencias",
+                        "cbc:Description": "Procedimientos y condiciones de ejecuci\u00f3n",
                         "cbc:WeightNumeric": "1"
                     },
                     {
@@ -186,7 +210,15 @@
                         "cbc:WeightNumeric": "1"
                     },
                     {
-                        "cbc:Description": "Procedimientos y condiciones de ejecuci\u00f3n",
+                        "cbc:Description": "Tiempo de resoluci\u00f3n de incidencias",
+                        "cbc:WeightNumeric": "1"
+                    },
+                    {
+                        "cbc:Description": "Valoraci\u00f3n Econ\u00f3mica",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Tiempos de despliegue y puesta en marcha de la web y la plataforma",
                         "cbc:WeightNumeric": "1"
                     },
                     {
@@ -251,6 +283,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del contratante de la Fundaci\u00f3n EOI",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
                     }
                 }
             },

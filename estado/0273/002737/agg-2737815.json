@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: OC-DIF-2018-01; \u00d3rgano de contrataci\u00f3n: Parque Tecnol\u00f3gico de Andaluc\u00eda, S.A.; Importe: 44.000,00 \u20ac;"
     },
     "title": "servicios de comunicacion de parque tecnologico de andalucia s.a.",
-    "updated": "2019-01-24T17:11:16.765+01:00",
+    "updated": "2019-03-12T14:56:11.413+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "OC-DIF-2018-01",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,6 +64,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B91802868"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INNN 360 S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39000"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -74,17 +100,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-18"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-01-24"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: CONTR 2018 0000062384; \u00d3rgano de contrataci\u00f3n: Instituto de Estad\u00edstica y Cartograf\u00eda de Andaluc\u00eda; Importe: 212.569,26 \u20ac;"
     },
     "title": "realizaci\u00f3n de la actividad estad\u00edstica encuesta social de andaluc\u00eda",
-    "updated": "2018-12-26T09:40:49.625+01:00",
+    "updated": "2019-03-12T14:56:11.222+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONTR 2018 0000062384",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -45,27 +45,81 @@
                     "#text": "212569.26"
                 }
             },
-            "cac:RequiredCommodityClassification": [
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "79311210"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "79330000"
-                    }
+            "cac:RequiredCommodityClassification": {
+                "cbc:ItemClassificationCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                    "#text": "79311210"
                 }
-            ],
+            },
             "cac:RealizedLocation": {
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "4"
+                }
             }
         },
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "UTE",
+                            "#text": "U90425588"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "INDEXA GEODATA -RUBEN MARTIN GIMENO UNION TEMPORAL DE EMPRESAS"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "127622.2"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "4",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "UTE",
+                            "#text": "U90420233"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "DATAESTUDIOS INVESTIGACION Y ESTRATEGIASL-INSTITUTO DE ESTUDIOS DE ECONOMIA EVA"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "67100"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -76,17 +130,36 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-21"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-26"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-12"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }

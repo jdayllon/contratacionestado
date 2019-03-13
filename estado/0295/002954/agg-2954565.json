@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: 00007/ISE/2019/SE; \u00d3rgano de contrataci\u00f3n: Agencia P\u00fablica Andaluza de Educaci\u00f3n; Importe: 33.150,00 \u20ac;"
     },
     "title": "servicio de apoyo y asistencia escolar para alumnado con necesidades educativas especiales en los centros docentes p\u00fablicos de la provincia de sevilla dependientes de la consejer\u00eda de educaci\u00f3n de la junta de andaluc\u00eda",
-    "updated": "2019-02-12T14:41:44.983+01:00",
+    "updated": "2019-03-12T13:41:16.287+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "00007/ISE/2019/SE",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -49,13 +49,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "80340000"
+                        "#text": "85312120"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "85312120"
+                        "#text": "80340000"
                     }
                 }
             ],
@@ -63,6 +63,38 @@
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
+                }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "DAY",
+                    "#text": "113"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "6",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "G41914243"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FUNDACION SAMU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "32916"
+                    }
                 }
             }
         },
@@ -76,17 +108,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-15"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-01-28"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

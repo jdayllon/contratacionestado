@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 000029/2018-CONT;  \u00d3rgano de Contrataci\u00f3n: Alcalde;  Importe: 25899.86EUR;  Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 000029/2018-CONT;  \u00d3rgano de Contrataci\u00f3n: Alcalde;  Importe: 25899.86EUR;  Estado: RES"
     },
     "title": "SERVICIO DE MANTENIMIENTO PREVENTIVO Y CORRECTIVO DE LAS CABINAS DE ASEO DEL AYUNTAMIENTO",
-    "updated": "2018-12-26T14:25:40.685+01:00",
+    "updated": "2019-03-12T14:55:35.794+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "000029/2018-CONT",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -69,6 +69,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B95742748"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SERVICIOS GENERALES URBANOS SERUK, SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "21400"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -95,17 +121,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-26"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-26"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
                 }
             }
-        }
+        ]
     }
 }

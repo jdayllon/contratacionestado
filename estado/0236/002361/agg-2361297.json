@@ -8,7 +8,7 @@
         "#text": "Id Licitaci\u00f3n: PcPG/2018/383386, \u00d3rgano de Contrataci\u00f3n: Conseller\u00eda de Medio Ambiente, Territorio e Vivenda, Importe: 2401491.83, Estado: Adjudicada"
     },
     "title": "Suministro de veh\u00edculos mediante arrendamiento en la modalidad de renting. Expediente n\u00fam. 13/2018 PN",
-    "updated": "2019-02-28T12:10:26.033+01:00",
+    "updated": "2019-03-12T16:10:25.380+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PcPG/2018/383386",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -63,27 +63,67 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "DAY",
-                    "#text": "0"
+                    "@unitCode": "ANN",
+                    "#text": "4"
                 }
             }
         },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "3"
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "6",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A15019243"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "EMPRESA MONFORTE, S.A.U."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2136879.36"
+                        }
+                    }
+                }
             },
-            "cbc:ReceivedTenderQuantity": "5",
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "5",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A15019243"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "EMPRESA MONFORTE, S.A.U."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "238824.96"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -110,12 +150,24 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "ANUL_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-16"
+                        "cbc:IssueDate": "2019-03-12"
                     }
                 }
             }
