@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 01/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Palazuelo; Importe: 25001.49 EUR; Estado: PUB"
     },
     "title": "Equipamiento para sal\u00f3n cultural de Palazuelo",
-    "updated": "2019-03-04T17:50:27.971+01:00",
+    "updated": "2019-03-13T17:16:39.236+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "01/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -143,11 +143,11 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:Description": "GARANT\u00cdA TOTAL",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "GARANT\u00cdA TOTAL",
+                        "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -168,6 +168,10 @@
             "cac:DocumentAvailabilityPeriod": {
                 "cbc:EndDate": "2019-03-31",
                 "cbc:EndTime": "11:27:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-03-30",
+                "cbc:EndTime": "18:34:00"
             },
             "cac:EconomicOperatorShortList": {
                 "cbc:ExpectedQuantity": "5",
@@ -239,17 +243,31 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-13"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-04"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-04"
+                    }
                 }
             }
-        }
+        ]
     }
 }

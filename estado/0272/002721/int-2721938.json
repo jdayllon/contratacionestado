@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: P.A. 1/2018; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Provincial del Servicio P\u00fablico de Empleo Estatal en M\u00e1laga; Importe: 29752.07 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: P.A. 1/2018; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Provincial del Servicio P\u00fablico de Empleo Estatal en M\u00e1laga; Importe: 29752.07 EUR; Estado: ADJ"
     },
     "title": "Prestaci\u00f3n del servicio externo de vigilancia de las dependencias de la Direcci\u00f3n Provincial del Servicio P\u00fablico de Empleo Estatal de M\u00e1laga, en M\u00e1laga capital.",
-    "updated": "2018-12-19T16:53:00.373+01:00",
+    "updated": "2019-03-13T15:27:01.977+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "P.A. 1/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La segunda oferta mejor valorada de entre las presentadas, una vez excluido el primer licitador propuesto, seg\u00fan se motiva en la Resoluci\u00f3n de Adjudicaci\u00f3n que se publica.",
+            "cbc:AwardDate": "2019-03-13",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "26763.44"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "29680"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A04038014"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GRUPO CONTROL EMPRESA DE SEGURIDAD S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29680"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "35912.8"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -145,7 +185,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
                         }
                     },
                     {
@@ -163,29 +215,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "2"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Bolsa de horas de las que se dispondr\u00e1 libremente y sin coste alguno",
-                        "cbc:WeightNumeric": "20"
-                    },
                     {
                         "cbc:Description": "El precio m\u00e1s bajo",
                         "cbc:WeightNumeric": "49"
@@ -195,16 +231,20 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
+                        "cbc:Description": "C\u00f3digo de buenas pr\u00e1cticas en materia de seguridad y salud laboral",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
                         "cbc:Description": "Medidas de conciliaci\u00f3n vida personal, familiar y profesional",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Calidad del servicio",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Bolsa de horas de las que se dispondr\u00e1 libremente y sin coste alguno",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "C\u00f3digo de buenas pr\u00e1cticas en materia de seguridad y salud laboral",
-                        "cbc:WeightNumeric": "6"
+                        "cbc:Description": "Calidad del servicio",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -316,6 +356,23 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-04"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-13"
+                        }
+                    ]
                 }
             },
             {
