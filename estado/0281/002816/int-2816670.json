@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 29/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Petrer; Importe: 110277.51 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 29/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Petrer; Importe: 110277.51 EUR; Estado: ADJ"
     },
     "title": "Suministro de carburante para los veh\u00edculos del parque m\u00f3vil municipal del Ayuntamiento de Petrer",
-    "updated": "2019-01-02T12:25:38.739+01:00",
+    "updated": "2019-03-14T14:42:17.403+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "29/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -138,6 +138,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "\u00danica oferta presentada y admitida; cumple con los requisitos establecidos.",
+            "cbc:AwardDate": "2019-03-14",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B84070937"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DISA PEN\u00cdNSULA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "110277.51"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "133435.79"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -166,28 +198,28 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Proximidad gasolineras",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Servicio de lavado de veh\u00edculos",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Descuento por litro ofertado gasolina 95 octanos (oferta econ\u00f3mica)",
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Descuento por litro ofertado gas\u00f3leo diesel (oferta econ\u00f3mica)",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Proximidad gasolineras",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Servicio gratuito de hinchado de ruedas",
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "Descuento por litro ofertado gas\u00f3leo diesel (oferta econ\u00f3mica)",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
                         "cbc:Description": "Apertura 24 horas de las gasolineras",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Servicio de lavado de veh\u00edculos",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -232,6 +264,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -248,9 +292,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-02"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-23"
+                        }
+                    ]
                 }
             }
         ]
