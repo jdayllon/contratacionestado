@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EMJ19-0002; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de la Sociedad de Salvamento y Seguridad Mar\u00edtima; Importe: 80000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: EMJ19-0002; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de la Sociedad de Salvamento y Seguridad Mar\u00edtima; Importe: 80000 EUR; Estado: ADJ"
     },
     "title": "Suministro de gas propano para el Centro de Seguridad Mar\u00edtima Integral Jovellanos de la E.P.E. Sociedad de Salvamento y Seguridad Mar\u00edtima",
-    "updated": "2019-02-13T15:05:15.235+01:00",
+    "updated": "2019-03-15T13:59:11.401+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EMJ19-0002",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -146,6 +146,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Tras admitir la \u00fanica oferta presentada por la empresa:\nVITOGAS ESPA\u00d1A, S.A. - CIF: A81716706: Oferta econ\u00f3mica: 64.080,00.-\u20ac\nNo habiendo criterios subjetivos, por aplicaci\u00f3n de las f\u00f3rmulas contempladas en los pliegos, se obtiene la siguiente puntuaci\u00f3n:\n1.- VITOGAS ESPA\u00d1A, S.A.: 70 puntos.",
+            "cbc:AwardDate": "2019-03-13",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "64080"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "64080"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A81716706"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VITOGAS ESPA\u00d1A, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "64080"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "77536.8"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -176,19 +216,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -200,7 +234,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     },
                     {
@@ -214,20 +254,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterio de calidad",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "70"
                     },
                     {
                         "cbc:Description": "Criterio de Seguridad en el Trabajo",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Criterio de medioambiente",
+                        "cbc:Description": "Criterio de calidad",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "70"
+                        "cbc:Description": "Criterio de medioambiente",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -301,6 +341,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-15"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 5/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Concello de Lousame; Importe: 136406.53 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 5/2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Concello de Lousame; Importe: 136406.53 EUR; Estado: RES"
     },
     "title": "Camino Planta medioambiental a Servia.",
-    "updated": "2018-08-24T10:16:38.222+02:00",
+    "updated": "2019-03-15T15:32:10.944+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "5/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Camino Planta medioambiental a Servia.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -107,6 +107,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con mejor relaci\u00f3n calidad - precio de acuerdo con el PCAP",
+            "cbc:AwardDate": "2018-12-28",
+            "cbc:ReceivedTenderQuantity": "9",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "79347.68"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "106219.76"
+            },
+            "cbc:StartDate": "2019-01-14",
+            "cac:Contract": {
+                "cbc:ID": "5/18",
+                "cbc:IssueDate": "2019-01-14"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A15146608"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NEMESIO ORDO\u00d1EZ, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "79347.68"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "96010.69"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -129,14 +174,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Incremento de plazo de garant\u00eda",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
-                        "cbc:Description": "Programa de traballo",
-                        "cbc:WeightNumeric": "2.5"
-                    },
-                    {
                         "cbc:Description": "Programa de actuaci\u00f3n medioambiental",
                         "cbc:WeightNumeric": "2.5"
                     },
@@ -145,16 +182,24 @@
                         "cbc:WeightNumeric": "2.5"
                     },
                     {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
                         "cbc:Description": "Reduci\u00f3n Plazo de ejecuci\u00f3n",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Incremento de plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Esquema de Plan de seguridad y salud",
                         "cbc:WeightNumeric": "2.5"
                     },
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "Programa de traballo",
+                        "cbc:WeightNumeric": "2.5"
                     }
                 ]
             },
@@ -203,6 +248,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-08"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -221,6 +278,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-24"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-15"
                     }
                 }
             }

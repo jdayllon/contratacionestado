@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: SER-16-255-MIC; \u00d3rgano de Contrataci\u00f3n: Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15; Importe: 7000 EUR; Estado: RES"
     },
     "title": "Servicio acceso centralizado Tesorer\u00eda General de la Seguridad Social",
-    "updated": "2017-01-17T15:59:49.239+01:00",
+    "updated": "2019-03-15T14:55:56.406+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-16-255-MIC",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.umivale.es/portal/cms/servicios/pie/licitaciones/licitaciones/",
+                "cbc:WebsiteURI": "https://www.umivale.es/portal/cms/servicios/pie/licitaciones/licitaciones/",
                 "cac:PartyName": {
                     "cbc:Name": "Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15"
                 },
@@ -30,7 +30,7 @@
                     "cbc:CityName": "Madrid",
                     "cbc:PostalZone": "28020",
                     "cac:AddressLine": {
-                        "cbc:Line": "Capit\u00e1n Haya, 31"
+                        "cbc:Line": "Calle del Poeta Joan Maragall, 31"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio acceso centralizado Tesorer\u00eda General de la Seguridad Social",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -101,7 +101,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -219,10 +219,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Oferta T\u00e9cnica",
-                    "cbc:WeightNumeric": "50"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Oferta T\u00e9cnica",
+                        "cbc:WeightNumeric": "50"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -230,7 +236,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -313,7 +319,48 @@
                         "cbc:IssueDate": "2017-01-17"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-15"
+                        }
+                    ]
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "2",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "12"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "36"
+            },
+            "cbc:ContractID": "3102",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "5796"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "17388"
+                }
+            }
+        }
     }
 }
