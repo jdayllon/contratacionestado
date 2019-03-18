@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PNE/002/SUM/2019; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n Ejecutiva de la Agencia de R\u00e9gimen Especial Ciclo Integral Aguas del Retortillo; Importe: 778319.8 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: PNE/002/SUM/2019; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n Ejecutiva de la Agencia de R\u00e9gimen Especial Ciclo Integral Aguas del Retortillo; Importe: 778319.8 EUR; Estado: PUB"
     },
     "title": "Suministro mediante Renting fijo de 28 veh\u00edculos nuevos.",
-    "updated": "2019-03-14T21:31:47.208+01:00",
+    "updated": "2019-03-17T09:42:31.004+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PNE/002/SUM/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -164,19 +164,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "12"
                         }
                     },
                     {
@@ -190,11 +178,31 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "12"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Precio abono kil\u00f3metros por defecto",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Talleres concertados",
+                        "cbc:WeightNumeric": "7"
+                    },
                     {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "73"
@@ -202,14 +210,6 @@
                     {
                         "cbc:Description": "Unidad movil de taller",
                         "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Talleres concertados",
-                        "cbc:WeightNumeric": "7"
-                    },
-                    {
-                        "cbc:Description": "Precio abono kil\u00f3metros por defecto",
-                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Emisiones CO2",
@@ -287,17 +287,31 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-17"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-14"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-14"
+                    }
                 }
             }
-        }
+        ]
     }
 }
