@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 49763S/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Gij\u00f3n ; Importe: 16000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 49763S/2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Gij\u00f3n ; Importe: 16000 EUR; Estado: ADJ"
     },
     "title": "Consultor\u00eda e implantaci\u00f3n de la actualizaci\u00f3n de licencias BITDEFENDER",
-    "updated": "2019-02-15T14:55:44.805+01:00",
+    "updated": "2019-03-18T15:21:02.431+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "49763S/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -109,18 +109,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Como se detalla en la Resoluci\u00f3n de Adjudicaci\u00f3n publicada, se resuelve:\n\nPRIMERO. Admitir la proposici\u00f3n presentada por ECONOCOM SERVICIOS S.A.\nSEGUNDO Adjudicar a la empresa ECONOCOM SERVICIOS S.A. con NIF A2881637-9 el contrato de CONSULTOR\u00cdA E IMPLANTACI\u00d3N DE LA ACTUALIZACI\u00d3N LICENCIAS BITDEFENDER en los t\u00e9rminos incluidos en su oferta, por el importe de 19.360,00 euros, IVA incluido, desglosado en un precio cierto del contrato de 16.000,00 euros m\u00e1s IVA al 21% de 3.360,00 euros conforme a lo dispuesto en el art\u00edculo 35.1 LCSP y comprometer el gasto correspondiente con cargo a la aplicaci\u00f3n presupuestaria A20/92004/22711 con las siguientes anualidades de gasto:\nA\u00d1O 2019 6.453,33\u20ac\nA\u00d1O 2020 6.453,33\u20ac\nA\u00d1O 2021 6.453,34\u20ac\n\nTERCERO. Notificar a los licitadores y al adjudicatario la resoluci\u00f3n de adjudicaci\u00f3n cuya aceptaci\u00f3n supone la formalizaci\u00f3n del contrato.",
+            "cbc:AwardDate": "2019-03-12",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28816379"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ECONOCOM SERVICIOS SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "16000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19360"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "NO APLICA",
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Ampliaci\u00f3n del plazo m\u00ednimo de garant\u00eda",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "80"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n del plazo m\u00ednimo de garant\u00eda",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -194,17 +226,31 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-18"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-15"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-15"
+                    }
                 }
             }
-        }
+        ]
     }
 }

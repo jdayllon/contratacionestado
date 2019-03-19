@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PACSS-CON-8-2018 ; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Paracuellos de Jarama; Importe: 50000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PACSS-CON-8-2018 ; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Paracuellos de Jarama; Importe: 50000 EUR; Estado: RES"
     },
     "title": "Suministro del sistema de telecomunicaciones del Ayuntamiento de Paracuellos de Jarama, con el contenido, alcance y caracter\u00edsticas t\u00e9cnicas previstas en el Pliego de Prescripciones T\u00e9cnicas",
-    "updated": "2018-08-17T14:47:19.857+02:00",
+    "updated": "2019-03-18T14:20:48.471+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PACSS-CON-8-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro del sistema de telecomunicaciones del Ayuntamiento de Paracuellos de Jarama, con el contenido, alcance y caracter\u00edsticas t\u00e9cnicas previstas en el Pliego de Prescripciones T\u00e9cnicas",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -112,6 +112,122 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Telecomunicaciones fijas (Voz y datos)",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "31460"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "26000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "32500000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Servicios de telecomunicaciones m\u00f3viles",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "29040"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "24000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "32500000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:Description": "Sin licitadores",
+                "cbc:AwardDate": "2018-10-18",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Asignaci\u00f3n de puntuaci\u00f3n seg\u00fan criterios de adjudicaci\u00f3n",
+                "cbc:AwardDate": "2018-10-18",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "23961"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "23961"
+                },
+                "cbc:StartDate": "2018-11-07",
+                "cac:Contract": {
+                    "cbc:ID": "PACSS-CON-8-2018",
+                    "cbc:IssueDate": "2018-11-06"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A80907397"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Vodafone Espa\u00f1a, S.A.U."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "23961"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "28992.81"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -140,6 +256,8 @@
                 "cbc:EndTime": "14:01:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-09-04",
+                "cbc:EndTime": "14:00:00",
                 "cbc:Description": "Suministro del sistema de telecomunicaciones del Ayuntamiento de Paracuellos de Jarama, con el contenido, alcance y caracter\u00edsticas t\u00e9cnicas previstas en el Pliego de Prescripciones T\u00e9cnicas"
             }
         },
@@ -185,13 +303,33 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-17"
+                        "cbc:IssueDate": "2019-03-18"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-29"
+                        }
+                    ]
                 }
             },
             {
@@ -201,8 +339,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-08-27"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-17"
+                        "cbc:IssueDate": "2019-03-18"
                     }
                 }
             }

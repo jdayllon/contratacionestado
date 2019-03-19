@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 006-2019-SER-DG; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General LogiRail S.A.; Importe: 7480 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 006-2019-SER-DG; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General LogiRail S.A.; Importe: 7480 EUR; Estado: ADJ"
     },
     "title": "Servicio de limpieza de los trenes tur\u00edsticos en la estaci\u00f3n de San Feliz de Le\u00f3n para la campa\u00f1a 2019",
-    "updated": "2019-02-11T17:57:50.700+01:00",
+    "updated": "2019-03-18T13:07:36.268+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "006-2019-SER-DG",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,20 +115,42 @@
                 "cbc:OptionsDescription": "No se admiten pr\u00f3rrogas"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se le adjudica a dicha compa\u00f1\u00eda porque cumple con todos los requisitos exigidos en el Pliego de Licitaci\u00f3n y es la \u00fanica que presenta oferta.",
+            "cbc:AwardDate": "2019-03-18",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B24345969"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ARASOL Gesti\u00f3n y Servicios S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7460"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "9026.6"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "Los precios ofertados permanecer\u00e1n invariables a lo largo de toda la duraci\u00f3n del contrato",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "200"
-                    }
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -142,6 +164,16 @@
                         "#text": "2"
                     },
                     "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "200"
+                    }
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -176,25 +208,25 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "3"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -211,20 +243,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Experiencia en limpiezas de material ferroviario y/o en trenes tur\u00edsticos",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Planificaci\u00f3n y dimensionamiento de recursos materiales y humanos para prestar los servicios descritos en el PCP.",
+                        "cbc:WeightNumeric": "8"
                     },
                     {
                         "cbc:Description": "Econ\u00f3mico",
                         "cbc:WeightNumeric": "80"
                     },
                     {
-                        "cbc:Description": "Capacidad para atender servicios no programados.",
-                        "cbc:WeightNumeric": "7"
+                        "cbc:Description": "Experiencia en limpiezas de material ferroviario y/o en trenes tur\u00edsticos",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Planificaci\u00f3n y dimensionamiento de recursos materiales y humanos para prestar los servicios descritos en el PCP.",
-                        "cbc:WeightNumeric": "8"
+                        "cbc:Description": "Capacidad para atender servicios no programados.",
+                        "cbc:WeightNumeric": "7"
                     }
                 ]
             },
@@ -308,6 +340,23 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-18"
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

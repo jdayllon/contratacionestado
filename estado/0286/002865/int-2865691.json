@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 201800000423; \u00d3rgano de Contrataci\u00f3n: Consejo de Seguridad Nuclear; Importe: 107438 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 201800000423; \u00d3rgano de Contrataci\u00f3n: Consejo de Seguridad Nuclear; Importe: 107438 EUR; Estado: ADJ"
     },
     "title": "Servicio de seguimiento de noticias de prensa, radio, televisi\u00f3n y medios digitales para el CSN",
-    "updated": "2019-01-21T15:10:07.273+01:00",
+    "updated": "2019-03-18T13:39:19.174+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "201800000423",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Empresa que ha obtenido mayor puntuaci\u00f3n en el procedimiento abierto de licitaci\u00f3n",
+            "cbc:AwardDate": "2019-03-15",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "51304"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "91960"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78040235"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "KANTAR MEDIA SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "82244.91"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "82244.91"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -144,7 +184,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
@@ -156,19 +196,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     },
                     {
@@ -182,6 +216,12 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
                     }
                 ]
             },
@@ -191,8 +231,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Calidad en la prestaci\u00f3nd del servicio. Soluci\u00f3n t\u00e9cnica sistema inform\u00e1tico",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Calidad en la prestaci\u00f3n del servicio. Calidad del informe de seguimiento",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Calidad en la prestaci\u00f3n del servicio. N\u00famero de medios objeto de seguimiento",
@@ -201,14 +249,6 @@
                     {
                         "cbc:Description": "Declaraci\u00f3n responsable reducci\u00f3n tiempo env\u00edo de noticias de \u00faltima hora",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Calidad en la prestaci\u00f3nd del servicio. Soluci\u00f3n t\u00e9cnica sistema inform\u00e1tico",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Calidad en la prestaci\u00f3n del servicio. Calidad del informe de seguimiento",
-                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -253,6 +293,30 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-18"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

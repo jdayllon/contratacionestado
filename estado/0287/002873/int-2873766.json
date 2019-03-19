@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 4/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Socu\u00e9llamos; Importe: 132694.33 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 4/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Socu\u00e9llamos; Importe: 132694.33 EUR; Estado: ADJ"
     },
     "title": "Obra de Reasfaltado y aparcamiento en Carretera de Villarrobledo y Calle El Bonillo en Socu\u00e9llamos (Ciudad Real).",
-    "updated": "2019-01-23T14:57:45.354+01:00",
+    "updated": "2019-03-18T13:29:09.781+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "4/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -109,6 +109,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica a la oferta m\u00e1s econ\u00f3mica.",
+            "cbc:AwardDate": "2019-03-01",
+            "cbc:ReceivedTenderQuantity": "12",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "79121.27"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "114117.12"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A16250813"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MAX INFRAESTRUCTURAS  SOCIEDAD ANONIMA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "79121.27"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "95736.74"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -155,13 +195,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
@@ -242,6 +282,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -258,9 +310,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-23"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-12"
+                        }
+                    ]
                 }
             }
         ]

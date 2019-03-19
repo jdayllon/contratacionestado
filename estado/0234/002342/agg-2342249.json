@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 306/2017;\u00d3rgano de Contrataci\u00f3n: Vicepresidencia, Consejer\u00eda de Presidencia y Portavoc\u00eda del Gobierno\u00b7\u00b7>Canal de Isabel II, S.A.;Importe: 46529318.48 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: 306/2017;\u00d3rgano de Contrataci\u00f3n: Vicepresidencia, Consejer\u00eda de Presidencia y Portavoc\u00eda del Gobierno\u00b7\u00b7>Canal de Isabel II, S.A.;Importe: 46529318.48 EUR;Estado: ADJUDICADA"
     },
     "title": "Servicios de explotaci\u00f3n y mantenimiento de las estaciones depuradoras de aguas residuales (EDAR) del Grupo Cuenca Jarama Medio y Henares",
-    "updated": "2019-01-11T14:55:28.943+01:00",
+    "updated": "2019-03-18T14:25:20.577+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "306/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,6 +64,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "7",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A95113361"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ACCIONA AGUA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "33172873.84"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -86,31 +112,45 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOCM",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-08-17"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-07-27"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-08-07"
+                        }
+                    }
+                ]
             },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "BOCM",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-17"
-                    }
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
                 },
-                {
-                    "cbc-place-ext:PublicationMediaName": "BOE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-07-27"
-                    }
-                },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-07"
+                        "cbc:IssueDate": "2019-02-14"
                     }
                 }
-            ]
-        }
+            }
+        ]
     }
 }
