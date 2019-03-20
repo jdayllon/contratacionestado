@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/259; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n de la Sociedad Estatal Loter\u00edas y Apuestas del Estado, S.M.E., S.A.; Importe: 110000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/259; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n de la Sociedad Estatal Loter\u00edas y Apuestas del Estado, S.M.E., S.A.; Importe: 110000 EUR; Estado: RES"
     },
     "title": "Servicios de Medicina Asistencial y promoci\u00f3n de la salud en el \u00e1mbito laboral para los centros de trabajo de SELAE",
-    "updated": "2018-10-01T14:09:23.311+02:00",
+    "updated": "2019-03-19T18:27:56.205+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/259",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -111,6 +111,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El contrato se ha adjudicado a la proposici\u00f3n mas ventajosa para SELAE",
+            "cbc:AwardDate": "2018-11-28",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:StartDate": "2019-03-15",
+            "cac:Contract": {
+                "cbc:ID": "18/259",
+                "cbc:IssueDate": "2019-03-15"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "F58026022"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "COLECTIVO CLARIS, SDAD.COOP."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "97000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "97000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -133,6 +178,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
@@ -147,12 +198,6 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
                     }
                 ]
             },
@@ -161,10 +206,6 @@
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Incorporar en el plan acciones espec\u00edficas de sensibilizaci\u00f3n y divulgaci\u00f3n sobre conductas adictivas a las nuevas tecnolog\u00edas.",
-                        "cbc:WeightNumeric": "5"
-                    },
                     {
                         "cbc:Description": "Incorporar un modelo espec\u00edfico para dejar de fumar con control y seguimiento de resultados",
                         "cbc:WeightNumeric": "5"
@@ -176,6 +217,10 @@
                     {
                         "cbc:Description": "Precio del contrato",
                         "cbc:WeightNumeric": "55"
+                    },
+                    {
+                        "cbc:Description": "Incorporar en el plan acciones espec\u00edficas de sensibilizaci\u00f3n y divulgaci\u00f3n sobre conductas adictivas a las nuevas tecnolog\u00edas.",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Impartir cursos presenciales te\u00f3rico pr\u00e1cticos de primeros auxilios y escuela de espalda. Por cada curso de dos horas 1 punto hasta un m\u00e1ximo de 5 puntos",
@@ -223,6 +268,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -241,6 +298,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-19"
                     }
                 }
             }

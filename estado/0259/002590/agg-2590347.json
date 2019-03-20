@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A/SER-015973/2018;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Econom\u00eda, Empleo y Hacienda ;Importe: 3645783.50 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: A/SER-015973/2018;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Econom\u00eda, Empleo y Hacienda ;Importe: 3645783.50 EUR;Estado: RESUELTA"
     },
     "title": "Limpieza para diversas sedes de la Consejer\u00eda de Econom\u00eda ,Empleo y Hacienda.Secci\u00f3n Econom\u00eda y Hacienda",
-    "updated": "2018-12-03T16:25:36.203+01:00",
+    "updated": "2019-03-19T16:10:36.560+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A/SER-015973/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -58,6 +58,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "12",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A83709873"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SACYR FACILITIES S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1391675.86"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -80,25 +106,51 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "BOE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-23"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-23"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-23"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-23"
+                        "cbc:IssueDate": "2018-12-19"
                     }
                 }
-            ]
-        }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-26"
+                    }
+                }
+            }
+        ]
     }
 }

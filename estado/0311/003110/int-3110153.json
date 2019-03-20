@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019-017; \u00d3rgano de Contrataci\u00f3n: Gerencia Calvi\u00e1 2000; Importe: 2800 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2019-017; \u00d3rgano de Contrataci\u00f3n: Gerencia Calvi\u00e1 2000; Importe: 2800 EUR; Estado: RES"
     },
     "title": "Servicio de reparaci\u00f3n y sustituci\u00f3n de lunas de veh\u00edculos de la flota de Calvia 2000, S.A.",
-    "updated": "2019-03-05T14:19:57.313+01:00",
+    "updated": "2019-03-19T15:48:05.909+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019-017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -144,6 +144,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta precio m\u00e1s bajo",
+            "cbc:AwardDate": "2019-03-19",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-03-19",
+            "cac:Contract": {
+                "cbc:ID": "2019-017",
+                "cbc:IssueDate": "2019-03-19"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B08539637"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ARMELUX INTERNACIONAL, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2800"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3388"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:Language": {
@@ -164,22 +201,48 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2019-02-25"
-                    },
-                    {
-                        "cbc:IssueDate": "2019-03-05"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-19"
                     }
-                ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-05"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-19"
+                    }
+                }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2.18/03110.0080; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 900000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2.18/03110.0080; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 900000 EUR; Estado: RES"
     },
     "title": "Suministro centralizado de material de oficina y suministro centralizado de papel para adif y adif alta velocidad, en r\u00e9gimen de pedido abierto - (lote 1 y 2).",
-    "updated": "2018-10-04T08:05:42.164+02:00",
+    "updated": "2019-03-19T21:02:07.539+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2.18/03110.0080",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -100,11 +100,139 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "24"
+                    "@unitCode": "DAY",
+                    "#text": "0"
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "001"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 1.- suministro centralizado de material de oficina para adif y adif-av",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "605000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "500000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "30190000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "002"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Lote 2.- suministro centralizado de papel para adif y adif-av",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "484000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "400000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "30190000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+                "cbc:AwardDate": "2019-02-07",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cac:Contract": {
+                    "cbc:ID": "2.18/03110.0086/1",
+                    "cbc:IssueDate": "2019-03-04"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B28279511"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "STAPLES PRODUCTOS OFICINA S L U"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "001",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "500000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "605000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+                "cbc:AwardDate": "2019-02-07",
+                "cbc:ReceivedTenderQuantity": "2",
+                "cac:Contract": {
+                    "cbc:ID": "2.18/03110.0087/1",
+                    "cbc:IssueDate": "2019-03-04"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B28279511"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "STAPLES PRODUCTOS OFICINA S L U"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "002",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "400000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "484000"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares",
@@ -119,15 +247,12 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "ZZZ"
-                    }
+                    },
+                    "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "MENOR PLAZO EN LA INTEGRACI\u00d3N DE LA PLATAFORMA INFORM\u00c1TICA DE ADIF CON LA DEL ADJUDICATARIO",
-                        "cbc:WeightNumeric": "20"
-                    },
                     {
                         "cbc:Description": "PORCENTAJE DE BONIFICACI\u00d3N SOBRE VOLUMEN TOTAL DE FACTURACI\u00d3N ANUAL",
                         "cbc:WeightNumeric": "10"
@@ -135,6 +260,10 @@
                     {
                         "cbc:Description": "PRECIO",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "MENOR PLAZO EN LA INTEGRACI\u00d3N DE LA PLATAFORMA INFORM\u00c1TICA DE ADIF CON LA DEL ADJUDICATARIO",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -195,6 +324,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -213,6 +354,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-19"
                     }
                 }
             }
