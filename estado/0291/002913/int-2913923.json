@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 20190014; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de la Empresa Municipal de Servicios de Medio Ambiente Urbano de Gij\u00f3n (EMULSA); Importe: 22000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 20190014; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de la Empresa Municipal de Servicios de Medio Ambiente Urbano de Gij\u00f3n (EMULSA); Importe: 22000 EUR; Estado: ADJ"
     },
     "title": "Servicio para la realizaci\u00f3n de una campa\u00f1a informativa sobre la recogida de cart\u00f3n comercial en Gij\u00f3n",
-    "updated": "2019-02-02T07:30:06.841+01:00",
+    "updated": "2019-03-20T19:31:41.393+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "20190014",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -135,6 +135,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por presentar la oferta m\u00e1s ventajosa tras aplicar la totalidad de criterios publicados",
+            "cbc:AwardDate": "2019-03-20",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "18040"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "20586"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B52508629"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "De Otra Forma"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19330"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "23389.3"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -175,19 +215,11 @@
                         "cbc:WeightNumeric": "40"
                     },
                     {
-                        "cbc:Description": "Idoneidad de las personas adscritas a la ejecuci\u00f3n de la campa\u00f1a cualificaci\u00f3n y experiencia en las acciones a desarrollar.",
+                        "cbc:Description": "La planificaci\u00f3n de la organizaci\u00f3n para dar cumplimiento al contrato en los plazos establecidos, as\u00ed como la idoneidad de fechas y horarios comerciales propuestos",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "La calidad, originalidad y adecuaci\u00f3n del mensaje a transmitir en la comunicaci\u00f3n de la campa\u00f1a",
-                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "El estudio previo de las  particularidades de la campa\u00f1a  que ponga de manifiesto el grado de conocimiento y particularidades del sector comercial al que se dirige la campa\u00f1a y de los ejes comerciales en los que se desarrollar\u00e1.",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "La planificaci\u00f3n de la organizaci\u00f3n para dar cumplimiento al contrato en los plazos establecidos, as\u00ed como la idoneidad de fechas y horarios comerciales propuestos",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -195,8 +227,16 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "La calidad, originalidad y adecuaci\u00f3n del mensaje a transmitir en la comunicaci\u00f3n de la campa\u00f1a",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Adecuaci\u00f3n de los medios y materiales de apoyo a las acciones a desarrollar",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Idoneidad de las personas adscritas a la ejecuci\u00f3n de la campa\u00f1a cualificaci\u00f3n y experiencia en las acciones a desarrollar.",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -241,6 +281,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-20"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

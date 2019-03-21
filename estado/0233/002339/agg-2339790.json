@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: CCA. +FMG93E; \u00d3rgano de contrataci\u00f3n: Servicio Andaluz de Salud; Importe: 1.518.858,55 \u20ac;"
     },
     "title": "2018/052878. Servicio de redacci\u00f3n del anteproyecto y del proyecto b\u00e1sico y de ejecuci\u00f3n, coordinaci\u00f3n en materia de seguridad y salud durante la elaboraci\u00f3n del proyecto para la ejecuci\u00f3n de las obras del Hospital Materno Infantil de Huelva.",
-    "updated": "2019-02-19T15:26:33.849+01:00",
+    "updated": "2019-03-20T15:41:38.841+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CCA. +FMG93E",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -59,8 +59,34 @@
             },
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
-                    "@unitCode": "MON",
-                    "#text": "6"
+                    "@unitCode": "DAY",
+                    "#text": "144"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "9",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "U90416116"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Planho Consultores SLP,- Aidros Arquitec SAP, UTE"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1199898"
+                    }
                 }
             }
         },
@@ -74,17 +100,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-20"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-19"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-20"
+                    }
                 }
             }
-        }
+        ]
     }
 }
