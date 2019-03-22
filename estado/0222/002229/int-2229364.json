@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01151; \u00d3rgano de Contrataci\u00f3n: Distrito de Arganzuela; Importe: 2489670.65 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2018/01151; \u00d3rgano de Contrataci\u00f3n: Distrito de Arganzuela; Importe: 2489670.65 EUR; Estado: ADJ"
     },
     "title": "Prestaci\u00f3n del servicio educativo en la escuela infantil sita en la calle Eros, 2, con servicio de desayuno, comida y merineda que incorporen productos de comercio justo.",
-    "updated": "2018-08-14T09:31:56.916+02:00",
+    "updated": "2019-03-21T14:50:17.928+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01151",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Prestaci\u00f3n del servicio educativo en la escuela infantil sita en la calle Eros, 2, con servicio de desayuno, comida y merineda que incorporen productos de comercio justo.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,10 +114,60 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "-\tOferta con la mejor puntuaci\u00f3n en los criterios no valorables en cifras o porcentajes.",
+            "cbc:AwardDate": "2019-03-21",
+            "cbc:ReceivedTenderQuantity": "12",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2994333.9"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "3019230.65"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B87847042"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EL \u00c1RBOL CUEVA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2281870.69"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2281870.69"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "1"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "12448.35"
+                    }
+                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -134,16 +184,6 @@
                         "#text": "2"
                     },
                     "cbc:AmountRate": "5"
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "12448.35"
-                    }
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -174,20 +214,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Proyecto de iniac\u00ed\u00f3n al ingl\u00e9s para el nivel 2-3 a\u00f1os",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "1"
                     },
                     {
                         "cbc:Description": "Criterio social",
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "1"
-                    },
-                    {
                         "cbc:Description": "Introducci\u00f3n a la alimentaci\u00f3n ecol\u00f3gica",
                         "cbc:WeightNumeric": "9"
+                    },
+                    {
+                        "cbc:Description": "Proyecto de iniac\u00ed\u00f3n al ingl\u00e9s para el nivel 2-3 a\u00f1os",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Proyecto de gesti\u00f3n educativa y organizativa del centro",
@@ -257,6 +297,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-21"
                     }
                 }
             },

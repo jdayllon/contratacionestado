@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SCR/2019/4; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Morc\u00edn; Importe: 13307.77 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: SCR/2019/4; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Morc\u00edn; Importe: 13307.77 EUR; Estado: EV"
     },
     "title": "Suministro de combustible  (GAS\u00d3LEO C) a las instalaciones del Ayuntamiento de Morc\u00edn.",
-    "updated": "2019-02-19T14:20:38.416+01:00",
+    "updated": "2019-03-21T14:55:30.780+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SCR/2019/4",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -99,11 +99,86 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                }
+            },
+            "cac:ContractExtension": {
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "Se preven dos posibles pr\u00f3rrogas de un a\u00f1o cada una. M\u00e1ximo posible de duraci\u00f3n del contrato: 4 a\u00f1os."
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
+            "cac:TendererQualificationRequest": {
+                "cbc:PersonalSituation": "Habilitaci\u00f3n profesional espec\u00edfica y necesaria prevista en el Apartado 7.3 C del PCAP.",
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "Suministros similares de los tres \u00faltimos a\u00f1os. Importe anual m\u00ednimo durante el a\u00f1o de mayor ejecuci\u00f3n: 16.102,40\u20ac. Seg\u00fan Cl\u00e1usula 7.3 B del PCAP"
+                },
+                "cac:FinancialEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "5"
+                        },
+                        "cbc:Description": "Referido al mejor ejercicio dentro de los tres \u00faltimos disponibles seg\u00fan Cl\u00e1usula 7.3 del PCAP. Volumen m\u00ednimo negocios anual exigido: 87.831,30\u20ac"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "3"
+                        },
+                        "cbc:Description": "P\u00f3liza de seguro que cubra la responsabilidad civil y da\u00f1os a terceros."
+                    }
+                ],
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "8"
+                        }
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": {
+                    "cbc:Description": "Descuento porcentual sorbre precio base publicado en el Bolet\u00edn del Petr\u00f3leo de la Comisi\u00f3n Europea",
+                    "cbc:WeightNumeric": "100"
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -118,20 +193,71 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-03-15",
+                "cbc:EndTime": "14:00:00",
                 "cbc:Description": "15 d\u00edas h\u00e1biles a partir del d\u00eda siguiente al de la Publicaci\u00f3n en la Plataforma de Contrataci\u00f3n del Sector P\u00fablico"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-19"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b41bd9d6-2b22-4d11-94b5-734a5a620fcd",
+                    "cbc:DocumentHash": "eJKfBBDcm3KFUBk92qApuzymZf0="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f01a7855-2df0-4dea-b333-d5fd88d08611",
+                    "cbc:DocumentHash": "cmlobZnC9W2bjbZ8zrMDZdTHam0="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-21"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-19"
+                    }
+                }
+            }
+        ]
     }
 }
