@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02003510)-17/038-006/02; \u00d3rgano de Contrataci\u00f3n: Instituto Aragon\u00e9s de Fomento (IAF); Importe: 512400 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02003510)-17/038-006/02; \u00d3rgano de Contrataci\u00f3n: Instituto Aragon\u00e9s de Fomento (IAF); Importe: 512400 EUR; Estado: ADJ"
     },
     "title": "Suministro e instalaci\u00f3n de dos atracciones en el complejo Din\u00f3polis en Teruel",
-    "updated": "2018-12-06T10:22:30.914+01:00",
+    "updated": "2019-03-22T15:00:39.453+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02003510)-17/038-006/02",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -96,6 +96,126 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Atracci\u00f3n 1 D",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "259303"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "214300"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "37535000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Atracci\u00f3n 2 T",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "360701"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "298100"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "37535000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Ver resoluci\u00f3n 20/03/2019",
+                "cbc:AwardDate": "2019-03-20",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "00655110245"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Antonio Zamperla S.p.A."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "214300"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "259303"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Ver resoluci\u00f3n 20/03/2019",
+                "cbc:AwardDate": "2019-03-20",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "00655110245"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Antonio Zamperla S.p.A."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "298100"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "360701"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -125,32 +245,24 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         },
-                        "cbc:Description": "Seguro de indemnizaci\u00f3n por riesgos profesionales por importe superior de:\nLOTE 1: 259.303,00 \u20ac\nLOTE 2: 360.701,00 \u20ac\nLOTES 1 y 2: 620.004,00 \u20ac\nRiesgos cubiertos: los que puedan derivarse de la ejecuci\u00f3n de los contratos."
+                        "cbc:Description": "Deber\u00e1 ser al menos 1,5 veces el valor estimado del contrato, es decir:\nLOTE 1: 321.450,00 \u20ac\nLOTE 2: 447.150,00 \u20ac\nLOTES 1 Y 2: 768.600,00\u20ac"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "3"
                         },
-                        "cbc:Description": "Deber\u00e1 ser al menos 1,5 veces el valor estimado del contrato, es decir:\nLOTE 1: 321.450,00 \u20ac\nLOTE 2: 447.150,00 \u20ac\nLOTES 1 Y 2: 768.600,00\u20ac"
+                        "cbc:Description": "Seguro de indemnizaci\u00f3n por riesgos profesionales por importe superior de:\nLOTE 1: 259.303,00 \u20ac\nLOTE 2: 360.701,00 \u20ac\nLOTES 1 y 2: 620.004,00 \u20ac\nRiesgos cubiertos: los que puedan derivarse de la ejecuci\u00f3n de los contratos."
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
                         "cbc:Description": "Tiempo respuesta servicio postventa, servicio de asistencia t\u00e9cnica en Espa\u00f1a, atenci\u00f3n telef\u00f3nica, costes contrato mantenimiento, costes utilizaci\u00f3n (consumo energ\u00e9tico, repuestos, etc)",
                         "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Planificaci\u00f3n suministro y montaje. Se asignar\u00e1 una puntuaci\u00f3n de 1 punto por cada semana de reducci\u00f3n con respecto al plazo especificado en los presentes pliego hasta un m\u00e1ximo de 10 puntos",
-                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Aportar planos, fotos, infograf\u00edas o dise\u00f1o 3D y memoria materiales y terminaciones. Se valorar\u00e1 propuesta est\u00e9tica s/ tematizaci\u00f3n en contexto parque tem\u00e1tico Din\u00f3polis y lo indicado en PPT",
@@ -159,6 +271,14 @@
                     {
                         "cbc:Description": "Memoria descriptiva con las caracter\u00edsticas t\u00e9cnicas de la atracci\u00f3n. Se valorar\u00e1n tambi\u00e9n los sistemas de seguridad, facilidad de uso y accesibilidad.",
                         "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Planificaci\u00f3n suministro y montaje. Se asignar\u00e1 una puntuaci\u00f3n de 1 punto por cada semana de reducci\u00f3n con respecto al plazo especificado en los presentes pliego hasta un m\u00e1ximo de 10 puntos",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -199,6 +319,30 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-22"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

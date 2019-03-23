@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: FUGEN_ESP/2/UB1124SD; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Fundaci\u00f3 General de la Universitat Jaume I, Fundaci\u00f3 de la Comunitat Valenciana; Importe: 0 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: FUGEN_ESP/2/UB1124SD; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Fundaci\u00f3 General de la Universitat Jaume I, Fundaci\u00f3 de la Comunitat Valenciana; Importe: 0 EUR; Estado: RES"
     },
     "title": "Autorizaciones de ocupaci\u00f3n temporal de espacios",
-    "updated": "2019-03-06T16:31:47.436+01:00",
+    "updated": "2019-03-22T15:10:34.295+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "FUGEN_ESP/2/UB1124SD",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -136,6 +136,43 @@
                 "cbc:OptionsDescription": "Duracion: desde el dia siguiente a la formalizaci\u00f3n, hasta el 30 de junio del a\u00f1o siguiente, pudiendo prorrogarse por mutuo acuerdo de las partes y con anterioridad a su finalizaci\u00f3n hasta un m\u00e1ximo de CUATRO A\u00d1OS (periodo inicial m\u00e1s pr\u00f3rrogas)"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la \u00fanica empresa y cumplir los requisitos establecidos en los pliegos",
+            "cbc:AwardDate": "2019-03-22",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-04-01",
+            "cac:Contract": {
+                "cbc:ID": "FUGEN_ESP_UB1124SD",
+                "cbc:IssueDate": "2019-03-22"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B44520369"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FOODRATION4ALL SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "97.44"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "117.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -157,16 +194,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Importe de los contratos de investigaci\u00f3n",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
                         "cbc:Description": "N\u00famero de proyectos colaborativos",
                         "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Porcentaje de la plantilla ocupado por personal con titulaci\u00f3n universitaria",
                         "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Importe de los contratos de investigaci\u00f3n",
-                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -316,6 +353,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -334,6 +383,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-03-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-22"
                     }
                 }
             },

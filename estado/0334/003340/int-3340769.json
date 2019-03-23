@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: G-2018/12-0023; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Instituto Cervantes; Importe: 90000 EUR; Estado: PUB"
     },
     "title": "Servicios de mantenimiento, actualizaci\u00f3n y soporte de las licencias VMWare para blades ESX y equipos de hiperconvergencia del Instituto Cervantes, alojados en sus CPDs en la Sede Central de Madrid",
-    "updated": "2019-03-19T14:03:41.334+01:00",
+    "updated": "2019-03-22T14:37:03.272+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "G-2018/12-0023",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -124,6 +124,12 @@
                 "cbc:AmountRate": "5"
             },
             "cac:TendererQualificationRequest": {
+                "cac:RequiredBusinessClassificationScheme": {
+                    "cbc:ID": "RequiredBusinessProfileCode",
+                    "cac:ClassificationCategory": {
+                        "cbc:CodeValue": "V3-1"
+                    }
+                },
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -142,12 +148,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
@@ -155,6 +155,12 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
                         }
                     },
                     {
@@ -221,17 +227,36 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-20"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-19"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-22"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }
