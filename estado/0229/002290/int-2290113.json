@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 6020; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Alcal\u00e1 de Henares; Importe: 75619.84 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 6020; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Alcal\u00e1 de Henares; Importe: 75619.84 EUR; Estado: RES"
     },
     "title": "Arrendamiento de veh\u00edculos destinados a la Polic\u00eda Local",
-    "updated": "2018-06-29T10:30:51.921+02:00",
+    "updated": "2019-03-24T09:38:37.753+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "6020",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -36,7 +36,7 @@
                     "cbc:CityName": "Alcal\u00e1 de Henares",
                     "cbc:PostalZone": "28801",
                     "cac:AddressLine": {
-                        "cbc:Line": "Cervantes, 12"
+                        "cbc:Line": "Plaza de Cervantes, 12"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Arrendamiento de veh\u00edculos destinados a la Polic\u00eda Local",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mayor puntuaci\u00f3n obtenida en los informes t\u00e9cnicos que se desglosan en: precio: 7,37 puntos; rebaja en el valor residual: 0 puntos; y calidad de los veh\u00edculos: 10 puntos.",
+            "cbc:AwardDate": "2019-01-11",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:Contract": {
+                "cbc:ID": "3990",
+                "cbc:IssueDate": "2019-02-13"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A46063814"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TRANSTEL, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "5825"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7048.25"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -136,7 +172,14 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "De acuerdo con lo establecido en la cl\u00e1usula 4 del pliego de cl\u00e1usulas administrativas particulares."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "6"
                         },
                         "cbc:Description": "De acuerdo con lo establecido en la cl\u00e1usula 4 del pliego de cl\u00e1usulas administrativas particulares."
                     },
@@ -150,14 +193,7 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
-                        "cbc:Description": "De acuerdo con lo establecido en la cl\u00e1usula 4 del pliego de cl\u00e1usulas administrativas particulares."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
+                            "#text": "2"
                         },
                         "cbc:Description": "De acuerdo con lo establecido en la cl\u00e1usula 4 del pliego de cl\u00e1usulas administrativas particulares."
                     }
@@ -184,12 +220,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio propuesto",
-                        "cbc:WeightNumeric": "50"
-                    },
-                    {
                         "cbc:Description": "Calidad de los veh\u00edculos",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Precio propuesto",
+                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -249,6 +285,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -267,6 +315,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-06-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-24"
                     }
                 }
             }

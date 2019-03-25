@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: ICO-34-2018; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n del Instituto de Cr\u00e9dito Oficial (ICO); Importe: 2150000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: ICO-34-2018; \u00d3rgano de Contrataci\u00f3n: Comisi\u00f3n de Contrataci\u00f3n del Instituto de Cr\u00e9dito Oficial (ICO); Importe: 2150000 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de una central de medios",
-    "updated": "2019-01-10T14:09:33.312+01:00",
+    "updated": "2019-03-24T09:35:52.016+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ICO-34-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,72 +108,152 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "2"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Publicidad en Medios Internacionales",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "350000"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "289256.19"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "79341400"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Publicidad en Medios Nacionales",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2251500"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "1860743.8"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79341400"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Publicidad en Medios Internacionales",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "350000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "289256.19"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "79341400"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "Oferta mejor relaci\u00f3n calidad-precio",
-            "cbc:AwardDate": "2019-01-10",
-            "cbc:ReceivedTenderQuantity": "6",
-            "cbc:LowerTenderAmount": {
-                "@currencyID": "EUR",
-                "#text": "0"
-            },
-            "cbc:HigherTenderAmount": {
-                "@currencyID": "EUR",
-                "#text": "0"
-            },
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "B84584705"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Mejor relaci\u00f3n calidad-precio",
+                "cbc:AwardDate": "2019-01-16",
+                "cbc:ReceivedTenderQuantity": "10",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                },
+                "cbc:StartDate": "2019-03-06",
+                "cac:Contract": {
+                    "cbc:ID": "46/1110",
+                    "cbc:IssueDate": "2019-03-06"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A80755390"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "MEDIACOM IBERIA, S.A"
                     }
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "IRISMEDIA AGENCIA DE MEDIOS S.L."
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "1860330.58"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "2251000"
+                        }
+                    }
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Oferta mejor relaci\u00f3n calidad-precio",
+                "cbc:AwardDate": "2019-01-10",
+                "cbc:ReceivedTenderQuantity": "6",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                },
+                "cbc:StartDate": "2019-02-14",
+                "cac:Contract": {
+                    "cbc:ID": "46/1107",
+                    "cbc:IssueDate": "2019-02-14"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B84584705"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
+                    "cac:PartyName": {
+                        "cbc:Name": "IRISMEDIA AGENCIA DE MEDIOS S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "289256.1"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "350000"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -270,9 +350,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-16"
+                        }
+                    ]
                 }
             },
             {
@@ -307,6 +392,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-24"
                     }
                 }
             }

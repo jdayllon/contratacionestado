@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 00276-2018; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Zaragoza; Importe: 85193.38 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 00276-2018; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Zaragoza; Importe: 85193.38 EUR; Estado: RES"
     },
     "title": "Mantenimiento y soporte de la apalicaci\u00f3n PLYCA de contrataci\u00f3n p\u00fablica y electr\u00f3nica para el a\u00f1o 2019",
-    "updated": "2019-02-11T13:26:47.119+01:00",
+    "updated": "2019-03-24T09:39:48.614+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "00276-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -88,6 +88,15 @@
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES243"
+                },
+                "cac:Address": {
+                    "cac:Country": {
+                        "cbc:IdentificationCode": {
+                            "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
+                            "#text": "ES"
+                        },
+                        "cbc:Name": "Espa\u00f1a"
+                    }
                 }
             },
             "cac:PlannedPeriod": {
@@ -110,6 +119,10 @@
             "cbc:HigherTenderAmount": {
                 "@currencyID": "EUR",
                 "#text": "79011.75"
+            },
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2019-03-18"
             },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
@@ -136,6 +149,7 @@
             }
         },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -184,17 +198,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-11"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-11"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-24"
+                    }
                 }
             }
-        }
+        ]
     }
 }
