@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 22104.19.001; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Confederaci\u00f3n Hidrogr\u00e1fica del Segura; Importe: 154556.78 EUR; Estado: PUB"
     },
     "title": "Suministro de prendas de vestuario para personal laboral de la Confederaci\u00f3n Hidrogr\u00e1fica del Segura, O.A. para el a\u00f1o 2019 (invierno y verano).",
-    "updated": "2019-03-24T09:38:19.615+01:00",
+    "updated": "2019-03-25T13:38:03.195+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "22104.19.001",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -146,16 +146,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSR-MUESTRAS"
+                            "#text": "XSX-CERTCALIDAD"
                         },
-                        "cbc:Description": "De acuerdo con el punto 15.2.2. del cuadro de caracter\u00edsticas del PCAP."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
-                        },
-                        "cbc:Description": "Ver punto 15.1 (Compromiso de adscripci\u00f3n de medios)"
+                        "cbc:Description": "Ver punto 15.4 del Cuadro de Caracter\u00edsticas del PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -167,9 +160,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
+                            "#text": "OXR-MEDIOS"
                         },
-                        "cbc:Description": "Ver punto 15.4 del Cuadro de Caracter\u00edsticas del PCAP"
+                        "cbc:Description": "Ver punto 15.1 (Compromiso de adscripci\u00f3n de medios)"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSR-MUESTRAS"
+                        },
+                        "cbc:Description": "De acuerdo con el punto 15.2.2. del cuadro de caracter\u00edsticas del PCAP."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -199,6 +199,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
@@ -212,12 +218,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
                         }
                     },
                     {
@@ -283,17 +283,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-25"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-24"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-24"
+                    }
                 }
             }
-        }
+        ]
     }
 }

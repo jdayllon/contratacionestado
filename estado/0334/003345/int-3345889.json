@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Santa Colomba de Somoza; Importe: 275183.85 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 1/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Santa Colomba de Somoza; Importe: 275183.85 EUR; Estado: PUB"
     },
     "title": "Centro de Formaci\u00f3n Artesanal Maragato Fase I",
-    "updated": "2019-03-20T14:19:05.792+01:00",
+    "updated": "2019-03-25T13:47:04.570+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,13 +81,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45000000"
+                        "#text": "45214320"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45214320"
+                        "#text": "45000000"
                     }
                 }
             ],
@@ -98,6 +98,8 @@
                     "#text": "ES413"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "SANTA COLOMBA DE SOMOZA",
+                    "cbc:PostalZone": "24722",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -106,10 +108,73 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:StartDate": "2019-05-03",
+                "cbc:EndDate": "2019-09-03"
+            },
+            "cac:ContractExtension": {
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "NO CABE"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
+            "cbc:PriceRevisionFormulaDescription": "NO CABE",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "7"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "SEGUN PLIEGO"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "SEGUN PLIEGO"
+                },
+                "cac:SpecificTendererRequirement": {
+                    "cbc:RequirementTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                        "#text": "1"
+                    }
+                }
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "SEG\u00daN PLIEGO"
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "REDUCCI\u00d3N PLAZOS EJECUCI\u00d3N",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "AMPLIACI\u00d3N GARANTIA",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "DISTANCIA AL CENTRO DE TRABAJO",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Presupuesto de licitaci\u00f3n",
+                        "cbc:WeightNumeric": "70"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -122,13 +187,39 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "2"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2019-04-04",
+                "cbc:EndTime": "14:23:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-04-04",
+                "cbc:EndTime": "15:00:00"
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "pcap.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=758209ff-e102-4535-80f7-7292c4cb865f",
+                    "cbc:DocumentHash": "BY0NWQ7dsxg4jfs2QLVVhbitH5k="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "proyecto bas y ej centro formacion aresanal fase i.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=db96fbfc-c69c-447e-be81-164c5b59376a",
+                    "cbc:DocumentHash": "FmEAkHR+VS+zehpfxYevFIVT7Y4="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_PIN"
+                    "#text": "DOC_CN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante Sede Electronica",
@@ -140,12 +231,24 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_PIN"
+                    "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-20"
+                        "cbc:IssueDate": "2019-03-25"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-25"
                     }
                 }
             }
