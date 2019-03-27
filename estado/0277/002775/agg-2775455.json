@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: CONTR 2018 0000062677; \u00d3rgano de contrataci\u00f3n: Servicio Andaluz de Empleo. Servicios Centrales; Importe: 77.123,20 \u20ac;"
     },
     "title": "Suministro de licencias Backup ARCSERVE",
-    "updated": "2018-12-17T14:12:12.657+01:00",
+    "updated": "2019-03-26T14:11:39.828+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONTR 2018 0000062677",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -56,6 +56,38 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "24"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28122125"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CANON ESPA\u00d1A SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "76500"
+                    }
+                }
             }
         },
         "cac:TenderingProcess": {
@@ -68,17 +100,43 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-26"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-17"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-26"
+                    }
                 }
             }
-        }
+        ]
     }
 }

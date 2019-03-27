@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/000283; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Complutense de Madrid; Importe: 280000 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 2018/000283; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Complutense de Madrid; Importe: 280000 EUR; Estado: ADJ"
     },
     "title": "Asistencia t\u00e9cnica del proyecto y direcci\u00f3n de la obra de rehabilitaci\u00f3n del pabell\u00f3n 8 en el edificio de \u00e1rea m\u00e9dica para traslado de la Facultad de \u00d3ptica y Optometr\u00eda de la UCM",
-    "updated": "2018-09-27T12:54:50.580+02:00",
+    "updated": "2019-03-26T14:06:51.474+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/000283",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -90,6 +90,8 @@
                     "#text": "ES300"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "Madrid",
+                    "cbc:PostalZone": "28040",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -98,11 +100,105 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "27"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mejor oferta relaci\u00f3n calidad precio",
+            "cbc:AwardDate": "2019-03-18",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "119185"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A79159802"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "BN ASOCIADOS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "apartado 5 de las caracter\u00edsticas del contrato"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "3"
+                    },
+                    "cbc:Description": "apartado 5 de las caracter\u00edsticas del contrato"
+                },
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    }
+                ]
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "apartado 16 de las caracter\u00edsticas del contrato"
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Criterios mediambientales y sociales",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "12"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -117,7 +213,36 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2018-11-28",
+                "cbc:EndTime": "19:00:00",
                 "cbc:Description": "Asistencia t\u00e9cnica del proyecto y direcci\u00f3n de la obra de rehabilitaci\u00f3n de pabell\u00f3n 8 en el edificio de \u00e1rea m\u00e9dica para traslado de la Facultad de \u00d3ptica y Optometr\u00eda de la Universidad Complutense de Madrid."
+            }
+        },
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=cabf482c-95da-43be-bf43-b4027c61486b",
+                    "cbc:DocumentHash": "Vjhy/Lwmt1z2vEsj+ZKu+0te4FA="
+                }
+            }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=dc445202-caa4-4930-af91-26e09db73519",
+                    "cbc:DocumentHash": "gm9Lts/ecpQUnO+xIgk05rZe8Lo="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "PA 00118.zip",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1b75e988-f11c-44cc-88d5-42f794429551",
+                    "cbc:DocumentHash": "3X6XIF+txsRKoZPT+ajnMd2gWTY="
+                }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
@@ -128,6 +253,64 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE"
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-14"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-19"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-19"
+                        }
+                    ]
                 }
             },
             {

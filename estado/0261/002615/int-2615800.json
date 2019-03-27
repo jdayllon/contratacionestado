@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018037754; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Pontevedra; Importe: 183004.72 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018037754; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Pontevedra; Importe: 183004.72 EUR; Estado: RES"
     },
     "title": "Reposici\u00f3n de firme na E.P. 6104 Castro-Doz\u00f3n-Saa-A Rocha (Doz\u00f3n)",
-    "updated": "2018-11-05T17:08:29.697+01:00",
+    "updated": "2019-03-26T20:06:39.183+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018037754",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -103,6 +103,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se describe en documento adjunto.",
+            "cbc:AwardDate": "2019-02-22",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:StartDate": "2019-03-13",
+            "cac:Contract": {
+                "cbc:ID": "2018037754",
+                "cbc:IssueDate": "2019-03-13"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A32118705"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MISTURAS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "138882"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "168047.22"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -139,8 +176,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Plan de control de calidad",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Memoria de trabajo.",
                         "cbc:WeightNumeric": "18"
+                    },
+                    {
+                        "cbc:Description": "Plan de actuaciones ambientales.",
+                        "cbc:WeightNumeric": "8"
                     },
                     {
                         "cbc:Description": "Programa y equipo de trabajo.",
@@ -149,14 +194,6 @@
                     {
                         "cbc:Description": "Menor precio ofertado.",
                         "cbc:WeightNumeric": "51"
-                    },
-                    {
-                        "cbc:Description": "Plan de control de calidad",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Plan de actuaciones ambientales.",
-                        "cbc:WeightNumeric": "8"
                     }
                 ]
             },
@@ -204,6 +241,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -233,6 +282,18 @@
                             "cbc:IssueDate": "2018-11-05"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-26"
+                    }
                 }
             }
         ]

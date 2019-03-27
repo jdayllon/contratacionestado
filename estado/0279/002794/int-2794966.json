@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: C139/18; \u00d3rgano de Contrataci\u00f3n: Oficina Espa\u00f1ola de Patentes y Marcas; Importe: 84966 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: C139/18; \u00d3rgano de Contrataci\u00f3n: Oficina Espa\u00f1ola de Patentes y Marcas; Importe: 84966 EUR; Estado: ADJ"
     },
     "title": "Mantenimiento de los aparatos elevadores instalados en la sede de la Oficina Espa\u00f1ola de Patentes y Marcas, O.A. en el Paseo de la Castellana 75, de Madrid",
-    "updated": "2018-12-22T09:34:39.299+01:00",
+    "updated": "2019-03-26T14:20:03.284+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "C139/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -124,6 +124,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La oferta de ZARDOYA OTIS, S.A. es la que ofrece la mejor relaci\u00f3n calidad-precio para la OEPM y cumple las prescripciones establecidas en los pliegos reguladores del procedimiento de contrataci\u00f3n.",
+            "cbc:AwardDate": "2019-03-26",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28011153"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ZARDOYA OTIS S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46646.33"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "56442.06"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -131,12 +163,9 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "3"
                     },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "0"
-                    }
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
@@ -148,9 +177,12 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "1"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -181,12 +213,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios autom\u00e1ticos (85%)",
-                        "cbc:WeightNumeric": "85"
-                    },
-                    {
                         "cbc:Description": "Criterios que dependen de un juicio de valor (15%).",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Criterios autom\u00e1ticos (85%)",
+                        "cbc:WeightNumeric": "85"
                     }
                 ]
             },
@@ -236,10 +268,30 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-26"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-22"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
                 "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-22"
+                        "cbc:IssueDate": "2019-03-26"
                     }
                 }
             },

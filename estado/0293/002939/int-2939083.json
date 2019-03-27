@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019OBR0004; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Nerja; Importe: 718466.94 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2019OBR0004; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Nerja; Importe: 718466.94 EUR; Estado: RES"
     },
     "title": "Obras de conexi\u00f3n exterior de abastecimiento e infraestructura de media tensi\u00f3n del Sector SUP-04 del P.G.O.U. de Nerja",
-    "updated": "2019-02-21T14:16:43.055+01:00",
+    "updated": "2019-03-26T13:58:11.229+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019OBR0004",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Haber presentado la mejor oferta conforme a los criterios de adjudicaci\u00f3n establecidos en los pliegos.",
+            "cbc:AwardDate": "2019-03-11",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "539685.38"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "646819.88"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2019OBR0004",
+                "cbc:IssueDate": "2019-03-26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B29161643"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TRANSPORTES ANTELO, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "569320.1"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "688877.33"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -131,10 +175,10 @@
                     "cbc:ID": "RequiredBusinessProfileCode",
                     "cac:ClassificationCategory": [
                         {
-                            "cbc:CodeValue": "I9-2"
+                            "cbc:CodeValue": "E7-2"
                         },
                         {
-                            "cbc:CodeValue": "E7-2"
+                            "cbc:CodeValue": "I9-2"
                         }
                     ]
                 },
@@ -142,13 +186,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     },
                     {
@@ -161,12 +211,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     }
                 ]
@@ -186,12 +230,12 @@
                         "cbc:WeightNumeric": "75"
                     },
                     {
-                        "cbc:Description": "Calidad del material ofertado",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Medidas para reducir el impacto urbano y viario de la obra",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Calidad del material ofertado",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -248,6 +292,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -278,8 +334,23 @@
                         },
                         {
                             "cbc:IssueDate": "2019-02-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-27"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-26"
+                    }
                 }
             }
         ]

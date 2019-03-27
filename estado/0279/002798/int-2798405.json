@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1652/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas, M.P.; Importe: 148452 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1652/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Agencia Estatal Consejo Superior de Investigaciones Cient\u00edficas, M.P.; Importe: 148452 EUR; Estado: ADJ"
     },
     "title": "Servicio de soporte t\u00e9cnico a usuarios y mantenimiento del parque inform\u00e1tico de usuarios finales del Centro de Ciencias Humanas y Sociales.",
-    "updated": "2018-12-28T16:41:10.107+01:00",
+    "updated": "2019-03-26T14:25:39.069+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1652/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por haber presentado la mejor oferta.",
+            "cbc:AwardDate": "2019-02-28",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "126708.75"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "147000"
+            },
+            "cac:Contract": {
+                "cbc:ID": "1652/19",
+                "cbc:IssueDate": "2019-03-26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B87993622"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INFOSER NEW TECHNOLOGIES"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "127925"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "154789.25"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -136,7 +180,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
                         }
                     },
                     {
@@ -148,13 +192,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "9"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "5"
                         }
                     }
                 ]
@@ -162,24 +206,8 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "48"
-                    },
-                    {
-                        "cbc:Description": "Mejoras y/o aportaciones adicionales evaluables mediante f\u00f3rmula",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
-                        "cbc:Description": "Formaci\u00f3n, conocimientos y experiencia del equipo t\u00e9cnico",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "Sistemas de control y seguimiento",
                         "cbc:WeightNumeric": "8"
-                    },
-                    {
-                        "cbc:Description": "Memoria descriptiva de la ejecuci\u00f3n del contrato",
-                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Bolsa de horas",
@@ -188,6 +216,22 @@
                     {
                         "cbc:Description": "Medidas socio-laborales del personal encargado de la ejecuci\u00f3n del contrato",
                         "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Formaci\u00f3n, conocimientos y experiencia del equipo t\u00e9cnico",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Mejoras y/o aportaciones adicionales evaluables mediante f\u00f3rmula",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Memoria descriptiva de la ejecuci\u00f3n del contrato",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "48"
                     }
                 ]
             },
@@ -242,11 +286,36 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
-                "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-26"
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2019-01-14"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-12-26"
+                        }
                     }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-26"
+                        }
+                    ]
                 }
             },
             {

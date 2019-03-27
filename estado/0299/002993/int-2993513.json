@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/103; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 32644.63 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2018/103; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 32644.63 EUR; Estado: ADJ"
     },
     "title": "Servicio de instalaci\u00f3n de las casetas de la 46\u00aa Feria del Libro de C\u00f3rdoba 2019",
-    "updated": "2019-03-14T14:29:51.262+01:00",
+    "updated": "2019-03-26T14:48:42.286+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/103",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,6 +112,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicar la contrataci\u00f3n del \u201cServicio de Instalaci\u00f3n de las casetas de la 46\u00aa Feria del Libro de C\u00f3rdoba 2019, a la entidad A. Saorin Montaje de Stand S.L., con CIF B-73427882 ,  en la cantidad de 29.500 \u20ac m\u00e1s 6.195 \u20ac de IVA (21%), total: 35.695 \u20ac, con las caracter\u00edsticas  t\u00e9cnicas y mejoras contenidas en su oferta.",
+            "cbc:AwardDate": "2019-03-26",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "29500"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "32600"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B73427882"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "A.SAORIN MONTAJE DE STAND, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29500"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "35695"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -146,6 +186,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
@@ -158,7 +204,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "5"
                         }
                     },
                     {
@@ -166,19 +212,25 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Calidad de los materiales empleados y de los acabados.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Incremento de los elementos de la instalaci\u00f3n.",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Mejora en oferta econ\u00f3mica.",
+                        "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Mayor altura libre interior del Pabell\u00f3n.",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -186,24 +238,12 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Calidad y est\u00e9tica del mobiliario urbano para publicidad de la feria.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Calidad de los materiales empleados y de los acabados.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Adaptaci\u00f3n o concordancia a la est\u00e9tica del entorno.",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Mayor altura libre interior del Pabell\u00f3n.",
+                        "cbc:Description": "Calidad y est\u00e9tica del mobiliario urbano para publicidad de la feria.",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Mejora en oferta econ\u00f3mica.",
-                        "cbc:WeightNumeric": "70"
                     }
                 ]
             },
@@ -253,6 +293,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-26"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
