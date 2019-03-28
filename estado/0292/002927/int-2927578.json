@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 026/2019; \u00d3rgano de Contrataci\u00f3n: Agencia Espa\u00f1ola de Protecci\u00f3n de Datos; Importe: 50000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 026/2019; \u00d3rgano de Contrataci\u00f3n: Agencia Espa\u00f1ola de Protecci\u00f3n de Datos; Importe: 50000 EUR; Estado: ADJ"
     },
     "title": "Servicio de custodia y archivo de documentaci\u00f3n de la Agencia Espa\u00f1ola Protecci\u00f3n de Datos",
-    "updated": "2019-02-05T20:39:30.581+01:00",
+    "updated": "2019-03-27T18:51:32.607+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "026/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mejor valorada mediante aplicaci\u00f3n de f\u00f3rmulas",
+            "cbc:AwardDate": "2019-03-27",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A80465792"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NORMADAT, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "50000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "60500"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -135,23 +167,23 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio por consulta a expediente",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Precio por consulta a contenedor",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Precio por custodia por unidad de contendores por a\u00f1o",
+                        "cbc:Description": "Precio por destrucci\u00f3n de documentaci\u00f3n y env\u00edo a punto limpio autorizado por unidad de contenedor",
                         "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Precio por consulta a expediente",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Precio por entrada / salida de documentaci\u00f3n por unidad de contenedor",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Precio por destrucci\u00f3n de documentaci\u00f3n y env\u00edo a punto limpio autorizado por unidad de contenedor",
+                        "cbc:Description": "Precio por custodia por unidad de contendores por a\u00f1o",
                         "cbc:WeightNumeric": "25"
                     }
                 ]
@@ -197,6 +229,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-27"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

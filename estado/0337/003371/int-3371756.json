@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 0337; \u00d3rgano de Contrataci\u00f3n: Sociedad  Municipal de Gesti\u00f3n Urban\u00edstica de Las Palmas de Gran Canaria, S.A. (GEURSA); Importe: 105187.29 EUR; Estado: PUB"
     },
     "title": "El objeto del presente proyecto es la modificaci\u00f3n de interiores e instalaciones necesarios para la ampliaci\u00f3n de vestuarios y zonas h\u00famedas requeridos por la nueva sede de la Cruz Roja, situado bajo el Paseo de Las Canteras frente a la Cicer.\nSe cerrara tambi\u00e9n la entrada al embarcadero modificando as\u00ed el cerramiento vertical en fachada y destinar\u00e1 el local colindante como uso de embarcadero, modificando la carpinter\u00eda.",
-    "updated": "2019-03-26T15:58:59.930+01:00",
+    "updated": "2019-03-27T13:41:49.219+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "0337",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -140,6 +140,13 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
                         "#text": "1"
                     },
                     "cbc:LiabilityAmount": {
@@ -156,13 +163,6 @@
                         "@currencyID": "EUR",
                         "#text": "0"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -170,9 +170,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "Declaraci\u00f3n indicando la maquinaria , material y equipo t\u00e9cnico del que se dispondr\u00e1 conforme a lo exigido en el pliego de clausulas administrativas"
+                        "cbc:Description": "Declaraci\u00f3n indicando el personal t\u00e9cnico u organismo t\u00e9cnicos."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -184,9 +184,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "OXR-MEDIOS"
                         },
-                        "cbc:Description": "Declaraci\u00f3n indicando el personal t\u00e9cnico u organismo t\u00e9cnicos."
+                        "cbc:Description": "Declaraci\u00f3n indicando la maquinaria , material y equipo t\u00e9cnico del que se dispondr\u00e1 conforme a lo exigido en el pliego de clausulas administrativas"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -200,16 +200,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         },
-                        "cbc:Description": "Justificante de la existencia de un seguro de responsabilidad civil por riesgos profesionales por importe igual o superior al exigido en el anuncio de licitacion"
+                        "cbc:Description": "volumen anual de negocios o bien volumen anual de negocios en el \u00e1mbito al que se refiere el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles conforme a la clausula 25 del pliego."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "3"
                         },
-                        "cbc:Description": "volumen anual de negocios o bien volumen anual de negocios en el \u00e1mbito al que se refiere el contrato, referido al mejor ejercicio dentro de los tres \u00faltimos disponibles conforme a la clausula 25 del pliego."
+                        "cbc:Description": "Justificante de la existencia de un seguro de responsabilidad civil por riesgos profesionales por importe igual o superior al exigido en el anuncio de licitacion"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -269,15 +269,26 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "1431PRE1-CR-190215.bc3",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2e4a0bef-eb49-46ab-8ce7-a98c9ae7d31b",
-                    "cbc:DocumentHash": "8x9z5TeZ3VvlLwE7IFKj4EsfmHs="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "1431PRE1-CR-190215.bc3",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2e4a0bef-eb49-46ab-8ce7-a98c9ae7d31b",
+                        "cbc:DocumentHash": "8x9z5TeZ3VvlLwE7IFKj4EsfmHs="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "BC3.zip",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=25593d92-3c1c-4739-bdc6-1d94e2116f2b",
+                        "cbc:DocumentHash": "Je9O+baGwGi8IJkqF4G626srbWM="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -286,9 +297,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-26"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-26"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-27"
+                        }
+                    ]
                 }
             },
             {
