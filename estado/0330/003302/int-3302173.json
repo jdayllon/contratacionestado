@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/3/0074; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Santa Cruz de Tenerife; Importe: 736666.29 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/3/0074; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Santa Cruz de Tenerife; Importe: 736666.29 EUR; Estado: EV"
     },
     "title": "Servicio de apoyo a la digitalizaci\u00f3n de los procedimientos del Ayuntamiento de Santa Cruz de Tenerife a excepci\u00f3n de los procedimientos de contrataci\u00f3n p\u00fablica.",
-    "updated": "2019-03-10T09:41:32.865+01:00",
+    "updated": "2019-03-28T15:36:26.199+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/3/0074",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "EV"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -193,16 +193,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Otras prestaciones",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "31.5"
                     },
                     {
                         "cbc:Description": "Propuesta t\u00e9cnica",
                         "cbc:WeightNumeric": "48.5"
+                    },
+                    {
+                        "cbc:Description": "Otras prestaciones",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -247,17 +247,54 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-12"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-28"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-10"
+                    }
                 }
             }
-        }
+        ]
     }
 }

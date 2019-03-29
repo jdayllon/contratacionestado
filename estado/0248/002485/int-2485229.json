@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: D.2.1.1_9_2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de L'Alc\u00f9dia; Importe: 41293 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: D.2.1.1_9_2018; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de L'Alc\u00f9dia; Importe: 41293 EUR; Estado: RES"
     },
     "title": "Rehabilitaci\u00f3n del cementerio municipal",
-    "updated": "2018-10-04T11:23:11.569+02:00",
+    "updated": "2019-03-28T13:48:39.867+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "D.2.1.1_9_2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -50,7 +50,7 @@
                     "cbc:Name": "Alcald\u00eda del Ayuntamiento de L'Alc\u00f9dia",
                     "cbc:Telephone": "962540266",
                     "cbc:Telefax": "962996957",
-                    "cbc:ElectronicMail": "secretaria@lalcudia.com"
+                    "cbc:ElectronicMail": "contractacio@lalcudia.com"
                 }
             }
         },
@@ -121,6 +121,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mas ventajosa",
+            "cbc:AwardDate": "2018-11-27",
+            "cbc:ReceivedTenderQuantity": "9",
+            "cac:Contract": {
+                "cbc:ID": "D.2.1.1_9_2018",
+                "cbc:IssueDate": "2018-12-03"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B96097860"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CARRIL Y MARIANO S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "25082.4"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "30349.7"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:Language": {
@@ -163,6 +199,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -183,7 +231,47 @@
                         "cbc:IssueDate": "2018-10-04"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-28"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractID": "D.2.1.1_9_2018",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "8970.77"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "34053.17"
+                }
+            }
+        }
     }
 }

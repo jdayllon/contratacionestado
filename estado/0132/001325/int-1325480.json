@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2016/ETSAE0226/00002604; \u00d3rgano de Contrataci\u00f3n: Jefatura de Intendencia de Asuntos Econ\u00f3micos Sur; Importe: 0 EUR; Estado: RES"
     },
     "title": "Servicio de bar y cafeter\u00eda del Acuartelamiento Montejaque, Ronda (M\u00e1laga)",
-    "updated": "2017-04-15T10:18:12.998+02:00",
+    "updated": "2019-03-28T21:42:33.350+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2016/ETSAE0226/00002604",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -48,7 +48,6 @@
                 "cac:Contact": {
                     "cbc:Name": "Jefatura de Intendencia de Asuntos Econ\u00f3micos Sur",
                     "cbc:Telephone": "954248459",
-                    "cbc:Telefax": "954248119",
                     "cbc:ElectronicMail": "jiaesur@et.mde.es"
                 }
             }
@@ -56,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de bar y cafeter\u00eda del Acuartelamiento Montejaque, Ronda (M\u00e1laga)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "7"
             },
             "cac:BudgetAmount": {
@@ -82,7 +81,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "M\u00e1laga",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES617"
                 },
                 "cac:Address": {
@@ -254,10 +253,16 @@
                 "cbc:Description": "Seg\u00fan PCAP"
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Relaci\u00f3n de productos",
-                    "cbc:WeightNumeric": "90"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Relaci\u00f3n de productos",
+                        "cbc:WeightNumeric": "90"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -265,7 +270,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "3"
             },
             "cbc:UrgencyCode": {
@@ -395,7 +400,32 @@
                         "cbc:IssueDate": "2017-04-15"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-28"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "26041",
+            "cbc:Note": "Prorroga seg\u00fan PCAP aceptada por adjudicatario fecha de entrada en VIGOR 10/04/2019 duraci\u00f3n 2 a\u00f1os sin posibilidad de mas ampliaciones",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "4"
+            },
+            "cbc:ContractID": "2016/ETSAE0226/00002604 01"
+        }
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1003218002601; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Adquisiciones de Armamento y Material DGAM; Importe: 77226570.25 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1003218002601; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n General de Adquisiciones de Armamento y Material DGAM; Importe: 77226570.25 EUR; Estado: ADJ"
     },
     "title": "Adquisici\u00f3n de inhibidores de frecuencia vehiculares.",
-    "updated": "2018-11-17T15:30:00.420+01:00",
+    "updated": "2019-03-28T13:29:31.393+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1003218002601",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -104,6 +104,46 @@
                 "cbc:EndDate": "2023-02-01"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan los criterios de adjudicaci\u00f3n  PCAP, es licitador mejor valorado.",
+            "cbc:AwardDate": "2019-03-28",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "54108038"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "54108038"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "512648981"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Netline Communications Technologies (NCT) LTD. Azrieli Circular Tower, 13th Floor, 132 Menachem Begin Road Tel Aviv 6701101 Israel"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "54108038"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "65470725.98"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -158,20 +198,32 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Aspectos Log\u00edsticos y Nivel de Industrializaci\u00f3n (LOG).",
+                        "cbc:Description": "Aspectos Log\u00edsticos y Nivel de Industrializaci\u00f3n.",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Caracter\u00edsticas T\u00e9cnicas Valorables.",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Eficacia de Inhibici\u00f3n (EI).",
                         "cbc:WeightNumeric": "50"
                     },
                     {
+                        "cbc:Description": "Caracter\u00edsticas T\u00e9cnicas Valorables (CTV).",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Caracter\u00edsticas T\u00e9cnicas Valorables (CTV).",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Aspectos Log\u00edsticos y Nivel de Industrializaci\u00f3n (LOG).",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Eficacia de Inhibici\u00f3n",
+                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -197,7 +249,7 @@
                 "cbc:EndTime": "12:00:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-12-14",
+                "cbc:EndDate": "2019-03-07",
                 "cbc:EndTime": "14:00:00",
                 "cbc:Description": "Fecha final de presentaci\u00f3n de oferta estimada. Una vez comprobada la personalidad, capacidad y solvencia de los solicitantes se seleccionaran los que deban pasar a la siguiente fase , a los que se invitar\u00e1 a presentar su oferta de acuerdo con lo establecido en la LCSPDS."
             },
@@ -258,10 +310,30 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-20"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-11-17"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
                 "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-17"
+                        "cbc:IssueDate": "2019-03-28"
                     }
                 }
             },
@@ -272,9 +344,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-11-17"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-11-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-21"
+                        }
+                    ]
                 }
             },
             {
