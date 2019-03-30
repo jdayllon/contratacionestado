@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 29/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comarca del Bajo Cinca; Importe: 70000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 29/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comarca del Bajo Cinca; Importe: 70000 EUR; Estado: ADJ"
     },
     "title": "Prestaci\u00f3n del servicio de recogida selectiva monomaterial de Papel-cart\u00f3n en la Comarca del Bajo Cinca/ Baix Cinca",
-    "updated": "2019-02-20T13:47:55.798+01:00",
+    "updated": "2019-03-29T13:10:46.697+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "29/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -113,6 +113,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicaci\u00f3n al licitador que ha obtenido mejor puntuaci\u00f3n",
+            "cbc:AwardDate": "2019-03-28",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "58800"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "68900"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B22151575"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GRUAS Y SERVICIOS GRUYSER S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "58800"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "64680"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -142,13 +182,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -159,6 +199,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Organizaci\u00f3n del servicio",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Frecuencia de recogida",
                         "cbc:WeightNumeric": "10"
                     },
@@ -168,10 +212,6 @@
                     },
                     {
                         "cbc:Description": "Proximidad",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Organizaci\u00f3n del servicio",
                         "cbc:WeightNumeric": "10"
                     }
                 ]
@@ -217,6 +257,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-29"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

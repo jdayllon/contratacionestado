@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/SARA/000003; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Algeciras; Importe: 8600000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/SARA/000003; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Algeciras; Importe: 8600000 EUR; Estado: RES"
     },
     "title": "Servicio P\u00fablico de Ayuda a Domicilio para la Ciudad de Algeciras",
-    "updated": "2019-03-04T20:31:38.549+01:00",
+    "updated": "2019-03-29T14:41:48.749+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/SARA/000003",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -126,6 +126,13 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "4"
+            },
+            "cbc:AwardDate": "2019-03-29"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -160,6 +167,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Coordinaci\u00f3n (Sistema informacion y coord. empresa con Delegaci\u00f3n; Inf. y Coord. interna empres; Inf. y Coord. empresa/usuario; Programa Inform\u00e1tico de gesti\u00f3n de ayuda a domicilio)",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Gesti\u00f3n (Protocolo inicio ayuda a domicilio; seguimiento servicio; evaluaci\u00f3n servicio)",
                         "cbc:WeightNumeric": "10"
                     },
@@ -168,16 +179,16 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "precio",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
                         "cbc:Description": "mejoras en la ejecuci\u00f3n del servicio (peluquer\u00eda)",
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "sistema de gesti\u00f3n de riesgos laborales",
+                        "cbc:Description": "protocolo actuaci\u00f3n auxiliares",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "mejoras en ejecuci\u00f3n del servicio (ayudas t\u00e9cnicas)",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "mejoras en la ejecuci\u00f3n del servicio (actividades culturales/ocio)",
@@ -188,19 +199,15 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
+                        "cbc:Description": "precio",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
                         "cbc:Description": "mejoras en la ejecuci\u00f3n del servicio (profesional de Estetica, manicura, pedicura)",
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "mejoras en ejecuci\u00f3n del servicio (ayudas t\u00e9cnicas)",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Coordinaci\u00f3n (Sistema informacion y coord. empresa con Delegaci\u00f3n; Inf. y Coord. interna empres; Inf. y Coord. empresa/usuario; Programa Inform\u00e1tico de gesti\u00f3n de ayuda a domicilio)",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "protocolo actuaci\u00f3n auxiliares",
+                        "cbc:Description": "sistema de gesti\u00f3n de riesgos laborales",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -249,7 +256,39 @@
                 }
             }
         },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "CONVENIO APLICACION.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2f2a4582-04d0-4941-aafa-1307cdc99ddf",
+                        "cbc:DocumentHash": "Nz/71a5NG6EGJHw1mJ5dBiPJ5CQ="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "PERSONAL A SUBROGAR.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bf83a24f-5714-4748-b86f-4e103805f482",
+                        "cbc:DocumentHash": "NOeo843qe/JZdpmrRSCHoxnx0bk="
+                    }
+                }
+            }
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DESISTIMIENTO"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-29"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

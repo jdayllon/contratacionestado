@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019/PAS/002; \u00d3rgano de Contrataci\u00f3n: Gerencia del Centro de Investigaci\u00f3n Biom\u00e9dica en Red (CIBER); Importe: 100000 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2019/PAS/002; \u00d3rgano de Contrataci\u00f3n: Gerencia del Centro de Investigaci\u00f3n Biom\u00e9dica en Red (CIBER); Importe: 100000 EUR; Estado: RES"
     },
     "title": "Servicio de agencia de viajes",
-    "updated": "2019-03-06T15:14:39.532+01:00",
+    "updated": "2019-03-29T13:54:31.044+01:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019/PAS/002",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,6 +105,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ha sido la oferta mejor valorada y cumple con los requisitos establecidos en los pliegos.",
+            "cbc:AwardDate": "2019-03-07",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "100000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "100000"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2019/PAS/002",
+                "cbc:IssueDate": "2019-03-11"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B07012107"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AVORIS RETAIL DIVISION S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -122,7 +166,27 @@
                         "cbc:WeightNumeric": "12"
                     },
                     {
+                        "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de billetes de avi\u00f3n en el resto del mundo",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de billetes de tren",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Servicio de alertas",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Calidad de la oferta",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
                         "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de reservas en estancias hoteleras",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de billetes de avi\u00f3n interinsulares, as\u00ed como los que se celebren entre la pen\u00ednsula y las Islas Baleares o Canarias",
                         "cbc:WeightNumeric": "12"
                     },
                     {
@@ -130,27 +194,7 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de billetes de tren",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
-                        "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de billetes de avi\u00f3n en el resto del mundo",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
-                        "cbc:Description": "Calidad de la oferta",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Servicio de alertas",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de billetes de avi\u00f3n europeos",
-                        "cbc:WeightNumeric": "12"
-                    },
-                    {
-                        "cbc:Description": "Comisi\u00f3n o cargo por la emisi\u00f3n de billetes de avi\u00f3n interinsulares, as\u00ed como los que se celebren entre la pen\u00ednsula y las Islas Baleares o Canarias",
                         "cbc:WeightNumeric": "12"
                     }
                 ]
@@ -195,6 +239,23 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-29"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -222,6 +283,18 @@
                             "cbc:IssueDate": "2019-03-06"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-29"
+                    }
                 }
             }
         ]
