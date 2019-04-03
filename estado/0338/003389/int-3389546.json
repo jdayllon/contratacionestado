@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: P4110100G-2019/000002-PAA; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Villaverde del R\u00edo; Importe: 475295.55 EUR; Estado: PUB"
     },
     "title": "Proyecto B\u00e1sico y de Ejecuci\u00f3n de Terminaci\u00f3n de la Casa de la Cultura",
-    "updated": "2019-03-29T22:52:19.744+01:00",
+    "updated": "2019-04-02T15:18:25.644+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "P4110100G-2019/000002-PAA",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -85,6 +85,7 @@
                 }
             },
             "cac:RealizedLocation": {
+                "cbc:CountrySubentity": "Sevilla",
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES618"
@@ -107,6 +108,7 @@
             }
         },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -134,17 +136,54 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-29"
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PROYECTO PABELLON TOMO 1.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=22f293b3-c877-45c8-ada8-f757f7afdf1f",
+                    "cbc:DocumentHash": "mkweUfcAUfowQM+pPnaltOc7r2w="
                 }
             }
-        }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "PROYECTO PABELLON TOMO 2.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=538aa509-6b85-4cc6-a5e7-07e8b9305aaf",
+                    "cbc:DocumentHash": "/yTDtVcrGPddgsHgOpEcrHQ3fS0="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-02"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-29"
+                    }
+                }
+            }
+        ]
     }
 }

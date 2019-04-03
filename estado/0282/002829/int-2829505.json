@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 890/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Nava de la Asunci\u00f3n; Importe: 873189 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 890/2018; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Nava de la Asunci\u00f3n; Importe: 873189 EUR; Estado: RES"
     },
     "title": "Concesi\u00f3n de servicios del alumbrado p\u00fablico exterior del Ayuntamiento de Nava de la Asunci\u00f3n",
-    "updated": "2019-01-09T19:06:37.587+01:00",
+    "updated": "2019-04-02T19:24:38.414+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "890/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Es la que tiene una mayor puntuaci\u00f3n resultante de la suma de los criterios evaluables dependientes de un juicio de valor y de los criterios cuantificables autom\u00e1ticamente, conforme consta en el expediente",
+            "cbc:AwardDate": "2019-03-11",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "759412.47"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "827783"
+            },
+            "cbc:StartDate": "2019-04-01",
+            "cac:Contract": {
+                "cbc:ID": "890/2018",
+                "cbc:IssueDate": "2019-04-01"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A40006447"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ELECTRICIDAD EUF\u00d3N, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "827783"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1001617.43"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -158,8 +203,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Reducci\u00f3n del tiempo de ejecuci\u00f3n de 4 meses iniciales",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Criterios evaluables mediante juicio de valor",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Precios unitarios",
@@ -168,14 +221,6 @@
                     {
                         "cbc:Description": "Financiaci\u00f3n de las obras de mejora y renovaci\u00f3n de instalaciones no relacionadas con el ahorro energ\u00e9tico",
                         "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Criterios evaluables mediante juicio de valor",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "Reducci\u00f3n del tiempo de ejecuci\u00f3n de 4 meses iniciales",
-                        "cbc:WeightNumeric": "4"
                     }
                 ]
             },
@@ -223,6 +268,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -241,6 +298,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-01-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-02"
                     }
                 }
             }

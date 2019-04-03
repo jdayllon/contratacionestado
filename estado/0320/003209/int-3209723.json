@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019/S00010; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Valladolid; Importe: 33000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2019/S00010; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad de Valladolid; Importe: 33000 EUR; Estado: RES"
     },
     "title": "Mantenimiento de los servidores de servicios centrales y unidades de almacenamiento del STIC no cubiertos por la garant\u00eda de otros contratos",
-    "updated": "2019-02-26T14:02:07.079+01:00",
+    "updated": "2019-04-02T15:12:47.665+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019/S00010",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,23 +107,48 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta que ha obtenido la mejor puntuaci\u00f3n una vez aplicados los criterios de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2019-03-29",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2019-04-02",
+            "cac:Contract": {
+                "cbc:ID": "2019/S00010",
+                "cbc:IssueDate": "2019-04-02"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B47306246"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Sistemas Tecnicos Interactivos SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "21900"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "26499"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -145,7 +170,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     }
                 ]
@@ -157,12 +194,12 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Calidad global de la oferta",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Calidad global de la oferta",
+                        "cbc:WeightNumeric": "6"
                     }
                 ]
             },
@@ -206,16 +243,39 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "CuadroCaracteristicas 2019S00010.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5e30f592-aa5b-430c-a7c1-e71202e151b9",
-                    "cbc:DocumentHash": "LUD3504qPP/j+E0Whz25cyyW808="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "CuadroCaracteristicas 2019S00010.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5e30f592-aa5b-430c-a7c1-e71202e151b9",
+                        "cbc:DocumentHash": "LUD3504qPP/j+E0Whz25cyyW808="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo I Equipamiento cubierto por el contrato.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=aa1b117d-f11b-4bcc-b0ef-93cb97cf7674",
+                        "cbc:DocumentHash": "l0jguKw1sfMc57j9e2H/aP5tCrc="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-01"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -223,9 +283,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-26"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-26"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-28"
+                        }
+                    ]
                 }
             },
             {
@@ -237,6 +302,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-02"
                     }
                 }
             }
