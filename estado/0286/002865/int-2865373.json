@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/000705 CO-05/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Agulo; Importe: 106259 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/000705 CO-05/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Agulo; Importe: 106259 EUR; Estado: RES"
     },
     "title": "Ejecuci\u00f3n de las obras comprendidas en el proyecto denominado \"Mejora de eficiencia energ\u00e9tica y centro de mando de alumbrado p\u00fablico del campo de f\u00fatbol de Agulo y su entorno. Fase III. Entorno urbano y control\" (FDCAN 2018)",
-    "updated": "2019-01-21T21:08:09.186+01:00",
+    "updated": "2019-04-03T14:27:39.549+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/000705 CO-05/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor precio ofertado",
+            "cbc:AwardDate": "2019-03-08",
+            "cbc:ReceivedTenderQuantity": "9",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "79483.57"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "99307.23"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2018/705",
+                "cbc:IssueDate": "2019-03-11"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "78392598L"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FERNANDO RAM\u00d3N CUBAS RODR\u00cdGUEZ"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "79483.57"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "84650"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -118,26 +162,64 @@
                 "cbc:AmountRate": "5"
             },
             "cac:TendererQualificationRequest": {
-                "cac:TechnicalEvaluationCriteria": {
-                    "cbc:EvaluationCriteriaTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                        "#text": "OXR-MEDIOS"
+                "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-PLANTILLA"
+                        },
+                        "cbc:Description": "Ver Cl\u00e1usulas D\u00e9cima y Und\u00e9cima PCAP en relaci\u00f3n Anexo"
                     },
-                    "cbc:Description": "Ver apartado 3, Cl\u00e1usula D\u00e9cima PCAP, en relaci\u00f3n con Anexo"
-                },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Ver Cl\u00e1usulas D\u00e9cima y Und\u00e9cima PCAP en relaci\u00f3n Anexo"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-TITULOS"
+                        },
+                        "cbc:Description": "Ver Cl\u00e1usulas D\u00e9cima y Und\u00e9cima PCAP en relaci\u00f3n Anexo"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-MEDIOS"
+                        },
+                        "cbc:Description": "Ver Cl\u00e1usulas D\u00e9cima y Und\u00e9cima PCAP en relaci\u00f3n Anexo"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Ver Cl\u00e1usulas D\u00e9cima y Und\u00e9cima PCAP en relaci\u00f3n Anexo"
+                    }
+                ],
                 "cac:FinancialEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "5"
                     },
-                    "cbc:Description": "Ver apartado 3, Cl\u00e1usula D\u00e9cima PCAP, en relaci\u00f3n con Anexo"
+                    "cbc:Description": "Ver Cl\u00e1usulas D\u00e9cima y Und\u00e9cima PCAP en relaci\u00f3n Anexo"
                 },
-                "cac:SpecificTendererRequirement": {
-                    "cbc:RequirementTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                        "#text": "1"
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
-                }
+                ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": {
@@ -190,6 +272,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -208,6 +302,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-01-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-03"
                     }
                 }
             },

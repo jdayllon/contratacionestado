@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: COAS 012019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Zas; Importe: 126575.48 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: COAS 012019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Zas; Importe: 126575.48 EUR; Estado: ADJ"
     },
     "title": "Acondicionamiento de cunetas en la carretera de A Piolla a Brandomil y en diversas carreteras asfaltadas municipales",
-    "updated": "2019-02-20T14:13:34.231+01:00",
+    "updated": "2019-04-03T13:49:11.928+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "COAS 012019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan resoluci\u00f3n de Alcald\u00eda n\u00ba 138/2019",
+            "cbc:AwardDate": "2019-04-03",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "117828.98"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "120183.42"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B15209794"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Construcciones D. Ogando SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "117828.98"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "142573.07"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -150,27 +190,19 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Programa de actuaci\u00f3n medioambiental",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Plan de  control de calidad",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Porcentaje de mujeres en relaci\u00f3n con la plantilla global de la empresa",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Porcentaje de personal fijo en relaci\u00f3n con la plantilla global de la empresa",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Incremento del plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Reducci\u00f3n de plazos",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Programa de trabajo",
+                        "cbc:Description": "Porcentaje de mujeres en relaci\u00f3n con la plantilla global de la empresa",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -178,12 +210,20 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "Plan de  control de calidad",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Programa de trabajo",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Incremento del plazo de garant\u00eda",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Programa de actuaci\u00f3n medioambiental",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -228,6 +268,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-03"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
