@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: TF-ATA-01/18; \u00d3rgano de Contrataci\u00f3n: Instrituto de la Vivienda del Gobierno de Canarias; Importe: 1041152.42 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: TF-ATA-01/18; \u00d3rgano de Contrataci\u00f3n: Instrituto de la Vivienda del Gobierno de Canarias; Importe: 1041152.42 EUR; Estado: ADJ"
     },
     "title": "Apoyo al Instituto Canario de la Vivienda en la llevanza y gesti\u00f3n del Registro P\u00fablico de Demandantes de Vivienda Protegida de Canarias",
-    "updated": "2018-10-14T09:41:00.948+02:00",
+    "updated": "2019-04-04T15:19:15.596+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "TF-ATA-01/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -118,6 +118,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "A la vista de la documentaci\u00f3n presentada por las empresas licitadoras y del resultado de las puntuaciones se adjudica a favor de Factor\u00eda, Gesti\u00f3n y Consultor\u00eda, S.L., por un importe de 1.040.000,00 \u20ac, IGIC no incluido, incorporando las oficinas extras en las islas no capitalinas con las especificaciones de las cl\u00e1usulas 7 y 9.A) del Pliego de Prescripciones T\u00e9cnicas , con porcentaje igual o superior al 75% de personal con contrato indefinido a jornada completa y con un licenciado/graduado en derecho en cada oficina capitalina con los requisitos establecidos en la cl\u00e1usula 9.B) del citado Pliego.",
+            "cbc:AwardDate": "2019-04-04",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "973061.05"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1040000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85802312"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FACTORIA, GESTION Y CONSULTORIA S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1040000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1107600"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -173,20 +213,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Personal extra a ofertar (1licenciado/graduado en Derecho en cada oficina capitalina)",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Propuesta o proyecto t\u00e9cnico relativo a la organizaci\u00f3n del servicio",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Oficinas extras a ofertar en islas no capitalinas (Lanzarote, Fuerteventura y La Palma)",
                         "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Condiciones sociales que redundan en la calidad del empleo",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Propuesta o proyecto t\u00e9cnico relativo a la organizaci\u00f3n del servicio",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Personal extra a ofertar (1licenciado/graduado en Derecho en cada oficina capitalina)",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Proposici\u00f3n econ\u00f3mica (precio)",
@@ -235,17 +275,55 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-16"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-10-14"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-15"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-10-14"
+                    }
                 }
             }
-        }
+        ]
     }
 }

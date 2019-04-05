@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02018350)-30  HMS/19; \u00d3rgano de Contrataci\u00f3n: Gerencia Sector Sanitario de Zaragoza 2; Importe: 53775 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02018350)-30  HMS/19; \u00d3rgano de Contrataci\u00f3n: Gerencia Sector Sanitario de Zaragoza 2; Importe: 53775 EUR; Estado: ADJ"
     },
     "title": "Suministro de Material necesario para la realizaci\u00f3n de t\u00e9cnicas anal\u00edticas autom\u00e1ticas para la determinaci\u00f3n de hemoglobina glicosilada (POCT) del Hospital Universitario \u201cMiguel Servet\u201d",
-    "updated": "2019-02-20T14:03:20.286+01:00",
+    "updated": "2019-04-04T15:46:51.234+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02018350)-30  HMS/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -96,6 +96,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicaci\u00f3n.Resoluci\u00f3n motivada, mejor proposici\u00f3n",
+            "cbc:AwardDate": "2019-04-04",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B50733757"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Suministros Cl\u00ednicos Lanau, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "48150"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "58261.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -123,16 +155,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "65"
+                        "cbc:Description": "Calidad",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Rappel sobre ventas",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Calidad",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "65"
                     }
                 ]
             },
@@ -176,6 +208,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -192,9 +236,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-20"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-25"
+                        }
+                    ]
                 }
             }
         ]

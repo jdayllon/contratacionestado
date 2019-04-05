@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: CONT 2019 4; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Adra; Importe: 148867.38 EUR; Estado: PUB"
     },
     "title": "Reforma y Ampliaci\u00f3n del Edificio de Usos M\u00faltiples y Consultorio M\u00e9dico Local en la barriada de La Curva, en el T.M. de Adra.",
-    "updated": "2019-03-08T13:29:33.563+01:00",
+    "updated": "2019-04-04T14:51:24.181+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONT 2019 4",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -129,9 +129,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "XSR-CALIDAD"
                         },
                         "cbc:Description": "Descripci\u00f3n"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n responsable"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -150,13 +157,6 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "Declaraci\u00f3n responsable"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OXR-PLANTILLA"
                         },
                         "cbc:Description": "Declaraci\u00f3n responsable"
@@ -164,12 +164,19 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSR-CALIDAD"
+                            "#text": "OXR-MEDIOS"
                         },
                         "cbc:Description": "Descripci\u00f3n"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "3"
+                        },
+                        "cbc:Description": "Seguro de responsabilidad de la empresa"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
@@ -183,26 +190,13 @@
                             "#text": "5"
                         },
                         "cbc:Description": "Durante los \u00faltimos 3 a\u00f1os"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
-                        },
-                        "cbc:Description": "Seguro de responsabilidad de la empresa"
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "1"
                         }
                     },
                     {
@@ -214,13 +208,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "5"
                         }
                     }
                 ]
@@ -228,28 +228,28 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Precio del Contrato",
+                        "cbc:WeightNumeric": "50"
                     },
                     {
-                        "cbc:Description": "Calidad de los materiales e implantaci\u00f3n de la obra",
+                        "cbc:Description": "Programaci\u00f3n y Compatibilidad de las Obras",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Programaci\u00f3n de las Obras",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Precio del Contrato",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "Incremento del plazo de garant\u00eda y servicio post-venta",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Cl\u00e1usulas Sociales y Medioambientales",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Incremento del plazo de garant\u00eda y servicio post-venta",
+                        "cbc:Description": "Plazo de ejecuci\u00f3n",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Calidad de los materiales e implantaci\u00f3n de la obra",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -267,20 +267,20 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2019-04-02",
-                "cbc:EndTime": "11:17:00"
+                "cbc:EndDate": "2019-04-10",
+                "cbc:EndTime": "14:00:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-04-03",
-                "cbc:EndTime": "11:17:00"
+                "cbc:EndDate": "2019-04-11",
+                "cbc:EndTime": "14:00:00"
             }
         },
         "cac:LegalDocumentReference": {
             "cbc:ID": "PLIEGO ABIERTO OBRAS CENTRO SALUD LA CURVA.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2b050aef-7415-4ed2-b2c9-8ca6cf1d78c9",
-                    "cbc:DocumentHash": "9jIafZtdask/YIpUZ4X8/uQDiLI="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f2a67ad5-096e-4f36-9314-081bfd7d394b",
+                    "cbc:DocumentHash": "fSN3iIrCTS5/UWr98n1MyRXgx+g="
                 }
             }
         },
@@ -292,9 +292,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-08"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-04"
+                        }
+                    ]
                 }
             },
             {
@@ -304,9 +309,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-08"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-04"
+                        }
+                    ]
                 }
             }
         ]
