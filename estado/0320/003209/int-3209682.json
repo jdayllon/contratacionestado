@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: catedral0001; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Fundaci\u00f3n VII Centenario de la Catedral. Burgos 2021; Importe: 990000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: catedral0001; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Fundaci\u00f3n VII Centenario de la Catedral. Burgos 2021; Importe: 99000 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n de los servicos de prodicci\u00f3n, instalaci\u00f3n, montaje y desmotaje museografico de la exposici\u00f3n temporal \"Atempora\"",
-    "updated": "2019-02-26T14:43:24.270+01:00",
+    "updated": "2019-04-05T13:57:08.874+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "catedral0001",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -85,15 +85,15 @@
             "cac:BudgetAmount": {
                 "cbc:EstimatedOverallContractAmount": {
                     "@currencyID": "EUR",
-                    "#text": "990000"
+                    "#text": "99000"
                 },
                 "cbc:TotalAmount": {
                     "@currencyID": "EUR",
-                    "#text": "1197900"
+                    "#text": "119790"
                 },
                 "cbc:TaxExclusiveAmount": {
                     "@currencyID": "EUR",
-                    "#text": "990000"
+                    "#text": "99000"
                 }
             },
             "cac:RequiredCommodityClassification": {
@@ -121,6 +121,38 @@
             "cac:PlannedPeriod": {
                 "cbc:StartDate": "2019-03-22",
                 "cbc:EndDate": "2019-10-31"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Unico solicitante",
+            "cbc:AwardDate": "2019-03-21",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B37407004"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FELTRERO DIVISI\u00d3N ARTE S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "94300"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "114103"
+                    }
+                }
             }
         },
         "cac:TenderingTerms": {
@@ -166,17 +198,36 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-05"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-26"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-26"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-28"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }

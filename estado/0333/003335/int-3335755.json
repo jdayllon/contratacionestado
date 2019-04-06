@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 127/2019; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Gualchos; Importe: 66115.7 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 127/2019; \u00d3rgano de Contrataci\u00f3n: Alcaldia del Ayuntamiento de Gualchos; Importe: 66115.7 EUR; Estado: ADJ"
     },
     "title": "Asfaltado parcial del camino de la Venta de Juan Reyes",
-    "updated": "2019-03-18T13:10:51.671+01:00",
+    "updated": "2019-04-05T14:09:24.487+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "127/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -104,6 +104,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Los dem\u00e1s licitadores han sido excluidos, y por tanto, no valorados por no encontrarse inscritos en el Registro Oficial de Licitadores y Empresas Clasificadas del Sector P\u00fablico (cl\u00e1usula 9\u00aa del Pliego de cl\u00e1usulas administrativas particulares y art. 159.4 a) Ley 9/2017).",
+            "cbc:AwardDate": "2019-04-05",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "59504.12"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "59504.13"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B18367201"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NACIMIENTO, INFRAESTRUCTURAS Y MEDIOAMBIENTE S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "59504.13"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "72000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -112,19 +152,27 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Por la aplicaci\u00f3n de alg\u00fan sistema de Gesti\u00f3n Ambiental acreditado, con la norma ISO 14.001",
+                        "cbc:WeightNumeric": "12.5"
+                    },
+                    {
+                        "cbc:Description": "Implantaci\u00f3n de sistema de adhesi\u00f3n al Sistema Andaluz de Compensaci\u00f3n de Emisiones",
+                        "cbc:WeightNumeric": "16.66"
+                    },
                     {
                         "cbc:Description": "Plazo de garant\u00eda",
                         "cbc:WeightNumeric": "16.67"
@@ -134,24 +182,16 @@
                         "cbc:WeightNumeric": "16.67"
                     },
                     {
-                        "cbc:Description": "Plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "16.67"
-                    },
-                    {
-                        "cbc:Description": "Por la aplicaci\u00f3n de alg\u00fan sistema de Gesti\u00f3n Ambiental acreditado, con la norma ISO 14.001",
-                        "cbc:WeightNumeric": "12.5"
-                    },
-                    {
-                        "cbc:Description": "Importe ofertado para ejecutar las obras",
-                        "cbc:WeightNumeric": "8.33"
-                    },
-                    {
                         "cbc:Description": "Por la aplicaci\u00f3n de alg\u00fan sistema de gesti\u00f3n de eficiencia energ\u00e9tica acreditado, con la norma ISO 50.001",
                         "cbc:WeightNumeric": "12.5"
                     },
                     {
-                        "cbc:Description": "Implantaci\u00f3n de sistema de adhesi\u00f3n al Sistema Andaluz de Compensaci\u00f3n de Emisiones",
-                        "cbc:WeightNumeric": "16.66"
+                        "cbc:Description": "Plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "16.67"
+                    },
+                    {
+                        "cbc:Description": "Importe ofertado para ejecutar las obras",
+                        "cbc:WeightNumeric": "8.33"
                     }
                 ]
             },
@@ -234,6 +274,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-05"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
