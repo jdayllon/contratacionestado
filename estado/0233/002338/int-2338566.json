@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: S: 45/18-114; \u00d3rgano de Contrataci\u00f3n: Gerencia de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA); Importe: 5780513 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: S: 45/18-114; \u00d3rgano de Contrataci\u00f3n: Gerencia de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA); Importe: 5780513 EUR; Estado: RES"
     },
     "title": "Servicio de Limpieza Integrado de las Redes de Saneamiento e Instalaciones Complementarias que gestiona la Empresa Mancomunada del Aljarafe, S.A., (Aljarafesa)",
-    "updated": "2018-08-07T15:14:49.268+02:00",
+    "updated": "2019-04-07T09:31:11.183+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "S: 45/18-114",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.aljafaresa.es",
+                "cbc:WebsiteURI": "http://www.aljarafesa.es",
                 "cac:PartyName": {
                     "cbc:Name": "Gerencia de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA)"
                 },
@@ -42,7 +42,7 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Gerencia de la Empresa Mancomunada del Aljarafe, S.A. (ALJARAFESA)",
-                    "cbc:ElectronicMail": "licitaciones@aljafaresa.es"
+                    "cbc:ElectronicMail": "licitaciones@aljarafesa.es"
                 }
             },
             "cac-place-ext:ParentLocatedParty": {
@@ -74,7 +74,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de Limpieza Integrado de las Redes de Saneamiento e Instalaciones Complementarias que gestiona la Empresa Mancomunada del Aljarafe, S.A., (Aljarafesa)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -130,17 +130,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "El acuerdo de adjudicaci\u00f3n se fundamenta en que la empresa CONLIMA CONTRATAS Y SERVICIOS, S.L.U., ha sido la de mayor puntuaci\u00f3n conforme a una pluralidad de criterios establecidos en el apartado J del Anexo I del Pliego de Cl\u00e1usulas Administrativas Particulares que rige el presente Procedimiento.",
+            "cbc:AwardDate": "2019-02-22",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:Contract": {
+                "cbc:ID": "114",
+                "cbc:IssueDate": "2019-03-20"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B91500751"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Conlima, Contratas y Servicios, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "4612849.37"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "5581547.74"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -150,6 +179,13 @@
                         "@currencyID": "EUR",
                         "#text": "14800"
                     }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -164,23 +200,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XXR-SUBCONT"
+                        },
+                        "cbc:Description": "Seg\u00fan apartado I del Anexo 1 del PCAP."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
                         "cbc:Description": "Compromiso de adscripci\u00f3n de medios, seg\u00fan apartado I del Anexo 1."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
-                        },
-                        "cbc:Description": "Seg\u00fan Apartado I del Anexo 1 del PCAP."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
-                        },
-                        "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos realizados de igual o similar naturaleza que los que constituyen el objeto del contrato en los \u00faltimos TRES (3) a\u00f1os, seg\u00fan apartado I del Anexo 1 del PCAP."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -192,9 +221,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XXR-SUBCONT"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Seg\u00fan apartado I del Anexo 1 del PCAP."
+                        "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos realizados de igual o similar naturaleza que los que constituyen el objeto del contrato en los \u00faltimos TRES (3) a\u00f1os, seg\u00fan apartado I del Anexo 1 del PCAP."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSX-CERTCALIDAD"
+                        },
+                        "cbc:Description": "Seg\u00fan Apartado I del Anexo 1 del PCAP."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -214,12 +250,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
@@ -227,6 +257,12 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     }
                 ]
@@ -237,19 +273,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta Econ\u00f3mica",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Experiencia del Director del Servicio",
-                        "cbc:WeightNumeric": "4"
-                    },
-                    {
                         "cbc:Description": "Programa de Trabajo",
                         "cbc:WeightNumeric": "28"
                     },
                     {
-                        "cbc:Description": "Inspecciones de Elementos Singulares",
+                        "cbc:Description": "Seguridad, Salud y Medio Ambiente",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Experiencia del Director del Servicio",
                         "cbc:WeightNumeric": "4"
                     },
                     {
@@ -257,12 +289,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Seguridad, Salud y Medio Ambiente",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
                         "cbc:Description": "Orden, Claridad y Concrecci\u00f3n del Programa de Trabajo",
                         "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Inspecciones de Elementos Singulares",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -280,11 +316,11 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2018-09-19",
+                "cbc:EndDate": "2018-10-08",
                 "cbc:EndTime": "13:59:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2018-09-19",
+                "cbc:EndDate": "2018-10-08",
                 "cbc:EndTime": "14:00:00"
             }
         },
@@ -351,6 +387,15 @@
                         "cbc:DocumentHash": "lBVdQz5OrPKTSZjkfTE0FTebYlM="
                     }
                 }
+            },
+            {
+                "cbc:ID": "Formulario DEUC.xml",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b3e74417-5078-4b64-a21d-75abab31a0c2",
+                        "cbc:DocumentHash": "y5qm/AuGRjdg4kZQf5/wCMpEiXA="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
@@ -369,13 +414,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-07"
+                        "cbc:IssueDate": "2019-02-25"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-18"
+                        }
+                    ]
                 }
             },
             {
@@ -385,8 +447,31 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-08-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-09-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-15"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-11-28"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-08-05"
+                        "cbc:IssueDate": "2019-04-07"
                     }
                 }
             }

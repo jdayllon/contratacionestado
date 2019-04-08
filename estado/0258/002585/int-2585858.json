@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01254; \u00d3rgano de Contrataci\u00f3n: Distrito Centro; Importe: 352538.95 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 300/2018/01254; \u00d3rgano de Contrataci\u00f3n: Distrito Centro; Importe: 352538.95 EUR; Estado: RES"
     },
     "title": "Servicios de auxiliares de informaci\u00f3n, atenci\u00f3n al p\u00fablico y control de entradas en equipamientos del Distrito Centro Madrid, dividido en dos lotes (1-centros mayores y 2-centros culturales)",
-    "updated": "2018-12-29T09:55:12.916+01:00",
+    "updated": "2019-04-07T09:36:09.978+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01254",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -135,42 +135,109 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "1"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Auxiliares de Centros de Mayores",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "274478.35"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "226841.61"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "98341130"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Auxiliares de Centros de Mayores",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "274478.35"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "226841.61"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "98341130"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Auxiliares de Centros Culturales",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "152093.78"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "125697.34"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "98341130"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "3"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2018-12-27",
+                "cbc:ReceivedTenderQuantity": "4",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
             },
-            "cbc:AwardDate": "2018-12-27",
-            "cbc:ReceivedTenderQuantity": "4",
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "1"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "UZIPEN, S.L. es la \u00fanica oferta presentada obteniendo un total de 52,50 puntos con el siguiente desglose:\n\n- Criterios No Valorables: 41,50 puntos.\n\n- Criterios Valorables: 11,00 puntos.\n\nSeg\u00fan se recoge en el Acta de la Mesa de Contrataci\u00f3n celebrada el d\u00eda 19 de diciembre de 2018, se adjudica el contrato UZIPEN, S.L. por el precio de 150.572,86 euros (IVA incluido) al ser la \u00fanica oferta presentada.",
+                "cbc:AwardDate": "2019-02-25",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cbc:StartDate": "2019-04-01",
+                "cac:Contract": {
+                    "cbc:ID": "300/2018/01254",
+                    "cbc:IssueDate": "2019-03-25"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B86131406"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "UZIPEN, S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "124440.38"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "150572.86"
+                        }
+                    }
+                }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -212,16 +279,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Criterio de empleo LOTE 1",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Proyecto de prestaci\u00f3n del servicio LOTE 1 y LOTE 2",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Precio LOTE 1",
                         "cbc:WeightNumeric": "40"
                     },
                     {
                         "cbc:Description": "Criterios de igualdad LOTE 1",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Criterio de empleo LOTE 2",
-                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Criterios de igualdad LOTE 2",
@@ -232,15 +303,11 @@
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Proyecto de prestaci\u00f3n del servicio LOTE 1 y LOTE 2",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Precio LOTE 2",
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Criterio de empleo LOTE 1",
+                        "cbc:Description": "Criterio de empleo LOTE 2",
                         "cbc:WeightNumeric": "30"
                     }
                 ]
@@ -314,9 +381,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-29"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-28"
+                        }
+                    ]
                 }
             },
             {
@@ -340,6 +412,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-07"
                     }
                 }
             }
