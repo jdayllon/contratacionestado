@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 61bis/2017; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Toledo; Importe: 1892000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 61bis/2017; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Toledo; Importe: 1892000 EUR; Estado: RES"
     },
     "title": "Servicio de limpieza de la Residencia Social Asistida San Jos\u00e9, dependiente de la Diputaci\u00f3n Provincial",
-    "updated": "2017-12-12T08:41:54.107+01:00",
+    "updated": "2019-04-18T09:36:28.315+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "61bis/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -49,14 +49,14 @@
                 "cac:Contact": {
                     "cbc:Name": "Presidencia de la Diputaci\u00f3n Provincial de Toledo",
                     "cbc:Telephone": "925259300",
-                    "cbc:ElectronicMail": "epita@diputoledo.es"
+                    "cbc:ElectronicMail": "contratacion@diputoledo.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de limpieza de la Residencia Social Asistida San Jos\u00e9, dependiente de la Diputaci\u00f3n Provincial",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-01-25",
+            "cbc:ReceivedTenderQuantity": "12",
+            "cbc:StartDate": "2019-04-16",
+            "cac:Contract": {
+                "cbc:ID": "61bis/2017",
+                "cbc:IssueDate": "2019-04-15"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B54193099"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NETALIA SERVICIOS INTEGRALES S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1824998"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2208247.58"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -141,6 +178,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
@@ -149,12 +192,26 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "colocaci\u00f3n y recogida de contenedores higi\u00e9nicos en aseos de se\u00f1oras",
+                        "cbc:WeightNumeric": "2.5"
                     },
                     {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
+                        "cbc:Description": "Instalacion y reposici\u00f3n de ambientadores en todos los aseos",
+                        "cbc:WeightNumeric": "2.5"
+                    },
+                    {
+                        "cbc:Description": "Precio m\u00e1s econ\u00f3mico",
+                        "cbc:WeightNumeric": "85"
+                    },
+                    {
+                        "cbc:Description": "Bolsa de horas sin coste adicional",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -164,7 +221,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -227,6 +284,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-18"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -254,6 +335,18 @@
                             "cbc:IssueDate": "2017-12-12"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-18"
+                    }
                 }
             }
         ]

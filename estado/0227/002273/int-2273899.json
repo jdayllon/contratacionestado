@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 054/18; \u00d3rgano de Contrataci\u00f3n: Delegaci\u00f3n del \u00c1rea de Econom\u00eda, Hacienda, Compras y Patrimonio de la Diputaci\u00f3n Provincial de Badajoz; Importe: 51400 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 054/18; \u00d3rgano de Contrataci\u00f3n: Delegaci\u00f3n del \u00c1rea de Econom\u00eda, Hacienda, Compras y Patrimonio de la Diputaci\u00f3n Provincial de Badajoz; Importe: 51400 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de la Impartici\u00f3n de una acci\u00f3n formativa \u201cSoldadura Oxig\u00e1s y Soldadura MIG/MAG\u201d",
-    "updated": "2018-07-11T08:00:30.438+02:00",
+    "updated": "2019-04-18T09:53:33.959+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "054/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de la Impartici\u00f3n de una acci\u00f3n formativa \u201cSoldadura Oxig\u00e1s y Soldadura MIG/MAG\u201d",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,10 @@
                 "@currencyID": "EUR",
                 "#text": "52564.9"
             },
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2018-07-09"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -162,12 +166,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Aspectos t\u00e9cnicos",
-                        "cbc:WeightNumeric": "80"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Aspectos t\u00e9cnicos",
+                        "cbc:WeightNumeric": "80"
                     }
                 ]
             },
@@ -189,17 +193,31 @@
                 "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-07-11"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-07-11"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-18"
+                    }
                 }
             }
-        }
+        ]
     }
 }
