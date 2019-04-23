@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 6011800251;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Transportes, Vivienda e Infraestructuras\u00b7\u00b7>Empresa P\u00fablica de Metro de Madrid, S.A.;Importe: 30000 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: 6011800251;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Transportes, Vivienda e Infraestructuras\u00b7\u00b7>Empresa P\u00fablica de Metro de Madrid, S.A.;Importe: 30000 EUR;Estado: ADJUDICADA"
     },
     "title": "Suministro y sustituci\u00f3n de la ventilaci\u00f3n en las subestaciones de Tetu\u00e1n, Cruz del Rayo y L\u00f3pez de Hoyos de Metro de Madrid",
-    "updated": "2019-01-11T14:25:30.086+01:00",
+    "updated": "2019-04-22T13:55:25.889+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "6011800251",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,6 +64,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28435873"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TECNIPLAN, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "22329.85"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -86,17 +112,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-08"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-11-08"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-16"
+                    }
                 }
             }
-        }
+        ]
     }
 }

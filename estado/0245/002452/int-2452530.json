@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.18/04720.0003; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 1257874.49 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 3.18/04720.0003; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 1257874.49 EUR; Estado: RES"
     },
     "title": "Reforma de habitaciones en el centro de formaci\u00f3n tecnol\u00f3gica de valencia (fase 2)",
-    "updated": "2018-09-28T12:55:10.039+02:00",
+    "updated": "2019-04-22T21:01:55.521+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.18/04720.0003",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,6 +105,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-01-22",
+            "cbc:ReceivedTenderQuantity": "12",
+            "cac:Contract": {
+                "cbc:ID": "3.18/04720.0003/1",
+                "cbc:IssueDate": "2019-02-25"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28695021"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EDHINOR SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1071205.92"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1296159.16"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares",
@@ -112,13 +148,13 @@
                     "cbc:ID": "RequiredBusinessProfileCode",
                     "cac:ClassificationCategory": [
                         {
-                            "cbc:CodeValue": "J2-2"
+                            "cbc:CodeValue": "I6-2"
                         },
                         {
                             "cbc:CodeValue": "C4-2"
                         },
                         {
-                            "cbc:CodeValue": "I6-2"
+                            "cbc:CodeValue": "J2-2"
                         }
                     ]
                 },
@@ -126,18 +162,19 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "ZZZ"
-                    }
+                    },
+                    "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "ASPECTOS ECON\u00d3MICOS",
-                        "cbc:WeightNumeric": "51"
-                    },
-                    {
                         "cbc:Description": "ASPECTOS T\u00c9CNICOS",
                         "cbc:WeightNumeric": "49"
+                    },
+                    {
+                        "cbc:Description": "ASPECTOS ECON\u00d3MICOS",
+                        "cbc:WeightNumeric": "51"
                     }
                 ]
             },
@@ -202,6 +239,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -226,6 +275,18 @@
                             "cbc:IssueDate": "2018-09-26"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-22"
+                    }
                 }
             }
         ]

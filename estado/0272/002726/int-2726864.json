@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.18; \u00d3rgano de Contrataci\u00f3n: Presidencia de la C\u00e1mara Oficial de Comercio, Industria, Servicios y Navegaci\u00f3n de Santa Cruz de Tenerife; Importe: 24000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 3.18; \u00d3rgano de Contrataci\u00f3n: Presidencia de la C\u00e1mara Oficial de Comercio, Industria, Servicios y Navegaci\u00f3n de Santa Cruz de Tenerife; Importe: 24000 EUR; Estado: RES"
     },
     "title": "Servicios de Gesti\u00f3n y Asesor\u00eda laboral",
-    "updated": "2018-11-30T20:22:04.772+01:00",
+    "updated": "2019-04-22T14:23:22.866+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -135,6 +135,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica a la mejor oferta.",
+            "cbc:AwardDate": "2019-03-22",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "19900"
+            },
+            "cbc:StartDate": "2019-04-01",
+            "cac:Contract": {
+                "cbc:ID": "3.18",
+                "cbc:IssueDate": "2019-04-01"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B38416749"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ZURITA & ABP ASESORES, S.L.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19440"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "20800.08"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -170,10 +215,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
                         "cbc:Description": "Tiempo de respuesta",
                         "cbc:WeightNumeric": "35"
                     },
@@ -184,6 +225,10 @@
                     {
                         "cbc:Description": "Calidad de la Memoria",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -261,6 +306,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -284,6 +341,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-11-30"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-22"
                     }
                 }
             }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/OPAS/000005; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Algeciras; Importe: 104545.6 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/OPAS/000005; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Algeciras; Importe: 104545.6 EUR; Estado: RES"
     },
     "title": "Mejoras de acerado y eliminacion de barreras arquitect\u00f3nicas en el entorno del Ceip Caetaria sito en la avda 28 de febrero de esta ciudad",
-    "updated": "2019-01-11T13:01:35.992+01:00",
+    "updated": "2019-04-22T14:47:35.716+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/OPAS/000005",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta econ\u00f3micamente m\u00e1s ventajosa de conformidad con los criterios de selecci\u00f3n",
+            "cbc:AwardDate": "2019-03-13",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2019-03-28",
+            "cac:Contract": {
+                "cbc:ID": "2018/opas/000005",
+                "cbc:IssueDate": "2019-03-27"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B92405497"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "DELTA INGENIERIA INFRAESTRUCTURAS Y SERVICIOS S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "84210.58"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "101894.8"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,9 +159,9 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-GESTMEDIOAMB"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "establecidas en el pliego de clausulas administrativas particulares"
+                        "cbc:Description": "establecidas en el Pliego de Clausulas Administrativas Particulares"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -136,9 +173,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-TITULOS"
                         },
                         "cbc:Description": "establecidas en el Pliego de Clausulas Administrativas Particulares"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-GESTMEDIOAMB"
+                        },
+                        "cbc:Description": "establecidas en el pliego de clausulas administrativas particulares"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -146,23 +190,9 @@
                             "#text": "OXR-MEDIOS"
                         },
                         "cbc:Description": "establecidas en el pliego de clausulas administrativas particulares"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
-                        },
-                        "cbc:Description": "establecidas en el Pliego de Clausulas Administrativas Particulares"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
-                        },
-                        "cbc:Description": "establecidas en el Pliego de Cla\u00fasulas Administrativas Partriculares"
-                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
@@ -176,13 +206,20 @@
                             "#text": "6"
                         },
                         "cbc:Description": "establecidas en el Pliego de Cla\u00fasualas Administrativas Particulares"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "3"
+                        },
+                        "cbc:Description": "establecidas en el Pliego de Cla\u00fasulas Administrativas Partriculares"
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "4"
                         }
                     },
                     {
@@ -194,7 +231,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "2"
                         }
                     }
                 ]
@@ -249,13 +286,38 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-22"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-11"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-18"
+                        }
+                    ]
                 }
             },
             {
@@ -265,9 +327,34 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-11"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-18"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-22"
+                        }
+                    ]
                 }
             }
         ]

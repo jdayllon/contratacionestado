@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2020007747; \u00d3rgano de Contrataci\u00f3n: Gerencia Regional de Salud de Castilla y Le\u00f3n; Importe: 2536380 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2020007747; \u00d3rgano de Contrataci\u00f3n: Gerencia Regional de Salud de Castilla y Le\u00f3n; Importe: 2536380 EUR; Estado: ADJ"
     },
     "title": "Obras de construcci\u00f3n del Centro de Salud \u201cLa Magdalena\u201d, en Valladolid",
-    "updated": "2018-11-30T15:02:55.971+01:00",
+    "updated": "2019-04-22T13:51:45.520+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2020007747",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -104,6 +104,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor valorado",
+            "cbc:AwardDate": "2019-04-17",
+            "cbc:ReceivedTenderQuantity": "8",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2198026.91"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2529925.29"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A73089120"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UTE ORTHEM - ABALA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2198026.91"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2659612.56"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -131,8 +171,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Proposici\u00f3n",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Mantenimiento integral",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Mejoras al objeto del contrato",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Incremento del plazo de garant\u00eda",
+                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "Prestaciones accesorias al objeto del contrato",
@@ -143,20 +191,12 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Incremento del plazo de garant\u00eda",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
                         "cbc:Description": "Estudio del proyecto y planificaci\u00f3n y programaci\u00f3n de las obras",
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Mantenimiento integral",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Mejoras al objeto del contrato",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "Proposici\u00f3n",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -222,6 +262,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-22"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

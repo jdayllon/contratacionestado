@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 003/17/CO/05; \u00d3rgano de Contrataci\u00f3n: Divisi\u00f3n Econ\u00f3mica y T\u00e9cnica (Cuerpo Nacional de Polic\u00eda); Importe: 79616.53 EUR; Estado: RES"
     },
     "title": "Servicio de estabulaci\u00f3n, guarda y custodia de los canes de la Unidad de Gu\u00edas Caninos de la Jefatura Superior de Polic\u00eda de Arag\u00f3n",
-    "updated": "2017-04-13T09:34:41.374+02:00",
+    "updated": "2019-04-22T13:39:22.544+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "003/17/CO/05",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de estabulaci\u00f3n, guarda y custodia de los canes de la Unidad de Gu\u00edas Caninos de la Jefatura Superior de Polic\u00eda de Arag\u00f3n",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -86,7 +86,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -209,10 +209,24 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Servicio ba\u00f1o y cabina de secado",
-                    "cbc:WeightNumeric": "5"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Sala Multimedia",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Aparcamiento sobra",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "85"
+                    },
+                    {
+                        "cbc:Description": "Servicio ba\u00f1o y cabina de secado",
+                        "cbc:WeightNumeric": "5"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -220,7 +234,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -351,7 +365,44 @@
                         "cbc:IssueDate": "2017-04-13"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-22"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "PRORROGA DEL CONTRATO SEG\u00daN APARTADO 6 DEL CUADRO DE CARACTER\u00cdSTICAS DEL PCAP",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "24"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "48"
+            },
+            "cbc:ContractID": "003/17/CO/05",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "73647.07"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "147294.14"
+                }
+            }
+        }
     }
 }

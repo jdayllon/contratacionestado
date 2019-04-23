@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/12199; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 52000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 18/12199; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 52000 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de la adquisici\u00f3n de equipos de contramedidas electr\u00f3nicas de seguridad",
-    "updated": "2019-02-27T16:34:01.950+01:00",
+    "updated": "2019-04-22T17:13:34.803+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/12199",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,6 +105,134 @@
                 }
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Adquisici\u00f3n de un analizador de espectros.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "43560"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "36000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "35121000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Adquisici\u00f3n de un detector de uniones no lineales.",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "19360"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "16000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "35121000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Oferta mejor clasificada",
+                "cbc:AwardDate": "2019-04-09",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:Contract": {
+                    "cbc:ID": "2019C32000002",
+                    "cbc:IssueDate": "2019-04-16"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A79005385"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "General Comunicaciones y Seguridad S.A."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "33053.72"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "39995"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Oferta mejor clasificada",
+                "cbc:AwardDate": "2019-04-09",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:Contract": {
+                    "cbc:ID": "2019C32000001",
+                    "cbc:IssueDate": "2019-04-16"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "A79005385"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "General Comunicaciones y Seguridad S.A."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "12806.61"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "15496"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -151,6 +279,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -167,8 +307,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-18"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-27"
+                        "cbc:IssueDate": "2019-04-22"
                     }
                 }
             }

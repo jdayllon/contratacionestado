@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: NSP Obras Caj 3; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Fregenal de la Sierra; Importe: 46280.99 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: NSP Obras Caj 3; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Fregenal de la Sierra; Importe: 46280.99 EUR; Estado: RES"
     },
     "title": "Asfaltado y pavimentaci\u00f3n de v\u00edas p\u00fablicas en Fregenal de la Sierra",
-    "updated": "2019-01-09T15:22:18.871+01:00",
+    "updated": "2019-04-22T15:33:20.425+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "NSP Obras Caj 3",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -96,6 +96,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Propuesta de Mesa de Contrataci\u00f3n",
+            "cbc:AwardDate": "2019-03-01",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "56000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "56000"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2019-73",
+                "cbc:IssueDate": "2019-03-14"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A06136154"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ASFALTOS LOS SANTOS, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46280.99"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "56000"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -107,6 +151,13 @@
             },
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-TITULOS"
+                        },
+                        "cbc:Description": "a) Relaci\u00f3n de las obras ejecutadas en el curso de los cinco \u00faltimos a\u00f1os, avalada por certificados de buena ejecuci\u00f3n; estos certificados indicar\u00e1n el importe, las fechas y el lugar de ejecuci\u00f3n de las obras y se precisar\u00e1 si se realizaron seg\u00fan las reglas por las que se rige la profesi\u00f3n y se llevaron normalmente a buen t\u00e9rmino; en su caso, dichos certificados ser\u00e1n comunicados directamente al \u00f3rgano de contrataci\u00f3n por la autoridad competente."
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -124,13 +175,6 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
-                        },
-                        "cbc:Description": "f) Declaraci\u00f3n indicando la maquinaria, material y equipo t\u00e9cnico del que se dispondr\u00e1 para la ejecuci\u00f3n de las obras, a la que se adjuntar\u00e1 la documentaci\u00f3n acreditativa pertinente cuando le sea requerido por los servicios dependientes del \u00f3rgano de contrataci\u00f3n"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OXR-PLANTILLA"
                         },
                         "cbc:Description": "e) Declaraci\u00f3n sobre la plantilla media anual de la empresa y del n\u00famero de directivos durante los tres \u00faltimos a\u00f1os, acompa\u00f1ada de la documentaci\u00f3n justificativa correspondiente cuando le sea requerido por los servicios dependientes del \u00f3rgano de contrataci\u00f3n"
@@ -138,16 +182,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
+                            "#text": "OXR-GESTMEDIOAMB"
                         },
-                        "cbc:Description": "a) Relaci\u00f3n de las obras ejecutadas en el curso de los cinco \u00faltimos a\u00f1os, avalada por certificados de buena ejecuci\u00f3n; estos certificados indicar\u00e1n el importe, las fechas y el lugar de ejecuci\u00f3n de las obras y se precisar\u00e1 si se realizaron seg\u00fan las reglas por las que se rige la profesi\u00f3n y se llevaron normalmente a buen t\u00e9rmino; en su caso, dichos certificados ser\u00e1n comunicados directamente al \u00f3rgano de contrataci\u00f3n por la autoridad competente."
+                        "cbc:Description": "d) En los casos adecuados, indicaci\u00f3n de las medidas de gesti\u00f3n medioambiental que el empresario podr\u00e1 aplicar al ejecutar el contrato"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-GESTMEDIOAMB"
+                            "#text": "OXR-MEDIOS"
                         },
-                        "cbc:Description": "d) En los casos adecuados, indicaci\u00f3n de las medidas de gesti\u00f3n medioambiental que el empresario podr\u00e1 aplicar al ejecutar el contrato"
+                        "cbc:Description": "f) Declaraci\u00f3n indicando la maquinaria, material y equipo t\u00e9cnico del que se dispondr\u00e1 para la ejecuci\u00f3n de las obras, a la que se adjuntar\u00e1 la documentaci\u00f3n acreditativa pertinente cuando le sea requerido por los servicios dependientes del \u00f3rgano de contrataci\u00f3n"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -210,6 +254,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-04"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -228,6 +284,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-01-09"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-22"
                     }
                 }
             }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 035/2019;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Pol\u00edticas Sociales y Familia;Importe: 1325128.20 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: 035/2019;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Pol\u00edticas Sociales y Familia;Importe: 1325128.20 EUR;Estado: RESUELTA"
     },
     "title": "Atenci\u00f3n residencial y de centro de d\u00eda a personas adultas con discapacidad intelectual, gravemente afectadas, en el centro Dulce Nombre de Mar\u00eda de M\u00e1laga",
-    "updated": "2019-02-08T14:25:45.483+01:00",
+    "updated": "2019-04-22T11:41:20.854+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "035/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -58,6 +58,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "G92928902"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ASOCIACI\u00d3N DE LINARES VON SCHMITERLOW"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "657048.78"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -80,17 +106,51 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-04"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-04"
+                    }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOCM",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2019-04-17"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2019-04-22"
+                        }
+                    }
+                ]
             }
-        }
+        ]
     }
 }
