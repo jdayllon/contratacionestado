@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 160705; \u00d3rgano de Contrataci\u00f3n: Paradores de Turismo de Espa\u00f1a, S.M.E., S.A.; Importe: 20000 EUR; Estado: RES"
     },
     "title": "Servicio de jardiner\u00eda en el Parador de Turismo de Alcal\u00e1 de Henares y Hoster\u00eda del Estudiante.",
-    "updated": "2018-03-01T10:45:15.442+01:00",
+    "updated": "2019-04-24T17:04:59.324+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "160705",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de jardiner\u00eda en el Parador de Turismo de Alcal\u00e1 de Henares y Hoster\u00eda del Estudiante.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -244,7 +244,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -424,23 +424,35 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-03-01"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-03-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-24"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:ContractModificationDurationMeasure": {
-                "@unitCode": "ANN",
-                "#text": "1"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                },
+                "cbc:ContractID": "160705"
             },
-            "cbc:FinalDurationMeasure": {
-                "@unitCode": "ANN",
-                "#text": "2"
-            },
-            "cbc:ContractID": "160705"
-        }
+            {
+                "cbc:ID": "2",
+                "cbc:Note": "No pr\u00f3rroga del contrato",
+                "cbc:ContractID": "160705"
+            }
+        ]
     }
 }

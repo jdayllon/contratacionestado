@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 212018PA1005; \u00d3rgano de Contrataci\u00f3n: Instituto Social de la Marina -Direcci\u00f3n Provincial de Huelva; Importe: 55000 EUR; Estado: ADJ"
     },
     "title": "Suministro de material fungible para los cursos de supervivencia, contra incendios y sanitarios que se realizar\u00e1n en el Centro Nacional de Formaci\u00f3n Mar\u00edtima de Isla Cristina y en la Direcci\u00f3n Provincial del Instituto Social de la Marina en Huelva, durante 2.019",
-    "updated": "2019-04-02T16:13:59.252+02:00",
+    "updated": "2019-04-24T18:31:49.714+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "212018PA1005",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -120,6 +120,31 @@
             {
                 "cbc:ID": {
                     "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Material de supervivencia",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "32670"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "27000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "35112000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
                     "#text": "2"
                 },
                 "cac:ProcurementProject": {
@@ -177,6 +202,39 @@
             }
         ],
         "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "\u00fanica oferta aceptada a participar en la licitaci\u00f3n",
+                "cbc:AwardDate": "2019-04-12",
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "OTROS",
+                            "#text": "B21026281"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "BELLAMAR, S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "27000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "32670"
+                        }
+                    }
+                }
+            },
             {
                 "cbc:ResultCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
@@ -284,20 +342,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Bolsa de materiales",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "Contrataci\u00f3n indefinida",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Criterio econ\u00f3mico",
-                        "cbc:WeightNumeric": "65"
-                    },
-                    {
                         "cbc:Description": "Contrataci\u00f3n de mujeres",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Bolsa de materiales",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Criterio econ\u00f3mico",
+                        "cbc:WeightNumeric": "65"
                     }
                 ]
             },
@@ -451,6 +509,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-04-02"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-24"
                         }
                     ]
                 }

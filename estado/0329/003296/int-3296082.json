@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 8/19; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Plasencia; Importe: 250483.13 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 8/19; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Plasencia; Importe: 250483.13 EUR; Estado: ADJ"
     },
     "title": "Obras para la construcci\u00f3n de una glorieta en confluencia con la Avda. de Salamanca y la Avda. de la Hispanidad en Plasencia.",
-    "updated": "2019-03-08T14:38:25.102+01:00",
+    "updated": "2019-04-24T14:44:35.467+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "8/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser en su conjunto la oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-04-12",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "195472.15"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "224304.01"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A10012359"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CNES ARAPLASA SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "195472.15"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "236521.3"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -128,7 +168,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
                         }
                     },
                     {
@@ -146,13 +192,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "9"
                         }
                     }
                 ]
@@ -160,12 +200,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Ampliaci\u00f3n plazo garant\u00eda",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "80"
+                    },
+                    {
+                        "cbc:Description": "Ampliaci\u00f3n plazo garant\u00eda",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -209,7 +249,28 @@
                 }
             }
         },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "8-19 - proyecto.rar",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c139b7b6-0bb7-4699-96ed-6e7b9670eab1",
+                    "cbc:DocumentHash": "QqfdM4OaBtO0SrVAYq/PdSthJbk="
+                }
+            }
+        },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-24"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -217,9 +278,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-08"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-14"
+                        }
+                    ]
                 }
             },
             {

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONSUM 1/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Bustillo del P\u00e1ramo; Importe: 10560 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: CONSUM 1/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Bustillo del P\u00e1ramo; Importe: 10560 EUR; Estado: RES"
     },
     "title": "Adquisici\u00f3n de contenedores trapezoidales para los PTR",
-    "updated": "2019-02-19T13:21:47.864+01:00",
+    "updated": "2019-04-24T13:36:42.148+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONSUM 1/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta mas ventajosa",
+            "cbc:AwardDate": "2019-04-02",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "11930.6"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "11930.6"
+            },
+            "cbc:StartDate": "2019-04-08",
+            "cac:Contract": {
+                "cbc:ID": "consum1/2019",
+                "cbc:IssueDate": "2019-04-08"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B24646713"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONTENEDOREA DEL TUERTO"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "9425.17"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "11930.6"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "NO SE PREV\u00c9N",
@@ -117,14 +162,14 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "1"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "1"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -139,11 +184,11 @@
                         "cbc:WeightNumeric": "100"
                     },
                     {
-                        "cbc:Description": "PRECIO",
+                        "cbc:Description": "MENOR PLAZO DE EJECUCION",
                         "cbc:WeightNumeric": "100"
                     },
                     {
-                        "cbc:Description": "MENOR PLAZO DE EJECUCION",
+                        "cbc:Description": "PRECIO",
                         "cbc:WeightNumeric": "100"
                     }
                 ]
@@ -208,17 +253,43 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-24"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-19"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-24"
+                    }
                 }
             }
-        }
+        ]
     }
 }
