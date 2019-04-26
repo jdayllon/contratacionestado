@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EC-653/2019; \u00d3rgano de Contrataci\u00f3n: Consejero Delegado de la Empresa General Valenciana del Agua S.A.; Importe: 227340.08 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: EC-653/2019; \u00d3rgano de Contrataci\u00f3n: Consejero Delegado de la Empresa General Valenciana del Agua S.A.; Importe: 227340.08 EUR; Estado: RES"
     },
     "title": "Nuevo proyecto del desv\u00edo de Barranc Silleta en la poblaci\u00f3n de Cheste en el cruce con el ferrocarril (Valencia). Fase 2",
-    "updated": "2019-03-15T14:36:49.749+01:00",
+    "updated": "2019-04-25T14:25:34.963+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EC-653/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -128,6 +128,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "De conformidad con el Acuerdo de adjudicaci\u00f3n adoptado por el \u00d3rgano de Contrataci\u00f3n",
+            "cbc:AwardDate": "2019-04-01",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "236468.58"
+            },
+            "cac:Contract": {
+                "cbc:ID": "EC-653/2019",
+                "cbc:IssueDate": "2019-04-17"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B98803612"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MONTAJES BAIXAULI, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "188560.98"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "228158.79"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -142,24 +186,28 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
+                            "#text": "5"
                         },
-                        "cbc:Description": "De conformidad con lo indicado en el Anexo V del PCAP. Se acreditar\u00e1 mediante la aportaci\u00f3n del DEUC"
+                        "cbc:Description": "De conformidad con lo indicado en el Anexo V del PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "6"
                         },
-                        "cbc:Description": "De conformidad con lo indicado en el Anexo V del PCAP"
+                        "cbc:Description": "De conformidad con lo indicado en el Anexo V del PCAP. Se acreditar\u00e1 mediante la aportaci\u00f3n del DEUC"
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Medios humanos previstos en la obra",
-                        "cbc:WeightNumeric": "4"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Memoria constructiva",
+                        "cbc:WeightNumeric": "8"
                     },
                     {
                         "cbc:Description": "Descripci\u00f3n medios materiale sprevistos en obra",
@@ -170,16 +218,12 @@
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "60"
+                        "cbc:Description": "Medios humanos previstos en la obra",
+                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "Propuesta de calidad de los materiales",
                         "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "Memoria constructiva",
-                        "cbc:WeightNumeric": "8"
                     },
                     {
                         "cbc:Description": "Planificaci\u00f3n de las obras",
@@ -251,6 +295,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-16"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -280,6 +336,18 @@
                             "cbc:IssueDate": "2019-03-15"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-25"
+                    }
                 }
             }
         ]

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: ASE/2016/004; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 16875171.56 EUR; Estado: ADJ"
     },
     "title": "Limpieza en edificios administrativos y sedes judiciales adscritos a las Gerencias Territoriales del Ministerio de Justicia (15 lotes)",
-    "updated": "2017-04-28T09:31:24.590+02:00",
+    "updated": "2019-04-25T13:23:53.408+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ASE/2016/004",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -49,14 +49,14 @@
                     "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Justicia",
                     "cbc:Telephone": "913904330",
                     "cbc:Telefax": "913902370",
-                    "cbc:ElectronicMail": "juntacontratacion@mjusticia.es"
+                    "cbc:ElectronicMail": "mesacontratacion@mjusticia.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Limpieza en edificios administrativos y sedes judiciales adscritos a las Gerencias Territoriales del Ministerio de Justicia (15 lotes)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -86,7 +86,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -516,6 +516,9 @@
                 "cbc:Description": "Por ser la oferta m\u00e1s ventajosa",
                 "cbc:AwardDate": "2017-03-15",
                 "cbc:ReceivedTenderQuantity": "2",
+                "cac:Contract": {
+                    "cbc:ID": "ASE/2016/004"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -762,6 +765,9 @@
                 "cbc:Description": "Por ser la oferta m\u00e1s ventajosa",
                 "cbc:AwardDate": "2017-03-15",
                 "cbc:ReceivedTenderQuantity": "7",
+                "cac:Contract": {
+                    "cbc:ID": "ASE/2016/004"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -795,6 +801,9 @@
                 "cbc:Description": "Por ser la oferta m\u00e1s ventajosa",
                 "cbc:AwardDate": "2017-03-15",
                 "cbc:ReceivedTenderQuantity": "1",
+                "cac:Contract": {
+                    "cbc:ID": "ASE/2016/004"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -885,10 +894,16 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio",
-                    "cbc:WeightNumeric": "52"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Proyecto t\u00e9cnico",
+                        "cbc:WeightNumeric": "48"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "52"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -896,7 +911,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -1041,12 +1056,109 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-25"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_PIN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2016-09-01"
+                    }
+                }
+            }
+        ],
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "PSE/2019/045\nPr\u00f3rroga contrato inicial",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "24"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "48"
+                },
+                "cbc:ContractID": "ASE/2016/004",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1806189.97"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3612379.94"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Pr\u00f3rroga del contrato inicial por 4 meses",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "4"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "28"
+                },
+                "cbc:ContractID": "ASE/2016/004",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "385496.64"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2698476.45"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "PSE/2019/037\nPr\u00f3rroga del contrato inicial",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "24"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "48"
+                },
+                "cbc:ContractID": "ASE/2016/004",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "24369.7"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "48739.4"
                     }
                 }
             }

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: ASE/2016/141; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 11065717.18 EUR; Estado: RES"
     },
     "title": "Limpieza en edificios administrativos y sedes judiciales adscritos a las Gerencias Territoriales del Ministerio de Justicia",
-    "updated": "2017-06-05T08:05:53.144+02:00",
+    "updated": "2019-04-25T13:07:56.901+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ASE/2016/141",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -49,14 +49,14 @@
                     "cbc:Name": "Junta de Contrataci\u00f3n del Ministerio de Justicia",
                     "cbc:Telephone": "913904330",
                     "cbc:Telefax": "913902370",
-                    "cbc:ElectronicMail": "juntacontratacion@mjusticia.es"
+                    "cbc:ElectronicMail": "mesacontratacion@mjusticia.es"
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Limpieza en edificios administrativos y sedes judiciales adscritos a las Gerencias Territoriales del Ministerio de Justicia",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -86,7 +86,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -427,10 +427,16 @@
                 "cbc:Description": "Las condiciones de solvencia vienen establecidas vienen definidas en el Cuadro Resumen del Pliego de Cl\u00e1usulas Administrativas Particualres"
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "sujetos a un juicio de valor. Var\u00eda para cada lote. Error aplicaci\u00f3n por intentar dar uniformidad al procedimiento integrado por lotes",
-                    "cbc:WeightNumeric": "25"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "oferta econ\u00f3mica y otros criterios seg\u00fan el lote var\u00eda. Error aplicaci\u00f3n por intentar dar uniformidad al procedimiento",
+                        "cbc:WeightNumeric": "75"
+                    },
+                    {
+                        "cbc:Description": "sujetos a un juicio de valor. Var\u00eda para cada lote. Error aplicaci\u00f3n por intentar dar uniformidad al procedimiento integrado por lotes",
+                        "cbc:WeightNumeric": "25"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -438,7 +444,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -583,7 +589,44 @@
                         "cbc:IssueDate": "2017-06-03"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-25"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Pr\u00f3rroga del contrato inicial por 4 meses",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "4"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "28"
+            },
+            "cbc:ContractID": "ASE/2016/141",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "524479.09"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "3671353.64"
+                }
+            }
+        }
     }
 }

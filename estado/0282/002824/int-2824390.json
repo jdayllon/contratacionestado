@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: C-18/07_2240; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Cangas; Importe: 67383.97 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: C-18/07_2240; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Cangas; Importe: 67383.97 EUR; Estado: ADJ"
     },
     "title": "Urbanizaci\u00f3n e accesibilidade na r\u00faa Fonteferreira",
-    "updated": "2019-01-07T12:52:29.182+01:00",
+    "updated": "2019-04-25T14:05:31.531+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "C-18/07_2240",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -119,6 +119,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "\"Urbanizaci\u00f3n e accesibilidade da r\u00faa Fonte Ferreira\u201d",
+            "cbc:AwardDate": "2019-04-08",
+            "cbc:ReceivedTenderQuantity": "9",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "67383.97"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "67383.97"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B27802503"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "NEXIA INFRAESTRUCTURAS, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -133,16 +173,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Melloras",
+                        "cbc:WeightNumeric": "90"
+                    },
+                    {
                         "cbc:Description": "Menor prazo de execuci\u00f3n",
                         "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Ampliaci\u00f3n do prazo de garant\u00eda",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Melloras",
-                        "cbc:WeightNumeric": "90"
                     }
                 ]
             },
@@ -199,13 +239,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-01-07"
+                        "cbc:IssueDate": "2019-04-25"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-18"
+                        }
+                    ]
                 }
             },
             {

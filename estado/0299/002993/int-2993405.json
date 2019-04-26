@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02022708)-CCTP/84-2019; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Consorcio de la Comunidad de Trabajo de los Pirineos; Importe: 49560 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: (A02022708)-CCTP/84-2019; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Consorcio de la Comunidad de Trabajo de los Pirineos; Importe: 49560 EUR; Estado: RES"
     },
     "title": "Asistencia jur\u00eddica extrajudicial del Programa INTERREG V-A Espa\u00f1a-Francia-Andorra POCTEFA 2014-2020",
-    "updated": "2019-03-19T17:45:26.832+01:00",
+    "updated": "2019-04-25T16:30:37.895+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02022708)-CCTP/84-2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con mejor puntuaci\u00f3n seg\u00fan resoluci\u00f3n adjunta",
+            "cbc:AwardDate": "2019-04-08",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "84",
+                "cbc:IssueDate": "2019-04-11"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B31941164"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ALCAN Abogados y Economistas S.L.P."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "24000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29040"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:FundingProgramCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/FundingProgramCode-2.02.gc",
@@ -132,13 +168,6 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "Indicaci\u00f3n del personal t\u00e9cnico o de las unidades t\u00e9cnicas, integradas o no en la empresa, participantes en el contrato, especialmente aqu\u00e9llos encargados del control de calidad"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos realizados en los \u00faltimos tres a\u00f1os del mismo tipo o naturaleza al que corresponde el objeto del contrato, avalados por certificados de buena ejecuci\u00f3n."
@@ -149,6 +178,13 @@
                             "#text": "XXR-SUBCONT"
                         },
                         "cbc:Description": "Se deber\u00e1 facilitar la informaci\u00f3n requerida en las secciones A y B de la parte II y en la parte III del DEUC por cada uno de los subcontratistas."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Indicaci\u00f3n del personal t\u00e9cnico o de las unidades t\u00e9cnicas, integradas o no en la empresa, participantes en el contrato, especialmente aqu\u00e9llos encargados del control de calidad"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -166,16 +202,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "(Puntuaci\u00f3n m\u00e1xima del criterio) x (Precio de la oferta m\u00e1s baja) / Precio ofertado",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
                         "cbc:Description": "Ver pliego",
                         "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "(Puntuaci\u00f3n m\u00e1xima del criterio) x (n\u00ba horas ofertadas) / n\u00ba horas Oferta que presente mayor n\u00ba",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "(Puntuaci\u00f3n m\u00e1xima del criterio) x (Precio de la oferta m\u00e1s baja) / Precio ofertado",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -219,6 +255,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -249,6 +297,18 @@
                             "cbc:IssueDate": "2019-03-19"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-25"
+                    }
                 }
             }
         ]
