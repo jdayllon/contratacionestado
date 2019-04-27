@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1953SE1FR071; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Medio Ambiente y Rural, Pol\u00edticas Agrarias y Territorio; Importe: 148471.32 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 1953SE1FR071; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Medio Ambiente y Rural, Pol\u00edticas Agrarias y Territorio; Importe: 148471.32 EUR; Estado: ADJ"
     },
     "title": "Trabajos de mantenimiento de infraestructuras, tareas sanitarias y de gesti\u00f3n, complementarias para acciones de caza a rececho de la Reserva de Caza de C\u00edjara",
-    "updated": "2019-02-05T13:11:51.297+01:00",
+    "updated": "2019-04-26T13:25:09.631+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1953SE1FR071",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,6 +106,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-04-26",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "109058.88"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "121900.83"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A06185938"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "PUEBLA Y ESTELLEZ S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "109058.88"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "131961.24"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:FundingProgramCode": {
@@ -147,25 +187,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
                         }
                     },
                     {
@@ -179,26 +213,28 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "TIEMPO M\u00c1XIMO DE RESPUESTA.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "RECURSOS PERSONALES Y MATERIALES",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "F\u00f3rmula A",
-                        "cbc:WeightNumeric": "55"
-                    },
-                    {
                         "cbc:Description": "MANTENIMIENTO / REPARACI\u00d3N",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "F\u00f3rmula A",
+                        "cbc:WeightNumeric": "55"
                     },
                     {
                         "cbc:Description": "METODOLOG\u00cdA",
@@ -207,6 +243,10 @@
                     {
                         "cbc:Description": "CALIDAD T\u00c9CNICA DE LA PROPUESTA",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "TIEMPO M\u00c1XIMO DE RESPUESTA.",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -263,6 +303,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -288,6 +340,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-02-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-13"
                         }
                     ]
                 }

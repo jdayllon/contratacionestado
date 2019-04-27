@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Santa Pola; Importe: 316620 EUR; Estado: PUB"
     },
     "title": "Servicio de ayuda a domicilio",
-    "updated": "2019-03-21T19:50:48.376+01:00",
+    "updated": "2019-04-26T15:27:04.679+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -122,23 +122,14 @@
                 "cbc:AmountRate": "5"
             },
             "cac:TendererQualificationRequest": {
-                "cbc:PersonalSituation": "Documento habilitante para la prestaci\u00f3n del servicio de ayuda a domicilio",
-                "cac:TechnicalEvaluationCriteria": [
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "titulaci\u00f3n acad\u00e9mica y experiencia indicada en la memoria t\u00e9cnica"
+                "cbc:PersonalSituation": "Estar registrada como entidad prestadora del servicio de ayuda a domicilio",
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
                     },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
-                        },
-                        "cbc:Description": "Importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n entre los cinco \u00faltimos sea igual o superior  a 221.634 \u20ac"
-                    }
-                ],
+                    "cbc:Description": "Importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n entre los cinco \u00faltimos sea igual o superior  a 221.634 \u20ac"
+                },
                 "cac:FinancialEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
@@ -150,19 +141,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     },
                     {
@@ -170,24 +149,14 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Mejoras sin coste alguno para el Ayuntamiento",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
-                        "cbc:Description": "Formaci\u00f3n del personal",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Mejoras sin coste alguno para el Ayuntamiento:2.1 limpiezas de choque",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "compromiso de contrataci\u00f3n o estar en posesi\u00f3n de un sistema de control de cumplimiento de horario y trabajo",
@@ -195,14 +164,18 @@
                     },
                     {
                         "cbc:Description": "Oferta Econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:WeightNumeric": "35"
                     },
                     {
-                        "cbc:Description": "compromiso de  contrataci\u00f3n colectivos en situaci\u00f3n de riesgo",
+                        "cbc:Description": "Formaci\u00f3n del personal",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Proyecto de Trabajo",
+                        "cbc:Description": "Mejoras sin coste alguno para el Ayuntamiento: 2.2 Adscripci\u00f3n de un educador familiar/social o TSIS",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Oferta t\u00e9cnica: Proyecto de Trabajo",
                         "cbc:WeightNumeric": "25"
                     }
                 ]
@@ -221,26 +194,26 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-04-08",
+                "cbc:EndDate": "2019-05-08",
                 "cbc:EndTime": "14:00:00",
                 "cbc:Description": "Se deber\u00e1 tener en cuenta por los licitadores el horario de soporte a usuarios que establece la plataforma"
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "PCAP.pdf",
+            "cbc:ID": "PCAP MODIFICADO.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8e167e79-2fdf-4497-98c3-f64af7389152",
-                    "cbc:DocumentHash": "7q5l5GQump1DdjhyfIQsP5Hz3MQ="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8b2ce17f-60c1-4dcb-94bf-f99d9d6dac7d",
+                    "cbc:DocumentHash": "k6OqSA7G0OOaq4wsaLYtw2tw45o="
                 }
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "PPT.pdf",
+            "cbc:ID": "PPT SAD MODIFICADO.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7804312e-e6de-4a03-aae7-871404ec9fec",
-                    "cbc:DocumentHash": "9Avqi/hu14aTtTMKEl/fBMgtV+4="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d0331040-a0a4-49e3-b000-2ef20ff47046",
+                    "cbc:DocumentHash": "x1gnq7/mOwvOump5qi6R5jZGfWk="
                 }
             }
         },
@@ -252,9 +225,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-26"
+                        }
+                    ]
                 }
             },
             {
@@ -264,9 +245,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-26"
+                        }
+                    ]
                 }
             }
         ]

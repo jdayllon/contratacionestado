@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01780; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Econom\u00eda y Hacienda; Importe: 11152012.06 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2018/01780; \u00d3rgano de Contrataci\u00f3n: \u00c1rea de Gobierno de Econom\u00eda y Hacienda; Importe: 11152012.06 EUR; Estado: ADJ"
     },
     "title": "Construcci\u00f3n del Centro Deportivo La Cebada, Distrito de Centro",
-    "updated": "2019-01-10T19:30:16.390+01:00",
+    "updated": "2019-04-26T14:31:49.289+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01780",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser el licitador que ha presentado la mejor oferta, seg\u00fan la ponderaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2019-04-26",
+            "cbc:ReceivedTenderQuantity": "17",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "7880011.72"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "10199630.23"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "241499"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UTE BECSA, S.A. / SERRAZAR, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "8581242.85"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "10383303.85"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -151,8 +191,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Estudio detallado del procedimiento de construcci\u00f3n de la obra",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Medidas ambientales",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Ensayos, an\u00e1lisis e informes espec\u00edficos previstos en el art. 145 del RGLCAP",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Incremento de plazo de garant\u00eda",
@@ -163,16 +207,12 @@
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Ensayos, an\u00e1lisis e informes espec\u00edficos previstos en el art. 145 del RGLCAP",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Estudio detallado del procedimiento de construcci\u00f3n de la obra",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "65"
-                    },
-                    {
-                        "cbc:Description": "Medidas ambientales",
-                        "cbc:WeightNumeric": "3"
                     }
                 ]
             },
@@ -372,6 +412,18 @@
                     "cbc-place-ext:PublicationMediaName": "DOUE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-12-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-26"
                     }
                 }
             },
