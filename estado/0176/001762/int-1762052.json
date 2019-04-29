@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2017/GV/0025; \u00d3rgano de Contrataci\u00f3n: Vicepresidencia del Consejo de Administraci\u00f3n de la Entidad P\u00fablica de Saneamiento de Aguas Residuales de la Comunidad Valenciana; Importe: 1982036.43 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2017/GV/0025; \u00d3rgano de Contrataci\u00f3n: Vicepresidencia del Consejo de Administraci\u00f3n de la Entidad P\u00fablica de Saneamiento de Aguas Residuales de la Comunidad Valenciana; Importe: 1982036.43 EUR; Estado: RES"
     },
     "title": "Servicio de funcionamiento y mantenimiento del sistema de saneamiento y depuraci\u00f3n de aguas residuales de Utiel. Valencia.",
-    "updated": "2017-10-16T13:31:45.708+02:00",
+    "updated": "2019-04-28T09:46:14.640+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2017/GV/0025",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -48,8 +48,8 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Vicepresidencia del Consejo de Administraci\u00f3n de la Entidad P\u00fablica de Saneamiento de Aguas Residuales de la Comunidad Valenciana",
-                    "cbc:Telephone": "963604555",
-                    "cbc:Telefax": "963603469",
+                    "cbc:Telephone": "961818400",
+                    "cbc:Telefax": "963869658",
                     "cbc:ElectronicMail": "epsar@gva.es"
                 }
             }
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de funcionamiento y mantenimiento del sistema de saneamiento y depuraci\u00f3n de aguas residuales de Utiel. Valencia.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -112,6 +112,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Al haber quedado clasificada su proposici\u00f3n como la econ\u00f3micamente m\u00e1s ventajosa por aplicaci\u00f3n de los criterios de adjudicaci\u00f3n establecidos en el correspondiente pliego.",
+            "cbc:AwardDate": "2019-03-12",
+            "cbc:ReceivedTenderQuantity": "10",
+            "cbc:StartDate": "2019-05-01",
+            "cac:Contract": {
+                "cbc:ID": "2017/GV/0025",
+                "cbc:IssueDate": "2019-04-16"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A46017018"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GLOBAL OMNIUM MEDIOAMBIENTE, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1672991.1"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1840290.21"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -133,24 +170,38 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
+                            "#text": "5"
                         },
                         "cbc:Description": "Ver apartado A.6 del Anexo al Pliego"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "6"
                         },
                         "cbc:Description": "Ver apartado A.6 del Anexo al Pliego"
                     }
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Importe econ\u00f3mico de los precios unitarios y cuota para los supuestos no incluidos en el presupuesto de licitaci\u00f3n",
-                    "cbc:WeightNumeric": "2"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
+                        "cbc:WeightNumeric": "53"
+                    },
+                    {
+                        "cbc:Description": "Proposici\u00f3n t\u00e9cnica",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Importe econ\u00f3mico de los precios unitarios y cuota para los supuestos no incluidos en el presupuesto de licitaci\u00f3n",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Importe econ\u00f3mico de las mejoras",
+                        "cbc:WeightNumeric": "5"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -158,7 +209,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -208,6 +259,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-22"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -226,6 +289,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-10-16"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-28"
                     }
                 }
             }
