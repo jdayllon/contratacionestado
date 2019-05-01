@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 18/13713-ADS-0088; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 218930 EUR; Estado: PUB"
     },
     "title": "Control de calidad y auditor\u00eda de puesta en marcha de instalaciones y de modelo BIM de las obras de reorganizaci\u00f3n de los espacios bancarios de la sucursal de Barcelona.",
-    "updated": "2019-04-26T13:42:11.803+02:00",
+    "updated": "2019-04-30T16:47:48.274+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/13713-ADS-0088",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -126,11 +126,23 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Cualificaci\u00f3n del t\u00e9cnico de control de calidad de obra civil durante la ejecuci\u00f3n de la obra",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Cualificaci\u00f3n del t\u00e9cnico de control de calidad de instalaciones durante la ejecuci\u00f3n de la obra",
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "Cualificaci\u00f3n del coordinador del servicio",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Dedicaci\u00f3n al contrato del coordinador del servicio",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Cualificaci\u00f3n del auditor de BIM",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -139,18 +151,6 @@
                     },
                     {
                         "cbc:Description": "Cualificaci\u00f3n del t\u00e9cnico especialista en supervisi\u00f3n de puesta en marcha de las instalaciones mec\u00e1nicas",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Cualificaci\u00f3n del t\u00e9cnico de control de calidad de obra civil durante la ejecuci\u00f3n de la obra",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Cualificaci\u00f3n del auditor de BIM",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Cualificaci\u00f3n del coordinador del servicio",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -179,11 +179,11 @@
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "PCP_18_13712.pdf",
+            "cbc:ID": "PCP_18_13713.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9ff9f10e-f99c-48e6-b153-85fb2fc99eff",
-                    "cbc:DocumentHash": "puouXvFIJ7Rd5zrr7Z12gb6NAW4="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=03e9c125-cb32-4694-87be-c0af73ba8f7a",
+                    "cbc:DocumentHash": "3hOmj9gWWlSkiyj7dJMAEyenYWE="
                 }
             }
         },
@@ -196,17 +196,36 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-30"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-04-26"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-26"
+                    }
                 }
             }
-        }
+        ]
     }
 }

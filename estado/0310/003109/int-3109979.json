@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 094/2018; \u00d3rgano de Contrataci\u00f3n: Empresa Municipal de la Vivienda y Suelo de Madrid, S.A.; Importe: 794976.1 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 094/2018; \u00d3rgano de Contrataci\u00f3n: Empresa Municipal de la Vivienda y Suelo de Madrid, S.A.; Importe: 794976.1 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de las obras de adecuaci\u00f3n y urbanizaci\u00f3n del solar para la instalaci\u00f3n temporal de actividades socio comunitarias sito en calle caronte, distrito municipal de carabanchel, madrid, promovido por la empresa municipal de la vivienda y suelo de madrid.",
-    "updated": "2019-03-06T14:22:42.568+01:00",
+    "updated": "2019-04-30T15:27:06.392+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "094/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -98,7 +98,52 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa seg\u00fan la ponderaci\u00f3n de los criterios de adjudicacion",
+            "cbc:AwardDate": "2019-04-25",
+            "cbc:ReceivedTenderQuantity": "10",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "663322"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "957111.48"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2019-73",
+                "cbc:IssueDate": "2019-04-30"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28416089"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TEODORO DEL BARRIO, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "584148.44"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "706819.61"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -132,7 +177,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     },
                     {
@@ -144,7 +195,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "1"
                         }
                     },
                     {
@@ -158,36 +209,30 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "4.- Gesti\u00f3n medioambiental de la obra",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "9.- Mejora a la conservaci\u00f3n obras",
                         "cbc:WeightNumeric": "14"
+                    },
+                    {
+                        "cbc:Description": "3.- Medidas de seguridad complementerias a incluir en el plan de seguridad",
+                        "cbc:WeightNumeric": "3"
                     },
                     {
                         "cbc:Description": "6.- Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "35"
                     },
                     {
-                        "cbc:Description": "1.- Informe-memoria justificativa del proyecto",
-                        "cbc:WeightNumeric": "9"
+                        "cbc:Description": "5.- Gesti\u00f3n de residuos",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "3.- Medidas de seguridad complementerias a incluir en el plan de seguridad",
-                        "cbc:WeightNumeric": "3"
+                        "cbc:Description": "4.- Gesti\u00f3n medioambiental de la obra",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "8.- Mejoras al proyecto",
@@ -198,12 +243,12 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "5.- Gesti\u00f3n de residuos",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "7.- Mejora de plazo de ejecuci\u00f3n",
                         "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "1.- Informe-memoria justificativa del proyecto",
+                        "cbc:WeightNumeric": "9"
                     }
                 ]
             },
@@ -247,6 +292,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -271,6 +328,18 @@
                             "cbc:IssueDate": "2019-03-06"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-30"
+                    }
                 }
             }
         ]
