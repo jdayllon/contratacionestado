@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: DNA 123/2017; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Econ\u00f3mico-Financiera de ENAIRE; Importe: 237750 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n de un Servicio para la Impartici\u00f3n de Formaci\u00f3n de Ofim\u00e1tica e Inform\u00e1tica T\u00e9cnica en ENAIRE",
-    "updated": "2018-04-11T04:09:02.952+02:00",
+    "updated": "2019-05-01T04:13:50.238+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "DNA 123/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -36,7 +36,7 @@
                     "cbc:CityName": "Madrid",
                     "cbc:PostalZone": "28022",
                     "cac:AddressLine": {
-                        "cbc:Line": "Avda. de Arag\u00f3n, 402"
+                        "cbc:Line": "Avda. de Arag\u00f3n, 330"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n de un Servicio para la Impartici\u00f3n de Formaci\u00f3n de Ofim\u00e1tica e Inform\u00e1tica T\u00e9cnica en ENAIRE",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -145,7 +145,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -298,36 +298,68 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-04-11"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-04-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-01"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:Note": "PRORROGA",
-            "cbc:ContractModificationDurationMeasure": {
-                "@unitCode": "MON",
-                "#text": "12"
-            },
-            "cbc:FinalDurationMeasure": {
-                "@unitCode": "MON",
-                "#text": "24"
-            },
-            "cbc:ContractID": "DNA 123/2017",
-            "cac:ContractModificationLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "237750"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "PRORROGA",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "12"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "24"
+                },
+                "cbc:ContractID": "DNA 123/2017",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "237750"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "475500"
+                    }
                 }
             },
-            "cac:FinalLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "475500"
+            {
+                "cbc:ID": "3",
+                "cbc:Note": "PRORROGA",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "12"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "24"
+                },
+                "cbc:ContractID": "DNA 123/2017",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "237750"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "559622.16"
+                    }
                 }
             }
-        }
+        ]
     }
 }
