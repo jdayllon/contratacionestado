@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019-002-013; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Monta\u00f1esa; Importe: 97200 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2019-002-013; \u00d3rgano de Contrataci\u00f3n: Director Gerente de Mutua Monta\u00f1esa; Importe: 97200 EUR; Estado: ADJ"
     },
     "title": "Servicios de Atenci\u00f3n al Usuario y Soporte de Sistemas B\u00e1sico de Mutua Monta\u00f1esa",
-    "updated": "2019-03-15T14:27:00.597+01:00",
+    "updated": "2019-05-03T20:00:05.190+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019-002-013",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,46 @@
                 "cbc:OptionsDescription": "Dos (2) prorrogas de 12 meses cada una."
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser considerada la oferta con mejor relaci\u00f3n calidad - precio en los t\u00e9rminos establecidos en el Pliego de Clausulas Particulares",
+            "cbc:AwardDate": "2019-05-03",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "97200"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "97200"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A39042999"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CESOIN SEIDOR, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "97200"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "117612"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -170,24 +210,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "C5. PLAN DE FORMACION",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "C1. OFERTA ECONOMICA",
+                        "cbc:WeightNumeric": "60"
                     },
                     {
                         "cbc:Description": "C2. MEJORAS NO CONTEMPLADAS",
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "C4. PLAN DE CALIDAD",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "C3. EQUIPO DE TRABAJO",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "C1. OFERTA ECONOMICA",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
-                        "cbc:Description": "C4. PLAN DE CALIDAD",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "C5. PLAN DE FORMACION",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -232,6 +272,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-03"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
