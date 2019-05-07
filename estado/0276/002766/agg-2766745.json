@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/2766745",
     "link": {
-        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/notice.pscp?idDoc=39509701&reqCode=viewCn"
+        "@href": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/awardnotice.pscp?reqCode=viewPcan&idDoc=41578498&lawType=3"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 26/2017; \u00d3rgano de Contrataci\u00f3n: Ajuntament de Sant Lloren\u00e7 de la Muga; Importe: 89880.00; Estado: EVALUACION"
+        "#text": "Id licitaci\u00f3n: 26/2017; \u00d3rgano de Contrataci\u00f3n: Ajuntament de Sant Lloren\u00e7 de la Muga; Importe: 89880.00; Estado: ADJUDICADA"
     },
     "title": "Alienaci\u00f3 mitjan\u00e7ant subhasta p\u00fablica, pel procediment obert, de dues parcel\u00b7les urbanes de titularitat municipal",
-    "updated": "2019-01-14T20:11:09.429+01:00",
+    "updated": "2019-05-06T18:40:52.250+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "26/2017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -62,6 +62,45 @@
                 "cbc:EndDate": "2019-03-31"
             }
         },
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "46139060W"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Ignacio Bonet Heras"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "45529"
+                        }
+                    }
+                }
+            }
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -72,25 +111,36 @@
                 "cbc:EndTime": "20:00:00"
             }
         },
-        "cac:LegalDocumentReference": {
-            "cbc:ID": "PLEC CLAUSULES.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contractaciopublica.gencat.cat/ecofin_pscp/AppJava/portalfileretrieving.pscp?reqCode=retrieveFile&docHash=9f74ae1bbde6e41c96d2795ef3e1dbc3&fileId=39509748&capId=3185063&idTS=39509640"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "BOP",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-13"
+                    }
                 }
-            }
-        },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "BOP",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-13"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-06"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }
