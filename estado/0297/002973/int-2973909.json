@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PA002/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Independiente de Responsabilidad Fiscal; Importe: 155500 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: PA002/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Independiente de Responsabilidad Fiscal; Importe: 155500 EUR; Estado: ADJ"
     },
     "title": "Servicio de gabinete de prensa y comunicaci\u00f3n para la Autoridad Independiente de Responsabilidad Fiscal",
-    "updated": "2019-03-18T13:30:52.391+01:00",
+    "updated": "2019-05-06T16:23:18.359+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PA002/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,6 +106,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica a la empresa que ha obtenido la mayor puntuaci\u00f3n en el proceso de licitaci\u00f3n (art\u00edculo 150.2 LCSP):",
+            "cbc:AwardDate": "2019-04-26",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "120000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "120000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85846517"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Viewpoint Communication SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "120000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "145200"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -141,6 +181,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
                     },
@@ -148,12 +194,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
                         }
                     },
                     {
@@ -167,19 +207,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Entrevista con el Director del proyecto. Subcriterio Grado de conocimiento y comprensi\u00f3n del entorno de comunicaci\u00f3n de la instituci\u00f3n",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Experiencia adicional del Director del Proyecto",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Plan estrat\u00e9gico de comunicaci\u00f3n para la Autoridad Independiente de Responsabilidad Fiscal y  entrevista personal con el Director del Proyecto",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
                         "cbc:Description": "Plan estrat\u00e9gico de comunicaci\u00f3n para la AIReF. Subcriterio Adaptaci\u00f3n y coherencia con las necesidades a satisfacer con el contrato",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Plan estrat\u00e9gico de comunicaci\u00f3n para la AIReF. Subcriterio Descripci\u00f3n de las acciones de comunicaci\u00f3n",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -187,15 +223,19 @@
                         "cbc:WeightNumeric": "7"
                     },
                     {
-                        "cbc:Description": "Entrevista con el Director del proyecto. Subcriterio Grado de conocimiento y comprensi\u00f3n del entorno de comunicaci\u00f3n de la instituci\u00f3n",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Plan Estrat\u00e9gico de Comunicaci\u00f3n para la AIReF.  Subcriterio Claridad y precisi\u00f3n en el establecimiento de las l\u00edneas generales del Plan Estrat\u00e9gico de Comunicaci\u00f3n, con especial referencia al Plan de comunicaci\u00f3n digital",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "45"
                     },
                     {
-                        "cbc:Description": "Plan Estrat\u00e9gico de Comunicaci\u00f3n para la AIReF.  Subcriterio Claridad y precisi\u00f3n en el establecimiento de las l\u00edneas generales del Plan Estrat\u00e9gico de Comunicaci\u00f3n, con especial referencia al Plan de comunicaci\u00f3n digital",
+                        "cbc:Description": "Plan estrat\u00e9gico de comunicaci\u00f3n para la Autoridad Independiente de Responsabilidad Fiscal y  entrevista personal con el Director del Proyecto",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Plan estrat\u00e9gico de comunicaci\u00f3n para la AIReF. Subcriterio Descripci\u00f3n de las acciones de comunicaci\u00f3n",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -254,6 +294,18 @@
                     "cbc-place-ext:PublicationMediaName": "BOE",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-06"
                     }
                 }
             },

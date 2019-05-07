@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02003504)-SC-10/2019; \u00d3rgano de Contrataci\u00f3n: Instituto Aragon\u00e9s de Servicios Sociales (IASS); Importe: 82332.76 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02003504)-SC-10/2019; \u00d3rgano de Contrataci\u00f3n: Instituto Aragon\u00e9s de Servicios Sociales (IASS); Importe: 82332.76 EUR; Estado: ADJ"
     },
     "title": "Atenci\u00f3n telef\u00f3nica a las personas mayores en la Comunidad Aut\u00f3noma de Arag\u00f3n.",
-    "updated": "2019-03-18T14:25:39.117+01:00",
+    "updated": "2019-05-06T14:31:32.551+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02003504)-SC-10/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -96,6 +96,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta para la Administraci\u00f3n",
+            "cbc:AwardDate": "2019-05-06",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "G99118598"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FUNDACI\u00d3N DFA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "54887"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "66413.27"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -130,20 +162,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Compromiso de sustituci\u00f3n en el n\u00famero de horas",
+                        "cbc:Description": "Incremento n\u00famero de operadores telef\u00f3nicos contratados",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Memoria t\u00e9cnica prestaci\u00f3n del servicio.",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "Incremento n\u00famero de operadores telef\u00f3nicos contratados",
+                        "cbc:Description": "Compromiso de sustituci\u00f3n en el n\u00famero de horas",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Valoraci\u00f3n econ\u00f3mica de la oferta",
                         "cbc:WeightNumeric": "35"
+                    },
+                    {
+                        "cbc:Description": "Memoria t\u00e9cnica prestaci\u00f3n del servicio.",
+                        "cbc:WeightNumeric": "45"
                     }
                 ]
             },
@@ -187,6 +219,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -203,9 +247,20 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-18"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-22"
+                        }
+                    ]
                 }
             }
         ]

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.16/20830.0010; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 2187057.51 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 3.16/20830.0010; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 2187057.51 EUR; Estado: RES"
     },
     "title": "Proyecto constructivo de una zona de estacionamiento para composiciones de alta velocidad en sant andreu comtal. v\u00eda y electrificaci\u00f3n",
-    "updated": "2016-03-01T11:28:43.665+01:00",
+    "updated": "2019-05-06T17:43:00.215+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.16/20830.0010",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,11 +22,11 @@
                 "#text": "4"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es/es_ES/empresas_servicios/licitaciones/licitaciones.shtml",
+                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
-                        "#text": "EA0003338"
+                        "#text": "EA0008223"
                     }
                 },
                 "cac:PartyName": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Proyecto constructivo de una zona de estacionamiento para composiciones de alta velocidad en sant andreu comtal. v\u00eda y electrificaci\u00f3n",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -80,21 +80,30 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45234160"
+                        "#text": "45111200"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45111200"
+                        "#text": "45234160"
                     }
                 }
             ],
             "cac:RealizedLocation": {
-                "cbc:CountrySubentity": "ESPA\u00d1A",
+                "cbc:CountrySubentity": "Barcelona",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
-                    "#text": "ES"
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
+                    "#text": "ES511"
+                },
+                "cac:Address": {
+                    "cac:Country": {
+                        "cbc:IdentificationCode": {
+                            "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
+                            "#text": "ES"
+                        },
+                        "cbc:Name": "Espa\u00f1a"
+                    }
                 }
             },
             "cac:PlannedPeriod": {
@@ -104,7 +113,18 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "4"
+            },
+            "cbc:Description": "adaptaci\u00f3n a normativa vigente",
+            "cbc:AwardDate": "2019-04-11",
+            "cbc:ReceivedTenderQuantity": "11"
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
+            "cbc:VariantConstraintIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "Electrificaci\u00f3n ferroviaria, l\u00ednea a\u00e9rea de contacto y sistemas asoc",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -135,7 +155,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -147,17 +167,31 @@
                 "cbc:EndTime": "12:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DESISTIMIENTO"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-06"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2016-03-01"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2016-03-01"
+                    }
                 }
             }
-        }
+        ]
     }
 }
