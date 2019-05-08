@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.18/20830.0329; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 4065561.65 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 3.18/20830.0329; \u00d3rgano de Contrataci\u00f3n: ADIF Alta Velocidad - Presidencia; Importe: 4065561.65 EUR; Estado: RES"
     },
     "title": "Servicios de consultor\u00eda y asistencia para el control de las obras del proyecto de construcci\u00f3n de plataforma del corredor mediterr\u00e1neo de alta velocidad murcia-almer\u00eda. tramo: nijar-r\u00edo andarax (con 024/18)",
-    "updated": "2018-10-05T10:27:10.158+02:00",
+    "updated": "2019-05-07T21:01:49.127+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.18/20830.0329",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "4"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es/es_ES/empresas_servicios/licitaciones/licitaciones.shtml",
+                "cbc:WebsiteURI": "http://www.adifaltavelocidad.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -105,6 +105,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-02-21",
+            "cbc:ReceivedTenderQuantity": "26",
+            "cac:Contract": {
+                "cbc:ID": "3.18/20830.0329/1",
+                "cbc:IssueDate": "2019-03-26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B84840685"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TPF GETINSA EUROESTUDIOS SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2316963.58"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2803525.93"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:FundingProgramCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/FundingProgramCode-2.02.gc",
@@ -124,15 +160,12 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "ZZZ"
-                    }
+                    },
+                    "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "PRECIO",
-                        "cbc:WeightNumeric": "49"
-                    },
                     {
                         "cbc:Description": "CRITERIOS NO EVALUABLES MEDIANTE F\u00d3RMULAS",
                         "cbc:WeightNumeric": "49"
@@ -140,6 +173,10 @@
                     {
                         "cbc:Description": "CRITERIOS EVALUABLES MEDIANTE F\u00d3RMULAS",
                         "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "PRECIO",
+                        "cbc:WeightNumeric": "49"
                     }
                 ]
             },
@@ -205,10 +242,30 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CN"
                 },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-09"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-05"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
                 "cac-place-ext:AdditionalPublicationStatus": {
-                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-05"
+                        "cbc:IssueDate": "2019-02-27"
                     }
                 }
             },
@@ -233,6 +290,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-10-05"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-07"
                     }
                 }
             }

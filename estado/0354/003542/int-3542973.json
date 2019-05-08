@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 281; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Serra; Importe: 28100 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 281; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Serra; Importe: 28100 EUR; Estado: PUB"
     },
     "title": "Adquisici\u00f3n de un tractor para explotaciones forestales",
-    "updated": "2019-05-06T20:39:14.320+02:00",
+    "updated": "2019-05-07T14:36:57.672+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "281",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -98,10 +98,19 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "DAY",
+                    "#text": "30"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:TendererQualificationRequest": {
+                "cbc:Description": "A. Criterios cuantificables autom\u00e1ticamente, se puntuar\u00e1n en orden decreciente:\n \n-Acoples necesarios para los aperos del ayuntamiento de Serra De 0  hasta 50 puntos. Otorgando 50 al que ofrezca los acoples de mejor calidad y adecuados para nuestro aperos\n-Ampliaci\u00f3n del plazo de garant\u00eda De 0  hasta 30 puntos. Otorgando 30 al que ofrezca mayor garant\u00eda y al resto de forma proporcional.\n- Reducci\u00f3n del plazo de entrega De 0 hasta 20 puntos, Otorgando 20 al que ofrezca mejor plazo de entrega  y al resto de forma proporcional"
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -122,6 +131,9 @@
             "cac:TenderSubmissionDeadlinePeriod": {
                 "cbc:EndDate": "2019-05-21",
                 "cbc:EndTime": "23:59:00"
+            },
+            "cac:EconomicOperatorShortList": {
+                "cbc:LimitationDescription": "Ninguno"
             }
         },
         "cac:LegalDocumentReference": {
@@ -133,17 +145,57 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-06"
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "Pliegos Prescripciones Tecnicas.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=a52077c9-b54c-455f-9a07-c836fe8682b8",
+                    "cbc:DocumentHash": "RXfapWAeb7dWJIy/dl5IygZigDU="
                 }
             }
-        }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-07"
+                        }
+                    ]
+                }
+            }
+        ]
     }
 }

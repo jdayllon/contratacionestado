@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/01686; \u00d3rgano de Contrataci\u00f3n: Distrito de Chamber\u00ed; Importe: 114597.61 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2018/01686; \u00d3rgano de Contrataci\u00f3n: Distrito de Chamber\u00ed; Importe: 114597.61 EUR; Estado: ADJ"
     },
     "title": "Programaci\u00f3n Cultural del Distrito de Chamber\u00ed",
-    "updated": "2019-02-25T16:16:05.030+01:00",
+    "updated": "2019-05-07T15:40:24.617+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/01686",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -120,6 +120,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser el \u00fanico empresario que ha presentado oferta,  y cumplir la misma con la ponderaci\u00f3n de criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares",
+            "cbc:AwardDate": "2019-05-07",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "94043"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "94043"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B59416479"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "HARTFORD,S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "93796.8"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "113494.13"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -127,16 +167,16 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "1"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "1"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -158,18 +198,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
@@ -177,6 +205,18 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "12"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -193,6 +233,18 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Que en el desarrollo de las actividades culturales programadas se aborde la educaci\u00f3n en materia de g\u00e9nero como aspecto transversal",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Calidad social de la propuesta presentada - Personal voluntario",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
+                        "cbc:Description": "Calidad social de la propuesta presentada - Coordinaci\u00f3n y complementariedad",
+                        "cbc:WeightNumeric": "8"
+                    },
+                    {
                         "cbc:Description": "Procedimiento de evaluaci\u00f3n, control de la satisfacci\u00f3n y recogida de iniciativas y sugerencias",
                         "cbc:WeightNumeric": "5"
                     },
@@ -201,36 +253,24 @@
                         "cbc:WeightNumeric": "19"
                     },
                     {
-                        "cbc:Description": "Calidad social de la propuesta presentada - Coordinaci\u00f3n y complementariedad",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
-                        "cbc:Description": "Propuestas de difusi\u00f3n de las actividades",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Conversi\u00f3n contratos temporales en indefinidos",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Viabilidad de la propuesta",
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Precio (oferta econ\u00f3mica)",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
-                        "cbc:Description": "Conversi\u00f3n contratos temporales en indefinidos",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Calidad social de la propuesta presentada - Personal voluntario",
-                        "cbc:WeightNumeric": "8"
-                    },
-                    {
-                        "cbc:Description": "Que en el desarrollo de las actividades culturales programadas se aborde la educaci\u00f3n en materia de g\u00e9nero como aspecto transversal",
+                        "cbc:Description": "Propuestas de difusi\u00f3n de las actividades",
                         "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Exactitud y rigor conceptual",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio (oferta econ\u00f3mica)",
+                        "cbc:WeightNumeric": "30"
                     }
                 ]
             },
@@ -275,6 +315,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-07"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
