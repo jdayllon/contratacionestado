@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: Contrataci\u00f3n 18/19; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Rinc\u00f3n de la Victoria; Importe: 54000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: Contrataci\u00f3n 18/19; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Rinc\u00f3n de la Victoria; Importe: 54000 EUR; Estado: RES"
     },
     "title": "Servicio de limpieza de las aguas superficiales del litoral de costa del municipio de Rinc\u00f3n de la Victoria",
-    "updated": "2019-03-25T14:20:20.130+01:00",
+    "updated": "2019-05-08T13:05:27.285+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "Contrataci\u00f3n 18/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -109,6 +109,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Servicio de limpieza de las aguas superficiales del litoral de costa del municipio de Rinc\u00f3n de la Victoria",
+            "cbc:AwardDate": "2019-04-30",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "50760"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "54000"
+            },
+            "cac:Contract": {
+                "cbc:ID": "C-9/19",
+                "cbc:IssueDate": "2019-05-03"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B93158012"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Servimar Axarquia S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "54000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "59400"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -124,16 +168,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-MEDIOS"
                         },
-                        "cbc:Description": "Experiencia en trabajos de la misma naturaleza del objeto del contrato, en al menos dos municipios con litoral m\u00ednimo de 5 km, en los \u00faltimos 3 a\u00f1os."
+                        "cbc:Description": "Las embarcaciones asignadas al servicio deber\u00e1n reunir las caracter\u00edsticas exigidas en la cl\u00e1usula n\u00ba2 del Pliego de Prescrpciones T\u00e9cnicas. Previamente a la adjudicaci\u00f3n, deber\u00e1 aportarse la documentaci\u00f3n t\u00e9cnica exigida en la cl\u00e1usula n\u00ba3 del mencionado pliego."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Las embarcaciones asignadas al servicio deber\u00e1n reunir las caracter\u00edsticas exigidas en la cl\u00e1usula n\u00ba2 del Pliego de Prescrpciones T\u00e9cnicas. Previamente a la adjudicaci\u00f3n, deber\u00e1 aportarse la documentaci\u00f3n t\u00e9cnica exigida en la cl\u00e1usula n\u00ba3 del mencionado pliego."
+                        "cbc:Description": "Experiencia en trabajos de la misma naturaleza del objeto del contrato, en al menos dos municipios con litoral m\u00ednimo de 5 km, en los \u00faltimos 3 a\u00f1os."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -153,7 +197,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Puesta a disposici\u00f3n de al menos una embarcaci\u00f3n con las caracter\u00edsticas t\u00e9cnicas m\u00ednimas detalladas en el PPT.",
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Puesta a disposici\u00f3n de al menos una embarcaci\u00f3n durante 40h al mes en el periodo comprendido entre el 16 de septiembre 2019 y 14 de junio 2020",
                         "cbc:WeightNumeric": "15"
                     },
                     {
@@ -161,11 +209,7 @@
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
-                        "cbc:Description": "Puesta a disposici\u00f3n de al menos una embarcaci\u00f3n durante 40h al mes en el periodo comprendido entre el 16 de septiembre 2019 y 14 de junio 2020",
+                        "cbc:Description": "Puesta a disposici\u00f3n de al menos una embarcaci\u00f3n con las caracter\u00edsticas t\u00e9cnicas m\u00ednimas detalladas en el PPT.",
                         "cbc:WeightNumeric": "15"
                     }
                 ]
@@ -235,6 +279,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-30"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -262,8 +318,23 @@
                         },
                         {
                             "cbc:IssueDate": "2019-03-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-08"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-08"
+                    }
                 }
             }
         ]

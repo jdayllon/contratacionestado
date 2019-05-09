@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: NSE/2018/128; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 123373 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: NSE/2018/128; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 123373 EUR; Estado: ADJ"
     },
     "title": "Servicio de soporte de misi\u00f3n cr\u00edtica de las cabinas de almacenamiento de HEWLETT-PACKARD, en el \u00e1mbito de la Subdirecci\u00f3n General de Nuevas Tecnolog\u00edas de la Justicia.",
-    "updated": "2018-12-12T17:57:21.629+01:00",
+    "updated": "2019-05-08T17:02:20.609+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "NSE/2018/128",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,32 +106,41 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mejor oferta",
+            "cbc:AwardDate": "2019-05-08",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B82591470"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "HEWLETT PACKARD SERVICIOS ESPA\u00d1A, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "123373"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "149281.33"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
-                "cac:TechnicalEvaluationCriteria": {
-                    "cbc:EvaluationCriteriaTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                        "#text": "OSR-COMPTASK"
-                    },
-                    "cbc:Description": "De conformidad con el punto 24 b) del cuadro resumen del PCAP"
-                },
-                "cac:FinancialEvaluationCriteria": [
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
-                        },
-                        "cbc:Description": "De conformidad con el punto 24 a) del cuadro resumen del PCAP"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
-                        },
-                        "cbc:Description": "De conformidad con el punto 24 a) del cuadro resumen del PCAP"
-                    }
-                ],
                 "cac:SpecificTendererRequirement": {
                     "cbc:RequirementTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -142,12 +151,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "95"
-                    },
-                    {
                         "cbc:Description": "Criterios tecnicos",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "95"
                     }
                 ]
             },
@@ -165,7 +174,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-01-11",
+                "cbc:EndDate": "2019-02-28",
                 "cbc:EndTime": "19:00:00"
             }
         },
@@ -191,13 +200,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-12"
+                        "cbc:IssueDate": "2019-05-08"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-11"
+                        }
+                    ]
                 }
             },
             {

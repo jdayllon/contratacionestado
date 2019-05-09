@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SYS/0080/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas; Importe: 200000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SYS/0080/19; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Fundaci\u00f3n Internacional y para Iberoam\u00e9rica de Administraci\u00f3n Pol\u00edticas P\u00fablicas; Importe: 200000 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n del suministro de bienes de equipos electr\u00f3nicos e inform\u00e1ticos y mobiliario de oficina destinados a fortalecer las capacidades de las instituciones p\u00fablicas beneficiarias del \u201cPrograma para el Apoyo a la Pol\u00edtica de Energ\u00eda de Cuba\u201d en Cuba",
-    "updated": "2019-04-05T13:47:11.942+02:00",
+    "updated": "2019-05-08T15:37:29.218+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SYS/0080/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -125,6 +125,82 @@
                 "cbc:EndDate": "2023-02-14"
             }
         },
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Equipos electr\u00f3nicos e inform\u00e1ticos",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "121000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "100000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "30230000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Mobiliario de oficina",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "121000"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "100000"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "39100000"
+                        }
+                    }
+                }
+            }
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2019-04-26",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:AwardDate": "2019-04-26",
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            }
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -153,7 +229,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
+                            "#text": "9"
                         }
                     },
                     {
@@ -165,7 +241,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "8"
                         }
                     }
                 ]
@@ -211,6 +287,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-08"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

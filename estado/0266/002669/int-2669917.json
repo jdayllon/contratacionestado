@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/118; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 101580.42 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2018/118; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de C\u00f3rdoba; Importe: 101580.42 EUR; Estado: ADJ"
     },
     "title": "Obra relativa a la reforma del acerado en calle Grabador Palomino",
-    "updated": "2019-02-20T15:13:39.509+01:00",
+    "updated": "2019-05-08T14:31:17.272+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/118",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -120,6 +120,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "PRIMERO.- Adjudicar la contrataci\u00f3n de la Obra de reforma de acerado en calle Grabador Palomino, a la entidad SEPISUR XXI, S.L., con CIF B-14716831,  en la cantidad de 78.700 \u20ac m\u00e1s IVA (21%): 16.527 \u20ac , total: 95.227 \u20ac , con las siguientes mejoras incluidas en su oferta:\n    1. Ampliaci\u00f3n del plazo de garant\u00eda sobre el m\u00ednimo de un a\u00f1o fijado legalmente en 60 meses m\u00e1s.\n    2. Cualificaci\u00f3n y dedicaci\u00f3n del personal adscrito a la obra: \n           C1. Titulaci\u00f3n acad\u00e9mica Jefa de Obra: \tIngeniera Superior Agr\u00f3noma\n           C1. Porcentaje dedicaci\u00f3n obra de la Jefa de Obra:\t50%\n           C2. Protecci\u00f3n de la salud y seguridad en el trabajo: M\u00e1ster en Prevenci\u00f3n de Riesgos Laborales \n3.\tFomento de la contrataci\u00f3n femenina:   50% de la plantilla definitiva",
+            "cbc:AwardDate": "2019-05-07",
+            "cbc:ReceivedTenderQuantity": "15",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "91422.38"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B14716831"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SEPISUR XXI S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "78700"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "95227"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -148,12 +188,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
                     },
@@ -166,7 +200,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
@@ -180,11 +214,25 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Tiempo de dedicaci\u00f3n a la ejecuci\u00f3n de obra por parte de la jefatura o persona encargada de la obra",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Calidad del an\u00e1lisis del proyecto",
+                        "cbc:WeightNumeric": "10"
+                    },
                     {
                         "cbc:Description": "Ampliaci\u00f3n del plazo de garant\u00eda",
                         "cbc:WeightNumeric": "7"
@@ -194,24 +242,16 @@
                         "cbc:WeightNumeric": "2"
                     },
                     {
-                        "cbc:Description": "Tiempo de dedicaci\u00f3n a la ejecuci\u00f3n de obra por parte de la jefatura o persona encargada de la obra",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
                         "cbc:Description": "Mejora en la oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "71"
                     },
                     {
-                        "cbc:Description": "Calidad del an\u00e1lisis del proyecto",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Fomento de la contrataci\u00f3n femenina",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Posesi\u00f3n titulaci\u00f3n universitaria relacionada en el PCAP",
                         "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Fomento de la contrataci\u00f3n femenina",
-                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -261,6 +301,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-08"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
