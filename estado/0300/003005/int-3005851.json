@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 282019PA1002 ; \u00d3rgano de Contrataci\u00f3n: Instituto Social de la Marina -Direcci\u00f3n Provincial de Madrid; Importe: 6000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 282019PA1002 ; \u00d3rgano de Contrataci\u00f3n: Instituto Social de la Marina -Direcci\u00f3n Provincial de Madrid; Importe: 6000 EUR; Estado: ADJ"
     },
     "title": "Servicio de realizaci\u00f3n de las anal\u00edticas cl\u00ednicas complementarias a los reconocimientos previos al embarque mar\u00edtimo en la Direcci\u00f3n Provincial del ISM de Madrid",
-    "updated": "2019-02-21T16:49:12.388+01:00",
+    "updated": "2019-05-09T13:46:03.360+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "282019PA1002",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -111,6 +111,46 @@
                 "cbc:OptionsDescription": "Se prev\u00e9 pr\u00f3rroga de 12 meses"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica a la empresa con mejor valoraci\u00f3n",
+            "cbc:AwardDate": "2019-05-09",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "42.8"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "46.1"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78873973"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EUROFINS MEGALAB, S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46.1"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46.1"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -132,20 +172,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Tiempos de entrega de resultados del Perfil St\u00e1ndar",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "49"
                     },
                     {
-                        "cbc:Description": "Hora de carga autom\u00e1tica de resultados del perfil Standear",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Tiempos de entrega de resultados del Perfil St\u00e1ndar",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Proximidad d elas instalaciones",
                         "cbc:WeightNumeric": "11"
+                    },
+                    {
+                        "cbc:Description": "Hora de carga autom\u00e1tica de resultados del perfil Standear",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -270,9 +310,30 @@
                         "cbc:DocumentHash": "/jqnbWAfZuBPx4OPgtxS882DNkc="
                     }
                 }
+            },
+            {
+                "cbc:ID": "Documento Intercambio de datos analitica.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f29985fa-aa96-4ec2-8fc5-7059c0856b8d",
+                        "cbc:DocumentHash": "0jK1sWJ4GoXY2U0TLMiL1NBlyaY="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-09"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -280,9 +341,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-22"
+                        }
+                    ]
                 }
             },
             {

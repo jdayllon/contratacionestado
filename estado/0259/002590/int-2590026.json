@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/SER/25; \u00d3rgano de Contrataci\u00f3n: Gerencia de EGARSAT; Importe: 127750 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 18/SER/25; \u00d3rgano de Contrataci\u00f3n: Gerencia de EGARSAT; Importe: 127750 EUR; Estado: RES"
     },
     "title": "Servicios de detectives privados para EGARSAT MCSS N\u00ba 276",
-    "updated": "2019-03-29T13:52:38.559+01:00",
+    "updated": "2019-05-09T13:12:21.602+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/SER/25",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -218,9 +218,13 @@
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
                     "#text": "8"
                 },
-                "cbc:Description": "Se adjunta Resoluci\u00f3n de Adjudicaci\u00f3n motivada.",
+                "cbc:Description": "Adjuntada resoluci\u00f3n de adjudicaci\u00f3n motivada para la formalizaci\u00f3n.",
                 "cbc:AwardDate": "2019-03-19",
                 "cbc:ReceivedTenderQuantity": "4",
+                "cac:Contract": {
+                    "cbc:ID": "18/SER/25-2",
+                    "cbc:IssueDate": "2019-04-10"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -284,18 +288,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
                     },
@@ -308,7 +300,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
                         }
                     }
                 ]
@@ -316,16 +320,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta t\u00e9cnica evaluable autom\u00e1ticamente",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "Oferta t\u00e9cnica valorable mediante juicios de valor",
                         "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Oferta t\u00e9cnica evaluable autom\u00e1ticamente",
+                        "cbc:WeightNumeric": "25"
                     }
                 ]
             },
@@ -433,9 +437,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-29"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-09"
+                        }
+                    ]
                 }
             }
         ]

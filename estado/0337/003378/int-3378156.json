@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 10.4.13/19; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad; Importe: 90000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 10.4.13/19; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad; Importe: 90000 EUR; Estado: RES"
     },
     "title": "Trabajos t\u00e9cnicos para el soporte, mantenimiento, actualizaci\u00f3n y adaptaci\u00f3n del aplicativo de gesti\u00f3n de la incapacidad temporal (SAGITARIO) para  \u00c1rea de Inspecci\u00f3n y Evaluaci\u00f3n de la Direcci\u00f3n General de Ordenaci\u00f3n y Atenci\u00f3n Sanitaria.",
-    "updated": "2019-03-27T17:14:33.453+01:00",
+    "updated": "2019-05-09T12:52:34.287+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "10.4.13/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -119,6 +119,10 @@
                 "@currencyID": "EUR",
                 "#text": "89904"
             },
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2019-04-30"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -217,17 +221,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-27"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-27"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-09"
+                    }
                 }
             }
-        }
+        ]
     }
 }

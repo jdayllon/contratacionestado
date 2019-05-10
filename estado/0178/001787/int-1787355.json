@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: MT180004; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n de Compras de la Sociedad Estatal Correos y Tel\u00e9grafos S.A.; Importe: 4655645.28 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: MT180004; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n de Compras de la Sociedad Estatal Correos y Tel\u00e9grafos S.A.; Importe: 4655645.28 EUR; Estado: RES"
     },
     "title": "Mantenimiento y soporte de productos \u201cMySAP Business Suite\u201d",
-    "updated": "2018-04-17T14:22:51.043+02:00",
+    "updated": "2019-05-09T14:05:44.268+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MT180004",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento y soporte de productos \u201cMySAP Business Suite\u201d",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -114,6 +114,10 @@
             "cbc:Description": "El precio m\u00e1s bajo.",
             "cbc:AwardDate": "2018-03-22",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "MT180004",
+                "cbc:IssueDate": "2018-05-10"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -156,7 +160,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -239,7 +243,56 @@
                         "cbc:IssueDate": "2017-10-31"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-08-28"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-09"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Primera pr\u00f3rroga del contrato del expediente MT180004.",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "3"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "MON",
+                "#text": "27"
+            },
+            "cbc:ContractID": "MT180004",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "917572.78"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "5573218.06"
+                }
+            }
+        }
     }
 }

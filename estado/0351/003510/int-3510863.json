@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2019 00000006; \u00d3rgano de Contrataci\u00f3n: Centro Nacional de Informaci\u00f3n Geogr\u00e1fica; Importe: 333579 EUR; Estado: PUB"
     },
     "title": "Servicio de gesti\u00f3n integrada de los sistemas de informaci\u00f3n geogr\u00e1fica del Centro Nacional de Informaci\u00f3n Geogr\u00e1fica",
-    "updated": "2019-04-28T09:46:54.162+02:00",
+    "updated": "2019-05-09T13:17:03.498+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019 00000006",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -133,16 +133,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "Conforme se exige en el punto 9.1 del Cuadro de caracter\u00edsticas del PCAP"
+                        "cbc:Description": "Conforme se exige en el punto 9.1 del cuadro de caracter\u00edsticas del PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Conforme se exige en el punto 9.1 del cuadro de caracter\u00edsticas del PCAP"
+                        "cbc:Description": "Conforme se exige en el punto 9.1 del Cuadro de caracter\u00edsticas del PCAP"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -156,31 +156,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
                         }
                     },
                     {
@@ -194,30 +182,42 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
                         "cbc:Description": "Metodolog\u00eda para la realizaci\u00f3n de las actividades requeridas",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Mejoras en las horas del perfil de consultor\u00eda",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "40"
+                        "cbc:Description": "Adecuaci\u00f3n del curr\u00edculum vitae del equipo de profesionales propuestos",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Mejoras en las horas del perfil Jefe de proyecto",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Adecuaci\u00f3n del curr\u00edculum vitae del equipo de profesionales propuestos",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Mejoras en las horas del perfil de consultor\u00eda",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -324,19 +324,67 @@
                         "cbc:DocumentHash": "82CJJEVeFHFTYy0ZY+U5KlYcKLQ="
                     }
                 }
-            }
-        ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-04-28"
+            {
+                "cbc:ID": "anexoI_gestion_integrada_gis_2019.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d73f5d22-f238-4f95-96dd-ca88ad34ba86",
+                        "cbc:DocumentHash": "uHf6OrPw9PZT0M1/undbo5OFMWY="
+                    }
                 }
             }
-        }
+        ],
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2019-05-04"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "DOUE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2019-04-30"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-09"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-28"
+                    }
+                }
+            }
+        ]
     }
 }
