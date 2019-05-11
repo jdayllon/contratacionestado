@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2.4.35/19; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Presidencia y Justicia; Importe: 142789.29 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2.4.35/19; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Presidencia y Justicia; Importe: 142789.29 EUR; Estado: RES"
     },
     "title": "Servicios de seguridad para el Centro de Proceso de Datos del 21.04.2019 al 20.04.2020 (derivado de acuerdo marco)",
-    "updated": "2019-04-24T16:43:21.680+02:00",
+    "updated": "2019-05-10T14:35:14.655+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2.4.35/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,6 +115,10 @@
             "cbc:Description": "Basado en un acuerdo marco de selecci\u00f3n de precios unitarios",
             "cbc:AwardDate": "2019-04-17",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2019-04-17"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -159,17 +163,31 @@
                 "#text": "3"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-24"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-04-24"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-10"
+                    }
                 }
             }
-        }
+        ]
     }
 }

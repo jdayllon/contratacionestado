@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2.18/30410.0019; \u00d3rgano de Contrataci\u00f3n: ADIF - Consejo de Administraci\u00f3n; Importe: 5440413.33 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2.18/30410.0019; \u00d3rgano de Contrataci\u00f3n: ADIF - Consejo de Administraci\u00f3n; Importe: 5440413.33 EUR; Estado: RES"
     },
     "title": "Servicio de limpieza de las estaciones del \u00e1mbito de la subdirecci\u00f3n de estaciones centro",
-    "updated": "2018-07-09T08:05:20.841+02:00",
+    "updated": "2019-05-10T21:01:50.574+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2.18/30410.0019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "4"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.adif.es/es_ES/empresas_servicios/licitaciones/licitaciones.shtml",
+                "cbc:WebsiteURI": "http://www.adif.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de limpieza de las estaciones del \u00e1mbito de la subdirecci\u00f3n de estaciones centro",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -105,6 +105,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2018-12-20",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:Contract": {
+                "cbc:ID": "2.18/30410.0019/1",
+                "cbc:IssueDate": "2019-04-25"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A47379235"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ONET IBERIA SOLUCIONES SAU"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "5381245.34"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "6511306.86"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares",
@@ -119,18 +155,19 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "ZZZ"
-                    }
+                    },
+                    "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "CRITERIOS ECON\u00d3MICOS",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "CRITERIOS CUALITATIVOS",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "CRITERIOS ECON\u00d3MICOS",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -191,6 +228,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -209,6 +258,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-07-02"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-10"
                     }
                 }
             }
