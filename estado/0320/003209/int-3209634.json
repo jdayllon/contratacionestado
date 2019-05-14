@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019/00000173A; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Miranda de Ebro; Importe: 0 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2019/00000173A; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Miranda de Ebro; Importe: 0 EUR; Estado: RES"
     },
     "title": "Derecho a la organizaci\u00f3n, gesti\u00f3n y ejecuci\u00f3n del Mercado Medieval 2019",
-    "updated": "2019-02-26T17:43:25.460+01:00",
+    "updated": "2019-05-13T14:37:10.489+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019/00000173A",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -103,6 +103,43 @@
                 "cbc:EndDate": "2019-05-05"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Obtenci\u00f3n de mayor puntuaci\u00f3n en los criterios de adjudicaci\u00f3n.",
+            "cbc:AwardDate": "2019-04-24",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:StartDate": "2019-05-03",
+            "cac:Contract": {
+                "cbc:ID": "2019/00000173A",
+                "cbc:IssueDate": "2019-05-03"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B99289795"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ZARAGOZA Y EVENTOS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -131,12 +168,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
@@ -145,30 +176,36 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Variedad y calidad de los Espect\u00e1culos de Animaci\u00f3n",
-                        "cbc:WeightNumeric": "32"
-                    },
-                    {
-                        "cbc:Description": "Mejora en las condiciones m\u00ednimas de vigilancia y seguridad del Mercado",
-                        "cbc:WeightNumeric": "8"
+                        "cbc:Description": "N\u00ba de puestos, calidad y variedad de los mismos",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "N\u00ba de talleres, calidad y variedad de los mismos, as\u00ed como su propio programa de actividades divulgativas",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "N\u00ba de puestos, calidad y variedad de los mismos",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Mejora en las condiciones m\u00ednimas de vigilancia y seguridad del Mercado",
+                        "cbc:WeightNumeric": "8"
                     },
                     {
                         "cbc:Description": "Decoraci\u00f3n y ambientaci\u00f3n del Mercado",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Variedad y calidad de los Espect\u00e1culos de Animaci\u00f3n",
+                        "cbc:WeightNumeric": "32"
                     }
                 ]
             },
@@ -216,6 +253,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -234,6 +283,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-13"
                     }
                 }
             }

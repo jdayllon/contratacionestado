@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CO 4.2019 ACCSOS O CASAL (VITRE) E OUTROS; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Frades; Importe: 53583.49 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: CO 4.2019 ACCSOS O CASAL (VITRE) E OUTROS; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Frades; Importe: 53583.49 EUR; Estado: ADJ"
     },
     "title": "Ejecuci\u00f3n del proyecto t\u00e9cnico \"Accesos o Casal (Vitre) e outros\"",
-    "updated": "2019-03-06T14:15:14.518+01:00",
+    "updated": "2019-05-13T13:28:20.012+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CO 4.2019 ACCSOS O CASAL (VITRE) E OUTROS",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -104,6 +104,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta economicamente mas ventajosa",
+            "cbc:AwardDate": "2019-05-13",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "44752.93"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "51707.44"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B15360902"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CANARGA, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "51707.44"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "62566"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -125,20 +165,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "precio",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Programa de actuaci\u00f3n ambiental",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Estabilidad en el empleo",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
-                        "cbc:Description": "Plan de control de calidad",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Plan de igualdad",
-                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Esquema del Plan de Seguridad y Salud",
@@ -153,8 +185,16 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "precio",
+                        "cbc:Description": "Plan de control de calidad",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Plan de igualdad",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Estabilidad en el empleo",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -202,6 +242,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -224,6 +276,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-03-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-20"
                         }
                     ]
                 }

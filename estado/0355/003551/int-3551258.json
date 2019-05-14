@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n:  52/S/19/OB/GE/A/0003; \u00d3rgano de Contrataci\u00f3n: Gerencia de Servicios Sanitarios del \u00c1rea de Salud de Lanzarote; Importe: 245011.74 EUR; Estado: PUB"
     },
     "title": "Obra de reforma de la red general de evacuaci\u00f3n de aguas del Hospital Dr. Jos\u00e9 Molina Orosa",
-    "updated": "2019-05-07T15:26:51.485+02:00",
+    "updated": "2019-05-13T14:30:47.515+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "52/S/19/OB/GE/A/0003",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -129,14 +129,14 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Clausula 4.4. del PCAP."
+                        "cbc:Description": "Cl\u00e1usula 4.3.2 PCAP. \nEn caso de estar clasificado en el :\n                                                Grupo J Subgrupo 4 Categoria 2 bastar\u00e1 dicha circunstancias para acreditar las solvencias econ\u00f3mica, financiera y t\u00e9cnica."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Cl\u00e1usula 4.3.2 PCAP. \nEn caso de estar clasificado en el :\n                                                Grupo J Subgrupo 4 Categoria 2 bastar\u00e1 dicha circunstancias para acreditar las solvencias econ\u00f3mica, financiera y t\u00e9cnica."
+                        "cbc:Description": "Clausula 4.4. del PCAP."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -150,12 +150,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
@@ -163,6 +157,12 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "8"
                         }
                     }
                 ]
@@ -173,12 +173,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Relaci\u00f3n prudencia/baja ofertaeconom\u00edca",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "Relacion entre prudencia y la reducci\u00f3n de plazo de ejecuci\u00f3n",
                         "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Relaci\u00f3n prudencia/baja ofertaeconom\u00edca",
+                        "cbc:WeightNumeric": "60"
                     },
                     {
                         "cbc:Description": "Incremento de la penalidad por cada d\u00eda natural de retraso",
@@ -227,15 +227,26 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "PROYECTO.pdf",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=329980d2-e35e-4549-889b-de65764bda8e",
-                    "cbc:DocumentHash": "U5ghjy9bgDlW2ElvF/WN/6tW3FY="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "PROYECTO.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=329980d2-e35e-4549-889b-de65764bda8e",
+                        "cbc:DocumentHash": "U5ghjy9bgDlW2ElvF/WN/6tW3FY="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Presupuesto .bc3",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=509080bf-392c-4412-a13e-3d116431bce6",
+                        "cbc:DocumentHash": "OQGwwT3XGCirQnArqU1d8z5Vda4="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -250,6 +261,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-05-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-13"
                         }
                     ]
                 }
@@ -267,6 +281,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-05-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-13"
                         }
                     ]
                 }

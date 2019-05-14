@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 000038/2018-2.06.03.01; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Mazarr\u00f3n; Importe: 7200 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 000038/2018-2.06.03.01; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Mazarr\u00f3n; Importe: 7200 EUR; Estado: PUB"
     },
     "title": "Adquisici\u00f3n y servicio de mantenimiento de programa de gesti\u00f3n de empleo y formaci\u00f3n",
-    "updated": "2019-05-09T14:05:58.922+02:00",
+    "updated": "2019-05-13T13:37:41.675+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "000038/2018-2.06.03.01",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,10 +107,48 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "4"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:LiabilityAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "0"
+                }
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "Conforme al art\u00edculo 159.6 b) de la LCSP, se exime a los licitadores de la acreditaci\u00f3n de la solvencia econ\u00f3mica y financiera y t\u00e9cnica o profesional"
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "ZZZ"
+                    },
+                    "cbc:Description": "Conforme el art\u00edculo 159.6 b) de la LCSP, se exime a los licitadores de la acreditaci\u00f3n de la solvencia t\u00e9cnica y financiera y t\u00e9cnica o profesional"
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": {
+                    "cbc:Description": "Precio",
+                    "cbc:WeightNumeric": "100"
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -123,6 +161,14 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:DocumentAvailabilityPeriod": {
+                "cbc:EndDate": "2019-06-04",
+                "cbc:EndTime": "23:59:00"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-06-04",
+                "cbc:EndTime": "23:59:00"
             }
         },
         "cac:LegalDocumentReference": {
@@ -143,17 +189,43 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-13"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-09"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-13"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-09"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 338/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Jaca; Importe: 3719 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 338/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Jaca; Importe: 3719 EUR; Estado: ADJ"
     },
     "title": "Dise\u00f1o, organizaci\u00f3n, realizaci\u00f3n, gesti\u00f3n y coordinaci\u00f3n del Mercado Medieval, a\u00f1o 2019",
-    "updated": "2019-02-28T17:32:59.326+01:00",
+    "updated": "2019-05-13T18:06:29.932+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "338/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -127,6 +127,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta que ha obtenido mayor puntuaci\u00f3n seg\u00fan los criterios de adjudicaci\u00f3n",
+            "cbc:AwardDate": "2019-05-09",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B37299617"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MUSICAL SPORT S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3719"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "4500"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "no",
@@ -159,19 +191,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
                         }
                     },
                     {
@@ -183,25 +209,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Artesanos",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Mejoras",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Promoci\u00f3n",
-                        "cbc:WeightNumeric": "10"
-                    },
                     {
                         "cbc:Description": "Programa de animaci\u00f3n",
                         "cbc:WeightNumeric": "20"
@@ -211,12 +231,24 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Talleres",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Artesanos",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Promoci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejoras",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "Claridad en la presentaci\u00f3n e informaci\u00f3n del proyecto",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Talleres",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -261,6 +293,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-13"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
