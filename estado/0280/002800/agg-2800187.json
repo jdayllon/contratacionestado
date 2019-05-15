@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018ZAUN0034;  \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local;  Importe: 1060972.18EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 2018ZAUN0034;  \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local;  Importe: 1060972.18EUR;  Estado: RES"
     },
     "title": "Contratacion por lotes con perspectiva medioambiental del servicio de elaboraci\u00f3n y suministro de comidas",
-    "updated": "2019-02-12T15:56:07.356+01:00",
+    "updated": "2019-05-14T15:25:48.870+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018ZAUN0034",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -76,6 +76,28 @@
                 }
             }
         },
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:ReceivedTenderQuantity": "0",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1"
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "3"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2"
+                }
+            }
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -102,17 +124,39 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-17"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "DOUE",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-29"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-14"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }
