@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/3407307",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=1903291351556059220B"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=8319&Ticket=19051611270111462891"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 8319_1/2019; \u00d3rgano de Contrataci\u00f3n: CONCEJO DE AMILLANO; Importe: 42094,31 EUR; Estado: Evaluaci\u00f3n"
+        "#text": "Id licitaci\u00f3n: 8319_1/2019; \u00d3rgano de Contrataci\u00f3n: CONCEJO DE AMILLANO; Importe: 42094,31 EUR; Estado: Adjudicada"
     },
     "title": "Pavimentaci\u00f3n de varias calles y Escollera",
-    "updated": "2019-04-18T01:00:57.509+02:00",
+    "updated": "2019-05-16T13:30:11.686+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "8319_1/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,28 +64,68 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B31231319"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "EXCAVACIONES FERMIN OSES, S.L"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "39947.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-17"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2019-04-03"
-                    },
-                    {
-                        "cbc:IssueDate": "2019-04-17"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-16"
                     }
-                ]
+                }
             }
-        }
+        ]
     }
 }

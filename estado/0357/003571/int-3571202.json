@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: S-02/19; \u00d3rgano de Contrataci\u00f3n: Secretario General de la Federaci\u00f3n de Organismos o Entidades de Radio y Televisi\u00f3n Auton\u00f3micos - FORTA; Importe: 100780 EUR; Estado: PUB"
     },
     "title": "Servicio de asesor\u00eda de comunicaci\u00f3n y de elaboraci\u00f3n de un Plan de Comunicaci\u00f3n para FORTA y sus organismos asociados.",
-    "updated": "2019-05-10T15:21:25.491+02:00",
+    "updated": "2019-05-16T16:20:43.173+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "S-02/19",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -155,13 +155,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -172,6 +172,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "ELEMENTOS DE VALORACI\u00d3N PREVIA (Servicio Asesor\u00eda Comunicaci\u00f3n)",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Oferta econ\u00f3mica (servicios opcionales, sin compromiso de contrataci\u00f3n) Valoraci\u00f3n descuento porcentual",
                         "cbc:WeightNumeric": "10"
                     },
@@ -180,16 +184,12 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "ELEMENTOS DE VALORACI\u00d3N PREVIA (Servicio Asesor\u00eda Comunicaci\u00f3n)",
+                        "cbc:Description": "ELEMENTOS DE VALORACI\u00d3N PREVIA (Equipo de trabajo)",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Mejoras (Disponibilidad del CEO/m\u00e1ximo responsable a reuniones: 5 horas mensuales)",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "ELEMENTOS DE VALORACI\u00d3N PREVIA (Equipo de trabajo)",
-                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica (servicios fijos)",
@@ -241,6 +241,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-15"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -257,9 +269,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-16"
+                        }
+                    ]
                 }
             }
         ]

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: P.A. 2018-0-85;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad\u00b7\u00b7>Servicio Madrile\u00f1o de Salud \u00b7\u00b7>Hospital Universitario Doce de Octubre;Importe: 345600.00 EUR;Estado: PENDIENTE ADJUDICACI\u00d3N"
+        "#text": "Id licitaci\u00f3n: P.A. 2018-0-85;\u00d3rgano de Contrataci\u00f3n: Consejer\u00eda de Sanidad\u00b7\u00b7>Servicio Madrile\u00f1o de Salud \u00b7\u00b7>Hospital Universitario Doce de Octubre;Importe: 345600.00 EUR;Estado: RESUELTA"
     },
     "title": "Suministro de Sistema de Seguridad Transfusional y Hemovigilancia para el Servicio de Hematolog\u00eda del Hospital Universitario 12 de Octubre",
-    "updated": "2018-11-16T14:25:26.571+01:00",
+    "updated": "2019-05-16T16:11:31.584+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "P.A. 2018-0-85",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -68,6 +68,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A79389920"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "BIO-RAD LABORATORIES, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "119520"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -90,25 +116,39 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": [
-                {
-                    "cbc-place-ext:PublicationMediaName": "BOE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-02"
-                    }
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
                 },
-                {
+                "cac-place-ext:AdditionalPublicationStatus": [
+                    {
+                        "cbc-place-ext:PublicationMediaName": "BOE",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-02"
+                        }
+                    },
+                    {
+                        "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                        "cac-place-ext:AdditionalPublicationDocumentReference": {
+                            "cbc:IssueDate": "2018-10-04"
+                        }
+                    }
+                ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-04"
+                        "cbc:IssueDate": "2019-02-19"
                     }
                 }
-            ]
-        }
+            }
+        ]
     }
 }
