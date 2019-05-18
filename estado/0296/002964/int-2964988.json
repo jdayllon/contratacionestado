@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1/2019; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Personas y Ciudad, S.A Unipersonal; Importe: 185412.55 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1/2019; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Personas y Ciudad, S.A Unipersonal; Importe: 185412.55 EUR; Estado: ADJ"
     },
     "title": "Obras de urbanizaci\u00f3n de la unidad de ejecuci\u00f3n 15.1 del PGOU de Sant Joan",
-    "updated": "2019-02-13T19:58:09.436+01:00",
+    "updated": "2019-05-17T20:27:54.387+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -130,6 +130,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se adjudica a la oferta mejor valorada, tanto econ\u00f3mica como t\u00e9cnicamente, con 95,06 puntos totales frente a 56,22 puntos, 66,92 puntos y 79,15 puntos de las otras ofertas.",
+            "cbc:AwardDate": "2019-05-17",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "155561.13"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B53991485"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SIGMA INFRAESTRUCTURAS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "134943.25"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "163281.33"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -144,20 +180,6 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
-                        },
-                        "cbc:Description": "Relaci\u00f3n de las obras de urbanizaci\u00f3n o reurbanizaci\u00f3n ejecutadas en el curso de los 5 \u00faltimos a\u00f1os indicando cliente, importe, fechas y lugar de ejecuci\u00f3n: importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea igual o superior al 100% de importe del contrato."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-PLANTILLA"
-                        },
-                        "cbc:Description": "Declaraci\u00f3n sobre la plantilla media anual de la empresa durante los tres \u00faltimos a\u00f1os: m\u00ednimo 3 personas."
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OXR-TITULOS"
                         },
                         "cbc:Description": "T\u00edtulos acad\u00e9micos y profesionales del empresario y directivos y del responsable o responsables de las obras as\u00ed como de los t\u00e9cnicos encargados: m\u00ednimo 1 t\u00e9cnico competente para la direcci\u00f3n de la ejecuci\u00f3n por la contratista."
@@ -165,9 +187,23 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Relaci\u00f3n de las obras de urbanizaci\u00f3n o reurbanizaci\u00f3n ejecutadas en el curso de los 5 \u00faltimos a\u00f1os indicando cliente, importe, fechas y lugar de ejecuci\u00f3n: importe anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n sea igual o superior al 100% de importe del contrato."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "XSX-CERTCALIDAD"
                         },
                         "cbc:Description": "Dos tipos de certificaci\u00f3n necesarios, medioambiental y calidad:\nISO 14001, EMAS o equivalente\nISO 9001 o equivalente"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-PLANTILLA"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n sobre la plantilla media anual de la empresa durante los tres \u00faltimos a\u00f1os: m\u00ednimo 3 personas."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -192,8 +228,8 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Programa de trabajo",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Conocimiento de las obras a ejecutar",
@@ -208,8 +244,8 @@
                         "cbc:WeightNumeric": "67.5"
                     },
                     {
-                        "cbc:Description": "Programa de trabajo",
-                        "cbc:WeightNumeric": "2"
+                        "cbc:Description": "plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -276,9 +312,30 @@
                         "cbc:DocumentHash": "gO1qKocpdRMbRGGNPaGw0tfeseM="
                     }
                 }
+            },
+            {
+                "cbc:ID": "1522_v3_151016.bc3",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=604a1780-7bde-4b18-9562-719e7d582bc6",
+                        "cbc:DocumentHash": "I3LgyAAux/4GU5SAdfOoTbmgt7g="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-17"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -286,9 +343,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-13"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-11"
+                        }
+                    ]
                 }
             },
             {

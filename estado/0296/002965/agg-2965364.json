@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: URA/001A/2019;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Agencia Vasca del Agua;  Importe: 76000.00EUR;  Estado: PUB"
+        "#text": "Id licitaci\u00f3n: URA/001A/2019;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Agencia Vasca del Agua;  Importe: 76000.00EUR;  Estado: RES"
     },
     "title": "Proyecto del saneamiento del municipio de Ermua: Zona centro y Avenida Gipuzkoa",
-    "updated": "2019-02-13T15:57:53.941+01:00",
+    "updated": "2019-05-17T15:42:08.069+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "URA/001A/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -68,13 +68,39 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B48298244"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "BIDEIN, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "54500"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-02-28",
+                "cbc:EndDate": "2019-03-01",
                 "cbc:EndTime": "12:00:00"
             }
         },
@@ -87,24 +113,50 @@
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "URA-001A-2019 PPT.pdf",
+            "cbc:ID": "URA-001A-2019-01_ERMUA_Zona de actuacion.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
                     "cbc:URI": "https://apps.euskadi.eus/w32-1084/es/v79aWar/comunJSP/v79aMostrarAdjunto.do?&idUnico=expjaso17851&fichero=pliego_bases_tecnicas1.pdf&tipoAnuncio=A&idOrigen=17851&origen=JASO&R01HNoPortal=true"
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-13"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-13"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-24"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-17"
+                    }
                 }
             }
-        }
+        ]
     }
 }
