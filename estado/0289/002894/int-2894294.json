@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SEC-cma 39-2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Almussafes; Importe: 734024.12 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SEC-cma 39-2018; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Almussafes; Importe: 734024.12 EUR; Estado: RES"
     },
     "title": "Limpieza y mantenimiento de las zonas verdes del municipio de Almussafes.",
-    "updated": "2019-01-27T09:39:54.216+01:00",
+    "updated": "2019-05-18T09:31:51.341+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SEC-cma 39-2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,6 +112,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta seg\u00fan los criterios de adjudicaci\u00f3n establecidos en los Pliegos. La motivaci\u00f3n figura en el informe que se incorpora al acta publicada en la Plataforma.",
+            "cbc:AwardDate": "2019-04-11",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "341321.22"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "343178.64"
+            },
+            "cbc:StartDate": "2019-05-15",
+            "cac:Contract": {
+                "cbc:ID": "SEC-cma 039-2018",
+                "cbc:IssueDate": "2019-05-14"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A82741067"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CESPA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "341321.22"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "386716.95"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:PriceRevisionFormulaDescription": "No se aplica",
@@ -127,13 +172,6 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
-                        },
-                        "cbc:Description": "Declaraci\u00f3n indicando maquinaria, material y equipo t\u00e9cnico"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "XSR-CALIDAD"
                         },
                         "cbc:Description": "Descripci\u00f3n instalaciones t\u00e9cnicas."
@@ -144,6 +182,13 @@
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Principales trabajos realizados en los \u00faltimos 5 a\u00f1os."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-MEDIOS"
+                        },
+                        "cbc:Description": "Declaraci\u00f3n indicando maquinaria, material y equipo t\u00e9cnico"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -157,16 +202,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Memoria e inventario",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "60"
-                    },
-                    {
-                        "cbc:Description": "Memoria e inventario",
-                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -239,17 +284,79 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-29"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-01-27"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-17"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-15"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-18"
+                    }
                 }
             }
-        }
+        ]
     }
 }
