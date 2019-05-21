@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CONT00008/19; \u00d3rgano de Contrataci\u00f3n: Autoridad Portuaria de Sevilla; Importe: 120000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: CONT00008/19; \u00d3rgano de Contrataci\u00f3n: Autoridad Portuaria de Sevilla; Importe: 120000 EUR; Estado: RES"
     },
     "title": "Suministro, instalaci\u00f3n y puesta en marcha del sistema automatizado en los accesos al Muelle Delicias del Puerto de Sevilla",
-    "updated": "2019-02-01T13:32:30.695+01:00",
+    "updated": "2019-05-20T13:46:38.031+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONT00008/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -103,20 +103,54 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta",
+            "cbc:AwardDate": "2019-04-22",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "100455.26"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "138952.03"
+            },
+            "cac:Contract": {
+                "cbc:ID": "CONT00008/19",
+                "cbc:IssueDate": "2019-05-20"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28526275"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Aeronaval de Construcciones e Instalaciones, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "83020.88"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "100455.26"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:LiabilityAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "6000"
-                    }
-                },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
@@ -125,6 +159,16 @@
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
                         "#text": "3600"
+                    }
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:LiabilityAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "6000"
                     }
                 }
             ],
@@ -213,6 +257,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -231,6 +287,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-20"
                     }
                 }
             }

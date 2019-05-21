@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: MV1901; \u00d3rgano de Contrataci\u00f3n: Gerencia de Mercados Centrales de Abastecimiento de Valencia S.A. (MERCAVALENCIA); Importe: 170000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: MV1901; \u00d3rgano de Contrataci\u00f3n: Gerencia de Mercados Centrales de Abastecimiento de Valencia S.A. (MERCAVALENCIA); Importe: 170000 EUR; Estado: ADJ"
     },
     "title": "Servicio consistente en la implantaci\u00f3n de un sistema integral de gesti\u00f3n (ERP) MICROSOFT DYNAMICS NAV, para las \u00e1reas de Contabilidad-Finanzas y Comercial.",
-    "updated": "2019-03-28T13:58:05.095+01:00",
+    "updated": "2019-05-20T13:55:54.845+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MV1901",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -60,7 +60,7 @@
                         },
                         "cac-place-ext:ParentLocatedParty": {
                             "cac:PartyName": {
-                                "cbc:Name": "Ministerio de Hacienda y Funci\u00f3n P\u00fablica"
+                                "cbc:Name": "Ministerio de Hacienda"
                             },
                             "cac-place-ext:ParentLocatedParty": {
                                 "cac:PartyName": {
@@ -135,6 +135,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-05-14",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B97929566"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Nunsys, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "129439.7"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "156622.04"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -142,16 +174,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "6"
                         },
-                        "cbc:Description": "Su volumen anual de negocios deber\u00e1 ser al menos 315.000 \u20ac"
+                        "cbc:Description": "Su patrimonio neto deber\u00e1 ser igual o superior a 100.000 \u20ac"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "6"
+                            "#text": "5"
                         },
-                        "cbc:Description": "Su patrimonio neto deber\u00e1 ser igual o superior a 100.000 \u20ac"
+                        "cbc:Description": "Su volumen anual de negocios deber\u00e1 ser al menos 315.000 \u20ac"
                     }
                 ]
             },
@@ -187,15 +219,27 @@
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "PCT-ERP MICROSOFT DYNAMICS_2.pdf",
+            "cbc:ID": "PCT-ERP MICROSOFT DYNAMICS_3.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=30f03ff0-0b64-4450-be29-29472f63d23b",
-                    "cbc:DocumentHash": "eTqfJIXGm242szZSHuIxSi/J7FU="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8d0e22ed-e073-456a-9a27-4706e07c6148",
+                    "cbc:DocumentHash": "AOU4JVXxsZr+k2Ayk/LrXe+7lmY="
                 }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-20"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -212,6 +256,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-03-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-29"
                         }
                     ]
                 }
@@ -232,6 +279,12 @@
                         },
                         {
                             "cbc:IssueDate": "2019-03-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-29"
                         }
                     ]
                 }

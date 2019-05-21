@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2018/00870; \u00d3rgano de Contrataci\u00f3n: Distrito de Tetu\u00e1n; Importe: 2095947.28 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2018/00870; \u00d3rgano de Contrataci\u00f3n: Distrito de Tetu\u00e1n; Importe: 2095947.28 EUR; Estado: ADJ"
     },
     "title": "Obras para la reforma de las zonas destinadas a oficinas en el edificio del Mercado de San Enrique del Distrito de Tetu\u00e1n",
-    "updated": "2018-12-18T15:32:52.734+01:00",
+    "updated": "2019-05-20T13:53:04.124+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2018/00870",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -109,6 +109,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La oferta presentada por la UTE SANHER OBRAS Y PROYECTOS, S.LY HARADO DE CONSTRUCCIONES Y  ASISTENCIA T\u00c9CNICA, S.L. aporta mejoras consistentes en medidas pasivas encaminadas a un mejor comportamiento energ\u00e9tico del edificio por un importe de 126.791,82 euros; asimismo propone una reducci\u00f3n del plazo de ejecuci\u00f3n de las obras en 30 d\u00edas sobre el plazo inicial reflejado en el proyecto (9 meses) y oferta la mayor baja econ\u00f3mica de un 18,01 %",
+            "cbc:AwardDate": "2019-05-20",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2079345.29"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2460484.82"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "UTE",
+                        "#text": "238565"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UTE SANHER OBRAS Y PROYECTOS, S.L. - HARADO CONSTRUC Y ASIST TECN, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1718467.18"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2079345.29"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -124,16 +164,16 @@
                     "cbc:ID": "RequiredBusinessProfileCode",
                     "cac:ClassificationCategory": [
                         {
-                            "cbc:CodeValue": "C4-3"
+                            "cbc:CodeValue": "J2-3"
                         },
                         {
                             "cbc:CodeValue": "C6-2"
                         },
                         {
-                            "cbc:CodeValue": "C1-2"
+                            "cbc:CodeValue": "C4-3"
                         },
                         {
-                            "cbc:CodeValue": "J2-3"
+                            "cbc:CodeValue": "C1-2"
                         }
                     ]
                 }
@@ -141,12 +181,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Reducci\u00f3n del plazo total debidamente justificado",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Medidas medioambientales",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
                         "cbc:Description": "Propuesta t\u00e9cnica",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Reducci\u00f3n del plazo total debidamente justificado",
-                        "cbc:WeightNumeric": "15"
+                        "cbc:Description": "Medidas pasivas encaminadas a un mejor comportmiento energ\u00e9tico del edificio",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Plan de ahorro energ\u00e9tico",
@@ -154,14 +202,6 @@
                     },
                     {
                         "cbc:Description": "Precio de la oferta",
-                        "cbc:WeightNumeric": "30"
-                    },
-                    {
-                        "cbc:Description": "Medidas medioambientales",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Medidas pasivas encaminadas a un mejor comportmiento energ\u00e9tico del edificio",
                         "cbc:WeightNumeric": "30"
                     }
                 ]
@@ -180,11 +220,11 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2019-01-14",
+                "cbc:EndDate": "2019-01-23",
                 "cbc:EndTime": "14:00:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-01-14",
+                "cbc:EndDate": "2019-01-23",
                 "cbc:EndTime": "14:00:00",
                 "cbc:Description": "Las ofertas se presentar\u00e1n en el negociado de Contrataci\u00f3n del Distrito de Tetu\u00e1n. c/ Bravo Murillo, 357 (entrada por c/ Simancas 6)"
             }
@@ -288,9 +328,39 @@
                         "cbc:DocumentHash": "4nM53dIuhkkd+vMPpmBKIifeNWU="
                     }
                 }
+            },
+            {
+                "cbc:ID": "2018-11-06_Mercado de San Enrique FINAL rev9.bc3",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1cc953e0-2dda-4d69-9266-a89ef8af5a63",
+                        "cbc:DocumentHash": "jKPfbXTh5CwrXQr3a0QK9FaJIJ4="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Memoria.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=125bd67f-8c07-441f-84ec-f8eac41dc1cf",
+                        "cbc:DocumentHash": "T4o2+cS2odxryRe8Fr8fZ65ntYg="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-20"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -298,9 +368,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-18"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-08"
+                        }
+                    ]
                 }
             },
             {
@@ -310,9 +385,20 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-18"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-30"
+                        }
+                    ]
                 }
             }
         ]

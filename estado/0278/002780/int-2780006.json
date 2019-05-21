@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: FEI18 015; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda Delegada de Fomento Extreme\u00f1o de Infraestructuras Industriales, S.A.U; Importe: 76994.54 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: FEI18 015; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda Delegada de Fomento Extreme\u00f1o de Infraestructuras Industriales, S.A.U; Importe: 76994.54 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n para la Ejecuci\u00f3n de las obras de reforma, instalaciones y actividad para centro de elaboraci\u00f3n de comidas.",
-    "updated": "2018-12-18T14:33:37.619+01:00",
+    "updated": "2019-05-20T14:13:50.328+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "FEI18 015",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -140,6 +140,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Propuesto como mejor valorado",
+            "cbc:AwardDate": "2019-05-20",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "76994.54"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B10373769"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ALAGON, OBRAS, SERVICIOS Y MEDIOAMBIENTE SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "76994.54"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "93163.39"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -175,16 +215,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "78"
-                    },
-                    {
                         "cbc:Description": "Otros criterios cuantificables de forma autom\u00e1tica",
                         "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Criterios de valoraci\u00f3n cuantificables mediante la emisi\u00f3n de un juicio de valor",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "78"
                     }
                 ]
             },
@@ -251,9 +291,35 @@
                         "cbc:DocumentHash": "zRAepB5xO6bc+U7lqb854rWSCIc="
                     }
                 }
+            },
+            {
+                "cbc:ID": "FEI18 015 ANEXOS II a V.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f28ddeae-50de-4365-b385-27e29c71f6a3",
+                        "cbc:DocumentHash": "pPke1aijul4YBbtbXeu5nFd5jc0="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-20"
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -267,6 +333,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-12-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-08"
                         }
                     ]
                 }

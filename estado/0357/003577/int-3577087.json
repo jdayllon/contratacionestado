@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Blanca; Importe: 30000 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: 2/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Blanca; Importe: 30000 EUR; Estado: PUB"
     },
     "title": "Festejos Taurinos del Ayuntamiento de Blanca 2019.",
-    "updated": "2019-05-13T13:56:15.532+02:00",
+    "updated": "2019-05-20T14:17:44.927+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -95,10 +95,97 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:StartDate": "2019-08-10",
+                "cbc:EndDate": "2019-08-16"
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
+                },
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                        "#text": "OSR-COMPTASK"
+                    },
+                    "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos realizados de igual o similar naturaleza que los que constituyen el objeto del contrato en el curso de como m\u00e1ximo los tres \u00faltimos a\u00f1os, en los t\u00e9rminos previstos en los PCAP."
+                },
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Volumen anual de negocios en el \u00e1mbito del contrato referido al menos a los tres \u00faltimos ejercicios."
+                },
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    }
+                ]
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Memoria",
+                        "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Por ganader\u00edas propuestas.",
+                        "cbc:WeightNumeric": "12"
+                    },
+                    {
+                        "cbc:Description": "Por diferencia de encastes.",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Mejora precio de las entradas.",
+                        "cbc:WeightNumeric": "19"
+                    },
+                    {
+                        "cbc:Description": "Por novilleros propuestos.",
+                        "cbc:WeightNumeric": "16"
+                    },
+                    {
+                        "cbc:Description": "Mejora incremento de festejos.",
+                        "cbc:WeightNumeric": "19"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -111,19 +198,177 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-06-04",
+                "cbc:EndTime": "23:59:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-13"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "Pliegos Clausulas Administrativas Particulares.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c2d0f31a-8a92-4bdc-873f-1024edd6c7b3",
+                    "cbc:DocumentHash": "UHbXFbSGh3Uj1BeA4HYHIweiASM="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "Pliegos Prescripciones Tecnicas.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=171842a0-17a4-48e8-b143-920a0006c9a5",
+                    "cbc:DocumentHash": "Rp9m6sOeDJZ5pGNZ+qyxgkm2iZY="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "Anexo VI.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0c2f327a-9111-472b-9b00-1cfea5ce1c59",
+                        "cbc:DocumentHash": "9AyLXsckMeeaIbLbsuCnSbMW+Xg="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo V.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=778971e9-2fd2-4b6e-b107-5e66f93f7e36",
+                        "cbc:DocumentHash": "+EZmDVHAUr8lLvifhMTP5aB8LaE="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo IX.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=12267eb5-72d7-4ed2-9013-bcaec9e9bed1",
+                        "cbc:DocumentHash": "0EZ7e9SXCyX1K3ZfcerwtLxygS0="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo XII.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bb151afe-53b3-40bd-a4dd-b02fdd23b7d7",
+                        "cbc:DocumentHash": "s0IfXeUbyQKAxf48+VVe8gGHY0M="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo IV.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4707c321-15ba-439d-aff9-f87b8d1bcb8d",
+                        "cbc:DocumentHash": "Qas/3Oto6wtDq61szLaRKyvNjws="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo XI.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9f4578eb-7d7e-46de-8a8e-f00ca61148aa",
+                        "cbc:DocumentHash": "z6I5XsTweNZVF405C5CeAqpOz5Q="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo III.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2db90040-b67b-4b03-859c-0359763a86cb",
+                        "cbc:DocumentHash": "TSZqDg8hOmX5ePjYUIDdZtr7gGs="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo X.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b171e7ad-0958-44f5-8e61-53e821caabf2",
+                        "cbc:DocumentHash": "M6Ii3VvCFSBGvAW8KbXKk36LkOg="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo II.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=af3294c7-03cd-450f-a9c9-279d3e707563",
+                        "cbc:DocumentHash": "S2Kkk22bfdUbsOL5bAYphFtKZdQ="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo VIII.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=3b5cd166-6150-48af-a2ed-7ae5caa89745",
+                        "cbc:DocumentHash": "lIP+zGQL+kBlp8n+rYvgHkU8GLE="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo I.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f3f301d8-da09-4ea4-a87b-1ab8b58bd5fd",
+                        "cbc:DocumentHash": "wwjxQUfZO1VPrKevYCaXlgu1P/Q="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Anexo VII.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=701cb976-4060-4956-a72e-fda39fdac6a4",
+                        "cbc:DocumentHash": "+Zjxzq1QGjeMY+gzYW+C9q3Q+yw="
+                    }
+                }
+            }
+        ],
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-20"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-13"
+                    }
+                }
+            }
+        ]
     }
 }

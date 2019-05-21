@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 141/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Faura; Importe: 4122.5 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 141/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Faura; Importe: 4122.5 EUR; Estado: ADJ"
     },
     "title": "Servei extern de prevenci\u00f3 de riscs laborals i vigil\u00e0ncia de la salut",
-    "updated": "2019-04-18T13:32:23.175+02:00",
+    "updated": "2019-05-20T14:20:13.546+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "141/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -119,22 +119,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "L'oferta amb millor puntuaci\u00f3 global",
+            "cbc:AwardDate": "2019-05-20",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "2820"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "3700"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B97754915"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "UNIMAT PREVENCION S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2820"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "3030"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -146,26 +174,38 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criteris de Qualitat",
-                        "cbc:WeightNumeric": "25"
-                    },
-                    {
                         "cbc:Description": "Criteri de cost",
                         "cbc:WeightNumeric": "50"
                     },
                     {
-                        "cbc:Description": "Millores proximitat centres salut",
-                        "cbc:WeightNumeric": "5"
+                        "cbc:Description": "Criteris de Qualitat",
+                        "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Millores formacio",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Millores proximitat centres salut",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -230,6 +270,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-20"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
