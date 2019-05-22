@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 208/C003/000009; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Concello de Santa Comba; Importe: 84800.05 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 208/C003/000009; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Concello de Santa Comba; Importe: 84800.05 EUR; Estado: ADJ"
     },
     "title": "Mejora del firme y se\u00f1alizaci\u00f3n de las r\u00faas Pai Eliseo, Antonio Amigo y Poeta A\u00f1\u00f3n (POS adicional 1/2018 Diputaci\u00f3n A Coru\u00f1a)",
-    "updated": "2019-01-09T02:19:15.198+01:00",
+    "updated": "2019-05-21T21:07:09.424+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "208/C003/000009",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -127,6 +127,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mellor oferta (relaci\u00f3n calidade-prezo).",
+            "cbc:AwardDate": "2019-05-15",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "b15261308"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Construcciones J. Mauri e hijos, s.l."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "75650.12"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "91536.6"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -156,8 +188,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Incremento prazo garant\u00eda",
-                        "cbc:WeightNumeric": "60"
+                        "cbc:Description": "Plano control de calidade",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Plano de igualdade",
@@ -168,20 +204,16 @@
                         "cbc:WeightNumeric": "2"
                     },
                     {
+                        "cbc:Description": "Esquema plano de seguridade e sa\u00fade",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
                         "cbc:Description": "Programa de traballo",
                         "cbc:WeightNumeric": "19"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Plano control de calidade",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Esquema plano de seguridade e sa\u00fade",
-                        "cbc:WeightNumeric": "2"
+                        "cbc:Description": "Incremento prazo garant\u00eda",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -220,12 +252,24 @@
             "cbc:ID": "POS18 Prox Pai Eliseo.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=67070340-712b-48b5-8dd8-48c999c667b2",
-                    "cbc:DocumentHash": "avZyvmJ9Bz+746d1p3REOYYX7wI="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=756839b9-6e32-4b59-9b79-554fd74608d7",
+                    "cbc:DocumentHash": "ZkzUTXcRWuqN0DhZRSPMb9gFBB0="
                 }
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-21"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 15/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Cuenca; Importe: 117072.53 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 15/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Cuenca; Importe: 117072.53 EUR; Estado: ADJ"
     },
     "title": "Conexi\u00f3n peatonal entre la Av. de San Juli\u00e1n y la Av. de la Cruz Roja (tramo antigua Ctra. de Madrid) a trav\u00e9s de la C/ Santo Tom\u00e1s en Cuenca.",
-    "updated": "2019-02-20T14:18:42.742+01:00",
+    "updated": "2019-05-21T14:46:28.911+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "15/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Retirada la oferta por la entidad clasificada en primer lugar, siguiente mejor oferta clasificada atendiendo a la mejor relaci\u00f3n calidad/precio, conforme a los informes publicados en el Perfil de Contratante Municipal y en la Plataforma de Contrataci\u00f3n del Sector P\u00fablico",
+            "cbc:AwardDate": "2019-05-20",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A16134629"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "\u00c1LVARO VILLAESCUSA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "117072.53"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "141657.76"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "true",
@@ -115,14 +147,14 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -161,7 +193,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "AUMENTO PLAZO GARANT\u00cdA.",
+                        "cbc:Description": "MEJORA DE SE\u00d1ALIZACI\u00d3N Y BALIZAMIENTO",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "SISTEMA GESTI\u00d3N CALIDAD.",
+                        "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "SISTEMA GESTI\u00d3N MEDIOAMBIENTAL.",
                         "cbc:WeightNumeric": "6"
                     },
                     {
@@ -169,15 +209,7 @@
                         "cbc:WeightNumeric": "21"
                     },
                     {
-                        "cbc:Description": "SISTEMA GESTI\u00d3N CALIDAD.",
-                        "cbc:WeightNumeric": "6"
-                    },
-                    {
-                        "cbc:Description": "MEJORA DE SE\u00d1ALIZACI\u00d3N Y BALIZAMIENTO",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "SISTEMA GESTI\u00d3N MEDIOAMBIENTAL.",
+                        "cbc:Description": "AUMENTO PLAZO GARANT\u00cdA.",
                         "cbc:WeightNumeric": "6"
                     },
                     {
@@ -247,6 +279,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-21"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
