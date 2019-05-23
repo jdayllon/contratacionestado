@@ -1,20 +1,20 @@
 {
     "id": "https://contrataciondelestado.es/sindicacion/PlataformasAgregadasSinMenores/3512357",
     "link": {
-        "@href": "https://hacienda.navarra.es/sicpportal/mtoAnunciosModalidad.aspx?cod=190429170510F5CA579A"
+        "@href": "https://hacienda.navarra.es/sicpportal/ctaDatosAdjudicacion.aspx?cod=2004&Ticket=1905221611363E40BF33"
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2004_OM 03/19; \u00d3rgano de Contrataci\u00f3n: Navarra de Infraestructuras Locales, S.A. (NILSA) ; Importe: 19834,71 EUR; Estado: En Plazo"
+        "#text": "Id licitaci\u00f3n: 2004_OM 03/19; \u00d3rgano de Contrataci\u00f3n: Navarra de Infraestructuras Locales, S.A. (NILSA) ; Importe: 19834,71 EUR; Estado: Adjudicada"
     },
     "title": "Suministro de un veh\u00edculo tipo furg\u00f3n",
-    "updated": "2019-04-30T01:00:15.831+02:00",
+    "updated": "2019-05-22T22:00:05.390+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2004_OM 03/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,27 +64,68 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A31825466"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SAGAMOVIL, S.A.U"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19830.57"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
-            },
-            "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-05-14",
-                "cbc:EndTime": "10:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-04-30"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-14"
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-04-30"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-22"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 18/2019; \u00d3rgano de Contrataci\u00f3n: Alcalde del Ayuntamiento de Plenas; Importe: 60421.99 EUR; Estado: PUB"
     },
     "title": "Fase 1. Separata PLUS 2018. L\u00edneas de Media y Baja Tensi\u00f3n Suministro El\u00e9ctrico Albergue \"El Carrascal\" en Plenas (Zaragoza",
-    "updated": "2019-05-10T23:11:21.339+02:00",
+    "updated": "2019-05-22T14:02:19.016+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -90,6 +90,7 @@
                     "#text": "ES243"
                 },
                 "cac:Address": {
+                    "cbc:CityName": "PLENAS",
                     "cac:Country": {
                         "cbc:IdentificationCode": {
                             "@listURI": "http://docs.oasis-open.org/ubl/os-ubl-2.0/cl/gc/default/CountryIdentificationCode-2.0.gc",
@@ -102,11 +103,17 @@
             "cac:PlannedPeriod": {
                 "cbc:StartDate": "2019-05-27",
                 "cbc:EndDate": "2019-06-29"
+            },
+            "cac:ContractExtension": {
+                "cac:OptionValidityPeriod": {
+                    "cbc:Description": "NINGUNA"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
+            "cbc:PriceRevisionFormulaDescription": "NO",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": {
                     "cbc:RequirementTypeCode": {
@@ -114,6 +121,9 @@
                         "#text": "1"
                     }
                 }
+            },
+            "cac:AllowedSubcontractTerms": {
+                "cbc:Description": "LAS PREVISTAS EN LA LEGISLACI\u00d3N"
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
@@ -142,12 +152,18 @@
             },
             "cac:DocumentAvailabilityPeriod": {
                 "cbc:EndDate": "2019-05-22",
-                "cbc:EndTime": "11:38:00"
+                "cbc:EndTime": "20:38:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-05-22",
+                "cbc:EndDate": "2019-05-24",
                 "cbc:EndTime": "19:00:00",
                 "cbc:Description": "Fase 1. Separata PLUS 2018. L\u00edneas de Media y Baja Tensi\u00f3n Suministro El\u00e9ctrico Albergue \"El Carrascal\" en Plenas (Zaragoza"
+            },
+            "cac:EconomicOperatorShortList": {
+                "cbc:LimitationDescription": "LIBRE ACCESO",
+                "cbc:ExpectedQuantity": "7",
+                "cbc:MaximumQuantity": "15",
+                "cbc:MinimumQuantity": "3"
             }
         },
         "cac:LegalDocumentReference": {
@@ -168,17 +184,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-22"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-10"
+                    }
                 }
             }
-        }
+        ]
     }
 }

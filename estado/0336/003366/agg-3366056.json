@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: CONTR 2019 0000052282; \u00d3rgano de contrataci\u00f3n: Patronato de la Alhambra y Generalife; Importe: 201.003,50 \u20ac;"
     },
     "title": "Servicios para exposici\u00f3n ?Sombrero de Tres Picos.1919-2019\" (3 lotes)",
-    "updated": "2019-05-16T15:41:32.297+02:00",
+    "updated": "2019-05-22T16:41:52.181+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CONTR 2019 0000052282",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -45,26 +45,12 @@
                     "#text": "201003.5"
                 }
             },
-            "cac:RequiredCommodityClassification": [
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "39154000"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45255400"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "45420000"
-                    }
+            "cac:RequiredCommodityClassification": {
+                "cbc:ItemClassificationCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                    "#text": "60000000"
                 }
-            ],
+            },
             "cac:RealizedLocation": {
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
@@ -74,37 +60,66 @@
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
                     "@unitCode": "DAY",
-                    "#text": "108"
+                    "#text": "96"
                 }
             }
         },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:ReceivedTenderQuantity": "1",
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "B81923831"
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B81923831"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "MONTAJES HORCHE SL"
                     }
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "MONTAJES HORCHE SL"
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "116908.1"
+                        }
+                    }
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "116908.1"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:ReceivedTenderQuantity": "1",
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B41056193"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "AMADO MIGUEL TRANSPORTE INTERNACIONALESSL"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "3",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "35640"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -135,9 +150,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-16"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-16"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-22"
+                        }
+                    ]
                 }
             }
         ]

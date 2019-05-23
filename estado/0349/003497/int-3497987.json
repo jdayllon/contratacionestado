@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: Sa-11/19; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Aut\u00f3noma de Madrid; Importe: 25894 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: Sa-11/19; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Aut\u00f3noma de Madrid; Importe: 25894 EUR; Estado: ADJ"
     },
     "title": "Suministro e instalaci\u00f3n de una (1) vitrina de gases y montaje e instalaci\u00f3n de una (1) vitrina extractora de gases (ya adquirida), en el m\u00f3dulo 4 de la Facultad de Ciencias de la Universidad Aut\u00f3noma de Madrid",
-    "updated": "2019-04-24T18:51:28.406+02:00",
+    "updated": "2019-05-22T14:27:14.117+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "Sa-11/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,10 +106,48 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se considera que la oferta presentada por la empresa ROMERO MUEBLES DE LABORATORIO S.A. es ventajosa para la universidad conforme los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares que rige para esta contrataci\u00f3n.",
+            "cbc:AwardDate": "2019-05-22",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28476547"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ROMERO MUEBLES DE LABORATORIO S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "20340"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "24611.4"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -121,24 +159,18 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "65"
-                    },
-                    {
                         "cbc:Description": "Reducci\u00f3n plazo de entrega",
                         "cbc:WeightNumeric": "35"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "65"
                     }
                 ]
             },
@@ -179,6 +211,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-22"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
