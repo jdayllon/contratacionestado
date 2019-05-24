@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 5.2.1/19; \u00d3rgano de Contrataci\u00f3n: Oficina de Calidad Alimentaria; Importe: 289.26 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 5.2.1/19; \u00d3rgano de Contrataci\u00f3n: Oficina de Calidad Alimentaria; Importe: 289.26 EUR; Estado: RES"
     },
     "title": "Suministro de energ\u00eda el\u00e9ctrica para la Oficina de Calidad Alimentaria.",
-    "updated": "2019-02-19T15:55:51.285+01:00",
+    "updated": "2019-05-23T14:43:31.752+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "5.2.1/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -142,6 +142,10 @@
                 "@currencyID": "EUR",
                 "#text": "289.26"
             },
+            "cac:Contract": {
+                "cbc:ID": "5.2.1/19",
+                "cbc:IssueDate": "2019-02-19"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -186,17 +190,31 @@
                 "#text": "3"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-19"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-19"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-23"
+                    }
                 }
             }
-        }
+        ]
     }
 }

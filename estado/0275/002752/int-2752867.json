@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1198/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Portuaria de Pasaia; Importe: 4758864.72 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1198/2018; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Portuaria de Pasaia; Importe: 4758864.72 EUR; Estado: ADJ"
     },
     "title": "Obras del Proyecto de \u201cEdificio de pabellones industriales parcela ic.4.3. \u00e1rea 4\n\u2013 Herrera Sur Puerto de Pasaia (Gipuzkoa)\u201d",
-    "updated": "2018-12-22T09:31:16.593+01:00",
+    "updated": "2019-05-23T13:49:50.735+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1198/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor valorado",
+            "cbc:AwardDate": "2019-05-23",
+            "cbc:ReceivedTenderQuantity": "6",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "4472966"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "4654645.57"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A48820229"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "IZA OBRAS Y PROMOCIONES S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "4601476.03"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "5567785.99"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -124,10 +164,10 @@
                             "cbc:CodeValue": "A1-2"
                         },
                         {
-                            "cbc:CodeValue": "B3-4"
+                            "cbc:CodeValue": "C2-4"
                         },
                         {
-                            "cbc:CodeValue": "C2-4"
+                            "cbc:CodeValue": "B3-4"
                         }
                     ]
                 },
@@ -149,12 +189,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
                         }
                     },
@@ -173,6 +207,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "8"
                         }
                     },
@@ -185,7 +225,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "9"
                         }
                     }
                 ]
@@ -262,9 +302,14 @@
                 "cac-place-ext:AdditionalPublicationStatus": [
                     {
                         "cbc-place-ext:PublicationMediaName": "BOE",
-                        "cac-place-ext:AdditionalPublicationDocumentReference": {
-                            "cbc:IssueDate": "2018-12-15"
-                        }
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2018-12-15"
+                            },
+                            {
+                                "cbc:IssueDate": "2018-12-24"
+                            }
+                        ]
                     },
                     {
                         "cbc-place-ext:PublicationMediaName": "DOUE",
@@ -282,6 +327,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-23"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -292,6 +349,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-12-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-15"
                         }
                     ]
                 }
@@ -309,6 +369,9 @@
                         },
                         {
                             "cbc:IssueDate": "2018-12-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-15"
                         }
                     ]
                 }

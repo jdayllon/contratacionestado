@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 20180123; \u00d3rgano de Contrataci\u00f3n: Gerencia del Palacio de Congresos de Valencia; Importe: 500000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 20180123; \u00d3rgano de Contrataci\u00f3n: Gerencia del Palacio de Congresos de Valencia; Importe: 500000 EUR; Estado: ADJ"
     },
     "title": "Contrataci\u00f3n del servicio de mantenimiento del sistema inform\u00e1tico del Palacio de Congresos de Val\u00e8ncia",
-    "updated": "2019-02-12T14:17:25.801+01:00",
+    "updated": "2019-05-23T17:56:49.741+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "20180123",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Revisar informe t\u00e9cnico de Contrataci\u00f3n del Servicio de Mantenimiento del Sistema Inform\u00e1tico del Edificio",
+            "cbc:AwardDate": "2019-03-27",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B98535438"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CIVIRED"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "125000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "151250"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -131,13 +163,6 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Formaci\u00f3n, titulaci\u00f3n y experiencia del personal de los t\u00e9cnicos inform\u00e1ticos"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
-                        },
                         "cbc:Description": "Justificante de la existencia de un seguro de responsabilidad civil por riesgos profesionales por valor de 300.000 \u20ac calculado en base al volumen de facturaci\u00f3n anual."
                     },
                     {
@@ -145,7 +170,7 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Formaci\u00f3n, titulaci\u00f3n y experiencia del responsable principal"
+                        "cbc:Description": "Antig\u00fcedad y experiencia empresarial"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -159,7 +184,14 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "ZZZ"
                         },
-                        "cbc:Description": "Antig\u00fcedad y experiencia empresarial"
+                        "cbc:Description": "Formaci\u00f3n, titulaci\u00f3n y experiencia del responsable principal"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "ZZZ"
+                        },
+                        "cbc:Description": "Formaci\u00f3n, titulaci\u00f3n y experiencia del personal de los t\u00e9cnicos inform\u00e1ticos"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -173,12 +205,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "MENOR PRECIO OFERTADO",
-                        "cbc:WeightNumeric": "35"
-                    },
-                    {
                         "cbc:Description": "MEMORIA TECNICA",
                         "cbc:WeightNumeric": "65"
+                    },
+                    {
+                        "cbc:Description": "MENOR PRECIO OFERTADO",
+                        "cbc:WeightNumeric": "35"
                     }
                 ]
             },
@@ -223,6 +255,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-23"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
