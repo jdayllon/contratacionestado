@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.18/27507.0129; \u00d3rgano de Contrataci\u00f3n: ADIF - Consejo de Administraci\u00f3n; Importe: 6012542.55 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 3.18/27507.0129; \u00d3rgano de Contrataci\u00f3n: ADIF - Consejo de Administraci\u00f3n; Importe: 6012542.55 EUR; Estado: RES"
     },
     "title": "Ejecuci\u00f3n de las obras del proyecto constructivo para la adaptaci\u00f3n de la l\u00ednea sagunto-teruel-zaragoza para la circulaci\u00f3n de trenes de mercanc\u00edas de 750 m de longitud.",
-    "updated": "2018-08-10T08:05:16.190+02:00",
+    "updated": "2019-05-27T21:01:52.508+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.18/27507.0129",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -22,7 +22,7 @@
                 "#text": "4"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.adif.es/es_ES/empresas_servicios/licitaciones/licitaciones.shtml",
+                "cbc:WebsiteURI": "http://www.adif.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Ejecuci\u00f3n de las obras del proyecto constructivo para la adaptaci\u00f3n de la l\u00ednea sagunto-teruel-zaragoza para la circulaci\u00f3n de trenes de mercanc\u00edas de 750 m de longitud.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -113,16 +113,52 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-03-29",
+            "cbc:ReceivedTenderQuantity": "9",
+            "cac:Contract": {
+                "cbc:ID": "3.18/27507.0129/1",
+                "cbc:IssueDate": "2019-04-26"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A33014218"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONTRATAS Y VENTAS SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "5832511"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7057338.31"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:TendererQualificationRequest": {
                 "cac:RequiredBusinessClassificationScheme": {
                     "cbc:ID": "RequiredBusinessProfileCode",
                     "cac:ClassificationCategory": [
                         {
-                            "cbc:CodeValue": "D1-5"
+                            "cbc:CodeValue": "B2-4"
                         },
                         {
-                            "cbc:CodeValue": "B2-4"
+                            "cbc:CodeValue": "D1-5"
                         }
                     ]
                 }
@@ -130,12 +166,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "CRITERIOS NO EVALUABLES MEDIANTE F\u00d3RMULAS",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
                         "cbc:Description": "CRITERIOS EVALUABLES MEDIANTE F\u00d3RMULAS",
                         "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "CRITERIOS NO EVALUABLES MEDIANTE F\u00d3RMULAS",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -234,6 +270,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -252,6 +300,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2018-08-06"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
                     }
                 }
             }

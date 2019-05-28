@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 004.HT.2019;  \u00d3rgano de Contrataci\u00f3n: Dos Consejeros/as o un Consejero/a y Director/a - ITELAZPI, S.A.;  Importe: 1168000.00EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: 004.HT.2019;  \u00d3rgano de Contrataci\u00f3n: Dos Consejeros/as o un Consejero/a y Director/a - ITELAZPI, S.A.;  Importe: 1168000.00EUR;  Estado: ADJ"
     },
     "title": "004.HT.2019: Renovaci\u00f3n de la Red de Contribuci\u00f3n de V\u00eddeo con compresi\u00f3n de ITELAZPI, S.A.",
-    "updated": "2019-03-13T22:55:38.882+01:00",
+    "updated": "2019-05-27T14:25:55.884+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "004.HT.2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -58,12 +58,38 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
-                    "#text": "ES213"
+                    "#text": "ES21"
                 }
             },
             "cac:PlannedPeriod": {
                 "cbc:StartDate": "2019-05-01",
                 "cbc:EndDate": "2021-12-31"
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A79534384"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AICOX SOLUCIONES, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1168000"
+                    }
+                }
             }
         },
         "cac:TenderingProcess": {
@@ -92,17 +118,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-01-25"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "DOUE",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-01-25"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
+                    }
                 }
             }
-        }
+        ]
     }
 }

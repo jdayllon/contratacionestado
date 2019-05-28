@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019014SUMASA; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Rey Juan Carlos; Importe: 18600 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2019014SUMASA; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Rey Juan Carlos; Importe: 18600 EUR; Estado: ADJ"
     },
     "title": "Suministro e instalaci\u00f3n de un secador de lecho fluidizado en la Universidad Rey Juan Carlos",
-    "updated": "2019-04-01T16:42:04.843+02:00",
+    "updated": "2019-05-27T18:02:14.702+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019014SUMASA",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -97,10 +97,56 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor calidad-precio",
+            "cbc:AwardDate": "2019-05-27",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "19341.85"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "20497.4"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28745495"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ELIAS JADRAQUE, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "15985"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "19341.85"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -110,13 +156,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         }
                     },
                     {
@@ -128,7 +168,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
                         }
                     }
                 ]
@@ -136,20 +176,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "sistema de distribuci\u00f3n extra\u00edble",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Control mediante temporizador",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Sistema de retenci\u00f3n de part\u00edculas",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "sistema de distribuci\u00f3n extra\u00edble",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "precio",
                         "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "Control mediante temporizador",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -190,6 +230,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

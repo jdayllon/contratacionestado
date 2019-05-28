@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 20190124-00055 ; \u00d3rgano de Contrataci\u00f3n: Ineco-Direcci\u00f3n Corporativa; Importe: 35000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 20190124-00055 ; \u00d3rgano de Contrataci\u00f3n: Ineco-Direcci\u00f3n Corporativa; Importe: 35000 EUR; Estado: RES"
     },
     "title": "Servicio de desarrollo de evolutivos software de la aplicaci\u00f3n Efidelius v6 mediante procedimiento negociado sin publicidad",
-    "updated": "2019-02-28T16:55:02.857+01:00",
+    "updated": "2019-05-27T16:21:37.813+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "20190124-00055",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -48,8 +48,8 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Ineco-Direcci\u00f3n Corporativa",
-                    "cbc:Telephone": "914526767",
-                    "cbc:ElectronicMail": "elh@ineco.com"
+                    "cbc:Telephone": "914521200",
+                    "cbc:ElectronicMail": "ofertas@ineco.com"
                 }
             }
         },
@@ -114,6 +114,42 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta mejor valorada t\u00e9cnica y econ\u00f3micamente.",
+            "cbc:AwardDate": "2019-03-14",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "4500019636",
+                "cbc:IssueDate": "2019-03-14"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B87709341"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CORE GRID S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "34400"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "41624"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -135,19 +171,25 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "3"
                         },
-                        "cbc:Description": "Declaraci\u00f3n responsable del conocimiento del Cat\u00e1logo de Conductas Prohibidas ubicado en Perfil del Contratante en la p\u00e1gina web de Ineco"
+                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 8 del pliego de condiciones particulares"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 8 del pliego de condiciones particulares"
+                        "cbc:Description": "Declaraci\u00f3n responsable del conocimiento del Cat\u00e1logo de Conductas Prohibidas ubicado en Perfil del Contratante en la p\u00e1gina web de Ineco"
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
+                        }
+                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -170,12 +212,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     }
                 ]
@@ -235,6 +271,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -261,6 +309,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
                     }
                 }
             }

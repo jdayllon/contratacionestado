@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 20190130-00083; \u00d3rgano de Contrataci\u00f3n: Ineco-Direcci\u00f3n Corporativa; Importe: 600000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 20190130-00083; \u00d3rgano de Contrataci\u00f3n: Ineco-Direcci\u00f3n Corporativa; Importe: 600000 EUR; Estado: RES"
     },
     "title": "Acuerdo marco de servicios de topograf\u00eda en Cantabria, Pais Vasco, Navarra y La Rioja",
-    "updated": "2019-03-29T14:05:07.283+01:00",
+    "updated": "2019-05-27T16:42:00.377+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "20190130-00083",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -48,8 +48,8 @@
                 },
                 "cac:Contact": {
                     "cbc:Name": "Ineco-Direcci\u00f3n Corporativa",
-                    "cbc:Telephone": "914522812",
-                    "cbc:ElectronicMail": "ana.urgoiti@ineco.com"
+                    "cbc:Telephone": "914521200",
+                    "cbc:ElectronicMail": "ofertas@ineco.com"
                 }
             }
         },
@@ -129,6 +129,46 @@
                 "cbc:Description": "Por ser las ofertas mejor valoradas t\u00e9cnica y econ\u00f3micamente",
                 "cbc:AwardDate": "2019-03-28",
                 "cbc:ReceivedTenderQuantity": "6",
+                "cac:Contract": {
+                    "cbc:ID": "1453",
+                    "cbc:IssueDate": "2019-03-29"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B15909443"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "GEOIDE INGENIER\u00cdA S.L"
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "200000"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "242000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Por ser las ofertas mejor valoradas t\u00e9cnica y econ\u00f3micamente",
+                "cbc:AwardDate": "2019-03-28",
+                "cbc:ReceivedTenderQuantity": "6",
+                "cac:Contract": {
+                    "cbc:ID": "1453",
+                    "cbc:IssueDate": "2019-03-29"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -161,6 +201,10 @@
                 "cbc:Description": "Por ser las ofertas mejor valoradas t\u00e9cnica y econ\u00f3micamente",
                 "cbc:AwardDate": "2019-03-28",
                 "cbc:ReceivedTenderQuantity": "6",
+                "cac:Contract": {
+                    "cbc:ID": "1453",
+                    "cbc:IssueDate": "2019-03-29"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -184,44 +228,26 @@
                         }
                     }
                 }
-            },
-            {
-                "cbc:ResultCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                    "#text": "8"
-                },
-                "cbc:Description": "Por ser las ofertas mejor valoradas t\u00e9cnica y econ\u00f3micamente",
-                "cbc:AwardDate": "2019-03-28",
-                "cbc:ReceivedTenderQuantity": "6",
-                "cac:WinningParty": {
-                    "cac:PartyIdentification": {
-                        "cbc:ID": {
-                            "@schemeName": "NIF",
-                            "#text": "B15909443"
-                        }
-                    },
-                    "cac:PartyName": {
-                        "cbc:Name": "GEOIDE INGENIER\u00cdA S.L"
-                    }
-                },
-                "cac:AwardedTenderedProject": {
-                    "cac:LegalMonetaryTotal": {
-                        "cbc:TaxExclusiveAmount": {
-                            "@currencyID": "EUR",
-                            "#text": "200000"
-                        },
-                        "cbc:PayableAmount": {
-                            "@currencyID": "EUR",
-                            "#text": "242000"
-                        }
-                    }
-                }
             }
         ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-MEDIOS"
+                        },
+                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 3.2 del pliego de condiciones particulares"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 3.1 del pliego de condiciones particulares"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -235,29 +261,15 @@
                             "#text": "XXR-SUBCONT"
                         },
                         "cbc:Description": "Seg\u00fan lo establecido en el apartado 4 del pliego de condiciones particulares"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 3.1 del pliego de condiciones particulares"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-MEDIOS"
-                        },
-                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 3.2 del pliego de condiciones particulares"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 8 del pliego de condiciones particulares"
+                        "cbc:Description": "Declaraci\u00f3n responsable del conocimiento del Cat\u00e1logo de Conductas Prohibidas ubicado en Perfil del Contratante en la p\u00e1gina web de Ineco."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
@@ -269,22 +281,22 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "3"
                         },
-                        "cbc:Description": "Declaraci\u00f3n responsable del conocimiento del Cat\u00e1logo de Conductas Prohibidas ubicado en Perfil del Contratante en la p\u00e1gina web de Ineco."
+                        "cbc:Description": "Seg\u00fan lo establecido en el apartado 8 del pliego de condiciones particulares"
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
@@ -296,7 +308,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "4"
                         }
                     },
                     {
@@ -310,16 +322,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Criterios sociales y medioambientales",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
                         "cbc:Description": "Experiencia adicional de cada ingeniero t\u00e9cnico en topograf\u00eda asignado al proyecto",
                         "cbc:WeightNumeric": "25"
                     },
                     {
                         "cbc:Description": "Inclusi\u00f3n de equipos adicionales en la oferta",
                         "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Criterios sociales y medioambientales",
-                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Valoraci\u00f3n econ\u00f3mica",
@@ -417,6 +429,18 @@
                             "cbc:IssueDate": "2019-03-01"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
+                    }
                 }
             }
         ]

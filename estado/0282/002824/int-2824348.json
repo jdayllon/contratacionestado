@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 411/18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Santander; Importe: 0 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 411/18; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Santander; Importe: 0 EUR; Estado: RES"
     },
     "title": "Tratamiento del Conjunto Patrimonial de la Catedral de Santander y Cerro de Somorrostro",
-    "updated": "2019-01-07T17:05:43.615+01:00",
+    "updated": "2019-05-27T17:29:13.801+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "411/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -111,6 +111,42 @@
                 "cbc:OptionsDescription": "No hay prorrogas definidas"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por resultar la oferta mejor valorada en el procedimiento abierto para contratar las obras de Tratamiento del Conjunto patrimonial de la Catedral de Santander y Cerro de Somorrostro",
+            "cbc:AwardDate": "2019-05-14",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:Contract": {
+                "cbc:ID": "411/18-1",
+                "cbc:IssueDate": "2019-05-24"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A39044912"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SERVICIOS Y OBRAS DEL NORTE, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "703582.49"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "851334.81"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "true",
@@ -133,24 +169,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazo de garantia",
-                        "cbc:WeightNumeric": "8"
+                        "cbc:Description": "03. Medidas para reducir el impacto de la obra",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "01. Programaci\u00f3n de la obra",
                         "cbc:WeightNumeric": "24"
                     },
                     {
+                        "cbc:Description": "02. Memoria constructiva",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Precio Ofertado (baja media)",
                         "cbc:WeightNumeric": "43"
                     },
                     {
-                        "cbc:Description": "03. Medidas para reducir el impacto de la obra",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "02. Memoria constructiva",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "Plazo de garantia",
+                        "cbc:WeightNumeric": "8"
                     }
                 ]
             },
@@ -203,6 +239,23 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-17"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-17"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -221,6 +274,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-01-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
                     }
                 }
             }

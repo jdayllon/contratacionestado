@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: ASE/2019/017; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 34039329.45 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: ASE/2019/017; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n del Ministerio de Justicia; Importe: 34039329.45 EUR; Estado: PUB"
     },
     "title": "Servicios de operaci\u00f3n de las infraestructuras tecnol\u00f3gicas, aplicaciones y servicios, en el \u00e1mbito de la Subdirecci\u00f3n General de Nuevas Tecnolog\u00edas de la Justicia",
-    "updated": "2019-02-14T13:19:42.004+01:00",
+    "updated": "2019-05-27T14:12:36.520+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ASE/2019/017",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -81,6 +81,12 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "72000000"
+                    }
+                },
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "72600000"
                     }
                 },
@@ -88,12 +94,6 @@
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "72260000"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "72000000"
                     }
                 }
             ],
@@ -112,10 +112,77 @@
                         "cbc:Name": "Espa\u00f1a"
                     }
                 }
+            },
+            "cac:PlannedPeriod": {
+                "cbc:DurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                }
             }
         },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
+            "cac:TendererQualificationRequest": {
+                "cac:RequiredBusinessClassificationScheme": {
+                    "cbc:ID": "RequiredBusinessProfileCode",
+                    "cac:ClassificationCategory": {
+                        "cbc:CodeValue": "V3-5"
+                    }
+                },
+                "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSX-CERTCALIDAD"
+                        },
+                        "cbc:Description": "Seg\u00fan lo dispuesto en el apartado 22 c) del cuadro resumen del PCAP"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Seg\u00fan lo dispuesto en el apartado 22 b) del cuadro resumen del PCAP"
+                    }
+                ],
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Seg\u00fan lo dispuesto en el apartado 22 a) del cuadro resumen del PCAP"
+                },
+                "cac:SpecificTendererRequirement": {
+                    "cbc:RequirementTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                        "#text": "1"
+                    }
+                }
+            },
+            "cac:AwardingTerms": {
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Modelo de servicio y gesti\u00f3n",
+                        "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Contrataci\u00f3n indefinida",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Mejora de las horas de personal t\u00e9cnico especializado para proyectos de innovaci\u00f3n y transformaci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Mejora de los a\u00f1os de experiencia de los integrantes del equipo m\u00ednimo respecto a la m\u00ednima requerida",
+                        "cbc:WeightNumeric": "7"
+                    }
+                ]
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -128,19 +195,84 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-06-12",
+                "cbc:EndTime": "19:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-14"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "03 PCAP.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=b0eeca03-793e-4452-9062-e3dbafd6918d",
+                    "cbc:DocumentHash": "X2cozyd+aXpeN71pwuKyFOJtJpA="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "04 PPT.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=89870775-003f-463b-90f5-ccdd88a76c55",
+                    "cbc:DocumentHash": "1cJ5YETFZSUn+9hWf+TucnHKinM="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-15"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-27"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-14"
+                    }
+                }
+            }
+        ]
     }
 }

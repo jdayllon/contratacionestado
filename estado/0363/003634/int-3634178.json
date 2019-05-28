@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 334/2019; \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Xermade; Importe: 2447296 EUR; Estado: PUB"
     },
     "title": "Servizo de Axuda no Fogar do Concello de Xermade",
-    "updated": "2019-05-26T09:31:35.189+02:00",
+    "updated": "2019-05-27T14:48:14.103+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "334/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -144,24 +144,31 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
                         "#text": "1"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
                         "#text": "48945.92"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
                 "cbc:PersonalSituation": "Entidade prestadora de servizos sociais",
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-PLANTILLA"
+                        },
+                        "cbc:Description": "Ver cl\u00e1usula 17 do prego"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -175,27 +182,20 @@
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Ver cl\u00e1usula 17 do prego"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-PLANTILLA"
-                        },
-                        "cbc:Description": "Ver cl\u00e1usula 17 do prego"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": [
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         },
                         "cbc:Description": "Ver cl\u00e1usula 17 do prego"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "3"
                         },
                         "cbc:Description": "Ver cl\u00e1usula 17 do prego"
                     }
@@ -266,17 +266,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-27"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-26"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-26"
+                    }
                 }
             }
-        }
+        ]
     }
 }
