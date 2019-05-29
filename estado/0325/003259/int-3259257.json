@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: OB-06/19 EG; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Polit\u00e9cnica de Madrid; Importe: 123950.74 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: OB-06/19 EG; \u00d3rgano de Contrataci\u00f3n: Rectorado de la Universidad Polit\u00e9cnica de Madrid; Importe: 123950.74 EUR; Estado: ADJ"
     },
     "title": "Obras de rehabilitaci\u00f3n de la cubierta Fase II en la ETSI Caminos, Canales y Puertos",
-    "updated": "2019-02-28T14:39:19.705+01:00",
+    "updated": "2019-05-28T17:05:08.293+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "OB-06/19 EG",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -97,7 +97,40 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Una vez efectuado el estudio de la documentaci\u00f3n aportada justificando los valores anomales de la empresa Busema, se rechaza su oferta y se acepta la propuesta de la empresa INSTALACIONES MADRILE\u00d1AS SECIS, S.L., cuya oferta resulta ser la mas conveniente a los intereses de la Universidad Polit\u00e9cnica de Madrid, para la realizaci\u00f3n del contrato, de acuerdo con la puntuaci\u00f3n alcanzada seg\u00fan los criterios establecidos en el Pliego que rige la licitaci\u00f3n",
+            "cbc:AwardDate": "2019-05-28",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B86075785"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "INSTALACIONES MADRILE\u00d1AS SECIS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "103575.55"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "125326.42"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -125,13 +158,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "3"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         }
                     },
                     {
@@ -143,32 +176,28 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     }
                 ]
             },
             "cac:AllowedSubcontractTerms": {
-                "cbc:Description": "El licitador deber\u00e1 comunicar anticipadamente y por escrito a la Universidad la intenci\u00f3n de celebrar subcontratos"
+                "cbc:Description": "Si. Las prestaciones parciales que el adjudicatario subcontrate con terceros no podr\u00e1n exceder del 30 por 100 del importe de licitaci\u00f3n"
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
-                    {
-                        "cbc:Description": "Garant\u00eda",
-                        "cbc:WeightNumeric": "5"
-                    },
                     {
                         "cbc:Description": "Medios empleados",
                         "cbc:WeightNumeric": "5"
@@ -176,6 +205,10 @@
                     {
                         "cbc:Description": "Mejor conocimiento proyecto",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Garant\u00eda",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Precio",
@@ -220,6 +253,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-28"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

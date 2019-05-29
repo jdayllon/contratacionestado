@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2018/000631-PEA; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Sevilla; Importe: 199000 EUR; Estado: ADJ"
     },
     "title": "servicios de transportes (autobuses) para los desplazamientos de los deportistas  en las actividades organizadas por el \u00e1rea de cultura y ciudadan\u00eda, 2018-2019.",
-    "updated": "2019-02-05T21:15:40.868+01:00",
+    "updated": "2019-05-28T14:07:12.864+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/000631-PEA",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -50,7 +50,7 @@
                     "cbc:Name": "Presidencia de la Diputaci\u00f3n Provincial de Sevilla",
                     "cbc:Telephone": "954550828",
                     "cbc:Telefax": "954550861",
-                    "cbc:ElectronicMail": "contratacion.licitaciones@dipusevilla.es"
+                    "cbc:ElectronicMail": "contratacion-licitaciones@dipusevilla.es"
                 }
             }
         },
@@ -785,6 +785,7 @@
             }
         ],
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": {
                     "cbc:EvaluationCriteriaTypeCode": {
@@ -802,10 +803,16 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "a) Criterio econ\u00f3mico: 70%; b) Criterio cualitativo 30%",
-                    "cbc:WeightNumeric": "100"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "aspecto econ\u00f3mico (precio)",
+                        "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "calidad",
+                        "cbc:WeightNumeric": "30"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -869,6 +876,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-02-05"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-28"
                         }
                     ]
                 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 200/01/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia del Consejo de Administraci\u00f3n de la Sociedad Gestora del PCTCAN S.L.; Importe: 20063.4 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 200/01/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia del Consejo de Administraci\u00f3n de la Sociedad Gestora del PCTCAN S.L.; Importe: 20063.4 EUR; Estado: ADJ"
     },
     "title": "Pliego de arrendamiento privado de inmueble destinado a Guarder\u00eda en PCTCAN",
-    "updated": "2019-04-24T13:24:02.186+02:00",
+    "updated": "2019-05-28T17:01:07.265+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "200/01/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta que responde a los niveles de exigencia, calidad y precio que se exig\u00edan en el Pliego de Condiciones. Teniendola que requerir la documentaci\u00f3n exigida en el pliego y en el supuesto de que no lo efectuase dentro del plazo concedido, se requerir\u00e1 la misma documentaci\u00f3n al licitador siguiente por el orden de clasificaci\u00f3n de las ofertas.",
+            "cbc:AwardDate": "2019-05-23",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "24100"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "34815.6"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B39772256"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "JUNIOR SANTANDER, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "34815.6"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "42126.88"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -143,7 +183,25 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     },
                     {
@@ -157,24 +215,6 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
                     }
                 ]
             },
@@ -185,12 +225,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Oferta Econ\u00f3mica",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "Memoria de Actividad",
                         "cbc:WeightNumeric": "30"
+                    },
+                    {
+                        "cbc:Description": "Oferta Econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -217,11 +257,11 @@
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "PliegoCondPartArrendamientoGuarderia.pdf",
+            "cbc:ID": "PliegoCondPartArrendamientoGuarderia Rectf.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0945a856-745b-412f-9d8e-cab12a5f90a6",
-                    "cbc:DocumentHash": "gMyP4JH9So0rUM6hCcDCVw6np3k="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=4f79d7d6-cf69-4713-9b82-13db24739615",
+                    "cbc:DocumentHash": "ozTU/FORpB01vJ62jK8iSeBJZUI="
                 }
             }
         },
@@ -247,6 +287,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-28"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -257,6 +309,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-04-24"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-30"
                         }
                     ]
                 }
