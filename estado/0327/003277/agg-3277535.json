@@ -8,13 +8,13 @@
         "#text": "Id licitaci\u00f3n: 2018/005360; \u00d3rgano de contrataci\u00f3n: Agencia de Vivienda y Rehabilitaci\u00f3n de Andaluc\u00eda (AVRA); Importe: 228.203,48 \u20ac;"
     },
     "title": "obras de renovaci\u00f3n y conservaci\u00f3n del grupo ma-0990, c/ jaboneros 20, 22 y 24, c/ trinidad 49 y c/ jara 14 (antiguo 30), sito en m\u00e1laga  (m\u00e1laga), con el fomento de empleo de personas en situaci\u00f3n o riesgo de exclusi\u00f3n social",
-    "updated": "2019-04-01T22:57:32.224+02:00",
+    "updated": "2019-05-29T15:56:36.322+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/005360",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -60,7 +60,33 @@
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
                     "@unitCode": "MON",
-                    "#text": "4"
+                    "#text": "3"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "8",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B92861152"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "HERYSAN 2007 S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "186556.34"
+                    }
                 }
             }
         },
@@ -74,17 +100,31 @@
                 "cbc:EndTime": "12:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-10"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-18"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-29"
+                    }
                 }
             }
-        }
+        ]
     }
 }

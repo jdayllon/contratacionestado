@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: SER-15-430-OSA; \u00d3rgano de Contrataci\u00f3n: Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15; Importe: 168486 EUR; Estado: RES"
     },
     "title": "Servicio de Urgencias 24H, Ingresos e Intervenciones Quir\u00fargicas en Huelva",
-    "updated": "2017-03-16T12:11:24.611+01:00",
+    "updated": "2019-05-29T15:01:13.405+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SER-15-430-OSA",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "https://contrataciondelestado.es/UMIVALE",
+                "cbc:WebsiteURI": "https://umivale.es/conocenos/licitaciones",
                 "cac:PartyName": {
                     "cbc:Name": "Gerencia UMIVALE Mutua Colaboradora con la Seguridad Social N\u00ba 15"
                 },
@@ -30,7 +30,7 @@
                     "cbc:CityName": "Madrid",
                     "cbc:PostalZone": "28020",
                     "cac:AddressLine": {
-                        "cbc:Line": "Capit\u00e1n Haya, 31"
+                        "cbc:Line": "Calle del Poeta Joan Maragall, 31"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -71,7 +71,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de Urgencias 24H, Ingresos e Intervenciones Quir\u00fargicas en Huelva",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -101,7 +101,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "Huelva",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES615"
                 },
                 "cac:Address": {
@@ -243,10 +243,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "oferta t\u00e9cnica evaluable autom\u00e1ticamente",
-                    "cbc:WeightNumeric": "50"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "oferta t\u00e9cnica evaluable autom\u00e1ticamente",
+                        "cbc:WeightNumeric": "50"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -254,7 +260,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
@@ -364,6 +370,73 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-03-16"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-29"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-29"
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "12"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                },
+                "cbc:ContractID": "2896",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "75714.94"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "227144.82"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "2",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "12"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "48"
+                },
+                "cbc:ContractID": "2896",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "75714.94"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "302859.76"
                     }
                 }
             }

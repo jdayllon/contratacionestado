@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02006757)-PA/10/2019; \u00d3rgano de Contrataci\u00f3n: Centro de Gestion Integrada y Proyectos Corporativos; Importe: 3803062.93 EUR; Estado: PRE"
+        "#text": "Id licitaci\u00f3n: (A02006757)-PA/10/2019; \u00d3rgano de Contrataci\u00f3n: Centro de Gestion Integrada y Proyectos Corporativos; Importe: 3803062.95 EUR; Estado: PUB"
     },
     "title": "Suturas manuales.",
-    "updated": "2019-05-07T13:48:03.642+02:00",
+    "updated": "2019-05-29T13:37:52.365+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02006757)-PA/10/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PRE"
+            "#text": "PUB"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -64,7 +64,7 @@
             "cac:BudgetAmount": {
                 "cbc:EstimatedOverallContractAmount": {
                     "@currencyID": "EUR",
-                    "#text": "8297589.97"
+                    "#text": "8297592.36"
                 },
                 "cbc:TotalAmount": {
                     "@currencyID": "EUR",
@@ -72,7 +72,7 @@
                 },
                 "cbc:TaxExclusiveAmount": {
                     "@currencyID": "EUR",
-                    "#text": "3803062.93"
+                    "#text": "3803062.95"
                 }
             },
             "cac:RequiredCommodityClassification": {
@@ -104,6 +104,31 @@
                 },
                 "cbc:AmountRate": "5"
             },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Ver Anexo V del PCAP."
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSX-CERTCALIDAD"
+                        },
+                        "cbc:Description": "Ver Anexo V del PCAP."
+                    }
+                ],
+                "cac:FinancialEvaluationCriteria": {
+                    "cbc:EvaluationCriteriaTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                        "#text": "5"
+                    },
+                    "cbc:Description": "Ver Anexo V del PCAP."
+                }
+            },
             "cac:Language": {
                 "cbc:ID": "es"
             }
@@ -116,19 +141,79 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cac:TenderSubmissionDeadlinePeriod": {
+                "cbc:EndDate": "2019-07-03",
+                "cbc:EndTime": "14:00:00"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_PIN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-07"
+        "cac:LegalDocumentReference": {
+            "cbc:ID": "PCAP PA-10-2019.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=82cc7efe-7db9-49d8-b8b3-6fa6eae763c4",
+                    "cbc:DocumentHash": "c1ViH9m91e4TOWDQXvskiOazEoQ="
                 }
             }
-        }
+        },
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "PPT PA-10-2019.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=05a02437-4647-4707-a4b5-1ed45aca474a",
+                    "cbc:DocumentHash": "LeJs+zW6XPdNTfjgcWoK8Lcjy7s="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-29"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_PIN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-07"
+                    }
+                }
+            }
+        ]
     }
 }

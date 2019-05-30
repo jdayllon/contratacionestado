@@ -5,10 +5,10 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 95/17; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de los Servicios Centrales del Ministero; Importe: 75000 EUR; Estado: RES"
+        "#text": "Id licitaci\u00f3n: 95/17; \u00d3rgano de Contrataci\u00f3n: Junta de Contrataci\u00f3n de los Servicios Centrales en el Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica; Importe: 75000 EUR; Estado: RES"
     },
     "title": "Servicios de soporte Premier de Microsoft para la Secretar\u00eda General de Administraci\u00f3n Digital (SGAD)",
-    "updated": "2018-06-09T09:32:37.323+02:00",
+    "updated": "2019-05-29T13:37:40.457+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "95/17",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,20 +22,14 @@
                 "#text": "1"
             },
             "cac:Party": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "DIR3",
-                        "#text": "E04907002"
-                    }
-                },
                 "cac:PartyName": {
-                    "cbc:Name": "Junta de Contrataci\u00f3n de los Servicios Centrales del Ministero"
+                    "cbc:Name": "Junta de Contrataci\u00f3n de los Servicios Centrales en el Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"
                 },
                 "cac:PostalAddress": {
                     "cbc:CityName": "Madrid",
-                    "cbc:PostalZone": "28014",
+                    "cbc:PostalZone": "28010",
                     "cac:AddressLine": {
-                        "cbc:Line": "Alcal\u00e1 9"
+                        "cbc:Line": "Jos\u00e9 Mara\u00f1\u00f3n, 12"
                     },
                     "cac:Country": {
                         "cbc:IdentificationCode": {
@@ -46,17 +40,35 @@
                     }
                 },
                 "cac:Contact": {
-                    "cbc:Name": "Junta de Contrataci\u00f3n de los Servicios Centrales del Ministero",
-                    "cbc:Telephone": "915958100",
-                    "cbc:Telefax": "915958850",
-                    "cbc:ElectronicMail": "junta.contratacion@minhafp.es"
+                    "cbc:Name": "Junta de Contrataci\u00f3n de los Servicios Centrales en el Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica",
+                    "cbc:ElectronicMail": "juntadecontratacion@correo.gob.es"
+                }
+            },
+            "cac-place-ext:ParentLocatedParty": {
+                "cac:PartyName": {
+                    "cbc:Name": "Subsecretar\u00eda de Pol\u00edtica Territorial y Funcion P\u00fablica"
+                },
+                "cac-place-ext:ParentLocatedParty": {
+                    "cac:PartyName": {
+                        "cbc:Name": "Ministerio de Pol\u00edtica Territorial y Funci\u00f3n P\u00fablica"
+                    },
+                    "cac-place-ext:ParentLocatedParty": {
+                        "cac:PartyName": {
+                            "cbc:Name": "ADMINISTRACI\u00d3N GENERAL DEL ESTADO"
+                        },
+                        "cac-place-ext:ParentLocatedParty": {
+                            "cac:PartyName": {
+                                "cbc:Name": "Sector P\u00fablico"
+                            }
+                        }
+                    }
                 }
             }
         },
         "cac:ProcurementProject": {
             "cbc:Name": "Servicios de soporte Premier de Microsoft para la Secretar\u00eda General de Administraci\u00f3n Digital (SGAD)",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -338,7 +350,43 @@
                         "cbc:IssueDate": "2018-06-09"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-29"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:ContractID": "95/17",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "75000"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "150000"
+                }
+            }
+        }
     }
 }
