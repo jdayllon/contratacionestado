@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: AGJ/2019/2; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Yernes y Tameza; Importe: 75 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: AGJ/2019/2; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Yernes y Tameza; Importe: 75 EUR; Estado: ADJ"
     },
     "title": "adjudicaci\u00f3n de autorizaci\u00f3n demanial de uso com\u00fan especial para la instalaci\u00f3n, uso y explotaci\u00f3n de la Barra-Bar durante las fiestas Patronales de San Antonio en Yernes y del Rosario en las localidades de Yernes y Villabre",
-    "updated": "2019-05-09T14:44:30.189+02:00",
+    "updated": "2019-05-30T21:03:14.193+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "AGJ/2019/2",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -100,6 +100,46 @@
                 "cbc:EndDate": "2019-10-14"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "mejor oferta por cada una de las Fiestas de San Antonio y el Rosario en Yernes",
+            "cbc:AwardDate": "2019-05-30",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "140.5"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "140.5"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "71678562M"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "JOANA LOPEZ MORA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "140.5"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "170"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -128,7 +168,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
@@ -140,7 +180,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         }
                     }
                 ]
@@ -148,12 +188,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "precio",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
                         "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "precio",
+                        "cbc:WeightNumeric": "3"
                     }
                 ]
             },
@@ -197,17 +237,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-30"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-09"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-09"
+                    }
                 }
             }
-        }
+        ]
     }
 }
