@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: A-2019-00009; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Portuaria de Melilla; Importe: 125188 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: A-2019-00009; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Portuaria de Melilla; Importe: 125188 EUR; Estado: RES"
     },
     "title": "Mantenimiento de las instalaciones de protecci\u00f3n del puerto de Melilla (ejercicio 2019/2020)",
-    "updated": "2019-03-20T14:35:53.087+01:00",
+    "updated": "2019-05-31T15:02:31.855+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "A-2019-00009",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -111,6 +111,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta mejor valorada",
+            "cbc:AwardDate": "2019-05-06",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "97440"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "100000.17"
+            },
+            "cbc:StartDate": "2019-06-01",
+            "cac:Contract": {
+                "cbc:ID": "A-2019-00009",
+                "cbc:IssueDate": "2019-05-31"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A78107349"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Kapsch TrafficCom Transportation, S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "100000.17"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "104000.18"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -138,7 +183,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Tiempo de respuesta",
+                        "cbc:Description": "Experiencia y antig\u00fcedad del T\u00e9cnico",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Experiencia y antig\u00fcedad del Ingeniero",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -146,16 +195,12 @@
                         "cbc:WeightNumeric": "50"
                     },
                     {
+                        "cbc:Description": "Tiempo de respuesta",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Metodolog\u00eda general de ejecuci\u00f3n de los trabajos",
                         "cbc:WeightNumeric": "30"
-                    },
-                    {
-                        "cbc:Description": "Experiencia y antig\u00fcedad del T\u00e9cnico",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Experiencia y antig\u00fcedad del Ingeniero",
-                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -219,6 +264,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -251,6 +308,18 @@
                             "cbc:IssueDate": "2019-03-20"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-31"
+                    }
                 }
             }
         ]

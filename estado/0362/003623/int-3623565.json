@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: IVC-2019-01; \u00d3rgano de Contrataci\u00f3n: Consejer\u00eda Delegada del Instituto Volcanol\u00f3gico de Canarias S.A. ; Importe: 100000 EUR; Estado: PUB"
     },
     "title": "Suministro de nueve estaciones s\u00edsmicas de banda ancha.",
-    "updated": "2019-05-23T17:44:58.422+02:00",
+    "updated": "2019-05-31T16:52:50.098+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "IVC-2019-01",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -146,14 +146,14 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -170,25 +170,19 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "5"
                         },
                         "cbc:Description": "Seg\u00fan lo establecido en el Anexo III del Pliego de Condiciones Particulares."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "3"
                         },
                         "cbc:Description": "Seg\u00fan lo establecido en el Anexo III del Pliego de Condiciones Particulares."
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -198,7 +192,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -210,13 +210,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     }
                 ]
@@ -227,11 +227,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazo de entrega",
+                        "cbc:Description": "Periodo de garant\u00eda",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Periodo de garant\u00eda",
+                        "cbc:Description": "Plazo de entrega",
                         "cbc:WeightNumeric": "20"
                     },
                     {
@@ -254,11 +254,11 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2019-06-03",
+                "cbc:EndDate": "2019-06-10",
                 "cbc:EndTime": "16:30:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-06-03",
+                "cbc:EndDate": "2019-06-10",
                 "cbc:EndTime": "16:30:00",
                 "cbc:Description": "Los licitadores deber\u00e1n preparar y presentar sus ofertas dentro del plazo indicado en el anuncio de licitaci\u00f3n, a trav\u00e9s de los servicios de licitaci\u00f3n electr\u00f3nica de la PLACSP. No se admitir\u00e1n ofertas por otra v\u00eda. En caso de problemas para acceder a la plataforma, se podr\u00e1n remitir las consultas por escrito a la direcci\u00f3n de correo electr\u00f3nico: licita.iter@iter.es. La fecha del fin del plazo de presentaci\u00f3n de ofertas tiene hora l\u00edmite peninsular (UTC+1), al igual que las convocatorias y notificaciones de la PLACSP."
             }
@@ -318,9 +318,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-23"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-31"
+                        }
+                    ]
                 }
             },
             {
@@ -330,9 +335,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-23"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-23"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-31"
+                        }
+                    ]
                 }
             }
         ]

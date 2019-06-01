@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 137153Q; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Sagunto; Importe: 21388.2 EUR; Estado: PUB"
     },
     "title": "Contrataci\u00f3n para la explotaci\u00f3n de los servicios de temporada 2019 en las Playas de Sagunto, con ocupaci\u00f3n del dominio p\u00fablico mar\u00edtimo terrestre. Contrato administrativo especial de autorizaci\u00f3n por lotes.",
-    "updated": "2019-05-24T21:36:51.162+02:00",
+    "updated": "2019-05-31T15:38:15.776+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "137153Q",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -109,20 +109,73 @@
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
-            "cac:TendererQualificationRequest": {
-                "cac:FinancialEvaluationCriteria": {
-                    "cbc:EvaluationCriteriaTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                        "#text": "ZZZ"
-                    },
-                    "cbc:Description": "ROLECE o Registro auton\u00f3mico de licitadores"
+            "cac:RequiredFinancialGuarantee": {
+                "cbc:GuaranteeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                    "#text": "2"
                 },
-                "cac:SpecificTendererRequirement": {
-                    "cbc:RequirementTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                        "#text": "1"
+                "cbc:AmountRate": "5"
+            },
+            "cac:TendererQualificationRequest": {
+                "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-COMPTASK"
+                        },
+                        "cbc:Description": "Clausula 10, 3.2, a) PCAP"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OXR-GESTMEDIOAMB"
+                        },
+                        "cbc:Description": "Clausula 10 PCAP 3.2, b)"
                     }
-                }
+                ],
+                "cac:FinancialEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "6"
+                        },
+                        "cbc:Description": "Clausula 10 PCAP"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "5"
+                        },
+                        "cbc:Description": "Clausula 10 PCAP"
+                    },
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
+                            "#text": "3"
+                        },
+                        "cbc:Description": "Clausula 10 pcap"
+                    }
+                ],
+                "cac:SpecificTendererRequirement": [
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "8"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    }
+                ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": {
@@ -144,20 +197,21 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2019-06-07",
+                "cbc:EndDate": "2019-06-14",
                 "cbc:EndTime": "13:59:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-06-07",
-                "cbc:EndTime": "14:00:00"
+                "cbc:EndDate": "2019-06-14",
+                "cbc:EndTime": "14:00:00",
+                "cbc:Description": "Contrato la prestaci\u00f3n de los servicios de explotaci\u00f3n de las instalaciones de temporada en las playas del litoral del t\u00e9rmino municipal de SAGUNTO, una vez determinado el n\u00famero de elementos autorizados en cada playa por la Demarcaci\u00f3n de Costas. Temporada 2019. Nueva licitaci\u00f3n"
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "PCAP_concesiones_playas_previo_informe_FIRMADO.pdf",
+            "cbc:ID": "PCAP_corregido_FIRMADO.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=56bea8af-fd78-4382-b1d3-92b84bee9fcd",
-                    "cbc:DocumentHash": "8nWyTG4WzmBhuWL7QbjwoveBnJo="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=2b0abf88-5087-431a-bbb3-2366a94df616",
+                    "cbc:DocumentHash": "9f8TCKXq9eC6rH0djyFYNC8lFmM="
                 }
             }
         },
@@ -165,7 +219,7 @@
             "cbc:ID": "PLiegos_Tecnicos_instalaciones_servicios_de_temporada_2019_FIRMADO.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f40ab38b-2a2d-447e-8791-9ab2cfc36d68",
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=23ecb3b8-ed64-4593-841b-db606f097ecc",
                     "cbc:DocumentHash": "iBQf6R44Pt1yEP7iDMh27Q+gXbo="
                 }
             }
@@ -175,7 +229,7 @@
                 "cbc:ID": "doc02341920190510070802.pdf",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6aabc650-5222-4c3c-8a12-d94d34bd5b74",
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=effcd3a7-c1be-4c6a-bdad-468b13e1e462",
                         "cbc:DocumentHash": "GZEdZ420bnD9MKGSkB1zbIRdjkg="
                     }
                 }
@@ -184,7 +238,7 @@
                 "cbc:ID": "Sellado_c.PDF",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=6a86a6c6-0a2b-40a6-8392-85ca9bb6a48b",
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=40b99401-3699-436f-9798-5ab0b520311f",
                         "cbc:DocumentHash": "XfcAcvStWHa5rcOXQI/pZKuvD8c="
                     }
                 }
@@ -193,7 +247,7 @@
                 "cbc:ID": "Sellado_.PDF",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=61645d07-97be-4a7f-9a33-1bffbaaa46f3",
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=eeb53258-0b09-419b-8b80-fafb834d244c",
                         "cbc:DocumentHash": "cNLqkA9k00unMep7d4UF/c1lkiw="
                     }
                 }
@@ -202,7 +256,7 @@
                 "cbc:ID": "Sellado_ b.PDF",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=320370cb-f091-4885-8430-85990f0391dc",
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=84924fee-a77e-4003-8ffc-ffa44b33544b",
                         "cbc:DocumentHash": "28LpwVR0c1a3I3XLw/WDbWZ0Lqw="
                     }
                 }
@@ -211,7 +265,7 @@
                 "cbc:ID": "Sellado_ a.PDF",
                 "cac:Attachment": {
                     "cac:ExternalReference": {
-                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=784a5c75-9f39-4e0e-86e0-c28a8d1e8362",
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=ce88cabf-4b9d-453c-a025-ed14c4158bf4",
                         "cbc:DocumentHash": "06dqWbB0OhSKKF2DHxyBbXJ0tfs="
                     }
                 }
@@ -226,7 +280,7 @@
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-24"
+                        "cbc:IssueDate": "2019-05-31"
                     }
                 }
             },
@@ -238,7 +292,7 @@
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-24"
+                        "cbc:IssueDate": "2019-05-31"
                     }
                 }
             }
