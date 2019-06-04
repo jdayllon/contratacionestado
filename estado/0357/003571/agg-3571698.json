@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 26/19;  \u00d3rgano de Contrataci\u00f3n: Diputado/a Foral de Fomento del Empleo, Comercio y Turismo y de Administraci\u00f3n Foral;  Importe: 10370.00EUR;  Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 26/19;  \u00d3rgano de Contrataci\u00f3n: Diputado/a Foral de Fomento del Empleo, Comercio y Turismo y de Administraci\u00f3n Foral;  Importe: 10370.00EUR;  Estado: RES"
     },
     "title": "Servicio de soporte y mantenimiento de la plataforma de comunicaciones EDitran para la Diputaci\u00f3n Foral de \u00c1lava.",
-    "updated": "2019-05-10T13:55:54.700+02:00",
+    "updated": "2019-06-03T14:40:46.490+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "26/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -62,16 +62,17 @@
                 }
             },
             "cac:PlannedPeriod": {
+                "cbc:StartDate": "2019-05-13",
                 "cbc:DurationMeasure": {
-                    "@unitCode": "ANN",
-                    "#text": "2"
+                    "@unitCode": "MON",
+                    "#text": "8"
                 }
             }
         },
         "cac:TenderResult": {
             "cbc:ResultCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
+                "#text": "9"
             },
             "cbc:ReceivedTenderQuantity": "1",
             "cac:WinningParty": {
@@ -112,17 +113,36 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-10"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-10"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-14"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-03"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }

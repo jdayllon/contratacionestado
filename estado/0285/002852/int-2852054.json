@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: LIMJ18; \u00d3rgano de Contrataci\u00f3n: Gesti\u00f3n y Servicios de Paterna S.L.U.; Importe: 609339.48 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: LIMJ18; \u00d3rgano de Contrataci\u00f3n: Gesti\u00f3n y Servicios de Paterna S.L.U.; Importe: 609339.48 EUR; Estado: ADJ"
     },
     "title": "Servicio de mantenimiento y jardiner\u00eda de Mas del Rosari, La Coma, incluidas parcelas del Evha y el Sector 7 de Paterna",
-    "updated": "2019-03-07T15:02:01.553+01:00",
+    "updated": "2019-06-03T16:52:59.755+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "LIMJ18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -146,6 +146,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta econ\u00f3mica m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-03-29",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "F96290663"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "La Coma Cooperativa Valenciana"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "584965.9"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "707808.74"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -177,7 +217,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterio Social",
+                        "cbc:Description": "Cooperaci\u00f3n de proyectos formativos y de inserci\u00f3n laboral",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Criterio Medioambiental",
                         "cbc:WeightNumeric": "2.5"
                     },
                     {
@@ -189,11 +233,15 @@
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "40"
+                        "cbc:Description": "Criterio Social",
+                        "cbc:WeightNumeric": "2.5"
                     },
                     {
-                        "cbc:Description": "Cooperaci\u00f3n de proyectos formativos y de inserci\u00f3n laboral",
+                        "cbc:Description": "Instalaci\u00f3n de mobiliario urbano",
+                        "cbc:WeightNumeric": "3"
+                    },
+                    {
+                        "cbc:Description": "Ubicaci\u00f3n Centro de Trabajo",
                         "cbc:WeightNumeric": "20"
                     },
                     {
@@ -201,16 +249,8 @@
                         "cbc:WeightNumeric": "6"
                     },
                     {
-                        "cbc:Description": "Ubicaci\u00f3n Centro de Trabajo",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
-                        "cbc:Description": "Instalaci\u00f3n de mobiliario urbano",
-                        "cbc:WeightNumeric": "3"
-                    },
-                    {
-                        "cbc:Description": "Criterio Medioambiental",
-                        "cbc:WeightNumeric": "2.5"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -287,6 +327,23 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-01-21"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-03"
+                        }
+                    ]
                 }
             },
             {
