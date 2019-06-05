@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: C-19/0055; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Alcal\u00e1 la Real; Importe: 68400 EUR; Estado: ADJ"
     },
     "title": "Arrendamiento de los Locales n\u00ba 2 y n\u00ba 6 de la Estaci\u00f3n de Autobuses.",
-    "updated": "2019-05-20T13:10:00.517+02:00",
+    "updated": "2019-06-04T14:46:11.396+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "C-19/0055",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -112,77 +112,147 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "2"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "Local 6 de la Estaci\u00f3n de Autobuses (24,45 m2)",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "41382"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "34200"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "70130000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Local 2 de la Estaci\u00f3n de Autobuses (26,25 m2)",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "41382"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "34200"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "70130000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "2"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "Local 6 de la Estaci\u00f3n de Autobuses (24,45 m2)",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "41382"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "34200"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "70130000"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "seg\u00fan pliegos",
-            "cbc:AwardDate": "2019-03-12",
-            "cbc:ReceivedTenderQuantity": "3",
-            "cbc:LowerTenderAmount": {
-                "@currencyID": "EUR",
-                "#text": "150"
-            },
-            "cbc:HigherTenderAmount": {
-                "@currencyID": "EUR",
-                "#text": "200"
-            },
-            "cbc:StartDate": "2019-04-16",
-            "cac:Contract": {
-                "cbc:ID": "C-19/0055 Local6",
-                "cbc:IssueDate": "2019-04-16"
-            },
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "F23475684"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "seg\u00fan resoluci\u00f3n.",
+                "cbc:AwardDate": "2019-05-29",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "160"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "180"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "74659749R"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "Mar\u00eda C\u00e1ndida Nieto Frias"
                     }
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "ABENSAC, S.C.A."
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "160"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "193.6"
+                        }
+                    }
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "2",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "200"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "seg\u00fan pliegos",
+                "cbc:AwardDate": "2019-03-12",
+                "cbc:ReceivedTenderQuantity": "3",
+                "cbc:LowerTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "150"
+                },
+                "cbc:HigherTenderAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "200"
+                },
+                "cbc:StartDate": "2019-04-16",
+                "cac:Contract": {
+                    "cbc:ID": "C-19/0055 Local6",
+                    "cbc:IssueDate": "2019-04-16"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "F23475684"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "242"
+                    "cac:PartyName": {
+                        "cbc:Name": "ABENSAC, S.C.A."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "2",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "200"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "242"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -274,9 +344,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-20"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-04"
+                        }
+                    ]
                 }
             },
             {

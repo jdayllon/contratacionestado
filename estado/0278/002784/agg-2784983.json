@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SE/41/18;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de R\u00e9gimen Jur\u00eddico y Servicios;  Importe: 29646.00EUR;  Estado: EV"
+        "#text": "Id licitaci\u00f3n: SE/41/18;  \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de R\u00e9gimen Jur\u00eddico y Servicios;  Importe: 29646.00EUR;  Estado: RES"
     },
     "title": "Aplicaci\u00f3n piloto de las pruebas de rendimiento de la evaluciaci\u00f3n de diagn\u00f3stico de final de etapa 2018 ( 6\u00ba de EP y 4\u00ba de  ESO)2018",
-    "updated": "2019-01-13T19:41:06.223+01:00",
+    "updated": "2019-06-04T13:26:01.902+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SE/41/18",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -68,6 +68,32 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "9"
+            },
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A20567319"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "IKERTALDE GRUPO CONSULTOR, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "29023.43"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
@@ -94,17 +120,39 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-19"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2018-12-19"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-25"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-28"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-04"
+                        }
+                    ]
                 }
             }
-        }
+        ]
     }
 }

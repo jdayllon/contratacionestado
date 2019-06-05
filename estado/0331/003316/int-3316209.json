@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1/2019 (Alconera); \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Alconera; Importe: 791457 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1/2019 (Alconera); \u00d3rgano de Contrataci\u00f3n: Pleno del Ayuntamiento de Alconera; Importe: 791457 EUR; Estado: RES"
     },
     "title": "Arrendamiento de terrenos de propiedad municipal para la instalacion de planta solar fotovoltaica",
-    "updated": "2019-03-13T16:05:32.296+01:00",
+    "updated": "2019-06-04T19:40:33.200+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1/2019 (Alconera)",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -92,6 +92,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Seg\u00fan acta mesa (\u00fanica oferta)",
+            "cbc:AwardDate": "2019-05-09",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1143885.6"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1143885.6"
+            },
+            "cac:Contract": {
+                "cbc:ID": "2019-117",
+                "cbc:IssueDate": "2019-06-04"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A29654399"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "SISTEM MELESUR ENERG\u00cdA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "945360"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1143885.6"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:VariantConstraintIndicator": "false",
             "cac:TendererQualificationRequest": {
@@ -119,8 +163,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Fomentar el empleo",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Plazo de ejecuci\u00f3n de la planta",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Propuesta econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Potencia instalada de la planta fotovoltaica",
@@ -131,12 +179,8 @@
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "Plazo de ejecuci\u00f3n de la planta",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Propuesta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Fomentar el empleo",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -154,7 +198,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-03-28",
+                "cbc:EndDate": "2019-04-03",
                 "cbc:EndTime": "14:00:00"
             }
         },
@@ -180,6 +224,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -196,8 +252,25 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-14"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-13"
+                        "cbc:IssueDate": "2019-06-04"
                     }
                 }
             }
