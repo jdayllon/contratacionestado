@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 07.2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la C\u00e1mara Oficial de Comercio, Industria, Servicios y Navegaci\u00f3n de Santa Cruz de Tenerife; Importe: 8140 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 07.2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la C\u00e1mara Oficial de Comercio, Industria, Servicios y Navegaci\u00f3n de Santa Cruz de Tenerife; Importe: 8140 EUR; Estado: ADJ"
     },
     "title": "Mantenimiento de la p\u00e1gina web de la C\u00e1mara de Comercio de Tenerife, y prestaciones complementarias a esta",
-    "updated": "2019-04-22T15:35:54.098+02:00",
+    "updated": "2019-06-05T16:36:00.538+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "07.2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -129,6 +129,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Se propone la adjudicaci\u00f3n del contrato a la mejor oferta del procedimiento",
+            "cbc:AwardDate": "2019-05-29",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "7000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "7999"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B38402756"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Metr\u00f3polis Comunicaci\u00f3n S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "7455"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -158,7 +198,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
                         }
                     },
                     {
@@ -170,13 +216,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "3"
                         }
                     }
                 ]
@@ -184,7 +224,19 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Descripci\u00f3n y calidad del servicio",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Regularidad de actualizaciones en el servicio de mantenimiento web y del hosting",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Idoneidada y especializaci\u00f3n del equipo de trabajo",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Disponibilidad y tiempos de respuesta",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -192,7 +244,7 @@
                         "cbc:WeightNumeric": "50"
                     },
                     {
-                        "cbc:Description": "Idoneidada y especializaci\u00f3n del equipo de trabajo",
+                        "cbc:Description": "Mejoras",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -204,20 +256,8 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Descripci\u00f3n y calidad del servicio",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Disponibilidad y tiempos de respuesta",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "Descripci\u00f3n de la estructura y contenidos propuestos en los informes solicitados",
                         "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Mejoras",
-                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -287,6 +327,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-05"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

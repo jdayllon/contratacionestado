@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2.18/28520.0151; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 655650 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2.18/28520.0151; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 655650 EUR; Estado: ADJ"
     },
     "title": "Operaci\u00f3n y gesti\u00f3n del mantenimiento del veh\u00edculo auscultador geom\u00e9trico em-sat n\u00ba 101, propiedad de adif",
-    "updated": "2018-12-31T08:07:56.115+01:00",
+    "updated": "2019-06-05T15:26:14.842+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2.18/28520.0151",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,6 +105,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Art. 131 Ley 9/2007: Oferta con mejor relaci\u00f3n calidad \u2013 precio.",
+            "cbc:AwardDate": "2019-05-17",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28328847"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "REDALSA SA SME"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "639258.75"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "773503.09"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares",
@@ -119,18 +151,19 @@
                     "cbc:EvaluationCriteriaTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
                         "#text": "ZZZ"
-                    }
+                    },
+                    "cbc:Description": "Seg\u00fan lo indicado en el Pliego de condiciones particulares"
                 }
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "PRECIO",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "MEMORIA TRASLADO VEH Y TRAB.INFTIPO Y SS",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "PRECIO",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -190,6 +223,18 @@
                         }
                     }
                 ]
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-05"
+                    }
+                }
             },
             {
                 "cbc-place-ext:NoticeTypeCode": {

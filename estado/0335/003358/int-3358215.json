@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 015-SER-2019; \u00d3rgano de Contrataci\u00f3n: Gerencia de la Empresa Municipal de Aguas y Saneamiento de Murcia S.A.; Importe: 368728.8 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 015-SER-2019; \u00d3rgano de Contrataci\u00f3n: Gerencia de la Empresa Municipal de Aguas y Saneamiento de Murcia S.A.; Importe: 368728.8 EUR; Estado: ADJ"
     },
     "title": "Servicio de controles anal\u00edticos espec\u00edficos del agua residual",
-    "updated": "2019-03-22T14:37:32.819+01:00",
+    "updated": "2019-06-05T14:18:16.168+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "015-SER-2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -123,6 +123,38 @@
                 "cbc:OptionsDescription": "Posibilidad de pr\u00f3rroga por periodos anuales hasta un m\u00e1ximo de otros 2 a\u00f1os."
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta econ\u00f3mica de precios unitarios con varios criterios de evaluaci\u00f3n.",
+            "cbc:AwardDate": "2019-06-04",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A03637899"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "LABAQUA, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "368728.8"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "446161.85"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -151,16 +183,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "PRECIOS UNITARIOS OFERTADOS",
+                        "cbc:WeightNumeric": "70"
+                    },
+                    {
                         "cbc:Description": "Ver apartado 12.1 Pliego T\u00e9cnico",
                         "cbc:WeightNumeric": "8"
                     },
                     {
                         "cbc:Description": "Ver apartado 12.2 Pliego T\u00e9cnico",
                         "cbc:WeightNumeric": "22"
-                    },
-                    {
-                        "cbc:Description": "PRECIOS UNITARIOS OFERTADOS",
-                        "cbc:WeightNumeric": "70"
                     }
                 ]
             },
@@ -178,7 +210,7 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-04-08",
+                "cbc:EndDate": "2019-04-11",
                 "cbc:EndTime": "12:00:00",
                 "cbc:Description": "Servicio Jur\u00eddico - Oficinas centrales de EMUASA sitas en Plaza Circular, 9, 1\u00aa Planta. Murcia"
             }
@@ -205,13 +237,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-22"
+                        "cbc:IssueDate": "2019-06-05"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-04"
+                        }
+                    ]
                 }
             },
             {
@@ -221,9 +270,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-22"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-04"
+                        }
+                    ]
                 }
             }
         ]

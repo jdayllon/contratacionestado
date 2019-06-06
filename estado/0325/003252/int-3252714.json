@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CMBIT1118; \u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n Balear de Innovaci\u00f3n y Tecnolog\u00eda; Importe: 86921.37 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: CMBIT1118; \u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n Balear de Innovaci\u00f3n y Tecnolog\u00eda; Importe: 86921.37 EUR; Estado: RES"
     },
     "title": "Servicio de limpieza de los edificios propiedad de la Fundaci\u00f3n BIT",
-    "updated": "2019-02-27T15:18:13.238+01:00",
+    "updated": "2019-06-05T14:10:30.347+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CMBIT1118",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,9 +112,14 @@
                 "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
                 "#text": "8"
             },
-            "cbc:Description": "oferta mejor valorada relaci\u00f3n calidad precio",
+            "cbc:Description": "Oferta mejor valorada qualitat preu per preus unitaris",
             "cbc:AwardDate": "2019-02-18",
             "cbc:ReceivedTenderQuantity": "5",
+            "cbc:StartDate": "2019-03-01",
+            "cac:Contract": {
+                "cbc:ID": "CMBIT1118",
+                "cbc:IssueDate": "2019-03-01"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -159,17 +164,31 @@
                 "#text": "3"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-27"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-27"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-05"
+                    }
                 }
             }
-        }
+        ]
     }
 }
