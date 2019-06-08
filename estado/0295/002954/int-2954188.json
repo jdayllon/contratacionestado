@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2018/C005/000003; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Cambre; Importe: 94406.61 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2018/C005/000003; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Cambre; Importe: 94406.61 EUR; Estado: ADJ"
     },
     "title": "Suministro por sistema de renting de dos veh\u00edculos para uso de la Polic\u00eda Local de Cambre",
-    "updated": "2019-02-19T15:17:13.253+01:00",
+    "updated": "2019-06-07T15:05:13.342+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018/C005/000003",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Empresa que permanece en el procedimiento licitatorio, haber dado cumplimiento al requerimiento de presentaci\u00f3n da documentaci\u00f3n previa\ncontemplada en la cl\u00e1usula 17 del pliego de cl\u00e1usulas administrativas particulares y no encontrarse incursa en presunci\u00f3n de oferta anormalmente baja.",
+            "cbc:AwardDate": "2019-05-28",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "735"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B27014398"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AUTOS IGLESIAS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "735"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "889.35"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
@@ -136,23 +176,15 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "45"
-                    },
-                    {
                         "cbc:Description": "Programa de mantenimiento",
                         "cbc:WeightNumeric": "5"
                     },
                     {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
                         "cbc:Description": "Mejoras de equipamiento",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "L\u00edmite kilometraje anual",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Reducci\u00f3n plazo entrega veh\u00edculos de sustituci\u00f3n",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -162,6 +194,14 @@
                     {
                         "cbc:Description": "Caracter\u00edsticas medioambientales",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Reducci\u00f3n plazo entrega veh\u00edculos de sustituci\u00f3n",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "L\u00edmite kilometraje anual",
+                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -205,6 +245,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -232,6 +284,9 @@
                         },
                         {
                             "cbc:IssueDate": "2019-02-19"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-21"
                         }
                     ]
                 }

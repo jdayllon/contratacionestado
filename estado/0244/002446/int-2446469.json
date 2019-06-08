@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 92/2018; \u00d3rgano de Contrataci\u00f3n: Alcalde del Ayuntamiento de Osera de Ebro; Importe: 95643.91 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 92/2018; \u00d3rgano de Contrataci\u00f3n: Alcalde del Ayuntamiento de Osera de Ebro; Importe: 95643.91 EUR; Estado: RES"
     },
     "title": "Velatorio",
-    "updated": "2018-09-20T14:37:29.780+02:00",
+    "updated": "2019-06-07T14:45:28.433+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "92/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -54,7 +54,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Velatorio",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "3"
             },
             "cbc:SubTypeCode": {
@@ -112,6 +112,51 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "La obra denominada Velatorio se adjudic\u00f3 a la empresa Ingenier\u00eda y Obras Aragonesas del Ebro,S.L. ya que su oferta obtuvo la mayor puntuaci\u00f3n total (98,80 puntos) de entre las ofertas presentadas y admitidas",
+            "cbc:AwardDate": "2018-11-16",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "109942.67"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "112257.28"
+            },
+            "cbc:StartDate": "2018-12-05",
+            "cac:Contract": {
+                "cbc:ID": "92/2018",
+                "cbc:IssueDate": "2018-12-05"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B50561778"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Ingenier\u00eda y Obras Aragonesas del Ebro,S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "92774.61"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "112257.28"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -120,20 +165,27 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "OSR-TECH"
+                        },
+                        "cbc:Description": "Indicaci\u00f3n del personal t\u00e9cnico u organismos t\u00e9cnicos, integrados o no en la empresa, de los que \u00e9sta disponga para la ejecuci\u00f3n de las obras"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -147,13 +199,6 @@
                             "#text": "OSR-COMPTASK"
                         },
                         "cbc:Description": "Relaci\u00f3n de obras ejecutadas en el curso de los \u00faltimos cinco a\u00f1os"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
-                        },
-                        "cbc:Description": "Indicaci\u00f3n del personal t\u00e9cnico u organismos t\u00e9cnicos, integrados o no en la empresa, de los que \u00e9sta disponga para la ejecuci\u00f3n de las obras"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -167,13 +212,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
                         }
                     },
                     {
@@ -185,13 +224,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "8"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     }
                 ]
@@ -202,12 +247,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
                         "cbc:Description": "Plazo de ejecuci\u00f3n de la obra",
                         "cbc:WeightNumeric": "40"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -255,6 +300,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-11-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -279,6 +336,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-12-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_PIN"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -288,6 +369,23 @@
                     }
                 }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "Modificaci\u00f3n n\u00ba1 del proyecto y del contrato de la obra \"Velatorio\"",
+            "cbc:ContractID": "92/2018",
+            "cac:ContractModificationLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "15924.34"
+                }
+            },
+            "cac:FinalLegalMonetaryTotal": {
+                "cbc:TaxExclusiveAmount": {
+                    "@currencyID": "EUR",
+                    "#text": "108698.95"
+                }
+            }
+        }
     }
 }

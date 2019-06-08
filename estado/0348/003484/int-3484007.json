@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SOBRES Y SUBCARPETAS; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comarca Los Monegros; Importe: 1882.23 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SOBRES Y SUBCARPETAS; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comarca Los Monegros; Importe: 1882.23 EUR; Estado: ADJ"
     },
     "title": "Suministro de sobres autopegables impresos a una tinta y subcarpetas impresas a una tinta.",
-    "updated": "2019-05-10T16:17:58.121+02:00",
+    "updated": "2019-06-07T20:41:16.632+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SOBRES Y SUBCARPETAS",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -117,22 +117,50 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Es la oferta con mayor puntuacion",
+            "cbc:AwardDate": "2019-06-05",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1750"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1750"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B50307909"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GRAFICAS ZAR S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1750"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "2122.5"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -144,6 +172,18 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
@@ -153,16 +193,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "REDUCCI\u00d3N DEL TIEMPO DE ENTREGA",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "GRAMAJE PAPEL",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "PRECIO",
                         "cbc:WeightNumeric": "85"
+                    },
+                    {
+                        "cbc:Description": "REDUCCI\u00d3N DEL TIEMPO DE ENTREGA",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -227,6 +267,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-07"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

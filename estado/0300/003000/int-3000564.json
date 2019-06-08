@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: H160010/2019/01; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comunidad de Regantes de Belver de Cinca; Importe: 1381091.37 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: H160010/2019/01; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Comunidad de Regantes de Belver de Cinca; Importe: 1381091.37 EUR; Estado: ADJ"
     },
     "title": "Ejecuci\u00f3n de las obras contempladas en el Proyecto de modernizaci\u00f3n integral de la zona regable \u201cPlanas Altas\u201d de la Comunidad de Regantes de Belver de Cinca (Huesca)",
-    "updated": "2019-02-20T17:50:19.183+01:00",
+    "updated": "2019-06-07T15:29:22.507+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "H160010/2019/01",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -133,6 +133,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa, seg\u00fan los criterios sujetos a evaluaci\u00f3n previa y posterior",
+            "cbc:AwardDate": "2019-06-06",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1175305.33"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "1375017.23"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A22047591"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Marco Obra P\u00fablica, S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1175305.33"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1422119.45"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -146,14 +186,14 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -190,7 +230,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "DETECCI\u00d3N DE INCIDENCIAS INHERENTES A LA OBRA. PROPUESTA DE RESOLUCI\u00d3N",
+                        "cbc:Description": "MEJORAS AL CONTROL DE CALIDAD Y ASISTENCIA T\u00c9CNICA",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "MEJORAS",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -202,20 +246,16 @@
                         "cbc:WeightNumeric": "45"
                     },
                     {
-                        "cbc:Description": "MEJORAS AL CONTROL DE CALIDAD Y ASISTENCIA T\u00c9CNICA",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "AUMENTO DEL PORCENTAJE DE GARANT\u00cdA",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
                         "cbc:Description": "AUMENTO DEL PLAZO DE GARANT\u00cdA",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "MEJORAS",
+                        "cbc:Description": "DETECCI\u00d3N DE INCIDENCIAS INHERENTES A LA OBRA. PROPUESTA DE RESOLUCI\u00d3N",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "AUMENTO DEL PORCENTAJE DE GARANT\u00cdA",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -264,6 +304,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-07"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -280,9 +332,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-20"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-04"
+                        }
+                    ]
                 }
             }
         ]

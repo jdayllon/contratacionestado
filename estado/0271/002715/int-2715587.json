@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2018034SER; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento Las Rozas; Importe: 149749.56 EUR; Estado: ADJ"
     },
     "title": "Redacci\u00f3n de proyecto y direcci\u00f3n facultativa de obras municipales. 4 lotes.",
-    "updated": "2019-05-21T15:07:34.920+02:00",
+    "updated": "2019-06-07T15:08:21.418+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2018034SER",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -131,69 +131,136 @@
                 }
             }
         },
-        "cac:ProcurementProjectLot": {
-            "cbc:ID": {
-                "@schemeName": "ID_LOTE",
-                "#text": "3"
-            },
-            "cac:ProcurementProject": {
-                "cbc:Name": "LOTE 3: Direcci\u00f3n facultativa de las obras de saneo y asfaltado de varias calles",
-                "cac:BudgetAmount": {
-                    "cbc:TotalAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "30752.23"
-                    },
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "25415.07"
-                    }
+        "cac:ProcurementProjectLot": [
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "1"
                 },
-                "cac:RequiredCommodityClassification": {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "71250000"
+                "cac:ProcurementProject": {
+                    "cbc:Name": "LOTE 1: Direcci\u00f3n facultativa de las obras de rehabilitaci\u00f3n del Pol\u00edgono Eur\u00f3polis",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "54363.61"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "44928.6"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "71250000"
+                        }
+                    }
+                }
+            },
+            {
+                "cbc:ID": {
+                    "@schemeName": "ID_LOTE",
+                    "#text": "3"
+                },
+                "cac:ProcurementProject": {
+                    "cbc:Name": "LOTE 3: Direcci\u00f3n facultativa de las obras de saneo y asfaltado de varias calles",
+                    "cac:BudgetAmount": {
+                        "cbc:TotalAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "30752.23"
+                        },
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "25415.07"
+                        }
+                    },
+                    "cac:RequiredCommodityClassification": {
+                        "cbc:ItemClassificationCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                            "#text": "71250000"
+                        }
                     }
                 }
             }
-        },
-        "cac:TenderResult": {
-            "cbc:ResultCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
-                "#text": "8"
-            },
-            "cbc:Description": "Haber obtenido la mayor puntuaci\u00f3n, tras la aplicaci\u00f3n de los criterios objetivos de adjudicaci\u00f3n",
-            "cbc:AwardDate": "2019-03-22",
-            "cbc:ReceivedTenderQuantity": "14",
-            "cbc:StartDate": "2019-04-11",
-            "cac:Contract": {
-                "cbc:ID": "2018034.3SER01",
-                "cbc:IssueDate": "2019-04-10"
-            },
-            "cac:WinningParty": {
-                "cac:PartyIdentification": {
-                    "cbc:ID": {
-                        "@schemeName": "NIF",
-                        "#text": "U88364757"
+        ],
+        "cac:TenderResult": [
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Haber obtenido la mayor puntuaci\u00f3n, tras la aplicaci\u00f3n de los criterios objetivos de adjudicaci\u00f3n.",
+                "cbc:AwardDate": "2019-03-22",
+                "cbc:ReceivedTenderQuantity": "13",
+                "cbc:StartDate": "2019-05-10",
+                "cac:Contract": {
+                    "cbc:ID": "2018034.1SER01",
+                    "cbc:IssueDate": "2019-05-09"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "B83697763"
+                        }
+                    },
+                    "cac:PartyName": {
+                        "cbc:Name": "ASESORES DE OBRA CIVIL S.L."
                     }
                 },
-                "cac:PartyName": {
-                    "cbc:Name": "U.T.E.: DELFOS PROYECTOS S.L. - DESARROLLOS LOG\u00cdSTICOS Y FOMENTO DE SUELO S.L."
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "1",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "26283.26"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "31802.74"
+                        }
+                    }
                 }
             },
-            "cac:AwardedTenderedProject": {
-                "cbc:ProcurementProjectLotID": "3",
-                "cac:LegalMonetaryTotal": {
-                    "cbc:TaxExclusiveAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "15825.96"
+            {
+                "cbc:ResultCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                    "#text": "8"
+                },
+                "cbc:Description": "Haber obtenido la mayor puntuaci\u00f3n, tras la aplicaci\u00f3n de los criterios objetivos de adjudicaci\u00f3n",
+                "cbc:AwardDate": "2019-03-22",
+                "cbc:ReceivedTenderQuantity": "14",
+                "cbc:StartDate": "2019-04-11",
+                "cac:Contract": {
+                    "cbc:ID": "2018034.3SER01",
+                    "cbc:IssueDate": "2019-04-10"
+                },
+                "cac:WinningParty": {
+                    "cac:PartyIdentification": {
+                        "cbc:ID": {
+                            "@schemeName": "NIF",
+                            "#text": "U88364757"
+                        }
                     },
-                    "cbc:PayableAmount": {
-                        "@currencyID": "EUR",
-                        "#text": "19149.41"
+                    "cac:PartyName": {
+                        "cbc:Name": "U.T.E.: DELFOS PROYECTOS S.L. - DESARROLLOS LOG\u00cdSTICOS Y FOMENTO DE SUELO S.L."
+                    }
+                },
+                "cac:AwardedTenderedProject": {
+                    "cbc:ProcurementProjectLotID": "3",
+                    "cac:LegalMonetaryTotal": {
+                        "cbc:TaxExclusiveAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "15825.96"
+                        },
+                        "cbc:PayableAmount": {
+                            "@currencyID": "EUR",
+                            "#text": "19149.41"
+                        }
                     }
                 }
             }
-        },
+        ],
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -218,16 +285,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-TITULOS"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "ESTIPULACI\u00d3N XIV P.C.A.P.: Lote 1: Deber\u00e1 contar con el personal descrito en la prescripci\u00f3n t\u00e9cnica cuarta del pliego de prescripciones t\u00e9cnicas, con la titulaci\u00f3n y experiencia indicada.   Lote 2: Deber\u00e1 contar con el personal descrito en la prescripci\u00f3n t\u00e9cnica cuarta del pliego de prescripciones t\u00e9cnicas, con la titulaci\u00f3n y experiencia indicada.   Lote 3: Deber\u00e1 contar con el personal descrito en la prescripci\u00f3n t\u00e9cnica cuarta del pliego de prescripciones t\u00e9cnicas, con la titulaci\u00f3n y experiencia indicada.   Lote 4: Deber\u00e1 contar con una persona con el t\u00edtulo de Ingeniero o Licenciado, y con al menos cinco (5) a\u00f1os de experiencia en estudios de ruido ambiental de contenido semejante al objeto del contrato, y, adem\u00e1s, La empresa consultora deber\u00e1 estar acreditada por ENAC para la realizaci\u00f3n como laboratorio de ensayos en materia ac\u00fastica (Norma UNE-EN ISO/lEC 17025).   Adem\u00e1s, en todos los casos, en los cuatro lotes, deben contar con el personal que, como equipo de trabajo, sea suficiente para la debida ejecuci\u00f3n de las prestaciones del contrato.   Medios de acreditaci\u00f3n: Se deber\u00e1 presentar documentaci\u00f3n acreditativa de la formaci\u00f3n y experiencia aportando: relaci\u00f3n del personal, certificados de los centros/instituciones/entidades organismos en los que hayan prestado funciones, as\u00ed como t\u00edtulos acad\u00e9micos, y contratos o sentencias o resoluciones judiciales de los que se desprenda la posesi\u00f3n del citado requisito m\u00ednimo de solvencia t\u00e9cnica. Esta documentaci\u00f3n se acompa\u00f1ar\u00e1 de curriculum vitae de cada uno de los dos profesionales."
+                        "cbc:Description": "ESTIPULACI\u00d3N XIV P.C.A.P.: Se debe acreditar haber prestado servicios en alguno de los tres \u00faltimos a\u00f1os del mismo tipo o naturaleza que corresponde al objeto del contrato (referidas a los grupos de clasificaci\u00f3n administrativa requeridos para la ejecuci\u00f3n de la obra; en el caso del lote 4, referido a la redacci\u00f3n de proyectos de ejecuci\u00f3n), que, en c\u00f3mputo anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n debe ser igual o superior al 70 % de la anualidad media del lote correspondiente, IVA excluido.  Lote 1: 31.450,02 \u20ac, excluido IVA.  Lote 2: 24.085,35 \u20ac, excluido IVA.  Lote. 3: 17.790,55 C excluido IVA.  \nLote 4: 31.499,78 \u20ac, excluido IVA.  Medio de acreditaci\u00f3n: Se aportar\u00e1n certificado/s de buena ejecuci\u00f3n expedido/s o visado/s por el \u00f3rgano competente, cuando el destinatario sea una entidad del sector p\u00fablico; cuando el destinatario sea un sujeto privado, mediante certificado/s expedido/s por \u00e9ste o, a falta de este/os certificado/s, mediante una declaraci\u00f3n del empresario (en este \u00faltimo caso se deber\u00e1 justificar la ausencia de los certificados)."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-TITULOS"
                         },
-                        "cbc:Description": "ESTIPULACI\u00d3N XIV P.C.A.P.: Se debe acreditar haber prestado servicios en alguno de los tres \u00faltimos a\u00f1os del mismo tipo o naturaleza que corresponde al objeto del contrato (referidas a los grupos de clasificaci\u00f3n administrativa requeridos para la ejecuci\u00f3n de la obra; en el caso del lote 4, referido a la redacci\u00f3n de proyectos de ejecuci\u00f3n), que, en c\u00f3mputo anual acumulado en el a\u00f1o de mayor ejecuci\u00f3n debe ser igual o superior al 70 % de la anualidad media del lote correspondiente, IVA excluido.  Lote 1: 31.450,02 \u20ac, excluido IVA.  Lote 2: 24.085,35 \u20ac, excluido IVA.  Lote. 3: 17.790,55 C excluido IVA.  \nLote 4: 31.499,78 \u20ac, excluido IVA.  Medio de acreditaci\u00f3n: Se aportar\u00e1n certificado/s de buena ejecuci\u00f3n expedido/s o visado/s por el \u00f3rgano competente, cuando el destinatario sea una entidad del sector p\u00fablico; cuando el destinatario sea un sujeto privado, mediante certificado/s expedido/s por \u00e9ste o, a falta de este/os certificado/s, mediante una declaraci\u00f3n del empresario (en este \u00faltimo caso se deber\u00e1 justificar la ausencia de los certificados)."
+                        "cbc:Description": "ESTIPULACI\u00d3N XIV P.C.A.P.: Lote 1: Deber\u00e1 contar con el personal descrito en la prescripci\u00f3n t\u00e9cnica cuarta del pliego de prescripciones t\u00e9cnicas, con la titulaci\u00f3n y experiencia indicada.   Lote 2: Deber\u00e1 contar con el personal descrito en la prescripci\u00f3n t\u00e9cnica cuarta del pliego de prescripciones t\u00e9cnicas, con la titulaci\u00f3n y experiencia indicada.   Lote 3: Deber\u00e1 contar con el personal descrito en la prescripci\u00f3n t\u00e9cnica cuarta del pliego de prescripciones t\u00e9cnicas, con la titulaci\u00f3n y experiencia indicada.   Lote 4: Deber\u00e1 contar con una persona con el t\u00edtulo de Ingeniero o Licenciado, y con al menos cinco (5) a\u00f1os de experiencia en estudios de ruido ambiental de contenido semejante al objeto del contrato, y, adem\u00e1s, La empresa consultora deber\u00e1 estar acreditada por ENAC para la realizaci\u00f3n como laboratorio de ensayos en materia ac\u00fastica (Norma UNE-EN ISO/lEC 17025).   Adem\u00e1s, en todos los casos, en los cuatro lotes, deben contar con el personal que, como equipo de trabajo, sea suficiente para la debida ejecuci\u00f3n de las prestaciones del contrato.   Medios de acreditaci\u00f3n: Se deber\u00e1 presentar documentaci\u00f3n acreditativa de la formaci\u00f3n y experiencia aportando: relaci\u00f3n del personal, certificados de los centros/instituciones/entidades organismos en los que hayan prestado funciones, as\u00ed como t\u00edtulos acad\u00e9micos, y contratos o sentencias o resoluciones judiciales de los que se desprenda la posesi\u00f3n del citado requisito m\u00ednimo de solvencia t\u00e9cnica. Esta documentaci\u00f3n se acompa\u00f1ar\u00e1 de curriculum vitae de cada uno de los dos profesionales."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -241,11 +308,19 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "II.- LOTES 1, 2 y 3: Mayor experiencia del t\u00e9cnico superior adscrito al contrato",
-                        "cbc:WeightNumeric": "20"
+                        "cbc:Description": "I.- LOTE 4: Reducci\u00f3n del plazo de ejecuci\u00f3n del contrato",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "III.- LOTES 1, 2 y 3: Mayor experiencia del t\u00e9cnico superior adscrito al contrato",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "LOTES 1, 2, 3 y 4: Criterio relacionado con el precio.",
+                        "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "II.- LOTES 1, 2 y 3: Mayor experiencia del t\u00e9cnico superior adscrito al contrato",
                         "cbc:WeightNumeric": "20"
                     },
                     {
@@ -253,20 +328,12 @@
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "II.- LOTE 4: Mayor experiencia del t\u00e9cnico superior adscrito al contrato.",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "III.- LOTE 4: Mayor experiencia del t\u00e9cnico superior adscrito al contrato.",
                         "cbc:WeightNumeric": "20"
                     },
                     {
-                        "cbc:Description": "I.- LOTE 4: Reducci\u00f3n del plazo de ejecuci\u00f3n del contrato",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "LOTES 1, 2, 3 y 4: Criterio relacionado con el precio.",
-                        "cbc:WeightNumeric": "45"
+                        "cbc:Description": "II.- LOTE 4: Mayor experiencia del t\u00e9cnico superior adscrito al contrato.",
+                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -327,9 +394,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-07"
+                        }
+                    ]
                 }
             },
             {
@@ -363,9 +435,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-07"
+                        }
+                    ]
                 }
             }
         ]
