@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SP17-01483; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 223140.5 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SP17-01483; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 223140.5 EUR; Estado: ADJ"
     },
     "title": "Suministro e instalaci\u00f3n, as\u00ed como la gesti\u00f3n de su correcto funcionamiento, de un sistema de conteo y control de afluencia de personas para Madrid Destino",
-    "updated": "2018-12-22T09:32:55.494+01:00",
+    "updated": "2019-06-10T15:51:52.195+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SP17-01483",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -138,22 +138,54 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "por ser la empresa que ha presentado la mejor oferta seg\u00fan los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares.",
+            "cbc:AwardDate": "2019-06-07",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B86986379"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "D1N1, S.L"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "190766.25"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "230827.16"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": [
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "3"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "3"
+                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -178,8 +210,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Realizaci\u00f3n de ensayos previos",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Gesti\u00f3n correcto funcionamiento",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
                         "cbc:Description": "Actualizaci\u00f3n y refresco de datos",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Homologaci\u00f3n",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
+                        "cbc:WeightNumeric": "40"
                     },
                     {
                         "cbc:Description": "Fomaci\u00f3n",
@@ -188,22 +236,6 @@
                     {
                         "cbc:Description": "Error m\u00e1ximo del sistema contador",
                         "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Gesti\u00f3n correcto funcionamiento",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Homologaci\u00f3n",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Realizaci\u00f3n de ensayos previos",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
-                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica",
-                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -221,9 +253,9 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-01-22",
+                "cbc:EndDate": "2019-01-28",
                 "cbc:EndTime": "14:00:00",
-                "cbc:Description": "Env\u00edo ofertas por correo postal: La justificaci\u00f3n de env\u00edo se realizar\u00e1 hasta el d\u00eda 22 de enero de 2019 a las 14:00 horas en el correo electr\u00f3nico contratacion@madrid-destino.com"
+                "cbc:Description": "Env\u00edo ofertas por correo postal: La justificaci\u00f3n de env\u00edo se realizar\u00e1 hasta el d\u00eda 28 de enero de 2019 a las 14:00 horas en el correo electr\u00f3nico contratacion@madrid-destino.com"
             }
         },
         "cac:LegalDocumentReference": {
@@ -244,15 +276,26 @@
                 }
             }
         },
-        "cac:AdditionalDocumentReference": {
-            "cbc:ID": "DEUC Madrid Destino.xml",
-            "cac:Attachment": {
-                "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=74065916-ebcb-4845-95e8-c87eef0619f1",
-                    "cbc:DocumentHash": "o4EByXLsEklzIioCWBN0/GutvIo="
+        "cac:AdditionalDocumentReference": [
+            {
+                "cbc:ID": "DEUC Madrid Destino.xml",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=74065916-ebcb-4845-95e8-c87eef0619f1",
+                        "cbc:DocumentHash": "o4EByXLsEklzIioCWBN0/GutvIo="
+                    }
+                }
+            },
+            {
+                "cbc:ID": "Ampliacion plazo ofertas y anulacion fecha apertura Sobre C.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=863dfc09-8995-49d0-a11c-7af1253b23c1",
+                        "cbc:DocumentHash": "iNvQnHB7ckRuEezDlyDwZ2prwaU="
+                    }
                 }
             }
-        },
+        ],
         "cac-place-ext:ValidNoticeInfo": [
             {
                 "cbc-place-ext:NoticeTypeCode": {
@@ -261,9 +304,43 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-09"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-22"
+                        "cbc:IssueDate": "2019-06-10"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-26"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-08"
+                        }
+                    ]
                 }
             },
             {
@@ -273,9 +350,17 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-12-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-12-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-08"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-25"
+                        }
+                    ]
                 }
             }
         ]

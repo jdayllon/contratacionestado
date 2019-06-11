@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: MT170003; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n de Compras de la Sociedad Estatal Correos y Tel\u00e9grafos S.A.; Importe: 6592711.46 EUR; Estado: RES"
     },
     "title": "Adquisici\u00f3n y mantenimiento de Licencias Microsoft Enterprise Agreement para el Grupo Correos.",
-    "updated": "2018-03-07T14:31:56.002+01:00",
+    "updated": "2019-06-10T14:11:47.805+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MT170003",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Adquisici\u00f3n y mantenimiento de Licencias Microsoft Enterprise Agreement para el Grupo Correos.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -161,7 +161,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "4"
             },
             "cbc:UrgencyCode": {
@@ -271,36 +271,68 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-03-07"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-03-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-10"
+                        }
+                    ]
                 }
             }
         ],
-        "cac:ContractModification": {
-            "cbc:ID": "1",
-            "cbc:Note": "Pr\u00f3rroga del contrato",
-            "cbc:ContractModificationDurationMeasure": {
-                "@unitCode": "MON",
-                "#text": "11"
-            },
-            "cbc:FinalDurationMeasure": {
-                "@unitCode": "MON",
-                "#text": "35"
-            },
-            "cbc:ContractID": "MT170003",
-            "cac:ContractModificationLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "279743.6"
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Pr\u00f3rroga del contrato",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "11"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "35"
+                },
+                "cbc:ContractID": "MT170003",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "279743.6"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "6531390.52"
+                    }
                 }
             },
-            "cac:FinalLegalMonetaryTotal": {
-                "cbc:TaxExclusiveAmount": {
-                    "@currencyID": "EUR",
-                    "#text": "6531390.52"
+            {
+                "cbc:ID": "2",
+                "cbc:Note": "Segunda modificaci\u00f3n del contrato.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "0"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                },
+                "cbc:ContractID": "MT170003",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "404037.2"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "6935427.72"
+                    }
                 }
             }
-        }
+        ]
     }
 }
