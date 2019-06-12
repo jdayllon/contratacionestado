@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: cc/ca/007/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Langreo; Importe: 18181.82 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: cc/ca/007/2019; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Langreo; Importe: 18181.82 EUR; Estado: ADJ"
     },
     "title": "suministro de un minitractor de siega",
-    "updated": "2019-05-21T14:48:53.602+02:00",
+    "updated": "2019-06-11T14:41:15.015+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "cc/ca/007/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Motivaci\u00f3n para adjudicar a Maquinaria Agricola Del Noroeste S.L.:",
+            "cbc:AwardDate": "2019-06-11",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B70316294"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "MAQUINARIA AGRICOLA DEL NOROESTE S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "17990"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "21767.9"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,12 +154,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "11"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
@@ -136,11 +162,25 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "11"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Mejoras medioambientales",
+                        "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Especificaciones t\u00e9cnicas",
+                        "cbc:WeightNumeric": "35"
+                    },
                     {
                         "cbc:Description": "Per\u00edodo de garant\u00eda",
                         "cbc:WeightNumeric": "6"
@@ -152,14 +192,6 @@
                     {
                         "cbc:Description": "Plazo de entrega",
                         "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Especificaciones t\u00e9cnicas",
-                        "cbc:WeightNumeric": "35"
-                    },
-                    {
-                        "cbc:Description": "Mejoras medioambientales",
-                        "cbc:WeightNumeric": "4"
                     },
                     {
                         "cbc:Description": "Precio",
@@ -189,8 +221,8 @@
             "cbc:ID": "PPA.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1c500946-5f58-4e3b-a180-46958158e109",
-                    "cbc:DocumentHash": "tzBdmkxI0arS7x3AhmH1vm4ZexY="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=0e34b877-714e-458f-a966-9872803ae883",
+                    "cbc:DocumentHash": "uRIZnRvN98RFPzboi+UBX6AZohM="
                 }
             }
         },
@@ -236,13 +268,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-21"
+                        "cbc:IssueDate": "2019-06-11"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-22"
+                        }
+                    ]
                 }
             },
             {
@@ -252,9 +301,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-21"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-21"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-22"
+                        }
+                    ]
                 }
             }
         ]

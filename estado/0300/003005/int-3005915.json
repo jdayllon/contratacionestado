@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 180333; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Comisi\u00f3n Nacional de los Mercados y la Competencia; Importe: 59292 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 180333; \u00d3rgano de Contrataci\u00f3n: Secretar\u00eda General de la Comisi\u00f3n Nacional de los Mercados y la Competencia; Importe: 59292 EUR; Estado: RES"
     },
     "title": "Revisi\u00f3n modelo contable de ADIF y ADIF alta velocidad y del c\u00e1lculo del coste imputado a los c\u00e1nones del ejercicio 2018",
-    "updated": "2019-02-21T14:11:00.877+01:00",
+    "updated": "2019-06-11T13:36:45.345+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "180333",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -125,6 +125,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta mejor relaci\u00f3n calidad precio",
+            "cbc:AwardDate": "2019-04-12",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:StartDate": "2019-06-17",
+            "cac:Contract": {
+                "cbc:ID": "180333",
+                "cbc:IssueDate": "2019-05-05"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B78970506"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ERNST AND YOUNG, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "55000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "66550"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "true",
             "cac:RequiredFinancialGuarantee": {
@@ -153,25 +190,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "1"
                         }
                     },
                     {
@@ -183,7 +208,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
                         }
                     }
                 ]
@@ -191,16 +228,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterio 2: Metodolog\u00eda del trabajo",
-                        "cbc:WeightNumeric": "20"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "49"
                     },
                     {
                         "cbc:Description": "Criterios Sociales y medioambientales",
                         "cbc:WeightNumeric": "6"
+                    },
+                    {
+                        "cbc:Description": "Criterio 2: Metodolog\u00eda del trabajo",
+                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "Criterio 1: Alcance del proyecto",
@@ -252,6 +289,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-04-16"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -270,6 +319,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-21"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-11"
                     }
                 }
             }

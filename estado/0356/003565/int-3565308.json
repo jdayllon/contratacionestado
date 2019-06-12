@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2093319003900; \u00d3rgano de Contrataci\u00f3n: Jefatura de Asuntos Econ\u00f3micos del Mando de Personal; Importe: 277636.35 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2093319003900; \u00d3rgano de Contrataci\u00f3n: Jefatura de Asuntos Econ\u00f3micos del Mando de Personal; Importe: 277636.35 EUR; Estado: RES"
     },
     "title": "A.M. Manto Integ lote 4 (antiguo lote 2) Abril/Septiembre",
-    "updated": "2019-05-09T13:36:59.922+02:00",
+    "updated": "2019-06-11T16:14:13.722+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2093319003900",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,10 @@
             "cbc:Description": "Por obtener la mayor puntuaci\u00f3n en aplicaci\u00f3n de los criterios de valoraci\u00f3n y cumplir los requisitos exigidos en los Pliegos que rigen este expediente",
             "cbc:AwardDate": "2019-04-29",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "2093319003900",
+                "cbc:IssueDate": "2019-05-23"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -135,6 +139,7 @@
             }
         },
         "cac:TenderingTerms": {
+            "cbc:RequiredCurriculaIndicator": "false",
             "cac:TendererQualificationRequest": {
                 "cbc:Description": "Seg\u00fan Pliego de Cl\u00e1usulas Administrativas Particulares"
             },
@@ -156,17 +161,31 @@
                 "#text": "3"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-05-09"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-05-09"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-11"
+                    }
                 }
             }
-        }
+        ]
     }
 }

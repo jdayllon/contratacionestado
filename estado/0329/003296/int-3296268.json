@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: B070001/2019-0013; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Huesca; Importe: 102415.45 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: B070001/2019-0013; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de Huesca; Importe: 102415.45 EUR; Estado: ADJ"
     },
     "title": "Ejecuci\u00f3n de las obras contenidas en el proyecto t\u00e9cnico denominado \"Mejora de acceso al n\u00facleo de Bono desde N-230\" (TM Montanuy)",
-    "updated": "2019-05-13T14:11:28.046+02:00",
+    "updated": "2019-06-11T14:10:57.404+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "B070001/2019-0013",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta con mejor relaci\u00f3n calidad-precio",
+            "cbc:AwardDate": "2019-06-11",
+            "cbc:ReceivedTenderQuantity": "5",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "90156.32"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "100909.71"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B25303611"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ARNO INFRAESTRUCTURAS, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "90156.32"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "109089.14"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -122,16 +162,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Conforme al Anexo V PCAP"
+                        "cbc:Description": "Conforme al Anexo VI PCAP"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Conforme al Anexo VI PCAP"
+                        "cbc:Description": "Conforme al Anexo V PCAP"
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -145,13 +185,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
@@ -163,7 +197,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         }
                     },
                     {
@@ -171,11 +205,25 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Descripci\u00f3n general del desarrollo de las obras",
+                        "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Medidas de seguridad en defensa del tr\u00e1fico pesado",
+                        "cbc:WeightNumeric": "10"
+                    },
                     {
                         "cbc:Description": "Mejora sobre el espesor del pavimento",
                         "cbc:WeightNumeric": "7"
@@ -185,20 +233,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "60"
-                    },
-                    {
-                        "cbc:Description": "Medidas de seguridad en defensa del tr\u00e1fico pesado",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "Mejora sobre el espesor de la capa de zahorras",
                         "cbc:WeightNumeric": "3"
                     },
                     {
-                        "cbc:Description": "Descripci\u00f3n general del desarrollo de las obras",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "60"
                     }
                 ]
             },
@@ -291,6 +331,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-11"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

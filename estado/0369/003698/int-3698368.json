@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 201900000229; \u00d3rgano de Contrataci\u00f3n: Gerencia del Museo Nacional Centro de Arte Reina Sof\u00eda; Importe: 830808 EUR; Estado: PUB"
     },
     "title": "Servicio de mantenimiento integral de los ascensores y elementos de traslaci\u00f3n vertical de los edificios e instalaciones del Museo Nacional Centro de Arte Reina Sof\u00eda.",
-    "updated": "2019-06-10T13:38:12.039+02:00",
+    "updated": "2019-06-11T16:25:10.222+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "201900000229",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -112,19 +112,19 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
+                        "#text": "2"
+                    },
+                    "cbc:AmountRate": "5"
+                },
+                {
+                    "cbc:GuaranteeTypeCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
                         "#text": "1"
                     },
                     "cbc:LiabilityAmount": {
                         "@currencyID": "EUR",
                         "#text": "24924.24"
                     }
-                },
-                {
-                    "cbc:GuaranteeTypeCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
-                    },
-                    "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -164,12 +164,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     },
@@ -178,18 +172,24 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios evaluables mediante f\u00f3rmula",
-                        "cbc:WeightNumeric": "75"
-                    },
-                    {
                         "cbc:Description": "Criterios no evaluables mediante f\u00f3rmula",
                         "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Criterios evaluables mediante f\u00f3rmula",
+                        "cbc:WeightNumeric": "75"
                     }
                 ]
             },
@@ -256,6 +256,15 @@
                         "cbc:DocumentHash": "nnKXbuZl2Me+7CiI8WPcrhVIyHQ="
                     }
                 }
+            },
+            {
+                "cbc:ID": "Convocatoria visita ascensores MNCARS.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bef27942-022e-43a2-95e6-849abbad9b58",
+                        "cbc:DocumentHash": "e5+MMwaUUGRzuVYy8QaztXAD1GU="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
@@ -266,9 +275,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-06-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-11"
+                        }
+                    ]
                 }
             },
             {

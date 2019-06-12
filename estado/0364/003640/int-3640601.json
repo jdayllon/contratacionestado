@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 46-IS-111/2019; \u00d3rgano de Contrataci\u00f3n: TGSS-Direcci\u00f3n provincial de Valencia; Importe: 15558.4 EUR; Estado: PUB"
     },
     "title": "Servicio de Centralizaci\u00f3n de alarmas, custodia de llaves, servicio de verificaci\u00f3n y respuesta y conexi\u00f3n bidireccional de los centros dependientes de la Direcci\u00f3n Provincial de la Tesorer\u00eda General de la Seguridad Social de Valencia.",
-    "updated": "2019-05-28T17:09:34.197+02:00",
+    "updated": "2019-06-11T13:52:36.179+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "46-IS-111/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -115,7 +115,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     },
                     {
@@ -127,22 +133,26 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "1"
                         }
                     }
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio",
-                    "cbc:WeightNumeric": "100"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Adecuaci\u00f3n sistema de videoviglancia",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Plataforma Web",
+                        "cbc:WeightNumeric": "36"
+                    },
+                    {
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "49"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -158,16 +168,16 @@
                 "#text": "1"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-06-12",
-                "cbc:EndTime": "20:00:00"
+                "cbc:EndDate": "2019-06-21",
+                "cbc:EndTime": "18:00:00"
             }
         },
         "cac:LegalDocumentReference": {
             "cbc:ID": "46IS1112019 PCAP.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=bbee344e-9b24-41cc-8923-1eae136eb9f0",
-                    "cbc:DocumentHash": "fcvyClLQw5POF8yN2c2oqoMtyMk="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8f355b0e-e8e4-42ca-ad31-985eff37497e",
+                    "cbc:DocumentHash": "DJ2c1zY8h8kuIXVRqcnZZMZUGIc="
                 }
             }
         },
@@ -175,8 +185,17 @@
             "cbc:ID": "46IS1112019 PPT.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=eb9bcadf-afb5-4243-8390-9b1663c44c0e",
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5ece5db3-b7fe-432d-8a55-cd437836bfb2",
                     "cbc:DocumentHash": "jtXm3Qw2ufcXz6KGeRJ2crTBYq8="
+                }
+            }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "46IS1112019_ANEXO 3_ELEMENTOS.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=3d0eed41-8ce0-4e72-a957-f27a62513ef9",
+                    "cbc:DocumentHash": "uHDQbLz5maxeGe0alzPmQsJQH4I="
                 }
             }
         },
@@ -188,9 +207,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-28"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-11"
+                        }
+                    ]
                 }
             },
             {
@@ -201,7 +225,7 @@
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-28"
+                        "cbc:IssueDate": "2019-06-06"
                     }
                 }
             },

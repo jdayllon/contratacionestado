@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PCHU/001/2019; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n del Palacio de Congresos de Huesca S.A.; Importe: 103500 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PCHU/001/2019; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n del Palacio de Congresos de Huesca S.A.; Importe: 103500 EUR; Estado: RES"
     },
     "title": "Servicio de asistencia t\u00e9cnica, alquiler y mantenimiento de los equipos e\ninstalaciones de equipamiento audiovisual y esc\u00e9nico-t\u00e9cnico del Palacio de Congresos",
-    "updated": "2019-02-26T17:52:03.412+01:00",
+    "updated": "2019-06-11T18:22:43.904+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PCHU/001/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -115,14 +115,57 @@
                 }
             },
             "cac:PlannedPeriod": {
-                "cbc:DurationMeasure": {
-                    "@unitCode": "ANN",
-                    "#text": "1"
-                }
+                "cbc:StartDate": "2019-06-01",
+                "cbc:EndDate": "2021-06-01"
             },
             "cac:ContractExtension": {
                 "cac:OptionValidityPeriod": {
                     "cbc:Description": "1 a\u00f1o"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-04-01",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "100785.15"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "100785.15"
+            },
+            "cbc:StartDate": "2019-06-01",
+            "cac:Contract": {
+                "cbc:ID": "PCHU1/2019",
+                "cbc:IssueDate": "2019-06-01"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B22156194"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "RAMPA HUESCA, S. L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "100785.15"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "121950.03"
+                    }
                 }
             }
         },
@@ -142,16 +185,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "ZZZ"
                         },
-                        "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos realizados en los \u00faltimos tres a\u00f1os del mismo tipo o naturaleza al que corresponde el objeto del contrato, avalados por certificados de buena ejecuci\u00f3n."
+                        "cbc:Description": "Inscripci\u00f3n en el Registro de Empresas Instaladoras de Telecomunicaci\u00f3n del\nMinisterio de Industria, Turismo y Comercio y dem\u00e1s requisitos complementarios\npara el ejercicio de la actividad."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "ZZZ"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Inscripci\u00f3n en el Registro de Empresas Instaladoras de Telecomunicaci\u00f3n del\nMinisterio de Industria, Turismo y Comercio y dem\u00e1s requisitos complementarios\npara el ejercicio de la actividad."
+                        "cbc:Description": "Relaci\u00f3n de los principales servicios o trabajos realizados en los \u00faltimos tres a\u00f1os del mismo tipo o naturaleza al que corresponde el objeto del contrato, avalados por certificados de buena ejecuci\u00f3n."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -168,24 +211,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Proyecto de Trabajo",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
                         "cbc:Description": "Precio hora t\u00e9cnicos extras",
                         "cbc:WeightNumeric": "8"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "51"
-                    },
-                    {
-                        "cbc:Description": "Proyecto de Trabajo",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Experiencia de los t\u00e9cnicos",
+                        "cbc:WeightNumeric": "12"
                     },
                     {
                         "cbc:Description": "Alquiler materiales",
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Experiencia de los t\u00e9cnicos",
-                        "cbc:WeightNumeric": "12"
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "51"
                     }
                 ]
             },
@@ -242,6 +285,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -260,6 +315,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-11"
                     }
                 }
             },
