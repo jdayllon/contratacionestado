@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 01/19 SG; \u00d3rgano de Contrataci\u00f3n: Empresa Estatal Mercados Centrales de Abastecimiento SA (MERCASA); Importe: 72785.7 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 01/19 SG; \u00d3rgano de Contrataci\u00f3n: Empresa Estatal Mercados Centrales de Abastecimiento SA (MERCASA); Importe: 72785.7 EUR; Estado: ADJ"
     },
     "title": "Suministro en r\u00e9gimen de arrendamiento operativo de siete equipos multifunci\u00f3n (Renting), mantenimiento y asistencia integral.",
-    "updated": "2019-02-27T17:27:24.809+01:00",
+    "updated": "2019-06-13T19:54:08.293+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "01/19 SG",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -111,6 +111,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser, a la vista de las ofertas t\u00e9cnicas y econ\u00f3micas presentadas, la oferta que ofrece la mejor relaci\u00f3n calidad-precio.",
+            "cbc:AwardDate": "2019-05-29",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28122125"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CANON ESPA\u00d1A S.A.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "52312.08"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "63297.61"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -118,20 +150,27 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 }
             ],
             "cac:TendererQualificationRequest": {
                 "cac:TechnicalEvaluationCriteria": [
+                    {
+                        "cbc:EvaluationCriteriaTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
+                            "#text": "XSX-CERTCALIDAD"
+                        },
+                        "cbc:Description": "Lo indicado en el apartado F del Pliego de Clausulas Particulares"
+                    },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
@@ -143,13 +182,6 @@
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
                             "#text": "OSR-COMPTASK"
-                        },
-                        "cbc:Description": "Lo indicado en el apartado F del Pliego de Clausulas Particulares"
-                    },
-                    {
-                        "cbc:EvaluationCriteriaTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "XSX-CERTCALIDAD"
                         },
                         "cbc:Description": "Lo indicado en el apartado F del Pliego de Clausulas Particulares"
                     }
@@ -171,19 +203,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
                         }
                     },
                     {
@@ -195,7 +215,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "4"
                         }
                     }
                 ]
@@ -214,7 +246,7 @@
                         "cbc:WeightNumeric": "70"
                     },
                     {
-                        "cbc:Description": "Memoria descriptiva",
+                        "cbc:Description": "Incorporacion de herramientas",
                         "cbc:WeightNumeric": "5"
                     },
                     {
@@ -222,7 +254,7 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Incorporacion de herramientas",
+                        "cbc:Description": "Memoria descriptiva",
                         "cbc:WeightNumeric": "5"
                     }
                 ]
@@ -241,30 +273,30 @@
                 "#text": "1"
             },
             "cac:DocumentAvailabilityPeriod": {
-                "cbc:EndDate": "2019-03-20",
+                "cbc:EndDate": "2019-03-25",
                 "cbc:EndTime": "14:00:00"
             },
             "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-03-20",
+                "cbc:EndDate": "2019-03-25",
                 "cbc:EndTime": "14:00:00",
-                "cbc:Description": "Las proposiciones se\npresentar\u00e1n en la sede de MERCASA, sita en el Paseo\nde la Habana 180, 28036 de Madrid, en mano o por\ncorreo certificado, en horario comprendido entre las\n9:00 y las 14:00 y hasta las 14 horas del d\u00eda 20 de\nMarzo de 2019."
+                "cbc:Description": "Las proposiciones se\npresentar\u00e1n en la sede de MERCASA, sita en el Paseo\nde la Habana 180, 28036 de Madrid, en mano o por\ncorreo certificado, en horario comprendido entre las\n9:00 y las 14:00 y hasta las 14 horas del d\u00eda 25 de\nMarzo de 2019."
             }
         },
         "cac:LegalDocumentReference": {
-            "cbc:ID": "Pliego de Clausulas Particulares.pdf",
+            "cbc:ID": "Pliego de Clausulas Particulares V2.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=92b9caf6-a070-41fc-8f8d-f11cb7c5b7e0",
-                    "cbc:DocumentHash": "ybxVCcgxYMOtXG0Rp+1T9HOzijg="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=93766b9c-f324-4f74-a107-c2c09e83f650",
+                    "cbc:DocumentHash": "gXOdscl4rNuN0QZEZaMyLwTDsnw="
                 }
             }
         },
         "cac:TechnicalDocumentReference": {
-            "cbc:ID": "Pliego de Prescripciones Tecnicas.pdf",
+            "cbc:ID": "Pliego de Prescripciones Tecnicas rec.pdf",
             "cac:Attachment": {
                 "cac:ExternalReference": {
-                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=1fcb46da-06e9-4d06-a903-40d12c9b4dab",
-                    "cbc:DocumentHash": "tahLqv6VHRUJGctTPta6iRF8Dfs="
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=77b709d4-8f62-4073-b8f2-db55390e419a",
+                    "cbc:DocumentHash": "vIE8SzuvXG1EGOWc5gcc8kW0PLc="
                 }
             }
         },
@@ -272,13 +304,42 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-27"
+                        "cbc:IssueDate": "2019-06-13"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-15"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-15"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-19"
+                        }
+                    ]
                 }
             },
             {
@@ -288,9 +349,20 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-27"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-27"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-03-15"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-04-23"
+                        }
+                    ]
                 }
             },
             {

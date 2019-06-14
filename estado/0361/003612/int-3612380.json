@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 1616/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Gri\u00f1\u00f3n; Importe: 15000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 1616/2019; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno Local del Ayuntamiento de Gri\u00f1\u00f3n; Importe: 15000 EUR; Estado: RES"
     },
     "title": "servicios pirot\u00e9cnicos en fiestas patronales de junio y agosto del municipio de Gri\u00f1\u00f3n",
-    "updated": "2019-05-22T14:46:42.629+02:00",
+    "updated": "2019-06-13T15:29:19.906+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "1616/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -110,6 +110,22 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:AwardDate": "2019-06-07",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -126,16 +142,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-TECH"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "indicaci\u00f3n del personal t\u00e9cnico que va a participar en el contrato."
+                        "cbc:Description": "declaraci\u00f3n responsable que se deber\u00e1 acreditar previo a la adjudicaci\u00f3n"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OSR-TECH"
                         },
-                        "cbc:Description": "declaraci\u00f3n responsable que se deber\u00e1 acreditar previo a la adjudicaci\u00f3n"
+                        "cbc:Description": "indicaci\u00f3n del personal t\u00e9cnico que va a participar en el contrato."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -149,19 +165,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
                         }
                     },
                     {
@@ -169,11 +173,27 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "VARIABLE INTENSIDAD",
+                        "cbc:WeightNumeric": "15"
+                    },
                     {
                         "cbc:Description": "OFERTA ECON\u00d3MICA",
                         "cbc:WeightNumeric": "60"
@@ -181,10 +201,6 @@
                     {
                         "cbc:Description": "PROYECTO T\u00c9CNICO SEG\u00daN CL\u00c1USULA 13 PCAP APARTADO 2.",
                         "cbc:WeightNumeric": "25"
-                    },
-                    {
-                        "cbc:Description": "VARIABLE INTENSIDAD",
-                        "cbc:WeightNumeric": "15"
                     }
                 ]
             },
@@ -230,6 +246,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-13"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

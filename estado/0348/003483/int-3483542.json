@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 300/2019/00454; \u00d3rgano de Contrataci\u00f3n: Tribunal Econ\u00f3mico-Administrativo Municipal de Madrid; Importe: 65071.5 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 300/2019/00454; \u00d3rgano de Contrataci\u00f3n: Tribunal Econ\u00f3mico-Administrativo Municipal de Madrid; Importe: 65071.5 EUR; Estado: ADJ"
     },
     "title": "Vigilancia y seguridad del edificio de la calle Mayor, n\u00famero 83, sede del Tribunal Econ\u00f3mico-Administrativo Municipal de Madrid",
-    "updated": "2019-04-17T19:32:44.846+02:00",
+    "updated": "2019-06-13T16:52:34.467+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "300/2019/00454",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser la \u00fanica admitida a la licitaci\u00f3n, de las dos presentadas, y ser econ\u00f3micamente m\u00e1s ventajosa, habiendo obtenido 90,70 puntos en la valoraci\u00f3n de los criterios de adjudicaci\u00f3n, sobre un total de 100 puntos.",
+            "cbc:AwardDate": "2019-06-12",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "54979"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A04038014"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "GRUPO CONTROL EMPRESA DE SEGURIDAD S.A."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "54979"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "66524.59"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -130,16 +170,16 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
-                    "cbc:AmountRate": "1"
+                    "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
-                    "cbc:AmountRate": "5"
+                    "cbc:AmountRate": "1"
                 }
             ],
             "cac:TendererQualificationRequest": {
@@ -186,13 +226,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         }
                     }
                 ]
@@ -203,24 +243,24 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Criterios de calidad Mejoras en medios t\u00e9cnicos",
-                        "cbc:WeightNumeric": "16"
-                    },
-                    {
                         "cbc:Description": "Calidad t\u00e9cnica de la oferta.",
                         "cbc:WeightNumeric": "25"
                     },
                     {
-                        "cbc:Description": "Criterios sociales. Estabilidad en el empleo",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Criterios de calidad Mejoras en medios t\u00e9cnicos",
+                        "cbc:WeightNumeric": "16"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "30"
                     },
                     {
                         "cbc:Description": "Criterios sociales. Mejora del sistema de remuneraci\u00f3n.",
                         "cbc:WeightNumeric": "9"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "30"
+                        "cbc:Description": "Criterios sociales. Estabilidad en el empleo",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Criterios de calidad. Mejoras en la formaci\u00f3n",
@@ -269,6 +309,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-13"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
