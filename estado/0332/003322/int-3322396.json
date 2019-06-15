@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 000025/2018-CNT; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Quart de Poblet; Importe: 7727.11 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 000025/2018-CNT; \u00d3rgano de Contrataci\u00f3n: Alcald\u00eda del Ayuntamiento de Quart de Poblet; Importe: 7727.11 EUR; Estado: ADJ"
     },
     "title": "Servicio de Mantenimiento Integral de las Fuentes ornamentales de Quart de Poblet.",
-    "updated": "2019-03-25T13:24:38.315+01:00",
+    "updated": "2019-06-14T14:14:26.834+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "000025/2018-CNT",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-06-13",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A28010478"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Imesapi S.A"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "6727.11"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "8139.8"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -143,6 +175,14 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Plan de igualdad",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Baja econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
                         "cbc:Description": "Mejoras t\u00e9cnicas",
                         "cbc:WeightNumeric": "10"
                     },
@@ -151,20 +191,12 @@
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Baja econ\u00f3mica",
-                        "cbc:WeightNumeric": "60"
+                        "cbc:Description": "Ampliaci\u00f3n plazo garant\u00eda",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Equipo t\u00e9cnico",
                         "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Plan de igualdad",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Ampliaci\u00f3n plazo garant\u00eda",
-                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -225,6 +257,18 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-14"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
