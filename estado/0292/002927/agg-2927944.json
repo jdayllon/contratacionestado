@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019/05;\u00d3rgano de Contrataci\u00f3n: Vicepresidencia, Consejer\u00eda de Presidencia y Portavoc\u00eda del Gobierno\u00b7\u00b7>Canal de Isabel II;Importe: 295135.93 EUR;Estado: ABIERTO"
+        "#text": "Id licitaci\u00f3n: 2019/05;\u00d3rgano de Contrataci\u00f3n: Vicepresidencia, Consejer\u00eda de Presidencia y Portavoc\u00eda del Gobierno\u00b7\u00b7>Canal de Isabel II;Importe: 295135.93 EUR;Estado: ADJUDICADA"
     },
     "title": "Proy.Ejecuci\u00f3n de Ampliaci\u00f3n red Saneamiento en Crta. de Estaci\u00f3n, c/Prado Empe\u00f1ado, Trav. Prado Empe\u00f1ado y Trav.Ca\u00f1ada en Lozoyuela",
-    "updated": "2019-02-05T14:55:26.370+01:00",
+    "updated": "2019-06-17T12:10:30.638+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019/05",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cac:Party": {
@@ -64,14 +64,36 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B85047835"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "OPS INFRAESTRUCTURAS Y SERVICIOS, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "220820.7"
+                    }
+                }
+            }
+        },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
                 "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "9"
-            },
-            "cac:TenderSubmissionDeadlinePeriod": {
-                "cbc:EndDate": "2019-02-27",
-                "cbc:EndTime": "14:00:00"
             }
         },
         "cac:LegalDocumentReference": {
@@ -82,17 +104,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-02-05"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-02-05"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "PCPCM \u2013 Perfil contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-11"
+                    }
                 }
             }
-        }
+        ]
     }
 }

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 0001-19pse; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Servicios Comunitarios de Molina S.A. (SERCOMOSA); Importe: 15834 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 0001-19pse; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Servicios Comunitarios de Molina S.A. (SERCOMOSA); Importe: 15834 EUR; Estado: RES"
     },
     "title": "mantenimiento el\u00e9ctrico y electr\u00f3nico, automatizaci\u00f3n con plc\u2019 s, y control del funcionamiento dep\u00f3sitos y estaciones de bombeo agua potable (e.b.a.p.) y estaciones de bombeo aguas residuales (e.b.a.r",
-    "updated": "2019-02-11T13:48:17.466+01:00",
+    "updated": "2019-06-17T14:08:02.111+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "0001-19pse",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -131,6 +131,43 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Formalizar el contrato con laempresa Autom\u00e1tica Electrohine, S.L., por obtener una puntuaci\u00f3n de 93.53 puntos.",
+            "cbc:AwardDate": "2019-05-13",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cbc:StartDate": "2019-06-17",
+            "cac:Contract": {
+                "cbc:ID": "0001-19PSE",
+                "cbc:IssueDate": "2019-06-17"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B30400998"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "AUTOMATICA ELECTROHINE, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "15430"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "18670.3"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -161,6 +198,12 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
                     },
@@ -173,19 +216,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
                         }
                     },
                     {
@@ -193,14 +224,26 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Precio",
-                    "cbc:WeightNumeric": "100"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Valor de la oferta t\u00e9cnica",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
+                        "cbc:Description": "Proposici\u00f3n econ\u00f3mica de la oferta",
+                        "cbc:WeightNumeric": "50"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -251,13 +294,30 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                    "#text": "DOC_CD"
+                    "#text": "DOC_CAN_ADJ"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-11"
+                        "cbc:IssueDate": "2019-05-31"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-18"
+                        }
+                    ]
                 }
             },
             {
@@ -267,8 +327,28 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-11"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-18"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-11"
+                        "cbc:IssueDate": "2019-06-17"
                     }
                 }
             }

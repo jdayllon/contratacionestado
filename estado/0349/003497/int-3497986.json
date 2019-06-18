@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019/SB; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Centro de Estudios Pol\u00edticos y Constitucionales; Importe: 0 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2019/SB; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n del Centro de Estudios Pol\u00edticos y Constitucionales; Importe: 0 EUR; Estado: RES"
     },
     "title": "Servicios bancarios del Centro de Estudios Pol\u00edticos y Constitucionales.",
-    "updated": "2019-04-24T18:54:52.949+02:00",
+    "updated": "2019-06-17T18:23:56.327+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019/SB",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -107,6 +107,14 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:AwardDate": "2019-05-13",
+            "cbc:ReceivedTenderQuantity": "0"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -121,6 +129,10 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Criterio 1. Tipo de inter\u00e9s de las cuentas.",
+                        "cbc:WeightNumeric": "50"
+                    },
+                    {
                         "cbc:Description": "Criterio 3. Tiempo necesario para la resoluci\u00f3n de incidencias.",
                         "cbc:WeightNumeric": "15"
                     },
@@ -131,10 +143,6 @@
                     {
                         "cbc:Description": "Criterio 4. Designaci\u00f3n de gestor/a especializado/a en banca institucional.",
                         "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Criterio 1. Tipo de inter\u00e9s de las cuentas.",
-                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -179,6 +187,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-17"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

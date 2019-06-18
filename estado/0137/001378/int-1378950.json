@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 2016/10127; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n de Compras de la Corporaci\u00f3n de Radio y Televisi\u00f3n Espa\u00f1ola S.A.; Importe: 661440 EUR; Estado: RES"
     },
     "title": "Servicio de mantenimiento de aplicaciones Legacy",
-    "updated": "2017-03-10T09:32:26.217+01:00",
+    "updated": "2019-06-17T13:34:40.480+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2016/10127",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -22,7 +22,7 @@
                 "#text": "5"
             },
             "cac:Party": {
-                "cbc:WebsiteURI": "http://www.rtve.es/programas/licitaciones",
+                "cbc:WebsiteURI": "https://licitaciones.rtve.es",
                 "cac:PartyIdentification": {
                     "cbc:ID": {
                         "@schemeName": "DIR3",
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Servicio de mantenimiento de aplicaciones Legacy",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -86,7 +86,7 @@
             "cac:RealizedLocation": {
                 "cbc:CountrySubentity": "ESPA\u00d1A",
                 "cbc:CountrySubentityCode": {
-                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/NUTS-2009.gc",
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES"
                 },
                 "cac:Address": {
@@ -210,10 +210,16 @@
                 ]
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "Criterios T\u00e9cnicos",
-                    "cbc:WeightNumeric": "40"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "Criterios Econ\u00f3micos",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Criterios T\u00e9cnicos",
+                        "cbc:WeightNumeric": "40"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -221,7 +227,7 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "1"
             },
             "cbc:UrgencyCode": {
@@ -307,6 +313,74 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-03-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-06"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-17"
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "4"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "28"
+                },
+                "cbc:ContractID": "4101032978",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "109408"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "765856"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "2",
+                "cbc:Note": "S-03818-20190508 - Pr\u00f3rroga de Expediente 2016/10127 \"Servicio de Mantenimiento Aplicaciones Legacy\"",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "3"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "31"
+                },
+                "cbc:ContractID": "4101032978",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "82056"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "847912"
                     }
                 }
             }
