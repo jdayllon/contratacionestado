@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: ICIA 202360; \u00d3rgano de Contrataci\u00f3n: Presidencia del Instituto canario de Investigaciones Agrarias; Importe: 104400 EUR; Estado: PUB"
     },
     "title": "Servicio de mantenimiento y Explotaci\u00f3n de los Sistemas Inform\u00e1ticos y de Comunicaciones, as\u00ed como Atenci\u00f3n a Usuarios del ICIA",
-    "updated": "2019-06-17T15:56:15.746+02:00",
+    "updated": "2019-06-18T17:06:32.384+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "ICIA 202360",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -167,20 +167,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Certificaciones oficiales de calidad en gesti\u00f3n empresarial vigentes",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Certificaciones oficiales vigentes",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
                         "cbc:Description": "Precio",
                         "cbc:WeightNumeric": "35"
                     },
                     {
                         "cbc:Description": "Acreditaci\u00f3n buenas pr\u00e1cticas en Responsabilidad Social Empresarial seg\u00fan se indica PCAP",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Certificaciones oficiales de calidad en gesti\u00f3n empresarial vigentes",
+                        "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "Certificaciones oficiales vigentes",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -223,17 +223,31 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-18"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-06-17"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-17"
+                    }
                 }
             }
-        }
+        ]
     }
 }

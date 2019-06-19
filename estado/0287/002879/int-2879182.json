@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: LI02-19; \u00d3rgano de Contrataci\u00f3n: Gesti\u00f3n y Servicios de Paterna S.L.U.; Importe: 90402 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: LI02-19; \u00d3rgano de Contrataci\u00f3n: Gesti\u00f3n y Servicios de Paterna S.L.U.; Importe: 90402 EUR; Estado: ADJ"
     },
     "title": "Servicio de Prevenci\u00f3n Ajeno en las especialidades de Ergonom\u00eda y Psicosociolog\u00eda y Medicina del Trabajo para Gesti\u00f3n y Servicios de Paterna.",
-    "updated": "2019-03-07T15:04:55.156+01:00",
+    "updated": "2019-06-18T17:13:47.885+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "LI02-19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -138,6 +138,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta m\u00e1s favorable.",
+            "cbc:AwardDate": "2019-06-13",
+            "cbc:ReceivedTenderQuantity": "7",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "81180"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B97673453"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "VALORA PREVENCION,SL"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "74700"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "81768.6"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -169,15 +209,27 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "60"
+                        "cbc:Description": "Colectivos vulnerables",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Criterio Medioambiental",
+                        "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Propuesta para llevar a cabo actividades de vigilancia de la salud.",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Prestamo de equipos para la realizaci\u00f3n de mediciones higi\u00e9nicas.",
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Estabilidad en el empleo",
+                        "cbc:WeightNumeric": "2"
+                    },
+                    {
+                        "cbc:Description": "Igualdad de oportunidades",
                         "cbc:WeightNumeric": "2"
                     },
                     {
@@ -185,24 +237,12 @@
                         "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Igualdad de oportunidades",
+                        "cbc:Description": "Prestamo de equipos para la realizaci\u00f3n de mediciones higi\u00e9nicas.",
                         "cbc:WeightNumeric": "2"
                     },
                     {
                         "cbc:Description": "Propuesta para llevar a cabo actividades de prevenci\u00f3n t\u00e9cnica.",
                         "cbc:WeightNumeric": "15"
-                    },
-                    {
-                        "cbc:Description": "Estabilidad en el empleo",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Colectivos vulnerables",
-                        "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "Criterio Medioambiental",
-                        "cbc:WeightNumeric": "2"
                     }
                 ]
             },
@@ -257,6 +297,18 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-18"
+                    }
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
