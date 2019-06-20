@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 3.18/05110.0020; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 80000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 3.18/05110.0020; \u00d3rgano de Contrataci\u00f3n: ADIF - Presidencia; Importe: 80000 EUR; Estado: RES"
     },
     "title": "Suministro de un convertidor de potencia ca/cc/ca con entrada monof\u00e1sica y salida trif\u00e1sica",
-    "updated": "2018-08-03T09:12:11.119+02:00",
+    "updated": "2019-06-19T21:02:23.781+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "3.18/05110.0020",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -55,7 +55,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Suministro de un convertidor de potencia ca/cc/ca con entrada monof\u00e1sica y salida trif\u00e1sica",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "1"
             },
             "cbc:SubTypeCode": {
@@ -101,7 +101,43 @@
             "cac:PlannedPeriod": {
                 "cbc:DurationMeasure": {
                     "@unitCode": "DAY",
-                    "#text": "105"
+                    "#text": "45"
+                }
+            }
+        },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por ser la oferta econ\u00f3micamente m\u00e1s ventajosa",
+            "cbc:AwardDate": "2019-03-18",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cac:Contract": {
+                "cbc:ID": "3.18/05110.0020/1",
+                "cbc:IssueDate": "2019-05-06"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "A82803081"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "CONSTR INSTALACION Y TRACCION SA"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "65656"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "79443.76"
+                    }
                 }
             }
         },
@@ -132,12 +168,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "CRITERIOS NO EVALUABLES MEDIANTE F\u00d3RMULAS",
-                        "cbc:WeightNumeric": "40"
-                    },
-                    {
                         "cbc:Description": "CRITERIOS EVALUABLES MEDIANTE F\u00d3RMULAS",
                         "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "CRITERIOS NO EVALUABLES MEDIANTE F\u00d3RMULAS",
+                        "cbc:WeightNumeric": "40"
                     }
                 ]
             },
@@ -213,6 +249,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-19"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -240,8 +288,23 @@
                         },
                         {
                             "cbc:IssueDate": "2018-08-03"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-10-11"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-19"
+                    }
                 }
             }
         ]

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: AI190102; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n de Compras de la Sociedad Estatal Correos y Tel\u00e9grafos S.A.; Importe: 114500 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: AI190102; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n de Compras de la Sociedad Estatal Correos y Tel\u00e9grafos S.A.; Importe: 114500 EUR; Estado: RES"
     },
     "title": "La renovaci\u00f3n y mejora del servicio de mantenimiento del sistema CAudinter",
-    "updated": "2019-03-29T13:56:57.796+01:00",
+    "updated": "2019-06-19T15:17:37.798+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "AI190102",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -114,6 +114,10 @@
             "cbc:Description": "El precio m\u00e1s bajo solamente.",
             "cbc:AwardDate": "2019-03-26",
             "cbc:ReceivedTenderQuantity": "1",
+            "cac:Contract": {
+                "cbc:ID": "AI190102",
+                "cbc:IssueDate": "2019-04-05"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -154,17 +158,31 @@
                 "#text": "1"
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CAN_ADJ"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-03-29"
+                    }
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-03-29"
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-19"
+                    }
                 }
             }
-        }
+        ]
     }
 }

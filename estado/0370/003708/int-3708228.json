@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 42300/19/0337/00 (2019/EA23/00000673); \u00d3rgano de Contrataci\u00f3n: Jefatura de la Secci\u00f3n Econ\u00f3mico Administrativa 23 de la Base A\u00e9rea de Albacete; Importe: 110000 EUR; Estado: PUB"
     },
     "title": "Mantenimiento de las instalaciones de alta y media tensi\u00f3n, centros de transformaci\u00f3n y pararrayos responsabilidad de la B.A. de Albacete",
-    "updated": "2019-06-12T23:37:43.177+02:00",
+    "updated": "2019-06-20T00:30:44.731+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "42300/19/0337/00 (2019/EA23/00000673)",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -129,13 +129,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
+                            "#text": "1"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
+                            "#text": "9"
                         }
                     },
                     {
@@ -149,16 +149,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "Mejoras valoradas",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "Apoyo en tiempo de respuesta ante aver\u00edas",
                         "cbc:WeightNumeric": "5"
                     },
                     {
                         "cbc:Description": "Importe de la oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "75"
-                    },
-                    {
-                        "cbc:Description": "Mejoras valoradas",
-                        "cbc:WeightNumeric": "20"
                     }
                 ]
             },
@@ -193,17 +193,57 @@
                 }
             }
         },
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
-            },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": {
-                    "cbc:IssueDate": "2019-06-12"
+        "cac:TechnicalDocumentReference": {
+            "cbc:ID": "ppt.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e2591b9e-d970-4e0b-978c-12d40929e18a",
+                    "cbc:DocumentHash": "cPUkP6ChVf6gNKuuUeEuI1BuP+g="
                 }
             }
-        }
+        },
+        "cac:AdditionalDocumentReference": {
+            "cbc:ID": "Doc.pdf",
+            "cac:Attachment": {
+                "cac:ExternalReference": {
+                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=eaa7aa0d-7aa3-4b69-862f-8f621d6cd403",
+                    "cbc:DocumentHash": "c99m8btnY/l4aohH0aKcM36lg9M="
+                }
+            }
+        },
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-13"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-20"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-20"
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-12"
+                    }
+                }
+            }
+        ]
     }
 }
