@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019/ES/06; \u00d3rgano de Contrataci\u00f3n: Fundaci\u00f3n Centro Nacional de Investigaciones Cardiovasculares Carlos III; Importe: 80000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2019/ES/06; \u00d3rgano de Contrataci\u00f3n: Centro Nacional de Investigaciones Cardiovasculares Carlos III (F.S.P.); Importe: 80000 EUR; Estado: ADJ"
     },
     "title": "Suministro de una plataforma \"High-Troughput\" para el an\u00e1lisis gen\u00f3mico de c\u00e9lulas individuales (\"Single Cell\")",
-    "updated": "2019-04-22T20:10:48.629+02:00",
+    "updated": "2019-06-20T15:54:32.364+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019/ES/06",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -30,7 +30,7 @@
                     }
                 },
                 "cac:PartyName": {
-                    "cbc:Name": "Fundaci\u00f3n Centro Nacional de Investigaciones Cardiovasculares Carlos III"
+                    "cbc:Name": "Centro Nacional de Investigaciones Cardiovasculares Carlos III (F.S.P.)"
                 },
                 "cac:PostalAddress": {
                     "cbc:CityName": "Madrid",
@@ -47,7 +47,7 @@
                     }
                 },
                 "cac:Contact": {
-                    "cbc:Name": "Fundaci\u00f3n Centro Nacional de Investigaciones Cardiovasculares Carlos III",
+                    "cbc:Name": "Centro Nacional de Investigaciones Cardiovasculares Carlos III (F.S.P.)",
                     "cbc:Telephone": "914531226",
                     "cbc:Telefax": "914531265",
                     "cbc:ElectronicMail": "licitaciones@cnic.es"
@@ -109,6 +109,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por presentar la oferta econ\u00f3micamente m\u00e1s ventajosa basada en la mejor relaci\u00f3n calidad-precio y con varios criterios de adjudicaci\u00f3n.",
+            "cbc:AwardDate": "2019-06-20",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "80000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B82394248"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "BONSAILAB S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "80000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "96800"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -146,13 +186,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "4"
                         }
                     },
                     {
@@ -164,7 +198,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     }
                 ]
@@ -172,20 +212,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Ajustar el n\u00famero de c\u00e9lulas capturadas de cada carrera",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "N\u00famero de publicaciones cient\u00edficas en revistas especializadas \u201cpeer review\u201d, superiores a 10, m\u00ednimo exigido en la solvencia.",
+                        "cbc:WeightNumeric": "15"
                     },
                     {
                         "cbc:Description": "N\u00famero de c\u00e9lulas que el instrumento es capaz de compartimentalizar en una sola carrera.",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "N\u00famero de publicaciones cient\u00edficas en revistas especializadas \u201cpeer review\u201d, superiores a 10, m\u00ednimo exigido en la solvencia.",
-                        "cbc:WeightNumeric": "15"
-                    },
-                    {
                         "cbc:Description": "Oferta econ\u00f3mica",
                         "cbc:WeightNumeric": "60"
+                    },
+                    {
+                        "cbc:Description": "Ajustar el n\u00famero de c\u00e9lulas capturadas de cada carrera",
+                        "cbc:WeightNumeric": "10"
                     }
                 ]
             },
@@ -230,6 +270,33 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-20"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=8b74c4b3-b039-47d5-92d6-e5079e61e420",
+                                    "cbc:FileName": "1 Resolucion de Adjudicacion_2019_ES_06_firmada.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 07-P/2018; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Neteja, Manteniment i Servicis de Mislata S.A.; Importe: 37350 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 07-P/2018; \u00d3rgano de Contrataci\u00f3n: Consejo de Administraci\u00f3n de Neteja, Manteniment i Servicis de Mislata S.A.; Importe: 37350 EUR; Estado: ADJ"
     },
     "title": "Servicio de asesoramiento, asistencia t\u00e9cnica y gesti\u00f3n en materia contable, fiscal, presupuestaria y de gesti\u00f3n en materia laboral.",
-    "updated": "2019-03-24T11:36:51.715+01:00",
+    "updated": "2019-06-20T18:42:12.877+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "07-P/2018",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -151,6 +151,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Oferta admitida. \u00danico licitador.",
+            "cbc:AwardDate": "2019-06-12",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "41745"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "41745"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B98291537"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ASESORAMIENTO Y GESTI\u00d3N ECON\u00d3MICA Y SOCIAL, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "41745"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "41745"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -196,13 +236,13 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         }
                     },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "4"
+                            "#text": "5"
                         }
                     },
                     {
@@ -214,7 +254,7 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "4"
                         }
                     }
                 ]
@@ -225,20 +265,20 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Valoraci\u00f3n del equipo de trabajo.",
-                        "cbc:WeightNumeric": "22"
-                    },
-                    {
-                        "cbc:Description": "Propuesta metodol\u00f3gica.",
-                        "cbc:WeightNumeric": "25"
+                        "cbc:Description": "Oferta econ\u00f3mica de menor importe.",
+                        "cbc:WeightNumeric": "35"
                     },
                     {
                         "cbc:Description": "Valoraci\u00f3n de calidad en el empleo.",
                         "cbc:WeightNumeric": "8"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica de menor importe.",
-                        "cbc:WeightNumeric": "35"
+                        "cbc:Description": "Propuesta metodol\u00f3gica.",
+                        "cbc:WeightNumeric": "25"
+                    },
+                    {
+                        "cbc:Description": "Valoraci\u00f3n del equipo de trabajo.",
+                        "cbc:WeightNumeric": "22"
                     },
                     {
                         "cbc:Description": "Mejora vinculada con el objeto del contrato, sin coste para el \u00f3rgano de contrataci\u00f3n, consistente en el incremento de asistencias anuales del jefe de equipo.",
@@ -283,6 +323,33 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-20"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c951fc13-ea81-4206-9195-03c5904a8c56",
+                                    "cbc:FileName": "certificado consejo.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
