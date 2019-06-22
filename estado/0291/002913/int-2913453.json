@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: EC/04/19; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Boadilla del Monte; Importe: 270000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: EC/04/19; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Boadilla del Monte; Importe: 270000 EUR; Estado: RES"
     },
     "title": "Servicio de explotaci\u00f3n del Punto Limpio del municipio de Boadilla del Monte",
-    "updated": "2019-05-22T14:06:22.305+02:00",
+    "updated": "2019-06-21T14:40:09.727+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "EC/04/19",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -122,6 +122,11 @@
                 "@currencyID": "EUR",
                 "#text": "246232.89"
             },
+            "cbc:StartDate": "2019-06-21",
+            "cac:Contract": {
+                "cbc:ID": "EC/04/19",
+                "cbc:IssueDate": "2019-06-20"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -169,16 +174,16 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OSR-COMPTASK"
+                            "#text": "OXR-GESTMEDIOAMB"
                         },
-                        "cbc:Description": "Apartado 11 del Anexo I del Pliego de Cl\u00e1usulas Admtvas."
+                        "cbc:Description": "Estar en posesi\u00f3n del certificado ISO 90001 e ISO 14001"
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/TechnicalCapabilityTypeCode-2.0.gc",
-                            "#text": "OXR-GESTMEDIOAMB"
+                            "#text": "OSR-COMPTASK"
                         },
-                        "cbc:Description": "Estar en posesi\u00f3n del certificado ISO 90001 e ISO 14001"
+                        "cbc:Description": "Apartado 11 del Anexo I del Pliego de Cl\u00e1usulas Admtvas."
                     }
                 ],
                 "cac:FinancialEvaluationCriteria": {
@@ -268,9 +273,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-02-01"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-02-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-01-29"
+                        }
+                    ]
                 }
             },
             {
@@ -280,9 +290,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-22"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-22"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=078b607c-e46b-4558-a558-de3e3f43d8bc",
+                                    "cbc:FileName": "EC-04-19 Resolucion Punto Limpio.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -306,6 +331,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-02-01"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-06-21"
                     }
                 }
             }
