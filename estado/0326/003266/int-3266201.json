@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 53357/2018a; \u00d3rgano de Contrataci\u00f3n: Junta de Gobierno del Ayuntamiento de Castell\u00f3n de la Plana; Importe: 9222811.16 EUR; Estado: ADJ"
     },
     "title": "Suministro de energ\u00eda el\u00e9ctrica para las instalaciones dependientes del Excmo. Ayuntamiento de Castell\u00f3n de la Plana.",
-    "updated": "2019-05-27T14:32:55.335+02:00",
+    "updated": "2019-07-07T09:35:41.232+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "53357/2018a",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -178,6 +178,11 @@
                     "@currencyID": "EUR",
                     "#text": "7832056.16"
                 },
+                "cbc:SMEAwardedIndicator": "false",
+                "cac:Contract": {
+                    "cbc:ID": "53357/2018 lote1",
+                    "cbc:IssueDate": "2019-07-02"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -294,16 +299,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Plazos para la contrataci\u00f3n de suministros eventuales",
-                        "cbc:WeightNumeric": "10"
+                        "cbc:Description": "Propuesta econ\u00f3mica",
+                        "cbc:WeightNumeric": "60"
                     },
                     {
                         "cbc:Description": "Propuesta t\u00e9cnica: Herramientas de acceso web para el an\u00e1lisis y seguimiento de los suministros contratados",
                         "cbc:WeightNumeric": "15"
                     },
                     {
-                        "cbc:Description": "Propuesta econ\u00f3mica",
-                        "cbc:WeightNumeric": "60"
+                        "cbc:Description": "Plazos para la contrataci\u00f3n de suministros eventuales",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "Propuesta t\u00e9cnica: Atenci\u00f3n al cliente, Gesti\u00f3n y capacidad de respuesta",
@@ -323,6 +328,11 @@
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cbc:PartPresentationCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/TenderPresentationCode-1.04.gc",
+                "@name": "A uno o varios lotes",
+                "#text": "3"
             },
             "cac:DocumentAvailabilityPeriod": {
                 "cbc:EndDate": "2019-03-27",
@@ -360,9 +370,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-03-01"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-03-01"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-26"
+                        }
+                    ]
                 }
             },
             {
@@ -372,9 +387,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-27"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-27"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=46a535df-71dd-4ace-b7d2-f69b4a8e2450",
+                                    "cbc:FileName": "Anuncio adjudicacion JGL.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -399,6 +429,33 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-03-01"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-07"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Formalizaci\u00f3n",
+                                "#text": "ACTA_FORM"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5f7d3dff-8ab6-49b6-ba27-c382564d13a9",
+                                    "cbc:FileName": "Contrato lote 1_valide.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         ]

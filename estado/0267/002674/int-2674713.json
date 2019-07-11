@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 18/05821-ADS-0023; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 1758160 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 18/05821-ADS-0023; \u00d3rgano de Contrataci\u00f3n: Banco de Espa\u00f1a; Importe: 1758160 EUR; Estado: RES"
     },
     "title": "Servicios auxiliares en las dependencias del Banco de Espa\u00f1a",
-    "updated": "2019-06-10T16:18:44.132+02:00",
+    "updated": "2019-07-07T09:36:19.273+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "18/05821-ADS-0023",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -132,6 +132,11 @@
             "cbc:Description": "Oferta m\u00e1s ventajosa",
             "cbc:AwardDate": "2019-06-07",
             "cbc:ReceivedTenderQuantity": "6",
+            "cbc:StartDate": "2019-07-01",
+            "cac:Contract": {
+                "cbc:ID": "2019C330000024",
+                "cbc:IssueDate": "2019-07-01"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -164,19 +169,11 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Trituraci\u00f3n de material confidencial (seg\u00fan nivel)",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Encargado-Formaci\u00f3n",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "Organizaci\u00f3n del servicio",
+                        "cbc:Description": "Equipo de trabajo",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Equipo de trabajo",
+                        "cbc:Description": "Encargado-Experiencia",
                         "cbc:WeightNumeric": "10"
                     },
                     {
@@ -184,12 +181,20 @@
                         "cbc:WeightNumeric": "4"
                     },
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "55"
+                        "cbc:Description": "Trituraci\u00f3n de material confidencial (seg\u00fan nivel)",
+                        "cbc:WeightNumeric": "5"
                     },
                     {
-                        "cbc:Description": "Encargado-Experiencia",
+                        "cbc:Description": "Organizaci\u00f3n del servicio",
                         "cbc:WeightNumeric": "10"
+                    },
+                    {
+                        "cbc:Description": "Encargado-Formaci\u00f3n",
+                        "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "55"
                     },
                     {
                         "cbc:Description": "Gestor personal-Experiencia",
@@ -256,6 +261,9 @@
                             "cbc:IssueDate": "2018-11-21"
                         },
                         {
+                            "cbc:IssueDate": "2018-11-16"
+                        },
+                        {
                             "cbc:IssueDate": "2019-02-20"
                         },
                         {
@@ -286,9 +294,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-06-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-10"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9ca16966-f54d-45a8-a06d-6cd9658092d2",
+                                    "cbc:FileName": "Autoriz_Adjudicacion.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -324,6 +347,18 @@
                             "cbc:IssueDate": "2019-04-03"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-07-07"
+                    }
                 }
             },
             {

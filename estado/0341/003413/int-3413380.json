@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 086/18-RI; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Entidad P\u00fablica Empresarial RED.ES; Importe: 244000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 086/18-RI; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de la Entidad P\u00fablica Empresarial RED.ES; Importe: 244000 EUR; Estado: RES"
     },
     "title": "Servicio de mantenimiento y soporte del equipamiento de seguridad perimetral de RedIRIS",
-    "updated": "2019-06-11T16:49:50.965+02:00",
+    "updated": "2019-07-07T09:45:32.017+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "086/18-RI",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -123,6 +123,10 @@
             "cbc:Description": "La oferta econ\u00f3micamente m\u00e1s ventajosa teniendo en cuenta: Los criterios que figuran en el pliego de de condiciones, en la invitaci\u00f3n a licitar o a negociar o en el documento descriptivo.",
             "cbc:AwardDate": "2019-06-10",
             "cbc:ReceivedTenderQuantity": "3",
+            "cac:Contract": {
+                "cbc:ID": "086/18-RI",
+                "cbc:IssueDate": "2019-07-04"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -268,9 +272,14 @@
                 "cac-place-ext:AdditionalPublicationStatus": [
                     {
                         "cbc-place-ext:PublicationMediaName": "BOE",
-                        "cac-place-ext:AdditionalPublicationDocumentReference": {
-                            "cbc:IssueDate": "2019-04-05"
-                        }
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2019-04-05"
+                            },
+                            {
+                                "cbc:IssueDate": "2019-04-01"
+                            }
+                        ]
                     },
                     {
                         "cbc-place-ext:PublicationMediaName": "DOUE",
@@ -287,9 +296,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-06-11"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-11"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=561a0626-352b-4cf0-ab05-58e62e7a356e",
+                                    "cbc:FileName": "adjudicacion.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -314,6 +338,33 @@
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-04-04"
                     }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-07"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Formalizaci\u00f3n",
+                                "#text": "ACTA_FORM"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=127116a8-278d-4df0-8fe3-097d47342ed0",
+                                    "cbc:FileName": "Contrato_firmado_TSOL.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             }
         ]

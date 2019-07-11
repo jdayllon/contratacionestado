@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2DGT00000306; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de Tr\u00e1fico; Importe: 66800 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 2DGT00000306; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n General de Tr\u00e1fico; Importe: 66800 EUR; Estado: RES"
     },
     "title": "Servicio de mantenimiento integral de las instalaciones de los inmuebles  donde se ubican el Subsector y Destacamentos de la Agrupaci\u00f3n de Tr\u00e1fico de la Guardia Civil en la provincia de Huelva",
-    "updated": "2019-05-28T16:23:55.805+02:00",
+    "updated": "2019-07-07T09:30:34.227+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2DGT00000306",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -130,6 +130,10 @@
                 "@currencyID": "EUR",
                 "#text": "66479.36"
             },
+            "cac:Contract": {
+                "cbc:ID": "1",
+                "cbc:IssueDate": "2019-06-27"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -188,12 +192,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Oferta econ\u00f3mica",
-                        "cbc:WeightNumeric": "96"
-                    },
-                    {
                         "cbc:Description": "Bolsa de metros cuadrados para la aplicaci\u00f3n de pintura en paramentos interiores",
                         "cbc:WeightNumeric": "4"
+                    },
+                    {
+                        "cbc:Description": "Oferta econ\u00f3mica",
+                        "cbc:WeightNumeric": "96"
                     }
                 ]
             },
@@ -255,9 +259,14 @@
                 "cac-place-ext:AdditionalPublicationStatus": [
                     {
                         "cbc-place-ext:PublicationMediaName": "BOE",
-                        "cac-place-ext:AdditionalPublicationDocumentReference": {
-                            "cbc:IssueDate": "2019-02-02"
-                        }
+                        "cac-place-ext:AdditionalPublicationDocumentReference": [
+                            {
+                                "cbc:IssueDate": "2019-02-02"
+                            },
+                            {
+                                "cbc:IssueDate": "2019-01-24"
+                            }
+                        ]
                     },
                     {
                         "cbc-place-ext:PublicationMediaName": "DOUE",
@@ -274,9 +283,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-28"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-28"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=c7e3f8bc-47fb-4dd8-93ba-33e66c98d17c",
+                                    "cbc:FileName": "Notificacion adjudicacion.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -300,6 +324,18 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2019-01-26"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-07-07"
                     }
                 }
             }
