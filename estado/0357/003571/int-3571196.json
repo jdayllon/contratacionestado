@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: (A02009503)-CON-07-2019; \u00d3rgano de Contrataci\u00f3n: Consorcio del Aeropuerto de Teruel; Importe: 27000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: (A02009503)-CON-07-2019; \u00d3rgano de Contrataci\u00f3n: Consorcio del Aeropuerto de Teruel; Importe: 27000 EUR; Estado: ADJ"
     },
     "title": "Servicio de limpieza de los edificios, viales, aparcamientos y vallado perimetral del Aeropuerto de Teruel",
-    "updated": "2019-05-10T15:50:31.149+02:00",
+    "updated": "2019-07-10T18:00:51.596+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "(A02009503)-CON-07-2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -118,6 +118,38 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicaci\u00f3n contrato",
+            "cbc:AwardDate": "2019-07-09",
+            "cbc:ReceivedTenderQuantity": "3",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B44231934"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Incentiva Servicios Empresariales, S.L.U."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "22410"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "27116.1"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cac:RequiredFinancialGuarantee": {
                 "cbc:GuaranteeTypeCode": {
@@ -146,12 +178,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Seg\u00fan f\u00f3rmula del PCAP",
-                        "cbc:WeightNumeric": "80"
-                    },
-                    {
                         "cbc:Description": "Horas anuales adicionales para cubrir situaciones extraordinarias. El n\u00famero m\u00ednimo de horas anuales adicionales a ofertar para obtener puntuaci\u00f3n ser\u00e1 de 41 horas.",
                         "cbc:WeightNumeric": "20"
+                    },
+                    {
+                        "cbc:Description": "Seg\u00fan f\u00f3rmula del PCAP",
+                        "cbc:WeightNumeric": "80"
                     }
                 ]
             },
@@ -195,6 +227,18 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-07-10"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -211,9 +255,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-10"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-10"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-06-06"
+                        }
+                    ]
                 }
             }
         ]

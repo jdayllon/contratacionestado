@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 2019-0-25 (2020008605); \u00d3rgano de Contrataci\u00f3n: Gerencia de Atenci\u00f3n Especializada de Salamanca; Importe: 34999 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 2019-0-25 (2020008605); \u00d3rgano de Contrataci\u00f3n: Gerencia de Atenci\u00f3n Especializada de Salamanca; Importe: 34999 EUR; Estado: ADJ"
     },
     "title": "suministro mediante arrendamiento sin opci\u00f3n a compra de un sistema de informaci\u00f3n para la gesti\u00f3n cl\u00ednica integral del servicio de rehabilitaci\u00f3n del CAUSA",
-    "updated": "2019-05-12T22:38:21.739+02:00",
+    "updated": "2019-07-10T14:10:25.604+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "2019-0-25 (2020008605)",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -106,6 +106,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "oferta mejor calidad precio",
+            "cbc:AwardDate": "2019-06-25",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "34999"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "34999"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B33978214"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "TESIS Medical Solutions S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "34999"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "42348.79"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cac:RequiredFinancialGuarantee": {
@@ -134,18 +174,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "9"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "3"
                         }
                     },
@@ -154,30 +182,42 @@
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "2"
                         }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "1"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "9"
+                        }
                     }
                 ]
             },
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "PROPUESTA INTEROPERABILIDAD/INTEGRACI\u00d3N HCE",
+                        "cbc:WeightNumeric": "13"
+                    },
+                    {
                         "cbc:Description": "AMPLIACION GARANTIAS",
                         "cbc:WeightNumeric": "2"
-                    },
-                    {
-                        "cbc:Description": "CARACTER\u00cdSTICAS TECNICAS DE LA PLATAFORMA.",
-                        "cbc:WeightNumeric": "5"
-                    },
-                    {
-                        "cbc:Description": "precio",
-                        "cbc:WeightNumeric": "49"
                     },
                     {
                         "cbc:Description": "caracter\u00edsticas funcionales de la plataforma",
                         "cbc:WeightNumeric": "31"
                     },
                     {
-                        "cbc:Description": "PROPUESTA INTEROPERABILIDAD/INTEGRACI\u00d3N HCE",
-                        "cbc:WeightNumeric": "13"
+                        "cbc:Description": "precio",
+                        "cbc:WeightNumeric": "49"
+                    },
+                    {
+                        "cbc:Description": "CARACTER\u00cdSTICAS TECNICAS DE LA PLATAFORMA.",
+                        "cbc:WeightNumeric": "5"
                     }
                 ]
             },
@@ -239,6 +279,33 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-10"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=5ac83f51-7069-424c-94ef-ddaf25fa1bf4",
+                                    "cbc:FileName": "ACTA PROP ADJUD.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

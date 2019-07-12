@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PAS 006/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Independiente de Responsabilidad Fiscal; Importe: 60000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: PAS 006/2019; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Autoridad Independiente de Responsabilidad Fiscal; Importe: 60000 EUR; Estado: ADJ"
     },
     "title": "Servicios de administraci\u00f3n de la nueva infraestructura de sistemas de informaci\u00f3n y comunicaciones",
-    "updated": "2019-05-08T19:12:21.124+02:00",
+    "updated": "2019-07-10T16:14:55.007+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PAS 006/2019",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,6 +108,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Ser el \u00fanico licitador que ha presentado oferta y cumplir los requisitos solicitados en la licitacion",
+            "cbc:AwardDate": "2019-07-10",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "58000"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "58000"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B84114883"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Qintegra Consulting, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "58000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "70180"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -146,16 +186,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "servicio atencion telefonica",
-                        "cbc:WeightNumeric": "10"
-                    },
-                    {
                         "cbc:Description": "descripci\u00f3n de la metodologia",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "descripci\u00f3n procedimientos de las diferentes tareas",
                         "cbc:WeightNumeric": "15"
+                    },
+                    {
+                        "cbc:Description": "servicio atencion telefonica",
+                        "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "oferta econ\u00f3mica",
@@ -260,6 +300,33 @@
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-10"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=7eb9ccb4-6be2-4515-8eb6-5b4d1745fe27",
+                                    "cbc:FileName": "Adjudicacion.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

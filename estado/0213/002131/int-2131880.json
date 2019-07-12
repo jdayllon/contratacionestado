@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 180276; \u00d3rgano de Contrataci\u00f3n: Paradores de Turismo de Espa\u00f1a, S.M.E., S.A.; Importe: 26000 EUR; Estado: ADJ"
+        "#text": "Id licitaci\u00f3n: 180276; \u00d3rgano de Contrataci\u00f3n: Paradores de Turismo de Espa\u00f1a, S.M.E., S.A.; Importe: 26000 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n del servicio de jardiner\u00eda en el Parador de Turismo de Carmona.",
-    "updated": "2018-06-29T13:07:51.010+02:00",
+    "updated": "2019-07-10T19:05:19.109+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "180276",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "ADJ"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -57,7 +57,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Contrataci\u00f3n del servicio de jardiner\u00eda en el Parador de Turismo de Carmona.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -123,6 +123,10 @@
             "cbc:Description": "Por ser la oferta m\u00e1s ventajosa para Paradores de Turismo de Espa\u00f1a, S.M.E., S.A. aplicando los criterios de valoraci\u00f3n establecidos en el Pliego de Condiciones de Contrataci\u00f3n",
             "cbc:AwardDate": "2018-06-21",
             "cbc:ReceivedTenderQuantity": "7",
+            "cac:Contract": {
+                "cbc:ID": "180276",
+                "cbc:IssueDate": "2018-08-01"
+            },
             "cac:WinningParty": {
                 "cac:PartyIdentification": {
                     "cbc:ID": {
@@ -169,25 +173,19 @@
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "5"
+                            "#text": "2"
                         },
                         "cbc:Description": "Ver clausula 5\u00aa del Pliego de Condiciones de Contrataci\u00f3n."
                     },
                     {
                         "cbc:EvaluationCriteriaTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/FinancialCapabilityTypeCode-2.0.gc",
-                            "#text": "2"
+                            "#text": "5"
                         },
                         "cbc:Description": "Ver clausula 5\u00aa del Pliego de Condiciones de Contrataci\u00f3n."
                     }
                 ],
                 "cac:SpecificTendererRequirement": [
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "2"
-                        }
-                    },
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
@@ -198,12 +196,6 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "3"
                         }
                     },
                     {
@@ -222,6 +214,18 @@
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "9"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "2"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "3"
                         }
                     }
                 ]
@@ -390,9 +394,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-29"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-29"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f62c68ba-370b-45bb-a253-9ca4815780a4",
+                                    "cbc:FileName": "acta resolucion.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -434,7 +453,36 @@
                         }
                     ]
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2018-09-11"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-07-10"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "NO PRORROGA CONTRATO",
+            "cbc:ContractID": "180276"
+        }
     }
 }

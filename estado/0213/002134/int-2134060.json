@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 180278; \u00d3rgano de Contrataci\u00f3n: Paradores de Turismo de Espa\u00f1a, S.M.E., S.A.; Importe: 17420 EUR; Estado: RES"
     },
     "title": "Contrataci\u00f3n del servicio de Jardiner\u00eda en el Parador de Turismo de Chinch\u00f3n.",
-    "updated": "2018-10-03T14:45:16.125+02:00",
+    "updated": "2019-07-10T19:02:39.575+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "180278",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -400,9 +400,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-22"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-22"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=f71270e3-aa0d-4acc-92bd-73d0ac65b6cd",
+                                    "cbc:FileName": "RESOLUCION ADJUD.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -456,7 +471,32 @@
                         "cbc:IssueDate": "2018-10-03"
                     }
                 }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-07-10"
+                    }
+                }
             }
-        ]
+        ],
+        "cac:ContractModification": {
+            "cbc:ID": "1",
+            "cbc:Note": "1\u00aa PRORROGA CONTRATO",
+            "cbc:ContractModificationDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "1"
+            },
+            "cbc:FinalDurationMeasure": {
+                "@unitCode": "ANN",
+                "#text": "2"
+            },
+            "cbc:ContractID": "180278"
+        }
     }
 }
