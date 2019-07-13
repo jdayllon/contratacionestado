@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: 51/H/19/SS/GE/AS/0102; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Gerencia Hospital Universitario de Gran Canaria Doctor Negr\u00edn; Importe: 56088.34 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: 51/H/19/SS/GE/AS/0102; \u00d3rgano de Contrataci\u00f3n: Direcci\u00f3n Gerencia Hospital Universitario de Gran Canaria Doctor Negr\u00edn; Importe: 56088.34 EUR; Estado: ADJ"
     },
     "title": "Servicio de desinsectaci\u00f3n desratizaci\u00f3n y desinfecci\u00f3n",
-    "updated": "2019-05-07T15:26:59.584+02:00",
+    "updated": "2019-07-12T14:54:43.244+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "51/H/19/SS/GE/AS/0102",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -112,6 +112,46 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Por resoluci\u00f3n de fecha 12.07.19 y registro de 12.07.19 - n\u00ba 2973",
+            "cbc:AwardDate": "2019-07-12",
+            "cbc:ReceivedTenderQuantity": "4",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "0"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "50773.97"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "B35065036"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "FAYCANES, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "47400"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "50481"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -158,14 +198,6 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Tipos de productos",
-                        "cbc:WeightNumeric": "6.5"
-                    },
-                    {
-                        "cbc:Description": "Equipamiento y maquinaria",
-                        "cbc:WeightNumeric": "6.5"
-                    },
-                    {
                         "cbc:Description": "Plan y Organizaci\u00f3n del trabajo",
                         "cbc:WeightNumeric": "12"
                     },
@@ -176,6 +208,14 @@
                     {
                         "cbc:Description": "Tiempo de respuesta",
                         "cbc:WeightNumeric": "5"
+                    },
+                    {
+                        "cbc:Description": "Tipos de productos",
+                        "cbc:WeightNumeric": "6.5"
+                    },
+                    {
+                        "cbc:Description": "Equipamiento y maquinaria",
+                        "cbc:WeightNumeric": "6.5"
                     }
                 ]
             },
@@ -217,6 +257,33 @@
             }
         },
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-12"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=af8d38bd-c8bf-4c8c-b031-8aa123541180",
+                                    "cbc:FileName": "22_RESOLUCION ADJUDICACION.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",

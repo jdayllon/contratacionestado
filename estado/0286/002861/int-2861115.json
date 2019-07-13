@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: CNMY19/03-3/8; \u00d3rgano de Contrataci\u00f3n: Vicepresidencia y Conselleria de Igualdad y Pol\u00edticas Inclusivas; Importe: 281568.72 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: CNMY19/03-3/8; \u00d3rgano de Contrataci\u00f3n: Vicepresidencia y Conselleria de Igualdad y Pol\u00edticas Inclusivas; Importe: 281568.72 EUR; Estado: RES"
     },
     "title": "Servicio de l\u00ednea telef\u00f3nica de la \"L\u00ednea de Atenci\u00f3n a la Infancia en la Comunidad Valenciana 116111\"",
-    "updated": "2019-02-15T15:05:06.697+01:00",
+    "updated": "2019-07-12T13:17:06.670+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "CNMY19/03-3/8",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -108,6 +108,14 @@
                 }
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "3"
+            },
+            "cbc:AwardDate": "2019-07-01",
+            "cbc:ReceivedTenderQuantity": "1"
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -137,7 +145,19 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "8"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "4"
+                        }
+                    },
+                    {
+                        "cbc:RequirementTypeCode": {
+                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
+                            "#text": "5"
                         }
                     },
                     {
@@ -155,18 +175,6 @@
                     {
                         "cbc:RequirementTypeCode": {
                             "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "8"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
-                            "#text": "5"
-                        }
-                    },
-                    {
-                        "cbc:RequirementTypeCode": {
-                            "@listURI": "http://contrataciondelestado.es/codice/cl/2.0/DeclarationTypeCode-2.0.gc",
                             "#text": "1"
                         }
                     }
@@ -175,12 +183,12 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Precio de la proposici\u00f3n",
-                        "cbc:WeightNumeric": "55"
-                    },
-                    {
                         "cbc:Description": "Proyecto de Gesti\u00f3n",
                         "cbc:WeightNumeric": "45"
+                    },
+                    {
+                        "cbc:Description": "Precio de la proposici\u00f3n",
+                        "cbc:WeightNumeric": "55"
                     }
                 ]
             },
@@ -271,28 +279,57 @@
                 }
             }
         ],
-        "cac-place-ext:ValidNoticeInfo": {
-            "cbc-place-ext:NoticeTypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
-                "#text": "DOC_CN"
+        "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-12"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=9a3278f6-0e21-4f04-a6f2-e1d8238e4661",
+                                    "cbc:FileName": "Resol Desierto 19_8_firmado.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
             },
-            "cac-place-ext:AdditionalPublicationStatus": {
-                "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                "cac-place-ext:AdditionalPublicationDocumentReference": [
-                    {
-                        "cbc:IssueDate": "2019-01-18"
-                    },
-                    {
-                        "cbc:IssueDate": "2019-02-04"
-                    },
-                    {
-                        "cbc:IssueDate": "2019-02-07"
-                    },
-                    {
-                        "cbc:IssueDate": "2019-02-15"
-                    }
-                ]
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CN"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-01-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-04"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-07"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-02-15"
+                        }
+                    ]
+                }
             }
-        }
+        ]
     }
 }

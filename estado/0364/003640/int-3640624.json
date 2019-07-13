@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: PCO001201900086; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de A Coru\u00f1a; Importe: 35414.1 EUR; Estado: EV"
+        "#text": "Id licitaci\u00f3n: PCO001201900086; \u00d3rgano de Contrataci\u00f3n: Presidencia de la Diputaci\u00f3n Provincial de A Coru\u00f1a; Importe: 35414.1 EUR; Estado: RES"
     },
     "title": "Realizaci\u00f3n de la Campa\u00f1a de Vela 2019",
-    "updated": "2019-06-17T14:52:10.352+02:00",
+    "updated": "2019-07-12T14:52:23.135+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "PCO001201900086",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "EV"
+            "#text": "RES"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,6 +105,51 @@
                 "cbc:EndDate": "2019-08-09"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Mejor oferta relaci\u00f3n calidad-precio.",
+            "cbc:AwardDate": "2019-06-26",
+            "cbc:ReceivedTenderQuantity": "2",
+            "cbc:LowerTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "31130"
+            },
+            "cbc:HigherTenderAmount": {
+                "@currencyID": "EUR",
+                "#text": "35414.1"
+            },
+            "cbc:StartDate": "2019-06-28",
+            "cac:Contract": {
+                "cbc:ID": "107",
+                "cbc:IssueDate": "2019-06-28"
+            },
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "NIF",
+                        "#text": "G36644862"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "Real Federaci\u00f3n Gallega de Vela"
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "31130"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37667.3"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -142,16 +187,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
-                        "cbc:Description": "Memoria de actividades",
-                        "cbc:WeightNumeric": "50"
+                        "cbc:Description": "Precio",
+                        "cbc:WeightNumeric": "40"
                     },
                     {
                         "cbc:Description": "Mejoras en la p\u00f3liza de seguros",
                         "cbc:WeightNumeric": "10"
                     },
                     {
-                        "cbc:Description": "Precio",
-                        "cbc:WeightNumeric": "40"
+                        "cbc:Description": "Memoria de actividades",
+                        "cbc:WeightNumeric": "50"
                     }
                 ]
             },
@@ -208,6 +253,33 @@
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-06-26"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=66ba400f-7ae1-4e53-af8f-d35550076270",
+                                    "cbc:FileName": "RESOLUCION ADJUDICACION.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
                     "#text": "DOC_CD"
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
@@ -232,6 +304,18 @@
                             "cbc:IssueDate": "2019-06-17"
                         }
                     ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_FORM"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": {
+                        "cbc:IssueDate": "2019-07-12"
+                    }
                 }
             }
         ]

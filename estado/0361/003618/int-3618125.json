@@ -5,16 +5,16 @@
     },
     "summary": {
         "@type": "text",
-        "#text": "Id licitaci\u00f3n: SP19-00347; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 100000 EUR; Estado: PUB"
+        "#text": "Id licitaci\u00f3n: SP19-00347; \u00d3rgano de Contrataci\u00f3n: Madrid Destino Cultura Turismo y Negocio, S.A.; Importe: 100000 EUR; Estado: ADJ"
     },
     "title": "Suministro de fabricaci\u00f3n, instalaci\u00f3n y ejecuci\u00f3n del proyecto de nuevo dise\u00f1o del Centro de Turismo de la Plaza Mayor para su adaptaci\u00f3n a la nueva marca tur\u00edstica de Madrid",
-    "updated": "2019-05-22T15:42:00.933+02:00",
+    "updated": "2019-07-12T15:22:26.121+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "SP19-00347",
         "cbc-place-ext:ContractFolderStatusCode": {
             "@languageID": "es",
             "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationContractFolderStatusCode-2.04.gc",
-            "#text": "PUB"
+            "#text": "ADJ"
         },
         "cac-place-ext:LocatedContractingParty": {
             "cbc:ContractingPartyTypeCode": {
@@ -105,7 +105,13 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "39172000"
+                        "#text": "39000000"
+                    }
+                },
+                {
+                    "cbc:ItemClassificationCode": {
+                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
+                        "#text": "39154000"
                     }
                 },
                 {
@@ -117,30 +123,24 @@
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "39171000"
-                    }
-                },
-                {
-                    "cbc:ItemClassificationCode": {
-                        "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
                         "#text": "39170000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "39000000"
+                        "#text": "39171000"
                     }
                 },
                 {
                     "cbc:ItemClassificationCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/CPV2007-1.04.gc",
-                        "#text": "39154000"
+                        "#text": "39172000"
                     }
                 }
             ],
             "cac:RealizedLocation": {
-                "cbc:CountrySubentity": "Comunidad de Madrid",
+                "cbc:CountrySubentity": "Madrid",
                 "cbc:CountrySubentityCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/NUTS-2016.gc",
                     "#text": "ES300"
@@ -167,6 +167,38 @@
                 "cbc:OptionsDescription": "No hay prorrogas definidas"
             }
         },
+        "cac:TenderResult": {
+            "cbc:ResultCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/TenderResultCode-2.02.gc",
+                "#text": "8"
+            },
+            "cbc:Description": "Adjudicar el contrato de obras tramitado por procedimiento simplificado titulado: contrato de suministro de fabricaci\u00f3n, instalaci\u00f3n y ejecuci\u00f3n del proyecto de nuevo dise\u00f1o de la tienda del Centro de Turismo de la Plaza Mayor para su adaptaci\u00f3n a la nueva marca tur\u00edstica de Madrid a prestar en la sociedad mercantil municipal Madrid Destino Cultura Turismo y Negocio, S.A., a la mercantil ESTUDIO ATRIUM S.L., con NIF B80912926, de acuerdo con el acta de propuesta de adjudicaci\u00f3n de fecha 14 de junio de 2019, por ser la empresa que ha presentado la mejor oferta seg\u00fan los criterios de adjudicaci\u00f3n establecidos en el Pliego de Cl\u00e1usulas Administrativas Particulares. \n\nEl Contrato se adjudica por un importe m\u00e1ximo de 98.000.-\u20ac, IVA no incluido.",
+            "cbc:AwardDate": "2019-07-09",
+            "cbc:ReceivedTenderQuantity": "1",
+            "cac:WinningParty": {
+                "cac:PartyIdentification": {
+                    "cbc:ID": {
+                        "@schemeName": "OTROS",
+                        "#text": "B80912926"
+                    }
+                },
+                "cac:PartyName": {
+                    "cbc:Name": "ESTUDIO ATRIUM, S.L."
+                }
+            },
+            "cac:AwardedTenderedProject": {
+                "cac:LegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "98000"
+                    },
+                    "cbc:PayableAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "118580"
+                    }
+                }
+            }
+        },
         "cac:TenderingTerms": {
             "cbc:RequiredCurriculaIndicator": "false",
             "cbc:VariantConstraintIndicator": "false",
@@ -188,16 +220,16 @@
             "cac:AwardingTerms": {
                 "cac:AwardingCriteria": [
                     {
+                        "cbc:Description": "2.Reducci\u00f3n del plazo de ejecuci\u00f3n",
+                        "cbc:WeightNumeric": "20"
+                    },
+                    {
                         "cbc:Description": "5.Propuesta de artesanos",
                         "cbc:WeightNumeric": "10"
                     },
                     {
                         "cbc:Description": "1.Precio",
                         "cbc:WeightNumeric": "55"
-                    },
-                    {
-                        "cbc:Description": "2.Reducci\u00f3n del plazo de ejecuci\u00f3n",
-                        "cbc:WeightNumeric": "20"
                     },
                     {
                         "cbc:Description": "4.Calidad del plan de ejecuci\u00f3n",
@@ -277,9 +309,45 @@
                         "cbc:DocumentHash": "SgVy13ihEkY32LazKRUldA2L8Qs="
                     }
                 }
+            },
+            {
+                "cbc:ID": "NotaVisita.pdf",
+                "cac:Attachment": {
+                    "cac:ExternalReference": {
+                        "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=94120398-b30c-4be4-a814-1c79a56b08ad",
+                        "cbc:DocumentHash": "zUY5sm57IqeoqKDdG3o7URdoSkc="
+                    }
+                }
             }
         ],
         "cac-place-ext:ValidNoticeInfo": [
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_CAN_ADJ"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-12"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=024bdf51-da6b-4b81-b34d-2139d1758615",
+                                    "cbc:FileName": "Acta apertura sobre C y propuesta adjudicacion PUBLICAR.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
             {
                 "cbc-place-ext:NoticeTypeCode": {
                     "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
@@ -287,9 +355,20 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2019-05-22"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-05-22"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-31"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-31"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-05-31"
+                        }
+                    ]
                 }
             },
             {
