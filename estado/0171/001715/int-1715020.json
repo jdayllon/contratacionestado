@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: MI170103; \u00d3rgano de Contrataci\u00f3n: Subdirecci\u00f3n de Compras de la Sociedad Estatal Correos y Tel\u00e9grafos S.A.; Importe: 321012.71 EUR; Estado: ADJ"
     },
     "title": "Mantenimiento de las fachadas de los locales de la Sociedad Estatal Correos y Tel\u00e9grafos S.A, S.M.E.",
-    "updated": "2017-11-02T14:03:01.543+01:00",
+    "updated": "2019-07-18T14:57:23.063+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "MI170103",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -56,7 +56,7 @@
         "cac:ProcurementProject": {
             "cbc:Name": "Mantenimiento de las fachadas de los locales de la Sociedad Estatal Correos y Tel\u00e9grafos S.A, S.M.E.",
             "cbc:TypeCode": {
-                "@listURI": "http://contrataciondelestado.es/codice/cl/2.02/ContractCode-2.02.gc",
+                "@listURI": "http://contrataciondelestado.es/codice/cl/2.08/ContractCode-2.08.gc",
                 "#text": "2"
             },
             "cbc:SubTypeCode": {
@@ -242,6 +242,9 @@
                 "cbc:Description": "La oferta m\u00e1s ventajosa.",
                 "cbc:AwardDate": "2017-10-31",
                 "cbc:ReceivedTenderQuantity": "3",
+                "cac:Contract": {
+                    "cbc:ID": "MI170103"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -275,6 +278,9 @@
                 "cbc:Description": "La oferta m\u00e1s ventajosa.",
                 "cbc:AwardDate": "2017-10-31",
                 "cbc:ReceivedTenderQuantity": "3",
+                "cac:Contract": {
+                    "cbc:ID": "MI170103"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -308,6 +314,9 @@
                 "cbc:Description": "La oferta m\u00e1s ventajosa",
                 "cbc:AwardDate": "2017-10-31",
                 "cbc:ReceivedTenderQuantity": "3",
+                "cac:Contract": {
+                    "cbc:ID": "MI170103"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -341,6 +350,9 @@
                 "cbc:Description": "La oferta m\u00e1s ventajosa.",
                 "cbc:AwardDate": "2017-10-31",
                 "cbc:ReceivedTenderQuantity": "3",
+                "cac:Contract": {
+                    "cbc:ID": "MI170103"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -374,6 +386,9 @@
                 "cbc:Description": "La oferta m\u00e1s ventajosa.",
                 "cbc:AwardDate": "2017-10-31",
                 "cbc:ReceivedTenderQuantity": "3",
+                "cac:Contract": {
+                    "cbc:ID": "MI170103"
+                },
                 "cac:WinningParty": {
                     "cac:PartyIdentification": {
                         "cbc:ID": {
@@ -420,10 +435,16 @@
                 }
             },
             "cac:AwardingTerms": {
-                "cac:AwardingCriteria": {
-                    "cbc:Description": "OFERTA ECON\u00d3MICAMENTE M\u00c1S VENTAJOSA (VALORACI\u00d3N T\u00c9CNICA).",
-                    "cbc:WeightNumeric": "30"
-                }
+                "cac:AwardingCriteria": [
+                    {
+                        "cbc:Description": "OFERTA ECON\u00d3MICAMENTE M\u00c1S VENTAJOSA (VALORACI\u00d3N ECON\u00d3MICA).",
+                        "cbc:WeightNumeric": "70"
+                    },
+                    {
+                        "cbc:Description": "OFERTA ECON\u00d3MICAMENTE M\u00c1S VENTAJOSA (VALORACI\u00d3N T\u00c9CNICA).",
+                        "cbc:WeightNumeric": "30"
+                    }
+                ]
             },
             "cac:Language": {
                 "cbc:ID": "es"
@@ -431,12 +452,17 @@
         },
         "cac:TenderingProcess": {
             "cbc:ProcedureCode": {
-                "@listURI": "https://contrataciondelestado.es/codice/cl/2.04/SyndicationTenderingProcessCode-2.04.gc",
+                "@listURI": "https://contrataciondelestado.es/codice/cl/2.07/SyndicationTenderingProcessCode-2.07.gc",
                 "#text": "100"
             },
             "cbc:UrgencyCode": {
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "1"
+            },
+            "cbc:PartPresentationCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/TenderPresentationCode-1.04.gc",
+                "@name": "A uno o varios lotes",
+                "#text": "3"
             },
             "cac:DocumentAvailabilityPeriod": {
                 "cbc:EndDate": "2017-10-04",
@@ -483,9 +509,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2017-11-02"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2017-11-02"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=d6591fc1-a1c2-49a2-bea2-b0de906a4a7a",
+                                    "cbc:FileName": "MI170103.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -509,6 +550,158 @@
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
                     "cac-place-ext:AdditionalPublicationDocumentReference": {
                         "cbc:IssueDate": "2017-09-14"
+                    }
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-07-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-07-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-07-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-07-18"
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Modificaci\u00f3n del contrato.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "0"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                },
+                "cbc:ContractID": "MI170103",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "-108.81"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "46995.54"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "0"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                },
+                "cbc:ContractID": "MI170103",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "0"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "37939.2"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Modificaci\u00f3n del contrato.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "0"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                },
+                "cbc:ContractID": "MI170103",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1667.09"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "26566.16"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Modificaci\u00f3n del contrato.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "0"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                },
+                "cbc:ContractID": "MI170103",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "1467.26"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "43975.61"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:Note": "Modificaci\u00f3n del contrato.",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "0"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "MON",
+                    "#text": "36"
+                },
+                "cbc:ContractID": "MI170103",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "605.21"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "112826.74"
                     }
                 }
             }

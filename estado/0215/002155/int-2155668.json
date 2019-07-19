@@ -8,7 +8,7 @@
         "#text": "Id licitaci\u00f3n: 02/18 DEF; \u00d3rgano de Contrataci\u00f3n: Empresa Estatal Mercados Centrales de Abastecimiento SA (MERCASA); Importe: 205000 EUR; Estado: RES"
     },
     "title": "Contrato de Servicios para la contrataci\u00f3n de p\u00f3lizas de seguro de Mercasa a trav\u00e9s de mediador de seguros",
-    "updated": "2018-10-05T09:31:06.907+02:00",
+    "updated": "2019-07-18T18:56:46.271+02:00",
     "cac-place-ext:ContractFolderStatus": {
         "cbc:ContractFolderID": "02/18 DEF",
         "cbc-place-ext:ContractFolderStatusCode": {
@@ -206,6 +206,8 @@
                     "#text": "29096.37"
                 },
                 "cbc:StartDate": "2018-07-25",
+                "cbc:SMEAwardedIndicator": "false",
+                "cbc:AbnormallyLowTendersIndicator": "false",
                 "cac:Contract": {
                     "cbc:ID": "02/18DEF LOTE 1",
                     "cbc:IssueDate": "2018-07-23"
@@ -252,6 +254,8 @@
                     "#text": "47272.76"
                 },
                 "cbc:StartDate": "2018-07-25",
+                "cbc:SMEAwardedIndicator": "false",
+                "cbc:AbnormallyLowTendersIndicator": "false",
                 "cac:Contract": {
                     "cbc:ID": "02/18DEF LOTE 2",
                     "cbc:IssueDate": "2018-07-23"
@@ -298,6 +302,8 @@
                     "#text": "79612.5"
                 },
                 "cbc:StartDate": "2018-07-25",
+                "cbc:SMEAwardedIndicator": "false",
+                "cbc:AbnormallyLowTendersIndicator": "false",
                 "cac:Contract": {
                     "cbc:ID": "02/18DEF LOTE 3",
                     "cbc:IssueDate": "2018-07-23"
@@ -335,14 +341,14 @@
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "2"
+                        "#text": "3"
                     },
                     "cbc:AmountRate": "5"
                 },
                 {
                     "cbc:GuaranteeTypeCode": {
                         "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/GuaranteeTypeCode-1.04.gc",
-                        "#text": "3"
+                        "#text": "2"
                     },
                     "cbc:AmountRate": "5"
                 }
@@ -421,6 +427,11 @@
                 "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/DiligenceTypeCode-1.04.gc",
                 "#text": "2"
             },
+            "cbc:PartPresentationCode": {
+                "@listURI": "http://contrataciondelestado.es/codice/cl/1.04/TenderPresentationCode-1.04.gc",
+                "@name": "A uno o varios lotes",
+                "#text": "3"
+            },
             "cac:TenderSubmissionDeadlinePeriod": {
                 "cbc:EndDate": "2018-05-25",
                 "cbc:EndTime": "12:00:00"
@@ -472,9 +483,14 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "DOUE",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-05-12"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-05-12"
+                        },
+                        {
+                            "cbc:IssueDate": "2018-05-07"
+                        }
+                    ]
                 }
             },
             {
@@ -496,9 +512,24 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-06-29"
-                    }
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-06-29"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Adjudicaci\u00f3n",
+                                "#text": "ACTA_ADJ"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=05e5224d-81e0-41b6-a214-caee7fe0e65d",
+                                    "cbc:FileName": "16_Adjudicacion_02_18_DEF SEGUROS.pdf"
+                                }
+                            }
+                        }
+                    ]
                 }
             },
             {
@@ -532,8 +563,90 @@
                 },
                 "cac-place-ext:AdditionalPublicationStatus": {
                     "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
-                    "cac-place-ext:AdditionalPublicationDocumentReference": {
-                        "cbc:IssueDate": "2018-10-05"
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2018-10-05"
+                        },
+                        {
+                            "cbc:DocumentTypeCode": {
+                                "@listURI": "http://contrataciondelestado.es/codice/cl/2.06/TenderingDocumentTypeCode-2.06.gc",
+                                "@name": "Documento de Acta de Formalizaci\u00f3n",
+                                "#text": "ACTA_FORM"
+                            },
+                            "cac:Attachment": {
+                                "cac:ExternalReference": {
+                                    "cbc:URI": "https://contrataciondelestado.es/wps/wcm/connect/PLACE_es/Site/area/docAccCmpnt?srv=cmpnt&cmpntname=GetDocumentsById&source=library&DocumentIdParam=e74d7abf-9112-4d2e-bdcf-22334abda537",
+                                    "cbc:FileName": "16_Adjudicacion_02_18_DEF SEGUROS.pdf"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "cbc-place-ext:NoticeTypeCode": {
+                    "@listURI": "http://contrataciondelestado.es/codice/cl/2.04/TenderingNoticeTypeCode-2.04.gc",
+                    "#text": "DOC_MOD"
+                },
+                "cac-place-ext:AdditionalPublicationStatus": {
+                    "cbc-place-ext:PublicationMediaName": "Perfil del Contratante",
+                    "cac-place-ext:AdditionalPublicationDocumentReference": [
+                        {
+                            "cbc:IssueDate": "2019-07-18"
+                        },
+                        {
+                            "cbc:IssueDate": "2019-07-18"
+                        }
+                    ]
+                }
+            }
+        ],
+        "cac:ContractModification": [
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                },
+                "cbc:ContractID": "02/18DEF LOTE 2",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "47272.76"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "94545.52"
+                    }
+                }
+            },
+            {
+                "cbc:ID": "1",
+                "cbc:ContractModificationDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "1"
+                },
+                "cbc:FinalDurationMeasure": {
+                    "@unitCode": "ANN",
+                    "#text": "2"
+                },
+                "cbc:ContractID": "02/18DEF LOTE 3",
+                "cac:ContractModificationLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "68997.5"
+                    }
+                },
+                "cac:FinalLegalMonetaryTotal": {
+                    "cbc:TaxExclusiveAmount": {
+                        "@currencyID": "EUR",
+                        "#text": "137995"
                     }
                 }
             }
